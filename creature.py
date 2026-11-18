@@ -151,14 +151,16 @@ def read_article(title=None):
 
 
 def get_links(title):
+    # generator=links returns the linked pages themselves, so we can drop "red links"
+    # (links to articles that don't exist yet), which would leave Blip lost.
     params = {
-        "action": "query", "titles": title, "prop": "links",
-        "plnamespace": 0, "pllimit": "max", "format": "json",
+        "action": "query", "titles": title, "generator": "links",
+        "gplnamespace": 0, "gpllimit": "max", "format": "json",
     }
     r = requests.get(f"{WIKI}/w/api.php", params=params, headers=HEADERS, timeout=30)
     r.raise_for_status()
-    pages = r.json()["query"]["pages"]
-    found = [link["title"] for p in pages.values() for link in p.get("links", [])]
+    pages = r.json().get("query", {}).get("pages", {})
+    found = [p["title"] for p in pages.values() if "missing" not in p]
     return random.sample(found, min(15, len(found)))
 
 
