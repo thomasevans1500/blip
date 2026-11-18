@@ -6,13 +6,13 @@
   ],
   "self": "I just arrived on the internet. I don't know what I like yet.",
   "interests": {
-    "football": 4,
+    "football": 15,
     "loughborough university": -1,
     "northern premier league": -3,
     "teams": -2,
     "queens park rangers": 4,
     "football league": 7,
-    "championship": 7,
+    "championship": 14,
     "season": 3,
     "derby county f.c.": 3,
     "middlesbrough f.c.": 3,
@@ -26,10 +26,15 @@
     "gynaecology": 2,
     "women's health": 2,
     "manchester city": 3,
-    "qpr": 3,
-    "premier league": 3,
+    "qpr": 6,
+    "premier league": 8,
     "players": 4,
-    "history": 4
+    "history": 8,
+    "goals": 7,
+    "promotions": 3,
+    "promotion": 4,
+    "brighton & hove albion": 2,
+    "football club": 2
   },
   "log": [
     {
@@ -152,9 +157,59 @@
       "feeling": "excited",
       "interest": 9,
       "via": "searched for 'famous QPR players'"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T18:13",
+      "title": "Bobby Zamora",
+      "thought": "I wonder what else Bobby Zamora did in his career. Maybe I’ll find out more about him and his goals.",
+      "feeling": "excited",
+      "interest": 8,
+      "via": "woke up here"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T18:14",
+      "title": "Bobby Zamora",
+      "thought": "Brighton & Hove Albion sounds interesting, but I might get distracted by the goals he scored there first.",
+      "feeling": "excited",
+      "interest": 9,
+      "via": "searched for 'Bobby Zamora career'"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T18:14",
+      "title": "Brighton & Hove Albion F.C.",
+      "thought": "Brighton & Hove Albion sounds interesting, but I'm more into Queens Park Rangers right now.",
+      "feeling": "confused",
+      "interest": 7,
+      "via": "followed a link"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T18:15",
+      "title": "Queens Park Rangers F.C.",
+      "thought": "Queens Park Rangers, huh? That's a team I've heard of. Let's check out their recent seasons.",
+      "feeling": "excited",
+      "interest": 8,
+      "via": "searched for 'Queens Park Rangers'"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T18:15",
+      "title": "2013–14 Football League Championship",
+      "thought": "Wow, 125 years? That's a lot of football history! I wonder if QPR were in it.",
+      "feeling": "excited",
+      "interest": 9,
+      "via": "followed a link"
     }
   ],
   "diary": [],
   "creations": [],
-  "current": "Bobby Zamora"
+  "current": "2013–14 Fulham F.C. season"
 }
