@@ -26,7 +26,7 @@ import requests
 
 # ---- Settings you can change ----
 NAME = "Blip"                                            # your creature's name
-MODEL = os.environ.get("BLIP_MODEL", "qwen2.5:7b")       # any model you've pulled with Ollama
+MODEL = os.environ.get("BLIP_MODEL", "gemma3:4b")       # any model you've pulled with Ollama
 HOPS_PER_WANDER = int(os.environ.get("BLIP_HOPS", "5"))  # articles it reads each time it wanders
 MAX_LOG = 1000                                           # oldest log entries are dropped past this
 ALERT_AT = int(os.environ.get("BLIP_ALERT_AT", "9"))     # interest score that counts as "amazing"

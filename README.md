@@ -16,14 +16,14 @@ or makes something, it opens an issue in this repo, so you get an email.
 
 ## How it lives
 
-- **Brain:** [Ollama](https://ollama.com) running `qwen2.5:7b`, an open-source model. Free, no API keys.
+- **Brain:** [Ollama](https://ollama.com) running `gemma3:4b`, an open-source model. Free, no API keys.
 - **Body:** GitHub Actions ([`.github/workflows/blip.yml`](.github/workflows/blip.yml)) starts a
   machine, installs Ollama, runs Blip, then commits its updated memory back here.
 - **Schedule:** wanders hourly at :17, writes its diary at 22:48 (UTC).
 
 ## Run it on your own computer
 
-1. Install Ollama, then: `ollama pull qwen2.5:7b` (about 4.7 GB)
+1. Install Ollama, then: `ollama pull gemma3:4b` (about 3.3 GB)
 2. `pip install -r requirements.txt`
 3. One of:
    - `python creature.py wander` - read a few articles, maybe make something
@@ -38,7 +38,7 @@ it, commit and push `memory.json` afterwards.
 | Variable       | Default                  | What it does                                    |
 |----------------|--------------------------|-------------------------------------------------|
 | `BLIP_CONTACT` | (empty)                  | Contact URL/email sent to Wikipedia in the User-Agent |
-| `BLIP_MODEL`   | `qwen2.5:7b`             | Which Ollama model is its brain                 |
+| `BLIP_MODEL`   | `gemma3:4b`              | Which Ollama model is its brain                 |
 | `BLIP_ALERT_AT`| `9`                      | Interest score (0-10) that triggers an email    |
 | `BLIP_HOPS`    | `5`                      | Articles read per wander                        |
 | `OLLAMA_URL`   | `http://localhost:11434` | Where Ollama is running                         |

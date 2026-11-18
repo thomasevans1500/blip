@@ -11,7 +11,8 @@ personality grows out of what it reads.
 
 ## Hard constraints
 - Must be free to run. No paid APIs (no Claude/OpenAI API calls).
-- The brain is a local open-source model run through Ollama (default: qwen2.5:7b; was llama3.2:3b).
+- The brain is a local open-source model run through Ollama (default: gemma3:4b, chosen by Thomas after the brain
+  audition (issue #8) for the liveliest voice and fastest runs; earlier: qwen2.5:7b, llama3.2:3b).
 - The "internet" is currently Wikipedia via its free public APIs (no key needed).
   Always send a descriptive User-Agent header to Wikipedia.
 
@@ -86,7 +87,7 @@ so he can flag anything confusing before moving on.
 5. Possibly move it to a Raspberry Pi 5 to run 24/7.
 
 ## Personality roadmap (agreed with Thomas, in order)
-1. Brain audition - `audition.py` + `.github/workflows/audition.yml` (manual): each candidate model
+1. DONE: Brain audition (winner gemma3:4b; hermes3 didn't run due to a registry 503) - `audition.py` + `.github/workflows/audition.yml` (manual): each candidate model
    plays Blip on its real memory (nothing saved; save/notify/home patched out), reacts to the same
    3 places (Emu War, Tardigrade, BBC news), tries to make something, writes a diary. Results -> one
    GitHub issue. Thomas picks the liveliest voice; switch via BLIP_MODEL in blip.yml.

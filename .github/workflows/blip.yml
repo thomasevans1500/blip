@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 50
     env:
-      BLIP_MODEL: qwen2.5:7b
+      BLIP_MODEL: gemma3:4b
       BLIP_CONTACT: ${{ vars.BLIP_CONTACT }}
       BLIP_ALERT_AT: ${{ inputs.alert_at || '9' }}
       OLLAMA_MODELS: /home/runner/ollama-models
