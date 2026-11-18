@@ -16,7 +16,7 @@ on:
         default: "9"
 
 permissions:
-  contents: write            # so it can save memory.json back to the repo
+  contents: write            # so it can save memory.json and creations back to the repo
   issues: write              # so it can open an issue (= email to you) about amazing finds
 
 concurrency:
@@ -26,9 +26,9 @@ concurrency:
 jobs:
   live:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 50
     env:
-      BLIP_MODEL: llama3.2:3b
+      BLIP_MODEL: qwen2.5:7b
       BLIP_CONTACT: ${{ vars.BLIP_CONTACT }}
       BLIP_ALERT_AT: ${{ inputs.alert_at || '9' }}
       OLLAMA_MODELS: /home/runner/ollama-models
@@ -84,7 +84,7 @@ jobs:
         run: |
           git config user.name "blip-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add memory.json 2>/dev/null || true
+          git add memory.json creations 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing new to remember."
             exit 0

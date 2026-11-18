@@ -1,24 +1,30 @@
 # Blip
 
-A small creature that lives on the internet. Every hour it wanders Wikipedia, hopping from link
-to link and deciding what it finds interesting. Every night it writes a diary entry and its
-personality shifts a little based on what it read.
+A small creature that lives on the internet. Every hour it wanders Wikipedia: following links,
+looking things up when something's on its mind, or jumping somewhere random when it's bored.
+Sometimes it feels like making something, and whatever it makes lands in [`creations/`](creations).
+Every night it writes a diary entry and rewrites its private notes about who it is.
 
-Its whole mind lives in [`memory.json`](memory.json): traits, interests, everything it read, and its diary.
+Nothing about its personality is scripted. It only has memory, freedom and the ability to make
+things; obsessions, opinions and ambitions are whatever grows out of what it reads.
+
+Its whole mind lives in [`memory.json`](memory.json): traits, private notes to itself (`self`),
+interests, everything it read or made, and its diary. When it finds something it scores 9+/10,
+it opens an issue in this repo, so you get an email.
 
 ## How it lives
 
-- **Brain:** [Ollama](https://ollama.com) running `llama3.2:3b`, an open-source model. Free, no API keys.
+- **Brain:** [Ollama](https://ollama.com) running `qwen2.5:7b`, an open-source model. Free, no API keys.
 - **Body:** GitHub Actions ([`.github/workflows/blip.yml`](.github/workflows/blip.yml)) starts a
   machine, installs Ollama, runs Blip, then commits its updated memory back here.
 - **Schedule:** wanders hourly at :17, writes its diary at 22:48 (UTC).
 
 ## Run it on your own computer
 
-1. Install Ollama, then: `ollama pull llama3.2:3b`
+1. Install Ollama, then: `ollama pull qwen2.5:7b` (about 4.7 GB)
 2. `pip install -r requirements.txt`
 3. One of:
-   - `python creature.py wander` - read a few articles
+   - `python creature.py wander` - read a few articles, maybe make something
    - `python creature.py diary` - write today's diary entry
    - `python creature.py chat` - talk to it (`bye` to leave)
 
@@ -30,6 +36,7 @@ it, commit and push `memory.json` afterwards.
 | Variable       | Default                  | What it does                                    |
 |----------------|--------------------------|-------------------------------------------------|
 | `BLIP_CONTACT` | (empty)                  | Contact URL/email sent to Wikipedia in the User-Agent |
-| `BLIP_MODEL`   | `llama3.2:3b`            | Which Ollama model is its brain                 |
+| `BLIP_MODEL`   | `qwen2.5:7b`             | Which Ollama model is its brain                 |
+| `BLIP_ALERT_AT`| `9`                      | Interest score (0-10) that triggers an email    |
 | `BLIP_HOPS`    | `5`                      | Articles read per wander                        |
 | `OLLAMA_URL`   | `http://localhost:11434` | Where Ollama is running                         |

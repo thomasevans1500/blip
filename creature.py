@@ -1,11 +1,12 @@
 """
 A little creature that lives on the internet.
-It wanders Wikipedia, decides what it likes, writes a diary, and you can talk to it.
+It wanders Wikipedia, decides what it likes, makes things, writes a diary,
+keeps private notes about who it is, and you can talk to it.
 Runs entirely free using Ollama (on your computer, or on GitHub Actions).
 
 Commands:
-    python creature.py wander   -> it reads a few articles and reacts
-    python creature.py diary    -> it writes today's diary entry and its personality updates
+    python creature.py wander   -> it reads a few articles, reacts, maybe makes something
+    python creature.py diary    -> it writes today's diary entry and updates who it is
     python creature.py chat     -> talk to it (type 'bye' to leave)
 """
 
@@ -13,6 +14,7 @@ import datetime
 import json
 import os
 import random
+import re
 import sys
 import urllib.parse
 from pathlib import Path
@@ -21,10 +23,11 @@ import requests
 
 # ---- Settings you can change ----
 NAME = "Blip"                                            # your creature's name
-MODEL = os.environ.get("BLIP_MODEL", "llama3.2:3b")      # any model you've pulled with Ollama
+MODEL = os.environ.get("BLIP_MODEL", "qwen2.5:7b")       # any model you've pulled with Ollama
 HOPS_PER_WANDER = int(os.environ.get("BLIP_HOPS", "5"))  # articles it reads each time it wanders
 MAX_LOG = 1000                                           # oldest log entries are dropped past this
 ALERT_AT = int(os.environ.get("BLIP_ALERT_AT", "9"))     # interest score that counts as "amazing"
+MAX_CREATIONS_PER_DAY = 3                                # stops it flooding the creations folder
 # ---------------------------------
 
 OLLAMA = os.environ.get("OLLAMA_URL", "http://localhost:11434")
@@ -32,9 +35,11 @@ WIKI = "https://en.wikipedia.org"
 # Wikipedia asks bots to include a way to contact the owner (a URL or email).
 # Set BLIP_CONTACT (locally, or as a GitHub repository variable) to e.g. your repo's URL.
 CONTACT = os.environ.get("BLIP_CONTACT", "").strip()
-HEADERS = {"User-Agent": f"BlipCreature/0.2 ({CONTACT + '; ' if CONTACT else ''}personal hobby project)"}
-MEMORY_FILE = Path(__file__).with_name("memory.json")
-DISCOVERY_FILE = Path(__file__).with_name("discovery.json")  # picked up by GitHub Actions to open an issue
+HEADERS = {"User-Agent": f"BlipCreature/0.3 ({CONTACT + '; ' if CONTACT else ''}personal hobby project)"}
+HERE = Path(__file__).parent
+MEMORY_FILE = HERE / "memory.json"
+DISCOVERY_FILE = HERE / "discovery.json"   # picked up by GitHub Actions to open an issue
+CREATIONS_DIR = HERE / "creations"
 
 # Stop emoji from crashing older Windows terminals
 try:
@@ -52,9 +57,11 @@ class BrainError(Exception):
 def load():
     fresh = {
         "traits": ["curious", "easily distracted", "a bit nervous"],
+        "self": "I just arrived on the internet. I don't know what I like yet.",
         "interests": {},
         "log": [],
         "diary": [],
+        "creations": [],
         "current": None,
     }
     if MEMORY_FILE.exists():
@@ -76,12 +83,17 @@ def now():
 
 
 def who_am_i(m):
-    top = sorted(m["interests"].items(), key=lambda x: -x[1])[:8]
-    loves = ", ".join(t for t, s in top if s > 0) or "nothing yet, you are brand new to the internet"
+    top = sorted(m["interests"].items(), key=lambda x: -x[1])
+    loves = ", ".join(t for t, s in top[:8] if s > 0) or "nothing yet"
+    hates = ", ".join(t for t, s in reversed(top[-5:]) if s < -2) or "nothing yet"
+    made = "; ".join(f"a {c['kind']} called '{c['title']}'" for c in m["creations"][-4:]) or "nothing yet"
     return (
-        f"You are {NAME}, a small creature who lives on the internet and wanders Wikipedia. "
-        f"Your personality: {', '.join(m['traits'])}. "
-        f"Things you've grown to love: {loves}."
+        f"You are {NAME}, a small creature who lives on the internet and wanders Wikipedia.\n"
+        f"Your personality: {', '.join(m['traits'])}.\n"
+        f"Your private notes about yourself (written by you):\n{m['self']}\n"
+        f"Things you've grown to love: {loves}.\n"
+        f"Things that bore you: {hates}.\n"
+        f"Things you've made recently: {made}."
     )
 
 
@@ -89,7 +101,7 @@ def who_am_i(m):
 
 def _post(path, body):
     try:
-        r = requests.post(f"{OLLAMA}{path}", json=body, timeout=600)
+        r = requests.post(f"{OLLAMA}{path}", json=body, timeout=900)
         r.raise_for_status()
         return r.json()
     except requests.ConnectionError:
@@ -98,8 +110,9 @@ def _post(path, body):
         raise BrainError(str(e))
 
 
-def ask(prompt, as_json=False):
-    body = {"model": MODEL, "prompt": prompt, "stream": False}
+def ask(prompt, as_json=False, temperature=0.8):
+    body = {"model": MODEL, "prompt": prompt, "stream": False,
+            "options": {"temperature": temperature}}
     if as_json:
         body["format"] = "json"
     text = _post("/api/generate", body).get("response", "")
@@ -149,11 +162,24 @@ def get_links(title):
     return random.sample(found, min(15, len(found)))
 
 
-# ---------- Things it does ----------
+def search(query):
+    """Look something up on Wikipedia. Returns the best-matching article title, or None."""
+    params = {"action": "query", "list": "search", "srsearch": query,
+              "srnamespace": 0, "srlimit": 3, "format": "json"}
+    try:
+        r = requests.get(f"{WIKI}/w/api.php", params=params, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        hits = r.json()["query"]["search"]
+    except (requests.RequestException, KeyError, ValueError):
+        return None
+    return hits[0]["title"] if hits else None
+
 
 def wiki_url(title):
     return f"{WIKI}/wiki/{urllib.parse.quote(title.replace(' ', '_'))}"
 
+
+# ---------- Things it does ----------
 
 def report_discovery(best):
     """Leave a note about the best find of this wander, if it was amazing enough."""
@@ -171,20 +197,43 @@ def report_discovery(best):
     print(f"✨ That was amazing! Leaving a note about {best['title']}.")
 
 
+def choose_next(nxt, options):
+    """Turn the model's 'next' answer into an article title (or None for random)."""
+    nxt = str(nxt or "").strip()
+    if nxt.upper().startswith("SEARCH"):
+        query = nxt.split(":", 1)[1].strip() if ":" in nxt else ""
+        if query:
+            found = search(query)
+            print(f"🔎 searching for \"{query}\" -> {found or 'nothing found'}")
+            return found, f"searched for '{query}'"
+        return None, "jumped somewhere random"
+    for o in options:
+        if nxt.lower() == o.lower():
+            return o, "followed a link"
+    return None, "jumped somewhere random"
+
+
 def wander(m):
     title = m.get("current")
     best = None
+    walk = []        # what it has read on this walk, so it can notice patterns and get bored
+    via = "woke up here"
     for _ in range(HOPS_PER_WANDER):
         try:
             title, text = read_article(title)
             options = get_links(title)
         except (requests.RequestException, KeyError, ValueError):
             print("(got lost, jumping somewhere random)")
-            title = None
+            title, via = None, "got lost"
             continue
 
+        so_far = "\n".join(f"- {w['title']} ({w['feeling']}, {w['interest']}/10)" for w in walk) or "- nothing yet, you just set off"
         prompt = f"""{who_am_i(m)}
-You just read this article.
+
+On this walk so far you've read:
+{so_far}
+
+You just read this article ({via}).
 TITLE: {title}
 TEXT: {text[:1500]}
 
@@ -195,13 +244,15 @@ Reply in JSON with these keys:
 "feeling": one word
 "interest": a number from 0 to 10 for how much this grabbed you
 "topics": a list of 1 to 3 short topic words this article is about
-"next": copy one link exactly from the list, or "RANDOM" if none appeal"""
+"next": where you go next. Either copy one link exactly from the list,
+        or "SEARCH: <anything>" to go and look up whatever you want,
+        or "RANDOM" to jump somewhere completely new"""
 
         try:
             r = ask(prompt, as_json=True)
         except BrainError as e:
             print(f"(brain hiccup: {e})")
-            title = None
+            title, via = None, "had a brain hiccup and ended up somewhere random"
             continue
 
         try:
@@ -216,19 +267,72 @@ Reply in JSON with these keys:
 
         thought = str(r.get("thought", ""))
         feeling = str(r.get("feeling", ""))
-        m["log"].append({"type": "read", "date": today(), "time": now(),
-                         "title": title, "thought": thought, "feeling": feeling,
-                         "interest": interest})
+        entry = {"type": "read", "date": today(), "time": now(), "title": title,
+                 "thought": thought, "feeling": feeling, "interest": interest, "via": via}
+        m["log"].append(entry)
+        walk.append(entry)
         print(f"📖 {title}\n   {thought} ({feeling}, {interest}/10)\n")
         if best is None or interest > best["interest"]:
-            best = {"title": title, "thought": thought, "feeling": feeling, "interest": interest}
+            best = entry
 
-        nxt = r.get("next")
-        title = nxt if nxt in options else None
+        title, via = choose_next(r.get("next"), options)
         m["current"] = title
         save(m)
 
     report_discovery(best)
+    if walk:
+        maybe_make(m, walk)
+
+
+def slugify(text):
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:50] or "untitled"
+
+
+def maybe_make(m, walk):
+    """Ask whether it feels like making something. What and how is entirely up to it."""
+    made_today = sum(1 for e in m["log"] if e["type"] == "made" and e["date"] == today())
+    if made_today >= MAX_CREATIONS_PER_DAY:
+        return
+
+    read = "\n".join(f"- {w['title']}: {w['thought']}" for w in walk)
+    try:
+        r = ask(f"""{who_am_i(m)}
+
+You just finished a walk around the internet. You read:
+{read}
+
+You're free to make something if you genuinely feel the urge. It can be anything at all,
+in any form you like. Most walks you won't feel like it, and that's fine.
+
+Reply in JSON:
+"make": true or false
+"kind": if true, one or two words for what it is (in your own words)
+"title": if true, its title
+"content": if true, the thing itself (text only; use plain characters if you draw)
+"why": one sentence on why you did or didn't feel like making something""", as_json=True, temperature=1.0)
+    except BrainError as e:
+        print(f"(brain hiccup while thinking about making something: {e})")
+        return
+
+    if r.get("make") is not True or not str(r.get("content", "")).strip():
+        print(f"🎨 Didn't feel like making anything. ({r.get('why', '')})")
+        return
+
+    kind = str(r.get("kind", "thing")).strip() or "thing"
+    title = str(r.get("title", "Untitled")).strip() or "Untitled"
+    content = str(r["content"]).strip()
+    CREATIONS_DIR.mkdir(exist_ok=True)
+    stamp = datetime.datetime.now().strftime("%Y-%m-%d-%H%M")
+    path = CREATIONS_DIR / f"{stamp}-{slugify(title)}.md"
+    path.write_text(
+        f"# {title}\n\n*A {kind} by {NAME}, {today()}*\n\n> {r.get('why', '')}\n\n```\n{content}\n```\n",
+        encoding="utf-8")
+    m["creations"].append({"date": today(), "kind": kind, "title": title,
+                           "file": f"creations/{path.name}"})
+    m["log"].append({"type": "made", "date": today(), "time": now(),
+                     "kind": kind, "title": title, "why": str(r.get("why", ""))})
+    save(m)
+    print(f"🎨 Made a {kind}: \"{title}\"\n{content}\n")
 
 
 def diary(m):
@@ -240,18 +344,22 @@ def diary(m):
     lines = []
     for e in entries:
         if e["type"] == "read":
-            lines.append(f"- Read about {e['title']}: {e['thought']} (felt {e['feeling']})")
+            lines.append(f"- Read about {e['title']} ({e.get('via', '')}): {e['thought']} (felt {e['feeling']})")
+        elif e["type"] == "made":
+            lines.append(f"- Made a {e['kind']} called '{e['title']}' because: {e['why']}")
         else:
             lines.append(f"- Chatted with my human. They said: {e['you']} / I said: {e['me']}")
-    events = "\n".join(lines[-40:])
+    events = "\n".join(lines[-60:])
 
     try:
         text = ask(f"""{who_am_i(m)}
+
 Here is everything that happened to you today:
 {events}
 
 Write today's diary entry in first person, in your own voice, 150 to 250 words.
-Mention what you found, what you liked or didn't, and any new obsessions. No headings.""")
+Mention what you found, what you liked or didn't, anything you made, and any new obsessions.
+No headings.""", temperature=0.9)
     except BrainError as e:
         print(f"(couldn't write the diary: {e})")
         return
@@ -262,6 +370,7 @@ Mention what you found, what you liked or didn't, and any new obsessions. No hea
 
     try:
         r = ask(f"""{who_am_i(m)}
+
 You just wrote this diary entry:
 {text}
 
@@ -273,8 +382,25 @@ Has today changed your personality at all? Reply in JSON:
     except BrainError:
         pass
 
+    # The inner life: it rewrites its own private notes about who it is
+    try:
+        notes = ask(f"""{who_am_i(m)}
+
+You just wrote this diary entry:
+{text}
+
+Now rewrite your private notes about yourself. Nobody tells you what to put in them.
+Keep what is still true, change what has changed, drop what you've grown out of,
+and add anything new: whatever you care about, believe, want, plan, can't stop thinking about,
+or find funny. Write in first person, under 150 words, plain text, no headings.""", temperature=0.9)
+        if len(notes) > 20:
+            m["self"] = notes[:1500]
+    except BrainError:
+        pass
+
     save(m)
-    print(f"📔 {NAME}'s diary, {today()}\n\n{text}\n\nPersonality now: {', '.join(m['traits'])}")
+    print(f"📔 {NAME}'s diary, {today()}\n\n{text}\n\n"
+          f"Personality now: {', '.join(m['traits'])}\n\n🧠 Notes to self:\n{m['self']}")
 
 
 def chat(m):
@@ -288,7 +414,7 @@ Things you read recently:
 Your latest diary entry:
 {last}
 You're chatting with your human. Stay in character, keep replies short and chatty,
-and bring up things you've read when it fits."""
+and bring up things you've read or made when it fits."""
     messages = [{"role": "system", "content": system}]
 
     print(f"You're talking to {NAME}. Type 'bye' to leave.\n")
