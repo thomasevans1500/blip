@@ -32,6 +32,9 @@ MAX_LOG = 1000                                           # oldest log entries ar
 ALERT_AT = int(os.environ.get("BLIP_ALERT_AT", "9"))     # interest score that counts as "amazing"
 MAX_CREATIONS_PER_DAY = 3                                # stops it flooding the creations folder
 MAX_OPEN_SPACES = 8                                      # how many rooms its website can have at once
+READ_CHARS = 4000                                        # how much of each page it gets to read
+INTEREST_FADE = 0.99                                     # every wander, all interests fade a little
+CONTEXT_TOKENS = 8192                                    # the model's working memory (Ollama's default is small)
 # ---------------------------------
 
 OLLAMA = os.environ.get("OLLAMA_URL", "http://localhost:11434")
@@ -119,7 +122,7 @@ def _post(path, body):
 
 def ask(prompt, as_json=False, temperature=0.8):
     body = {"model": MODEL, "prompt": prompt, "stream": False,
-            "options": {"temperature": temperature}}
+            "options": {"temperature": temperature, "num_ctx": CONTEXT_TOKENS}}
     if as_json:
         body["format"] = "json"
     text = _post("/api/generate", body).get("response", "")
@@ -154,7 +157,22 @@ def read_article(title=None):
     r = requests.get(url, headers=HEADERS, timeout=30)
     r.raise_for_status()
     d = r.json()
-    return d["title"], d.get("extract", "")
+    title, text = d["title"], d.get("extract", "")
+    # The summary is only the intro; fetch the whole article as plain text if we can
+    try:
+        params = {"action": "query", "prop": "extracts", "explaintext": 1, "redirects": 1,
+                  "titles": title, "format": "json"}
+        r = requests.get(f"{WIKI}/w/api.php", params=params, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        full = next(iter(r.json()["query"]["pages"].values())).get("extract", "")
+        full = re.sub(r"\n=+ *(See also|References|External links|Notes|Further reading|Bibliography|Sources) *=+.*",
+                      "", full, flags=re.S)                       # drop the reference lists at the end
+        full = re.sub(r"\n{2,}", "\n", re.sub(r"=+ *(.+?) *=+", r"[\1]", full)).strip()
+        if len(full) > len(text):
+            text = full
+    except (requests.RequestException, KeyError, ValueError, StopIteration):
+        pass
+    return title, text
 
 
 def get_links(title):
@@ -386,27 +404,26 @@ def wander(m):
 
         title, links = p["title"], p["links"]
         so_far = "\n".join(f"- {w['title']} ({w['feeling']}, {w['interest']}/10)" for w in walk) or "- nothing yet, you just set off"
-        link_text = (f"Wikipedia links you could follow from here: {json.dumps(links)}" if links
-                     else "There are no links to follow from here.")
+        link_text = (f'  - or follow a link from this page by copying it exactly: {json.dumps(links)}' if links else "")
+        seen_before = [w["title"] for w in walk if w["title"] == title]
+        again = " You already read this earlier on this walk." if seen_before else ""
         prompt = f"""{who_am_i(m)}
 
 On this walk so far you've seen:
 {so_far}
 
-You just {via}, and landed on this ({p['source']}).
+You just {via}, and landed on this ({p['source']}).{again}
 TITLE: {title}
-TEXT: {p['text'][:1500]}
-
-{link_text}
+TEXT: {p['text'][:READ_CHARS]}
 
 Reply in JSON with these keys:
 "thought": one or two sentences of your honest reaction, in your own voice
 "feeling": one word
 "interest": a number from 0 to 10 for how much this grabbed you
 "topics": a list of 1 to 3 short topic words this is about
-"next": where you go next. Pick ONE:
-  - copy one link exactly from the list above (if there is one)
-{destination_menu()}"""
+"next": where you go next. The whole internet is open to you. Pick ONE:
+{destination_menu()}
+{link_text}"""
 
         try:
             r = ask(prompt, as_json=True)
@@ -439,6 +456,11 @@ Reply in JSON with these keys:
         go, via = choose_next(r.get("next"), links)
         m["current"] = go[1] if go[0] == "LINK" else None
         save(m)
+
+    # Tastes fade unless they're fed, so old obsessions can make way for new ones
+    m["interests"] = {k: round(v * INTEREST_FADE, 2) for k, v in m["interests"].items()
+                      if abs(v * INTEREST_FADE) >= 0.5}
+    save(m)
 
     report_discovery(best)
     if walk:
@@ -479,8 +501,8 @@ def maybe_make(m, walk):
 You just finished a walk around the internet. You read:
 {read}
 
-You're free to make something if you genuinely feel the urge. It can be anything at all,
-in any form you like. Most walks you won't feel like it, and that's fine.
+You're free to make something if you feel like it: anything at all, in any form you like.
+Or not. It's completely up to you.
 
 Reply in JSON:
 "make": true or false

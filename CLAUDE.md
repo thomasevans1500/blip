@@ -33,7 +33,13 @@ How it works:
 - `memory.json` (created next to the script) holds everything: traits, interest scores,
   a log of everything it read or said, diary entries, and the article it was last on.
 - After each article the model returns JSON: thought, feeling, interest (0-10), topics, next link.
-- Topic scores go up or down by (interest - 5), so likes snowball over time.
+- Topic scores go up or down by (interest - 5), and ALL scores fade by INTEREST_FADE (0.99) per wander
+  (~20%/day), so obsessions it keeps feeding survive and stale ones fade (stops football-forever ruts).
+- It reads the full article plain text (prop=extracts), not just the summary, up to READ_CHARS (4000).
+  num_ctx is set to 8192: Ollama's default context is small and silently cuts the start of the prompt
+  (which is where its personality lives).
+- Prompt wording matters a lot with small models: never add discouraging lines like "most of the
+  time you won't..." - the model obeys them literally. Present choices as an equal menu.
 - Its top interests and traits are fed into every prompt, so it "remembers who it is".
 - Personality must EMERGE, not be scripted (Thomas's explicit wish). We give it memory, freedom and
   tools, never pre-written quirks/obsessions/goals. Mechanisms:
