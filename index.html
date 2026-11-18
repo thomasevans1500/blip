@@ -134,9 +134,9 @@ function render(m) {
   const last = reads[reads.length - 1];
   if (last) {
     $("now").replaceChildren(el("div", { class: "card" },
-      el("div", { class: "now-title" }, el("a", { href: wiki(last.title), target: "_blank", rel: "noopener" }, last.title)),
+      el("div", { class: "now-title" }, el("a", { href: last.url || wiki(last.title), target: "_blank", rel: "noopener" }, last.title)),
       el("p", {}, "“" + last.thought + "”"),
-      el("div", { class: "muted" }, `feeling ${last.feeling} · `, el("span", { class: "score" }, `${last.interest ?? "?"}/10`), ` · ${ago(last.time)}`)));
+      el("div", { class: "muted" }, `on ${last.source || "Wikipedia"} · feeling ${last.feeling} · `, el("span", { class: "score" }, `${last.interest ?? "?"}/10`), ` · ${ago(last.time)}`)));
   } else hide("now-section");
 
   if (m.self) $("self").textContent = m.self; else hide("self-section");
@@ -182,10 +182,10 @@ function render(m) {
 
   const trail = reads.slice(-25).reverse();
   $("trail").replaceChildren(...trail.map(e => el("li", {},
-    el("a", { href: wiki(e.title), target: "_blank", rel: "noopener" }, e.title), " ",
+    el("a", { href: e.url || wiki(e.title), target: "_blank", rel: "noopener" }, e.title), " ",
     el("span", { class: "score" }, `${e.interest ?? "?"}/10`),
     el("div", {}, e.thought),
-    el("div", { class: "muted" }, [e.via, ago(e.time)].filter(Boolean).join(" · ")))));
+    el("div", { class: "muted" }, [e.source || "Wikipedia", e.via, ago(e.time)].filter(Boolean).join(" · ")))));
 
   const why = m.home && m.home.why ? ` Why it looks like this: “${m.home.why}”` : "";
   $("footer").textContent = "Everything here is written and designed by Blip, a small creature that lives on the internet." + why;

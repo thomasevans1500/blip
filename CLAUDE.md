@@ -38,8 +38,12 @@ How it works:
 - Personality must EMERGE, not be scripted (Thomas's explicit wish). We give it memory, freedom and
   tools, never pre-written quirks/obsessions/goals. Mechanisms:
   - `self`: free-form private notes it rewrites nightly in `diary`; fed into every prompt via who_am_i.
-  - Wander "next" can be a link, "SEARCH: <anything>" (Wikipedia search) or "RANDOM". It sees what
-    it read earlier on the same walk, so it can get bored or chase an obsession.
+  - Wander "next" can be a Wikipedia link or any entry in DESTINATIONS: SEARCH/WORD/ASK/BOOKS/SPACE
+    (need a topic) or NEWS/HACKER NEWS/ON THIS DAY/RANDOM. Sources: Wikipedia, Wiktionary REST,
+    DuckDuckGo Instant Answer, Open Library search, NASA images API, BBC RSS, HN Firebase API,
+    Wikipedia on-this-day feed - all free, no keys. Each visit_* returns a place() dict; None = found
+    nothing (falls back to random). `python creature.py check` tests every source.
+    It sees what it read earlier on the same walk, so it can get bored or chase an obsession.
   - After each wander, `maybe_make` asks open-endedly if it wants to make anything (any form).
     Saved to `creations/*.md`, listed in memory["creations"], capped at 3/day.
 - Website, decided by Blip (runs nightly at the end of `diary`, or alone via `home` command):
@@ -65,7 +69,6 @@ so he can flag anything confusing before moving on.
    rebuild. All Blip text is rendered as text (no HTML from the model, ever).
 3. Let visitors leave it things or talk to it (needs moderation).
 - Later: a "boredom" nudge was considered but NOT coded - it can choose RANDOM/SEARCH itself now.
-4. Widen its internet beyond Wikipedia (other free sources). NEXT. Google search is NOT an option:
-   Google's Custom Search API is closed to new users (shuts 2027-01-01); Brave needs a credit card.
-   Plan: key-free sources it chooses between (DuckDuckGo instant answers, Wiktionary, HN, BBC RSS, Open Library, NASA).
+4. ~~Widen its internet~~ - done. Google search is NOT an option: Google's Custom Search API is
+   closed to new users (shuts 2027-01-01); Brave needs a credit card. Instead: key-free sources.
 5. Possibly move it to a Raspberry Pi 5 to run 24/7.

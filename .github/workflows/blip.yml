@@ -9,7 +9,7 @@ on:
       command:
         description: "What should Blip do?"
         type: choice
-        options: [wander, diary, home]
+        options: [wander, diary, home, check]
         default: wander
       alert_at:
         description: "Interest score (0-10) that triggers an email. Leave as 9 normally."

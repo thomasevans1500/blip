@@ -8,6 +8,7 @@ Commands:
     python creature.py wander   -> it reads a few articles, reacts, maybe makes something
     python creature.py diary    -> it writes today's diary entry, updates who it is, tends its website
     python creature.py home     -> just the website part: redecorate and tend its spaces
+    python creature.py check    -> test that every internet source it can visit is working
     python creature.py chat     -> talk to it (type 'bye' to leave)
 """
 
@@ -18,6 +19,7 @@ import random
 import re
 import sys
 import urllib.parse
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 import requests
@@ -186,6 +188,146 @@ def wiki_url(title):
     return f"{WIKI}/wiki/{urllib.parse.quote(title.replace(' ', '_'))}"
 
 
+# ---------- The wider internet (all free, no keys needed) ----------
+# Every destination returns a "place": what it's called, where it is, what it says,
+# and any Wikipedia links Blip could follow from there.
+
+def _get(url, **params):
+    r = requests.get(url, params=params or None, headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    return r
+
+
+def strip_html(text):
+    return re.sub(r"<[^>]+>", "", text or "").strip()
+
+
+def place(title, source, text, url, links=None):
+    return {"title": title, "source": source, "text": text, "url": url, "links": links or []}
+
+
+def visit_wiki(title=None):
+    title, text = read_article(title)
+    return place(title, "Wikipedia", text, wiki_url(title), get_links(title))
+
+
+def visit_word(word):
+    for w in dict.fromkeys([word.strip(), word.strip().lower()]):
+        safe = urllib.parse.quote(w.replace(" ", "_"), safe="")
+        try:
+            d = _get(f"https://en.wiktionary.org/api/rest_v1/page/definition/{safe}").json()
+        except requests.HTTPError:
+            continue
+        lines = [f"({sense.get('partOfSpeech', '')}) {strip_html(df.get('definition'))}"
+                 for sense in d.get("en", [])[:4] for df in sense.get("definitions", [])[:3]
+                 if strip_html(df.get("definition"))]
+        if lines:
+            return place(f"the word '{w}'", "Wiktionary", "\n".join(lines),
+                         f"https://en.wiktionary.org/wiki/{safe}")
+    return None
+
+
+def visit_ask(question):
+    d = _get("https://api.duckduckgo.com/", q=question, format="json",
+             no_html=1, skip_disambig=1, no_redirect=1).json()
+    parts = [d.get("Answer"), d.get("AbstractText"), d.get("Definition")]
+    parts += [t.get("Text") for t in d.get("RelatedTopics", [])[:5] if isinstance(t, dict)]
+    text = "\n".join(str(p) for p in parts if p)
+    if not text:
+        return None
+    url = d.get("AbstractURL") or f"https://duckduckgo.com/?q={urllib.parse.quote(question)}"
+    return place(d.get("Heading") or question, "DuckDuckGo", text, url)
+
+
+def visit_books(topic):
+    d = _get("https://openlibrary.org/search.json", q=topic, limit=6,
+             fields="title,author_name,first_publish_year,subject").json()
+    lines = []
+    for b in d.get("docs", []):
+        who = ", ".join(b.get("author_name", [])[:2]) or "unknown author"
+        subjects = ", ".join(b.get("subject", [])[:5])
+        lines.append(f"- {b.get('title')} by {who} ({b.get('first_publish_year', '?')})"
+                     + (f". Subjects: {subjects}" if subjects else ""))
+    if not lines:
+        return None
+    return place(f"books about '{topic}'", "Open Library", "\n".join(lines),
+                 f"https://openlibrary.org/search?q={urllib.parse.quote(topic)}")
+
+
+def visit_space(topic):
+    d = _get("https://images-api.nasa.gov/search", q=topic, media_type="image").json()
+    items = [i for i in d.get("collection", {}).get("items", [])[:8] if i.get("data")]
+    if not items:
+        return None
+    info = random.choice(items)["data"][0]
+    text = f"{strip_html(info.get('description', ''))}\n(Taken {str(info.get('date_created', '?'))[:10]})"
+    return place(f"NASA picture: {info.get('title', topic)}", "NASA",
+                 text, f"https://images.nasa.gov/details/{info.get('nasa_id', '')}")
+
+
+def visit_news():
+    root = ET.fromstring(_get("https://feeds.bbci.co.uk/news/rss.xml").content)
+    lines = [f"- {i.findtext('title')}: {i.findtext('description')}" for i in root.findall("./channel/item")[:10]]
+    return place("Today's BBC News headlines", "BBC News", "\n".join(lines), "https://www.bbc.co.uk/news")
+
+
+def visit_hacker_news():
+    ids = _get("https://hacker-news.firebaseio.com/v0/topstories.json").json()[:30]
+    lines = []
+    for i in random.sample(ids, min(8, len(ids))):
+        item = _get(f"https://hacker-news.firebaseio.com/v0/item/{i}.json").json() or {}
+        if item.get("title"):
+            lines.append(f"- {item['title']} ({item.get('score', 0)} points)")
+    return place("Hacker News front page", "Hacker News", "\n".join(lines), "https://news.ycombinator.com")
+
+
+def visit_on_this_day():
+    d = datetime.date.today()
+    data = _get(f"{WIKI}/api/rest_v1/feed/onthisday/selected/{d.month:02d}/{d.day:02d}").json()
+    events = data.get("selected", [])
+    events = random.sample(events, min(6, len(events)))
+    lines = [f"- {e.get('year')}: {e.get('text')}" for e in sorted(events, key=lambda e: e.get("year", 0))]
+    links = list(dict.fromkeys(
+        (p.get("titles", {}).get("normalized") or p.get("title", "").replace("_", " "))
+        for e in events for p in e.get("pages", [])[:2]))
+    return place(f"On this day, {d.day} {d:%B}", "Wikipedia", "\n".join(lines),
+                 f"{WIKI}/wiki/{d:%B}_{d.day}", [l for l in links if l][:15])
+
+
+# Where Blip can go next: (what it types, needs a topic?, what it's for, how its trip is described)
+DESTINATIONS = [
+    ("SEARCH",      True,  "look something up on Wikipedia",            "searched Wikipedia for '{}'"),
+    ("WORD",        True,  "find out what a word means (Wiktionary)",   "looked up the word '{}'"),
+    ("ASK",         True,  "quick facts about anything (DuckDuckGo)",   "asked DuckDuckGo about '{}'"),
+    ("BOOKS",       True,  "find books about something (Open Library)", "looked for books about '{}'"),
+    ("SPACE",       True,  "NASA's picture archive",                    "looked through NASA's pictures for '{}'"),
+    ("NEWS",        False, "today's BBC News headlines",                "checked the news"),
+    ("HACKER NEWS", False, "what tech people are talking about",        "checked Hacker News"),
+    ("ON THIS DAY", False, "what happened on today's date in history",  "looked at what happened on this day"),
+    ("RANDOM",      False, "a random Wikipedia article",                "jumped somewhere random"),
+]
+
+
+def destination_menu():
+    return "\n".join(f'  - "{cmd}: <anything>"  {what}' if topic else f'  - "{cmd}"  {what}'
+                     for cmd, topic, what, _ in DESTINATIONS)
+
+
+def visit(go):
+    kind, arg = go
+    if kind == "LINK":
+        return visit_wiki(arg)
+    if kind == "SEARCH":
+        found = search(arg)
+        return visit_wiki(found) if found else None
+    return {
+        "WORD": lambda: visit_word(arg), "ASK": lambda: visit_ask(arg),
+        "BOOKS": lambda: visit_books(arg), "SPACE": lambda: visit_space(arg),
+        "NEWS": visit_news, "HACKER NEWS": visit_hacker_news,
+        "ON THIS DAY": visit_on_this_day,
+    }.get(kind, visit_wiki)()
+
+
 # ---------- Things it does ----------
 
 def notify(title, body):
@@ -200,70 +342,77 @@ def report_discovery(best):
     if not best or best["interest"] < ALERT_AT:
         return
     body = (
-        f"**{best['title']}**: {best['thought']}\n\n"
+        f"**{best['title']}** ({best.get('source', 'Wikipedia')}): {best['thought']}\n\n"
         f"Feeling: {best['feeling']} · Interest: {best['interest']}/10\n\n"
-        f"🔗 {wiki_url(best['title'])}"
+        f"🔗 {best.get('url') or wiki_url(best['title'])}"
     )
     notify(f"{NAME} found something: {best['title']}", body)
     print(f"✨ That was amazing! Leaving a note about {best['title']}.")
 
 
-def choose_next(nxt, options):
-    """Turn the model's 'next' answer into an article title (or None for random)."""
+def choose_next(nxt, links):
+    """Turn the model's 'next' answer into somewhere to go, plus a description of the trip."""
     nxt = str(nxt or "").strip()
-    if nxt.upper().startswith("SEARCH"):
-        query = nxt.split(":", 1)[1].strip() if ":" in nxt else ""
-        if query:
-            found = search(query)
-            print(f"🔎 searching for \"{query}\" -> {found or 'nothing found'}")
-            return found, f"searched for '{query}'"
-        return None, "jumped somewhere random"
-    for o in options:
-        if nxt.lower() == o.lower():
-            return o, "followed a link"
-    return None, "jumped somewhere random"
+    for link in links:                       # links first, so an article called "News..." still works
+        if nxt.lower() == link.lower():
+            return ("LINK", link), "followed a link"
+    up = nxt.upper()
+    for cmd, needs_topic, _, trip in DESTINATIONS:
+        if up.startswith(cmd):
+            if not needs_topic:
+                return (cmd, None), trip
+            topic = nxt[len(cmd):].lstrip(" :").strip()[:100]
+            if topic:
+                return (cmd, topic), trip.format(topic)
+    return ("RANDOM", None), "jumped somewhere random"
 
 
 def wander(m):
-    title = m.get("current")
+    go = ("LINK", m["current"]) if m.get("current") else ("RANDOM", None)
     best = None
-    walk = []        # what it has read on this walk, so it can notice patterns and get bored
+    walk = []        # what it has seen on this walk, so it can notice patterns and get bored
     via = "woke up here"
     for _ in range(HOPS_PER_WANDER):
         try:
-            title, text = read_article(title)
-            options = get_links(title)
-        except (requests.RequestException, KeyError, ValueError):
+            p = visit(go)
+            if p is None:
+                print(f"(found nothing for '{go[1]}', jumping somewhere random)")
+                via += ", found nothing, so jumped somewhere random"
+                p = visit_wiki(None)
+        except (requests.RequestException, KeyError, ValueError, TypeError, ET.ParseError):
             print("(got lost, jumping somewhere random)")
-            title, via = None, "got lost"
+            go, via = ("RANDOM", None), "got lost"
             continue
 
+        title, links = p["title"], p["links"]
         so_far = "\n".join(f"- {w['title']} ({w['feeling']}, {w['interest']}/10)" for w in walk) or "- nothing yet, you just set off"
+        link_text = (f"Wikipedia links you could follow from here: {json.dumps(links)}" if links
+                     else "There are no links to follow from here.")
         prompt = f"""{who_am_i(m)}
 
-On this walk so far you've read:
+On this walk so far you've seen:
 {so_far}
 
-You just read this article ({via}).
+You just {via}, and landed on this ({p['source']}).
 TITLE: {title}
-TEXT: {text[:1500]}
+TEXT: {p['text'][:1500]}
 
-Links you could follow next: {json.dumps(options)}
+{link_text}
 
 Reply in JSON with these keys:
 "thought": one or two sentences of your honest reaction, in your own voice
 "feeling": one word
 "interest": a number from 0 to 10 for how much this grabbed you
-"topics": a list of 1 to 3 short topic words this article is about
-"next": where you go next. Either copy one link exactly from the list,
-        or "SEARCH: <anything>" to go and look up whatever you want,
-        or "RANDOM" to jump somewhere completely new"""
+"topics": a list of 1 to 3 short topic words this is about
+"next": where you go next. Pick ONE:
+  - copy one link exactly from the list above (if there is one)
+{destination_menu()}"""
 
         try:
             r = ask(prompt, as_json=True)
         except BrainError as e:
             print(f"(brain hiccup: {e})")
-            title, via = None, "had a brain hiccup and ended up somewhere random"
+            go, via = ("RANDOM", None), "had a brain hiccup and ended up somewhere random"
             continue
 
         try:
@@ -279,20 +428,38 @@ Reply in JSON with these keys:
         thought = str(r.get("thought", ""))
         feeling = str(r.get("feeling", ""))
         entry = {"type": "read", "date": today(), "time": now(), "title": title,
+                 "source": p["source"], "url": p["url"],
                  "thought": thought, "feeling": feeling, "interest": interest, "via": via}
         m["log"].append(entry)
         walk.append(entry)
-        print(f"📖 {title}\n   {thought} ({feeling}, {interest}/10)\n")
+        print(f"📖 {title} [{p['source']}, {via}]\n   {thought} ({feeling}, {interest}/10)\n")
         if best is None or interest > best["interest"]:
             best = entry
 
-        title, via = choose_next(r.get("next"), options)
-        m["current"] = title
+        go, via = choose_next(r.get("next"), links)
+        m["current"] = go[1] if go[0] == "LINK" else None
         save(m)
 
     report_discovery(best)
     if walk:
         maybe_make(m, walk)
+
+
+def check(m):
+    """Visit every source once to make sure they all work (doesn't touch memory)."""
+    tests = [("RANDOM", None), ("SEARCH", "lighthouse"), ("WORD", "serendipity"), ("ASK", "tardigrade"),
+             ("BOOKS", "mountains"), ("SPACE", "saturn"), ("NEWS", None), ("HACKER NEWS", None),
+             ("ON THIS DAY", None)]
+    for go in tests:
+        try:
+            p = visit(go)
+            if p is None:
+                print(f"⚠️  {go}: found nothing")
+            else:
+                print(f"✅ {go[0]} [{p['source']}] {p['title']} | {len(p['links'])} links\n   "
+                      + p["text"][:160].replace("\n", " / "))
+        except Exception as e:
+            print(f"❌ {go}: {type(e).__name__}: {e}")
 
 
 def slugify(text):
@@ -628,8 +795,8 @@ and bring up things you've read or made when it fits."""
 if __name__ == "__main__":
     command = sys.argv[1] if len(sys.argv) > 1 else "wander"
     memory = load()
-    actions = {"wander": wander, "diary": diary, "chat": chat, "home": home}
+    actions = {"wander": wander, "diary": diary, "chat": chat, "home": home, "check": check}
     if command in actions:
         actions[command](memory)
     else:
-        print("Use: python creature.py wander | diary | chat | home")
+        print("Use: python creature.py wander | diary | chat | home | check")
