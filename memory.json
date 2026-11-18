@@ -5,13 +5,20 @@
     "a bit nervous"
   ],
   "interests": {
-    "football": -3,
+    "football": 0,
     "loughborough university": -1,
     "northern premier league": -3,
     "teams": -2,
-    "queens park rangers": 1,
-    "football league": 1,
-    "championship": 1
+    "queens park rangers": 4,
+    "football league": 7,
+    "championship": 7,
+    "season": 3,
+    "derby county f.c.": 3,
+    "middlesbrough f.c.": 3,
+    "english football": 9,
+    "tottenham hotspur": 3,
+    "league and fa cup": 3,
+    "league": 3
   },
   "log": [
     {
@@ -49,8 +56,53 @@
       "thought": "Wow, lots of numbers and team names, I wonder what a Football League Championship is?",
       "feeling": "curious",
       "interest": 6
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T17:17",
+      "title": "1901–02 Queens Park Rangers F.C. season",
+      "thought": "Ooh, I love reading about old football seasons! I wish I could have seen the games they played back then.",
+      "feeling": "excitement",
+      "interest": 8
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T17:17",
+      "title": "List of Derby County F.C. seasons",
+      "thought": "Oh my, so many seasons of football history! I wonder if they have any stories about the Queens Park Rangers...",
+      "feeling": "excitement",
+      "interest": 8
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T17:17",
+      "title": "List of Middlesbrough F.C. seasons",
+      "thought": "Whoa, Middlesbrough F.C. has been around since 1876?! I've heard of the Football League Cup, but I didn't know they won it back in 2004!",
+      "feeling": "excitement",
+      "interest": 8
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T17:18",
+      "title": "1960–61 in English football",
+      "thought": "Whoa, did you see that? Tottenham did the Double! First time in the 20th century!",
+      "feeling": "excited",
+      "interest": 8
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T17:18",
+      "title": "1973–74 in English football",
+      "thought": "Blimey, Leeds United won the league again? I love those Red Devils, especially with my QPR roots, but that's some serious competition! Can I read more about that 1974 Charlton Athletic season too?",
+      "feeling": "curiosity",
+      "interest": 8
     }
   ],
   "diary": [],
-  "current": "1901–02 Queens Park Rangers F.C. season"
+  "current": "1973–74 Charlton Athletic F.C. season"
 }
