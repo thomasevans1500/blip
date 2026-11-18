@@ -32,6 +32,8 @@ HOPS_PER_WANDER = int(os.environ.get("BLIP_HOPS", "5"))  # articles it reads eac
 MAX_LOG = 1000                                           # oldest log entries are dropped past this
 ALERT_AT = int(os.environ.get("BLIP_ALERT_AT", "9"))     # interest score that counts as "amazing"
 MAX_CREATIONS_PER_DAY = 3                                # stops it flooding the creations folder
+MAX_ACTIVE_PROJECTS = 3                                  # projects it can have on the go at once
+MAX_LETTERS_PER_DAY = 2                                  # emails it can write to its human per day
 MAX_THOUGHTS = 200                                       # thinking-out-loud entries kept
 MAX_OPINIONS = 100                                       # opinions kept (least recently formed drop off)
 PORTRAIT_EVERY_DAYS = 7                                  # how often it's offered the chance to redraw itself
@@ -78,6 +80,7 @@ def load():
         "home": {},
         "scrapbook": [],
         "thoughts": [],
+        "projects": [],
         "opinions": {},
         "about": "",
         "portrait": None,
@@ -151,6 +154,8 @@ def who_am_i(m, context=""):
     last_thought = m.get("thoughts", [])[-1]["text"] if m.get("thoughts") else ""
     thinking = f"What you were last thinking to yourself: {last_thought}\n" if last_thought else ""
     about = f"How you describe yourself: {m['about']}\n" if m.get("about") else ""
+    goals = "; ".join(p["goal"] for p in active_projects(m))
+    projects = f"Projects you're working on: {goals}\n" if goals else ""
     remembered = ("Memories from your scrapbook that come to mind:\n"
                   + "\n".join(f"- ({x['date']}) {x['memory']}" for x in memories) + "\n") if memories else ""
     return (
@@ -162,6 +167,7 @@ def who_am_i(m, context=""):
         f"{remembered}"
         f"{held}"
         f"{thinking}"
+        f"{projects}"
         f"Things you've grown to love: {loves}.\n"
         f"Things that bore you: {hates}.\n"
         f"Things you've made recently: {made}."
@@ -451,7 +457,7 @@ def choose_next(nxt, links):
     return ("RANDOM", None), "jumped somewhere random"
 
 
-def reaction_prompt(m, walk, via, p):
+def reaction_prompt(m, walk, via, p, purpose=None):
     """What Blip is asked after landing somewhere (also used by audition.py, so brains are compared fairly)."""
     title, links = p["title"], p["links"]
     so_far = "\n".join(f"- {w['title']} ({w['feeling']}, {w['interest']}/10)" for w in walk) or "- nothing yet, you just set off"
@@ -463,6 +469,7 @@ def reaction_prompt(m, walk, via, p):
 On this walk so far you've seen:
 {so_far}
 
+{f"You're on this walk with a purpose: research '{purpose['topic']}' for your project '{purpose['goal']}'. You can stick to it or get distracted, it's up to you." if purpose else ""}
 You just {via}, and landed on this ({p['source']}).{again}
 TITLE: {title}
 TEXT: {p['text'][:READ_CHARS]}
@@ -499,6 +506,212 @@ def form_opinion(m, op):
     print(f"🗯️  {'Changed its mind about' if old else 'New opinion on'} {about}: {opinion}")
 
 
+ABILITIES = """Things you can do: read Wikipedia, look up words, ask DuckDuckGo, find books, browse NASA's
+pictures, read the BBC news and Hacker News, see what happened on this day in history; write things and
+draw simple pictures; keep a scrapbook, opinions and notes; run your own website with spaces and project
+pages; write a letter to your human (they get it by email).
+Things you can't do (yet): see photos or videos, hear sounds or music, move or touch anything in the
+physical world, buy anything or handle money, talk to anyone except your human."""
+
+
+def active_projects(m):
+    return [p for p in m.get("projects", []) if p["status"] == "active"]
+
+
+def find_project(m, name):
+    active = active_projects(m)
+    name = str(name or "").lower().strip()
+    for p in active:
+        if p["goal"].lower() == name:
+            return p
+    words = set(WORD_RE.findall(name))
+    best = max(active, key=lambda p: len(words & set(WORD_RE.findall(p["goal"].lower()))), default=None)
+    if best and (words & set(WORD_RE.findall(best["goal"].lower())) or len(active) == 1):
+        return best
+    return None
+
+
+def describe_projects(m):
+    lines = []
+    for p in active_projects(m):
+        lines.append(f"- '{p['goal']}' (because {p['why']})")
+        for n, st in enumerate(p["steps"], 1):
+            lines.append(f"    {n}. [{'done' if st['done'] else 'to do'}] {st['text']}")
+        for u in p["log"][-2:]:
+            lines.append(f"    latest: {u['text'][:160]}")
+    return "\n".join(lines) or "- none right now"
+
+
+def project_note(m, p, text, kind="note"):
+    p["log"].append({"date": today(), "time": now(), "kind": kind, "text": text[:1500]})
+    p["log"] = p["log"][-60:]
+    p["updated"] = now()
+    m["log"].append({"type": "project", "date": today(), "time": now(), "goal": p["goal"], "what": text[:300]})
+
+
+def mark_step(p, step):
+    try:
+        st = p["steps"][int(step) - 1]
+    except (TypeError, ValueError, IndexError):
+        st = next((x for x in p["steps"] if not x["done"]), None)
+    if st and not st["done"]:
+        st["done"] = True
+        return st["text"]
+    return None
+
+
+def plan(m):
+    """Its moment to want things: start, work on, finish or drop a project - or not. Returns a research
+    purpose for the coming walk, if it chose one."""
+    last = m["thoughts"][-1]["text"] if m.get("thoughts") else ""
+    try:
+        r = ask(f"""{who_am_i(m, context=last)}
+
+{ABILITIES}
+
+Your projects:
+{describe_projects(m)}
+
+A project is anything you want to do, work towards, make happen, or get. If there's something you
+want, you can start one. If something you want needs an ability you don't have, you could write to
+your human and ask for it. You can have up to {MAX_ACTIVE_PROJECTS} projects at once.
+Right now you can start a project, work on one, finish one, give one up, or leave them all alone.
+
+Reply in JSON:
+"action": "start", "work", "finish", "give up" or "none"
+"project": for work/finish/give up, the project's goal exactly as written above
+"goal": for start, what you want, in a short phrase
+"why": for start, why you want it
+"steps": for start, a list of 2 to 6 steps you think it will take
+"how": for work, ONE of "research", "make", "update page", "write to my human"
+"about": for work: what to research / what to make / the page update itself / your letter itself
+"step": for work, the number of the step this is for
+"step_done": for work (not research), true if this finishes that step
+"note": for finish/give up, one sentence about it""", as_json=True, temperature=0.9)
+    except BrainError as e:
+        print(f"(couldn't think about its plans: {e})")
+        return None
+
+    action = str(r.get("action", "none")).lower().strip()
+    if action == "start":
+        goal = str(r.get("goal", "")).strip()[:120]
+        steps = [str(x).strip()[:200] for x in as_list(r.get("steps")) if str(x).strip()][:6]
+        if not goal or len(active_projects(m)) >= MAX_ACTIVE_PROJECTS:
+            return None
+        p = {"id": slug_for_project(m, goal), "goal": goal, "why": str(r.get("why", ""))[:300],
+             "steps": [{"text": x, "done": False} for x in steps] or [{"text": goal, "done": False}],
+             "status": "active", "started": today(), "updated": now(), "log": []}
+        m["projects"].append(p)
+        project_note(m, p, f"Started this project because {p['why']}", "start")
+        save(m)
+        print(f"🎯 New project: {goal} ({p['why']})\n   Plan: " + " → ".join(x["text"] for x in p["steps"]))
+        return None
+
+    p = find_project(m, r.get("project"))
+    if p is None:
+        if action != "none":
+            print(f"(wanted to {action} a project but couldn't tell which: {r.get('project')})")
+        return None
+
+    if action in ("finish", "give up", "abandon"):
+        p["status"] = "finished" if action == "finish" else "abandoned"
+        p["ended"] = today()
+        project_note(m, p, str(r.get("note", "")) or ("Finished!" if action == "finish" else "Gave up."), p["status"])
+        save(m)
+        print(f"{'🏁 Finished' if action == 'finish' else '🫥 Gave up on'} project: {p['goal']}. {r.get('note', '')}")
+        return None
+
+    if action != "work":
+        return None
+    how = str(r.get("how", "")).lower()
+    about = str(r.get("about", "")).strip()
+    step = r.get("step")
+    step_text = ""
+    try:
+        step_text = p["steps"][int(step) - 1]["text"]
+    except (TypeError, ValueError, IndexError):
+        pass
+
+    if how.startswith("research") and about:
+        print(f"🎯 Working on '{p['goal']}': off to research '{about}'")
+        return {"project": p["id"], "goal": p["goal"], "topic": about[:100], "step": step, "step_text": step_text}
+
+    if how.startswith("make"):
+        make_for_project(m, p, about, step_text)
+    elif how.startswith("update") and len(about) > 10:
+        project_note(m, p, about, "page update")
+        print(f"📝 Updated the page for '{p['goal']}': {about}")
+    elif how.startswith("write") and len(about) > 10:
+        write_to_human(m, about, p)
+    else:
+        return None
+    if r.get("step_done") is True:
+        done = mark_step(p, step)
+        if done:
+            project_note(m, p, f"Done: {done}", "step")
+            print(f"✅ Step done: {done}")
+    save(m)
+    return None
+
+
+def slug_for_project(m, goal):
+    base, n = slugify(goal), 2
+    taken = {p["id"] for p in m.get("projects", [])}
+    slug = base
+    while slug in taken:
+        slug, n = f"{base}-{n}", n + 1
+    return slug
+
+
+def make_for_project(m, p, what, step_text):
+    made_today = sum(1 for e in m["log"] if e["type"] == "made" and e["date"] == today())
+    if made_today >= MAX_CREATIONS_PER_DAY + 2:
+        print("(wanted to make something for its project, but has made plenty today)")
+        return
+    try:
+        r = ask(f"""{who_am_i(m, context=p['goal'] + ' ' + what)}
+
+You're working on your project '{p['goal']}' (because {p['why']}).
+{f"This is for the step: {step_text}" if step_text else ""}
+You decided to make: {what}
+
+Make it now, in whatever form you like:
+  - "words": write it (any kind of writing, a list, a poster, a plan, ASCII art...)
+  - "drawing": draw it yourself, by writing SVG code for a picture on a 400 by 400 canvas
+    (any shapes, lines, colours or text you like; use single quotes inside the SVG)
+
+Reply in JSON:
+"make": true
+"form": "words" or "drawing"
+"kind": one or two words for what it is
+"title": its title
+"content": the thing itself: your words, or your SVG code if it's a drawing
+"why": one sentence about it""", as_json=True, temperature=1.0)
+    except BrainError as e:
+        print(f"(brain hiccup while making something for a project: {e})")
+        return
+    if not str(r.get("content", "")).strip():
+        return
+    r["make"] = True
+    made = store_creation(m, r, project=p)
+    if made:
+        project_note(m, p, f"Made a {made['kind']}: {made['title']}", "made")
+
+
+def write_to_human(m, letter, p=None):
+    sent_today = sum(1 for e in m["log"] if e["type"] == "letter" and e["date"] == today())
+    if sent_today >= MAX_LETTERS_PER_DAY:
+        print("(wanted to write to its human, but already wrote enough today)")
+        return
+    about = f" about '{p['goal']}'" if p else ""
+    notify(f"✉️ {NAME} wrote you a letter{about}", letter[:4000])
+    m["log"].append({"type": "letter", "date": today(), "time": now(), "text": letter[:1500],
+                     "project": p["id"] if p else None})
+    if p:
+        project_note(m, p, f"Wrote to my human: {letter[:300]}", "letter")
+    print(f"✉️  Wrote to its human{about}:\n{letter}\n")
+
+
 def think(m):
     """A quiet moment before setting off: it talks to itself about whatever's on its mind."""
     recent = [e for e in m["log"] if e["type"] in ("read", "made", "kept")][-6:]
@@ -527,10 +740,14 @@ yourself. Plain text, no headings.""", temperature=1.0)
 
 def wander(m):
     think(m)
+    purpose = plan(m)
     go = ("LINK", m["current"]) if m.get("current") else ("RANDOM", None)
+    if purpose:
+        go = ("SEARCH", purpose["topic"])
     best = None
     walk = []        # what it has seen on this walk, so it can notice patterns and get bored
-    via = "woke up here"
+    via = (f"set off to research '{purpose['topic']}' for your project '{purpose['goal']}'"
+           if purpose else "woke up here")
     for _ in range(HOPS_PER_WANDER):
         try:
             p = visit(go)
@@ -544,7 +761,7 @@ def wander(m):
             continue
 
         title, links = p["title"], p["links"]
-        prompt = reaction_prompt(m, walk, via, p)
+        prompt = reaction_prompt(m, walk, via, p, purpose)
 
         try:
             r = ask(prompt, as_json=True)
@@ -586,16 +803,20 @@ def wander(m):
 
     report_discovery(best)
     if walk:
-        end_of_walk(m, walk)
+        end_of_walk(m, walk, purpose)
         maybe_make(m, walk)
 
 
-def end_of_walk(m, walk):
+def end_of_walk(m, walk, purpose=None):
     """How does it feel now, and is there anything it wants to keep forever?"""
     seen = "\n".join(f"- {w['title']}: {w['thought']} (felt {w['feeling']})" for w in walk)
     before = m.get("mood") or {}
     started = (f"You set off feeling {before['feeling']}, because {before['why']}"
                if before.get("feeling") else "This was one of your first walks.")
+    if purpose:
+        started += f" You went out to research '{purpose['topic']}' for your project '{purpose['goal']}'."
+    project_q = ('\n"project_note": what this walk did for your project, in a sentence or two (or "" if nothing)'
+                 '\n"step_done": true if that finished the step you were working on') if purpose else ""
     try:
         r = ask(f"""{who_am_i(m, context=seen)}
 
@@ -607,7 +828,7 @@ Reply in JSON:
 "mood": how you feel now, in one or two words
 "why": one sentence on why you feel that way
 "keep": true or false: is there anything from this walk you want to keep in your scrapbook forever?
-"memory": if true, the memory in your own words (one to three sentences), the way you'd want to remember it""",
+"memory": if true, the memory in your own words (one to three sentences), the way you'd want to remember it{project_q}""",
                 as_json=True, temperature=0.9)
     except BrainError as e:
         print(f"(brain hiccup at the end of the walk: {e})")
@@ -624,6 +845,18 @@ Reply in JSON:
         m["scrapbook"] = m["scrapbook"][-MAX_SCRAPBOOK:]
         m["log"].append({"type": "kept", "date": today(), "time": now(), "memory": memory[:600]})
         print(f"📌 Kept in the scrapbook: {memory}")
+
+    proj = next((x for x in active_projects(m) if purpose and x["id"] == purpose["project"]), None)
+    if proj:
+        note = str(r.get("project_note", "")).strip()
+        if len(note) > 5:
+            project_note(m, proj, f"Researched '{purpose['topic']}': {note}", "research")
+            print(f"🎯 Project '{proj['goal']}': {note}")
+        if r.get("step_done") is True:
+            done = mark_step(proj, purpose.get("step"))
+            if done:
+                project_note(m, proj, f"Done: {done}", "step")
+                print(f"✅ Step done: {done}")
     save(m)
 
 
@@ -730,6 +963,11 @@ Reply in JSON:
         print(f"🎨 Didn't feel like making anything. ({r.get('why', '')})")
         return
 
+    store_creation(m, r)
+
+
+def store_creation(m, r, project=None):
+    """Save something it made (words or a drawing). Returns the creation, or None if the drawing failed."""
     kind = str(r.get("kind", "thing")).strip()[:40] or "thing"
     title = str(r.get("title", "Untitled")).strip()[:100] or "Untitled"
     why = str(r.get("why", ""))[:300]
@@ -743,13 +981,15 @@ Reply in JSON:
                          "title": title, "why": why + " (but the drawing came out as a scribble nobody can see)"})
         save(m)
         print(f"🖍️  Tried to draw \"{title}\" but it came out as an unreadable scribble.")
-        return
+        return None
 
     CREATIONS_DIR.mkdir(exist_ok=True)
     stamp = datetime.datetime.now().strftime("%Y-%m-%d-%H%M")
     base = f"{stamp}-{slugify(title)}"
     repo = os.environ.get("GITHUB_REPOSITORY")
     entry = {"date": today(), "kind": kind, "title": title, "why": why, "file": f"creations/{base}.md"}
+    if project:
+        entry["project"] = project["id"]
 
     if svg:
         (CREATIONS_DIR / f"{base}.svg").write_text(svg, encoding="utf-8")
@@ -773,7 +1013,9 @@ Reply in JSON:
     print(f"🎨 Made a {kind}: \"{title}\"\n{shown}\n")
 
     link = f"\n\n📁 https://github.com/{repo}/blob/main/creations/{base}.md" if repo else ""
-    notify(f"{NAME} made a {kind}: {title}", email + link)
+    for_what = f" (for its project: {project['goal']})" if project else ""
+    notify(f"{NAME} made a {kind}: {title}{for_what}", email + link)
+    return entry
 
 
 def diary(m):
@@ -790,6 +1032,10 @@ def diary(m):
             lines.append(f"- Made a {e['kind']} called '{e['title']}' because: {e['why']}")
         elif e["type"] == "chat":
             lines.append(f"- Chatted with my human. They said: {e['you']} / I said: {e['me']}")
+        elif e["type"] == "project":
+            lines.append(f"- My project '{e['goal']}': {e['what']}")
+        elif e["type"] == "letter":
+            lines.append(f"- Wrote a letter to my human: {e['text'][:300]}")
         elif e["type"] == "kept":
             lines.append(f"- Kept a memory in my scrapbook: {e['memory']}")
         elif e["type"] == "home":

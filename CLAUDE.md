@@ -106,10 +106,16 @@ so he can flag anything confusing before moving on.
      about (max 100, counts mind changes). `relevant_opinions()` puts related + recent ones in who_am_i.
    - Nightly `describe_self` (after diary, before home): rewrites memory["about"]; every 7 days it's
      offered to draw a self-portrait (SVG via clean_svg) -> memory["portrait"], shown in the site header.
-2. NEXT: Wishes, plans & projects. In think-time it can start/advance/abandon/finish a project
-   (goal, why, plan steps). Tools per step: research-on-purpose (sets the walk's intention),
-   make for the project, publish a project page on the site, write to Thomas.
-3. Two-way contact + access requests: Blip emails Thomas (GitHub issue) and reads his replies
+2. DONE: Wishes, plans & projects. `plan(m)` runs right after `think` in every wander. It sees
+   ABILITIES (what it can and can't do - incl. no money) and its projects, then picks ONE action:
+   start (goal/why/2-6 steps; max 3 active) | work (how: research / make / update page / write to my
+   human) | finish | give up | none. research returns a purpose: the walk starts with SEARCH topic,
+   reaction_prompt mentions the purpose (it may still get distracted), and end_of_walk asks for
+   project_note + step_done. make -> make_for_project -> store_creation(project=...) (cap 3+2/day).
+   write -> write_to_human (notify; max 2/day; log type "letter"). memory["projects"] items:
+   {id, goal, why, steps[{text,done}], status active|finished|abandoned, started, updated, log[]}.
+   Site: "🎯 What I'm working on" with progress bar, steps, project creations, progress diary.
+3. NEXT: Two-way contact + access requests: Blip already emails Thomas (letters); now it should read his replies
    (issue comments) next run. Blip should know its abilities list and can ASK Thomas for abilities
    it lacks (e.g. music, videos); Thomas decides and a developer builds them.
    HARD RULE: Blip never handles real money (pretend fundraising only).

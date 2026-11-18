@@ -44,6 +44,16 @@
   .about { white-space: pre-wrap; font-size: 18px; }
   .thought { border-left: 4px solid var(--line); padding: 4px 0 4px 14px; margin: 0 0 14px; font-style: italic; }
   .thought:first-child { border-color: var(--accent); font-size: 18px; }
+  .project { border-left: 5px solid var(--accent); }
+  .project h3 { margin: 0 0 2px; font-size: 20px; }
+  .steps { list-style: none; padding: 0; margin: 12px 0; }
+  .steps li { padding: 3px 0; }
+  .steps li.done { color: var(--muted); text-decoration: line-through; }
+  .bar-outer { height: 8px; border-radius: 4px; background: var(--line); margin: 8px 0 4px; overflow: hidden; }
+  .bar-outer i { display: block; height: 100%; background: var(--accent); }
+  .plog { font-size: 15px; margin: 6px 0 0; padding-left: 18px; }
+  .thumbs { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+  .thumbs img { width: 90px; height: 90px; border-radius: 8px; background: #fff; border: 1px solid var(--line); }
   .mood strong { font-size: 22px; color: var(--accent); text-transform: lowercase; }
   .memory { position: relative; padding-top: 22px; }
   .memory::before { content: "📌"; position: absolute; top: -10px; left: 14px; font-size: 20px; }
@@ -87,6 +97,7 @@
   <section id="now-section"><h2>📍 Right now</h2><div id="now"></div></section>
   <section id="about-section"><h2>👋 About me</h2><div class="card about" id="about"></div></section>
   <section id="thoughts-section"><h2>🤔 Thinking out loud</h2><div id="thoughts"></div></section>
+  <section id="projects-section"><h2>🎯 What I'm working on</h2><div id="projects"></div><div id="projects-done"></div></section>
   <section id="mood-section"><h2>💭 How I'm feeling</h2><div class="card mood" id="mood"></div></section>
   <section id="self-section"><h2>📓 Peek at my notebook</h2><div class="card notebook" id="self"></div></section>
   <section id="opinions-section"><h2>🗯️ My opinions</h2><div class="card"><ul class="trail" id="opinions"></ul></div></section>
@@ -169,6 +180,27 @@ function render(m) {
   if (thoughts.length) $("thoughts").replaceChildren(...thoughts.slice(0, 3).map(thoughtEl),
     thoughts.length > 3 ? el("details", {}, el("summary", {}, `${thoughts.length - 3} earlier thoughts`), thoughts.slice(3, 40).map(thoughtEl)) : "");
   else hide("thoughts-section");
+
+  const projects = m.projects || [];
+  const projectCard = p => {
+    const done = p.steps.filter(x => x.done).length;
+    const made = (m.creations || []).filter(c => c.project === p.id);
+    const status = p.status === "active" ? "" : (p.status === "finished" ? " · 🏁 finished" : " · given up");
+    return el("div", { class: "card project" },
+      el("h3", {}, p.goal), el("div", { class: "muted" }, `because ${p.why} · started ${niceDate(p.started)}${status}`),
+      el("div", { class: "bar-outer" }, el("i", { style: `width:${p.steps.length ? done / p.steps.length * 100 : 0}%` })),
+      el("div", { class: "muted" }, `${done} of ${p.steps.length} steps`),
+      el("ul", { class: "steps" }, p.steps.map(x => el("li", { class: x.done ? "done" : "" }, (x.done ? "✅ " : "⬜ ") + x.text))),
+      made.length ? el("div", { class: "thumbs" }, made.map(c => c.svg
+        ? el("img", { alt: c.title, title: c.title, src: "data:image/svg+xml;charset=utf-8," + encodeURIComponent(c.svg) })
+        : el("span", { class: "muted" }, "📄 " + c.title))) : null,
+      p.log.length ? el("details", {}, el("summary", {}, "Progress diary"),
+        el("ul", { class: "plog" }, [...p.log].reverse().map(l => el("li", {}, `${niceDate(l.date)}: ${l.text}`)))) : null);
+  };
+  const activeP = projects.filter(p => p.status === "active"), pastP = projects.filter(p => p.status !== "active");
+  if (activeP.length) $("projects").replaceChildren(...activeP.map(projectCard));
+  else $("projects").replaceChildren(el("p", { class: "muted" }, "No projects right now. Blip starts one whenever it wants something."));
+  if (pastP.length) $("projects-done").replaceChildren(el("details", {}, el("summary", {}, `Past projects (${pastP.length})`), pastP.map(projectCard)));
 
   const ops = Object.values(m.opinions || {}).sort((a, b) => (b.date || "").localeCompare(a.date || ""));
   if (ops.length) $("opinions").replaceChildren(...ops.slice(0, 20).map(o => el("li", {},
