@@ -98,6 +98,12 @@ so he can flag anything confusing before moving on.
    latest, and 1 random old one (for surprise callbacks). Site shows mood + scrapbook.
 3. DONE (merged into "inner life" step 1 below).
 
+## Each hour is Blip's choice
+`wander` = one hour of life: `think` -> `plan` asks "how do you want to spend this hour?":
+wander (walk_about, 5 hops) | project (project_action; only walks if it chose research) |
+ponder (`ponder`: long think-through, topic + conclusion, may form an opinion; saved in thoughts
+with kind "ponder") | make (maybe_make just_because) | rest (logged). Diary knows all of these.
+
 ## Inner life roadmap (Thomas wants Pino-like agency, but emergent; agreed 3 steps)
 1. DONE: Inner voice + opinions + about me.
    - `think(m)` runs at the start of every `wander`: free-text talking-to-itself -> memory["thoughts"]

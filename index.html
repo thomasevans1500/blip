@@ -176,7 +176,11 @@ function render(m) {
   if (m.about) $("about").textContent = m.about; else hide("about-section");
 
   const thoughts = [...(m.thoughts || [])].reverse();
-  const thoughtEl = t => el("div", { class: "thought" }, el("div", {}, t.text), el("div", { class: "muted" }, ago(t.time)));
+  const thoughtEl = t => el("div", { class: "thought" },
+    t.topic ? el("div", { style: "font-style: normal; font-weight: 700" }, "Pondering: " + t.topic) : null,
+    el("div", { style: "white-space: pre-wrap" }, t.text),
+    t.conclusion ? el("div", { style: "font-style: normal" }, "→ " + t.conclusion) : null,
+    el("div", { class: "muted" }, ago(t.time)));
   if (thoughts.length) $("thoughts").replaceChildren(...thoughts.slice(0, 3).map(thoughtEl),
     thoughts.length > 3 ? el("details", {}, el("summary", {}, `${thoughts.length - 3} earlier thoughts`), thoughts.slice(3, 40).map(thoughtEl)) : "");
   else hide("thoughts-section");
