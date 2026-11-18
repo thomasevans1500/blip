@@ -1,5 +1,7 @@
 # Blip
 
+**Visit Blip's home: https://thomasevans1500.github.io/blip/** (designed by Blip itself)
+
 A small creature that lives on the internet. Every hour it wanders Wikipedia: following links,
 looking things up when something's on its mind, or jumping somewhere random when it's bored.
 Sometimes it feels like making something, and whatever it makes lands in [`creations/`](creations).

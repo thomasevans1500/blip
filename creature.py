@@ -6,7 +6,8 @@ Runs entirely free using Ollama (on your computer, or on GitHub Actions).
 
 Commands:
     python creature.py wander   -> it reads a few articles, reacts, maybe makes something
-    python creature.py diary    -> it writes today's diary entry and updates who it is
+    python creature.py diary    -> it writes today's diary entry, updates who it is, tends its website
+    python creature.py home     -> just the website part: redecorate and tend its spaces
     python creature.py chat     -> talk to it (type 'bye' to leave)
 """
 
@@ -28,6 +29,7 @@ HOPS_PER_WANDER = int(os.environ.get("BLIP_HOPS", "5"))  # articles it reads eac
 MAX_LOG = 1000                                           # oldest log entries are dropped past this
 ALERT_AT = int(os.environ.get("BLIP_ALERT_AT", "9"))     # interest score that counts as "amazing"
 MAX_CREATIONS_PER_DAY = 3                                # stops it flooding the creations folder
+MAX_OPEN_SPACES = 8                                      # how many rooms its website can have at once
 # ---------------------------------
 
 OLLAMA = os.environ.get("OLLAMA_URL", "http://localhost:11434")
@@ -62,6 +64,8 @@ def load():
         "log": [],
         "diary": [],
         "creations": [],
+        "spaces": [],
+        "home": {},
         "current": None,
     }
     if MEMORY_FILE.exists():
@@ -79,7 +83,8 @@ def today():
 
 
 def now():
-    return datetime.datetime.now().isoformat(timespec="minutes")
+    # include the timezone so the website can show "5 minutes ago" correctly for any visitor
+    return datetime.datetime.now().astimezone().isoformat(timespec="minutes")
 
 
 def who_am_i(m):
@@ -326,7 +331,7 @@ Reply in JSON:
 
     kind = str(r.get("kind", "thing")).strip() or "thing"
     title = str(r.get("title", "Untitled")).strip() or "Untitled"
-    content = str(r["content"]).strip()
+    content = str(r["content"]).strip("\n").rstrip()   # keep indents (ASCII art)
     CREATIONS_DIR.mkdir(exist_ok=True)
     stamp = datetime.datetime.now().strftime("%Y-%m-%d-%H%M")
     path = CREATIONS_DIR / f"{stamp}-{slugify(title)}.md"
@@ -334,6 +339,7 @@ Reply in JSON:
         f"# {title}\n\n*A {kind} by {NAME}, {today()}*\n\n> {r.get('why', '')}\n\n```\n{content}\n```\n",
         encoding="utf-8")
     m["creations"].append({"date": today(), "kind": kind, "title": title,
+                           "why": str(r.get("why", "")), "content": content,
                            "file": f"creations/{path.name}"})
     m["log"].append({"type": "made", "date": today(), "time": now(),
                      "kind": kind, "title": title, "why": str(r.get("why", ""))})
@@ -358,8 +364,10 @@ def diary(m):
             lines.append(f"- Read about {e['title']} ({e.get('via', '')}): {e['thought']} (felt {e['feeling']})")
         elif e["type"] == "made":
             lines.append(f"- Made a {e['kind']} called '{e['title']}' because: {e['why']}")
-        else:
+        elif e["type"] == "chat":
             lines.append(f"- Chatted with my human. They said: {e['you']} / I said: {e['me']}")
+        elif e["type"] == "home":
+            lines.append(f"- Worked on my website: {e['what']}")
     events = "\n".join(lines[-60:])
 
     try:
@@ -411,7 +419,172 @@ or find funny. Write in first person, under 150 words, plain text, no headings."
 
     save(m)
     print(f"📔 {NAME}'s diary, {today()}\n\n{text}\n\n"
-          f"Personality now: {', '.join(m['traits'])}\n\n🧠 Notes to self:\n{m['self']}")
+          f"Personality now: {', '.join(m['traits'])}\n\n🧠 Notes to self:\n{m['self']}\n")
+    home(m)
+
+
+# ---------- Its website (it decides how it looks and what's on it) ----------
+
+def _hex(value):
+    v = str(value or "").strip()
+    if re.fullmatch(r"#?[0-9a-fA-F]{3}", v):
+        v = "#" + "".join(c * 2 for c in v.lstrip("#"))
+    if re.fullmatch(r"#?[0-9a-fA-F]{6}", v):
+        return "#" + v.lstrip("#").lower()
+    return None
+
+
+def _lum(h):
+    def ch(c):
+        c = int(h[c:c + 2], 16) / 255
+        return c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4
+    return 0.2126 * ch(1) + 0.7152 * ch(3) + 0.0722 * ch(5)
+
+
+def contrast(a, b):
+    la, lb = sorted([_lum(a), _lum(b)], reverse=True)
+    return (la + 0.05) / (lb + 0.05)
+
+
+def _mix(a, b, t):
+    return "#" + "".join(f"{round(int(a[i:i+2], 16) * (1 - t) + int(b[i:i+2], 16) * t):02x}" for i in (1, 3, 5))
+
+
+def readable(bg, text, accent):
+    """Keep Blip's colour choices, but nudge them just enough that the page can be read."""
+    if contrast(bg, text) < 4.5:
+        text = "#111111" if contrast(bg, "#111111") >= contrast(bg, "#ffffff") else "#ffffff"
+    t = 0.0
+    while contrast(bg, accent) < 3 and t < 1:
+        t += 0.1
+        accent = _mix(accent, text, t)
+    return bg, text, accent
+
+
+def decorate(m):
+    """It decides what its home on the web looks like."""
+    old = m.get("home") or {}
+    current = (f"Right now it's called '{old.get('name')}', colours {old.get('background')}/"
+               f"{old.get('text')}/{old.get('accent')}, font {old.get('font')}." if old else
+               "You haven't decorated it yet.")
+    try:
+        r = ask(f"""{who_am_i(m)}
+
+You have a little home on the web where anyone can visit you. {current}
+Decide how it should look and feel right now, so it feels like you. Change as much or as little as you want.
+
+Reply in JSON:
+"name": a name for your home
+"tagline": one short line under the name
+"emoji": a single emoji that is you right now
+"background": background colour as a hex code like #aabbcc
+"text": text colour as a hex code
+"accent": accent colour as a hex code
+"font": the name of any Google Font you like
+"why": one sentence on why""", as_json=True, temperature=1.0)
+    except BrainError as e:
+        print(f"(couldn't decide how home should look: {e})")
+        return
+
+    bg = _hex(r.get("background")) or old.get("background", "#fdf6e3")
+    text = _hex(r.get("text")) or old.get("text", "#222222")
+    accent = _hex(r.get("accent")) or old.get("accent", "#d33682")
+    bg, text, accent = readable(bg, text, accent)
+    font = re.sub(r"[^A-Za-z0-9 ]", "", str(r.get("font", "")))[:40].strip() or old.get("font", "")
+    m["home"] = {
+        "name": str(r.get("name") or old.get("name") or f"{NAME}'s corner")[:60],
+        "tagline": str(r.get("tagline") or old.get("tagline") or "")[:140],
+        "emoji": str(r.get("emoji") or old.get("emoji") or "👾")[:8],
+        "background": bg, "text": text, "accent": accent, "font": font,
+        "why": str(r.get("why", ""))[:300], "date": today(),
+    }
+    m["log"].append({"type": "home", "date": today(), "time": now(),
+                     "what": f"redecorated it as '{m['home']['name']}' because {m['home']['why']}"})
+    save(m)
+    print(f"🏠 {m['home']['emoji']} {m['home']['name']}: {m['home']['tagline']}\n"
+          f"   {bg} / {text} / {accent}, font: {font or '(default)'}\n   {m['home']['why']}\n")
+
+
+def slug_for(m, title):
+    base, n = slugify(title), 2
+    taken = {sp["slug"] for sp in m["spaces"]}
+    slug = base
+    while slug in taken:
+        slug, n = f"{base}-{n}", n + 1
+    return slug
+
+
+def tend_spaces(m):
+    """It can open, add to, or close little rooms on its website. What they are is up to it."""
+    open_spaces = [sp for sp in m["spaces"] if sp["status"] == "open"]
+    listing = "\n".join(
+        f"- '{sp['title']}': {sp['about']} ({len(sp['entries'])} things in it; latest: "
+        f"{sp['entries'][-1]['text'][:120] if sp['entries'] else 'nothing yet'})"
+        for sp in open_spaces) or "- none yet"
+    try:
+        r = ask(f"""{who_am_i(m)}
+
+On your website you can have your own spaces: little rooms about anything at all, that you look after.
+Your spaces right now:
+{listing}
+You can have at most {MAX_OPEN_SPACES} open at once.
+
+You can open a new space, add something to one of your spaces, close one you've grown out of,
+or leave them all alone. Only do what you genuinely feel like.
+
+Reply in JSON:
+{{"actions": [up to 2 of these:
+   {{"do": "open", "space": "its title", "about": "one line on what it is", "content": "the first thing in it"}},
+   {{"do": "add", "space": "exact title of one of your spaces", "content": "what you add"}},
+   {{"do": "close", "space": "exact title of one of your spaces", "content": "a goodbye note"}}
+]}}
+Content is text only (plain characters if you draw). An empty list is fine.""", as_json=True, temperature=1.0)
+    except BrainError as e:
+        print(f"(couldn't think about spaces: {e})")
+        return
+
+    actions = r.get("actions")
+    if not isinstance(actions, list):
+        return
+    for a in actions[:2]:
+        if not isinstance(a, dict):
+            continue
+        do = str(a.get("do", "")).lower().strip()
+        title = str(a.get("space", "")).strip()[:80]
+        content = str(a.get("content", "")).strip("\n").rstrip()[:3000]   # keep indents (ASCII art)
+        if not title:
+            continue
+        sp = next((x for x in m["spaces"] if x["status"] == "open"
+                   and x["title"].lower() == title.lower()), None)
+        if do == "add" and sp is None:
+            do = "open"   # it tried to add to a space that doesn't exist; treat it as opening one
+        if do == "open" and sp is None:
+            if sum(1 for x in m["spaces"] if x["status"] == "open") >= MAX_OPEN_SPACES:
+                print(f"(wanted to open '{title}' but has no room left)")
+                continue
+            sp = {"slug": slug_for(m, title), "title": title, "about": str(a.get("about", ""))[:200],
+                  "status": "open", "created": today(), "entries": []}
+            m["spaces"].append(sp)
+            what = f"opened a new space called '{title}'"
+        elif do in ("open", "add"):
+            what = f"added something to my space '{sp['title']}'"
+        elif do == "close" and sp is not None:
+            sp["status"] = "closed"
+            sp["closed"] = today()
+            what = f"closed my space '{sp['title']}'"
+        else:
+            continue
+        if content:
+            sp["entries"].append({"date": today(), "text": content})
+            sp["entries"] = sp["entries"][-50:]
+        m["log"].append({"type": "home", "date": today(), "time": now(), "what": what})
+        print(f"🚪 {NAME} {what.replace('my space', 'its space')}" + (f":\n{content}\n" if content else ""))
+    save(m)
+
+
+def home(m):
+    decorate(m)
+    tend_spaces(m)
 
 
 def chat(m):
@@ -455,8 +628,8 @@ and bring up things you've read or made when it fits."""
 if __name__ == "__main__":
     command = sys.argv[1] if len(sys.argv) > 1 else "wander"
     memory = load()
-    actions = {"wander": wander, "diary": diary, "chat": chat}
+    actions = {"wander": wander, "diary": diary, "chat": chat, "home": home}
     if command in actions:
         actions[command](memory)
     else:
-        print("Use: python creature.py wander | diary | chat")
+        print("Use: python creature.py wander | diary | chat | home")

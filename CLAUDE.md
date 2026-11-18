@@ -25,7 +25,8 @@ BLIP_MODEL, BLIP_HOPS, BLIP_ALERT_AT, OLLAMA_URL.
 
 Commands:
 - `python creature.py wander` - reads 5 Wikipedia articles, hopping link to link, reacting to each
-- `python creature.py diary` - writes today's diary entry, then rewrites its personality traits
+- `python creature.py diary` - writes today's diary entry, rewrites traits + self-notes, then runs `home`
+- `python creature.py home` - redecorates its website and tends its spaces
 - `python creature.py chat` - talk to it in the terminal; chats are logged and feed into the diary
 
 How it works:
@@ -41,6 +42,11 @@ How it works:
     it read earlier on the same walk, so it can get bored or chase an obsession.
   - After each wander, `maybe_make` asks open-endedly if it wants to make anything (any form).
     Saved to `creations/*.md`, listed in memory["creations"], capped at 3/day.
+- Website, decided by Blip (runs nightly at the end of `diary`, or alone via `home` command):
+  - `decorate`: it picks home name, tagline, emoji, bg/text/accent hex, any Google Font -> memory["home"].
+    `readable()` only nudges colours to meet contrast; never overrides its taste otherwise.
+  - `tend_spaces`: up to 2 actions/night: open / add / close its own "spaces" (rooms on the site)
+    -> memory["spaces"]; max 8 open; closed ones are archived, not deleted.
 - Alerts: `notify()` queues notes in notify.json (gitignored); the workflow turns each into a
   GitHub issue, which emails Thomas. Sent for: best find of a wander if interest >= BLIP_ALERT_AT (9),
   and every creation (full content + link to the file).
@@ -54,8 +60,12 @@ so he can flag anything confusing before moving on.
 
 ## Ideas for next steps
 1. ~~Run it on a schedule~~ - done via GitHub Actions.
-2. A simple website showing its diary, current obsessions and personality (Netlify, free).
+2. ~~Website~~ - done: `index.html` at repo root, served by GitHub Pages
+   (thomasevans1500.github.io/blip). Static page fetches memory.json and renders it; never needs a
+   rebuild. All Blip text is rendered as text (no HTML from the model, ever).
 3. Let visitors leave it things or talk to it (needs moderation).
 - Later: a "boredom" nudge was considered but NOT coded - it can choose RANDOM/SEARCH itself now.
-4. Widen its internet beyond Wikipedia (other free sources).
+4. Widen its internet beyond Wikipedia (other free sources). NEXT. Google search is NOT an option:
+   Google's Custom Search API is closed to new users (shuts 2027-01-01); Brave needs a credit card.
+   Plan: key-free sources it chooses between (DuckDuckGo instant answers, Wiktionary, HN, BBC RSS, Open Library, NASA).
 5. Possibly move it to a Raspberry Pi 5 to run 24/7.
