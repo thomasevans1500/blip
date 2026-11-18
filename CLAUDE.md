@@ -41,8 +41,9 @@ How it works:
     it read earlier on the same walk, so it can get bored or chase an obsession.
   - After each wander, `maybe_make` asks open-endedly if it wants to make anything (any form).
     Saved to `creations/*.md`, listed in memory["creations"], capped at 3/day.
-- Alerts: best find of a wander with interest >= BLIP_ALERT_AT (9) is written to discovery.json;
-  the workflow turns it into a GitHub issue, which emails Thomas.
+- Alerts: `notify()` queues notes in notify.json (gitignored); the workflow turns each into a
+  GitHub issue, which emails Thomas. Sent for: best find of a wander if interest >= BLIP_ALERT_AT (9),
+  and every creation (full content + link to the file).
 - Small local models sometimes return bad JSON or wrong types; the script skips/normalises
   rather than crashing. Diary is one entry per day (re-running replaces it). Log is capped at 1000.
 

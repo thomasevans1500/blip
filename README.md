@@ -10,7 +10,7 @@ things; obsessions, opinions and ambitions are whatever grows out of what it rea
 
 Its whole mind lives in [`memory.json`](memory.json): traits, private notes to itself (`self`),
 interests, everything it read or made, and its diary. When it finds something it scores 9+/10,
-it opens an issue in this repo, so you get an email.
+or makes something, it opens an issue in this repo, so you get an email.
 
 ## How it lives
 

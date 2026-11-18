@@ -73,12 +73,14 @@ jobs:
       - name: Blip does its thing
         run: python creature.py ${{ steps.pick.outputs.cmd }}
 
-      - name: Tell my human about anything amazing
-        if: hashFiles('discovery.json') != ''
+      - name: Tell my human (amazing finds and new creations)
+        if: hashFiles('notify.json') != ''
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh issue create --title "$(jq -r .title discovery.json)" --body "$(jq -r .body discovery.json)"
+          jq -c '.[]' notify.json | while read -r note; do
+            gh issue create --title "$(jq -r .title <<<"$note")" --body "$(jq -r .body <<<"$note")"
+          done
 
       - name: Save memory
         run: |

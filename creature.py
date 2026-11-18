@@ -38,7 +38,7 @@ CONTACT = os.environ.get("BLIP_CONTACT", "").strip()
 HEADERS = {"User-Agent": f"BlipCreature/0.3 ({CONTACT + '; ' if CONTACT else ''}personal hobby project)"}
 HERE = Path(__file__).parent
 MEMORY_FILE = HERE / "memory.json"
-DISCOVERY_FILE = HERE / "discovery.json"   # picked up by GitHub Actions to open an issue
+NOTIFY_FILE = HERE / "notify.json"         # GitHub Actions turns each note in here into an issue (= email)
 CREATIONS_DIR = HERE / "creations"
 
 # Stop emoji from crashing older Windows terminals
@@ -181,6 +181,13 @@ def wiki_url(title):
 
 # ---------- Things it does ----------
 
+def notify(title, body):
+    """Queue a note for my human. On GitHub each one becomes an issue, which emails them."""
+    notes = json.loads(NOTIFY_FILE.read_text(encoding="utf-8")) if NOTIFY_FILE.exists() else []
+    notes.append({"title": title, "body": body})
+    NOTIFY_FILE.write_text(json.dumps(notes, ensure_ascii=False), encoding="utf-8")
+
+
 def report_discovery(best):
     """Leave a note about the best find of this wander, if it was amazing enough."""
     if not best or best["interest"] < ALERT_AT:
@@ -190,10 +197,7 @@ def report_discovery(best):
         f"Feeling: {best['feeling']} · Interest: {best['interest']}/10\n\n"
         f"🔗 {wiki_url(best['title'])}"
     )
-    DISCOVERY_FILE.write_text(json.dumps({
-        "title": f"{NAME} found something: {best['title']}",
-        "body": body,
-    }, ensure_ascii=False), encoding="utf-8")
+    notify(f"{NAME} found something: {best['title']}", body)
     print(f"✨ That was amazing! Leaving a note about {best['title']}.")
 
 
@@ -333,6 +337,11 @@ Reply in JSON:
                      "kind": kind, "title": title, "why": str(r.get("why", ""))})
     save(m)
     print(f"🎨 Made a {kind}: \"{title}\"\n{content}\n")
+
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    link = f"\n\n📁 https://github.com/{repo}/blob/main/creations/{path.name}" if repo else ""
+    notify(f"{NAME} made a {kind}: {title}",
+           f"*{r.get('why', '')}*\n\n````\n{content}\n````{link}")
 
 
 def diary(m):
