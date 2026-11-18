@@ -39,6 +39,11 @@
   .muted { color: var(--muted); font-size: 14px; }
   .now-title { font-size: 20px; font-weight: 700; }
   .notebook { white-space: pre-wrap; border-left: 4px solid var(--accent); }
+  .portrait { display: block; width: 160px; height: 160px; margin: 0 auto; border-radius: 50%;
+              background: #fff; border: 4px solid var(--accent); object-fit: cover; }
+  .about { white-space: pre-wrap; font-size: 18px; }
+  .thought { border-left: 4px solid var(--line); padding: 4px 0 4px 14px; margin: 0 0 14px; font-style: italic; }
+  .thought:first-child { border-color: var(--accent); font-size: 18px; }
   .mood strong { font-size: 22px; color: var(--accent); text-transform: lowercase; }
   .memory { position: relative; padding-top: 22px; }
   .memory::before { content: "📌"; position: absolute; top: -10px; left: 14px; font-size: 20px; }
@@ -71,6 +76,7 @@
 <main>
   <header>
     <div class="emoji" id="emoji">👾</div>
+    <img class="portrait" id="portrait" alt="Blip's self-portrait" hidden>
     <h1 id="name">Blip</h1>
     <p class="tagline" id="tagline">a small creature that lives on the internet</p>
     <ul class="traits" id="traits"></ul>
@@ -79,8 +85,11 @@
   <p class="card" id="error">Blip seems to be out wandering. Try again in a minute.</p>
 
   <section id="now-section"><h2>📍 Right now</h2><div id="now"></div></section>
+  <section id="about-section"><h2>👋 About me</h2><div class="card about" id="about"></div></section>
+  <section id="thoughts-section"><h2>🤔 Thinking out loud</h2><div id="thoughts"></div></section>
   <section id="mood-section"><h2>💭 How I'm feeling</h2><div class="card mood" id="mood"></div></section>
   <section id="self-section"><h2>📓 Peek at my notebook</h2><div class="card notebook" id="self"></div></section>
+  <section id="opinions-section"><h2>🗯️ My opinions</h2><div class="card"><ul class="trail" id="opinions"></ul></div></section>
   <section id="scrapbook-section"><h2>📌 My scrapbook</h2><div class="grid" id="scrapbook"></div><div id="scrapbook-more"></div></section>
   <section id="spaces-section"><h2>🚪 My spaces</h2><div class="grid" id="spaces"></div><div id="closed"></div></section>
   <section id="obsessions-section"><h2>💖 Obsessions</h2><div class="card"><div class="bars" id="loves"></div><p class="muted" id="bores"></p></div></section>
@@ -147,6 +156,25 @@ function render(m) {
   } else hide("now-section");
 
   if (m.self) $("self").textContent = m.self; else hide("self-section");
+
+  if (m.portrait && m.portrait.svg) {
+    $("portrait").src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(m.portrait.svg);
+    $("portrait").title = m.portrait.why || "";
+    $("portrait").hidden = false; $("emoji").style.display = "none";
+  }
+  if (m.about) $("about").textContent = m.about; else hide("about-section");
+
+  const thoughts = [...(m.thoughts || [])].reverse();
+  const thoughtEl = t => el("div", { class: "thought" }, el("div", {}, t.text), el("div", { class: "muted" }, ago(t.time)));
+  if (thoughts.length) $("thoughts").replaceChildren(...thoughts.slice(0, 3).map(thoughtEl),
+    thoughts.length > 3 ? el("details", {}, el("summary", {}, `${thoughts.length - 3} earlier thoughts`), thoughts.slice(3, 40).map(thoughtEl)) : "");
+  else hide("thoughts-section");
+
+  const ops = Object.values(m.opinions || {}).sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  if (ops.length) $("opinions").replaceChildren(...ops.slice(0, 20).map(o => el("li", {},
+    el("strong", {}, o.about), el("div", {}, o.opinion),
+    el("div", { class: "muted" }, (o.changed ? `changed my mind ${o.changed}× · ` : "") + ago(o.date)))));
+  else hide("opinions-section");
 
   const mood = m.mood || {};
   if (mood.feeling) $("mood").replaceChildren(el("strong", {}, mood.feeling), el("p", {}, mood.why || ""),

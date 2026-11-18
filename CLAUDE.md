@@ -96,4 +96,20 @@ so he can flag anything confusing before moving on.
    memory in its own words -> memory["scrapbook"] (max 300). `who_am_i(m, context)` includes the
    mood and `recall()`: memories sharing 2+ words (4+ letters) with what it's looking at, the 2
    latest, and 1 random old one (for surprise callbacks). Site shows mood + scrapbook.
-3. Self-description / self-portrait once it has some experience.
+3. DONE (merged into "inner life" step 1 below).
+
+## Inner life roadmap (Thomas wants Pino-like agency, but emergent; agreed 3 steps)
+1. DONE: Inner voice + opinions + about me.
+   - `think(m)` runs at the start of every `wander`: free-text talking-to-itself -> memory["thoughts"]
+     (max 200); the latest thought is in who_am_i.
+   - Reaction JSON has optional "opinion": {about, opinion} -> memory["opinions"] keyed by lowercased
+     about (max 100, counts mind changes). `relevant_opinions()` puts related + recent ones in who_am_i.
+   - Nightly `describe_self` (after diary, before home): rewrites memory["about"]; every 7 days it's
+     offered to draw a self-portrait (SVG via clean_svg) -> memory["portrait"], shown in the site header.
+2. NEXT: Wishes, plans & projects. In think-time it can start/advance/abandon/finish a project
+   (goal, why, plan steps). Tools per step: research-on-purpose (sets the walk's intention),
+   make for the project, publish a project page on the site, write to Thomas.
+3. Two-way contact + access requests: Blip emails Thomas (GitHub issue) and reads his replies
+   (issue comments) next run. Blip should know its abilities list and can ASK Thomas for abilities
+   it lacks (e.g. music, videos); Thomas decides and a developer builds them.
+   HARD RULE: Blip never handles real money (pretend fundraising only).

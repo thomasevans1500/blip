@@ -32,6 +32,9 @@ HOPS_PER_WANDER = int(os.environ.get("BLIP_HOPS", "5"))  # articles it reads eac
 MAX_LOG = 1000                                           # oldest log entries are dropped past this
 ALERT_AT = int(os.environ.get("BLIP_ALERT_AT", "9"))     # interest score that counts as "amazing"
 MAX_CREATIONS_PER_DAY = 3                                # stops it flooding the creations folder
+MAX_THOUGHTS = 200                                       # thinking-out-loud entries kept
+MAX_OPINIONS = 100                                       # opinions kept (least recently formed drop off)
+PORTRAIT_EVERY_DAYS = 7                                  # how often it's offered the chance to redraw itself
 MAX_SCRAPBOOK = 300                                      # memories it can keep (oldest drop off past this)
 MAX_OPEN_SPACES = 8                                      # how many rooms its website can have at once
 READ_CHARS = 4000                                        # how much of each page it gets to read
@@ -74,6 +77,10 @@ def load():
         "spaces": [],
         "home": {},
         "scrapbook": [],
+        "thoughts": [],
+        "opinions": {},
+        "about": "",
+        "portrait": None,
         "mood": {},
         "current": None,
     }
@@ -115,6 +122,21 @@ def recall(m, context="", n=5):
     return [book[i] for i in sorted(set(picks))]
 
 
+def relevant_opinions(m, context="", n=5):
+    """Opinions related to what it's looking at, plus its most recent ones."""
+    ops = list(m.get("opinions", {}).values())
+    if not ops:
+        return []
+    words = set(WORD_RE.findall(context.lower()))
+    related = [o for o in ops if words & set(WORD_RE.findall((o["about"] + " " + o["opinion"]).lower()))]
+    recent = sorted(ops, key=lambda o: o.get("date", ""))[-2:]
+    out = []
+    for o in related[: n - 2] + recent:
+        if o not in out:
+            out.append(o)
+    return out
+
+
 def who_am_i(m, context=""):
     top = sorted(m["interests"].items(), key=lambda x: -x[1])
     loves = ", ".join(t for t, s in top[:8] if s > 0) or "nothing yet"
@@ -124,14 +146,22 @@ def who_am_i(m, context=""):
     feeling = (f"Right now you're feeling {mood['feeling']}, because {mood['why']}\n"
                if mood.get("feeling") else "")
     memories = recall(m, context)
+    ops = relevant_opinions(m, context)
+    held = ("Opinions you hold:\n" + "\n".join(f"- {o['about']}: {o['opinion']}" for o in ops) + "\n") if ops else ""
+    last_thought = m.get("thoughts", [])[-1]["text"] if m.get("thoughts") else ""
+    thinking = f"What you were last thinking to yourself: {last_thought}\n" if last_thought else ""
+    about = f"How you describe yourself: {m['about']}\n" if m.get("about") else ""
     remembered = ("Memories from your scrapbook that come to mind:\n"
                   + "\n".join(f"- ({x['date']}) {x['memory']}" for x in memories) + "\n") if memories else ""
     return (
         f"You are {NAME}, a small creature who lives on the internet and wanders Wikipedia.\n"
         f"Your personality: {', '.join(m['traits'])}.\n"
+        f"{about}"
         f"Your private notes about yourself (written by you):\n{m['self']}\n"
         f"{feeling}"
         f"{remembered}"
+        f"{held}"
+        f"{thinking}"
         f"Things you've grown to love: {loves}.\n"
         f"Things that bore you: {hates}.\n"
         f"Things you've made recently: {made}."
@@ -442,13 +472,61 @@ Reply in JSON with these keys:
 "feeling": one word
 "interest": a number from 0 to 10 for how much this grabbed you
 "topics": a list of 1 to 3 short topic words this is about
+"opinion": if this gave you an opinion (new, or changed) about something, {{"about": "the thing", "opinion": "what you think, in your words"}}, otherwise null
 "next": where you go next. The whole internet is open to you. Pick ONE:
 {destination_menu()}
 {link_text}"""
     return prompt
 
 
+def form_opinion(m, op):
+    if not isinstance(op, dict):
+        return
+    about = str(op.get("about", "")).strip()[:60]
+    opinion = str(op.get("opinion", "")).strip()[:300]
+    if not about or len(opinion) < 5:
+        return
+    key = about.lower()
+    old = m.setdefault("opinions", {}).get(key)
+    if old and old["opinion"].lower() == opinion.lower():
+        old["date"] = now()          # still thinks the same; it's just fresher in its mind
+        return
+    m["opinions"][key] = {"about": about, "opinion": opinion, "date": now(),
+                          "changed": (old.get("changed", 0) + 1) if old else 0}
+    if len(m["opinions"]) > MAX_OPINIONS:
+        oldest = min(m["opinions"], key=lambda k: m["opinions"][k].get("date", ""))
+        del m["opinions"][oldest]
+    print(f"🗯️  {'Changed its mind about' if old else 'New opinion on'} {about}: {opinion}")
+
+
+def think(m):
+    """A quiet moment before setting off: it talks to itself about whatever's on its mind."""
+    recent = [e for e in m["log"] if e["type"] in ("read", "made", "kept")][-6:]
+    lately = "\n".join(f"- {e.get('title') or e.get('memory', '')}" for e in recent) or "- nothing yet"
+    try:
+        text = ask(f"""{who_am_i(m, context=lately)}
+
+Things from lately:
+{lately}
+
+You have a quiet moment before you set off wandering. Think out loud to yourself about whatever is
+on your mind: what you've been reading, how you feel, things you wonder about, want, worry about,
+or are planning. Nobody is listening. Write 2 to 5 sentences in first person, as you'd talk to
+yourself. Plain text, no headings.""", temperature=1.0)
+    except BrainError as e:
+        print(f"(couldn't gather its thoughts: {e})")
+        return
+    text = text.strip().strip('"')[:1000]
+    if len(text) < 10:
+        return
+    m.setdefault("thoughts", []).append({"time": now(), "text": text})
+    m["thoughts"] = m["thoughts"][-MAX_THOUGHTS:]
+    save(m)
+    print(f"🤔 {text}\n")
+
+
 def wander(m):
+    think(m)
     go = ("LINK", m["current"]) if m.get("current") else ("RANDOM", None)
     best = None
     walk = []        # what it has seen on this walk, so it can notice patterns and get bored
@@ -485,6 +563,7 @@ def wander(m):
             if key and len(key) <= 40:
                 m["interests"][key] = m["interests"].get(key, 0) + (interest - 5)
 
+        form_opinion(m, r.get("opinion"))
         thought = str(r.get("thought", ""))
         feeling = str(r.get("feeling", ""))
         entry = {"type": "read", "date": today(), "time": now(), "title": title,
@@ -767,7 +846,51 @@ or find funny. Write in first person, under 150 words, plain text, no headings."
     save(m)
     print(f"📔 {NAME}'s diary, {today()}\n\n{text}\n\n"
           f"Personality now: {', '.join(m['traits'])}\n\n🧠 Notes to self:\n{m['self']}\n")
+    describe_self(m)
     home(m)
+
+
+def describe_self(m):
+    """It writes its own 'about me', and every so often may draw itself."""
+    try:
+        about = ask(f"""{who_am_i(m)}
+
+Visitors to your website will read an "About me" written by you. Describe yourself: what you are,
+what you look like (imagine it however you like), and what you're about these days.
+First person, under 120 words, plain text, no headings.""", temperature=0.9)
+        if len(about) > 20:
+            m["about"] = about.strip()[:1200]
+            print(f"🪞 About me: {m['about']}\n")
+    except BrainError as e:
+        print(f"(couldn't describe itself: {e})")
+
+    last = (m.get("portrait") or {}).get("date")
+    if last and (datetime.date.today() - datetime.date.fromisoformat(last)).days < PORTRAIT_EVERY_DAYS:
+        save(m)
+        return
+    try:
+        r = ask(f"""{who_am_i(m)}
+
+{"You drew a self-portrait a while ago. Would you like to draw a new one?" if last else "You've never drawn yourself. Would you like to draw a self-portrait?"}
+It would go at the top of your website. Totally up to you.
+
+Reply in JSON:
+"draw": true or false
+"svg": if true, SVG code for your self-portrait on a 400 by 400 canvas (use single quotes inside the SVG)
+"why": one sentence""", as_json=True, temperature=1.0)
+        svg = clean_svg(r.get("svg")) if r.get("draw") is True else None
+        if svg:
+            m["portrait"] = {"svg": svg, "date": today(), "why": str(r.get("why", ""))[:300]}
+            m["log"].append({"type": "home", "date": today(), "time": now(),
+                             "what": f"drew a self-portrait because {m['portrait']['why']}"})
+            print(f"🖼️  Drew a self-portrait: {m['portrait']['why']}")
+        elif r.get("draw") is True:
+            print("🖍️  Tried to draw itself, but it came out as a scribble.")
+        else:
+            print(f"🖼️  Didn't want to draw itself. ({r.get('why', '')})")
+    except BrainError as e:
+        print(f"(brain hiccup about the self-portrait: {e})")
+    save(m)
 
 
 # ---------- Its website (it decides how it looks and what's on it) ----------
