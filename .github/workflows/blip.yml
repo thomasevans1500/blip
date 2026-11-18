@@ -96,6 +96,6 @@ jobs:
             gh issue create --title "$(jq -r .title <<<"$note")" --body "$(jq -r .body <<<"$note")"
           done
 
-      - name: Show Ollama log if something went wrong
-        if: failure()
-        run: tail -n 50 /tmp/ollama.log || true
+      - name: Brain health (errors from Ollama, if any)
+        if: always()
+        run: grep -iE "error|panic|fatal|out of memory" /tmp/ollama.log | tail -n 30 || echo "No brain errors."

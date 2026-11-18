@@ -18,6 +18,7 @@ import os
 import random
 import re
 import sys
+import time
 import urllib.parse
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -110,14 +111,19 @@ def who_am_i(m):
 # ---------- Brain (local model via Ollama) ----------
 
 def _post(path, body):
-    try:
-        r = requests.post(f"{OLLAMA}{path}", json=body, timeout=900)
-        r.raise_for_status()
-        return r.json()
-    except requests.ConnectionError:
-        raise BrainError(f"can't reach Ollama at {OLLAMA} - is it running? (try: ollama serve)")
-    except (requests.RequestException, ValueError) as e:
-        raise BrainError(str(e))
+    for attempt in range(2):          # the brain occasionally crashes on one request; try once more
+        try:
+            r = requests.post(f"{OLLAMA}{path}", json=body, timeout=900)
+            if r.status_code >= 500 and attempt == 0:
+                print(f"(brain stumbled: {r.status_code} {r.text[:200]} - trying again)")
+                time.sleep(3)
+                continue
+            r.raise_for_status()
+            return r.json()
+        except requests.ConnectionError:
+            raise BrainError(f"can't reach Ollama at {OLLAMA} - is it running? (try: ollama serve)")
+        except (requests.RequestException, ValueError) as e:
+            raise BrainError(f"{e} {getattr(getattr(e, 'response', None), 'text', '')[:200]}")
 
 
 def ask(prompt, as_json=False, temperature=0.8):
@@ -379,7 +385,7 @@ def choose_next(nxt, links):
         if up.startswith(cmd):
             if not needs_topic:
                 return (cmd, None), trip
-            topic = nxt[len(cmd):].lstrip(" :").strip()[:100]
+            topic = nxt[len(cmd):].lstrip(" :").strip().strip("'\"“”‘’ ").strip()[:100]
             if topic:
                 return (cmd, topic), trip.format(topic)
     return ("RANDOM", None), "jumped somewhere random"
