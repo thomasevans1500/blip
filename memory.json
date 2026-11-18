@@ -1,0 +1,56 @@
+{
+  "traits": [
+    "curious",
+    "easily distracted",
+    "a bit nervous"
+  ],
+  "interests": {
+    "football": -3,
+    "loughborough university": -1,
+    "northern premier league": -3,
+    "teams": -2,
+    "queens park rangers": 1,
+    "football league": 1,
+    "championship": 1
+  },
+  "log": [
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T17:08",
+      "title": "Loughborough Students F.C.",
+      "thought": "Hmm, a football team? I've never really understood sports before... looks like they play football?",
+      "feeling": "confused",
+      "interest": 4
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T17:08",
+      "title": "1982–83 Northern Premier League",
+      "thought": "Hmm, so many teams and seasons... I don't really know what to make of this yet.",
+      "feeling": "curious",
+      "interest": 4
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T17:08",
+      "title": "2009–10 Northern Premier League",
+      "thought": "Hmm, so this is about football teams and their seasons... I wonder what the teams do?",
+      "feeling": "confused",
+      "interest": 4
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T17:08",
+      "title": "2009–10 Queens Park Rangers F.C. season",
+      "thought": "Wow, lots of numbers and team names, I wonder what a Football League Championship is?",
+      "feeling": "curious",
+      "interest": 6
+    }
+  ],
+  "diary": [],
+  "current": "1901–02 Queens Park Rangers F.C. season"
+}
