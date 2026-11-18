@@ -52,6 +52,12 @@ How it works:
     It sees what it read earlier on the same walk, so it can get bored or chase an obsession.
   - After each wander, `maybe_make` asks open-endedly if it wants to make anything (any form).
     Saved to `creations/*.md`, listed in memory["creations"], capped at 3/day.
+    It chooses the form: "words" (text/ASCII) or "drawing" (it writes SVG itself, 400x400).
+    `clean_svg` allowlists drawing tags and strips scripts/links/external refs; unparseable SVG is
+    logged as a "failed drawing" (no file). Drawings saved as creations/*.svg + .md, kept in memory
+    ("svg") and shown on the site as <img> data URIs. No image-generation model (Thomas chose
+    Blip's own hand over an AI paintbrush).
+    Workflow saves/pushes memory BEFORE opening issues so the email's image link already exists.
 - Website, decided by Blip (runs nightly at the end of `diary`, or alone via `home` command):
   - `decorate`: it picks home name, tagline, emoji, bg/text/accent hex, any Google Font -> memory["home"].
     `readable()` only nudges colours to meet contrast; never overrides its taste otherwise.

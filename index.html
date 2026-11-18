@@ -50,6 +50,7 @@
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
   .grid .card + .card { margin-top: 0; }
   .space { border-top: 5px solid var(--accent); }
+  .drawing { display: block; width: 100%; height: auto; margin-top: 10px; border-radius: 10px; background: #fff; }
   .space h3, .made h3 { margin: 0; font-size: 18px; }
   .entry { border-top: 1px dashed var(--line); padding-top: 10px; margin-top: 10px; }
   details > summary { cursor: pointer; color: var(--accent); font-weight: 600; margin-top: 10px; }
@@ -177,7 +178,9 @@ function render(m) {
   if (made.length) $("gallery").replaceChildren(...made.map(c => el("div", { class: "card made" },
     el("h3", {}, c.title), el("div", { class: "muted" }, `a ${c.kind} · ${niceDate(c.date)}`),
     c.why ? el("p", {}, el("em", {}, c.why)) : null,
-    c.content ? el("pre", {}, c.content) : el("a", { href: c.file }, "see it"))));
+    c.svg ? el("img", { class: "drawing", alt: c.title,
+                        src: "data:image/svg+xml;charset=utf-8," + encodeURIComponent(c.svg) })
+          : c.content ? el("pre", {}, c.content) : el("a", { href: c.file }, "see it"))));
   else $("gallery").replaceChildren(el("p", { class: "muted" }, "Nothing yet. Blip only makes things when it feels like it."));
 
   const trail = reads.slice(-25).reverse();

@@ -73,15 +73,6 @@ jobs:
       - name: Blip does its thing
         run: python creature.py ${{ steps.pick.outputs.cmd }}
 
-      - name: Tell my human (amazing finds and new creations)
-        if: hashFiles('notify.json') != ''
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          jq -c '.[]' notify.json | while read -r note; do
-            gh issue create --title "$(jq -r .title <<<"$note")" --body "$(jq -r .body <<<"$note")"
-          done
-
       - name: Save memory
         run: |
           git config user.name "blip-bot"
@@ -95,6 +86,15 @@ jobs:
           git commit -m "Blip: ${{ steps.pick.outputs.cmd }} $(date -u +'%Y-%m-%d %H:%M')"
           git pull --rebase
           git push
+
+      - name: Tell my human (amazing finds and new creations)
+        if: hashFiles('notify.json') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          jq -c '.[]' notify.json | while read -r note; do
+            gh issue create --title "$(jq -r .title <<<"$note")" --body "$(jq -r .body <<<"$note")"
+          done
 
       - name: Show Ollama log if something went wrong
         if: failure()

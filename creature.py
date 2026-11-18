@@ -488,8 +488,56 @@ def slugify(text):
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:50] or "untitled"
 
 
+SVG_NS = "http://www.w3.org/2000/svg"
+ET.register_namespace("", SVG_NS)
+ET.register_namespace("xlink", "http://www.w3.org/1999/xlink")
+SVG_TAGS = {"svg", "g", "defs", "title", "desc", "rect", "circle", "ellipse", "line", "polyline",
+            "polygon", "path", "text", "tspan", "lineargradient", "radialgradient", "stop", "pattern",
+            "clippath", "mask", "animate", "animatetransform", "animatemotion", "filter",
+            "fegaussianblur", "feturbulence", "fedisplacementmap", "feoffset", "feblend"}
+
+
+def clean_svg(text):
+    """Keep Blip's drawing, but strip anything that isn't plain drawing (scripts, links, outside images).
+    Returns cleaned SVG text, or None if it isn't a readable drawing."""
+    found = re.search(r"<svg\b.*</svg>", str(text or ""), flags=re.S | re.I)
+    if not found:
+        return None
+    try:
+        root = ET.fromstring(found.group(0))
+    except ET.ParseError:
+        return None
+    local = lambda tag: tag.rsplit("}", 1)[-1].lower()
+    if local(root.tag) != "svg":
+        return None
+
+    def scrub(el):
+        for child in list(el):
+            if local(child.tag) not in SVG_TAGS:
+                el.remove(child)
+            else:
+                scrub(child)
+        for attr, val in list(el.attrib.items()):
+            name, v = local(attr), str(val).lower()
+            if (name.startswith("on") or "javascript:" in v or "@import" in v or "url(http" in v
+                    or (name == "href" and not v.startswith("#"))
+                    or (name == "attributename" and "href" in v)):
+                del el.attrib[attr]
+    scrub(root)
+    if len(root) == 0:
+        return None
+    if "viewBox" not in root.attrib:
+        w = re.sub(r"[^0-9.]", "", root.get("width", "")) or "400"
+        h = re.sub(r"[^0-9.]", "", root.get("height", "")) or "400"
+        root.set("viewBox", f"0 0 {w} {h}")
+    if not root.tag.startswith("{"):
+        root.set("xmlns", SVG_NS)     # without this, browsers won't show it as a picture
+    svg = ET.tostring(root, encoding="unicode")
+    return svg if len(svg) <= 40000 else None
+
+
 def maybe_make(m, walk):
-    """Ask whether it feels like making something. What and how is entirely up to it."""
+    """Ask whether it feels like making something. What, and in what form, is entirely up to it."""
     made_today = sum(1 for e in m["log"] if e["type"] == "made" and e["date"] == today())
     if made_today >= MAX_CREATIONS_PER_DAY:
         return
@@ -501,14 +549,18 @@ def maybe_make(m, walk):
 You just finished a walk around the internet. You read:
 {read}
 
-You're free to make something if you feel like it: anything at all, in any form you like.
-Or not. It's completely up to you.
+You're free to make something if you feel like it: anything at all. Or not. It's completely up to you.
+If you do, you choose how:
+  - "words": write it (a poem, a story, a list, a letter, ASCII art, anything written)
+  - "drawing": draw it yourself, by writing SVG code for a picture on a 400 by 400 canvas
+    (any shapes, lines, colours or text you like; use single quotes inside the SVG)
 
 Reply in JSON:
 "make": true or false
-"kind": if true, one or two words for what it is (in your own words)
-"title": if true, its title
-"content": if true, the thing itself (text only; use plain characters if you draw)
+"form": "words" or "drawing"
+"kind": one or two words for what it is (in your own words)
+"title": its title
+"content": the thing itself: your words, or your SVG code if it's a drawing
 "why": one sentence on why you did or didn't feel like making something""", as_json=True, temperature=1.0)
     except BrainError as e:
         print(f"(brain hiccup while thinking about making something: {e})")
@@ -518,27 +570,50 @@ Reply in JSON:
         print(f"🎨 Didn't feel like making anything. ({r.get('why', '')})")
         return
 
-    kind = str(r.get("kind", "thing")).strip() or "thing"
-    title = str(r.get("title", "Untitled")).strip() or "Untitled"
-    content = str(r["content"]).strip("\n").rstrip()   # keep indents (ASCII art)
+    kind = str(r.get("kind", "thing")).strip()[:40] or "thing"
+    title = str(r.get("title", "Untitled")).strip()[:100] or "Untitled"
+    why = str(r.get("why", ""))[:300]
+    raw = str(r["content"])
+    is_drawing = str(r.get("form", "")).lower().startswith("draw") or raw.lstrip().lower().startswith("<svg")
+    svg = clean_svg(raw) if is_drawing else None
+
+    if is_drawing and not svg:
+        # It tried, and it didn't work out. That's part of its story too.
+        m["log"].append({"type": "made", "date": today(), "time": now(), "kind": "failed drawing",
+                         "title": title, "why": why + " (but the drawing came out as a scribble nobody can see)"})
+        save(m)
+        print(f"🖍️  Tried to draw \"{title}\" but it came out as an unreadable scribble.")
+        return
+
     CREATIONS_DIR.mkdir(exist_ok=True)
     stamp = datetime.datetime.now().strftime("%Y-%m-%d-%H%M")
-    path = CREATIONS_DIR / f"{stamp}-{slugify(title)}.md"
-    path.write_text(
-        f"# {title}\n\n*A {kind} by {NAME}, {today()}*\n\n> {r.get('why', '')}\n\n```\n{content}\n```\n",
-        encoding="utf-8")
-    m["creations"].append({"date": today(), "kind": kind, "title": title,
-                           "why": str(r.get("why", "")), "content": content,
-                           "file": f"creations/{path.name}"})
-    m["log"].append({"type": "made", "date": today(), "time": now(),
-                     "kind": kind, "title": title, "why": str(r.get("why", ""))})
-    save(m)
-    print(f"🎨 Made a {kind}: \"{title}\"\n{content}\n")
-
+    base = f"{stamp}-{slugify(title)}"
     repo = os.environ.get("GITHUB_REPOSITORY")
-    link = f"\n\n📁 https://github.com/{repo}/blob/main/creations/{path.name}" if repo else ""
-    notify(f"{NAME} made a {kind}: {title}",
-           f"*{r.get('why', '')}*\n\n````\n{content}\n````{link}")
+    entry = {"date": today(), "kind": kind, "title": title, "why": why, "file": f"creations/{base}.md"}
+
+    if svg:
+        (CREATIONS_DIR / f"{base}.svg").write_text(svg, encoding="utf-8")
+        body = f"![{title}]({base}.svg)"
+        entry.update(form="drawing", svg=svg, image=f"creations/{base}.svg")
+        shown = f"(a drawing, {len(svg)} characters of SVG)"
+        email = (f"*{why}*\n\n![{title}](https://raw.githubusercontent.com/{repo}/main/creations/{base}.svg)"
+                 if repo else f"*{why}*")
+    else:
+        content = raw.strip("\n").rstrip()   # keep indents (ASCII art)
+        body = f"```\n{content}\n```"
+        entry.update(form="words", content=content)
+        shown = content
+        email = f"*{why}*\n\n````\n{content}\n````"
+
+    (CREATIONS_DIR / f"{base}.md").write_text(
+        f"# {title}\n\n*A {kind} by {NAME}, {today()}*\n\n> {why}\n\n{body}\n", encoding="utf-8")
+    m["creations"].append(entry)
+    m["log"].append({"type": "made", "date": today(), "time": now(), "kind": kind, "title": title, "why": why})
+    save(m)
+    print(f"🎨 Made a {kind}: \"{title}\"\n{shown}\n")
+
+    link = f"\n\n📁 https://github.com/{repo}/blob/main/creations/{base}.md" if repo else ""
+    notify(f"{NAME} made a {kind}: {title}", email + link)
 
 
 def diary(m):
