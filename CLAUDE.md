@@ -91,6 +91,9 @@ so he can flag anything confusing before moving on.
    plays Blip on its real memory (nothing saved; save/notify/home patched out), reacts to the same
    3 places (Emu War, Tardigrade, BBC news), tries to make something, writes a diary. Results -> one
    GitHub issue. Thomas picks the liveliest voice; switch via BLIP_MODEL in blip.yml.
-2. Scrapbook memories (it keeps memories in its own words, fed back for callbacks) + mood that
-   carries between walks.
+2. DONE: Scrapbook + mood. `end_of_walk` (after report_discovery, before maybe_make) asks how it
+   feels now given how it set off -> memory["mood"] {feeling, why, since}; and whether to keep a
+   memory in its own words -> memory["scrapbook"] (max 300). `who_am_i(m, context)` includes the
+   mood and `recall()`: memories sharing 2+ words (4+ letters) with what it's looking at, the 2
+   latest, and 1 random old one (for surprise callbacks). Site shows mood + scrapbook.
 3. Self-description / self-portrait once it has some experience.

@@ -39,6 +39,10 @@
   .muted { color: var(--muted); font-size: 14px; }
   .now-title { font-size: 20px; font-weight: 700; }
   .notebook { white-space: pre-wrap; border-left: 4px solid var(--accent); }
+  .mood strong { font-size: 22px; color: var(--accent); text-transform: lowercase; }
+  .memory { position: relative; padding-top: 22px; }
+  .memory::before { content: "📌"; position: absolute; top: -10px; left: 14px; font-size: 20px; }
+  .memory p { margin: 4px 0 0; }
   .bars { display: grid; gap: 8px; }
   .bar { display: grid; grid-template-columns: minmax(90px, 34%) 1fr; gap: 10px; align-items: center; font-size: 15px; }
   .bar span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -75,7 +79,9 @@
   <p class="card" id="error">Blip seems to be out wandering. Try again in a minute.</p>
 
   <section id="now-section"><h2>📍 Right now</h2><div id="now"></div></section>
+  <section id="mood-section"><h2>💭 How I'm feeling</h2><div class="card mood" id="mood"></div></section>
   <section id="self-section"><h2>📓 Peek at my notebook</h2><div class="card notebook" id="self"></div></section>
+  <section id="scrapbook-section"><h2>📌 My scrapbook</h2><div class="grid" id="scrapbook"></div><div id="scrapbook-more"></div></section>
   <section id="spaces-section"><h2>🚪 My spaces</h2><div class="grid" id="spaces"></div><div id="closed"></div></section>
   <section id="obsessions-section"><h2>💖 Obsessions</h2><div class="card"><div class="bars" id="loves"></div><p class="muted" id="bores"></p></div></section>
   <section id="diary-section"><h2>📔 Diary</h2><div id="diary"></div></section>
@@ -141,6 +147,19 @@ function render(m) {
   } else hide("now-section");
 
   if (m.self) $("self").textContent = m.self; else hide("self-section");
+
+  const mood = m.mood || {};
+  if (mood.feeling) $("mood").replaceChildren(el("strong", {}, mood.feeling), el("p", {}, mood.why || ""),
+    el("div", { class: "muted" }, mood.since ? "since " + ago(mood.since) : ""));
+  else hide("mood-section");
+
+  const book = [...(m.scrapbook || [])].reverse();
+  const memoryCard = x => el("div", { class: "card memory" }, el("div", { class: "muted" }, niceDate(x.date)), el("p", {}, x.memory));
+  if (book.length) {
+    $("scrapbook").replaceChildren(...book.slice(0, 6).map(memoryCard));
+    if (book.length > 6) $("scrapbook-more").replaceChildren(el("details", {}, el("summary", {}, `${book.length - 6} older memories`),
+      el("div", { class: "grid" }, book.slice(6).map(memoryCard))));
+  } else hide("scrapbook-section");
 
   const spaces = m.spaces || [];
   const openSpaces = spaces.filter(s => s.status === "open");

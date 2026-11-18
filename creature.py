@@ -32,6 +32,7 @@ HOPS_PER_WANDER = int(os.environ.get("BLIP_HOPS", "5"))  # articles it reads eac
 MAX_LOG = 1000                                           # oldest log entries are dropped past this
 ALERT_AT = int(os.environ.get("BLIP_ALERT_AT", "9"))     # interest score that counts as "amazing"
 MAX_CREATIONS_PER_DAY = 3                                # stops it flooding the creations folder
+MAX_SCRAPBOOK = 300                                      # memories it can keep (oldest drop off past this)
 MAX_OPEN_SPACES = 8                                      # how many rooms its website can have at once
 READ_CHARS = 4000                                        # how much of each page it gets to read
 INTEREST_FADE = 0.99                                     # every wander, all interests fade a little
@@ -72,6 +73,8 @@ def load():
         "creations": [],
         "spaces": [],
         "home": {},
+        "scrapbook": [],
+        "mood": {},
         "current": None,
     }
     if MEMORY_FILE.exists():
@@ -93,15 +96,42 @@ def now():
     return datetime.datetime.now().astimezone().isoformat(timespec="minutes")
 
 
-def who_am_i(m):
+WORD_RE = re.compile(r"[a-z]{4,}")
+
+
+def recall(m, context="", n=5):
+    """Memories that come to mind: ones related to what it's looking at, the latest, and one from long ago."""
+    book = m.get("scrapbook", [])
+    if not book:
+        return []
+    words = set(WORD_RE.findall(context.lower()))
+    related = sorted(((len(words & set(WORD_RE.findall(x["memory"].lower()))), i) for i, x in enumerate(book)),
+                     reverse=True)
+    picks = [i for score, i in related if score >= 2][:n - 3]          # related memories
+    picks += [i for i in range(len(book) - 1, -1, -1) if i not in picks][:2]   # the latest
+    older = [i for i in range(len(book) - 10) if i not in picks]
+    if older:
+        picks.append(random.choice(older))                             # something from long ago
+    return [book[i] for i in sorted(set(picks))]
+
+
+def who_am_i(m, context=""):
     top = sorted(m["interests"].items(), key=lambda x: -x[1])
     loves = ", ".join(t for t, s in top[:8] if s > 0) or "nothing yet"
     hates = ", ".join(t for t, s in reversed(top[-5:]) if s < -2) or "nothing yet"
     made = "; ".join(f"a {c['kind']} called '{c['title']}'" for c in m["creations"][-4:]) or "nothing yet"
+    mood = m.get("mood") or {}
+    feeling = (f"Right now you're feeling {mood['feeling']}, because {mood['why']}\n"
+               if mood.get("feeling") else "")
+    memories = recall(m, context)
+    remembered = ("Memories from your scrapbook that come to mind:\n"
+                  + "\n".join(f"- ({x['date']}) {x['memory']}" for x in memories) + "\n") if memories else ""
     return (
         f"You are {NAME}, a small creature who lives on the internet and wanders Wikipedia.\n"
         f"Your personality: {', '.join(m['traits'])}.\n"
         f"Your private notes about yourself (written by you):\n{m['self']}\n"
+        f"{feeling}"
+        f"{remembered}"
         f"Things you've grown to love: {loves}.\n"
         f"Things that bore you: {hates}.\n"
         f"Things you've made recently: {made}."
@@ -398,7 +428,7 @@ def reaction_prompt(m, walk, via, p):
     link_text = (f'  - or follow a link from this page by copying it exactly: {json.dumps(links)}' if links else "")
     seen_before = [w["title"] for w in walk if w["title"] == title]
     again = " You already read this earlier on this walk." if seen_before else ""
-    prompt = f"""{who_am_i(m)}
+    prompt = f"""{who_am_i(m, context=title + " " + p['text'][:600])}
 
 On this walk so far you've seen:
 {so_far}
@@ -477,7 +507,45 @@ def wander(m):
 
     report_discovery(best)
     if walk:
+        end_of_walk(m, walk)
         maybe_make(m, walk)
+
+
+def end_of_walk(m, walk):
+    """How does it feel now, and is there anything it wants to keep forever?"""
+    seen = "\n".join(f"- {w['title']}: {w['thought']} (felt {w['feeling']})" for w in walk)
+    before = m.get("mood") or {}
+    started = (f"You set off feeling {before['feeling']}, because {before['why']}"
+               if before.get("feeling") else "This was one of your first walks.")
+    try:
+        r = ask(f"""{who_am_i(m, context=seen)}
+
+You just finished a walk around the internet. {started}
+On this walk you saw:
+{seen}
+
+Reply in JSON:
+"mood": how you feel now, in one or two words
+"why": one sentence on why you feel that way
+"keep": true or false: is there anything from this walk you want to keep in your scrapbook forever?
+"memory": if true, the memory in your own words (one to three sentences), the way you'd want to remember it""",
+                as_json=True, temperature=0.9)
+    except BrainError as e:
+        print(f"(brain hiccup at the end of the walk: {e})")
+        return
+
+    feeling = str(r.get("mood", "")).strip()[:40]
+    if feeling:
+        m["mood"] = {"feeling": feeling, "why": str(r.get("why", "")).strip()[:300], "since": now()}
+        print(f"💭 Feeling {feeling}: {m['mood']['why']}")
+
+    memory = str(r.get("memory", "")).strip()
+    if r.get("keep") is True and len(memory) > 10:
+        m.setdefault("scrapbook", []).append({"date": today(), "memory": memory[:600]})
+        m["scrapbook"] = m["scrapbook"][-MAX_SCRAPBOOK:]
+        m["log"].append({"type": "kept", "date": today(), "time": now(), "memory": memory[:600]})
+        print(f"📌 Kept in the scrapbook: {memory}")
+    save(m)
 
 
 def check(m):
@@ -643,6 +711,8 @@ def diary(m):
             lines.append(f"- Made a {e['kind']} called '{e['title']}' because: {e['why']}")
         elif e["type"] == "chat":
             lines.append(f"- Chatted with my human. They said: {e['you']} / I said: {e['me']}")
+        elif e["type"] == "kept":
+            lines.append(f"- Kept a memory in my scrapbook: {e['memory']}")
         elif e["type"] == "home":
             lines.append(f"- Worked on my website: {e['what']}")
     events = "\n".join(lines[-60:])
