@@ -24,6 +24,7 @@ NAME = "Blip"                                            # your creature's name
 MODEL = os.environ.get("BLIP_MODEL", "llama3.2:3b")      # any model you've pulled with Ollama
 HOPS_PER_WANDER = int(os.environ.get("BLIP_HOPS", "5"))  # articles it reads each time it wanders
 MAX_LOG = 1000                                           # oldest log entries are dropped past this
+ALERT_AT = int(os.environ.get("BLIP_ALERT_AT", "9"))     # interest score that counts as "amazing"
 # ---------------------------------
 
 OLLAMA = os.environ.get("OLLAMA_URL", "http://localhost:11434")
@@ -33,6 +34,7 @@ WIKI = "https://en.wikipedia.org"
 CONTACT = os.environ.get("BLIP_CONTACT", "").strip()
 HEADERS = {"User-Agent": f"BlipCreature/0.2 ({CONTACT + '; ' if CONTACT else ''}personal hobby project)"}
 MEMORY_FILE = Path(__file__).with_name("memory.json")
+DISCOVERY_FILE = Path(__file__).with_name("discovery.json")  # picked up by GitHub Actions to open an issue
 
 # Stop emoji from crashing older Windows terminals
 try:
@@ -149,8 +151,29 @@ def get_links(title):
 
 # ---------- Things it does ----------
 
+def wiki_url(title):
+    return f"{WIKI}/wiki/{urllib.parse.quote(title.replace(' ', '_'))}"
+
+
+def report_discovery(best):
+    """Leave a note about the best find of this wander, if it was amazing enough."""
+    if not best or best["interest"] < ALERT_AT:
+        return
+    body = (
+        f"**{best['title']}**: {best['thought']}\n\n"
+        f"Feeling: {best['feeling']} · Interest: {best['interest']}/10\n\n"
+        f"🔗 {wiki_url(best['title'])}"
+    )
+    DISCOVERY_FILE.write_text(json.dumps({
+        "title": f"{NAME} found something: {best['title']}",
+        "body": body,
+    }, ensure_ascii=False), encoding="utf-8")
+    print(f"✨ That was amazing! Leaving a note about {best['title']}.")
+
+
 def wander(m):
     title = m.get("current")
+    best = None
     for _ in range(HOPS_PER_WANDER):
         try:
             title, text = read_article(title)
@@ -197,11 +220,15 @@ Reply in JSON with these keys:
                          "title": title, "thought": thought, "feeling": feeling,
                          "interest": interest})
         print(f"📖 {title}\n   {thought} ({feeling}, {interest}/10)\n")
+        if best is None or interest > best["interest"]:
+            best = {"title": title, "thought": thought, "feeling": feeling, "interest": interest}
 
         nxt = r.get("next")
         title = nxt if nxt in options else None
         m["current"] = title
         save(m)
+
+    report_discovery(best)
 
 
 def diary(m):
