@@ -1,0 +1,76 @@
+name: Brain audition
+
+# Run by hand (Actions -> Brain audition -> Run workflow). Each candidate brain plays Blip using
+# Blip's real memories, without changing them. Results are posted as one issue (= an email).
+on:
+  workflow_dispatch:
+    inputs:
+      models:
+        description: "Brains to try (JSON list of Ollama model names)"
+        default: '["qwen2.5:7b", "llama3.1:8b", "gemma3:4b", "hermes3:8b", "mistral-nemo:12b"]'
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  audition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        model: ${{ fromJSON(inputs.models) }}
+    env:
+      BLIP_MODEL: ${{ matrix.model }}
+      BLIP_CONTACT: ${{ vars.BLIP_CONTACT }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Install Ollama and the brain
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          sudo systemctl stop ollama || true
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          for i in $(seq 1 30); do curl -sf http://localhost:11434 && break; sleep 2; done
+          ollama pull "$BLIP_MODEL"
+      - name: Audition
+        run: python audition.py
+      - name: Keep the results
+        if: always()
+        run: |
+          name="audition-$(echo "$BLIP_MODEL" | tr ':/' '--')"
+          [ -f "$name.md" ] || echo -e "## 🧠 \`$BLIP_MODEL\`\n\n⚠️ This brain didn't finish. $(tail -n 5 /tmp/ollama.log 2>/dev/null)" > "$name.md"
+          echo "name=$name" >> "$GITHUB_ENV"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ${{ env.name }}
+          path: audition-*
+
+  results:
+    needs: audition
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          merge-multiple: true
+      - name: Post the results as one issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          {
+            echo "Each brain played Blip using its real memories (nothing was saved)."
+            echo "Same three places for everyone: the Emu War, tardigrades, and today's BBC news."
+            echo "Read them and pick the one that sounds most alive. 🙂"
+            echo
+            for f in audition-*.md; do cat "$f"; echo; echo "---"; echo; done
+          } > results.md
+          head -c 60000 results.md > body.md
+          gh issue create --title "🧠 Brain audition results" --body-file body.md
+          cat results.md >> "$GITHUB_STEP_SUMMARY"

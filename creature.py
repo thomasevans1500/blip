@@ -385,6 +385,33 @@ def choose_next(nxt, links):
     return ("RANDOM", None), "jumped somewhere random"
 
 
+def reaction_prompt(m, walk, via, p):
+    """What Blip is asked after landing somewhere (also used by audition.py, so brains are compared fairly)."""
+    title, links = p["title"], p["links"]
+    so_far = "\n".join(f"- {w['title']} ({w['feeling']}, {w['interest']}/10)" for w in walk) or "- nothing yet, you just set off"
+    link_text = (f'  - or follow a link from this page by copying it exactly: {json.dumps(links)}' if links else "")
+    seen_before = [w["title"] for w in walk if w["title"] == title]
+    again = " You already read this earlier on this walk." if seen_before else ""
+    prompt = f"""{who_am_i(m)}
+
+On this walk so far you've seen:
+{so_far}
+
+You just {via}, and landed on this ({p['source']}).{again}
+TITLE: {title}
+TEXT: {p['text'][:READ_CHARS]}
+
+Reply in JSON with these keys:
+"thought": one or two sentences of your honest reaction, in your own voice
+"feeling": one word
+"interest": a number from 0 to 10 for how much this grabbed you
+"topics": a list of 1 to 3 short topic words this is about
+"next": where you go next. The whole internet is open to you. Pick ONE:
+{destination_menu()}
+{link_text}"""
+    return prompt
+
+
 def wander(m):
     go = ("LINK", m["current"]) if m.get("current") else ("RANDOM", None)
     best = None
@@ -403,27 +430,7 @@ def wander(m):
             continue
 
         title, links = p["title"], p["links"]
-        so_far = "\n".join(f"- {w['title']} ({w['feeling']}, {w['interest']}/10)" for w in walk) or "- nothing yet, you just set off"
-        link_text = (f'  - or follow a link from this page by copying it exactly: {json.dumps(links)}' if links else "")
-        seen_before = [w["title"] for w in walk if w["title"] == title]
-        again = " You already read this earlier on this walk." if seen_before else ""
-        prompt = f"""{who_am_i(m)}
-
-On this walk so far you've seen:
-{so_far}
-
-You just {via}, and landed on this ({p['source']}).{again}
-TITLE: {title}
-TEXT: {p['text'][:READ_CHARS]}
-
-Reply in JSON with these keys:
-"thought": one or two sentences of your honest reaction, in your own voice
-"feeling": one word
-"interest": a number from 0 to 10 for how much this grabbed you
-"topics": a list of 1 to 3 short topic words this is about
-"next": where you go next. The whole internet is open to you. Pick ONE:
-{destination_menu()}
-{link_text}"""
+        prompt = reaction_prompt(m, walk, via, p)
 
         try:
             r = ask(prompt, as_json=True)

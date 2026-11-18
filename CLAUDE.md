@@ -84,3 +84,12 @@ so he can flag anything confusing before moving on.
 4. ~~Widen its internet~~ - done. Google search is NOT an option: Google's Custom Search API is
    closed to new users (shuts 2027-01-01); Brave needs a credit card. Instead: key-free sources.
 5. Possibly move it to a Raspberry Pi 5 to run 24/7.
+
+## Personality roadmap (agreed with Thomas, in order)
+1. Brain audition - `audition.py` + `.github/workflows/audition.yml` (manual): each candidate model
+   plays Blip on its real memory (nothing saved; save/notify/home patched out), reacts to the same
+   3 places (Emu War, Tardigrade, BBC news), tries to make something, writes a diary. Results -> one
+   GitHub issue. Thomas picks the liveliest voice; switch via BLIP_MODEL in blip.yml.
+2. Scrapbook memories (it keeps memories in its own words, fed back for callbacks) + mood that
+   carries between walks.
+3. Self-description / self-portrait once it has some experience.
