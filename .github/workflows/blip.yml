@@ -93,7 +93,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           jq -c '.[]' notify.json | while read -r note; do
-            gh issue create --title "$(jq -r .title <<<"$note")" --body "$(jq -r .body <<<"$note")"
+            gh issue create --assignee "${{ github.repository_owner }}" --title "$(jq -r .title <<<"$note")" --body "$(jq -r .body <<<"$note")"
           done
 
       - name: Brain health (errors from Ollama, if any)

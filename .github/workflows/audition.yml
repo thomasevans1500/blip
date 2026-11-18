@@ -72,5 +72,5 @@ jobs:
             for f in audition-*.md; do cat "$f"; echo; echo "---"; echo; done
           } > results.md
           head -c 60000 results.md > body.md
-          gh issue create --title "🧠 Brain audition results" --body-file body.md
+          gh issue create --assignee "${{ github.repository_owner }}" --title "🧠 Brain audition results" --body-file body.md
           cat results.md >> "$GITHUB_STEP_SUMMARY"
