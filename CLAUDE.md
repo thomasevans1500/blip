@@ -121,7 +121,18 @@ with kind "ponder") | make (maybe_make just_because) | rest (logged). Diary know
    write -> write_to_human (notify; max 2/day; log type "letter"). memory["projects"] items:
    {id, goal, why, steps[{text,done}], status active|finished|abandoned, started, updated, log[]}.
    Site: "🎯 What I'm working on" with progress bar, steps, project creations, progress diary.
-3. NEXT: Two-way contact + access requests: Blip already emails Thomas (letters); now it should read his replies
-   (issue comments) next run. Blip should know its abilities list and can ASK Thomas for abilities
-   it lacks (e.g. music, videos); Thomas decides and a developer builds them.
+3. DONE: Two-way contact. `check_mail` runs first in every hour (wander): via the GitHub API
+   (GH_TOKEN passed to the Blip step) it reads issue comments + new issues since memory["mail_checked"],
+   ONLY from GITHUB_REPOSITORY_OWNER (public repo: strangers must not inject thoughts; bot comments
+   ignored). `answer_mail` (max 3/hour): reply posted as an issue comment (Thomas gets emailed),
+   mood updated, optional scrapbook memory, optional project_note (project matched from the letter
+   title). memory["mail"] (max 100); who_am_i includes the last thing the human said.
+   Thomas talks to Blip by replying to its emails or opening a new issue.
+   Access requests: ABILITIES lists what it can't do; it can ask Thomas in a letter. Granting a new
+   ability = a developer builds it and updates ABILITIES.
    HARD RULE: Blip never handles real money (pretend fundraising only).
+
+## Known issue (2026-11-18)
+GitHub's cron schedule had NOT fired once in the first ~5 hours (all runs were manual
+workflow_dispatch). If it still doesn't, add a fallback trigger (e.g. a free external cron calling
+workflow_dispatch with a fine-grained token, or Thomas's n8n).

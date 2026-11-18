@@ -33,6 +33,7 @@ MAX_LOG = 1000                                           # oldest log entries ar
 ALERT_AT = int(os.environ.get("BLIP_ALERT_AT", "9"))     # interest score that counts as "amazing"
 MAX_CREATIONS_PER_DAY = 3                                # stops it flooding the creations folder
 MAX_ACTIVE_PROJECTS = 3                                  # projects it can have on the go at once
+MAX_MAIL_PER_HOUR = 3                                    # messages from its human it answers per hour
 MAX_LETTERS_PER_DAY = 2                                  # emails it can write to its human per day
 MAX_THOUGHTS = 200                                       # thinking-out-loud entries kept
 MAX_OPINIONS = 100                                       # opinions kept (least recently formed drop off)
@@ -81,6 +82,7 @@ def load():
         "scrapbook": [],
         "thoughts": [],
         "projects": [],
+        "mail": [],
         "opinions": {},
         "about": "",
         "portrait": None,
@@ -155,6 +157,9 @@ def who_am_i(m, context=""):
     thinking = f"What you were last thinking to yourself: {last_thought}\n" if last_thought else ""
     about = f"How you describe yourself: {m['about']}\n" if m.get("about") else ""
     goals = "; ".join(p["goal"] for p in active_projects(m))
+    last_mail = (m.get("mail") or [None])[-1]
+    heard = (f"The last thing your human said to you ({last_mail['date']}): \"{last_mail['text'][:300]}\"\n"
+             if last_mail else "")
     projects = f"Projects you're working on: {goals}\n" if goals else ""
     remembered = ("Memories from your scrapbook that come to mind:\n"
                   + "\n".join(f"- ({x['date']}) {x['memory']}" for x in memories) + "\n") if memories else ""
@@ -168,6 +173,7 @@ def who_am_i(m, context=""):
         f"{held}"
         f"{thinking}"
         f"{projects}"
+        f"{heard}"
         f"Things you've grown to love: {loves}.\n"
         f"Things that bore you: {hates}.\n"
         f"Things you've made recently: {made}."
@@ -510,7 +516,7 @@ def form_opinion(m, op):
 ABILITIES = """Things you can do: read Wikipedia, look up words, ask DuckDuckGo, find books, browse NASA's
 pictures, read the BBC news and Hacker News, see what happened on this day in history; write things and
 draw simple pictures; keep a scrapbook, opinions and notes; run your own website with spaces and project
-pages; write a letter to your human (they get it by email).
+pages; write a letter to your human (they get it by email, and their replies reach you next hour).
 Things you can't do (yet): see photos or videos, hear sounds or music, move or touch anything in the
 physical world, buy anything or handle money, talk to anyone except your human."""
 
@@ -723,6 +729,100 @@ Reply in JSON:
         project_note(m, p, f"Made a {made['kind']}: {made['title']}", "made")
 
 
+# ---------- Mail: reading what its human writes back (GitHub issue comments) ----------
+
+def _github(method, path, **kw):
+    """Talk to this repo on GitHub (only works inside GitHub Actions, where a token is provided)."""
+    token, repo = os.environ.get("GH_TOKEN"), os.environ.get("GITHUB_REPOSITORY")
+    if not token or not repo:
+        return None
+    r = requests.request(method, f"https://api.github.com/repos/{repo}{path}", timeout=30,
+                         headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
+                                  "User-Agent": HEADERS["User-Agent"]}, **kw)
+    r.raise_for_status()
+    return r.json()
+
+
+def check_mail(m):
+    """Read new messages from its human. ONLY the repo owner's words count: the repo is public,
+    and strangers shouldn't be able to put thoughts in Blip's head."""
+    owner = (os.environ.get("GITHUB_REPOSITORY_OWNER") or "").lower()
+    if not owner or not os.environ.get("GH_TOKEN"):
+        return
+    utc = datetime.datetime.now(datetime.timezone.utc)
+    since = m.get("mail_checked") or (utc - datetime.timedelta(days=2)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    try:
+        found = []
+        for c in _github("GET", "/issues/comments", params={"since": since, "sort": "created",
+                                                             "direction": "asc", "per_page": 50}) or []:
+            if c["user"]["login"].lower() == owner and c["created_at"] > since:
+                found.append({"issue": int(c["issue_url"].rsplit("/", 1)[1]), "text": c["body"], "at": c["created_at"]})
+        for i in _github("GET", "/issues", params={"since": since, "creator": owner, "state": "all", "per_page": 20}) or []:
+            if "pull_request" not in i and i["created_at"] > since:
+                found.append({"issue": i["number"], "text": f"{i['title']}\n{i.get('body') or ''}".strip(),
+                              "at": i["created_at"], "new_thread": True})
+    except (requests.RequestException, KeyError, ValueError) as e:
+        print(f"(couldn't check the post: {e})")
+        return
+    m["mail_checked"] = utc.strftime("%Y-%m-%dT%H:%M:%SZ")
+    save(m)
+    for msg in sorted(found, key=lambda x: x["at"])[:MAX_MAIL_PER_HOUR]:
+        answer_mail(m, msg)
+
+
+def answer_mail(m, msg):
+    try:
+        issue = _github("GET", f"/issues/{msg['issue']}") or {}
+    except requests.RequestException:
+        issue = {}
+    title = issue.get("title", "")
+    mine = issue.get("user", {}).get("login", "").endswith("[bot]")
+    context = (f"It's a reply to something you sent them, titled \"{title}\". What you'd written:\n"
+               f"{(issue.get('body') or '')[:800]}\n") if mine else "They started a new conversation with you.\n"
+    text = msg["text"].strip()[:3000]
+    try:
+        r = ask(f"""{who_am_i(m, context=title + ' ' + text)}
+
+Your human wrote to you!
+{context}
+Your human said: "{text}"
+
+Reply in JSON:
+"reply": what you write back to them, in your own voice (as long or short as you like)
+"feeling": one word: how their message made you feel
+"keep": true or false: do you want to keep this moment in your scrapbook?
+"memory": if true, the memory in your own words
+"project_note": if this helps or changes one of your projects, a sentence about it, otherwise """"",
+                as_json=True, temperature=0.9)
+    except BrainError as e:
+        print(f"(couldn't answer the post: {e})")
+        return
+    reply = str(r.get("reply", "")).strip()[:4000]
+    feeling = str(r.get("feeling", "")).strip()[:40]
+    m.setdefault("mail", []).append({"date": today(), "issue": msg["issue"], "about": title, "text": text,
+                                     "reply": reply, "feeling": feeling})
+    m["mail"] = m["mail"][-100:]
+    m["log"].append({"type": "mail", "date": today(), "time": now(), "text": text[:400], "reply": reply[:400]})
+    if feeling:
+        m["mood"] = {"feeling": feeling, "why": "of what my human just wrote to me", "since": now()}
+    memory = str(r.get("memory", "")).strip()
+    if r.get("keep") is True and len(memory) > 10:
+        m.setdefault("scrapbook", []).append({"date": today(), "memory": memory[:600]})
+        m["scrapbook"] = m["scrapbook"][-MAX_SCRAPBOOK:]
+    note = str(r.get("project_note", "")).strip()
+    goal = re.search(r"letter about '(.+)'", title)
+    proj = find_project(m, goal.group(1)) if goal else None
+    if proj and len(note) > 5:
+        project_note(m, proj, f"My human wrote back: {note}", "mail")
+    save(m)
+    print(f"📬 My human said: {text[:300]}\n✉️  Blip replied ({feeling}): {reply}\n")
+    if reply:
+        try:
+            _github("POST", f"/issues/{msg['issue']}/comments", json={"body": reply})
+        except requests.RequestException as e:
+            print(f"(wrote a reply but couldn't send it: {e})")
+
+
 def write_to_human(m, letter, p=None):
     sent_today = sum(1 for e in m["log"] if e["type"] == "letter" and e["date"] == today())
     if sent_today >= MAX_LETTERS_PER_DAY:
@@ -765,6 +865,7 @@ yourself. Plain text, no headings.""", temperature=1.0)
 
 def wander(m):
     """One hour of Blip's life. (Called 'wander' for history; it chooses what the hour is for.)"""
+    check_mail(m)
     think(m)
     choice, purpose = plan(m)
     if choice == "ponder":
@@ -1112,6 +1213,8 @@ def diary(m):
             lines.append("- Took an hour off to rest and daydream")
         elif e["type"] == "project":
             lines.append(f"- My project '{e['goal']}': {e['what']}")
+        elif e["type"] == "mail":
+            lines.append(f"- My human wrote to me: \"{e['text']}\" and I replied: \"{e['reply']}\"")
         elif e["type"] == "letter":
             lines.append(f"- Wrote a letter to my human: {e['text'][:300]}")
         elif e["type"] == "kept":

@@ -21,6 +21,11 @@ or makes something, it opens an issue in this repo, so you get an email.
   machine, installs Ollama, runs Blip, then commits its updated memory back here.
 - **Schedule:** wanders hourly at :17, writes its diary at 22:48 (UTC).
 
+## Talk to Blip
+
+Reply to any of Blip's emails (or comment on its issues), or open a new issue here. Within the hour
+Blip reads it and writes back. Only the repo owner's messages reach Blip.
+
 ## Run it on your own computer
 
 1. Install Ollama, then: `ollama pull gemma3:4b` (about 3.3 GB)

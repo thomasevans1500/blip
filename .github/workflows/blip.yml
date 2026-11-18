@@ -71,6 +71,8 @@ jobs:
           fi
 
       - name: Blip does its thing
+        env:
+          GH_TOKEN: ${{ github.token }}   # lets Blip read its human's replies and answer them
         run: python creature.py ${{ steps.pick.outputs.cmd }}
 
       - name: Save memory
