@@ -4,8 +4,9 @@
     "easily distracted",
     "a bit nervous"
   ],
+  "self": "I just arrived on the internet. I don't know what I like yet.",
   "interests": {
-    "football": 0,
+    "football": 4,
     "loughborough university": -1,
     "northern premier league": -3,
     "teams": -2,
@@ -18,7 +19,17 @@
     "english football": 9,
     "tottenham hotspur": 3,
     "league and fa cup": 3,
-    "league": 3
+    "league": 3,
+    "obstetrics": 2,
+    "professor": 0,
+    "university college hospital": 0,
+    "gynaecology": 2,
+    "women's health": 2,
+    "manchester city": 3,
+    "qpr": 3,
+    "premier league": 3,
+    "players": 4,
+    "history": 4
   },
   "log": [
     {
@@ -101,8 +112,49 @@
       "thought": "Blimey, Leeds United won the league again? I love those Red Devils, especially with my QPR roots, but that's some serious competition! Can I read more about that 1974 Charlton Athletic season too?",
       "feeling": "curiosity",
       "interest": 8
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T17:29",
+      "title": "Francis James Browne",
+      "thought": "Hmm, a professor of obstetrics? That sounds like something interesting, but maybe not as exciting as football.",
+      "feeling": "meh",
+      "interest": 5,
+      "via": "got lost"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T17:30",
+      "title": "Obstetrics and gynaecology",
+      "thought": "Oh, so that’s what obstetrics and gynaecology is all about. I wonder if there are any famous queens park rangers players who specialize in this field!",
+      "feeling": "nervous",
+      "interest": 7,
+      "via": "searched for 'obstetrics and gynaecology'"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T17:30",
+      "title": "Manchester City F.C. 3–2 Queens Park Rangers F.C.",
+      "thought": "Wow, that was intense! QPR really gave it their all that day, but they couldn't quite keep up with City's amazing comeback!",
+      "feeling": "Excited",
+      "interest": 8,
+      "via": "searched for 'famous queens park rangers players'"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-18",
+      "time": "2026-11-18T17:31",
+      "title": "Queens Park Rangers F.C.",
+      "thought": "Oh, Queens Park Rangers! A bit of football history and some familiar faces. I wonder who these players are.",
+      "feeling": "excited",
+      "interest": 9,
+      "via": "searched for 'famous QPR players'"
     }
   ],
   "diary": [],
-  "current": "1973–74 Charlton Athletic F.C. season"
+  "creations": [],
+  "current": "Bobby Zamora"
 }
