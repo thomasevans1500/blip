@@ -1,0 +1,86 @@
+name: Blip lives
+
+on:
+  schedule:
+    - cron: "17 * * * *"    # wander: every hour at :17 (UTC)
+    - cron: "48 22 * * *"   # diary: every night at 22:48 UTC
+  workflow_dispatch:         # lets you press "Run workflow" by hand
+    inputs:
+      command:
+        description: "What should Blip do?"
+        type: choice
+        options: [wander, diary]
+        default: wander
+
+permissions:
+  contents: write            # so it can save memory.json back to the repo
+
+concurrency:
+  group: blip                # never run two at once (they'd fight over memory.json)
+  cancel-in-progress: false
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      BLIP_MODEL: llama3.2:3b
+      BLIP_CONTACT: ${{ vars.BLIP_CONTACT }}
+      OLLAMA_MODELS: /home/runner/ollama-models
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python packages
+        run: pip install -r requirements.txt
+
+      - name: Restore the brain from cache
+        uses: actions/cache@v4
+        with:
+          path: /home/runner/ollama-models
+          key: ollama-models-${{ env.BLIP_MODEL }}
+
+      - name: Install Ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          sudo systemctl stop ollama || true   # we start our own copy below
+
+      - name: Wake up the brain
+        run: |
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          for i in $(seq 1 30); do curl -sf http://localhost:11434 && break; sleep 2; done
+          ollama pull "$BLIP_MODEL"
+
+      - name: Decide what to do
+        id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "cmd=${{ inputs.command }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "48 22 * * *" ]; then
+            echo "cmd=diary" >> "$GITHUB_OUTPUT"
+          else
+            echo "cmd=wander" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Blip does its thing
+        run: python creature.py ${{ steps.pick.outputs.cmd }}
+
+      - name: Save memory
+        run: |
+          git config user.name "blip-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add memory.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing new to remember."
+            exit 0
+          fi
+          git commit -m "Blip: ${{ steps.pick.outputs.cmd }} $(date -u +'%Y-%m-%d %H:%M')"
+          git pull --rebase
+          git push
+
+      - name: Show Ollama log if something went wrong
+        if: failure()
+        run: tail -n 50 /tmp/ollama.log || true
