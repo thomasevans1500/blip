@@ -194,7 +194,8 @@ def _post(path, body):
 
 def ask(prompt, as_json=False, temperature=0.8):
     body = {"model": MODEL, "prompt": prompt, "stream": False,
-            "options": {"temperature": temperature, "num_ctx": CONTEXT_TOKENS}}
+            # repeat_penalty: gemma sometimes gets stuck repeating itself ("token repeat limit reached")
+            "options": {"temperature": temperature, "num_ctx": CONTEXT_TOKENS, "repeat_penalty": 1.15}}
     if as_json:
         body["format"] = "json"
     text = _post("/api/generate", body).get("response", "")
