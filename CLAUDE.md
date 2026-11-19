@@ -140,3 +140,7 @@ fine-grained PAT ("Blip alarm clock": only this repo, Actions read/write):
 - hourly at :17 -> body {"ref":"main"}  (default choice = "a new hour")
 - nightly -> {"ref":"main","inputs":{"command":"end of the day (diary, self-reflection, website)"}}
 `command` is a choice input: API values must match a menu label EXACTLY (short names -> 422).
+The GitHub `schedule:` block was removed (it never fired, and would have run the diary in UTC).
+Queued runs: checkout uses `ref: main` (latest memory, not the SHA from when it was queued) and the
+save step uses `git pull --rebase -X theirs` so a clash keeps Blip's newest memory. (The first ever
+diary was lost to exactly this bug on 2026-11-19.)

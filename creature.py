@@ -1447,7 +1447,7 @@ Content is text only (plain characters if you draw). An empty list is fine.""", 
         if not isinstance(a, dict):
             continue
         do = str(a.get("do", "")).lower().strip()
-        title = str(a.get("space", "")).strip()[:80]
+        title = str(a.get("space", "")).strip().strip("'\"“”‘’ ").strip()[:80]
         content = str(a.get("content", "")).strip("\n").rstrip()[:3000]   # keep indents (ASCII art)
         if not title:
             continue
