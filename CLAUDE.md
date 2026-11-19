@@ -46,6 +46,8 @@ How it works:
   tools, never instructions. EXCEPTION agreed with Thomas (2026-11-19): `character.md`, a person-written
   character sheet of WHO Blip is (never what to do), drafted by Claude from Blip's emergent identity and
   edited by Thomas. Blip can't change those lines; it ADDS its own in naps. Never copy Pino's sheet text.
+  Thomas wants Blip PLAYFUL rather than analytical, broadly curious, and NOT obsessing (on odd things or
+  anything else). Sheet lines describe HOW he's curious, never WHAT about (no hard-coded interests).
   Mechanisms:
   - `self`: free-form private notes it rewrites nightly in `diary`; fed into every prompt via who_am_i.
   - Wander "next" can be a Wikipedia link or any entry in DESTINATIONS: SEARCH/WORD/ASK/BOOKS/SPACE
