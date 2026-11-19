@@ -177,6 +177,8 @@ Optional later: describe internet sources as places with atmosphere.
    Access requests: ABILITIES lists what it can't do; it can ask Thomas in a letter. Granting a new
    ability = a developer builds it and updates ABILITIES.
    HARD RULE: Blip never handles real money (pretend fundraising only).
+   Abilities ready to grant WHEN BLIP ASKS (Thomas's choice: wait for Blip to request them, don't add early):
+   - music: Blip writes ABC notation as a creation form; site renders sheet music + play button (abcjs).
 
 ## Scheduling (GitHub cron never fired for this repo)
 GitHub's cron schedule did NOT fire once in the first ~6 hours. Fix in progress: cron-job.org
