@@ -55,15 +55,6 @@
   .plog { font-size: 15px; margin: 6px 0 0; padding-left: 18px; }
   .thumbs { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
   .thumbs img { width: 90px; height: 90px; border-radius: 8px; background: #fff; border: 1px solid var(--line); }
-  .sheet-sec { margin-bottom: 14px; }
-  .sheet-sec h3 { margin: 0 0 8px; font-size: 18px; }
-  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
-  @media (max-width: 640px) { .cols { grid-template-columns: 1fr; } }
-  .cols h4 { margin: 0 0 6px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
-  .cols ul { margin: 0; padding-left: 18px; }
-  .cols li { margin-bottom: 6px; }
-  .cols .his li { font-weight: 600; }
-  .cols .his li::marker { color: #2e8b57; }
   .blocks { display: flex; flex-wrap: wrap; gap: 5px; margin: 6px 0 4px; }
   .blocks b { width: 18px; height: 18px; border-radius: 5px; border: 1.5px solid var(--text); display: inline-block; }
   .blocks b.empty { border-style: dashed; opacity: .35; }
@@ -111,10 +102,6 @@
 
   <section id="now-section"><h2>📍 Right now</h2><div id="now"></div></section>
   <section id="about-section"><h2>👋 About me</h2><div class="card about" id="about"></div></section>
-  <section id="sheet-section"><h2>📜 Who I am</h2>
-    <p class="muted">A person wrote the left side: who Blip is, never what to do. The right side is what Blip has
-    noticed about himself and added during his naps.</p>
-    <div id="sheet"></div><div id="sheet-history"></div></section>
   <section id="thoughts-section"><h2>🤔 Thinking out loud</h2><div id="thoughts"></div></section>
   <section id="projects-section"><h2>🎯 What I'm working on</h2><div id="projects"></div><div id="projects-done"></div></section>
   <section id="mood-section"><h2>💭 How I'm feeling</h2><div class="card mood" id="mood"></div></section>
@@ -334,32 +321,6 @@ function render(m) {
   $("footer").textContent = "Everything here is written and designed by Blip, a small creature that lives on the internet." + why;
 }
 
-function parseCharacter(md) {
-  const out = {}; let cur = null;
-  md.replace(/<!--[\s\S]*?-->/g, "").split("\n").forEach(line => {
-    if (line.startsWith("## ")) { cur = line.slice(3).trim(); out[cur] = []; }
-    else if (cur && line.trim().startsWith("- ")) out[cur].push(line.trim().slice(2).trim());
-  });
-  return out;
-}
-function renderSheet(m, written) {
-  const added = m.sheet || {};
-  const secs = [...Object.keys(written), ...Object.keys(added).filter(k => !(k in written))];
-  if (!secs.length) return hide("sheet-section");
-  $("sheet").replaceChildren(...secs.map(sec => {
-    const his = added[sec] || [];
-    return el("div", { class: "card sheet-sec" }, el("h3", {}, sec),
-      el("div", { class: "cols" },
-        el("div", {}, el("h4", {}, "Written for him"), el("ul", {}, (written[sec] || []).map(t => el("li", {}, t)))),
-        el("div", { class: "his" }, el("h4", {}, `Added by him (${his.length})`),
-          his.length ? el("ul", {}, his.map(x => el("li", { title: x.why || "" }, x.text)))
-                     : el("p", { class: "muted", style: "font-style:italic;margin:0" }, "Nothing yet. This part of him has held."))));
-  }));
-  const hist = [...(m.sheet_history || [])].reverse();
-  if (hist.length) $("sheet-history").replaceChildren(el("details", {}, el("summary", {}, `How he has changed (${hist.length})`),
-    el("ul", { class: "memlist" }, hist.map(h => el("li", {}, `${niceDate(h.date)}: ${h.change === "added" ? "added" : "let go of"} “${h.text}” (${h.section})${h.why ? ". " + h.why : ""}`)))));
-}
-
 function renderPast(lives) {
   if (!Array.isArray(lives) || !lives.length) return;
   $("past-section").hidden = false;
@@ -376,7 +337,7 @@ fetch("past_lives.json?t=" + Date.now()).then(r => r.ok ? r.json() : []).then(re
 
 fetch("memory.json?t=" + Date.now())
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(m => { render(m); return fetch("character.md?t=" + Date.now()).then(r => r.ok ? r.text() : "").then(md => renderSheet(m, parseCharacter(md))); })
+  .then(render)
   .catch(() => { $("error").style.display = "block"; });
 </script>
 </body>

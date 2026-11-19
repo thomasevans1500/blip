@@ -136,7 +136,8 @@ Loop is now: senses -> feel -> think -> act -> reflect. The world reacts; Blip i
   long x0.995; promote if recalled on 2+ days or strength >= 1.2; drop short < 0.15, fade if ever recalled),
   then the brain may add up to 2 sheet lines / let go of its own lines, and dreams. Energy +0.35.
 - Diary no longer rewrites traits; it still rewrites `self` notes and `about`.
-- Site: "📜 Who I am" (two columns, his additions in green, change history) and "🧠 My memory" (blocks).
+- Site: "🧠 My memory" (blocks). The character sheet is NOT shown on the website (Thomas's choice,
+  2026-11-19); it only lives in character.md and in Blip's prompts.
 
 ## Fresh starts (2026-11-19, Thomas's choice)
 Old identity material (formed under the earlier analytical sheet) kept dragging Blip back to Guerin/football
