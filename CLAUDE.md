@@ -48,6 +48,8 @@ How it works:
   edited by Thomas. Blip can't change those lines; it ADDS its own in naps. Never copy Pino's sheet text.
   Thomas wants Blip PLAYFUL rather than analytical, broadly curious, and NOT obsessing (on odd things or
   anything else). Sheet lines describe HOW he's curious, never WHAT about (no hard-coded interests).
+  Thomas also wants enthusiasm turned DOWN a little and more stubbornness (2026-11-19): avoid hype words
+  in prompts (fizzy/electric/giddy); interest has an explicit 0-10 scale so 9-10 is rare.
   Mechanisms:
   - `self`: free-form private notes it rewrites nightly in `diary`; fed into every prompt via who_am_i.
   - Wander "next" can be a Wikipedia link or any entry in DESTINATIONS: SEARCH/WORD/ASK/BOOKS/SPACE

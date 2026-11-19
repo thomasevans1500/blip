@@ -340,9 +340,9 @@ def sensations(m):
              if st < 0.4 else
              "The world feels steady and clear."
              if st < 0.6 else
-             "The internet feels bright and fizzy around you; you feel awake."
+             "The world feels bright and clear; you feel wide awake."
              if st < 0.8 else
-             "Everything is vivid and crackling with light; you feel electric.")
+             "Everything feels vivid and sharp; you notice every little detail.")
     body = ("You feel drained, heavy and slow." if en < 0.2 else
             "You feel a bit tired." if en < 0.45 else
             "You have plenty of energy." if en < 0.8 else "You feel full of energy.")
@@ -764,8 +764,8 @@ TEXT: {p['text'][:reading_chars(m)]}
 Reply in JSON with these keys:
 "thought": one or two sentences of your honest reaction, in your own voice
 "feeling": one word for how it made you feel
-"fond": if something here made you go soft, warm or giddy, a short name for that thing, otherwise null
-"interest": a number from 0 to 10 for how much this grabbed you
+"fond": if something here made you genuinely fond of it (not just interested), a short name for it, otherwise null
+"interest": how much this grabbed you: 0 = boring, 5 = fine, 7 = properly good, 9-10 = rare, one of the best things you've ever found
 "topics": a list of 1 to 3 short topic words this is about
 "opinion": if this gave you an opinion (new, or changed) about something, {{"about": "the thing", "opinion": "what you think, in your words"}}, otherwise null
 "next": where you go next. The whole internet is open to you. Pick ONE:
