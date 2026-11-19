@@ -137,6 +137,6 @@ with kind "ponder") | make (maybe_make just_because) | rest (logged). Diary know
 GitHub's cron schedule did NOT fire once in the first ~6 hours. Fix in progress: cron-job.org
 (Thomas's free account, timezone America/New_York) POSTs to the workflow_dispatch API with a
 fine-grained PAT ("Blip alarm clock": only this repo, Actions read/write):
-- hourly at :17 -> body {"ref":"main","inputs":{"command":"wander"}}
-- nightly -> {"ref":"main","inputs":{"command":"diary"}}
-The workflow still accepts the short names (wander/diary/home/check) as well as the menu labels.
+- hourly at :17 -> body {"ref":"main"}  (default choice = "a new hour")
+- nightly -> {"ref":"main","inputs":{"command":"end of the day (diary, self-reflection, website)"}}
+`command` is a choice input: API values must match a menu label EXACTLY (short names -> 422).
