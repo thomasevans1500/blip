@@ -7,12 +7,16 @@ on:
   workflow_dispatch:         # lets you press "Run workflow" by hand
     inputs:
       command:
-        description: "What should Blip do?"
+        description: "What time is it for Blip? (Blip decides everything else itself)"
         type: choice
-        options: [wander, diary, home, check]
-        default: wander
+        options:
+          - "a new hour (Blip chooses what to do)"
+          - "end of the day (diary, self-reflection, website)"
+          - "website only (redecorate and tend spaces)"
+          - "maintenance: test internet sources (no thinking)"
+        default: "a new hour (Blip chooses what to do)"
       alert_at:
-        description: "Interest score (0-10) that triggers an email. Leave as 9 normally."
+        description: "Email me about finds scoring at least this (0-10). Leave as 9."
         default: "9"
 
 permissions:
@@ -63,7 +67,13 @@ jobs:
         id: pick
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "cmd=${{ inputs.command }}" >> "$GITHUB_OUTPUT"
+            case "${{ inputs.command }}" in
+              "a new hour"*|wander) echo "cmd=wander" >> "$GITHUB_OUTPUT" ;;
+              "end of the day"*|diary) echo "cmd=diary" >> "$GITHUB_OUTPUT" ;;
+              "website only"*|home) echo "cmd=home" >> "$GITHUB_OUTPUT" ;;
+              "maintenance"*|check) echo "cmd=check" >> "$GITHUB_OUTPUT" ;;
+              *) echo "cmd=wander" >> "$GITHUB_OUTPUT" ;;
+            esac
           elif [ "${{ github.event.schedule }}" = "48 22 * * *" ]; then
             echo "cmd=diary" >> "$GITHUB_OUTPUT"
           else
