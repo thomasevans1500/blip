@@ -106,7 +106,25 @@ so he can flag anything confusing before moving on.
    latest, and 1 random old one (for surprise callbacks). Site shows mood + scrapbook.
 3. DONE (merged into "inner life" step 1 below).
 
-## Each hour is Blip's choice
+## Awake sessions (2026-11-19) - Pino-like moment-to-moment life, for free
+Each alarm (hourly at :17) = `wander` -> fresh_start, awaken_senses, check_mail, then `session(m)`:
+~SESSION_MINUTES (25, env BLIP_SESSION_MIN) of small moves, one per ~MOVE_SECONDS (45). `one_move` asks
+"What do you do next?" with where he is (page snippet + links), his last 6 moves, open intentions, and a
+menu: go (link or destination) | look closer | say | note | think | daydream | visit | make | write |
+project (`project_decide` -> project_action; research purpose becomes an intention) | rest.
+JSON: move, detail, reason, minutes (rest/daydream/look closer), intend, kept.
+- Fallback: while an activity's minutes remain he "carries on, nothing new happened" with NO brain call.
+- memory["moves"] (last 300) = the feed; memory["intentions"] = things he said he'd do (max 8, expire 2
+  days); "kept" marks one done (log "kept promise").
+- Repeating the same move type adds staleness (senses). Session end: interests fade, report_discovery,
+  end_of_walk (mood, memory gist) over the pages read. Naps still every 4h after a session.
+- who_am_i puts the steady parts (name, sheet, about, notes) FIRST so Ollama can reuse its prompt cache.
+- `react_to()` is the shared page reaction (used by sessions and the old walk_about).
+- The old hourly choice (`live_hour`/`plan`) is kept in the code but no longer called.
+- Site: "🐾 What I did, move by move" (+ "📝 Things I said I'd do").
+- Fully continuous life (24/7, minute by minute) would need an always-on machine (Raspberry Pi idea).
+
+## Each hour is Blip's choice (SUPERSEDED by awake sessions; kept for reference)
 `wander` = one hour of life: `think` -> `plan` asks "how do you want to spend this hour?":
 wander (walk_about, 5 hops) | project (project_action; only walks if it chose research) |
 think/ponder (`ponder`: let the mind wander, topic + conclusion, may form an opinion) | daydream | visit |

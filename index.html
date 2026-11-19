@@ -60,6 +60,10 @@
   .blocks b.empty { border-style: dashed; opacity: .35; }
   .memlist { margin: 6px 0 0; padding-left: 18px; }
   .memlist li { margin-bottom: 6px; }
+  ul.moves { padding: 6px 18px; }
+  .moves li.fb { opacity: .5; font-size: 14px; padding: 4px 0; }
+  .moves .tag { display: inline-block; font-size: 12px; font-weight: 700; color: var(--accent);
+                border: 1.5px solid var(--accent); border-radius: 999px; padding: 0 8px; margin-right: 6px; }
   .mood strong { font-size: 22px; color: var(--accent); text-transform: lowercase; }
   .memory { position: relative; padding-top: 22px; }
   .memory::before { content: "📌"; position: absolute; top: -10px; left: 14px; font-size: 20px; }
@@ -103,6 +107,11 @@
   <section id="now-section"><h2>📍 Right now</h2><div id="now"></div></section>
   <section id="about-section"><h2>👋 About me</h2><div class="card about" id="about"></div></section>
   <section id="thoughts-section"><h2>🤔 Thinking out loud</h2><div id="thoughts"></div></section>
+  <section id="moves-section"><h2>🐾 What I did, move by move</h2>
+    <p class="muted">Each move is one Blip chose, with his reason. Faded lines are him carrying on with what
+    he was doing because nothing new had happened.</p>
+    <div id="promises"></div>
+    <ul class="card trail" id="moves"></ul></section>
   <section id="fond-section"><h2>💕 Things I'm fond of</h2><div class="grid" id="fond"></div></section>
   <section id="projects-section"><h2>🎯 What I'm working on</h2><div id="projects"></div><div id="projects-done"></div></section>
   <section id="mood-section"><h2>💭 How I'm feeling</h2><div class="card mood" id="mood"></div></section>
@@ -236,6 +245,18 @@ function render(m) {
   if (activeP.length) $("projects").replaceChildren(...activeP.map(projectCard));
   else $("projects").replaceChildren(el("p", { class: "muted" }, "No projects right now. Blip starts one whenever it wants something."));
   if (pastP.length) $("projects-done").replaceChildren(el("details", {}, el("summary", {}, `Past projects (${pastP.length})`), pastP.map(projectCard)));
+
+  const mv = [...(m.moves || [])].reverse().slice(0, 40);
+  if (mv.length) {
+    $("moves").className = "card trail moves";
+    $("moves").replaceChildren(...mv.map(x => el("li", { class: x.fallback ? "fb" : "" },
+      el("span", { class: "tag" }, x.move), x.detail ? x.detail : "",
+      !x.fallback && x.reason ? el("div", { class: "muted" }, "because: “" + x.reason + "”") : null,
+      el("div", { class: "muted" }, ago(x.time)))));
+    const open = (m.intentions || []).filter(i => !i.done);
+    if (open.length) $("promises").replaceChildren(el("div", { class: "card", style: "margin-bottom:12px" },
+      el("strong", {}, "📝 Things I said I'd do"), el("ul", { class: "memlist" }, open.map(i => el("li", {}, i.text)))));
+  } else hide("moves-section");
 
   const fond = [...(m.darlings || [])].sort((a, b) => b.strength - a.strength);
   if (fond.length) $("fond").replaceChildren(...fond.map(d => el("div", { class: "card" },

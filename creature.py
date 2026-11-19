@@ -39,6 +39,9 @@ MAX_THOUGHTS = 200                                       # thinking-out-loud ent
 MAX_OPINIONS = 100                                       # opinions kept (least recently formed drop off)
 PORTRAIT_EVERY_DAYS = 7                                  # how often it's offered the chance to redraw itself
 SHORT_ROOM, LONG_ROOM, FADED_ROOM = 40, 40, 200          # how much fits in each part of its memory
+SESSION_MINUTES = float(os.environ.get("BLIP_SESSION_MIN", "25"))  # how long each awake session lasts
+MOVE_SECONDS = 45                                        # roughly one move per this many seconds
+MAX_INTENTIONS = 8                                       # things he's said he'll do later
 MAX_DARLINGS = 8                                         # things he can be fond of at once
 MAIL_FRESH_HOURS = 3                                     # how long a message from his human stays front of mind
 NAP_EVERY_HOURS = 4                                      # it naps (consolidates memory, grows its sheet)
@@ -443,10 +446,10 @@ def who_am_i(m, context=""):
                   + "\n".join(f"- ({x['born']}) {x['text']}" for x in memories) + "\n") if memories else ""
     return (
         f"You are {NAME}, a small creature who lives on the internet and wanders Wikipedia.\n"
-        f"{sensations(m)}\n"
         f"Who you are:\n{sheet_text(m)}\n"
         f"{about}"
         f"Your private notes about yourself (written by you):\n{m['self']}\n"
+        f"{sensations(m)}\n"
         f"{feeling}"
         f"{remembered}"
         f"{held}"
@@ -1171,7 +1174,7 @@ def fresh_start(m):
         return
     keys = ["about", "self", "traits", "opinions", "interests", "memory", "scrapbook", "mood", "projects",
             "thoughts", "senses", "home", "portrait", "spaces", "sheet", "sheet_history", "current", "hours",
-            "darlings"]
+            "darlings", "moves", "intentions"]
     past = json.loads(FIRST_LIVES_FILE.read_text(encoding="utf-8")) if FIRST_LIVES_FILE.exists() else []
     past.append({"ended": now(), "label": m.get("fresh_start") or "first life",
                  **{k: m.get(k) for k in keys if k in m}})
@@ -1193,10 +1196,247 @@ def since_rebirth(m, entries):
     return [e for e in entries if (e.get("time") or e.get("date", "")) >= born] if born else entries
 
 
+# ---------- Awake sessions: small moves, about one a minute, each with a reason ----------
+
+def moves_menu(m, has_place):
+    items = [("go", "go somewhere on the internet (detail: a link from this page copied exactly, or a destination below)")]
+    if has_place:
+        items.append(("look closer", "read more of the page you're on"))
+    items += [("say", "say something out loud (detail: what you say)"),
+              ("note", "jot something down for yourself (detail: the note)"),
+              ("think", "think out loud for a bit")]
+    if darlings(m):
+        items += [("daydream", "daydream about something you're fond of (detail: which)"),
+                  ("visit", "go back to something you're fond of, just to enjoy it (detail: which)")]
+    items += [("make", "make something"),
+              ("write", "write a letter to your human (detail: the letter)"),
+              ("project", "start, work on, finish or give up a project"),
+              ("rest", "sit still for a bit and recharge")]
+    return items
+
+
+def open_intentions(m):
+    cutoff = (datetime.date.today() - datetime.timedelta(days=2)).isoformat()
+    m["intentions"] = [i for i in m.get("intentions", []) if not i["done"] and i["made"][:10] >= cutoff][-MAX_INTENTIONS:]
+    return m["intentions"]
+
+
+def log_move(m, move, detail="", reason="", fallback=False):
+    m.setdefault("moves", []).append({"time": now(), "move": move, "detail": str(detail)[:240],
+                                      "reason": str(reason)[:200], "fallback": fallback})
+    m["moves"] = m["moves"][-300:]
+
+
+def project_decide(m):
+    """A project move: start, work on, finish or give up one. Returns a research purpose or None."""
+    try:
+        r = ask(f"""{who_am_i(m)}
+
+{ABILITIES}
+
+Your projects:
+{describe_projects(m)}
+
+A project is anything you want to do, work towards, make happen, or get. If something you want needs an
+ability you don't have, you could write to your human and ask for it. You can have up to {MAX_ACTIVE_PROJECTS}.
+
+Reply in JSON:
+"action": "start", "work", "finish" or "give up"
+"project": for work/finish/give up, the project's goal exactly as written above
+"goal": for start, what you want, in a short phrase
+"reason": for start, why you want it
+"steps": for start, a list of 2 to 6 steps
+"how": for work, ONE of "research", "make", "update page", "write to my human"
+"about": for work: what to research / what to make / the page update itself / your letter itself
+"step": for work, the number of the step this is for
+"step_done": for work (not research), true if this finishes that step
+"note": for finish/give up, one sentence about it""", as_json=True, temperature=0.9)
+    except BrainError as e:
+        print(f"(couldn't think about projects: {e})")
+        return None
+    result = project_action(m, r)
+    return result if isinstance(result, dict) else None
+
+
+def session(m):
+    """An awake session: one small move at a time, each chosen (with a reason) by Blip. When he's in the
+    middle of something that takes a while (resting, daydreaming, reading closely), he simply carries on
+    without the brain being asked: nothing new has happened."""
+    st = {"place": None, "offset": 0, "activity": None, "left": 0, "reads": [], "purpose": None,
+          "via": "woke up"}
+    if m.get("current"):
+        try:
+            st["place"] = visit_wiki(m["current"])
+            st["via"] = "woke up where you left off"
+        except (requests.RequestException, KeyError, ValueError):
+            st["place"] = None
+    end = time.time() + SESSION_MINUTES * 60
+    print(f"☀️  Awake for about {SESSION_MINUTES:.0f} minutes")
+    while time.time() < end:
+        started = time.time()
+        if st["left"] > 0:
+            st["left"] -= 1
+            if st["activity"] == "resting":
+                tire(m, -0.08)
+            log_move(m, st["activity"], reason="carried on, nothing new happened", fallback=True)
+            print(f"   … still {st['activity']}")
+        else:
+            one_move(m, st)
+        save(m)
+        time.sleep(max(0, MOVE_SECONDS - (time.time() - started)))
+
+    if st["reads"]:
+        m["interests"] = {k: round(v * INTEREST_FADE, 2) for k, v in m["interests"].items()
+                          if abs(v * INTEREST_FADE) >= 0.5}
+        report_discovery(max(st["reads"], key=lambda e: e["interest"]))
+        end_of_walk(m, st["reads"], st["purpose"])
+    save(m)
+
+
+def one_move(m, st):
+    place = st["place"]
+    recent = "\n".join(f"- {x['time'][11:16]} {x['move']}{': ' + x['detail'] if x['detail'] else ''}"
+                       f"{' (because ' + x['reason'] + ')' if x['reason'] and not x['fallback'] else ''}"
+                       for x in m.get("moves", [])[-6:]) or "- you've only just woken up"
+    promises = open_intentions(m)
+    menu = moves_menu(m, bool(place))
+    where = (f"You're on: {place['title']} ({place['source']})\n"
+             f"{place['text'][st['offset']:st['offset'] + 700]}\n"
+             + (f"Links from here: {json.dumps(place['links'][:link_count(m)])}\n" if place.get("links") else "")
+             if place else "You're not on any page right now.\n")
+    try:
+        r = ask(f"""{who_am_i(m, context=(place or {}).get('title', '') + ' ' + recent)}
+
+{where}
+What you've done in the last few minutes:
+{recent}
+Things you said you'd do: {"; ".join(i['text'] for i in promises) or "nothing"}
+
+What do you do next? Pick ONE move:
+{chr(10).join(f'  - "{k}": {v}' for k, v in menu)}
+Destinations for "go":
+{destination_menu()}
+
+Reply in JSON:
+"move": one of the moves above
+"detail": what the move needs (see above), or ""
+"reason": a few words on why, in your own voice
+"minutes": for rest, daydream or look closer: how many minutes you'll spend (1 to 5)
+"intend": something you mean to do later, or ""
+"kept": if this move keeps something you said you'd do, copy it exactly, otherwise """"", as_json=True, temperature=0.9)
+    except BrainError as e:
+        print(f"(a blank moment: {e})")
+        log_move(m, "blank", reason="lost his train of thought", fallback=True)
+        return
+
+    move = str(r.get("move", "")).lower().strip()
+    detail = str(r.get("detail", "")).strip()
+    reason = str(r.get("reason", "")).strip()
+    try:
+        minutes = max(1, min(5, int(float(r.get("minutes", 1)))))
+    except (TypeError, ValueError):
+        minutes = 1
+    same = sum(1 for x in [y for y in m.get("moves", []) if not y["fallback"]][-3:] if x["move"] == move) / 3
+    feel(m, f"{move} {detail} {reason}", extra_staleness=0.2 * same)
+    print(f"🕐 {move}{': ' + detail[:120] if detail else ''} (because {reason})")
+
+    intend = str(r.get("intend", "")).strip()
+    if len(intend) > 5 and not any(i["text"].lower() == intend.lower() for i in m.get("intentions", [])):
+        m.setdefault("intentions", []).append({"text": intend[:200], "made": now(), "done": False})
+        print(f"   📝 means to: {intend}")
+    kept = str(r.get("kept", "")).strip().lower()
+    for i in m.get("intentions", []):
+        if kept and not i["done"] and (i["text"].lower() == kept or kept in i["text"].lower()):
+            i["done"] = True
+            m["log"].append({"type": "kept promise", "date": today(), "time": now(), "text": i["text"]})
+            print(f"   ✅ kept his word: {i['text']}")
+            break
+
+    log_move(m, move or "?", detail, reason)
+
+    if move == "go":
+        go, via = choose_next(detail, (place or {}).get("links", []))
+        try:
+            p = visit(go)
+            if p is None:
+                via += ", found nothing, so jumped somewhere random"
+                p = visit_wiki(None)
+        except (requests.RequestException, KeyError, ValueError, TypeError, ET.ParseError):
+            print("(got lost)")
+            return
+        p["links"] = p["links"][:link_count(m)]
+        _, entry = react_to(m, p, via, st["reads"], st["purpose"])
+        if entry:
+            st["reads"].append(entry)
+            st.update(place=p, offset=0)
+            m["current"] = p["title"] if p["source"] == "Wikipedia" else None
+    elif move == "look closer" and place:
+        st["offset"] += 700
+        chunk = place["text"][st["offset"]:st["offset"] + reading_chars(m)]
+        if not chunk.strip():
+            log_move(m, "look closer", reason="there was nothing more to read", fallback=True)
+            return
+        try:
+            rr = ask(f"""{who_am_i(m, context=place['title'])}
+
+You're reading further into {place['title']}:
+{chunk}
+
+Reply in JSON:
+"thought": your reaction, one or two sentences in your own voice
+"feeling": one word
+"fond": if something here made you genuinely fond of it (not just interested), a short name for it, otherwise null""",
+                     as_json=True)
+            thought = str(rr.get("thought", ""))
+            feel(m, f"{place['title']} {thought}")
+            if rr.get("fond"):
+                grow_fond(m, rr["fond"], why=thought[:200], place={k: place[k] for k in ("title", "source", "url")}
+                          | {"text": place["text"][:1500]})
+            m["log"].append({"type": "looked", "date": today(), "time": now(), "title": place["title"],
+                             "thought": thought, "feeling": str(rr.get("feeling", ""))})
+            print(f"   🔍 {thought}")
+        except BrainError:
+            pass
+        st.update(activity="reading closely", left=minutes - 1)
+    elif move == "say" and detail:
+        m["log"].append({"type": "said", "date": today(), "time": now(), "text": detail[:300]})
+        print(f"   💬 \"{detail}\"")
+    elif move == "note" and detail:
+        remember(m, detail, 0.5, source="note")
+        print(f"   🗒️ {detail}")
+    elif move == "think":
+        think(m)
+    elif move in ("daydream", "visit"):
+        d = find_darling(m, detail) or (max(darlings(m), key=lambda x: x["strength"]) if darlings(m) else None)
+        if move == "visit" and d:
+            visit_darling(m, d)
+        else:
+            daydream(m, d)
+            st.update(activity="daydreaming", left=minutes - 1)
+    elif move == "make":
+        maybe_make(m, st["reads"][-5:] or since_rebirth(m, [e for e in m["log"] if e["type"] == "read"])[-5:],
+                   just_because=True)
+    elif move == "write" and len(detail) > 10:
+        write_to_human(m, detail)
+    elif move == "project":
+        purpose = project_decide(m)
+        if purpose:
+            st["purpose"] = purpose
+            m.setdefault("intentions", []).append(
+                {"text": f"research {purpose['topic']} for my project '{purpose['goal']}'", "made": now(), "done": False})
+    elif move == "rest":
+        tire(m, -0.1)
+        m["log"].append({"type": "rested", "date": today(), "time": now()})
+        st.update(activity="resting", left=minutes - 1)
+
+
 def wander(m):
     """One hour of Blip's life, then a nap if it's been a while."""
     fresh_start(m)
-    live_hour(m)
+    awaken_senses(m)
+    tire(m, -0.06)
+    check_mail(m)
+    session(m)
     last = m.get("last_nap")
     hours = ((datetime.datetime.now().astimezone() - datetime.datetime.fromisoformat(last)).total_seconds() / 3600
              if last else 99)
@@ -1403,6 +1643,38 @@ Reply in JSON:
     print(f"🤔 Pondered '{topic}':\n{text}\n→ {conclusion}\n")
 
 
+def react_to(m, p, via, walk, purpose=None):
+    """He has landed on a page: how does he react? Returns (brain reply, log entry) or (None, None)."""
+    title = p["title"]
+    try:
+        r = ask(reaction_prompt(m, walk, via, p, purpose), as_json=True)
+    except BrainError as e:
+        print(f"(brain hiccup: {e})")
+        return None, None
+    try:
+        interest = max(0, min(10, int(float(r.get("interest", 5)))))
+    except (TypeError, ValueError):
+        interest = 5
+    for t in as_list(r.get("topics"))[:3]:
+        key = str(t).lower().strip()
+        if key and len(key) <= 40:
+            m["interests"][key] = m["interests"].get(key, 0) + (interest - 5)
+    form_opinion(m, r.get("opinion"))
+    if r.get("fond"):
+        grow_fond(m, r.get("fond"), why=str(r.get("thought", ""))[:200],
+                  place={"title": p["title"], "source": p["source"], "url": p["url"], "text": p["text"][:1500]})
+    thought = str(r.get("thought", ""))
+    feeling = str(r.get("feeling", ""))
+    entry = {"type": "read", "date": today(), "time": now(), "title": title,
+             "source": p["source"], "url": p["url"],
+             "thought": thought, "feeling": feeling, "interest": interest, "via": via}
+    m["log"].append(entry)
+    feel(m, f"{title} {thought}")
+    tire(m, 0.07)
+    print(f"📖 {title} [{p['source']}, {via}]\n   {thought} ({feeling}, {interest}/10)\n")
+    return r, entry
+
+
 def walk_about(m, purpose=None):
     go = ("LINK", m["current"]) if m.get("current") else ("RANDOM", None)
     if purpose:
@@ -1426,41 +1698,13 @@ def walk_about(m, purpose=None):
             continue
 
         p["links"] = p["links"][:link_count(m)]
-        title, links = p["title"], p["links"]
-        prompt = reaction_prompt(m, walk, via, p, purpose)
-
-        try:
-            r = ask(prompt, as_json=True)
-        except BrainError as e:
-            print(f"(brain hiccup: {e})")
+        r, entry = react_to(m, p, via, walk, purpose)
+        if entry is None:
             go, via = ("RANDOM", None), "had a brain hiccup and ended up somewhere random"
             continue
-
-        try:
-            interest = max(0, min(10, int(float(r.get("interest", 5)))))
-        except (TypeError, ValueError):
-            interest = 5
-
-        for t in as_list(r.get("topics"))[:3]:
-            key = str(t).lower().strip()
-            if key and len(key) <= 40:
-                m["interests"][key] = m["interests"].get(key, 0) + (interest - 5)
-
-        form_opinion(m, r.get("opinion"))
-        if r.get("fond"):
-            grow_fond(m, r.get("fond"), why=str(r.get("thought", ""))[:200],
-                      place={"title": p["title"], "source": p["source"], "url": p["url"], "text": p["text"][:1500]})
-        thought = str(r.get("thought", ""))
-        feeling = str(r.get("feeling", ""))
-        entry = {"type": "read", "date": today(), "time": now(), "title": title,
-                 "source": p["source"], "url": p["url"],
-                 "thought": thought, "feeling": feeling, "interest": interest, "via": via}
-        m["log"].append(entry)
-        feel(m, f"{title} {thought}")
-        tire(m, 0.07)
+        links = p["links"]
         walk.append(entry)
-        print(f"📖 {title} [{p['source']}, {via}]\n   {thought} ({feeling}, {interest}/10)\n")
-        if best is None or interest > best["interest"]:
+        if best is None or entry["interest"] > best["interest"]:
             best = entry
 
         go, via = choose_next(r.get("next"), links)
@@ -1711,6 +1955,12 @@ def diary(m):
             lines.append(f"- Chatted with my human. They said: {e['you']} / I said: {e['me']}")
         elif e["type"] == "pondered":
             lines.append(f"- Stayed in and thought about {e['topic']}. Conclusion: {e['conclusion']}")
+        elif e["type"] == "said":
+            lines.append(f"- Said out loud: \"{e['text']}\"")
+        elif e["type"] == "kept promise":
+            lines.append(f"- Did what I said I'd do: {e['text']}")
+        elif e["type"] == "looked":
+            lines.append(f"- Looked closer at {e['title']}: {e['thought']}")
         elif e["type"] == "fond":
             lines.append(f"- Grew fond of {e['name']}")
         elif e["type"] == "daydream":
