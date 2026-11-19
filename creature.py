@@ -56,6 +56,8 @@ CONTACT = os.environ.get("BLIP_CONTACT", "").strip()
 HEADERS = {"User-Agent": f"BlipCreature/0.3 ({CONTACT + '; ' if CONTACT else ''}personal hobby project)"}
 HERE = Path(__file__).parent
 MEMORY_FILE = HERE / "memory.json"
+FIRST_LIVES_FILE = HERE / "past_lives.json"  # identities Blip has moved on from (fresh starts), kept as history
+FRESH_START = "2026-11-19-playful"          # change this to give Blip a new fresh start (archives the old self)
 CHARACTER_FILE = HERE / "character.md"     # who Blip is, written by a person; Blip adds to it in naps
 NOTIFY_FILE = HERE / "notify.json"         # GitHub Actions turns each note in here into an issue (= email)
 CREATIONS_DIR = HERE / "creations"
@@ -301,7 +303,7 @@ def awaken_senses(m):
         return
     senses(m)
     past = [(t["time"], t["text"]) for t in m.get("thoughts", [])]
-    past += [(e["time"], f"{e['title']} {e['thought']}") for e in m["log"] if e["type"] == "read"]
+    past += [(e["time"], f"{e['title']} {e['thought']}") for e in since_rebirth(m, [e for e in m["log"] if e["type"] == "read"])]
     for _, text in sorted(past)[-60:]:
         feel(m, text, quiet=True)
     print(f"👁️  Senses awake: stimulation {m['senses']['stimulation']:.2f}")
@@ -370,7 +372,8 @@ def who_am_i(m, context=""):
     top = sorted(m["interests"].items(), key=lambda x: -x[1])
     loves = ", ".join(t for t, s in top[:8] if s > 0) or "nothing yet"
     hates = ", ".join(t for t, s in reversed(top[-5:]) if s < -2) or "nothing yet"
-    made = "; ".join(f"a {c['kind']} called '{c['title']}'" for c in m["creations"][-4:]) or "nothing yet"
+    mine = m["creations"][m.get("creations_before_rebirth", 0):]
+    made = "; ".join(f"a {c['kind']} called '{c['title']}'" for c in mine[-4:]) or "nothing yet"
     mood = m.get("mood") or {}
     feeling = (f"Right now you're feeling {mood['feeling']}, because {mood['why']}\n"
                if mood.get("feeling") else "")
@@ -1071,7 +1074,7 @@ def write_to_human(m, letter, p=None):
 
 def think(m):
     """A quiet moment before setting off: it talks to itself about whatever's on its mind."""
-    recent = [e for e in m["log"] if e["type"] in ("read", "made", "kept")][-6:]
+    recent = since_rebirth(m, [e for e in m["log"] if e["type"] in ("read", "made", "kept")])[-6:]
     lately = "\n".join(f"- {e.get('title') or e.get('memory', '')}" for e in recent) or "- nothing yet"
     try:
         text = ask(f"""{who_am_i(m, context=lately)}
@@ -1096,8 +1099,37 @@ yourself. Plain text, no headings.""", temperature=1.0)
     print(f"🤔 {text}\n")
 
 
+def fresh_start(m):
+    """Archive Blip's old identity (formed under an older character sheet) and let him begin again from
+    the current one. His diary, creations, letters and log stay; they're his history, not his head."""
+    if m.get("fresh_start") == FRESH_START:
+        return
+    keys = ["about", "self", "traits", "opinions", "interests", "memory", "scrapbook", "mood", "projects",
+            "thoughts", "senses", "home", "portrait", "spaces", "sheet", "sheet_history", "current", "hours"]
+    past = json.loads(FIRST_LIVES_FILE.read_text(encoding="utf-8")) if FIRST_LIVES_FILE.exists() else []
+    past.append({"ended": now(), "label": m.get("fresh_start") or "first life",
+                 **{k: m.get(k) for k in keys if k in m}})
+    FIRST_LIVES_FILE.write_text(json.dumps(past, indent=2, ensure_ascii=False), encoding="utf-8")
+    for k in keys:
+        m.pop(k, None)
+    m.update({"self": "I've just woken up, and everything feels new.", "interests": {}, "opinions": {},
+              "projects": [], "thoughts": [], "home": {}, "portrait": None, "spaces": [],
+              "memory": {"short": [], "long": [], "faded": []}, "scrapbook_moved": True,
+              "fresh_start": FRESH_START, "reborn_at": now(), "creations_before_rebirth": len(m["creations"])})
+    m["log"].append({"type": "reborn", "date": today(), "time": now()})
+    save(m)
+    print(f"🌱 Fresh start ({FRESH_START}): the old self is archived in {FIRST_LIVES_FILE.name}")
+
+
+def since_rebirth(m, entries):
+    """Things from before a fresh start aren't on his mind any more."""
+    born = m.get("reborn_at", "")
+    return [e for e in entries if (e.get("time") or e.get("date", "")) >= born] if born else entries
+
+
 def wander(m):
     """One hour of Blip's life, then a nap if it's been a while."""
+    fresh_start(m)
     live_hour(m)
     last = m.get("last_nap")
     hours = ((datetime.datetime.now().astimezone() - datetime.datetime.fromisoformat(last)).total_seconds() / 3600
@@ -1173,7 +1205,7 @@ def live_hour(m):
     if choice == "ponder":
         return ponder(m)
     if choice == "make":
-        recent = [e for e in m["log"] if e["type"] == "read"][-5:]
+        recent = since_rebirth(m, [e for e in m["log"] if e["type"] == "read"])[-5:]
         return maybe_make(m, recent, just_because=True)
     if choice == "rest":
         tire(m, -0.5)
@@ -1511,7 +1543,7 @@ def store_creation(m, r, project=None):
 
 
 def diary(m):
-    entries = [e for e in m["log"] if e.get("date") == today()]
+    entries = since_rebirth(m, [e for e in m["log"] if e.get("date") == today()])
     if not entries:
         print("Nothing has happened today yet. Run 'wander' first.")
         return
@@ -1790,7 +1822,7 @@ def home(m):
 
 
 def chat(m):
-    recent = [e for e in m["log"] if e["type"] == "read"][-8:]
+    recent = since_rebirth(m, [e for e in m["log"] if e["type"] == "read"])[-8:]
     seen = "\n".join(f"- {e['title']}: {e['thought']}" for e in recent) or "- nothing yet"
     last = m["diary"][-1]["entry"] if m["diary"] else "No diary entries yet."
 

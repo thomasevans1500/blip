@@ -137,6 +137,17 @@ Loop is now: senses -> feel -> think -> act -> reflect. The world reacts; Blip i
   then the brain may add up to 2 sheet lines / let go of its own lines, and dreams. Energy +0.35.
 - Diary no longer rewrites traits; it still rewrites `self` notes and `about`.
 - Site: "📜 Who I am" (two columns, his additions in green, change history) and "🧠 My memory" (blocks).
+
+## Fresh starts (2026-11-19, Thomas's choice)
+Old identity material (formed under the earlier analytical sheet) kept dragging Blip back to Guerin/football
+analytics. `fresh_start(m)` runs at the start of each hour; when memory["fresh_start"] != FRESH_START it
+archives about/self/traits/opinions/interests/memory/mood/projects/thoughts/senses/home/portrait/spaces/sheet
+into `past_lives.json` (committed; shown on the site as "🕰️ My past lives"), resets them, and records
+reborn_at + creations_before_rebirth. Diary, creations, letters, mail and log are kept as history;
+`since_rebirth()` keeps pre-rebirth log entries out of his head (think, make, chat, senses, diary).
+To give him another fresh start later: change FRESH_START.
+Also: quoted catchphrases in character.md become tics with small models ("oh dear" on every line) - avoid
+them; and the "old football seasons" line was removed at Thomas's request (no football obsession).
 Optional later: describe internet sources as places with atmosphere.
 
 ## Inner life roadmap (Thomas wants Pino-like agency, but emergent; agreed 3 steps)
