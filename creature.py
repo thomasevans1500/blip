@@ -39,6 +39,7 @@ MAX_THOUGHTS = 200                                       # thinking-out-loud ent
 MAX_OPINIONS = 100                                       # opinions kept (least recently formed drop off)
 PORTRAIT_EVERY_DAYS = 7                                  # how often it's offered the chance to redraw itself
 SHORT_ROOM, LONG_ROOM, FADED_ROOM = 40, 40, 200          # how much fits in each part of its memory
+MAX_DARLINGS = 8                                         # things he can be fond of at once
 MAIL_FRESH_HOURS = 3                                     # how long a message from his human stays front of mind
 NAP_EVERY_HOURS = 4                                      # it naps (consolidates memory, grows its sheet)
 MAX_ADDED_PER_SECTION = 6                                # lines it can add to each part of its character sheet
@@ -369,6 +370,50 @@ def walk_length(m):
     return max(2, min(HOPS_PER_WANDER, hops))
 
 
+# ---------- Fondness: things he loves, not topics he studies ----------
+
+def darlings(m):
+    return m.setdefault("darlings", [])
+
+
+def find_darling(m, name):
+    name = str(name or "").lower().strip()
+    if not name:
+        return None
+    for d in darlings(m):
+        if d["name"].lower() == name:
+            return d
+    words = set(WORD_RE.findall(name))
+    return next((d for d in darlings(m) if words and words & set(WORD_RE.findall(d["name"].lower()))), None)
+
+
+def grow_fond(m, name, why="", place=None):
+    """Something made him go soft. It becomes (or becomes more of) a darling."""
+    name = str(name or "").strip().strip("'\"“”‘’")[:60]
+    if len(name) < 2:
+        return None
+    d = find_darling(m, name)
+    if d:
+        d["strength"] = round(min(3.0, d["strength"] + 0.3), 3)
+    else:
+        d = {"name": name, "why": str(why)[:200], "since": today(), "strength": 1.0, "visits": 0, "places": []}
+        darlings(m).append(d)
+        if len(darlings(m)) > MAX_DARLINGS:
+            gone = min(darlings(m)[:-1], key=lambda x: x["strength"])
+            darlings(m).remove(gone)
+            remember(m, f"I used to be so fond of {gone['name']}. We drifted apart.", 0.4, source="fondness")
+        m["log"].append({"type": "fond", "date": today(), "time": now(), "name": name, "why": str(why)[:200]})
+        print(f"💕 Grew fond of {name}")
+    if place and place.get("title") and not any(x["title"] == place["title"] for x in d["places"]):
+        d["places"] = (d["places"] + [place])[-5:]
+    return d
+
+
+def darling_text(m):
+    ds = sorted(darlings(m), key=lambda d: -d["strength"])
+    return "; ".join(f"{d['name']} (since {d['since']})" for d in ds) or "nothing yet"
+
+
 def who_am_i(m, context=""):
     top = sorted(m["interests"].items(), key=lambda x: -x[1])
     loves = ", ".join(t for t, s in top[:8] if s > 0) or "nothing yet"
@@ -408,7 +453,8 @@ def who_am_i(m, context=""):
         f"{thinking}"
         f"{projects}"
         f"{heard}"
-        f"Things you've grown to love: {loves}.\n"
+        f"Things you're fond of: {darling_text(m)}.\n"
+        f"Subjects you've enjoyed lately: {loves}.\n"
         f"Things that bore you: {hates}.\n"
         f"Things you've made recently: {made}."
     )
@@ -717,7 +763,8 @@ TEXT: {p['text'][:reading_chars(m)]}
 
 Reply in JSON with these keys:
 "thought": one or two sentences of your honest reaction, in your own voice
-"feeling": one word
+"feeling": one word for how it made you feel
+"fond": if something here made you go soft, warm or giddy, a short name for that thing, otherwise null
 "interest": a number from 0 to 10 for how much this grabbed you
 "topics": a list of 1 to 3 short topic words this is about
 "opinion": if this gave you an opinion (new, or changed) about something, {{"about": "the thing", "opinion": "what you think, in your words"}}, otherwise null
@@ -817,16 +864,21 @@ A project is anything you want to do, work towards, make happen, or get. If ther
 want, you can start one. If something you want needs an ability you don't have, you could write to
 your human and ask for it. You can have up to {MAX_ACTIVE_PROJECTS} projects at once.
 
+Things you're fond of: {darling_text(m)}
+
 It's your time. How do you want to spend this hour? Pick ONE:
   - "wander": go out and explore the internet
+  - "daydream": imagine things about something you're fond of (no facts needed)
+  - "visit": go back to something you're fond of, just to enjoy it
+  - "make": make something, just because (or for something you're fond of)
+  - "think": stay in and let your mind wander over whatever's on it
   - "project": start, work on, finish or give up a project
-  - "ponder": stay in and think something over properly
-  - "make": make something, just because
-  - "rest": do nothing much, daydream, recharge
+  - "rest": do nothing much, recharge
 
 Reply in JSON:
-"this_hour": "wander", "project", "ponder", "make" or "rest"
+"this_hour": "wander", "daydream", "visit", "make", "think", "project" or "rest"
 "why": one sentence on why you chose that
+"which": for daydream or visit, the thing you're fond of
 "action": if project: "start", "work", "finish" or "give up"
 "project": for work/finish/give up, the project's goal exactly as written above
 "goal": for start, what you want, in a short phrase
@@ -853,7 +905,14 @@ Reply in JSON:
         if isinstance(result, dict):
             return "wander", result          # it's going out to research for the project
         return ("project", None) if result else ("wander", None)
-    for choice in ("ponder", "make", "rest"):
+    if hour.startswith(("daydream", "visit")):
+        d = find_darling(m, r.get("which")) or (max(darlings(m), key=lambda x: x["strength"]) if darlings(m) else None)
+        if d is None:
+            return ("daydream" if hour.startswith("daydream") else "wander"), None
+        return ("daydream" if hour.startswith("daydream") else "visit"), d
+    if hour.startswith(("think", "ponder")):
+        return "ponder", None
+    for choice in ("make", "rest"):
         if hour.startswith(choice):
             return choice, None
     return "wander", None
@@ -1111,7 +1170,8 @@ def fresh_start(m):
     if m.get("fresh_start") == FRESH_START:
         return
     keys = ["about", "self", "traits", "opinions", "interests", "memory", "scrapbook", "mood", "projects",
-            "thoughts", "senses", "home", "portrait", "spaces", "sheet", "sheet_history", "current", "hours"]
+            "thoughts", "senses", "home", "portrait", "spaces", "sheet", "sheet_history", "current", "hours",
+            "darlings"]
     past = json.loads(FIRST_LIVES_FILE.read_text(encoding="utf-8")) if FIRST_LIVES_FILE.exists() else []
     past.append({"ended": now(), "label": m.get("fresh_start") or "first life",
                  **{k: m.get(k) for k in keys if k in m}})
@@ -1147,6 +1207,12 @@ def wander(m):
 def nap(m):
     """Every few hours it sleeps: memory is consolidated, and it may notice something new about who it is."""
     moved, forgotten = consolidate(m)
+    for d in list(darlings(m)):
+        d["strength"] = round(d["strength"] * 0.97, 3)
+        if d["strength"] < 0.2:
+            darlings(m).remove(d)
+            remember(m, f"I used to be so fond of {d['name']}. We drifted apart.", 0.4, source="fondness")
+            print(f"🍂 Drifted apart from {d['name']}")
     print(f"😴 Napping... {moved} memories settled into long term, {forgotten} faded away.")
     mem = memory_store(m)
     lately = "\n".join(f"- {x['text']}" for x in mem["short"][-10:]) or "- nothing much"
@@ -1210,6 +1276,10 @@ def live_hour(m):
     choice, purpose = plan(m)
     if choice == "ponder":
         return ponder(m)
+    if choice == "daydream":
+        return daydream(m, purpose)
+    if choice == "visit":
+        return visit_darling(m, purpose)
     if choice == "make":
         recent = since_rebirth(m, [e for e in m["log"] if e["type"] == "read"])[-5:]
         return maybe_make(m, recent, just_because=True)
@@ -1224,14 +1294,88 @@ def live_hour(m):
     walk_about(m, purpose)
 
 
+def daydream(m, d=None):
+    """An hour of happy imagining about something he loves. Nobody checks facts in a daydream."""
+    subject = d["name"] if d else "whatever drifts into your head"
+    try:
+        r = ask(f"""{who_am_i(m, context=subject)}
+
+You spend this hour daydreaming about {subject}. Imagine whatever you like: silly, sweet, impossible,
+grand or tiny. Nobody is checking facts in a daydream.
+
+Reply in JSON:
+"daydream": the daydream, in first person, 3 to 8 sentences
+"feeling": one word for how it leaves you feeling""", as_json=True, temperature=1.1)
+    except BrainError as e:
+        print(f"(drifted off without a daydream: {e})")
+        return
+    text = str(r.get("daydream", "")).strip()[:2500]
+    if len(text) < 20:
+        return
+    feel(m, f"{subject} {text}")
+    tire(m, 0.03)
+    if d:
+        d["strength"] = round(min(3.0, d["strength"] + 0.2), 3)
+    m.setdefault("thoughts", []).append({"time": now(), "text": text, "topic": subject, "kind": "daydream"})
+    m["thoughts"] = m["thoughts"][-MAX_THOUGHTS:]
+    feeling = str(r.get("feeling", "")).strip()[:40]
+    if feeling:
+        m["mood"] = {"feeling": feeling, "why": f"I've been daydreaming about {subject}", "since": now()}
+    m["log"].append({"type": "daydream", "date": today(), "time": now(), "topic": subject, "text": text[:400]})
+    remember(m, f"I daydreamed about {subject}: {text[:200]}", 0.5, source="daydream")
+    save(m)
+    print(f"☁️  Daydreaming about {subject}:\n{text}\n")
+
+
+def visit_darling(m, d):
+    """He goes back to something he loves, just to enjoy it again (like a favourite spot)."""
+    place = random.choice(d["places"]) if d.get("places") else None
+    if not place:
+        return daydream(m, d)
+    try:
+        page = visit_wiki(place["title"]) if place.get("source") == "Wikipedia" else None
+    except (requests.RequestException, KeyError, ValueError):
+        page = None
+    text = (page or {}).get("text") or place.get("text", "")
+    try:
+        r = ask(f"""{who_am_i(m, context=d['name'])}
+
+You've come back to visit {d['name']}, one of the things you're fond of, just to enjoy it.
+You're looking at: {place['title']} ({place.get('source', '')})
+{text[:reading_chars(m)]}
+
+Reply in JSON:
+"thought": what goes through your head being back here, in your own voice (one to three sentences)
+"feeling": one word
+"noticed": anything you notice this time that you hadn't before (or "")""", as_json=True, temperature=1.0)
+    except BrainError as e:
+        print(f"(couldn't settle in for a visit: {e})")
+        return
+    thought = str(r.get("thought", "")).strip()
+    feeling = str(r.get("feeling", "")).strip()[:40]
+    noticed = str(r.get("noticed", "")).strip()
+    feel(m, f"{d['name']} {thought} {noticed}")
+    tire(m, 0.03)
+    d["visits"] += 1
+    d["last_visit"] = today()
+    d["strength"] = round(min(3.0, d["strength"] + 0.2), 3)
+    m["log"].append({"type": "visited", "date": today(), "time": now(), "name": d["name"],
+                     "title": place["title"], "thought": thought, "feeling": feeling, "noticed": noticed})
+    if feeling:
+        m["mood"] = {"feeling": feeling, "why": f"I went back to visit {d['name']}", "since": now()}
+    remember(m, f"I went back to visit {d['name']} ({place['title']}). {thought}", 0.5, source="visit")
+    save(m)
+    print(f"🏡 Visited {d['name']} at {place['title']}: {thought} ({feeling})" + (f"\n   Noticed: {noticed}" if noticed else ""))
+
+
 def ponder(m):
     """It stays in and thinks something over properly. Pondering can change its mind."""
     last = m["thoughts"][-1]["text"] if m.get("thoughts") else ""
     try:
         r = ask(f"""{who_am_i(m, context=last)}
 
-You've decided to stay in this hour and think something over properly. Pick whatever is on your mind:
-something you read, something about yourself, a question, a worry, a plan, anything.
+You've decided to stay in this hour and let your mind wander over whatever's on it: something you read,
+something you love, something about yourself, a question, a silly idea, anything.
 
 Reply in JSON:
 "topic": what you're thinking about, in a few words
@@ -1303,6 +1447,9 @@ def walk_about(m, purpose=None):
                 m["interests"][key] = m["interests"].get(key, 0) + (interest - 5)
 
         form_opinion(m, r.get("opinion"))
+        if r.get("fond"):
+            grow_fond(m, r.get("fond"), why=str(r.get("thought", ""))[:200],
+                      place={"title": p["title"], "source": p["source"], "url": p["url"], "text": p["text"][:1500]})
         thought = str(r.get("thought", ""))
         feeling = str(r.get("feeling", ""))
         entry = {"type": "read", "date": today(), "time": now(), "title": title,
@@ -1564,6 +1711,12 @@ def diary(m):
             lines.append(f"- Chatted with my human. They said: {e['you']} / I said: {e['me']}")
         elif e["type"] == "pondered":
             lines.append(f"- Stayed in and thought about {e['topic']}. Conclusion: {e['conclusion']}")
+        elif e["type"] == "fond":
+            lines.append(f"- Grew fond of {e['name']}")
+        elif e["type"] == "daydream":
+            lines.append(f"- Daydreamed about {e['topic']}: {e['text'][:200]}")
+        elif e["type"] == "visited":
+            lines.append(f"- Went back to visit {e['name']} ({e['title']}): {e['thought']}")
         elif e["type"] == "napped":
             lines.append(f"- Had a nap" + (f" and dreamt: {e['dream']}" if e.get("dream") else ""))
         elif e["type"] == "rested":

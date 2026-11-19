@@ -107,8 +107,8 @@ so he can flag anything confusing before moving on.
 ## Each hour is Blip's choice
 `wander` = one hour of life: `think` -> `plan` asks "how do you want to spend this hour?":
 wander (walk_about, 5 hops) | project (project_action; only walks if it chose research) |
-ponder (`ponder`: long think-through, topic + conclusion, may form an opinion; saved in thoughts
-with kind "ponder") | make (maybe_make just_because) | rest (logged). Diary knows all of these.
+think/ponder (`ponder`: let the mind wander, topic + conclusion, may form an opinion) | daydream | visit |
+make (maybe_make just_because) | rest (logged). Diary knows all of these. (See "Fondness & daydreams".)
 
 ## Senses (inspired by Pino's ideas as Thomas described them - NOT copied code; their site isn't reachable/open)
 Loop is now: senses -> feel -> think -> act -> reflect. The world reacts; Blip is never told "be creative".
@@ -138,6 +138,17 @@ Loop is now: senses -> feel -> think -> act -> reflect. The world reacts; Blip i
 - Diary no longer rewrites traits; it still rewrites `self` notes and `about`.
 - Site: "🧠 My memory" (blocks). The character sheet is NOT shown on the website (Thomas's choice,
   2026-11-19); it only lives in character.md and in Blip's prompts.
+
+## Fondness & daydreams (2026-11-19) - so love doesn't only come out as research
+Pino-style "cute obsessions" (dote, daydream, make art) vs Blip's research-only affection: the world only
+offered research-shaped actions and measured things (0-10, topics). Now:
+- Reaction JSON has "fond": a short name if something made him go soft/warm/giddy -> `grow_fond`:
+  memory["darlings"] = [{name, why, since, strength, visits, places[{title, source, url, text}]}], max 8
+  (weakest drifts away -> memory). who_am_i: "Things you're fond of" before "Subjects you've enjoyed lately".
+- Hour menu: wander | daydream (`daydream`: imagine freely, no facts) | visit (`visit_darling`: revisit a
+  saved place just to enjoy it) | make | think (=ponder, reworded playful) | project | rest.
+  Daydream/visit strengthen the darling (+0.2) and are felt by the senses (repetitive daydreams dim).
+- Naps: darlings x0.97, < 0.2 drift away. Fresh start archives darlings. Site: "💕 Things I'm fond of".
 
 ## Fresh starts (2026-11-19, Thomas's choice)
 Old identity material (formed under the earlier analytical sheet) kept dragging Blip back to Guerin/football

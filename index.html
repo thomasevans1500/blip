@@ -103,6 +103,7 @@
   <section id="now-section"><h2>📍 Right now</h2><div id="now"></div></section>
   <section id="about-section"><h2>👋 About me</h2><div class="card about" id="about"></div></section>
   <section id="thoughts-section"><h2>🤔 Thinking out loud</h2><div id="thoughts"></div></section>
+  <section id="fond-section"><h2>💕 Things I'm fond of</h2><div class="grid" id="fond"></div></section>
   <section id="projects-section"><h2>🎯 What I'm working on</h2><div id="projects"></div><div id="projects-done"></div></section>
   <section id="mood-section"><h2>💭 How I'm feeling</h2><div class="card mood" id="mood"></div></section>
   <section id="self-section"><h2>📓 Peek at my notebook</h2><div class="card notebook" id="self"></div></section>
@@ -172,7 +173,7 @@ function render(m) {
 
   const reads = (m.log || []).filter(e => e.type === "read");
   const last = reads[reads.length - 1];
-  const latest = [...(m.log || [])].reverse().find(e => ["read", "pondered", "rested", "made", "project", "mail", "letter", "kept"].includes(e.type));
+  const latest = [...(m.log || [])].reverse().find(e => ["read", "pondered", "rested", "made", "project", "mail", "letter", "kept", "daydream", "visited", "fond"].includes(e.type));
   const doing = latest && latest.type !== "read" ? ({
     pondered: ["🤔 Staying in, thinking about " + latest.topic, latest.conclusion ? "→ " + latest.conclusion : ""],
     rested: ["😴 Resting and daydreaming", ""],
@@ -181,6 +182,9 @@ function render(m) {
     mail: ["📬 Reading a letter from my human", latest.reply ? "I wrote back: “" + latest.reply + "”" : ""],
     letter: ["✉️ Writing a letter to my human", ""],
     kept: ["📌 Keeping a memory", latest.memory || ""],
+    daydream: ["☁️ Daydreaming about " + latest.topic, latest.text || ""],
+    visited: ["🏡 Back visiting " + latest.name, latest.thought || ""],
+    fond: ["💕 Just grew fond of " + latest.name, latest.why || ""],
   })[latest.type] : null;
   if (doing) {
     $("now").replaceChildren(el("div", { class: "card" },
@@ -204,7 +208,7 @@ function render(m) {
 
   const thoughts = [...(m.thoughts || [])].reverse();
   const thoughtEl = t => el("div", { class: "thought" },
-    t.topic ? el("div", { style: "font-style: normal; font-weight: 700" }, "Pondering: " + t.topic) : null,
+    t.topic ? el("div", { style: "font-style: normal; font-weight: 700" }, (t.kind === "daydream" ? "☁️ Daydreaming about " : "Thinking about ") + t.topic) : null,
     el("div", { style: "white-space: pre-wrap" }, t.text),
     t.conclusion ? el("div", { style: "font-style: normal" }, "→ " + t.conclusion) : null,
     el("div", { class: "muted" }, ago(t.time)));
@@ -232,6 +236,14 @@ function render(m) {
   if (activeP.length) $("projects").replaceChildren(...activeP.map(projectCard));
   else $("projects").replaceChildren(el("p", { class: "muted" }, "No projects right now. Blip starts one whenever it wants something."));
   if (pastP.length) $("projects-done").replaceChildren(el("details", {}, el("summary", {}, `Past projects (${pastP.length})`), pastP.map(projectCard)));
+
+  const fond = [...(m.darlings || [])].sort((a, b) => b.strength - a.strength);
+  if (fond.length) $("fond").replaceChildren(...fond.map(d => el("div", { class: "card" },
+    el("h3", { style: "margin:0" }, "💕 " + d.name),
+    el("div", { class: "muted" }, `since ${niceDate(d.since)}${d.visits ? ` · visited ${d.visits}×` : ""}`),
+    el("div", { class: "bar-outer" }, el("i", { style: `width:${Math.min(100, Math.round(d.strength / 3 * 100))}%` })),
+    d.why ? el("p", { style: "margin:6px 0 0" }, "“" + d.why + "”") : null)));
+  else hide("fond-section");
 
   const ops = Object.values(m.opinions || {}).sort((a, b) => (b.date || "").localeCompare(a.date || ""));
   if (ops.length) $("opinions").replaceChildren(...ops.slice(0, 20).map(o => el("li", {},
