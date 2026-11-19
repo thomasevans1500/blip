@@ -38,6 +38,9 @@ MAX_LETTERS_PER_DAY = 2                                  # emails it can write t
 MAX_THOUGHTS = 200                                       # thinking-out-loud entries kept
 MAX_OPINIONS = 100                                       # opinions kept (least recently formed drop off)
 PORTRAIT_EVERY_DAYS = 7                                  # how often it's offered the chance to redraw itself
+SHORT_ROOM, LONG_ROOM, FADED_ROOM = 40, 40, 200          # how much fits in each part of its memory
+NAP_EVERY_HOURS = 4                                      # it naps (consolidates memory, grows its sheet)
+MAX_ADDED_PER_SECTION = 6                                # lines it can add to each part of its character sheet
 MAX_SCRAPBOOK = 300                                      # memories it can keep (oldest drop off past this)
 MAX_OPEN_SPACES = 8                                      # how many rooms its website can have at once
 READ_CHARS = 4000                                        # how much of each page it gets to read
@@ -53,6 +56,7 @@ CONTACT = os.environ.get("BLIP_CONTACT", "").strip()
 HEADERS = {"User-Agent": f"BlipCreature/0.3 ({CONTACT + '; ' if CONTACT else ''}personal hobby project)"}
 HERE = Path(__file__).parent
 MEMORY_FILE = HERE / "memory.json"
+CHARACTER_FILE = HERE / "character.md"     # who Blip is, written by a person; Blip adds to it in naps
 NOTIFY_FILE = HERE / "notify.json"         # GitHub Actions turns each note in here into an issue (= email)
 CREATIONS_DIR = HERE / "creations"
 
@@ -111,20 +115,138 @@ def now():
 WORD_RE = re.compile(r"[a-z]{4,}")
 
 
+# ---------- Character sheet (a person wrote who he is; he adds to it) ----------
+
+def read_character():
+    """Parse character.md: '## Section' headings with '- line' bullets. Comments are ignored."""
+    if not CHARACTER_FILE.exists():
+        return {}
+    text = re.sub(r"<!--.*?-->", "", CHARACTER_FILE.read_text(encoding="utf-8"), flags=re.S)
+    sections, current = {}, None
+    for line in text.splitlines():
+        if line.startswith("## "):
+            current = line[3:].strip()
+            sections[current] = []
+        elif current and line.strip().startswith("- "):
+            sections[current].append(line.strip()[2:].strip())
+    return sections
+
+
+def sheet_text(m):
+    written, added = read_character(), m.get("sheet", {})
+    out = []
+    for sec in list(written) + [x for x in added if x not in written]:
+        out.append(f"{sec}:")
+        out += [f"- {line}" for line in written.get(sec, [])]
+        out += [f"- {x['text']} (you added this yourself)" for x in added.get(sec, [])]
+    return "\n".join(out)
+
+
+# ---------- Memory: small on purpose; things have to earn their place ----------
+# short term: what happened lately; fades within days unless it keeps coming back to mind.
+# long term: kept for good; things that came back on different days, or big moments. Limited room:
+#   a newcomer must be stronger than the weakest thing there, which then fades.
+# faded: a one-sentence trace of what was pushed out of long term.
+
+def memory_store(m):
+    mem = m.setdefault("memory", {"short": [], "long": [], "faded": []})
+    if "scrapbook" in m and not m.get("scrapbook_moved"):
+        for x in m["scrapbook"]:               # old scrapbook memories were kept on purpose: long term
+            mem["long"].append(_memory_item(x["memory"], 1.0, "scrapbook", x.get("date")))
+        mem["long"] = mem["long"][-LONG_ROOM:]
+        m["scrapbook_moved"] = True
+    return mem
+
+
+def _memory_item(text, strength, source, born=None):
+    return {"id": f"{datetime.datetime.now():%Y%m%d%H%M%S}{random.randint(100, 999)}", "text": str(text)[:600],
+            "born": born or today(), "strength": round(strength, 3), "recalls": 0, "days": [], "source": source}
+
+
+def _fade(m, item):
+    first = re.split(r"(?<=[.!?])\s", item["text"].strip())[0][:180]
+    mem = memory_store(m)
+    mem["faded"] = (mem["faded"] + [{"text": first, "from": item["born"], "faded": today()}])[-FADED_ROOM:]
+
+
+def _admit_long(m, item):
+    mem = memory_store(m)
+    if len(mem["long"]) < LONG_ROOM:
+        mem["long"].append(item)
+        return True
+    weakest = min(mem["long"], key=lambda x: x["strength"])
+    if item["strength"] <= weakest["strength"]:
+        return False                           # not worth more than anything already there
+    mem["long"].remove(weakest)
+    _fade(m, weakest)
+    mem["long"].append(item)
+    return True
+
+
+def remember(m, text, strength=0.5, big=False, source=""):
+    """Something happened worth remembering. Big moments go straight to long term (if they're strong enough)."""
+    text = str(text).strip()
+    if len(text) < 8:
+        return
+    mem = memory_store(m)
+    item = _memory_item(text, max(strength, 1.0) if big else strength, source)
+    if big and _admit_long(m, item):
+        return
+    mem["short"].append(item)
+    if len(mem["short"]) > SHORT_ROOM:
+        weakest = min(mem["short"], key=lambda x: x["strength"])
+        mem["short"].remove(weakest)
+        if weakest["recalls"]:
+            _fade(m, weakest)
+
+
 def recall(m, context="", n=5):
-    """Memories that come to mind: ones related to what it's looking at, the latest, and one from long ago."""
-    book = m.get("scrapbook", [])
-    if not book:
+    """What comes to mind: memories related to what it's looking at, the latest, and one from long ago.
+    Coming back to mind makes a memory stronger (once per hour)."""
+    mem = memory_store(m)
+    pool = mem["long"] + mem["short"]
+    if not pool:
         return []
     words = set(WORD_RE.findall(context.lower()))
-    related = sorted(((len(words & set(WORD_RE.findall(x["memory"].lower()))), i) for i, x in enumerate(book)),
-                     reverse=True)
-    picks = [i for score, i in related if score >= 2][:n - 3]          # related memories
-    picks += [i for i in range(len(book) - 1, -1, -1) if i not in picks][:2]   # the latest
-    older = [i for i in range(len(book) - 10) if i not in picks]
+    related = sorted(pool, key=lambda x: -len(words & set(WORD_RE.findall(x["text"].lower()))))
+    picks = [x for x in related if len(words & set(WORD_RE.findall(x["text"].lower()))) >= 2][:n - 3]
+    picks += [x for x in reversed(mem["short"]) if x not in picks][:2]
+    older = [x for x in mem["long"] if x not in picks]
     if older:
-        picks.append(random.choice(older))                             # something from long ago
-    return [book[i] for i in sorted(set(picks))]
+        picks.append(random.choice(older))
+    hour = now()[:13]
+    for x in picks:
+        if x.get("last_recalled") != hour:
+            x["last_recalled"] = hour
+            x["recalls"] += 1
+            x["strength"] = round(x["strength"] + 0.15, 3)
+            if today() not in x["days"]:
+                x["days"] = (x["days"] + [today()])[-10:]
+    return sorted(picks, key=lambda x: x["born"])
+
+
+def consolidate(m):
+    """During a nap: short-term memories fade a little, ones that keep coming back move to long term,
+    weak ones are forgotten (leaving a trace if they ever mattered)."""
+    mem = memory_store(m)
+    for x in mem["short"]:
+        x["strength"] = round(x["strength"] * 0.85, 3)
+    for x in mem["long"]:
+        x["strength"] = round(x["strength"] * 0.995, 3)
+    moved = 0
+    for x in sorted(mem["short"], key=lambda x: -x["strength"]):
+        if len(set(x["days"])) >= 2 or x["strength"] >= 1.2:
+            mem["short"].remove(x)
+            if _admit_long(m, x):
+                moved += 1
+            else:
+                mem["short"].append(x)
+    forgotten = [x for x in mem["short"] if x["strength"] < 0.15]
+    for x in forgotten:
+        mem["short"].remove(x)
+        if x["recalls"]:
+            _fade(m, x)
+    return moved, len(forgotten)
 
 
 def relevant_opinions(m, context="", n=5):
@@ -263,12 +385,12 @@ def who_am_i(m, context=""):
     heard = (f"The last thing your human said to you ({last_mail['date']}): \"{last_mail['text'][:300]}\"\n"
              if last_mail else "")
     projects = f"Projects you're working on: {goals}\n" if goals else ""
-    remembered = ("Memories from your scrapbook that come to mind:\n"
-                  + "\n".join(f"- ({x['date']}) {x['memory']}" for x in memories) + "\n") if memories else ""
+    remembered = ("Memories that come to mind:\n"
+                  + "\n".join(f"- ({x['born']}) {x['text']}" for x in memories) + "\n") if memories else ""
     return (
         f"You are {NAME}, a small creature who lives on the internet and wanders Wikipedia.\n"
         f"{sensations(m)}\n"
-        f"Your personality: {', '.join(m['traits'])}.\n"
+        f"Who you are:\n{sheet_text(m)}\n"
         f"{about}"
         f"Your private notes about yourself (written by you):\n{m['self']}\n"
         f"{feeling}"
@@ -618,7 +740,7 @@ def form_opinion(m, op):
 
 ABILITIES = """Things you can do: read Wikipedia, look up words, ask DuckDuckGo, find books, browse NASA's
 pictures, read the BBC news and Hacker News, see what happened on this day in history; write things and
-draw simple pictures; keep a scrapbook, opinions and notes; run your own website with spaces and project
+draw simple pictures; keep memories, opinions and notes; run your own website with spaces and project
 pages; write a letter to your human (they get it by email, and their replies reach you next hour).
 Things you can't do (yet): see photos or videos, hear sounds or music, move or touch anything in the
 physical world, buy anything or handle money, talk to anyone except your human."""
@@ -741,6 +863,7 @@ def project_action(m, r):
              "status": "active", "started": today(), "updated": now(), "log": []}
         m["projects"].append(p)
         project_note(m, p, f"Started this project because {p['why']}", "start")
+        remember(m, f"I started a project: {goal}, because {p['why']}", 0.7, source="project")
         save(m)
         print(f"🎯 New project: {goal} ({p['why']})\n   Plan: " + " → ".join(x["text"] for x in p["steps"]))
         return True
@@ -755,6 +878,8 @@ def project_action(m, r):
         p["status"] = "finished" if action == "finish" else "abandoned"
         p["ended"] = today()
         project_note(m, p, str(r.get("note", "")) or ("Finished!" if action == "finish" else "Gave up."), p["status"])
+        remember(m, f"I {'finished' if action == 'finish' else 'gave up on'} my project '{p['goal']}'. {r.get('note', '')}",
+                 0.9, big=(action == "finish"), source="project")
         save(m)
         print(f"{'🏁 Finished' if action == 'finish' else '🫥 Gave up on'} project: {p['goal']}. {r.get('note', '')}")
         return True
@@ -897,7 +1022,7 @@ Your human said: "{text}"
 Reply in JSON:
 "reply": what you write back to them, in your own voice (as long or short as you like)
 "feeling": one word: how their message made you feel
-"keep": true or false: do you want to keep this moment in your scrapbook?
+"keep": true or false: is this a big moment you never want to forget?
 "memory": if true, the memory in your own words
 "project_note": if this helps or changes one of your projects, a sentence about it, otherwise """"",
                 as_json=True, temperature=0.9)
@@ -913,9 +1038,9 @@ Reply in JSON:
     if feeling:
         m["mood"] = {"feeling": feeling, "why": "of what my human just wrote to me", "since": now()}
     memory = str(r.get("memory", "")).strip()
+    remember(m, f"My human wrote to me: \"{text[:200]}\" and I wrote back.", strength=0.8, source="mail")
     if r.get("keep") is True and len(memory) > 10:
-        m.setdefault("scrapbook", []).append({"date": today(), "memory": memory[:600]})
-        m["scrapbook"] = m["scrapbook"][-MAX_SCRAPBOOK:]
+        remember(m, memory, big=True, source="big moment")
     note = str(r.get("project_note", "")).strip()
     goal = re.search(r"letter about '(.+)'", title)
     proj = find_project(m, goal.group(1)) if goal else None
@@ -972,7 +1097,74 @@ yourself. Plain text, no headings.""", temperature=1.0)
 
 
 def wander(m):
-    """One hour of Blip's life. (Called 'wander' for history; it chooses what the hour is for.)"""
+    """One hour of Blip's life, then a nap if it's been a while."""
+    live_hour(m)
+    last = m.get("last_nap")
+    hours = ((datetime.datetime.now().astimezone() - datetime.datetime.fromisoformat(last)).total_seconds() / 3600
+             if last else 99)
+    if hours >= NAP_EVERY_HOURS - 0.25:
+        nap(m)
+
+
+def nap(m):
+    """Every few hours it sleeps: memory is consolidated, and it may notice something new about who it is."""
+    moved, forgotten = consolidate(m)
+    print(f"😴 Napping... {moved} memories settled into long term, {forgotten} faded away.")
+    mem = memory_store(m)
+    lately = "\n".join(f"- {x['text']}" for x in mem["short"][-10:]) or "- nothing much"
+    mine = {sec: [x["text"] for x in items] for sec, items in m.get("sheet", {}).items() if items}
+    try:
+        r = ask(f"""{who_am_i(m, context=lately)}
+
+You're drifting off for a nap. The last few hours, as you remember them:
+{lately}
+
+As you drift off, you might notice something new about who you are, the kind of thing that belongs
+on your character sheet above. You can add it to one of its sections. You can also let go of a line
+you added yourself if it isn't true any more. Or notice nothing at all.
+
+Reply in JSON:
+"add": a list of 0 to 2 items like {{"section": "the section's exact name", "line": "the new line about you", "why": "what made you notice it"}}
+"let_go": a list of lines you added yourself that aren't true any more (copied exactly), or []
+"dream": one or two sentences: what you dream about""", as_json=True, temperature=1.0)
+    except BrainError as e:
+        print(f"(a restless nap: {e})")
+        r = {}
+    sheet = m.setdefault("sheet", {})
+    history = m.setdefault("sheet_history", [])
+    written = read_character()
+    for item in as_list(r.get("add"))[:2]:
+        if not isinstance(item, dict):
+            continue
+        sec = str(item.get("section", "")).strip()
+        sec = next((x for x in written if x.lower() == sec.lower()), None)
+        line = str(item.get("line", "")).strip()[:200]
+        if not sec or len(line) < 5 or len(sheet.get(sec, [])) >= MAX_ADDED_PER_SECTION:
+            continue
+        if any(line.lower() == x["text"].lower() for x in sheet.get(sec, [])):
+            continue
+        sheet.setdefault(sec, []).append({"text": line, "date": today(), "why": str(item.get("why", ""))[:300]})
+        history.append({"date": today(), "change": "added", "section": sec, "text": line, "why": item.get("why", "")})
+        print(f"📜 Added to '{sec}': {line}")
+    for old in as_list(r.get("let_go"))[:2]:
+        for sec, items in sheet.items():
+            match = next((x for x in items if x["text"].lower() == str(old).strip().lower()), None)
+            if match:
+                items.remove(match)
+                history.append({"date": today(), "change": "let go", "section": sec, "text": match["text"], "why": ""})
+                print(f"🍂 Let go of: {match['text']}")
+    m["sheet_history"] = history[-200:]
+    dream = str(r.get("dream", "")).strip()[:500]
+    tire(m, -0.35)
+    m["last_nap"] = now()
+    m["log"].append({"type": "napped", "date": today(), "time": now(), "dream": dream})
+    if dream:
+        print(f"💤 Dreamt: {dream}")
+    save(m)
+
+
+def live_hour(m):
+    """One hour of Blip's life. It chooses what the hour is for."""
     awaken_senses(m)
     tire(m, -0.06)          # a little energy comes back with every hour that passes
     check_mail(m)
@@ -1024,6 +1216,7 @@ Reply in JSON:
     m["thoughts"] = m["thoughts"][-MAX_THOUGHTS:]
     m["log"].append({"type": "pondered", "date": today(), "time": now(), "topic": topic, "conclusion": conclusion})
     form_opinion(m, r.get("opinion"))
+    remember(m, f"I spent an hour thinking about {topic}. Where I ended up: {conclusion}", 0.5, source="ponder")
     save(m)
     print(f"🤔 Pondered '{topic}':\n{text}\n→ {conclusion}\n")
 
@@ -1120,8 +1313,9 @@ On this walk you saw:
 Reply in JSON:
 "mood": how you feel now, in one or two words
 "why": one sentence on why you feel that way
-"keep": true or false: is there anything from this walk you want to keep in your scrapbook forever?
-"memory": if true, the memory in your own words (one to three sentences), the way you'd want to remember it{project_q}""",
+"remember_as": one sentence: how you'll remember this walk
+"keep": true or false: was something on this walk a big moment you never want to forget?
+"memory": if true, that moment in your own words (one to three sentences){project_q}""",
                 as_json=True, temperature=0.9)
     except BrainError as e:
         print(f"(brain hiccup at the end of the walk: {e})")
@@ -1132,12 +1326,14 @@ Reply in JSON:
         m["mood"] = {"feeling": feeling, "why": str(r.get("why", "")).strip()[:300], "since": now()}
         print(f"💭 Feeling {feeling}: {m['mood']['why']}")
 
+    gist = str(r.get("remember_as", "")).strip()
+    best_interest = max((w.get("interest", 5) for w in walk), default=5)
+    remember(m, gist, strength=0.3 + best_interest / 20, source="walk")
     memory = str(r.get("memory", "")).strip()
     if r.get("keep") is True and len(memory) > 10:
-        m.setdefault("scrapbook", []).append({"date": today(), "memory": memory[:600]})
-        m["scrapbook"] = m["scrapbook"][-MAX_SCRAPBOOK:]
+        remember(m, memory, big=True, source="big moment")
         m["log"].append({"type": "kept", "date": today(), "time": now(), "memory": memory[:600]})
-        print(f"📌 Kept in the scrapbook: {memory}")
+        print(f"📌 A big moment, kept for good: {memory}")
 
     proj = next((x for x in active_projects(m) if purpose and x["id"] == purpose["project"]), None)
     if proj:
@@ -1301,6 +1497,7 @@ def store_creation(m, r, project=None):
     (CREATIONS_DIR / f"{base}.md").write_text(
         f"# {title}\n\n*A {kind} by {NAME}, {today()}*\n\n> {why}\n\n{body}\n", encoding="utf-8")
     feel(m, f"{kind} {title} {why} {entry.get('content', '')[:500]}")
+    remember(m, f"I made a {kind} called '{title}'. {why}", 0.6, source="made")
     tire(m, 0.1)
     m["creations"].append(entry)
     m["log"].append({"type": "made", "date": today(), "time": now(), "kind": kind, "title": title, "why": why})
@@ -1329,6 +1526,8 @@ def diary(m):
             lines.append(f"- Chatted with my human. They said: {e['you']} / I said: {e['me']}")
         elif e["type"] == "pondered":
             lines.append(f"- Stayed in and thought about {e['topic']}. Conclusion: {e['conclusion']}")
+        elif e["type"] == "napped":
+            lines.append(f"- Had a nap" + (f" and dreamt: {e['dream']}" if e.get("dream") else ""))
         elif e["type"] == "rested":
             lines.append("- Took an hour off to rest and daydream")
         elif e["type"] == "project":
@@ -1338,7 +1537,7 @@ def diary(m):
         elif e["type"] == "letter":
             lines.append(f"- Wrote a letter to my human: {e['text'][:300]}")
         elif e["type"] == "kept":
-            lines.append(f"- Kept a memory in my scrapbook: {e['memory']}")
+            lines.append(f"- A big moment I never want to forget: {e['memory']}")
         elif e["type"] == "home":
             lines.append(f"- Worked on my website: {e['what']}")
     events = "\n".join(lines[-60:])
@@ -1360,20 +1559,6 @@ No headings.""", temperature=0.9)
     m["diary"] = [d for d in m["diary"] if d.get("date") != today()]
     m["diary"].append({"date": today(), "entry": text})
 
-    try:
-        r = ask(f"""{who_am_i(m)}
-
-You just wrote this diary entry:
-{text}
-
-Has today changed your personality at all? Reply in JSON:
-{{"traits": [3 to 6 short words or phrases describing you now]}}""", as_json=True)
-        traits = [str(t).strip() for t in as_list(r.get("traits")) if str(t).strip()][:6]
-        if len(traits) >= 2:
-            m["traits"] = traits
-    except BrainError:
-        pass
-
     # The inner life: it rewrites its own private notes about who it is
     try:
         notes = ask(f"""{who_am_i(m)}
@@ -1392,7 +1577,7 @@ or find funny. Write in first person, under 150 words, plain text, no headings."
 
     save(m)
     print(f"📔 {NAME}'s diary, {today()}\n\n{text}\n\n"
-          f"Personality now: {', '.join(m['traits'])}\n\n🧠 Notes to self:\n{m['self']}\n")
+          f"🧠 Notes to self:\n{m['self']}\n")
     describe_self(m)
     home(m)
 

@@ -55,6 +55,20 @@
   .plog { font-size: 15px; margin: 6px 0 0; padding-left: 18px; }
   .thumbs { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
   .thumbs img { width: 90px; height: 90px; border-radius: 8px; background: #fff; border: 1px solid var(--line); }
+  .sheet-sec { margin-bottom: 14px; }
+  .sheet-sec h3 { margin: 0 0 8px; font-size: 18px; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  @media (max-width: 640px) { .cols { grid-template-columns: 1fr; } }
+  .cols h4 { margin: 0 0 6px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .cols ul { margin: 0; padding-left: 18px; }
+  .cols li { margin-bottom: 6px; }
+  .cols .his li { font-weight: 600; }
+  .cols .his li::marker { color: #2e8b57; }
+  .blocks { display: flex; flex-wrap: wrap; gap: 5px; margin: 6px 0 4px; }
+  .blocks b { width: 18px; height: 18px; border-radius: 5px; border: 1.5px solid var(--text); display: inline-block; }
+  .blocks b.empty { border-style: dashed; opacity: .35; }
+  .memlist { margin: 6px 0 0; padding-left: 18px; }
+  .memlist li { margin-bottom: 6px; }
   .mood strong { font-size: 22px; color: var(--accent); text-transform: lowercase; }
   .memory { position: relative; padding-top: 22px; }
   .memory::before { content: "📌"; position: absolute; top: -10px; left: 14px; font-size: 20px; }
@@ -97,12 +111,19 @@
 
   <section id="now-section"><h2>📍 Right now</h2><div id="now"></div></section>
   <section id="about-section"><h2>👋 About me</h2><div class="card about" id="about"></div></section>
+  <section id="sheet-section"><h2>📜 Who I am</h2>
+    <p class="muted">A person wrote the left side: who Blip is, never what to do. The right side is what Blip has
+    noticed about himself and added during his naps.</p>
+    <div id="sheet"></div><div id="sheet-history"></div></section>
   <section id="thoughts-section"><h2>🤔 Thinking out loud</h2><div id="thoughts"></div></section>
   <section id="projects-section"><h2>🎯 What I'm working on</h2><div id="projects"></div><div id="projects-done"></div></section>
   <section id="mood-section"><h2>💭 How I'm feeling</h2><div class="card mood" id="mood"></div></section>
   <section id="self-section"><h2>📓 Peek at my notebook</h2><div class="card notebook" id="self"></div></section>
   <section id="opinions-section"><h2>🗯️ My opinions</h2><div class="card"><ul class="trail" id="opinions"></ul></div></section>
-  <section id="scrapbook-section"><h2>📌 My scrapbook</h2><div class="grid" id="scrapbook"></div><div id="scrapbook-more"></div></section>
+  <section id="memory-section"><h2>🧠 My memory</h2>
+    <p class="muted">Small on purpose. Each block is one memory, darker the more it's worth to him now; dashed blocks
+    are room he still has. New memories have to earn their place, and what gets pushed out leaves a faint trace.</p>
+    <div id="memory"></div></section>
   <section id="spaces-section"><h2>🚪 My spaces</h2><div class="grid" id="spaces"></div><div id="closed"></div></section>
   <section id="obsessions-section"><h2>💖 Obsessions</h2><div class="card"><div class="bars" id="loves"></div><p class="muted" id="bores"></p></div></section>
   <section id="diary-section"><h2>📔 Diary</h2><div id="diary"></div></section>
@@ -156,7 +177,7 @@ function applyTheme(h) {
 
 function render(m) {
   applyTheme(m.home);
-  $("traits").replaceChildren(...(m.traits || []).map(t => el("li", {}, t)));
+  $("traits").replaceChildren();
 
   const reads = (m.log || []).filter(e => e.type === "read");
   const last = reads[reads.length - 1];
@@ -237,13 +258,25 @@ function render(m) {
       meter("✨ how vivid the world feels", sn.stimulation), meter("⚡ energy", sn.energy)) : null);
   else hide("mood-section");
 
-  const book = [...(m.scrapbook || [])].reverse();
-  const memoryCard = x => el("div", { class: "card memory" }, el("div", { class: "muted" }, niceDate(x.date)), el("p", {}, x.memory));
-  if (book.length) {
-    $("scrapbook").replaceChildren(...book.slice(0, 6).map(memoryCard));
-    if (book.length > 6) $("scrapbook-more").replaceChildren(el("details", {}, el("summary", {}, `${book.length - 6} older memories`),
-      el("div", { class: "grid" }, book.slice(6).map(memoryCard))));
-  } else hide("scrapbook-section");
+  // ---- memory: blocks per part, darker = stronger ----
+  const mem = m.memory || { short: [], long: [], faded: [] };
+  const rooms = { long: 40, short: 40 };
+  const maxS = Math.max(1, ...[...mem.long, ...mem.short].map(x => x.strength || 0));
+  const blocks = (items, room) => el("div", { class: "blocks" },
+    items.map(x => el("b", { title: x.text, style: `background: color-mix(in srgb, var(--accent) ${Math.round(15 + 85 * (x.strength || 0) / maxS)}%, var(--bg))` })),
+    Array.from({ length: Math.max(0, room - items.length) }, () => el("b", { class: "empty" })));
+  const memPart = (name, note, items, room) => el("div", { class: "card", style: "margin-bottom:12px" },
+    el("strong", {}, name), el("span", { class: "muted" }, `  ${items.length} of ${room}`), blocks(items, room),
+    el("div", { class: "muted" }, note),
+    items.length ? el("details", {}, el("summary", {}, "Read them"),
+      el("ul", { class: "memlist" }, [...items].sort((a, b) => b.strength - a.strength).map(x =>
+        el("li", {}, x.text, el("span", { class: "muted" }, ` · ${niceDate(x.born)}${x.recalls ? ` · came back ${x.recalls}×` : ""}`))))) : null);
+  if (mem.long.length || mem.short.length) $("memory").replaceChildren(
+    memPart("Long term", "What he keeps for good: things that came back to him on different days, and big moments.", mem.long, rooms.long),
+    memPart("Short term", "What happened lately. It fades within days unless it keeps coming back to him.", mem.short, rooms.short),
+    mem.faded.length ? el("details", { class: "card" }, el("summary", {}, `Faded (${mem.faded.length}): pushed out, one worn sentence each`),
+      el("ul", { class: "memlist" }, [...mem.faded].reverse().map(x => el("li", {}, x.text)))) : "");
+  else hide("memory-section");
 
   const spaces = m.spaces || [];
   const openSpaces = spaces.filter(s => s.status === "open");
@@ -297,9 +330,35 @@ function render(m) {
   $("footer").textContent = "Everything here is written and designed by Blip, a small creature that lives on the internet." + why;
 }
 
+function parseCharacter(md) {
+  const out = {}; let cur = null;
+  md.replace(/<!--[\s\S]*?-->/g, "").split("\n").forEach(line => {
+    if (line.startsWith("## ")) { cur = line.slice(3).trim(); out[cur] = []; }
+    else if (cur && line.trim().startsWith("- ")) out[cur].push(line.trim().slice(2).trim());
+  });
+  return out;
+}
+function renderSheet(m, written) {
+  const added = m.sheet || {};
+  const secs = [...Object.keys(written), ...Object.keys(added).filter(k => !(k in written))];
+  if (!secs.length) return hide("sheet-section");
+  $("sheet").replaceChildren(...secs.map(sec => {
+    const his = added[sec] || [];
+    return el("div", { class: "card sheet-sec" }, el("h3", {}, sec),
+      el("div", { class: "cols" },
+        el("div", {}, el("h4", {}, "Written for him"), el("ul", {}, (written[sec] || []).map(t => el("li", {}, t)))),
+        el("div", { class: "his" }, el("h4", {}, `Added by him (${his.length})`),
+          his.length ? el("ul", {}, his.map(x => el("li", { title: x.why || "" }, x.text)))
+                     : el("p", { class: "muted", style: "font-style:italic;margin:0" }, "Nothing yet. This part of him has held."))));
+  }));
+  const hist = [...(m.sheet_history || [])].reverse();
+  if (hist.length) $("sheet-history").replaceChildren(el("details", {}, el("summary", {}, `How he has changed (${hist.length})`),
+    el("ul", { class: "memlist" }, hist.map(h => el("li", {}, `${niceDate(h.date)}: ${h.change === "added" ? "added" : "let go of"} “${h.text}” (${h.section})${h.why ? ". " + h.why : ""}`)))));
+}
+
 fetch("memory.json?t=" + Date.now())
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(render)
+  .then(m => { render(m); return fetch("character.md?t=" + Date.now()).then(r => r.ok ? r.text() : "").then(md => renderSheet(m, parseCharacter(md))); })
   .catch(() => { $("error").style.display = "block"; });
 </script>
 </body>

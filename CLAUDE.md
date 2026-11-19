@@ -43,7 +43,10 @@ How it works:
   time you won't..." - the model obeys them literally. Present choices as an equal menu.
 - Its top interests and traits are fed into every prompt, so it "remembers who it is".
 - Personality must EMERGE, not be scripted (Thomas's explicit wish). We give it memory, freedom and
-  tools, never pre-written quirks/obsessions/goals. Mechanisms:
+  tools, never instructions. EXCEPTION agreed with Thomas (2026-11-19): `character.md`, a person-written
+  character sheet of WHO Blip is (never what to do), drafted by Claude from Blip's emergent identity and
+  edited by Thomas. Blip can't change those lines; it ADDS its own in naps. Never copy Pino's sheet text.
+  Mechanisms:
   - `self`: free-form private notes it rewrites nightly in `diary`; fed into every prompt via who_am_i.
   - Wander "next" can be a Wikipedia link or any entry in DESTINATIONS: SEARCH/WORD/ASK/BOOKS/SPACE
     (need a topic) or NEWS/HACKER NEWS/ON THIS DAY/RANDOM. Sources: Wikipedia, Wiktionary REST,
@@ -117,7 +120,21 @@ Loop is now: senses -> feel -> think -> act -> reflect. The world reacts; Blip i
   energy < 0.3). Energy: -0.07/page, -0.15/ponder, -0.1/creation, +0.5 rest, +0.06 per hour.
 - `sensations(m)` turns the numbers into felt words at the top of who_am_i (never instructions).
 - `awaken_senses` seeds the state from real history on first run. Site shows both meters.
-NEXT (agreed): naps every 4 hours - memory consolidation, lessons/skills, persona rewrite.
+
+## Character sheet, memory, naps (2026-11-19, replaces nightly trait rewrite + scrapbook)
+- `character.md`: "## Section" + "- line". Read fresh every prompt (`read_character`, `sheet_text`):
+  "Who you are" in who_am_i replaced the old traits list. Blip's additions: memory["sheet"][section] =
+  [{text, date, why}] (max 6/section, only existing sections); memory["sheet_history"] logs adds/let-gos.
+- Memory (`memory_store`): memory["memory"] = {short (40), long (40), faded (200 one-sentence traces)}.
+  Items {id, text, born, strength, recalls, days, source}. `remember()` (walk gist each walk, ponder,
+  creations, mail, project start/finish; big moments -> long if stronger than the weakest there).
+  `recall()` = related + 2 latest short + 1 random long; recall strengthens +0.15 once/hour and logs the
+  day. Old scrapbook migrated into long term once ("scrapbook_moved").
+- `nap()` after any hour if >= NAP_EVERY_HOURS (4) since memory["last_nap"]: `consolidate` (short x0.85,
+  long x0.995; promote if recalled on 2+ days or strength >= 1.2; drop short < 0.15, fade if ever recalled),
+  then the brain may add up to 2 sheet lines / let go of its own lines, and dreams. Energy +0.35.
+- Diary no longer rewrites traits; it still rewrites `self` notes and `about`.
+- Site: "📜 Who I am" (two columns, his additions in green, change history) and "🧠 My memory" (blocks).
 Optional later: describe internet sources as places with atmosphere.
 
 ## Inner life roadmap (Thomas wants Pino-like agency, but emergent; agreed 3 steps)
