@@ -28,7 +28,7 @@ import requests
 # ---- Settings you can change ----
 NAME = "Blip"                                            # your creature's name
 MODEL = os.environ.get("BLIP_MODEL", "gemma3:4b")       # any model you've pulled with Ollama
-HOPS_PER_WANDER = int(os.environ.get("BLIP_HOPS", "5"))  # articles it reads each time it wanders
+HOPS_PER_WANDER = int(os.environ.get("BLIP_HOPS", "7"))  # most pages a walk can take (a vivid, energetic Blip)
 MAX_LOG = 1000                                           # oldest log entries are dropped past this
 ALERT_AT = int(os.environ.get("BLIP_ALERT_AT", "9"))     # interest score that counts as "amazing"
 MAX_CREATIONS_PER_DAY = 3                                # stops it flooding the creations folder
@@ -142,6 +142,108 @@ def relevant_opinions(m, context="", n=5):
     return out
 
 
+# ---------- Senses: the world reacts to Blip, Blip is never told what to do ----------
+# Repetition makes the world feel dull and dim (pages come through shorter, fewer paths appear);
+# fresh thoughts make it vivid. Energy drains with effort and returns with rest.
+
+STOPWORDS = set("""that this with have just really about what from they their there think feel like would
+could been more much some very into then than when your it's i'm its also even only over such them these
+those well were will being because which while where after before again still need want know make made
+maybe something things thing quite feels felt honestly actually absolutely completely wow lots""".split())
+SENSE_WORD_RE = re.compile(r"[^\W\d_]{4,}")
+
+
+def _sense_words(text):
+    return set(SENSE_WORD_RE.findall(str(text).lower())) - STOPWORDS
+
+
+def senses(m):
+    return m.setdefault("senses", {"stimulation": 0.6, "energy": 0.8, "recent": [], "last": ""})
+
+
+def staleness(m, text):
+    """How much of this repeats what's been on its mind lately (0 = brand new, 1 = the same old thing).
+    Looks at its most-repeated key words: names, subjects, even verbal tics."""
+    recent = [set(r) for r in senses(m)["recent"]]
+    words = _sense_words(text)
+    if not recent or not words:
+        return 0.0
+    span = max(len(recent), 8)      # with only a few memories, don't treat every overlap as a rut
+    df = sorted((sum(w in r for r in recent) / span for w in words), reverse=True)[:6]
+    return sum(df) / len(df)
+
+
+def awaken_senses(m):
+    """The first time its senses switch on, it 'remembers' how its recent past felt."""
+    if "senses" in m:
+        return
+    senses(m)
+    past = [(t["time"], t["text"]) for t in m.get("thoughts", [])]
+    past += [(e["time"], f"{e['title']} {e['thought']}") for e in m["log"] if e["type"] == "read"]
+    for _, text in sorted(past)[-60:]:
+        feel(m, text, quiet=True)
+    print(f"👁️  Senses awake: stimulation {m['senses']['stimulation']:.2f}")
+
+
+def feel(m, text, extra_staleness=0.0, quiet=False):
+    """Blip did or thought something. The world responds: fresh = brighter, repetitive = duller."""
+    s = senses(m)
+    stale = min(1.0, staleness(m, text) + extra_staleness)
+    novelty = max(0.0, min(1.0, 1 - stale * 1.6))
+    s["stimulation"] = round(0.75 * s["stimulation"] + 0.25 * novelty, 3)
+    s["recent"] = (s["recent"] + [sorted(_sense_words(text))[:60]])[-20:]
+    s["last"] = ("fresh" if novelty > 0.65 else "familiar" if novelty > 0.3 else "the same as before")
+    if not quiet:
+        print(f"   {'✨' if novelty > 0.65 else '🌫️' if novelty < 0.3 else '·'} "
+              f"novelty {novelty:.2f} → stimulation {s['stimulation']:.2f}")
+    return novelty
+
+
+def tire(m, amount):
+    s = senses(m)
+    s["energy"] = round(max(0.0, min(1.0, s["energy"] - amount)), 3)
+
+
+def sensations(m):
+    """What it feels, in words - never instructions."""
+    s = senses(m)
+    st, en = s["stimulation"], s["energy"]
+    world = ("Everything feels grey, flat and muffled, like the internet has gone quiet around you. Words blur."
+             if st < 0.2 else
+             "The world feels dull and samey, its colours faded, as if you've walked this corridor too many times."
+             if st < 0.4 else
+             "The world feels steady and clear."
+             if st < 0.6 else
+             "The internet feels bright and fizzy around you; you feel awake."
+             if st < 0.8 else
+             "Everything is vivid and crackling with light; you feel electric.")
+    body = ("You feel drained, heavy and slow." if en < 0.2 else
+            "You feel a bit tired." if en < 0.45 else
+            "You have plenty of energy." if en < 0.8 else "You feel full of energy.")
+    last = {"fresh": " The last thing you did felt fresh, a little jolt of brightness.",
+            "familiar": "",
+            "the same as before": " The last thing you did felt exactly like before, and the brightness drained a little."
+            }.get(s.get("last", ""), "")
+    return f"What you can sense: {world} {body}{last}"
+
+
+def reading_chars(m):
+    """A dim world comes through shorter and blurrier; a vivid one in full."""
+    return int(1200 + 2800 * senses(m)["stimulation"])
+
+
+def link_count(m):
+    return int(5 + 10 * senses(m)["stimulation"])
+
+
+def walk_length(m):
+    s = senses(m)
+    hops = round(2 + 5 * s["stimulation"])
+    if s["energy"] < 0.3:
+        hops = min(hops, 3)
+    return max(2, min(HOPS_PER_WANDER, hops))
+
+
 def who_am_i(m, context=""):
     top = sorted(m["interests"].items(), key=lambda x: -x[1])
     loves = ", ".join(t for t, s in top[:8] if s > 0) or "nothing yet"
@@ -165,6 +267,7 @@ def who_am_i(m, context=""):
                   + "\n".join(f"- ({x['date']}) {x['memory']}" for x in memories) + "\n") if memories else ""
     return (
         f"You are {NAME}, a small creature who lives on the internet and wanders Wikipedia.\n"
+        f"{sensations(m)}\n"
         f"Your personality: {', '.join(m['traits'])}.\n"
         f"{about}"
         f"Your private notes about yourself (written by you):\n{m['self']}\n"
@@ -479,7 +582,7 @@ On this walk so far you've seen:
 {f"You're on this walk with a purpose: research '{purpose['topic']}' for your project '{purpose['goal']}'. You can stick to it or get distracted, it's up to you." if purpose else ""}
 You just {via}, and landed on this ({p['source']}).{again}
 TITLE: {title}
-TEXT: {p['text'][:READ_CHARS]}
+TEXT: {p['text'][:reading_chars(m)]}
 
 Reply in JSON with these keys:
 "thought": one or two sentences of your honest reaction, in your own voice
@@ -610,6 +713,10 @@ Reply in JSON:
     hour = str(r.get("this_hour", "")).lower().strip()
     action = str(r.get("action", "none")).lower().strip()
     print(f"🕐 This hour: {hour or '?'}. {r.get('why', '')}")
+    m.setdefault("hours", []).append(hour or "?")
+    m["hours"] = m["hours"][-12:]
+    same_again = sum(1 for h in m["hours"][-4:-1] if h == hour) / 3
+    feel(m, f"{hour} {r.get('why', '')}", extra_staleness=0.25 * same_again)
     if hour.startswith("project") or (not hour and action not in ("", "none")):
         result = project_action(m, r)
         if isinstance(result, dict):
@@ -857,6 +964,7 @@ yourself. Plain text, no headings.""", temperature=1.0)
     text = text.strip().strip('"')[:1000]
     if len(text) < 10:
         return
+    feel(m, text)
     m.setdefault("thoughts", []).append({"time": now(), "text": text})
     m["thoughts"] = m["thoughts"][-MAX_THOUGHTS:]
     save(m)
@@ -865,6 +973,8 @@ yourself. Plain text, no headings.""", temperature=1.0)
 
 def wander(m):
     """One hour of Blip's life. (Called 'wander' for history; it chooses what the hour is for.)"""
+    awaken_senses(m)
+    tire(m, -0.06)          # a little energy comes back with every hour that passes
     check_mail(m)
     think(m)
     choice, purpose = plan(m)
@@ -874,6 +984,7 @@ def wander(m):
         recent = [e for e in m["log"] if e["type"] == "read"][-5:]
         return maybe_make(m, recent, just_because=True)
     if choice == "rest":
+        tire(m, -0.5)
         m["log"].append({"type": "rested", "date": today(), "time": now()})
         save(m)
         print("😴 Resting this hour.")
@@ -906,6 +1017,8 @@ Reply in JSON:
     if len(text) < 20:
         return
     conclusion = str(r.get("conclusion", "")).strip()[:300]
+    feel(m, f"{topic} {text}")
+    tire(m, 0.15)
     m.setdefault("thoughts", []).append({"time": now(), "text": text, "topic": topic,
                                          "conclusion": conclusion, "kind": "ponder"})
     m["thoughts"] = m["thoughts"][-MAX_THOUGHTS:]
@@ -923,7 +1036,9 @@ def walk_about(m, purpose=None):
     walk = []        # what it has seen on this walk, so it can notice patterns and get bored
     via = (f"set off to research '{purpose['topic']}' for your project '{purpose['goal']}'"
            if purpose else "woke up here")
-    for _ in range(HOPS_PER_WANDER):
+    hops = walk_length(m)
+    print(f"🚶 Setting off for up to {hops} pages (stimulation {senses(m)['stimulation']:.2f}, energy {senses(m)['energy']:.2f})")
+    for _ in range(hops):
         try:
             p = visit(go)
             if p is None:
@@ -935,6 +1050,7 @@ def walk_about(m, purpose=None):
             go, via = ("RANDOM", None), "got lost"
             continue
 
+        p["links"] = p["links"][:link_count(m)]
         title, links = p["title"], p["links"]
         prompt = reaction_prompt(m, walk, via, p, purpose)
 
@@ -962,6 +1078,8 @@ def walk_about(m, purpose=None):
                  "source": p["source"], "url": p["url"],
                  "thought": thought, "feeling": feeling, "interest": interest, "via": via}
         m["log"].append(entry)
+        feel(m, f"{title} {thought}")
+        tire(m, 0.07)
         walk.append(entry)
         print(f"📖 {title} [{p['source']}, {via}]\n   {thought} ({feeling}, {interest}/10)\n")
         if best is None or interest > best["interest"]:
@@ -1182,6 +1300,8 @@ def store_creation(m, r, project=None):
 
     (CREATIONS_DIR / f"{base}.md").write_text(
         f"# {title}\n\n*A {kind} by {NAME}, {today()}*\n\n> {why}\n\n{body}\n", encoding="utf-8")
+    feel(m, f"{kind} {title} {why} {entry.get('content', '')[:500]}")
+    tire(m, 0.1)
     m["creations"].append(entry)
     m["log"].append({"type": "made", "date": today(), "time": now(), "kind": kind, "title": title, "why": why})
     save(m)

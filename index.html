@@ -228,8 +228,13 @@ function render(m) {
   else hide("opinions-section");
 
   const mood = m.mood || {};
+  const sn = m.senses || null;
+  const meter = (label, v) => el("div", { class: "bar" }, el("span", {}, label),
+    el("div", { class: "bar-outer", style: "margin:0" }, el("i", { style: `width:${Math.round((v || 0) * 100)}%` })));
   if (mood.feeling) $("mood").replaceChildren(el("strong", {}, mood.feeling), el("p", {}, mood.why || ""),
-    el("div", { class: "muted" }, mood.since ? "since " + ago(mood.since) : ""));
+    el("div", { class: "muted" }, mood.since ? "since " + ago(mood.since) : ""),
+    sn ? el("div", { class: "bars", style: "margin-top:12px" },
+      meter("✨ how vivid the world feels", sn.stimulation), meter("⚡ energy", sn.energy)) : null);
   else hide("mood-section");
 
   const book = [...(m.scrapbook || [])].reverse();

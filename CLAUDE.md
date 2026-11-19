@@ -105,6 +105,21 @@ wander (walk_about, 5 hops) | project (project_action; only walks if it chose re
 ponder (`ponder`: long think-through, topic + conclusion, may form an opinion; saved in thoughts
 with kind "ponder") | make (maybe_make just_because) | rest (logged). Diary knows all of these.
 
+## Senses (inspired by Pino's ideas as Thomas described them - NOT copied code; their site isn't reachable/open)
+Loop is now: senses -> feel -> think -> act -> reflect. The world reacts; Blip is never told "be creative".
+- memory["senses"] = {stimulation 0-1, energy 0-1, recent: word-sets of last 20 outputs, last}.
+- `feel(m, text)`: `staleness` = mean of the 6 highest "how many recent outputs contain this word"
+  rates (span >= 8). novelty = 1 - 1.6*staleness. stimulation = 0.75*old + 0.25*novelty.
+  Calibrated on real history: fresh 0-0.15, football rut ~0.2-0.3, Guerin loop 0.4-0.8 staleness.
+  Felt for: each page reaction, think, ponder, creations, the hour choice (+ extra staleness when the
+  same choice repeats).
+- Effects (the world dims): reading_chars 1200-4000, link_count 5-15, walk_length 2-7 hops (<=3 if
+  energy < 0.3). Energy: -0.07/page, -0.15/ponder, -0.1/creation, +0.5 rest, +0.06 per hour.
+- `sensations(m)` turns the numbers into felt words at the top of who_am_i (never instructions).
+- `awaken_senses` seeds the state from real history on first run. Site shows both meters.
+NEXT (agreed): naps every 4 hours - memory consolidation, lessons/skills, persona rewrite.
+Optional later: describe internet sources as places with atmosphere.
+
 ## Inner life roadmap (Thomas wants Pino-like agency, but emergent; agreed 3 steps)
 1. DONE: Inner voice + opinions + about me.
    - `think(m)` runs at the start of every `wander`: free-text talking-to-itself -> memory["thoughts"]
