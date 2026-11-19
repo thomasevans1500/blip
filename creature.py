@@ -39,6 +39,7 @@ MAX_THOUGHTS = 200                                       # thinking-out-loud ent
 MAX_OPINIONS = 100                                       # opinions kept (least recently formed drop off)
 PORTRAIT_EVERY_DAYS = 7                                  # how often it's offered the chance to redraw itself
 SHORT_ROOM, LONG_ROOM, FADED_ROOM = 40, 40, 200          # how much fits in each part of its memory
+MAIL_FRESH_HOURS = 3                                     # how long a message from his human stays front of mind
 NAP_EVERY_HOURS = 4                                      # it naps (consolidates memory, grows its sheet)
 MAX_ADDED_PER_SECTION = 6                                # lines it can add to each part of its character sheet
 MAX_SCRAPBOOK = 300                                      # memories it can keep (oldest drop off past this)
@@ -384,9 +385,14 @@ def who_am_i(m, context=""):
     thinking = f"What you were last thinking to yourself: {last_thought}\n" if last_thought else ""
     about = f"How you describe yourself: {m['about']}\n" if m.get("about") else ""
     goals = "; ".join(p["goal"] for p in active_projects(m))
+    heard = ""
     last_mail = (m.get("mail") or [None])[-1]
-    heard = (f"The last thing your human said to you ({last_mail['date']}): \"{last_mail['text'][:300]}\"\n"
-             if last_mail else "")
+    if last_mail and last_mail.get("time"):      # only while it's fresh; after that it's an ordinary memory
+        hours = (datetime.datetime.now().astimezone()
+                 - datetime.datetime.fromisoformat(last_mail["time"])).total_seconds() / 3600
+        if hours < MAIL_FRESH_HOURS:
+            ago = "just now" if hours < 1 else f"about {round(hours)} hour{'s' if round(hours) > 1 else ''} ago"
+            heard = f"Your human wrote to you {ago}: \"{last_mail['text'][:300]}\"\n"
     projects = f"Projects you're working on: {goals}\n" if goals else ""
     remembered = ("Memories that come to mind:\n"
                   + "\n".join(f"- ({x['born']}) {x['text']}" for x in memories) + "\n") if memories else ""
@@ -1034,7 +1040,7 @@ Reply in JSON:
         return
     reply = str(r.get("reply", "")).strip()[:4000]
     feeling = str(r.get("feeling", "")).strip()[:40]
-    m.setdefault("mail", []).append({"date": today(), "issue": msg["issue"], "about": title, "text": text,
+    m.setdefault("mail", []).append({"date": today(), "time": now(), "issue": msg["issue"], "about": title, "text": text,
                                      "reply": reply, "feeling": feeling})
     m["mail"] = m["mail"][-100:]
     m["log"].append({"type": "mail", "date": today(), "time": now(), "text": text[:400], "reply": reply[:400]})

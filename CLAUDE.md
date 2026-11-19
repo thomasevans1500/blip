@@ -173,7 +173,8 @@ Optional later: describe internet sources as places with atmosphere.
    ONLY from GITHUB_REPOSITORY_OWNER (public repo: strangers must not inject thoughts; bot comments
    ignored). `answer_mail` (max 3/hour): reply posted as an issue comment (Thomas gets emailed),
    mood updated, optional scrapbook memory, optional project_note (project matched from the letter
-   title). memory["mail"] (max 100); who_am_i includes the last thing the human said.
+   title). memory["mail"] (max 100); who_am_i includes the last human message only for
+   MAIL_FRESH_HOURS (3) after it arrived (otherwise he fixates on it every hour); later it's an ordinary memory.
    Thomas talks to Blip by replying to its emails or opening a new issue.
    Access requests: ABILITIES lists what it can't do; it can ask Thomas in a letter. Granting a new
    ability = a developer builds it and updates ABILITIES.
