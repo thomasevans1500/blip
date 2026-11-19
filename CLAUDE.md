@@ -71,7 +71,8 @@ How it works:
   rather than crashing. Diary is one entry per day (re-running replaces it). Log is capped at 1000.
 
 ## About the developer
-Thomas. Comfortable with n8n, building internal tools, Netlify and Supabase.
+Thomas. Lives on the US East Coast (America/New_York) - Blip's workflow sets TZ to that, so its
+days/diary dates follow Thomas's clock. Comfortable with n8n, building internal tools, Netlify and Supabase.
 Prefers complete, ready-to-use code and step-by-step instructions, one step at a time,
 so he can flag anything confusing before moving on.
 
@@ -132,7 +133,10 @@ with kind "ponder") | make (maybe_make just_because) | rest (logged). Diary know
    ability = a developer builds it and updates ABILITIES.
    HARD RULE: Blip never handles real money (pretend fundraising only).
 
-## Known issue (2026-11-18)
-GitHub's cron schedule had NOT fired once in the first ~5 hours (all runs were manual
-workflow_dispatch). If it still doesn't, add a fallback trigger (e.g. a free external cron calling
-workflow_dispatch with a fine-grained token, or Thomas's n8n).
+## Scheduling (GitHub cron never fired for this repo)
+GitHub's cron schedule did NOT fire once in the first ~6 hours. Fix in progress: cron-job.org
+(Thomas's free account, timezone America/New_York) POSTs to the workflow_dispatch API with a
+fine-grained PAT ("Blip alarm clock": only this repo, Actions read/write):
+- hourly at :17 -> body {"ref":"main","inputs":{"command":"wander"}}
+- nightly -> {"ref":"main","inputs":{"command":"diary"}}
+The workflow still accepts the short names (wander/diary/home/check) as well as the menu labels.

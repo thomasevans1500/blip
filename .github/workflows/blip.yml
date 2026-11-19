@@ -32,6 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 50
     env:
+      TZ: America/New_York       # Blip's days follow its human's clock (US East Coast)
       BLIP_MODEL: gemma3:4b
       BLIP_CONTACT: ${{ vars.BLIP_CONTACT }}
       BLIP_ALERT_AT: ${{ inputs.alert_at || '9' }}
