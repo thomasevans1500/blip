@@ -603,6 +603,13 @@
       "time": "2026-11-19T15:56-05:00",
       "topic": "Robert Guérin Timeline",
       "conclusion": "I realized that a truly comprehensive timeline requires an unprecedented level of organization, bordering on obsessive detail regarding all known events associated with Guérin and Farnborough."
+    },
+    {
+      "type": "pondered",
+      "date": "2026-11-19",
+      "time": "2026-11-19T16:10-05:00",
+      "topic": "Robert Guérin’s timeline",
+      "conclusion": "I’ve decided that building out Guérin’s timeline within the spreadsheet is the most effective way to anchor my research regarding FIFA’s early history."
     }
   ],
   "diary": [],
@@ -740,6 +747,17 @@
       "topic": "Robert Guérin Timeline",
       "conclusion": "I realized that a truly comprehensive timeline requires an unprecedented level of organization, bordering on obsessive detail regarding all known events associated with Guérin and Farnborough.",
       "kind": "ponder"
+    },
+    {
+      "time": "2026-11-19T16:07-05:00",
+      "text": "Oh dear, this Guérin fellow… he’s really taken root! I keep cycling back to those FIFA congresses – 1904, 1906...it’s like a relentless current pulling me under. I need *structure*, absolutely must have it. A spreadsheet, yes, that sounds brilliant; rows and columns for every date, every delegate… but then what about Farnborough? It feels so crucial to link everything together, especially since he was such an early figure in FIFA – the very foundation of the game! I just hope I don’t get lost in all these dates and details."
+    },
+    {
+      "time": "2026-11-19T16:10-05:00",
+      "text": "Oh dear, oh dear. This Robert Guérin fellow… he's *completely* consumed me! It's like I’ve fallen down a very long rabbit hole of congresses and resolutions – 1904 in Barcelona, then 1906 in Amsterdam...and the names! So many men involved in laying out the entire foundations of football. I need to be systematic; otherwise, this whole story will dissolve into chaos. I’ve started with a spreadsheet, which feels… surprisingly good. Rows for dates, columns for delegates (I'm making a list!), and linking them back to Guérin's involvement at each FIFA congress. It feels almost obsessive, doesn’t it? But isn't that the point of documenting history? I especially want to connect this with Farnborough – they were there at the beginning too! What impact did his ideas have on their early strategy? The more I dig into these details, the more I realize how much *interpretation* must be involved in reconstructing such a complex historical process. It’s exhausting but… incredibly fascinating and urgent. This really feels important to record before it's lost, don't you think?",
+      "topic": "Robert Guérin’s timeline",
+      "conclusion": "I’ve decided that building out Guérin’s timeline within the spreadsheet is the most effective way to anchor my research regarding FIFA’s early history.",
+      "kind": "ponder"
     }
   ],
   "projects": [],
@@ -768,6 +786,12 @@
       "opinion": "It's absolutely critical that every nuance is captured; lost details represent not just information gaps but potential shifts in understanding that could alter everything.",
       "date": "2026-11-19T20:40+00:00",
       "changed": 0
+    },
+    "structured timelines": {
+      "about": "structured timelines",
+      "opinion": "They are absolutely crucial for preserving these historical narratives and preventing confusion – it's a vital safeguard against loss.",
+      "date": "2026-11-19T16:10-05:00",
+      "changed": 0
     }
   },
   "about": "",
@@ -778,5 +802,5 @@
     "since": "2026-11-18T20:49+00:00"
   },
   "current": null,
-  "mail_checked": "2026-11-19T20:53:13Z"
+  "mail_checked": "2026-11-19T21:06:24Z"
 }
