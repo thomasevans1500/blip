@@ -123,6 +123,13 @@ JSON: move, detail, reason, minutes (rest/daydream/look closer), intend, kept.
 - The old hourly choice (`live_hour`/`plan`) is kept in the code but no longer called.
 - Site: "🐾 What I did, move by move" (+ "📝 Things I said I'd do").
 - Fully continuous life (24/7, minute by minute) would need an always-on machine (Raspberry Pi idea).
+- LESSON (first real session, 2026-11-19): telling a 4B model "the world feels grey" is NOT enough - it chose
+  "think" 10x in a row while stimulation fell to 0.01. Repetition needs real consequences: `stale_moves`
+  (stimulation < 0.3 and the same move in 2 of the last 3 brain moves) makes that move FIZZLE (FIZZLE text,
+  logged, no effect) and marks it "(feels stale right now)" in the menu. "go" never fizzles, so a fresh
+  direction is always possible (but never suggested). Recent moves are shown briefly (no reasons, no think
+  text) so he can't copy himself; intentions are <=160 chars and de-duplicated; "kept" needs > 5 chars.
+  PYTHONUNBUFFERED=1 in the workflow so log timestamps are real.
 
 ## Each hour is Blip's choice (SUPERSEDED by awake sessions; kept for reference)
 `wander` = one hour of life: `think` -> `plan` asks "how do you want to spend this hour?":

@@ -1198,6 +1198,27 @@ def since_rebirth(m, entries):
 
 # ---------- Awake sessions: small moves, about one a minute, each with a reason ----------
 
+FIZZLE = {
+    "think": "You try to think, but the same thoughts just go round in circles. Nothing new comes.",
+    "daydream": "You try to daydream, but it's the same daydream as before, and it's gone flat.",
+    "visit": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+    "say": "You open your mouth, but it would only be the same thing again. Nothing comes out.",
+    "note": "You go to write a note, but it would say what you already wrote.",
+    "look closer": "You stare at the page, but the words blur together.",
+    "make": "You sit down to make something, but your hands just make the same shape again.",
+    "rest": "You try to sit still, but you're too restless.",
+    "project": "You look at your projects, but your head is too foggy to plan anything.",
+}
+
+
+def stale_moves(m):
+    """When the world has gone dull, the kinds of move he keeps repeating stop working for a while."""
+    if senses(m)["stimulation"] >= 0.3:
+        return set()
+    recent = [x["move"] for x in m.get("moves", []) if not x["fallback"]][-3:]
+    return {mv for mv in set(recent) if recent.count(mv) >= 2 and mv in FIZZLE}
+
+
 def moves_menu(m, has_place):
     items = [("go", "go somewhere on the internet (detail: a link from this page copied exactly, or a destination below)")]
     if has_place:
@@ -1212,7 +1233,8 @@ def moves_menu(m, has_place):
               ("write", "write a letter to your human (detail: the letter)"),
               ("project", "start, work on, finish or give up a project"),
               ("rest", "sit still for a bit and recharge")]
-    return items
+    stale = stale_moves(m)
+    return [(k, v + (" (feels stale right now)" if k in stale else "")) for k, v in items]
 
 
 def open_intentions(m):
@@ -1295,8 +1317,7 @@ def session(m):
 
 def one_move(m, st):
     place = st["place"]
-    recent = "\n".join(f"- {x['time'][11:16]} {x['move']}{': ' + x['detail'] if x['detail'] else ''}"
-                       f"{' (because ' + x['reason'] + ')' if x['reason'] and not x['fallback'] else ''}"
+    recent = "\n".join(f"- {x['move']}{': ' + x['detail'][:50] if x['detail'] and x['move'] != 'think' else ''}"
                        for x in m.get("moves", [])[-6:]) or "- you've only just woken up"
     promises = open_intentions(m)
     menu = moves_menu(m, bool(place))
@@ -1338,21 +1359,31 @@ Reply in JSON:
         minutes = 1
     same = sum(1 for x in [y for y in m.get("moves", []) if not y["fallback"]][-3:] if x["move"] == move) / 3
     feel(m, f"{move} {detail} {reason}", extra_staleness=0.2 * same)
-    print(f"🕐 {move}{': ' + detail[:120] if detail else ''} (because {reason})")
+    print(f"🕐 {move}{': ' + detail[:120] if detail and move != 'think' else ''} (because {reason})")
 
-    intend = str(r.get("intend", "")).strip()
-    if len(intend) > 5 and not any(i["text"].lower() == intend.lower() for i in m.get("intentions", [])):
-        m.setdefault("intentions", []).append({"text": intend[:200], "made": now(), "done": False})
-        print(f"   📝 means to: {intend}")
     kept = str(r.get("kept", "")).strip().lower()
     for i in m.get("intentions", []):
-        if kept and not i["done"] and (i["text"].lower() == kept or kept in i["text"].lower()):
+        if kept and len(kept) > 5 and not i["done"] and (i["text"].lower() == kept or kept in i["text"].lower()):
             i["done"] = True
             m["log"].append({"type": "kept promise", "date": today(), "time": now(), "text": i["text"]})
             print(f"   ✅ kept his word: {i['text']}")
             break
 
-    log_move(m, move or "?", detail, reason)
+    intend = str(r.get("intend", "")).strip()
+    if 5 < len(intend) <= 160:
+        iw = set(WORD_RE.findall(intend.lower()))
+        similar = any(len(iw & set(WORD_RE.findall(i["text"].lower()))) >= max(2, len(iw) // 2)
+                      for i in open_intentions(m))
+        if not similar:
+            m.setdefault("intentions", []).append({"text": intend, "made": now(), "done": False})
+            print(f"   📝 means to: {intend}")
+
+    if move in stale_moves(m):
+        log_move(m, move, reason=FIZZLE[move], fallback=True)
+        m["log"].append({"type": "fizzled", "date": today(), "time": now(), "move": move, "text": FIZZLE[move]})
+        print(f"   🌫️ {FIZZLE[move]}")
+        return
+    log_move(m, move or "?", "" if move == "think" else detail, reason)
 
     if move == "go":
         go, via = choose_next(detail, (place or {}).get("links", []))
@@ -1955,6 +1986,8 @@ def diary(m):
             lines.append(f"- Chatted with my human. They said: {e['you']} / I said: {e['me']}")
         elif e["type"] == "pondered":
             lines.append(f"- Stayed in and thought about {e['topic']}. Conclusion: {e['conclusion']}")
+        elif e["type"] == "fizzled":
+            lines.append(f"- Tried to {e['move']} again, but: {e['text']}")
         elif e["type"] == "said":
             lines.append(f"- Said out loud: \"{e['text']}\"")
         elif e["type"] == "kept promise":

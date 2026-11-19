@@ -31,6 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 50
     env:
+      PYTHONUNBUFFERED: "1"      # show Blip's moves in the log as they happen
       TZ: America/New_York       # Blip's days follow its human's clock (US East Coast)
       BLIP_MODEL: gemma3:4b
       BLIP_CONTACT: ${{ vars.BLIP_CONTACT }}
