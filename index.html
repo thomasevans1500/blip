@@ -39,6 +39,7 @@
   .muted { color: var(--muted); font-size: 14px; }
   .now-title { font-size: 20px; font-weight: 700; }
   .notebook { white-space: pre-wrap; border-left: 4px solid var(--accent); }
+  .portrait[hidden] { display: none; }
   .portrait { display: block; width: 160px; height: 160px; margin: 0 auto; border-radius: 50%;
               background: #fff; border: 4px solid var(--accent); object-fit: cover; }
   .about { white-space: pre-wrap; font-size: 18px; }
@@ -159,7 +160,21 @@ function render(m) {
 
   const reads = (m.log || []).filter(e => e.type === "read");
   const last = reads[reads.length - 1];
-  if (last) {
+  const latest = [...(m.log || [])].reverse().find(e => ["read", "pondered", "rested", "made", "project", "mail", "letter", "kept"].includes(e.type));
+  const doing = latest && latest.type !== "read" ? ({
+    pondered: ["🤔 Staying in, thinking about " + latest.topic, latest.conclusion ? "→ " + latest.conclusion : ""],
+    rested: ["😴 Resting and daydreaming", ""],
+    made: ["🎨 Made a " + latest.kind + ": " + latest.title, latest.why || ""],
+    project: ["🎯 Working on my project: " + latest.goal, latest.what || ""],
+    mail: ["📬 Reading a letter from my human", latest.reply ? "I wrote back: “" + latest.reply + "”" : ""],
+    letter: ["✉️ Writing a letter to my human", ""],
+    kept: ["📌 Keeping a memory", latest.memory || ""],
+  })[latest.type] : null;
+  if (doing) {
+    $("now").replaceChildren(el("div", { class: "card" },
+      el("div", { class: "now-title" }, doing[0]), doing[1] ? el("p", {}, doing[1]) : null,
+      el("div", { class: "muted" }, ago(latest.time))));
+  } else if (last) {
     $("now").replaceChildren(el("div", { class: "card" },
       el("div", { class: "now-title" }, el("a", { href: last.url || wiki(last.title), target: "_blank", rel: "noopener" }, last.title)),
       el("p", {}, "“" + last.thought + "”"),
