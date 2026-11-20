@@ -53,7 +53,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: /home/runner/ollama-models
-          key: ollama-models-${{ env.BLIP_MODEL }}
+          key: ollama-models-${{ env.BLIP_MODEL }}-nomic-embed-text
 
       - name: Install Ollama
         run: |
@@ -65,6 +65,7 @@ jobs:
           nohup ollama serve > /tmp/ollama.log 2>&1 &
           for i in $(seq 1 30); do curl -sf http://localhost:11434 && break; sleep 2; done
           ollama pull "$BLIP_MODEL"
+          ollama pull nomic-embed-text    # small free "meaning" model: helps related memories come to mind
 
       - name: Decide what to do
         id: pick

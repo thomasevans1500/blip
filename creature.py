@@ -27,7 +27,8 @@ import requests
 
 # ---- Settings you can change ----
 NAME = "Blip"                                            # your creature's name
-MODEL = os.environ.get("BLIP_MODEL", "llama3.1:8b")       # any model you've pulled with Ollama
+MODEL = os.environ.get("BLIP_MODEL", "llama3.1:8b")
+EMBED_MODEL = os.environ.get("BLIP_EMBED_MODEL", "nomic-embed-text")   # small free "meaning" model for recall       # any model you've pulled with Ollama
 HOPS_PER_WANDER = int(os.environ.get("BLIP_HOPS", "7"))  # most pages a walk can take (a vivid, energetic Blip)
 MAX_LOG = 1000                                           # oldest log entries are dropped past this
 ALERT_AT = int(os.environ.get("BLIP_ALERT_AT", "9"))     # interest score that counts as "amazing"
@@ -170,9 +171,11 @@ def memory_store(m):
     return mem
 
 
-def _memory_item(text, strength, source, born=None):
+def _memory_item(text, strength, source, born=None, importance=None):
+    imp = importance if importance is not None else min(10, max(1, round(strength * 8)))
     return {"id": f"{datetime.datetime.now():%Y%m%d%H%M%S}{random.randint(100, 999)}", "text": str(text)[:600],
-            "born": born or today(), "strength": round(strength, 3), "recalls": 0, "days": [], "source": source}
+            "born": born or today(), "at": now(), "strength": round(strength, 3), "importance": imp,
+            "recalls": 0, "days": [], "source": source}
 
 
 def _fade(m, item):
@@ -195,15 +198,21 @@ def _admit_long(m, item):
     return True
 
 
-def remember(m, text, strength=0.5, big=False, source=""):
+def remember(m, text, strength=0.5, big=False, source="", importance=None):
     """Something happened worth remembering. Big moments go straight to long term (if they're strong enough)."""
     text = str(text).strip()
     if len(text) < 8:
         return
     mem = memory_store(m)
-    item = _memory_item(text, max(strength, 1.0) if big else strength, source)
+    if importance is not None:
+        try:
+            importance = max(1, min(10, int(float(importance))))
+        except (TypeError, ValueError):
+            importance = None
+    item = _memory_item(text, max(strength, 1.0) if big else strength, source,
+                        importance=max(importance or 0, 8) if big else importance)
     if source != "insight":                    # importance piles up until he stops to reflect
-        m["reflect_points"] = round(m.get("reflect_points", 0) + min(10, max(1, item["strength"] * 8)), 1)
+        m["reflect_points"] = round(m.get("reflect_points", 0) + item["importance"], 1)
     if big and _admit_long(m, item):
         return
     mem["short"].append(item)
@@ -214,22 +223,80 @@ def remember(m, text, strength=0.5, big=False, source=""):
             _fade(m, weakest)
 
 
+_VECTORS = {}                 # memory id -> meaning vector (recomputed each run; cheap, never stored)
+_EMBED_OK = [True]
+
+
+def embed(texts):
+    """Meaning vectors from a small free model in Ollama. None if it's not available (recall then falls
+    back to matching words, so nothing breaks)."""
+    if not _EMBED_OK[0] or not texts:
+        return None
+    try:
+        r = requests.post(f"{OLLAMA}/api/embed", json={"model": EMBED_MODEL, "input": texts}, timeout=120)
+        r.raise_for_status()
+        return r.json()["embeddings"]
+    except (requests.RequestException, KeyError, ValueError) as e:
+        _EMBED_OK[0] = False
+        print(f"(meaning model unavailable, matching words instead: {e})")
+        return None
+
+
+def _cos(a, b):
+    dot = sum(x * y for x, y in zip(a, b))
+    na = sum(x * x for x in a) ** 0.5
+    nb = sum(y * y for y in b) ** 0.5
+    return dot / (na * nb) if na and nb else 0.0
+
+
+def _scale(vals):
+    lo, hi = min(vals), max(vals)
+    return [0.5 if hi == lo else (v - lo) / (hi - lo) for v in vals]
+
+
+def _hours_since(stamp):
+    try:
+        then = datetime.datetime.fromisoformat(stamp if "T" in stamp else stamp + "T12:00")
+        if then.tzinfo is None:
+            then = then.astimezone()
+        return max(0.0, (datetime.datetime.now().astimezone() - then).total_seconds() / 3600)
+    except (TypeError, ValueError):
+        return 24 * 30
+
+
 def recall(m, context="", n=5):
-    """What comes to mind: memories related to what it's looking at, the latest, and one from long ago.
-    Coming back to mind makes a memory stronger (once per hour)."""
+    """What comes to mind (Generative Agents, Park et al. 2023): every memory is scored on recency
+    (x0.995 per hour since he last thought of it), importance (1-10) and relevance (closeness in meaning
+    to what's in front of him); each is scaled 0-1 and added up. The top ones come to mind, plus one old
+    memory at random for the odd surprise callback. Coming back to mind makes a memory stronger."""
     mem = memory_store(m)
     pool = mem["long"] + mem["short"]
     if not pool:
         return []
-    words = set(WORD_RE.findall(context.lower()))
-    related = sorted(pool, key=lambda x: -len(words & set(WORD_RE.findall(x["text"].lower()))))
-    picks = [x for x in related if len(words & set(WORD_RE.findall(x["text"].lower()))) >= 2][:n - 3]
-    picks += [x for x in reversed(mem["short"]) if x not in picks][:2]
+    recency = [0.995 ** _hours_since(x.get("seen") or x.get("at") or x["born"]) for x in pool]
+    importance = [float(x.get("importance") or min(10, max(1, x["strength"] * 8))) for x in pool]
+    relevance = [0.0] * len(pool)
+    if context.strip():
+        q = embed([f"search_query: {context[:800]}"])
+        missing = [x for x in pool if x["id"] not in _VECTORS]
+        if q and missing:
+            vecs = embed([f"search_document: {x['text']}" for x in missing])
+            if vecs:
+                _VECTORS.update({x["id"]: v for x, v in zip(missing, vecs)})
+        if q and all(x["id"] in _VECTORS for x in pool):
+            relevance = [_cos(q[0], _VECTORS[x["id"]]) for x in pool]
+        else:
+            words = set(WORD_RE.findall(context.lower()))
+            relevance = [len(words & set(WORD_RE.findall(x["text"].lower()))) for x in pool]
+    score = [a + b + c for a, b, c in zip(_scale(recency), _scale(importance), _scale(relevance))]
+    ranked = [x for _, x in sorted(zip(score, pool), key=lambda t: -t[0])]
+    picks = ranked[:max(1, n - 1)]
     older = [x for x in mem["long"] if x not in picks]
     if older:
         picks.append(random.choice(older))
     hour = now()[:13]
     for x in picks:
+        x["seen"] = now()
         if x.get("last_recalled") != hour:
             x["last_recalled"] = hour
             x["recalls"] += 1
@@ -1139,7 +1206,7 @@ Reply in JSON:
     if feeling:
         m["mood"] = {"feeling": feeling, "why": "of what my human just wrote to me", "since": now()}
     memory = str(r.get("memory", "")).strip()
-    remember(m, f"My human wrote to me: \"{text[:200]}\" and I wrote back.", strength=0.8, source="mail")
+    remember(m, f"My human wrote to me: \"{text[:200]}\" and I wrote back.", strength=0.8, source="mail", importance=8)
     if r.get("keep") is True and len(memory) > 10:
         remember(m, memory, big=True, source="big moment")
     note = str(r.get("project_note", "")).strip()
@@ -1223,7 +1290,7 @@ Reply in JSON:
     r["reaction"] = thought[:400]
     if feeling:
         m["mood"] = {"feeling": feeling, "why": f"my human closed my request: {r['text'][:80]}", "since": now()}
-    remember(m, f"My human closed my request ('{r['text'][:120]}'). {thought}", 0.8, source="request")
+    remember(m, f"My human closed my request ('{r['text'][:120]}'). {thought}", 0.8, source="request", importance=8)
     m["log"].append({"type": "request closed", "date": today(), "time": now(), "text": r["text"][:200],
                      "answer": last_words[:300], "thought": thought[:300]})
     save(m)
@@ -1497,7 +1564,8 @@ Reply in JSON:
         m.setdefault("wishes", []).append({"text": wish, "date": today()})
         m["wishes"] = m["wishes"][-30:]
     m["log"].append({"type": "planned", "date": today(), "time": now(), "items": items, "wish": wish})
-    remember(m, f"My plan for {'the rest of ' if rest_of_day else ''}today: " + "; ".join(items), 0.5, source="plan")
+    remember(m, f"My plan for {'the rest of ' if rest_of_day else ''}today: " + "; ".join(items), 0.5, source="plan",
+             importance=3)
     print("🗓️  Plan for today:\n" + "\n".join(f"   {i}. {t}" for i, t in enumerate(items, 1))
           + (f"\n   ✨ wishes he could: {wish}" if wish else ""))
     save(m)
@@ -1790,7 +1858,7 @@ Reply in JSON: {{"insights": [{{"insight": "...", "because": [1, 3]}}]}}""", as_
             evidence = [pool[i - 1] for i in idx if 1 <= i <= len(pool)]
             if len(text) < 10 or not evidence or any(text.lower() == x["text"].lower() for x in mem["long"]):
                 continue
-            item = _memory_item(text, 1.3, "insight")
+            item = _memory_item(text, 1.3, "insight", importance=7)
             item["question"] = question[:200]
             item["evidence"] = [x["id"] for x in evidence]
             item["depth"] = 1 + max(x.get("depth", 0) for x in evidence)
@@ -2109,6 +2177,7 @@ Reply in JSON:
 "mood": how you feel now, in one or two words
 "why": one sentence on why you feel that way
 "remember_as": one sentence: how you'll remember this walk
+"importance": how much this walk matters to you, 1 to 10, where 1 is purely mundane (like brushing your teeth) and 10 is something you'll never forget
 "keep": true or false: was something on this walk a big moment you never want to forget?
 "memory": if true, that moment in your own words (one to three sentences){project_q}""",
                 as_json=True, temperature=0.9)
@@ -2123,7 +2192,7 @@ Reply in JSON:
 
     gist = str(r.get("remember_as", "")).strip()
     best_interest = max((w.get("interest", 5) for w in walk), default=5)
-    remember(m, gist, strength=0.3 + best_interest / 20, source="walk")
+    remember(m, gist, strength=0.3 + best_interest / 20, source="walk", importance=r.get("importance"))
     memory = str(r.get("memory", "")).strip()
     if r.get("keep") is True and len(memory) > 10:
         remember(m, memory, big=True, source="big moment")
