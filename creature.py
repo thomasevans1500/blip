@@ -487,10 +487,24 @@ def _post(path, body):
             raise BrainError(f"{e} {getattr(getattr(e, 'response', None), 'text', '')[:200]}")
 
 
-def ask(prompt, as_json=False, temperature=0.8):
+def unwrap(text):
+    """Small brains sometimes hand back JSON (or a quoted string) where plain words were wanted."""
+    t = str(text or "").strip()
+    if t.startswith("{"):
+        try:
+            data = json.loads(t)
+            vals = [v for v in data.values() if isinstance(v, str)] if isinstance(data, dict) else []
+            t = max(vals, key=len) if vals else t
+        except json.JSONDecodeError:
+            t = t.lstrip('{"').rstrip('"}')
+    return t.strip().strip('"').strip()
+
+
+def ask(prompt, as_json=False, temperature=0.8, max_words=None):
     body = {"model": MODEL, "prompt": prompt, "stream": False,
             # repeat_penalty: gemma sometimes gets stuck repeating itself ("token repeat limit reached")
-            "options": {"temperature": temperature, "num_ctx": CONTEXT_TOKENS, "repeat_penalty": 1.15}}
+            "options": {"temperature": temperature, "num_ctx": CONTEXT_TOKENS, "repeat_penalty": 1.15,
+                        **({"num_predict": int(max_words * 1.6) + 40} if max_words else {})}}
     if as_json:
         body["format"] = "json"
     text = _post("/api/generate", body).get("response", "")
@@ -771,7 +785,7 @@ TITLE: {title}
 TEXT: {p['text'][:reading_chars(m)]}
 
 Reply in JSON with these keys:
-"thought": one or two sentences of your honest reaction, in your own voice
+"thought": your honest reaction in one short sentence, in your own voice
 "feeling": one word for how it made you feel
 "fond": if something here made you genuinely fond of it (not just interested), a short name for it, otherwise null
 "interest": how much this grabbed you: 0 = boring, 5 = fine, 7 = properly good, 9-10 = rare, one of the best things you've ever found
@@ -1314,7 +1328,7 @@ yourself. Plain text, no headings.""", temperature=1.0)
     except BrainError as e:
         print(f"(couldn't gather its thoughts: {e})")
         return
-    text = text.strip().strip('"')[:1000]
+    text = unwrap(text)[:1000]
     if len(text) < 10:
         return
     feel(m, text)
@@ -1503,10 +1517,11 @@ Destinations for "go":
 Reply in JSON:
 "move": one of the moves above
 "detail": what the move needs (see above), or ""
-"reason": a few words on why, in your own voice
+"reason": why, in under 10 words, in your own voice
 "minutes": for rest, daydream or look closer: how many minutes you'll spend (1 to 5)
 "intend": something you mean to do later, or ""
-"kept": if this move keeps something you said you'd do, copy it exactly, otherwise """"", as_json=True, temperature=0.9)
+"kept": if this move keeps something you said you'd do, copy it exactly, otherwise """"", as_json=True, temperature=0.9,
+                max_words=220)
     except BrainError as e:
         print(f"(a blank moment: {e})")
         log_move(m, "blank", reason="lost his train of thought", fallback=True)
@@ -1759,7 +1774,7 @@ Reply in JSON:
     except BrainError as e:
         print(f"(drifted off without a daydream: {e})")
         return
-    text = str(r.get("daydream", "")).strip()[:2500]
+    text = unwrap(r.get("daydream", ""))[:2500]
     if len(text) < 20:
         return
     feel(m, f"{subject} {text}")
@@ -1837,7 +1852,7 @@ Reply in JSON:
         print(f"(couldn't concentrate: {e})")
         return
     topic = str(r.get("topic", "")).strip()[:80]
-    text = str(r.get("thoughts", "")).strip()[:2500]
+    text = unwrap(r.get("thoughts", ""))[:2500]
     if len(text) < 20:
         return
     conclusion = str(r.get("conclusion", "")).strip()[:300]
@@ -1857,7 +1872,7 @@ def react_to(m, p, via, walk, purpose=None):
     """He has landed on a page: how does he react? Returns (brain reply, log entry) or (None, None)."""
     title = p["title"]
     try:
-        r = ask(reaction_prompt(m, walk, via, p, purpose), as_json=True)
+        r = ask(reaction_prompt(m, walk, via, p, purpose), as_json=True, max_words=160)
     except BrainError as e:
         print(f"(brain hiccup: {e})")
         return None, None
