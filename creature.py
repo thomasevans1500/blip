@@ -493,7 +493,8 @@ def unwrap(text):
     if t.startswith("{"):
         try:
             data = json.loads(t)
-            vals = [v for v in data.values() if isinstance(v, str)] if isinstance(data, dict) else []
+            vals = ([v for v in data.values() if isinstance(v, str)] + [k for k in data if len(k) > 30]
+                    if isinstance(data, dict) else [])
             t = max(vals, key=len) if vals else t
         except json.JSONDecodeError:
             t = t.lstrip('{"').rstrip('"}')
