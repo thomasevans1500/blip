@@ -33,7 +33,7 @@ jobs:
     env:
       PYTHONUNBUFFERED: "1"      # show Blip's moves in the log as they happen
       TZ: America/New_York       # Blip's days follow its human's clock (US East Coast)
-      BLIP_MODEL: gemma3:4b
+      BLIP_MODEL: llama3.1:8b
       BLIP_CONTACT: ${{ vars.BLIP_CONTACT }}
       BLIP_ALERT_AT: ${{ inputs.alert_at || '9' }}
       OLLAMA_MODELS: /home/runner/ollama-models

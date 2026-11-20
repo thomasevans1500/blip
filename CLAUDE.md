@@ -11,8 +11,9 @@ personality grows out of what it reads.
 
 ## Hard constraints
 - Must be free to run. No paid APIs (no Claude/OpenAI API calls).
-- The brain is a local open-source model run through Ollama (default: gemma3:4b, chosen by Thomas after the brain
-  audition (issue #8) for the liveliest voice and fastest runs; earlier: qwen2.5:7b, llama3.2:3b).
+- The brain is a local open-source model run through Ollama (default: llama3.1:8b, chosen by Thomas
+  2026-11-20 after the silliness audition, issue #22: most varied moves, best at escaping a grey world,
+  ~77s/move; earlier: gemma3:4b (looped), qwen2.5:7b, llama3.2:3b). Free models only (Thomas's rule).
 - The "internet" is currently Wikipedia via its free public APIs (no key needed).
   Always send a descriptive User-Agent header to Wikipedia.
 
@@ -137,6 +138,10 @@ JSON: move, detail, reason, minutes (rest/daydream/look closer), intend, kept.
 audition.py now runs a mini awake session per brain: same memory copy, same start page (Emu War),
 AUDITION_MOVES (12) real moves, then a daydream + a make. Reports variety, fizzles, brightness, s/move.
 Default candidates: gemma3:4b, gemma3:12b, mistral-nemo:12b, hermes3:8b, llama3.1:8b (all free via Ollama).
+Result (issue #22): llama3.1:8b won (4 move kinds, 0.00->0.78 brightness, 77s/move). mistral-nemo funniest but
+328s/move; gemma3:12b witty but 250s/move and stuck; gemma3:4b and hermes3 stuck. ALL brains overused
+"look closer" -> pages now END: MAX_LOOKS_PER_PAGE (2), then the move disappears from the menu (and fizzles
+if chosen anyway) and the prompt says he's read all he's going to of that page.
 
 ## Each hour is Blip's choice (SUPERSEDED by awake sessions; kept for reference)
 `wander` = one hour of life: `think` -> `plan` asks "how do you want to spend this hour?":

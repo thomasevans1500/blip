@@ -27,7 +27,7 @@ import requests
 
 # ---- Settings you can change ----
 NAME = "Blip"                                            # your creature's name
-MODEL = os.environ.get("BLIP_MODEL", "gemma3:4b")       # any model you've pulled with Ollama
+MODEL = os.environ.get("BLIP_MODEL", "llama3.1:8b")       # any model you've pulled with Ollama
 HOPS_PER_WANDER = int(os.environ.get("BLIP_HOPS", "7"))  # most pages a walk can take (a vivid, energetic Blip)
 MAX_LOG = 1000                                           # oldest log entries are dropped past this
 ALERT_AT = int(os.environ.get("BLIP_ALERT_AT", "9"))     # interest score that counts as "amazing"
@@ -41,6 +41,7 @@ PORTRAIT_EVERY_DAYS = 7                                  # how often it's offere
 SHORT_ROOM, LONG_ROOM, FADED_ROOM = 40, 40, 200          # how much fits in each part of its memory
 SESSION_MINUTES = float(os.environ.get("BLIP_SESSION_MIN", "25"))  # how long each awake session lasts
 MOVE_SECONDS = 45                                        # roughly one move per this many seconds
+MAX_LOOKS_PER_PAGE = 2                                   # a page ends: after this he's read all he will of it
 MAX_INTENTIONS = 8                                       # things he's said he'll do later
 MAX_DARLINGS = 8                                         # things he can be fond of at once
 MAIL_FRESH_HOURS = 3                                     # how long a message from his human stays front of mind
@@ -1322,8 +1323,11 @@ def one_move(m, st):
     recent = "\n".join(f"- {x['move']}{': ' + x['detail'][:50] if x['detail'] and x['move'] != 'think' else ''}"
                        for x in m.get("moves", [])[-6:]) or "- you've only just woken up"
     promises = open_intentions(m)
-    menu = moves_menu(m, bool(place))
-    where = (f"You're on: {place['title']} ({place['source']})\n"
+    can_look = bool(place) and st.get("looks", 0) < MAX_LOOKS_PER_PAGE and \
+        bool(place["text"][st["offset"] + 700:].strip())
+    menu = moves_menu(m, can_look)
+    where = (f"You're on: {place['title']} ({place['source']})"
+             f"{' - you have read all you are going to of this page' if place and not can_look else ''}\n"
              f"{place['text'][st['offset']:st['offset'] + 700]}\n"
              + (f"Links from here: {json.dumps(place['links'][:link_count(m)])}\n" if place.get("links") else "")
              if place else "You're not on any page right now.\n")
@@ -1409,9 +1413,14 @@ Reply in JSON:
         _, entry = react_to(m, p, via, st["reads"], st["purpose"])
         if entry:
             st["reads"].append(entry)
-            st.update(place=p, offset=0)
+            st.update(place=p, offset=0, looks=0)
             m["current"] = p["title"] if p["source"] == "Wikipedia" else None
+    elif move == "look closer" and not can_look:
+        log_move(m, "look closer", reason="he's read as much of this page as he's going to", fallback=True)
+        print("   📄 He's read as much of this page as he's going to.")
     elif move == "look closer" and place:
+        st["looks"] = st.get("looks", 0) + 1
+        minutes = min(minutes, 2)
         st["offset"] += 700
         chunk = place["text"][st["offset"]:st["offset"] + reading_chars(m)]
         if not chunk.strip():
