@@ -297,7 +297,9 @@ LEAK found right after: make_day_plan fed "your diary from last time" - the pre-
 "time"). Plan items / project steps / reflection questions written as records ({'name': ...}) go through
 `plain()`. FRESH_START bumped to "2026-11-20-llama-2" to redo the clean start with the fix.
 Remaining driver of "finding hidden connections": character.md line "finding the silly thread between two
-things nobody thought to connect" (Llama takes it literally) - proposed to Thomas to replace.
+things nobody thought to connect" (Llama takes it literally) - REPLACED (Thomas chose) with "noticing sweet
+little things other people walk past". Avoid sheet lines about connections/threads/patterns: they turn into
+research missions.
 Also: quoted catchphrases in character.md become tics with small models ("oh dear" on every line) - avoid
 them; and the "old football seasons" line was removed at Thomas's request (no football obsession).
 Optional later: describe internet sources as places with atmosphere.
