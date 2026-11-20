@@ -231,10 +231,14 @@ function render(m) {
     $("portrait").hidden = false; $("emoji").style.display = "none";
   }
   const ident = m.identity || {};
-  if (m.about || ident.who) $("about").replaceChildren(
+  if (m.about || ident.who || (m.purpose || {}).text) $("about").replaceChildren(
     ident.who ? el("p", { style: "margin:0 0 8px" }, el("strong", {}, (ident.innate ? ident.innate + ". " : "")), ident.who) : null,
     ident.currently ? el("p", { style: "margin:0 0 8px" }, "📍 These days: " + ident.currently) : null,
     ident.feeling ? el("p", { style: "margin:0 0 8px" }, "🌤️ How it's going: " + ident.feeling) : null,
+    (m.purpose || {}).text ? el("p", { style: "margin:0 0 8px" }, "🧭 What I'm for: " + m.purpose.text) : null,
+    (m.lessons || []).length ? el("div", { style: "margin:0 0 8px" }, "📏 Rules I've set myself:",
+      el("ul", { class: "memlist" }, m.lessons.map(x => el("li", { title: x.because ? "because " + x.because : "" },
+        x.text, x.because ? el("span", { class: "muted" }, " · because " + x.because) : null)))) : null,
     m.about ? el("details", {}, el("summary", {}, "In his own longer words"), el("p", { style: "white-space:pre-wrap" }, m.about)) : null);
   else hide("about-section");
 

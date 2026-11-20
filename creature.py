@@ -39,6 +39,7 @@ MAX_LETTERS_PER_DAY = 2                                  # emails it can write t
 MAX_THOUGHTS = 200                                       # thinking-out-loud entries kept
 MAX_OPINIONS = 100                                       # opinions kept (least recently formed drop off)
 PORTRAIT_EVERY_DAYS = 7                                  # how often it's offered the chance to redraw itself
+MAX_LESSONS = 5                                          # rules he's set himself (PEPA-style self-regulation)
 REFLECT_AT = 150                                         # importance points that add up to a reflection (paper: 150)
 SHORT_ROOM, LONG_ROOM, FADED_ROOM = 40, 40, 200          # how much fits in each part of its memory
 SESSION_MINUTES = float(os.environ.get("BLIP_SESSION_MIN", "25"))  # how long each awake session lasts
@@ -565,10 +566,15 @@ def who_am_i(m, context=""):
         summary = f"{about}Your private notes about yourself (written by you):\n{m['self']}\n"
         extras = (f"Subjects you've enjoyed lately: {loves}.\nThings that bore you: {hates}.\n"
                   f"Things you've made recently: {made}.")
+    purpose = (m.get("purpose") or {}).get("text", "")
+    lessons = [x["text"] for x in m.get("lessons", [])]
+    rules = ("Rules you've set yourself, from experience:\n" + "\n".join(f"- {t}" for t in lessons) + "\n") if lessons else ""
     return (
         f"You are {NAME}, a small creature who lives on the internet and wanders Wikipedia.\n"
         f"Who you are:\n{sheet_text(m)}\n"
+        f"{'What you are for (your own life goal): ' + purpose + chr(10) if purpose else ''}"
         f"{summary}"
+        f"{rules}"
         f"{sensations(m)}\n"
         f"{feeling}"
         f"{remembered}"
@@ -1461,7 +1467,7 @@ def fresh_start(m):
         return
     keys = ["about", "self", "traits", "opinions", "interests", "memory", "scrapbook", "mood", "projects",
             "thoughts", "senses", "home", "portrait", "spaces", "sheet", "sheet_history", "current", "hours",
-            "darlings", "moves", "intentions", "identity", "plan"]
+            "darlings", "moves", "intentions", "identity", "plan", "lessons", "purpose"]
     past = json.loads(FIRST_LIVES_FILE.read_text(encoding="utf-8")) if FIRST_LIVES_FILE.exists() else []
     past.append({"ended": now(), "label": m.get("fresh_start") or "first life",
                  **{k: m.get(k) for k in keys if k in m}})
@@ -1863,6 +1869,8 @@ def wander(m):
     fresh_start(m)
     if not (m.get("identity") or {}).get("who"):
         refresh_identity(m)
+    if not m.get("purpose"):
+        learn_from_today(m)
     awaken_senses(m)
     tire(m, -0.06)
     check_mail(m)
@@ -2462,6 +2470,8 @@ def diary(m):
             lines.append(f"- Chatted with my human. They said: {e['you']} / I said: {e['me']}")
         elif e["type"] == "pondered":
             lines.append(f"- Stayed in and thought about {e['topic']}. Conclusion: {e['conclusion']}")
+        elif e["type"] == "lessons":
+            lines.append("- Set myself rules: " + ("; ".join(e["added"]) or "kept my old ones"))
         elif e["type"] == "identity":
             lines.append(f"- Took stock of myself: {e['currently']}")
         elif e["type"] == "planned":
@@ -2545,7 +2555,95 @@ or find funny. Write in first person, under 150 words, plain text, no headings."
     print(f"📔 {NAME}'s diary, {today()}\n\n{text}\n\n"
           f"🧠 Notes to self:\n{m['self']}\n")
     describe_self(m)
+    learn_from_today(m)
     home(m)
+
+
+def day_review(m):
+    """A plain summary of how today actually went, for him to learn from (what fizzled, failed, worked)."""
+    today_log = since_rebirth(m, [e for e in m["log"] if e.get("date") == today()])
+    count = lambda t: sum(1 for e in today_log if e["type"] == t)
+    fizzles = [e["text"] for e in today_log if e["type"] == "fizzled"]
+    plan = today_plan(m)
+    lines = [f"- You read {count('read')} pages, made {count('made') + count('built')} things, "
+             f"daydreamed {count('daydream')} times, wrote {count('letter')} letters, asked for {count('asked')} things."]
+    if fizzles:
+        lines.append(f"- {len(fizzles)} times something didn't work because you'd been repeating yourself, e.g. "
+                     + "; ".join(dict.fromkeys(fizzles))[:400])
+    if count("failed build") or count("failed drawing"):
+        lines.append(f"- {count('failed build') + count('failed drawing')} things you tried to build or draw fell apart.")
+    if plan:
+        done = sum(1 for x in plan["items"] if x["done"])
+        lines.append(f"- You did {done} of the {len(plan['items'])} things you planned.")
+    if count("kept promise"):
+        lines.append(f"- You kept your word {count('kept promise')} times.")
+    if senses(m)["stimulation"] < 0.3:
+        lines.append("- By the end of the day the world felt grey and dull.")
+    if senses(m)["energy"] < 0.3:
+        lines.append("- You ended the day worn out.")
+    mood = m.get("mood") or {}
+    if mood.get("feeling"):
+        lines.append(f"- You ended up feeling {mood['feeling']}.")
+    return "\n".join(lines)
+
+
+def learn_from_today(m):
+    """PEPA (Liu et al. 2026): each night the agent reflects on its experiences and rewrites its own goals
+    and rules - so it learns from failure without anyone scripting it. Blip keeps, drops or adds rules for
+    himself, and writes (or revisits) his life goal."""
+    current = m.get("lessons", [])
+    numbered = "\n".join(f"{i}. {x['text']}" for i, x in enumerate(current, 1)) or "(none yet)"
+    purpose = (m.get("purpose") or {}).get("text", "")
+    try:
+        r = ask(f"""{who_am_i(m)}
+
+How today went:
+{day_review(m)}
+
+Rules you've set yourself so far:
+{numbered}
+
+{"Your life goal so far: " + purpose if purpose else "You haven't decided what your life is for yet."}
+
+Looking back at today, decide what you'll do differently or keep doing tomorrow. Rules are your own,
+short and practical, in your own words (for example about when to rest, what to do when things feel dull,
+or what you want more of). You can keep, drop or add rules.
+
+Reply in JSON:
+"keep": the numbers of rules you want to keep, e.g. [1, 3]
+"new": up to 2 new rules, each {{"rule": "...", "because": "what today taught you"}}
+"life_goal": {"your life goal, rewritten only if it's changed, otherwise the same words" if purpose else "one sentence: what you want your life to be about"}""", as_json=True, temperature=0.8, max_words=220)
+    except BrainError as e:
+        print(f"(couldn't think over the day: {e})")
+        return
+    keep = set()
+    for k in as_list(r.get("keep")):
+        try:
+            keep.add(int(k))
+        except (TypeError, ValueError):
+            pass
+    kept = [x for i, x in enumerate(current, 1) if i in keep]
+    dropped = [x for i, x in enumerate(current, 1) if i not in keep]
+    added = []
+    for item in as_list(r.get("new"))[:2]:
+        rule = unwrap(item.get("rule", "") if isinstance(item, dict) else item)[:160]
+        if len(rule) > 8 and not any(rule.lower() == x["text"].lower() for x in kept):
+            added.append({"text": rule, "made": today(),
+                          "because": unwrap(item.get("because", "") if isinstance(item, dict) else "")[:200]})
+    m["lessons"] = (kept + added)[-MAX_LESSONS:]
+    for x in dropped:
+        print(f"   🍂 dropped his rule: {x['text']}")
+    for x in added:
+        print(f"   📏 new rule: {x['text']}  (because {x['because']})")
+        remember(m, f"I made myself a rule: {x['text']} (because {x['because']})", 0.7, source="lesson", importance=6)
+    goal = unwrap(r.get("life_goal", ""))[:240]
+    if len(goal) > 10 and goal.lower() != purpose.lower():
+        m["purpose"] = {"text": goal, "made": today(), "before": purpose}
+        print(f"   🧭 {'new' if not purpose else 'rewrote his'} life goal: {goal}")
+        remember(m, f"I decided what my life is for: {goal}", 0.9, source="purpose", importance=8)
+    m["log"].append({"type": "lessons", "date": today(), "time": now(), "added": [x["text"] for x in added],
+                     "dropped": [x["text"] for x in dropped], "goal": (m.get("purpose") or {}).get("text", "")})
+    save(m)
 
 
 def describe_self(m):

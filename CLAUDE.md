@@ -185,6 +185,23 @@ Repeat-search loophole (seen live: "SEARCH: taxonomy and mass extinctions" ~10x 
 SEARCH/WORD/ASK/BOOKS/SPACE/link already in memory["recent_trips"] (last 8) finds "the same pages you've
 already seen" -> fizzle + extra staleness. RANDOM/NEWS/HN/ON THIS DAY are never blocked.
 
+## PEPA (Liu, Li, Zhu, Zhang 2026, arXiv 2603.00117) - Thomas supplied the PDF; read 2026-11-20
+Robot dog with personality-driven persistent autonomy: Sys3 (big LLM, once a day) turns personality (3 plain
+sentences, Big-Five-ish) + self-model + episodic memory into an ULTIMATE goal, DAILY goals and incrementally
+adjusted intrinsic rewards (self-set rules, e.g. "tighten exploration threshold 35%->40% battery");
+Sys2 (small fast policy) picks actions; Sys1 executes + records episodic memory. Results: personalities
+grew more distinct over 3 days (Lazy rest 14.5%->49.8%); day 1 all failed (battery), day 3 all survived via
+nightly reflection alone; best = big model once/day + small model per step (all-cloud too slow, all-small
+can't reflect). Limitation: fixed action repertoire bounds novelty.
+Applied: (1) self-written rules + (2) life goal (DONE), (3) a bigger free brain for the nightly run (NEXT).
+
+### Lessons + life goal (DONE)
+`day_review` summarises today's log (fizzles, failed builds/drawings, plan done, kept promises, grey world,
+worn out, mood). `learn_from_today` (nightly after describe_self; and at session start if no purpose yet):
+keep/drop current rules by number, add up to 2 new {text, made, because} (max MAX_LESSONS 5), and write or
+rewrite "life_goal" -> memory["purpose"]. who_am_i shows the life goal right after the sheet and "Rules you've
+set yourself" after the summary. Fresh start archives lessons + purpose. Site: About me shows both.
+
 ## Asking & building (2026-11-20) - so interests turn into action, not just reading
 Thomas: "if he's interested in trains, why doesn't he code a train simulator, or ask me to make one?"
 He didn't know he could. ABILITIES now lists both, and the session menu has two new moves:
