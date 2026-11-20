@@ -330,7 +330,7 @@ def consolidate(m):
     return moved, len(forgotten)
 
 
-def relevant_opinions(m, context="", n=5):
+def relevant_opinions(m, context="", n=3):
     """Opinions related to what it's looking at, plus its most recent ones."""
     ops = list(m.get("opinions", {}).values())
     if not ops:
@@ -491,6 +491,42 @@ def darling_text(m):
     return "; ".join(f"{d['name']} (since {d['since']})" for d in ds) or "nothing yet"
 
 
+def refresh_identity(m):
+    """A short summary of who he is right now, rebuilt every few hours from his character sheet, his
+    realisations and recent memories (Generative Agents' cached summary: core characteristics, what he's
+    up to, how he feels it's going). Every prompt uses this instead of a long pile of notes."""
+    mem = memory_store(m)
+    insights = [x["text"] for x in mem["long"] + mem["short"] if x.get("source") == "insight"][-5:]
+    recent = [x["text"] for x in sorted(mem["short"], key=lambda x: x.get("at", x["born"]))[-8:]]
+    try:
+        r = ask(f"""You are {NAME}, a small creature who lives on the internet.
+Who you are:
+{sheet_text(m)}
+
+{"Things you've realised about yourself: " + "; ".join(insights) if insights else ""}
+Your own notes about yourself: {m.get('self', '')[:600]}
+Things you're fond of: {darling_text(m)}
+Things that happened lately:
+{chr(10).join('- ' + t for t in recent) or '- not much yet'}
+
+Sum yourself up, briefly and in your own voice. Reply in JSON:
+"innate": three words for your nature
+"who": two short sentences: who you are and what you're like
+"currently": one short sentence: what's going on with you these days
+"feeling": one short sentence: how you feel about how things are going""", as_json=True, temperature=0.7, max_words=160)
+    except BrainError as e:
+        print(f"(couldn't sum himself up: {e})")
+        return
+    ident = {k: unwrap(r.get(k, ""))[:300] for k in ("innate", "who", "currently", "feeling")}
+    if len(ident["who"]) < 10:
+        return
+    ident["updated"] = now()
+    m["identity"] = ident
+    m["log"].append({"type": "identity", "date": today(), "time": now(), "currently": ident["currently"]})
+    print(f"🪪 {ident['innate']} | {ident['who']} | now: {ident['currently']} | {ident['feeling']}")
+    save(m)
+
+
 def who_am_i(m, context=""):
     top = sorted(m["interests"].items(), key=lambda x: -x[1])
     loves = ", ".join(t for t, s in top[:8] if s > 0) or "nothing yet"
@@ -520,11 +556,19 @@ def who_am_i(m, context=""):
     projects = f"Projects you're working on: {goals}\n" if goals else ""
     remembered = ("Memories that come to mind:\n"
                   + "\n".join(f"- ({x['born']}) {x['text']}" for x in memories) + "\n") if memories else ""
+    ident = m.get("identity") or {}
+    if ident.get("who"):
+        summary = (f"In short ({ident.get('innate', '')}): {ident['who']}\n"
+                   f"These days: {ident.get('currently', '')}\nHow it's going: {ident.get('feeling', '')}\n")
+        extras = ""
+    else:   # before his first summary, fall back to the long version
+        summary = f"{about}Your private notes about yourself (written by you):\n{m['self']}\n"
+        extras = (f"Subjects you've enjoyed lately: {loves}.\nThings that bore you: {hates}.\n"
+                  f"Things you've made recently: {made}.")
     return (
         f"You are {NAME}, a small creature who lives on the internet and wanders Wikipedia.\n"
         f"Who you are:\n{sheet_text(m)}\n"
-        f"{about}"
-        f"Your private notes about yourself (written by you):\n{m['self']}\n"
+        f"{summary}"
         f"{sensations(m)}\n"
         f"{feeling}"
         f"{remembered}"
@@ -533,10 +577,8 @@ def who_am_i(m, context=""):
         f"{projects}"
         f"{heard}"
         f"Things you're fond of: {darling_text(m)}.\n"
-        f"Subjects you've enjoyed lately: {loves}.\n"
-        f"Things that bore you: {hates}.\n"
-        f"Things you've made recently: {made}."
-    )
+        f"{extras}"
+    ).rstrip()
 
 
 # ---------- Brain (local model via Ollama) ----------
@@ -1419,7 +1461,7 @@ def fresh_start(m):
         return
     keys = ["about", "self", "traits", "opinions", "interests", "memory", "scrapbook", "mood", "projects",
             "thoughts", "senses", "home", "portrait", "spaces", "sheet", "sheet_history", "current", "hours",
-            "darlings", "moves", "intentions"]
+            "darlings", "moves", "intentions", "identity", "plan"]
     past = json.loads(FIRST_LIVES_FILE.read_text(encoding="utf-8")) if FIRST_LIVES_FILE.exists() else []
     past.append({"ended": now(), "label": m.get("fresh_start") or "first life",
                  **{k: m.get(k) for k in keys if k in m}})
@@ -1490,9 +1532,22 @@ def open_intentions(m):
     return m["intentions"]
 
 
-def log_move(m, move, detail="", reason="", fallback=False):
+EMOJI_RE = re.compile(r"[\u2600-\u27BF\U0001F000-\U0001FAFF\u200d\ufe0f]+")
+
+
+def clean_emoji(text):
+    """Keep only emoji characters (max a few), like the little speech-bubble icons in Smallville."""
+    found = "".join(EMOJI_RE.findall(str(text or "")))
+    return found[:8]
+
+
+def log_move(m, move, detail="", reason="", fallback=False, emoji=""):
+    if fallback and not emoji:
+        last = next((x.get("emoji") for x in reversed(m.get("moves", [])) if x.get("emoji")), "")
+        emoji = last
     m.setdefault("moves", []).append({"time": now(), "move": move, "detail": str(detail)[:240],
-                                      "reason": str(reason)[:200], "fallback": fallback})
+                                      "reason": str(reason)[:200], "fallback": fallback,
+                                      "emoji": clean_emoji(emoji)})
     m["moves"] = m["moves"][-300:]
 
 
@@ -1642,6 +1697,7 @@ Reply in JSON:
 "move": one of the moves above
 "detail": what the move needs (see above), or ""
 "reason": why, in under 10 words, in your own voice
+"emoji": one or two emoji that show what you're doing
 "minutes": for rest, daydream or look closer: how many minutes you'll spend (1 to 5)
 "intend": something you mean to do later, or ""
 "plan_step": if this move does something from your plan, its number, otherwise null
@@ -1683,7 +1739,9 @@ Reply in JSON:
         m["log"].append({"type": "fizzled", "date": today(), "time": now(), "move": move, "text": FIZZLE[move]})
         print(f"   🌫️ {FIZZLE[move]}")
         return
-    log_move(m, move or "?", "" if move == "think" else detail, reason)
+    log_move(m, move or "?", "" if move == "think" else detail, reason, emoji=r.get("emoji", ""))
+    if clean_emoji(r.get("emoji")):
+        print(f"   {clean_emoji(r.get('emoji'))}")
     if plan and move in {k for k, _ in menu}:
         try:
             step = plan["items"][int(r.get("plan_step")) - 1]
@@ -1792,6 +1850,8 @@ Reply in JSON:
 def wander(m):
     """One hour of Blip's life, then a nap if it's been a while."""
     fresh_start(m)
+    if not (m.get("identity") or {}).get("who"):
+        refresh_identity(m)
     awaken_senses(m)
     tire(m, -0.06)
     check_mail(m)
@@ -1935,6 +1995,7 @@ Reply in JSON:
     dream = str(r.get("dream", "")).strip()[:500]
     tire(m, -0.35)
     m["last_nap"] = now()
+    refresh_identity(m)
     m["log"].append({"type": "napped", "date": today(), "time": now(), "dream": dream})
     if dream:
         print(f"💤 Dreamt: {dream}")
@@ -2390,6 +2451,8 @@ def diary(m):
             lines.append(f"- Chatted with my human. They said: {e['you']} / I said: {e['me']}")
         elif e["type"] == "pondered":
             lines.append(f"- Stayed in and thought about {e['topic']}. Conclusion: {e['conclusion']}")
+        elif e["type"] == "identity":
+            lines.append(f"- Took stock of myself: {e['currently']}")
         elif e["type"] == "planned":
             lines.append("- Planned my day: " + "; ".join(e["items"]) + (f" (and wished I could {e['wish']})" if e.get("wish") else ""))
         elif e["type"] == "plan step":
@@ -2476,6 +2539,7 @@ or find funny. Write in first person, under 150 words, plain text, no headings."
 
 def describe_self(m):
     """It writes its own 'about me', and every so often may draw itself."""
+    refresh_identity(m)
     try:
         about = ask(f"""{who_am_i(m)}
 

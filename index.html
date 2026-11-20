@@ -210,8 +210,10 @@ function render(m) {
     visited: ["🏡 Back visiting " + latest.name, latest.thought || ""],
     fond: ["💕 Just grew fond of " + latest.name, latest.why || ""],
   })[latest.type] : null;
+  const lastMove = [...(m.moves || [])].reverse().find(x => x.emoji);
+  const bubble = lastMove ? el("div", { style: "font-size:40px;line-height:1;margin-bottom:6px", title: lastMove.move }, lastMove.emoji) : null;
   if (doing) {
-    $("now").replaceChildren(el("div", { class: "card" },
+    $("now").replaceChildren(el("div", { class: "card" }, bubble,
       el("div", { class: "now-title" }, doing[0]), doing[1] ? el("p", {}, doing[1]) : null,
       el("div", { class: "muted" }, ago(latest.time))));
   } else if (last) {
@@ -228,7 +230,13 @@ function render(m) {
     $("portrait").title = m.portrait.why || "";
     $("portrait").hidden = false; $("emoji").style.display = "none";
   }
-  if (m.about) $("about").textContent = m.about; else hide("about-section");
+  const ident = m.identity || {};
+  if (m.about || ident.who) $("about").replaceChildren(
+    ident.who ? el("p", { style: "margin:0 0 8px" }, el("strong", {}, (ident.innate ? ident.innate + ". " : "")), ident.who) : null,
+    ident.currently ? el("p", { style: "margin:0 0 8px" }, "📍 These days: " + ident.currently) : null,
+    ident.feeling ? el("p", { style: "margin:0 0 8px" }, "🌤️ How it's going: " + ident.feeling) : null,
+    m.about ? el("details", {}, el("summary", {}, "In his own longer words"), el("p", { style: "white-space:pre-wrap" }, m.about)) : null);
+  else hide("about-section");
 
   const thoughts = [...(m.thoughts || [])].reverse();
   const thoughtEl = t => el("div", { class: "thought" },
@@ -283,6 +291,7 @@ function render(m) {
   if (mv.length) {
     $("moves").className = "card trail moves";
     $("moves").replaceChildren(...mv.map(x => el("li", { class: x.fallback ? "fb" : "" },
+      x.emoji ? el("span", { style: "font-size:20px;margin-right:6px" }, x.emoji) : null,
       el("span", { class: "tag" }, x.move), x.detail ? x.detail : "",
       !x.fallback && x.reason ? el("div", { class: "muted" }, "because: “" + x.reason + "”") : null,
       el("div", { class: "muted" }, ago(x.time)))));
