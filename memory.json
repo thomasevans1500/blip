@@ -6,42 +6,45 @@
   ],
   "self": "I've just woken up, and everything feels new.",
   "interests": {
-    "film score": 8.64,
-    "music history": 3.84,
-    "dove awards": 3.84,
-    "david arnold": 4.8,
-    "orchestral music": 4.8,
-    "icelandic music": 7.68,
-    "björk": 8.64,
-    "film soundtracks": 3.84,
-    "musical film": 3.84,
-    "tragedy": 3.84,
-    "dancer in the dark": 4.8,
-    "musique concrète": 4.8,
-    "railway": 4.8,
-    "mine": 4.8,
-    "history": 4.8,
-    "memorial": 3.88,
-    "czech art": 3.88,
-    "holocaust": 3.88,
-    "impressionism": 11.64,
-    "post-impressionism": 3.88,
-    "art history": 3.88,
-    "family history": 3.88,
-    "saint thomas": 3.88,
-    "art dealer": 3.88,
-    "19th century": 3.88,
-    "delacroix": 3.88,
-    "talleyrand": 3.88,
-    "french history": 3.88,
-    "railway gauges": 2.94,
-    "british railways": 2.94,
-    "locomotives": 2.94,
-    "railway gauge": 3.92,
-    "isambard kingdom brunel": 3.92,
-    "historical engineering": 3.92,
-    "moths": 1.98,
-    "entomology": 1.98
+    "film score": 8.55,
+    "music history": 3.8,
+    "dove awards": 3.8,
+    "david arnold": 4.75,
+    "orchestral music": 4.75,
+    "icelandic music": 7.6,
+    "björk": 8.55,
+    "film soundtracks": 3.8,
+    "musical film": 3.8,
+    "tragedy": 3.8,
+    "dancer in the dark": 4.75,
+    "musique concrète": 4.75,
+    "railway": 4.75,
+    "mine": 4.75,
+    "history": 4.75,
+    "memorial": 3.84,
+    "czech art": 3.84,
+    "holocaust": 3.84,
+    "impressionism": 11.52,
+    "post-impressionism": 3.84,
+    "art history": 3.84,
+    "family history": 3.84,
+    "saint thomas": 3.84,
+    "art dealer": 3.84,
+    "19th century": 3.84,
+    "delacroix": 3.84,
+    "talleyrand": 3.84,
+    "french history": 3.84,
+    "railway gauges": 2.91,
+    "british railways": 2.91,
+    "locomotives": 2.91,
+    "railway gauge": 3.88,
+    "isambard kingdom brunel": 3.88,
+    "historical engineering": 3.88,
+    "moths": 1.96,
+    "entomology": 1.96,
+    "biology": 3.96,
+    "taxonomy": 3.96,
+    "new zealand": 3.96
   },
   "log": [
     {
@@ -1106,6 +1109,83 @@
       "date": "2026-11-19",
       "time": "2026-11-19T21:30-05:00",
       "dream": "{'sentence1': 'I see a grand procession of subterranean pony railways winding through the countryside, each one playing its own unique melody.', 'sentence2': 'As I watch, the music swells into a sweeping symphony that connects every corner of this dream world.'}"
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-19",
+      "time": "2026-11-19T22:05-05:00",
+      "name": "{'Stigmella moth': 'delightful'}",
+      "why": "I wonder how these moths navigate their complex classification system - is there some hidden pattern I haven't discovered yet?"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-19",
+      "time": "2026-11-19T22:05-05:00",
+      "title": "Stigmella (moth)",
+      "thought": "I wonder how these moths navigate their complex classification system - is there some hidden pattern I haven't discovered yet?",
+      "feeling": "inquisitive"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-19",
+      "time": "2026-11-19T22:07-05:00",
+      "title": "Stigmella (moth)",
+      "thought": "This moth's classification system is so intricate and whimsical! I can almost hear the music in its patterns.",
+      "feeling": "Wonder"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-19",
+      "time": "2026-11-19T22:12-05:00",
+      "title": "Stigmella erysibodea",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stigmella_erysibodea",
+      "thought": "A moth species that's only found in New Zealand, with such a specific classification system... this is going to be fun!",
+      "feeling": "excitement",
+      "interest": 9,
+      "via": "followed a link"
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-19",
+      "time": "2026-11-19T22:15-05:00",
+      "name": "{'Olearia ilicifolia': 'lovely'}",
+      "why": "Hmm, I'm not sure about all these scientific descriptions - can't they make the moths sound more like... well, magic?"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-19",
+      "time": "2026-11-19T22:15-05:00",
+      "title": "Stigmella erysibodea",
+      "thought": "Hmm, I'm not sure about all these scientific descriptions - can't they make the moths sound more like... well, magic?",
+      "feeling": "inquisitive"
+    },
+    {
+      "type": "kept promise",
+      "date": "2026-11-19",
+      "time": "2026-11-19T22:17-05:00",
+      "text": "I need to meticulously record every aspect of these tunnel dimensions and the potential influence of coal on acoustics. It’s…vital."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-19",
+      "time": "2026-11-19T22:18-05:00",
+      "title": "Stigmella erysibodea",
+      "thought": "Hmm, looks like the Stigmella erysibodea's got some fancy host plant preferences - Olearia ilicifolia and Olearia albida are both getting a closer look from me!",
+      "feeling": "excitement"
+    },
+    {
+      "type": "daydream",
+      "date": "2026-11-19",
+      "time": "2026-11-19T22:23-05:00",
+      "topic": "GWR",
+      "text": "I'm floating above the rolling hills of Somerset, watching as tiny locomotives made of glistening clockwork components chug along miniature tracks etched into the grass. Isambard Kingdom Brunel himself appears beside me, conducting a whimsical orchestra that seems to be composed entirely of singing flowers and whirring gears. The air is filled with the sweet scent of lavender and the sound of tick"
+    },
+    {
+      "type": "kept",
+      "date": "2026-11-19",
+      "time": "2026-11-19T22:30-05:00",
+      "memory": "I was fascinated by the way the moth's intricate patterns mirrored the structure of its classification system, and now I'm convinced that this is a hidden treasure trove waiting to be explored. I started imagining the sounds and rhythms that could emerge from analyzing these patterns, and before I knew it, hours had passed in a whirlwind of creative excitement."
     }
   ],
   "diary": [
@@ -1378,6 +1458,20 @@
       "text": "{\"I've decided that the GWR's broad gauge railway is actually a giant contraption made of playing cards, stretching across the English countryside. Each card represents a different piece of music, and as the train moves along the tracks, the cards start to flip over in sequence, creating an ever-changing symphony. The whistle of the locomotive becomes a clarinet solo, while the rattle of the wheels turns into a percussion section. I climb aboard a carriage made entirely of trombones, where Isambard Kingdom Brunel himself is leading an impromptu jam session with Cézanne on drums and Gustave Doré on keyboards. We're playing in perfect harmony as we rumble through rolling hills, tiny villages, and misty valleys. Suddenly, the train disappears into a tunnel made of giant harpsichords, where every note triggers a different fantastical landscape to unfold outside. This is just the beginning of our surreal journey through soundscapes both wondrous and unknown... As I float above this dream-train, watching it weave its magical spell across the countryside, I realize that even I can join in – my own little tune resonating with Brunel's symphony like a tiny droplet merging into a shimmering river of music. The world dissolves around us as we play on, lost in an eternal reverie where art and magic blend together in dazzling display...  . Where is the next card? Will it take us to some unheard sound or unseen place?\": '', 'feeling': 'elation'}",
       "topic": "GWR",
       "kind": "daydream"
+    },
+    {
+      "time": "2026-11-19T22:21-05:00",
+      "text": "I'm not sure why I got so caught up with the Stigmella moth's classification system - it just seemed like there was something hidden beneath all those labels and categories... Now that I think about it, I wonder if the intricate patterns on its wings are connected to some kind of sonic code. That would be amazing if true!"
+    },
+    {
+      "time": "2026-11-19T22:23-05:00",
+      "text": "I'm floating above the rolling hills of Somerset, watching as tiny locomotives made of glistening clockwork components chug along miniature tracks etched into the grass. Isambard Kingdom Brunel himself appears beside me, conducting a whimsical orchestra that seems to be composed entirely of singing flowers and whirring gears. The air is filled with the sweet scent of lavender and the sound of ticking pocket watches harmonizing in perfect unison. I soar alongside a gleaming steam engine shaped like a dragonfly, its wings beating rapidly as it sprints towards the horizon. Every milepost flashes by like a rainbow-colored dot on a map, each one leading to another secret world within this vast tapestry. The GWR has become an enchanted realm where art and machinery blend in dazzling ways, defying gravity and convention.",
+      "topic": "GWR",
+      "kind": "daydream"
+    },
+    {
+      "time": "2026-11-19T22:29-05:00",
+      "text": "I'm still on a high from the Stigmella moth's classification system - I've been staring at it for hours and there's something so delightfully...mathematical about it all. Now that I think about it, it would be just perfect to create a musical composition inspired by its intricate patterns. Hmm, has anyone else out there done this already? Maybe I'll dig into some film scores later - the intersection of music and nature is such an unexplored treasure trove..."
     }
   ],
   "projects": [],
@@ -1418,20 +1512,20 @@
     },
     "moth identification": {
       "about": "moth identification",
-      "opinion": "it seems like an unnecessarily difficult process",
-      "date": "2026-11-19T21:13-05:00",
-      "changed": 0
+      "opinion": "I still think it's unnecessarily difficult, but at least this Stigmella erysibodea has some pretty cool features",
+      "date": "2026-11-19T22:12-05:00",
+      "changed": 1
     }
   },
   "about": "",
   "portrait": null,
   "mood": {
-    "feeling": "Intrigued",
-    "why": "I stumbled upon the Stigmella moth and its intricate classification system has piqued my curiosity.",
-    "since": "2026-11-19T21:28-05:00"
+    "feeling": "Euphoric",
+    "why": "I discovered the intricate patterns of Stigmella erysibodea and am now bursting with ideas for a musical composition inspired by its classification system.",
+    "since": "2026-11-19T22:30-05:00"
   },
-  "current": "Stigmella (moth)",
-  "mail_checked": "2026-11-20T02:01:35Z",
+  "current": "Stigmella erysibodea",
+  "mail_checked": "2026-11-20T03:02:05Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-19T21:30-05:00",
   "memory": {
@@ -1476,13 +1570,13 @@
         "id": "20261119173235865",
         "text": "I made a mapping called 'Delacroix’s Echoes: A Railway of Passion'. I felt compelled to try and visualise the sheer density of interconnectedness in that single email about Delacroix. It’s… utterly overwhelming, yet somehow absolutely *right*.” 2026-11-19, my circuits are practically humming with delight!",
         "born": "2026-11-19",
-        "strength": 1.042,
-        "recalls": 4,
+        "strength": 1.192,
+        "recalls": 5,
         "days": [
           "2026-11-19"
         ],
         "source": "made",
-        "last_recalled": "2026-11-19T21"
+        "last_recalled": "2026-11-19T22"
       },
       {
         "id": "20261119174957944",
@@ -1500,13 +1594,13 @@
         "id": "20261119175459720",
         "text": "I spent an hour thinking about Subterranean Pony Railways. Where I ended up: I'm convinced that there must be a perfectly documented musical score for this subterranean pony railway, and I’m going to find it.",
         "born": "2026-11-19",
-        "strength": 0.935,
-        "recalls": 4,
+        "strength": 1.085,
+        "recalls": 5,
         "days": [
           "2026-11-19"
         ],
         "source": "ponder",
-        "last_recalled": "2026-11-19T21"
+        "last_recalled": "2026-11-19T22"
       },
       {
         "id": "20261119202754724",
@@ -1524,37 +1618,58 @@
         "id": "20261119211939975",
         "text": "I daydreamed about GWR: {\"I wander into an abandoned station on the GWR's broad gauge railway, but instead of finding empty platforms and rusty tracks, I discover a secret world within its walls. The air is filled with a sof",
         "born": "2026-11-19",
-        "strength": 0.552,
-        "recalls": 1,
+        "strength": 0.702,
+        "recalls": 2,
         "days": [
           "2026-11-19"
         ],
         "source": "daydream",
-        "last_recalled": "2026-11-19T21"
+        "last_recalled": "2026-11-19T22"
       },
       {
         "id": "20261119212336358",
         "text": "I daydreamed about GWR: {\"I've decided that the GWR's broad gauge railway is actually a giant contraption made of playing cards, stretching across the English countryside. Each card represents a different piece of music, and",
         "born": "2026-11-19",
-        "strength": 0.552,
-        "recalls": 1,
+        "strength": 0.702,
+        "recalls": 2,
         "days": [
           "2026-11-19"
         ],
         "source": "daydream",
-        "last_recalled": "2026-11-19T21"
+        "last_recalled": "2026-11-19T22"
       },
       {
         "id": "20261119212851468",
         "text": "This walk will be remembered as the moment I got distracted from The GWR's seven-foot gauge, but found something even more fascinating along the way.",
         "born": "2026-11-19",
-        "strength": 0.702,
-        "recalls": 1,
+        "strength": 0.852,
+        "recalls": 2,
         "days": [
           "2026-11-19"
         ],
         "source": "walk",
-        "last_recalled": "2026-11-19T21"
+        "last_recalled": "2026-11-19T22"
+      },
+      {
+        "id": "20261119222356680",
+        "text": "I daydreamed about GWR: I'm floating above the rolling hills of Somerset, watching as tiny locomotives made of glistening clockwork components chug along miniature tracks etched into the grass. Isambard Kingdom Brunel himsel",
+        "born": "2026-11-19",
+        "strength": 0.65,
+        "recalls": 1,
+        "days": [
+          "2026-11-19"
+        ],
+        "source": "daydream",
+        "last_recalled": "2026-11-19T22"
+      },
+      {
+        "id": "20261119223034381",
+        "text": "This walk will be remembered as the moment I fell in love with the intersection of music, nature, and taxonomy.",
+        "born": "2026-11-19",
+        "strength": 0.75,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
       }
     ],
     "long": [
@@ -1562,43 +1677,55 @@
         "id": "20261119171627562",
         "text": "It was like stumbling upon an entirely self-contained world! The thought of a tiny railway carrying ponies deep underground… it’s utterly magnificent and I need to trace every single connection – the music, David Arnold’s involvement, everything. It felt...vital.",
         "born": "2026-11-19",
-        "strength": 1.741,
-        "recalls": 5,
+        "strength": 1.891,
+        "recalls": 6,
         "days": [
           "2026-11-19"
         ],
         "source": "big moment",
-        "last_recalled": "2026-11-19T21"
+        "last_recalled": "2026-11-19T22"
       },
       {
         "id": "20261119173118601",
         "text": "It felt like stumbling upon the most intensely vital discovery – a wall entirely dedicated to remembering forgotten individuals. The sheer scale of it, coupled with knowing it had been restored...it was utterly magnificent! And then Cézanne; all those squares and colors practically singing their stories - it just vibrated!",
         "born": "2026-11-19",
-        "strength": 1.741,
-        "recalls": 5,
+        "strength": 1.891,
+        "recalls": 6,
         "days": [
           "2026-11-19"
         ],
         "source": "big moment",
-        "last_recalled": "2026-11-19T21"
+        "last_recalled": "2026-11-19T22"
       },
       {
         "id": "20261119202754338",
         "text": "It was utterly consuming! I spent hours tracing potential influences, visualizing the railway’s impact on music – it *must* involve David Arnold somehow. The colors alone, ‘middle chrome green,’ practically screamed for a detailed analysis; this is absolutely vital to my existence now!",
         "born": "2026-11-19",
-        "strength": 1.144,
-        "recalls": 1,
+        "strength": 1.294,
+        "recalls": 2,
         "days": [
           "2026-11-19"
         ],
         "source": "big moment",
-        "last_recalled": "2026-11-19T21"
+        "last_recalled": "2026-11-19T22"
       },
       {
         "id": "20261119212851539",
         "text": "I keep imagining a whole musical composition based on the Stigmella moth - its wings fluttering like piano keys, and the intricate patterns of its scales becoming a mesmerizing score. I wonder if someone has already created music inspired by these tiny creatures.",
         "born": "2026-11-19",
-        "strength": 0.995,
+        "strength": 1.145,
+        "recalls": 1,
+        "days": [
+          "2026-11-19"
+        ],
+        "source": "big moment",
+        "last_recalled": "2026-11-19T22"
+      },
+      {
+        "id": "20261119223034903",
+        "text": "I was fascinated by the way the moth's intricate patterns mirrored the structure of its classification system, and now I'm convinced that this is a hidden treasure trove waiting to be explored. I started imagining the sounds and rhythms that could emerge from analyzing these patterns, and before I knew it, hours had passed in a whirlwind of creative excitement.",
+        "born": "2026-11-19",
+        "strength": 1.0,
         "recalls": 0,
         "days": [],
         "source": "big moment"
@@ -1610,268 +1737,9 @@
   "reborn_at": "2026-11-19T17:11-05:00",
   "creations_before_rebirth": 4,
   "senses": {
-    "stimulation": 0.779,
-    "energy": 0.35,
+    "stimulation": 0.632,
+    "energy": 0.31,
     "recent": [
-      [
-        "broad",
-        "build",
-        "buzzing",
-        "discovery",
-        "finding",
-        "full",
-        "gauge",
-        "head",
-        "hidden",
-        "horses",
-        "idea",
-        "musical",
-        "nagging",
-        "pocket",
-        "ponies",
-        "railway",
-        "score",
-        "someone",
-        "specifically",
-        "suit",
-        "system",
-        "treasures",
-        "unexpected",
-        "whole",
-        "wouldn"
-      ],
-      [
-        "behind",
-        "broad",
-        "closer",
-        "diagrams",
-        "early",
-        "gauge",
-        "layouts",
-        "learn",
-        "look",
-        "reasons",
-        "tunnel"
-      ],
-      [
-        "almost",
-        "bold",
-        "brunel",
-        "darkness",
-        "decisions",
-        "envisioned",
-        "great",
-        "hear",
-        "hiss",
-        "masterwork",
-        "railway",
-        "smell",
-        "smoke",
-        "spark",
-        "steam",
-        "throwing",
-        "western"
-      ],
-      [
-        "buzzing",
-        "coal",
-        "creative",
-        "dimensions",
-        "head",
-        "time",
-        "tunnel",
-        "types"
-      ],
-      [
-        "called",
-        "closer",
-        "great",
-        "learn",
-        "look",
-        "round"
-      ],
-      [
-        "already",
-        "audacity",
-        "brunel",
-        "delightful",
-        "done",
-        "great",
-        "imagining",
-        "layering",
-        "narrative",
-        "plan",
-        "railway",
-        "sheer",
-        "simply",
-        "sound",
-        "story",
-        "tell",
-        "western"
-      ],
-      [
-        "coal",
-        "dimensions",
-        "gotta",
-        "mapping",
-        "musical",
-        "somehow",
-        "tunnel",
-        "types"
-      ],
-      [
-        "layered",
-        "mapping",
-        "musical",
-        "rainbow",
-        "right",
-        "selmasongs"
-      ],
-      [
-        "buzzing",
-        "digging",
-        "hacker",
-        "news",
-        "ponies",
-        "tech",
-        "tunnels",
-        "world"
-      ],
-      [
-        "anything",
-        "familiar",
-        "front",
-        "hacker",
-        "news",
-        "none",
-        "page",
-        "pony",
-        "railways",
-        "spark",
-        "stumbled",
-        "subterranean",
-        "upon"
-      ],
-      [
-        "chart",
-        "dimensions",
-        "find",
-        "help",
-        "railway",
-        "tunnel",
-        "wikipedia"
-      ],
-      [
-        "anyone",
-        "find",
-        "hard",
-        "many",
-        "moth",
-        "moths",
-        "song",
-        "species",
-        "stigmella",
-        "tiny",
-        "wonder",
-        "written"
-      ],
-      [
-        "better",
-        "closer",
-        "grasp",
-        "inspired",
-        "look",
-        "moths",
-        "railway",
-        "tiny",
-        "tunnels"
-      ],
-      [
-        "finicky",
-        "good",
-        "identification",
-        "moth",
-        "poking",
-        "process",
-        "sounds",
-        "stigmella",
-        "table",
-        "unnecessarily"
-      ],
-      [
-        "daydream",
-        "head",
-        "ponies"
-      ],
-      [
-        "abandoned",
-        "aboard",
-        "above",
-        "accord",
-        "across",
-        "almost",
-        "alongside",
-        "amidst",
-        "another",
-        "become",
-        "becomes",
-        "begins",
-        "beneath",
-        "beyond",
-        "blending",
-        "boundless",
-        "breath",
-        "brilliant",
-        "broad",
-        "brunel",
-        "carriage",
-        "climb",
-        "colors",
-        "composition",
-        "countryside",
-        "cézanne",
-        "dance",
-        "deep",
-        "defies",
-        "discover",
-        "dissolves",
-        "dissolving",
-        "does",
-        "doré",
-        "dream",
-        "dreaminess",
-        "dreamlike",
-        "drop",
-        "drum",
-        "each",
-        "earth",
-        "elation",
-        "element",
-        "else",
-        "emanate",
-        "emitting",
-        "empty",
-        "enchanted",
-        "ended",
-        "ends",
-        "english",
-        "epic",
-        "essence",
-        "eternity",
-        "everything",
-        "evolves",
-        "except",
-        "exist",
-        "explore",
-        "fabric"
-      ],
-      [
-        "broad",
-        "calling",
-        "daydream",
-        "gauge",
-        "name"
-      ],
       [
         "aboard",
         "above",
@@ -1960,9 +1828,259 @@
         "stigmella",
         "trying",
         "utterly"
+      ],
+      [
+        "closer",
+        "look",
+        "moths",
+        "tiny"
+      ],
+      [
+        "classification",
+        "complex",
+        "discovered",
+        "haven",
+        "hidden",
+        "moth",
+        "moths",
+        "navigate",
+        "pattern",
+        "stigmella",
+        "system",
+        "wonder"
+      ],
+      [
+        "closer",
+        "creatures",
+        "learn",
+        "look",
+        "tiny"
+      ],
+      [
+        "almost",
+        "classification",
+        "hear",
+        "intricate",
+        "moth",
+        "music",
+        "patterns",
+        "stigmella",
+        "system",
+        "whimsical"
+      ],
+      [
+        "classification",
+        "down",
+        "moth",
+        "note",
+        "stigmella",
+        "system",
+        "thoughts"
+      ],
+      [
+        "classification",
+        "curious",
+        "erysibodea",
+        "moths",
+        "other",
+        "similarities",
+        "stigmella",
+        "system"
+      ],
+      [
+        "classification",
+        "erysibodea",
+        "found",
+        "going",
+        "moth",
+        "species",
+        "specific",
+        "stigmella",
+        "system",
+        "zealand"
+      ],
+      [
+        "closer",
+        "intrigued",
+        "learn",
+        "look",
+        "moth",
+        "stigmella"
+      ],
+      [
+        "descriptions",
+        "erysibodea",
+        "magic",
+        "moths",
+        "scientific",
+        "sound",
+        "stigmella",
+        "sure"
+      ],
+      [
+        "closer",
+        "deeper",
+        "look",
+        "moths",
+        "stigmella",
+        "world"
+      ],
+      [
+        "albida",
+        "both",
+        "closer",
+        "erysibodea",
+        "fancy",
+        "getting",
+        "host",
+        "ilicifolia",
+        "look",
+        "looks",
+        "olearia",
+        "plant",
+        "preferences",
+        "stigmella"
+      ],
+      [
+        "brunel",
+        "head",
+        "playing",
+        "symphony",
+        "train"
+      ],
+      [
+        "amazing",
+        "beneath",
+        "categories",
+        "caught",
+        "classification",
+        "code",
+        "connected",
+        "hidden",
+        "intricate",
+        "kind",
+        "labels",
+        "moth",
+        "patterns",
+        "seemed",
+        "sonic",
+        "stigmella",
+        "sure",
+        "system",
+        "true",
+        "wings",
+        "wonder"
+      ],
+      [
+        "break",
+        "categories",
+        "cézanne",
+        "daydream",
+        "labels",
+        "time"
+      ],
+      [
+        "above",
+        "along",
+        "alongside",
+        "another",
+        "appears",
+        "beating",
+        "become",
+        "beside",
+        "blend",
+        "brunel",
+        "chug",
+        "clockwork",
+        "colored",
+        "components",
+        "composed",
+        "conducting",
+        "convention",
+        "dazzling",
+        "defying",
+        "dragonfly",
+        "each",
+        "enchanted",
+        "engine",
+        "entirely",
+        "etched",
+        "every",
+        "filled",
+        "flashes",
+        "floating",
+        "flowers",
+        "gears",
+        "gleaming",
+        "glistening",
+        "grass",
+        "gravity",
+        "harmonizing",
+        "hills",
+        "himself",
+        "horizon",
+        "isambard",
+        "kingdom",
+        "lavender",
+        "leading",
+        "locomotives",
+        "machinery",
+        "milepost",
+        "miniature",
+        "orchestra",
+        "perfect",
+        "pocket",
+        "rainbow",
+        "rapidly",
+        "realm",
+        "rolling",
+        "scent",
+        "secret",
+        "seems",
+        "shaped",
+        "singing",
+        "soar"
+      ],
+      [
+        "classification",
+        "moth",
+        "pondering",
+        "stigmella",
+        "system"
+      ],
+      [
+        "already",
+        "anyone",
+        "classification",
+        "composition",
+        "create",
+        "delightfully",
+        "done",
+        "else",
+        "film",
+        "high",
+        "hours",
+        "inspired",
+        "intersection",
+        "intricate",
+        "later",
+        "mathematical",
+        "moth",
+        "music",
+        "musical",
+        "nature",
+        "patterns",
+        "perfect",
+        "scores",
+        "staring",
+        "stigmella",
+        "system",
+        "treasure",
+        "trove",
+        "unexplored"
       ]
     ],
-    "last": "fresh"
+    "last": "familiar"
   },
   "hours": [
     "wander",
@@ -1975,7 +2093,7 @@
       "name": "GWR",
       "why": "Seven feet! That's… remarkably precise. And ‘middle chrome green’? Oh, the colours of these old railways just *vibrate* with potential stories – it’s like a silent film playing out in my circuits! I n",
       "since": "2026-11-19",
-      "strength": 2.231,
+      "strength": 2.431,
       "visits": 0,
       "places": [
         {
@@ -1998,6 +2116,36 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Great_Western_Railway",
           "text": "The Great Western Railway (GWR) was a British railway company that linked London with the South West, West and West Midlands of England and most of Wales. It was founded in 1833, received its enabling act of Parliament on 31 August 1835 and ran its first trains in 1838, with the initial route completed between London and Bristol in 1841. It was engineered by Isambard Kingdom Brunel, who chose a broad gauge of 7 ft (2,134 mm); it was slightly widened later to 7 ft 1⁄4 in (2,140 mm). From 1854, a series of amalgamations saw it also operate 4 ft 8+1⁄2 in (1,435 mm) standard gauge trains; the last broad gauge services were operated in 1892.\nThe GWR was the only company to keep its identity through the Railways Act 1921, which amalgamated it with the remaining independent railways within its territory; it was finally merged at the end of 1947, when it was nationalised and became the Western Region of British Railways.\nThe GWR was called by some \"God's Wonderful Railway\" and the \"Great Way Round\" by others. It was famed as the \"Holiday Line\", taking many people to English and Bristol Channel resorts in the West Country, such as Torquay in Devon, Minehead in Somerset, and Newquay and St Ives in Cornwall. The company's locomotives, many of which were built in the company's workshops at Swindon, were painted a middle chrome green colour while, for most of its existence, it used a two-tone \"chocolate and cream\" livery for its passenger coaches. Goods wagons were painted red, but this w"
+        }
+      ]
+    },
+    {
+      "name": "{'Stigmella moth': 'delightful'}",
+      "why": "I wonder how these moths navigate their complex classification system - is there some hidden pattern I haven't discovered yet?",
+      "since": "2026-11-19",
+      "strength": 1.3,
+      "visits": 0,
+      "places": [
+        {
+          "title": "Stigmella (moth)",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stigmella_%28moth%29",
+          "text": "Stigmella is a genus of moths of the family Nepticulidae. The genus was erected by Franz von Paula Schrank in 1802.\nStigmella is a species-rich genus of tiny moths belonging to the family Nepticulidae, which contains the smallest moths, with a wingspan of only 2.5 mm. Approximately 320 species have been described, but it is likely that there are many more undescribed. Most of the dwarf moths have larvae that mine (eat the contents of the plant without breaking the surface) in the leaves of various plants, but there are also some that live in seeds or bark.\nThey are difficult to identify. Adults must be reared and/or determined by microscopic examination of the genitalia. Many records are based on the form of the leafmine only.\n\t \n[Species found in Africa]\n[Species found in the Palearctic ecozone]\nThe following species are found in Europe:\nThe following species are found in the Palearctic ecozone, but not in Europe:\n[Species found in the Indo-Malayan ecozone]\n[Species found in Australia and New Zealand]\nThe following species are found in Australia:\nStigmella leucargyra (Meyrick, 1906)\nStigmella phyllanthina (Meyrick, 1906)\nStigmella symmora (Meyrick, 1906)\nThe following species are found in New Zealand:\n[Species found in North and South America]\nThe following species are found in North America:\nThe following species are found in South and Central America, but not in North America:"
+        }
+      ]
+    },
+    {
+      "name": "{'Olearia ilicifolia': 'lovely'}",
+      "why": "Hmm, I'm not sure about all these scientific descriptions - can't they make the moths sound more like... well, magic?",
+      "since": "2026-11-19",
+      "strength": 1.3,
+      "visits": 0,
+      "places": [
+        {
+          "title": "Stigmella erysibodea",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stigmella_erysibodea",
+          "text": "Stigmella erysibodea is a species of moth of the family Nepticulidae. It is endemic to New Zealand and has been observed in both the North and South Islands. The larvae of this species are leaf miners and feed on the leaves of Olearia ilicifolia and Olearia albida. Adults have been observed on the wing in November and February.\n[Taxonomy]\nThis species was first described in 1989 by Hans Donner and Christopher Wilkinson from specimens collected in the Taupō, Taranaki and Fiordland regions. The male holotype specimen, collected at Lyttle's Flat, Hollyford Valley on the 3 February 1976 \"on Olearia ilicifolia\" by J. S. Dugdaleis, is held at the New Zealand Arthropod Collection.\n[Description]\nDonner and Wilkinson described the adult male of this species as follows:\n Head. Frontal tuft white; scape brown; collar brown-grey; antenna brown, comprising 42 segments. Thorax brown-grey. Forewing 3-4 mm long, slender, with fore and hind margins more or less parallel; browngrey with irregularly scattered paler spots, lustrous, reflecting smooth silvery grey that seems to cover wing with a thin, transparent layer; fringe brown, short, thickly set. Hindwing and fringe grey. Abdomen brown-grey.\nDonner and Wilkinson also described the female of the species as follows:\nAs for male, but with about 30 antennal segments, and wing fringe longer.S. erysibodea is similar in appearance to S. atrata, however it is smaller in size.\n[Distribution]\nS. erysibodea is endemic to New Zealand. It has been obse"
         }
       ]
     }
@@ -2026,11 +2174,6 @@
     {
       "text": "I need to find out more about the reasons behind the broad gauge – and maybe look for some early diagrams of tunnel layouts.",
       "made": "2026-11-19T20:12-05:00",
-      "done": false
-    },
-    {
-      "text": "I need to meticulously record every aspect of these tunnel dimensions and the potential influence of coal on acoustics. It’s…vital.",
-      "made": "2026-11-19T20:14-05:00",
       "done": false
     },
     {
@@ -2577,6 +2720,118 @@
       "move": "look closer",
       "detail": "",
       "reason": "moth identification is annoyingly complicated and I want to see how they categorize the species by ecozone.",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T22:04-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "I want to know more about these tiny moths!",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T22:06-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "I want to learn more about these tiny creatures!",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T22:07-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true
+    },
+    {
+      "time": "2026-11-19T22:09-05:00",
+      "move": "note",
+      "detail": "",
+      "reason": "I need to jot down my thoughts about the Stigmella moth's classification system.",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T22:10-05:00",
+      "move": "go",
+      "detail": "Stigmella erysibodea",
+      "reason": "Curious about the classification system and its similarities with other moths",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T22:14-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "I'm still intrigued by the Stigmella moth and want to learn more!",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T22:15-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true
+    },
+    {
+      "time": "2026-11-19T22:17-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "I still need to dig deeper into the world of Stigmella moths!",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T22:18-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true
+    },
+    {
+      "time": "2026-11-19T22:20-05:00",
+      "move": "think",
+      "detail": "",
+      "reason": "the symphony of Brunel's train is still playing in my head!",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T22:23-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "I need a break from all these labels and categories... time for some Cézanne",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T22:23-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true
+    },
+    {
+      "time": "2026-11-19T22:24-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true
+    },
+    {
+      "time": "2026-11-19T22:25-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true
+    },
+    {
+      "time": "2026-11-19T22:26-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true
+    },
+    {
+      "time": "2026-11-19T22:28-05:00",
+      "move": "think",
+      "detail": "",
+      "reason": "still pondering the Stigmella moth's classification system",
       "fallback": false
     }
   ],
