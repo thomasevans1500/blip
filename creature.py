@@ -69,7 +69,7 @@ HEADERS = {"User-Agent": f"BlipCreature/0.3 ({CONTACT + '; ' if CONTACT else ''}
 HERE = Path(__file__).parent
 MEMORY_FILE = HERE / "memory.json"
 FIRST_LIVES_FILE = HERE / "past_lives.json"  # identities Blip has moved on from (fresh starts), kept as history
-FRESH_START = "2026-11-20-llama"            # change this to give Blip a new fresh start (archives the old self)
+FRESH_START = "2026-11-20-llama-2"          # change this to give Blip a new fresh start (archives the old self)
 CHARACTER_FILE = HERE / "character.md"     # who Blip is, written by a person; Blip adds to it in naps
 NOTIFY_FILE = HERE / "notify.json"         # GitHub Actions turns each note in here into an issue (= email)
 CREATIONS_DIR = HERE / "creations"
@@ -606,6 +606,14 @@ def _post(path, body):
             raise BrainError(f"{e} {getattr(getattr(e, 'response', None), 'text', '')[:200]}")
 
 
+def plain(x):
+    """A list item the brain may have written as a record ({'name': ..., 'time': ...}) -> its main text."""
+    if isinstance(x, dict):
+        texts = [str(v) for v in x.values() if isinstance(v, str) and v.strip()]
+        return unwrap(max(texts, key=len)) if texts else ""
+    return unwrap(x)
+
+
 def unwrap(text):
     """Small brains sometimes hand back JSON (or a quoted string) where plain words were wanted."""
     t = str(text or "").strip()
@@ -1071,7 +1079,7 @@ def project_action(m, r):
     action = str(r.get("action", "none")).lower().strip()
     if action == "start":
         goal = str(r.get("goal", "")).strip()[:120]
-        steps = [str(x).strip()[:200] for x in as_list(r.get("steps")) if str(x).strip()][:6]
+        steps = [plain(x)[:200] for x in as_list(r.get("steps")) if plain(x)][:6]
         if not goal or len(active_projects(m)) >= MAX_ACTIVE_PROJECTS:
             return None
         p = {"id": slug_for_project(m, goal), "goal": goal, "why": str(r.get("reason") or r.get("why", ""))[:300],
@@ -1609,7 +1617,10 @@ def today_plan(m):
 def make_day_plan(m, rest_of_day=False):
     """A loose plan for the day (Generative Agents: plans keep behaviour coherent and stop repeats).
     Also the moment he notices what he wishes he could do."""
-    yesterday = (m.get("diary") or [{}])[-1].get("entry", "")[:500]
+    last = (m.get("diary") or [{}])[-1]
+    born = m.get("reborn_at", "")
+    in_this_life = (last.get("time", "") >= born) if born else True   # older diaries had no time: not this life
+    yesterday = last.get("entry", "")[:500] if in_this_life else ""
     insights = [x["text"] for x in memory_store(m)["long"] if x.get("source") == "insight"][-3:]
     try:
         r = ask(f"""{who_am_i(m)}
@@ -1629,7 +1640,7 @@ Reply in JSON:
     except BrainError as e:
         print(f"(couldn't plan the day: {e})")
         return
-    items = [unwrap(x)[:120] for x in as_list(r.get("plan")) if len(unwrap(x)) > 3][:6]
+    items = [plain(x)[:120] for x in as_list(r.get("plan")) if len(plain(x)) > 3][:6]
     if not items:
         return
     wish = unwrap(r.get("wish", ""))[:200]
@@ -1924,7 +1935,7 @@ yourself and your world? Reply in JSON: {{"questions": ["...", "...", "..."]}}""
     except BrainError as e:
         print(f"(couldn't gather his thoughts: {e})")
         return
-    questions = [str(x).strip() for x in as_list(q.get("questions")) if len(str(x).strip()) > 5][:3]
+    questions = [plain(x) for x in as_list(q.get("questions")) if len(plain(x)) > 5][:3]
     made = []
     for question in questions:
         related = recall(m, context=question, n=8)
@@ -2547,7 +2558,7 @@ No headings.""", temperature=0.9)
 
     # One entry per day: running diary twice replaces today's entry instead of duplicating it
     m["diary"] = [d for d in m["diary"] if d.get("date") != today()]
-    m["diary"].append({"date": today(), "entry": text})
+    m["diary"].append({"date": today(), "time": now(), "entry": text})
 
     # The inner life: it rewrites its own private notes about who it is
     try:

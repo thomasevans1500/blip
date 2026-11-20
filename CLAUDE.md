@@ -292,6 +292,12 @@ Topic-aware novelty (same day): the word meter missed that loop (stimulation sta
 rewording it. `topic_repeat` = max over this move's content words of "share of the last 8 brain moves
 (detail+reason) containing it"; one_move adds max(0, topic-0.25)*1.2 to extra_staleness. Replay of the real
 loop: 0.70 -> 0.07; a varied day stays ~0.95.
+LEAK found right after: make_day_plan fed "your diary from last time" - the pre-rebirth diary (all taxonomy)
+- straight back into the new life. Now a diary only counts if it has a "time" >= reborn_at (diaries now store
+"time"). Plan items / project steps / reflection questions written as records ({'name': ...}) go through
+`plain()`. FRESH_START bumped to "2026-11-20-llama-2" to redo the clean start with the fix.
+Remaining driver of "finding hidden connections": character.md line "finding the silly thread between two
+things nobody thought to connect" (Llama takes it literally) - proposed to Thomas to replace.
 Also: quoted catchphrases in character.md become tics with small models ("oh dear" on every line) - avoid
 them; and the "old football seasons" line was removed at Thomas's request (no football obsession).
 Optional later: describe internet sources as places with atmosphere.
