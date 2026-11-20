@@ -743,7 +743,7 @@ def choose_next(nxt, links):
         if up.startswith(cmd):
             if not needs_topic:
                 return (cmd, None), trip
-            topic = nxt[len(cmd):].lstrip(" :").strip().strip("'\"“”‘’ ").strip()[:100]
+            topic = nxt[len(cmd):].lstrip(" :").strip().strip("'\"“”‘’<> ").strip()[:100]
             if topic:
                 return (cmd, topic), trip.format(topic)
     return ("RANDOM", None), "jumped somewhere random"
@@ -1353,7 +1353,13 @@ Reply in JSON:
         return
 
     move = str(r.get("move", "")).lower().strip()
-    detail = str(r.get("detail", "")).strip()
+    detail = str(r.get("detail", "")).strip().strip("<>").strip()
+    for cmd, needs_topic, _, _ in DESTINATIONS:          # he wrote the destination as the move itself
+        if move.startswith(cmd.lower()):
+            rest = move[len(cmd):].lstrip(" :").strip("<> ")
+            detail = f"{cmd}: {rest or detail}" if needs_topic else cmd
+            move = "go"
+            break
     reason = str(r.get("reason", "")).strip()
     try:
         minutes = max(1, min(5, int(float(r.get("minutes", 1)))))
@@ -1362,14 +1368,6 @@ Reply in JSON:
     same = sum(1 for x in [y for y in m.get("moves", []) if not y["fallback"]][-3:] if x["move"] == move) / 3
     feel(m, f"{move} {detail} {reason}", extra_staleness=0.2 * same)
     print(f"🕐 {move}{': ' + detail[:120] if detail and move != 'think' else ''} (because {reason})")
-
-    kept = str(r.get("kept", "")).strip().lower()
-    for i in m.get("intentions", []):
-        if kept and len(kept) > 5 and not i["done"] and (i["text"].lower() == kept or kept in i["text"].lower()):
-            i["done"] = True
-            m["log"].append({"type": "kept promise", "date": today(), "time": now(), "text": i["text"]})
-            print(f"   ✅ kept his word: {i['text']}")
-            break
 
     intend = str(r.get("intend", "")).strip()
     if 5 < len(intend) <= 160:
@@ -1386,6 +1384,16 @@ Reply in JSON:
         print(f"   🌫️ {FIZZLE[move]}")
         return
     log_move(m, move or "?", "" if move == "think" else detail, reason)
+    if move in {k for k, _ in menu} and move not in ("think", "rest"):
+        kept = str(r.get("kept", "")).strip().lower()
+        for i in m.get("intentions", []):
+            related = set(WORD_RE.findall(i["text"].lower())) & set(WORD_RE.findall(f"{detail} {reason}".lower()))
+            if (kept and len(kept) > 5 and not i["done"] and related
+                    and (i["text"].lower() == kept or kept in i["text"].lower())):
+                i["done"] = True
+                m["log"].append({"type": "kept promise", "date": today(), "time": now(), "text": i["text"]})
+                print(f"   ✅ kept his word: {i['text']}")
+                break
 
     if move == "go":
         go, via = choose_next(detail, (place or {}).get("links", []))
