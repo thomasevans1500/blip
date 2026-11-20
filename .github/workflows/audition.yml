@@ -7,7 +7,7 @@ on:
     inputs:
       models:
         description: "Brains to try (JSON list of Ollama model names)"
-        default: '["qwen2.5:7b", "llama3.1:8b", "gemma3:4b", "hermes3:8b", "mistral-nemo:12b"]'
+        default: '["gemma3:4b", "gemma3:12b", "mistral-nemo:12b", "hermes3:8b", "llama3.1:8b"]'
 
 permissions:
   contents: read
@@ -16,7 +16,7 @@ permissions:
 jobs:
   audition:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 100
     strategy:
       fail-fast: false
       matrix:
@@ -24,6 +24,8 @@ jobs:
     env:
       BLIP_MODEL: ${{ matrix.model }}
       BLIP_CONTACT: ${{ vars.BLIP_CONTACT }}
+      TZ: America/New_York
+      PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -65,9 +67,9 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: |
           {
-            echo "Each brain played Blip using its real memories (nothing was saved)."
-            echo "Same three places for everyone: the Emu War, tardigrades, and today's BBC news."
-            echo "Read them and pick the one that sounds most alive. 🙂"
+            echo "**Silliness audition.** Each free, open-source brain played Blip for a short awake session,"
+            echo "starting from the same memory and the same page (the Emu War). Nothing was saved."
+            echo "Look for: playfulness, variety of moves (not getting stuck), and whether you'd want to read it every day."
             echo
             for f in audition-*.md; do cat "$f"; echo; echo "---"; echo; done
           } > results.md

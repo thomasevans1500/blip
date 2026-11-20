@@ -430,7 +430,9 @@ def who_am_i(m, context=""):
     ops = relevant_opinions(m, context)
     held = ("Opinions you hold:\n" + "\n".join(f"- {o['about']}: {o['opinion']}" for o in ops) + "\n") if ops else ""
     last_thought = m.get("thoughts", [])[-1]["text"] if m.get("thoughts") else ""
-    thinking = f"What you were last thinking to yourself: {last_thought}\n" if last_thought else ""
+    # a thought that has gone stale (grey world) fades instead of being handed back to him to copy
+    fresh = senses(m)["stimulation"] >= 0.3 and senses(m).get("last") != "the same as before"
+    thinking = f"What you were last thinking to yourself: {last_thought}\n" if last_thought and fresh else ""
     about = f"How you describe yourself: {m['about']}\n" if m.get("about") else ""
     goals = "; ".join(p["goal"] for p in active_projects(m))
     heard = ""

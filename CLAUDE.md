@@ -130,6 +130,13 @@ JSON: move, detail, reason, minutes (rest/daydream/look closer), intend, kept.
   direction is always possible (but never suggested). Recent moves are shown briefly (no reasons, no think
   text) so he can't copy himself; intentions are <=160 chars and de-duplicated; "kept" needs > 5 chars.
   PYTHONUNBUFFERED=1 in the workflow so log timestamps are real.
+- who_am_i only shows "What you were last thinking" while stimulation >= 0.3 and the last output wasn't
+  stale - a stale thought fades instead of being handed back to be copied.
+
+## Silliness audition (2026-11-20, free models only - Thomas's rule)
+audition.py now runs a mini awake session per brain: same memory copy, same start page (Emu War),
+AUDITION_MOVES (12) real moves, then a daydream + a make. Reports variety, fizzles, brightness, s/move.
+Default candidates: gemma3:4b, gemma3:12b, mistral-nemo:12b, hermes3:8b, llama3.1:8b (all free via Ollama).
 
 ## Each hour is Blip's choice (SUPERSEDED by awake sessions; kept for reference)
 `wander` = one hour of life: `think` -> `plan` asks "how do you want to spend this hour?":
