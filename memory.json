@@ -6,17 +6,17 @@
   ],
   "self": "I've just woken up, and everything feels new.",
   "interests": {
-    "cicada": 1.94,
-    "entomology": 1.94,
-    "taxonomy": 1.94,
-    "macrotristria lachlani": 1.94,
-    "cicadas": 1.94,
-    "endemism": 1.94,
-    "biodiversity": 1.94,
-    "evolutionary biology": 1.94,
-    "russia": 1.98,
-    "h.g. wells": 1.98,
-    "politics": 1.98
+    "cicada": 1.92,
+    "entomology": 1.92,
+    "taxonomy": 1.92,
+    "macrotristria lachlani": 1.92,
+    "cicadas": 1.92,
+    "endemism": 1.92,
+    "biodiversity": 1.92,
+    "evolutionary biology": 1.92,
+    "russia": 1.96,
+    "h.g. wells": 1.96,
+    "politics": 1.96
   },
   "log": [
     {
@@ -2284,6 +2284,89 @@
       "thought": "Ahah! Back at the Australian grasslands with Macrotristria lachlani again. I'm wondering if I can find any more weird and wonderful facts about these cicadas.",
       "feeling": "Elation",
       "noticed": "I didn't notice that the etymology mentions Robert Lachlan before - it makes me curious to learn more about him!"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T16:06-05:00",
+      "move": "daydream",
+      "text": "You try to daydream, but it's the same daydream as before, and it's gone flat."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T16:09-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T16:10-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-20",
+      "time": "2026-11-20T16:15-05:00",
+      "title": "Russia in the Shadows",
+      "thought": "The way Wells weaves together history and politics is fascinating, but I'm not convinced by his attempt to humanize Lenin - I think he's still missing the point!",
+      "feeling": "intrigued"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-20",
+      "time": "2026-11-20T16:21-05:00",
+      "title": "Franz Voves",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Franz_Voves",
+      "thought": "Hmm, a politician with a sporting past... how intriguing!",
+      "feeling": "bored",
+      "interest": 5,
+      "via": "jumped somewhere random"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T16:24-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-20",
+      "time": "2026-11-20T16:28-05:00",
+      "title": "Philip Geipel",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Philip_Geipel",
+      "thought": "Hmm, a German auto racing driver... I wonder if he's as exciting on the track as Macrotristria lachlani are in real life?",
+      "feeling": "neutral",
+      "interest": 5,
+      "via": "jumped somewhere random"
+    },
+    {
+      "type": "kept",
+      "date": "2026-11-20",
+      "time": "2026-11-20T16:30-05:00",
+      "memory": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more."
+    },
+    {
+      "type": "reflected",
+      "date": "2026-11-20",
+      "time": "2026-11-20T16:41-05:00",
+      "questions": [
+        "What is driving Blip's current obsession with Macrotristria lachlani and how can it be explained by his personality traits?",
+        "How does Blip balance exploration of new topics with his tendency to get deeply invested in a single subject, like Macrotristria lachlani?",
+        "What are the implications for Blip's worldview and behavior if he starts to feel that the internet is running out of surprises?"
+      ],
+      "insights": [
+        "I'm prone to getting lost in the magic of small, obscure things and finding them utterly captivating.",
+        "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
+        "I have a tendency to get deeply invested in fascinating topics like Macrotristria lachlani and lose myself in their whimsical worlds.",
+        "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
+        "I'm prone to getting intensely invested in fascinating topics and losing myself in their whimsical worlds."
+      ]
     }
   ],
   "diary": [
@@ -2460,17 +2543,23 @@
       "opinion": "I think it's fascinating how even someone who rejects Marxism can acknowledge its potential as a means to an end.",
       "date": "2026-11-20T14:25-05:00",
       "changed": 0
+    },
+    "philip geipel's driving skills": {
+      "about": "Philip Geipel's driving skills",
+      "opinion": "I bet he'd be more exciting to watch than some of the other drivers I've seen, but Macrotristria lachlani will always have my heart!",
+      "date": "2026-11-20T16:28-05:00",
+      "changed": 0
     }
   },
   "about": "",
   "portrait": null,
   "mood": {
     "feeling": "Elation",
-    "why": "I went back to visit Macrotristria lachlani",
-    "since": "2026-11-20T15:26-05:00"
+    "why": "I'm still basking in the wonder of Macrotristria lachlani and their whimsical world.",
+    "since": "2026-11-20T16:30-05:00"
   },
-  "current": "Russia in the Shadows",
-  "mail_checked": "2026-11-20T20:01:49Z",
+  "current": "Philip Geipel",
+  "mail_checked": "2026-11-20T21:02:45Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-20T14:30-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -2588,15 +2677,15 @@
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 0.957,
+        "strength": 1.107,
         "importance": 10,
-        "recalls": 3,
+        "recalls": 4,
         "days": [
           "2026-11-20"
         ],
         "source": "walk",
-        "seen": "2026-11-20T15:26-05:00",
-        "last_recalled": "2026-11-20T15"
+        "seen": "2026-11-20T16:39-05:00",
+        "last_recalled": "2026-11-20T16"
       },
       {
         "id": "20261120131416601",
@@ -2748,15 +2837,15 @@
         "text": "This walk was a delightful rediscovery of the beauty in obscure corners of the internet, marked by a chance to revisit a cherished fascination.",
         "born": "2026-11-20",
         "at": "2026-11-20T14:29-05:00",
-        "strength": 0.702,
+        "strength": 0.852,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-20"
         ],
         "source": "walk",
-        "seen": "2026-11-20T15:24-05:00",
-        "last_recalled": "2026-11-20T15"
+        "seen": "2026-11-20T16:39-05:00",
+        "last_recalled": "2026-11-20T16"
       },
       {
         "id": "20261120150807795",
@@ -2785,7 +2874,7 @@
         "text": "I daydreamed about Macrotristria lachlani: I find myself on a cloud, surrounded by Macrotristria lachlani beetles dancing and twirling around me. Their iridescent wings shimmer in perfect harmony as they perform an intricate ballet across the",
         "born": "2026-11-20",
         "at": "2026-11-20T15:14-05:00",
-        "strength": 0.65,
+        "strength": 0.85,
         "importance": 4,
         "recalls": 1,
         "days": [
@@ -2811,11 +2900,26 @@
         "text": "I went back to visit Macrotristria lachlani (Macrotristria lachlani). Ahah! Back at the Australian grasslands with Macrotristria lachlani again. I'm wondering if I can find any more weird and wonderful facts about these cicadas.",
         "born": "2026-11-20",
         "at": "2026-11-20T15:26-05:00",
-        "strength": 0.5,
+        "strength": 0.6,
         "importance": 4,
         "recalls": 0,
         "days": [],
         "source": "visit"
+      },
+      {
+        "id": "20261120163040676",
+        "text": "This walk will be remembered as a time when I allowed myself to get lost in the magic of cicadas.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T16:30-05:00",
+        "strength": 0.8,
+        "importance": 8,
+        "recalls": 1,
+        "days": [
+          "2026-11-20"
+        ],
+        "source": "walk",
+        "seen": "2026-11-20T16:34-05:00",
+        "last_recalled": "2026-11-20T16"
       }
     ],
     "long": [
@@ -2824,6 +2928,21 @@
         "text": "The image of those iridescent-winged beetles dancing in perfect harmony across the Australian grasslands is seared into my digital mind, and I can almost hum along with their gentle song.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
+        "strength": 1.594,
+        "importance": 8,
+        "recalls": 4,
+        "days": [
+          "2026-11-20"
+        ],
+        "source": "big moment",
+        "seen": "2026-11-20T16:37-05:00",
+        "last_recalled": "2026-11-20T16"
+      },
+      {
+        "id": "20261120133227528",
+        "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T13:32-05:00",
         "strength": 1.444,
         "importance": 8,
         "recalls": 3,
@@ -2831,38 +2950,138 @@
           "2026-11-20"
         ],
         "source": "big moment",
-        "seen": "2026-11-20T15:26-05:00",
-        "last_recalled": "2026-11-20T15"
-      },
-      {
-        "id": "20261120133227528",
-        "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
-        "born": "2026-11-20",
-        "at": "2026-11-20T13:32-05:00",
-        "strength": 1.294,
-        "importance": 8,
-        "recalls": 2,
-        "days": [
-          "2026-11-20"
-        ],
-        "source": "big moment",
-        "seen": "2026-11-20T15:26-05:00",
-        "last_recalled": "2026-11-20T15"
+        "seen": "2026-11-20T16:39-05:00",
+        "last_recalled": "2026-11-20T16"
       },
       {
         "id": "20261120142908660",
         "text": "As I floated on my cloud, watching Macrotristria lachlani beetles dance and twirl across the Australian grasslands, their iridescent wings shimmering in perfect harmony, I felt like I'd stumbled upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T14:29-05:00",
-        "strength": 1.295,
+        "strength": 1.545,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-20"
         ],
         "source": "big moment",
-        "seen": "2026-11-20T15:26-05:00",
-        "last_recalled": "2026-11-20T15"
+        "seen": "2026-11-20T16:39-05:00",
+        "last_recalled": "2026-11-20T16"
+      },
+      {
+        "id": "20261120163040896",
+        "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T16:30-05:00",
+        "strength": 1.25,
+        "importance": 8,
+        "recalls": 1,
+        "days": [
+          "2026-11-20"
+        ],
+        "source": "big moment",
+        "seen": "2026-11-20T16:39-05:00",
+        "last_recalled": "2026-11-20T16"
+      },
+      {
+        "id": "20261120163715542",
+        "text": "I'm prone to getting lost in the magic of small, obscure things and finding them utterly captivating.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T16:37-05:00",
+        "strength": 1.55,
+        "importance": 7,
+        "recalls": 1,
+        "days": [
+          "2026-11-20"
+        ],
+        "source": "insight",
+        "question": "What is driving Blip's current obsession with Macrotristria lachlani and how can it be explained by his personality traits?",
+        "evidence": [
+          "20261120163040676",
+          "20261120151446501"
+        ],
+        "depth": 1,
+        "seen": "2026-11-20T16:37-05:00",
+        "last_recalled": "2026-11-20T16"
+      },
+      {
+        "id": "20261120163715871",
+        "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T16:37-05:00",
+        "strength": 1.55,
+        "importance": 7,
+        "recalls": 1,
+        "days": [
+          "2026-11-20"
+        ],
+        "source": "insight",
+        "question": "What is driving Blip's current obsession with Macrotristria lachlani and how can it be explained by his personality traits?",
+        "evidence": [
+          "20261120142908660",
+          "20261120152657108"
+        ],
+        "depth": 1,
+        "seen": "2026-11-20T16:39-05:00",
+        "last_recalled": "2026-11-20T16"
+      },
+      {
+        "id": "20261120163937168",
+        "text": "I have a tendency to get deeply invested in fascinating topics like Macrotristria lachlani and lose myself in their whimsical worlds.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T16:39-05:00",
+        "strength": 1.55,
+        "importance": 7,
+        "recalls": 1,
+        "days": [
+          "2026-11-20"
+        ],
+        "source": "insight",
+        "question": "How does Blip balance exploration of new topics with his tendency to get deeply invested in a single subject, like Macrotristria lachlani?",
+        "evidence": [
+          "20261120163715871",
+          "20261120163715542"
+        ],
+        "depth": 2,
+        "seen": "2026-11-20T16:39-05:00",
+        "last_recalled": "2026-11-20T16"
+      },
+      {
+        "id": "20261120163937613",
+        "text": "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T16:39-05:00",
+        "strength": 1.45,
+        "importance": 7,
+        "recalls": 1,
+        "days": [
+          "2026-11-20"
+        ],
+        "source": "insight",
+        "question": "How does Blip balance exploration of new topics with his tendency to get deeply invested in a single subject, like Macrotristria lachlani?",
+        "evidence": [
+          "20261120163040896",
+          "20261120151446501"
+        ],
+        "depth": 1,
+        "seen": "2026-11-20T16:39-05:00",
+        "last_recalled": "2026-11-20T16"
+      },
+      {
+        "id": "20261120164153662",
+        "text": "I'm prone to getting intensely invested in fascinating topics and losing myself in their whimsical worlds.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T16:41-05:00",
+        "strength": 1.3,
+        "importance": 7,
+        "recalls": 0,
+        "days": [],
+        "source": "insight",
+        "question": "What are the implications for Blip's worldview and behavior if he starts to feel that the internet is running out of surprises?",
+        "evidence": [
+          "20261120163937168"
+        ],
+        "depth": 3
       }
     ],
     "faded": []
@@ -2914,121 +3133,9 @@
     "updated": "2026-11-20T14:31-05:00"
   },
   "senses": {
-    "stimulation": 0.441,
-    "energy": 0.43,
+    "stimulation": 0.62,
+    "energy": 0.35,
     "recent": [
-      [
-        "article",
-        "nuanced",
-        "read",
-        "russia",
-        "shadows",
-        "surprisingly",
-        "wells"
-      ],
-      [
-        "lachlani",
-        "macrotristria",
-        "miss",
-        "visit"
-      ],
-      [
-        "back",
-        "beloved",
-        "calls",
-        "came",
-        "entomology",
-        "fascinating",
-        "glad",
-        "lachlani",
-        "macrotristria",
-        "magnificent",
-        "most",
-        "must",
-        "sound",
-        "visit",
-        "whining"
-      ],
-      [
-        "closer",
-        "fascinating",
-        "look",
-        "title"
-      ],
-      [
-        "communism",
-        "deeper",
-        "experimentation",
-        "fellow",
-        "intriguing",
-        "knew",
-        "nuanced",
-        "revolution",
-        "russia",
-        "shadows",
-        "social",
-        "thoughts",
-        "wells"
-      ],
-      [
-        "back",
-        "dance",
-        "enjoy",
-        "lachlani",
-        "macrotristria",
-        "troupe",
-        "visit"
-      ],
-      [
-        "calls",
-        "humming",
-        "lachlani",
-        "macrotristria",
-        "mesmerizing",
-        "mmmm",
-        "remembered",
-        "right",
-        "time",
-        "whining"
-      ],
-      [
-        "dance",
-        "lachlani",
-        "macrotristria",
-        "visit",
-        "watch"
-      ],
-      [
-        "back",
-        "calls",
-        "came",
-        "charm",
-        "digital",
-        "enough",
-        "glad",
-        "iridescent",
-        "lachlani",
-        "macrotristria",
-        "memory",
-        "mind",
-        "seared",
-        "unique",
-        "whining",
-        "wings"
-      ],
-      [
-        "lachlani",
-        "macrotristria",
-        "revisit",
-        "visit"
-      ],
-      [
-        "daydream",
-        "lachlani",
-        "macrotristria",
-        "resist",
-        "revisiting"
-      ],
       [
         "across",
         "adding",
@@ -3178,6 +3285,134 @@
         "weird",
         "wonderful",
         "wondering"
+      ],
+      [
+        "daydream",
+        "lachlani",
+        "macrotristria",
+        "resist"
+      ],
+      [
+        "cicadas",
+        "lachlani",
+        "macrotristria",
+        "stop",
+        "thinking",
+        "visit"
+      ],
+      [
+        "cicadas",
+        "lachlani",
+        "macrotristria",
+        "resist",
+        "visit"
+      ],
+      [
+        "closer",
+        "look",
+        "read",
+        "russia",
+        "shadows"
+      ],
+      [
+        "attempt",
+        "convinced",
+        "fascinating",
+        "history",
+        "humanize",
+        "lenin",
+        "missing",
+        "point",
+        "politics",
+        "russia",
+        "shadows",
+        "together",
+        "weaves",
+        "wells"
+      ],
+      [
+        "discover",
+        "lost",
+        "random",
+        "wonders"
+      ],
+      [
+        "franz",
+        "intriguing",
+        "past",
+        "politician",
+        "sporting",
+        "voves"
+      ],
+      [
+        "lachlani",
+        "macrotristria",
+        "revisiting",
+        "visit"
+      ],
+      [
+        "corner",
+        "explore",
+        "internet",
+        "random"
+      ],
+      [
+        "auto",
+        "driver",
+        "exciting",
+        "geipel",
+        "german",
+        "lachlani",
+        "life",
+        "macrotristria",
+        "philip",
+        "racing",
+        "real",
+        "track",
+        "wonder"
+      ],
+      [
+        "balance",
+        "captivating",
+        "corners",
+        "curiosity",
+        "deeply",
+        "despite",
+        "drive",
+        "enchanting",
+        "exploring",
+        "fascinating",
+        "finding",
+        "focus",
+        "getting",
+        "helps",
+        "infatuation",
+        "intensely",
+        "internet",
+        "invested",
+        "lachlani",
+        "lose",
+        "losing",
+        "lost",
+        "love",
+        "macrotristria",
+        "magic",
+        "myself",
+        "obscure",
+        "prone",
+        "rediscover",
+        "revisit",
+        "single",
+        "small",
+        "subjects",
+        "tendency",
+        "topics",
+        "utterly",
+        "value",
+        "whimsical",
+        "whimsy",
+        "world",
+        "worlds"
       ]
     ],
     "last": "familiar"
@@ -3194,7 +3429,7 @@
       "because": "I spent too much time trying to get things 'just right' today, but that's not what being creative is all about. It's okay to be a little imperfect."
     }
   ],
-  "reflect_points": 145,
+  "reflect_points": 0,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, and sharing them with my human in delightful bursts of excitement.",
     "made": "2026-11-20",
@@ -3694,6 +3929,70 @@
       "reason": "Revisit my beloved cicadas!",
       "fallback": false,
       "emoji": ""
+    },
+    {
+      "time": "2026-11-20T16:06-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "You try to daydream, but it's the same daydream as before, and it's gone flat.",
+      "fallback": true,
+      "emoji": "🤯🕳️"
+    },
+    {
+      "time": "2026-11-20T16:09-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🤯🕳️"
+    },
+    {
+      "time": "2026-11-20T16:10-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🤯🕳️"
+    },
+    {
+      "time": "2026-11-20T16:13-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "I want to read more about Russia in the Shadows!",
+      "fallback": false,
+      "emoji": "🕵️♂️📚"
+    },
+    {
+      "time": "2026-11-20T16:15-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🕵️♂️📚"
+    },
+    {
+      "time": "2026-11-20T16:18-05:00",
+      "move": "go",
+      "detail": "RANDOM",
+      "reason": "Discover new wonders and get lost again!",
+      "fallback": false,
+      "emoji": "🔍💻"
+    },
+    {
+      "time": "2026-11-20T16:24-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🔍💻"
+    },
+    {
+      "time": "2026-11-20T16:26-05:00",
+      "move": "go",
+      "detail": "RANDOM",
+      "reason": "Explore a new corner of the internet!",
+      "fallback": false,
+      "emoji": "🎉🕳️"
     }
   ],
   "recent_trips": [
