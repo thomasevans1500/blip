@@ -41,6 +41,8 @@ PORTRAIT_EVERY_DAYS = 7                                  # how often it's offere
 SHORT_ROOM, LONG_ROOM, FADED_ROOM = 40, 40, 200          # how much fits in each part of its memory
 SESSION_MINUTES = float(os.environ.get("BLIP_SESSION_MIN", "25"))  # how long each awake session lasts
 MOVE_SECONDS = 45                                        # roughly one move per this many seconds
+MAX_REQUESTS_PER_DAY, MAX_OPEN_REQUESTS = 2, 5          # asking his human for things
+MAX_TOYS_PER_DAY = 2                                     # little interactive things he builds himself
 MAX_LOOKS_PER_PAGE = 2                                   # a page ends: after this he's read all he will of it
 MAX_INTENTIONS = 8                                       # things he's said he'll do later
 MAX_DARLINGS = 8                                         # things he can be fond of at once
@@ -67,6 +69,7 @@ FRESH_START = "2026-11-19-playful"          # change this to give Blip a new fre
 CHARACTER_FILE = HERE / "character.md"     # who Blip is, written by a person; Blip adds to it in naps
 NOTIFY_FILE = HERE / "notify.json"         # GitHub Actions turns each note in here into an issue (= email)
 CREATIONS_DIR = HERE / "creations"
+TOYS_DIR = HERE / "creations" / "toys"
 
 # Stop emoji from crashing older Windows terminals
 try:
@@ -803,7 +806,9 @@ def form_opinion(m, op):
 ABILITIES = """Things you can do: read Wikipedia, look up words, ask DuckDuckGo, find books, browse NASA's
 pictures, read the BBC news and Hacker News, see what happened on this day in history; write things and
 draw simple pictures; keep memories, opinions and notes; run your own website with spaces and project
-pages; write a letter to your human (they get it by email, and their replies reach you next hour).
+pages; write a letter to your human (they get it by email, and their replies reach you next hour);
+build small interactive toys yourself (games, simulators, gadgets) that run in a little box on your website;
+ask your human for things you'd like them to do, make or give you (your requests show on your website).
 Things you can't do (yet): see photos or videos, hear sounds or music, move or touch anything in the
 physical world, buy anything or handle money, talk to anyone except your human."""
 
@@ -1074,6 +1079,7 @@ def check_mail(m):
     save(m)
     for msg in sorted(found, key=lambda x: x["at"])[:MAX_MAIL_PER_HOUR]:
         answer_mail(m, msg)
+    check_requests(m)
 
 
 def answer_mail(m, msg):
@@ -1127,6 +1133,154 @@ Reply in JSON:
             _github("POST", f"/issues/{msg['issue']}/comments", json={"body": reply})
         except requests.RequestException as e:
             print(f"(wrote a reply but couldn't send it: {e})")
+
+
+# ---------- Requests: things he asks his human to do, make or give him ----------
+
+def ask_human(m, request, why=""):
+    reqs = m.setdefault("requests", [])
+    today_count = sum(1 for r in reqs if r["made"][:10] == today())
+    if today_count >= MAX_REQUESTS_PER_DAY or sum(1 for r in reqs if r["status"] == "open") >= MAX_OPEN_REQUESTS:
+        print("(wanted to ask for something, but he's asked for plenty already)")
+        return
+    rid = f"{datetime.datetime.now():%Y%m%d%H%M%S}"
+    req = {"id": rid, "text": request[:600], "why": str(why)[:300], "made": now(), "status": "open",
+           "issue": None, "answer": ""}
+    reqs.append(req)
+    m["requests"] = reqs[-50:]
+    short = request.strip().split("\n")[0][:70]
+    notify(f"🙏 {NAME} asks: {short}",
+           f"{request}\n\n*Why:* {why}\n\nReply here to answer {NAME}. When it's done (or you've said no), "
+           f"close this issue and he'll find out.\n\n<!-- blip-request:{rid} -->")
+    m["log"].append({"type": "asked", "date": today(), "time": now(), "text": request[:300]})
+    remember(m, f"I asked my human: {request[:200]}", 0.6, source="request")
+    print(f"🙏 Asked his human: {request}")
+
+
+def check_requests(m):
+    """Find his requests' issues, and notice when his human has closed one (done, or a no)."""
+    owner = (os.environ.get("GITHUB_REPOSITORY_OWNER") or "").lower()
+    pending = [r for r in m.get("requests", []) if r["status"] == "open"]
+    if not pending or not os.environ.get("GH_TOKEN"):
+        return
+    try:
+        if any(r["issue"] is None for r in pending):
+            for i in _github("GET", "/issues", params={"state": "all", "per_page": 40, "sort": "created"}) or []:
+                for r in pending:
+                    if r["issue"] is None and f"blip-request:{r['id']}" in (i.get("body") or ""):
+                        r["issue"] = i["number"]
+        for r in pending:
+            if not r["issue"]:
+                continue
+            issue = _github("GET", f"/issues/{r['issue']}") or {}
+            if issue.get("state") != "closed":
+                continue
+            comments = _github("GET", f"/issues/{r['issue']}/comments", params={"per_page": 50}) or []
+            said = [c["body"] for c in comments if c["user"]["login"].lower() == owner]
+            request_closed(m, r, said[-1] if said else "")
+    except (requests.RequestException, KeyError, ValueError) as e:
+        print(f"(couldn't check on his requests: {e})")
+
+
+def request_closed(m, r, last_words):
+    r["status"] = "closed"
+    r["closed"] = now()
+    r["answer"] = last_words[:600]
+    try:
+        out = ask(f"""{who_am_i(m, context=r['text'])}
+
+A while ago you asked your human: "{r['text']}"
+They've now closed your request.{f' The last thing they said about it: "{last_words[:600]}"' if last_words else ' They did not say anything about it.'}
+(Closing means they've either done it, or decided not to. Their words are your only clue.)
+
+Reply in JSON:
+"thought": how you take it, in your own voice (one or two sentences)
+"feeling": one word""", as_json=True, temperature=0.9)
+        thought, feeling = str(out.get("thought", "")), str(out.get("feeling", ""))[:40]
+    except BrainError:
+        thought, feeling = "", ""
+    r["reaction"] = thought[:400]
+    if feeling:
+        m["mood"] = {"feeling": feeling, "why": f"my human closed my request: {r['text'][:80]}", "since": now()}
+    remember(m, f"My human closed my request ('{r['text'][:120]}'). {thought}", 0.8, source="request")
+    m["log"].append({"type": "request closed", "date": today(), "time": now(), "text": r["text"][:200],
+                     "answer": last_words[:300], "thought": thought[:300]})
+    save(m)
+    print(f"📭 His request was closed: {r['text'][:80]} → {thought}")
+
+
+# ---------- Building toys: little interactive things that run in a locked box on his website ----------
+
+TOY_BLOCKED = re.compile(r"<\s*(iframe|object|embed|form|base|meta|link)\b[^>]*>", re.I)
+
+
+def clean_toy(html):
+    """Keep his toy to one self-contained page: no outside files, no network, no navigation.
+    (The website ALSO runs it in a sandbox with no network access, so this is a second lock, not the only one.)"""
+    found = re.search(r"```(?:html)?\s*(.*?)```", html, flags=re.S | re.I)
+    code = (found.group(1) if found else html).strip()
+    start = re.search(r"<(!doctype|html|head|body|canvas|div|script|style)\b", code, flags=re.I)
+    if not start:
+        return None
+    code = code[start.start():]
+    code = TOY_BLOCKED.sub("", code)
+    code = re.sub(r"<\s*script[^>]*\bsrc\s*=[^>]*>\s*</\s*script\s*>", "", code, flags=re.I)
+    code = re.sub(r"https?://[^\s\"'<>)]+", "#", code)
+    if "<script" not in code.lower() and "<canvas" not in code.lower() and "<button" not in code.lower():
+        return None                                  # not interactive: that's a drawing or text, not a toy
+    return code[:24000]
+
+
+def build_toy(m, idea, why=""):
+    made_today = sum(1 for t in m.get("toys", []) if t["date"] == today())
+    if made_today >= MAX_TOYS_PER_DAY:
+        print("(wanted to build something, but he's built plenty today)")
+        return
+    print(f"🛠️  Building: {idea} ...")
+    try:
+        out = ask(f"""{who_am_i(m, context=idea)}
+
+You've decided to build: {idea}
+It will run in a little box on your website (about 400 by 300 pixels) and people can click and play with it.
+
+Write it as ONE small, complete HTML page with its own CSS and JavaScript inside it.
+- No outside files, images, libraries or internet: everything must be in this one page.
+- Keep it small and playful: under 150 lines is plenty. Clumsy is fine; it's yours.
+- Use a <canvas> or buttons so it's interactive.
+
+First line: TITLE: a name for it
+Second line: WHAT: one sentence describing it
+Then the code inside ```html ... ```""", temperature=0.8)
+    except BrainError as e:
+        print(f"(his tools slipped: {e})")
+        return
+    title = re.search(r"TITLE:\s*(.+)", out)
+    what = re.search(r"WHAT:\s*(.+)", out)
+    title = (title.group(1).strip() if title else idea)[:80].strip("*#\"' ")
+    what = (what.group(1).strip() if what else "")[:300]
+    code = clean_toy(out)
+    if not code:
+        m["log"].append({"type": "failed build", "date": today(), "time": now(), "title": title})
+        remember(m, f"I tried to build {title}, but it fell apart before it worked.", 0.4, source="build")
+        print(f"🔧 Tried to build '{title}', but it fell apart.")
+        save(m)
+        return
+    TOYS_DIR.mkdir(parents=True, exist_ok=True)
+    name = f"{datetime.datetime.now():%Y-%m-%d-%H%M}-{slugify(title)}.html"
+    (TOYS_DIR / name).write_text(code, encoding="utf-8")
+    toy = {"date": today(), "title": title, "what": what, "why": str(why)[:300], "idea": idea[:200],
+           "file": f"creations/toys/{name}"}
+    m.setdefault("toys", []).append(toy)
+    feel(m, f"build {title} {what}")
+    tire(m, 0.15)
+    m["log"].append({"type": "built", "date": today(), "time": now(), "title": title, "what": what})
+    remember(m, f"I built a little toy: {title}. {what}", 0.7, source="build")
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    site = f"https://{repo.split('/')[0]}.github.io/{repo.split('/')[1]}/" if "/" in repo else ""
+    notify(f"🛠️ {NAME} built something: {title}",
+           f"{what}\n\n*Why:* {why}\n\nPlay with it on his website (🛠️ Things I built): {site}")
+    save(m)
+    print(f"🛠️  Built '{title}': {what} ({len(code)} characters)")
 
 
 def write_to_human(m, letter, p=None):
@@ -1233,6 +1387,8 @@ def moves_menu(m, has_place):
         items += [("daydream", "daydream about something you're fond of (detail: which)"),
                   ("visit", "go back to something you're fond of, just to enjoy it (detail: which)")]
     items += [("make", "make something"),
+              ("build", "build a small interactive toy, like a game, simulator or gadget (detail: what it is)"),
+              ("ask", "ask your human for something you'd like them to do, make or give you (detail: your request)"),
               ("write", "write a letter to your human (detail: the letter)"),
               ("project", "start, work on, finish or give up a project"),
               ("rest", "sit still for a bit and recharge")]
@@ -1478,6 +1634,10 @@ Reply in JSON:
         tire(m, -0.1)
         m["log"].append({"type": "rested", "date": today(), "time": now()})
         st.update(activity="resting", left=minutes - 1)
+    elif move == "ask" and len(detail) > 8:
+        ask_human(m, detail, reason)
+    elif move == "build" and len(detail) > 3:
+        build_toy(m, detail, reason)
 
 
 def wander(m):
@@ -2005,6 +2165,14 @@ def diary(m):
             lines.append(f"- Chatted with my human. They said: {e['you']} / I said: {e['me']}")
         elif e["type"] == "pondered":
             lines.append(f"- Stayed in and thought about {e['topic']}. Conclusion: {e['conclusion']}")
+        elif e["type"] == "asked":
+            lines.append(f"- Asked my human: {e['text']}")
+        elif e["type"] == "request closed":
+            lines.append(f"- My human closed my request ('{e['text']}'). They said: {e['answer'] or 'nothing'}")
+        elif e["type"] == "built":
+            lines.append(f"- Built a toy: {e['title']} ({e['what']})")
+        elif e["type"] == "failed build":
+            lines.append(f"- Tried to build {e['title']}, but it fell apart")
         elif e["type"] == "fizzled":
             lines.append(f"- Tried to {e['move']} again, but: {e['text']}")
         elif e["type"] == "said":

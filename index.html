@@ -64,6 +64,9 @@
   .moves li.fb { opacity: .5; font-size: 14px; padding: 4px 0; }
   .moves .tag { display: inline-block; font-size: 12px; font-weight: 700; color: var(--accent);
                 border: 1.5px solid var(--accent); border-radius: 999px; padding: 0 8px; margin-right: 6px; }
+  .toy iframe { width: 100%; height: 300px; border: 1px solid var(--line); border-radius: 10px; background: #fff; }
+  .req { border-left: 5px solid var(--accent); }
+  .req.closed { opacity: .75; border-left-color: var(--line); }
   .mood strong { font-size: 22px; color: var(--accent); text-transform: lowercase; }
   .memory { position: relative; padding-top: 22px; }
   .memory::before { content: "📌"; position: absolute; top: -10px; left: 14px; font-size: 20px; }
@@ -112,6 +115,13 @@
     he was doing because nothing new had happened.</p>
     <div id="promises"></div>
     <ul class="card trail" id="moves"></ul></section>
+  <section id="requests-section"><h2>🙏 Things I'm asking for</h2>
+    <p class="muted">Things Blip has asked his human to do, make or give him.</p>
+    <div id="requests"></div></section>
+  <section id="toys-section"><h2>🛠️ Things I built</h2>
+    <p class="muted">Little toys Blip built himself. Each one runs in a locked box: no internet, no access to
+    anything outside its own window. They're clumsy on purpose; some of them won't work at all.</p>
+    <div class="grid" id="toys"></div></section>
   <section id="fond-section"><h2>💕 Things I'm fond of</h2><div class="grid" id="fond"></div></section>
   <section id="projects-section"><h2>🎯 What I'm working on</h2><div id="projects"></div><div id="projects-done"></div></section>
   <section id="mood-section"><h2>💭 How I'm feeling</h2><div class="card mood" id="mood"></div></section>
@@ -258,6 +268,33 @@ function render(m) {
       el("strong", {}, "📝 Things I said I'd do"), el("ul", { class: "memlist" }, open.map(i => el("li", {}, i.text)))));
   } else hide("moves-section");
 
+  const reqs = [...(m.requests || [])].reverse();
+  if (reqs.length) $("requests").replaceChildren(...reqs.slice(0, 12).map(r => el("div", { class: "card req" + (r.status === "open" ? "" : " closed"), style: "margin-bottom:10px" },
+    el("div", {}, (r.status === "open" ? "🙏 " : "📭 ") + r.text),
+    r.why ? el("div", { class: "muted" }, "why: " + r.why) : null,
+    el("div", { class: "muted" }, r.status === "open" ? `asked ${ago(r.made)} · waiting for an answer`
+      : `asked ${ago(r.made)} · closed ${ago(r.closed)}`),
+    r.answer ? el("p", { style: "margin:6px 0 0" }, "My human said: “" + r.answer + "”") : null,
+    r.reaction ? el("p", { style: "margin:4px 0 0" }, el("em", {}, r.reaction)) : null)));
+  else hide("requests-section");
+
+  const toys = [...(m.toys || [])].reverse();
+  if (toys.length) $("toys").replaceChildren(...toys.slice(0, 8).map((t, i) => {
+    const box = el("iframe", { sandbox: "allow-scripts", title: t.title, loading: "lazy" });
+    const status = el("div", { class: "muted" });
+    box.dataset.toy = String(i);
+    fetch(t.file).then(r => r.ok ? r.text() : "").then(code => {
+      if (!code) { status.textContent = "(this toy has gone missing)"; return; }
+      // Locked box: no network (CSP), opaque origin (sandbox without allow-same-origin), errors reported up.
+      box.srcdoc = `<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:">`
+        + `<script>window.onerror=function(){parent.postMessage({blipToy:${i},broken:true},"*")}<\/script>` + code;
+    });
+    toyStatus[i] = status;
+    return el("div", { class: "card toy" }, el("h3", { style: "margin:0 0 4px" }, t.title),
+      el("div", { class: "muted" }, `${niceDate(t.date)}${t.what ? " · " + t.what : ""}`), box, status);
+  }));
+  else hide("toys-section");
+
   const fond = [...(m.darlings || [])].sort((a, b) => b.strength - a.strength);
   if (fond.length) $("fond").replaceChildren(...fond.map(d => el("div", { class: "card" },
     el("h3", { style: "margin:0" }, "💕 " + d.name),
@@ -353,6 +390,15 @@ function render(m) {
   const why = m.home && m.home.why ? ` Why it looks like this: “${m.home.why}”` : "";
   $("footer").textContent = "Everything here is written and designed by Blip, a small creature that lives on the internet." + why;
 }
+
+const toyStatus = {};
+window.addEventListener("message", e => {
+  const d = e.data || {};
+  if (typeof d.blipToy !== "number" || !d.broken) return;
+  const frame = document.querySelector(`iframe[data-toy="${d.blipToy}"]`);
+  if (frame && e.source === frame.contentWindow && toyStatus[d.blipToy])
+    toyStatus[d.blipToy].textContent = "🔧 This one seems a bit broken. Blip's still learning.";
+});
 
 function renderPast(lives) {
   if (!Array.isArray(lives) || !lives.length) return;

@@ -134,6 +134,22 @@ JSON: move, detail, reason, minutes (rest/daydream/look closer), intend, kept.
 - who_am_i only shows "What you were last thinking" while stimulation >= 0.3 and the last output wasn't
   stale - a stale thought fades instead of being handed back to be copied.
 
+## Asking & building (2026-11-20) - so interests turn into action, not just reading
+Thomas: "if he's interested in trains, why doesn't he code a train simulator, or ask me to make one?"
+He didn't know he could. ABILITIES now lists both, and the session menu has two new moves:
+- "ask" -> `ask_human`: memory["requests"] [{id, text, why, made, status open|closed, issue, answer,
+  reaction}], max 2/day, 5 open. Emailed as an issue with a hidden marker `<!-- blip-request:ID -->`.
+  `check_requests` (run from check_mail) links requests to issue numbers via the marker and, when Thomas
+  CLOSES the issue, `request_closed` reads his last comment (owner only) and Blip reacts (mood, memory).
+  Thomas's replies on the issue are also normal mail. Site: "🙏 Things I'm asking for".
+- "build" -> `build_toy`: the brain writes ONE self-contained HTML page (TITLE:/WHAT: lines + ```html```),
+  `clean_toy` strips iframes/objects/forms/meta/link/external scripts and every http(s) URL, requires
+  something interactive, caps 24k chars. Saved to creations/toys/*.html, memory["toys"], max 2/day.
+  Site: "🛠️ Things I built" runs each toy via iframe srcdoc with sandbox="allow-scripts" (NO
+  allow-same-origin -> opaque origin, no parent/storage access) + a CSP meta (default-src 'none') so it
+  has no network; a window.onerror hook postMessages "broken" up and the card says so. Never load toys via
+  same-origin src= (that would run them as the site). Tested: network, parent and storage all blocked.
+
 ## Silliness audition (2026-11-20, free models only - Thomas's rule)
 audition.py now runs a mini awake session per brain: same memory copy, same start page (Emu War),
 AUDITION_MOVES (12) real moves, then a daydream + a make. Reports variety, fizzles, brightness, s/move.
