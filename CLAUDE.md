@@ -193,7 +193,11 @@ Sys2 (small fast policy) picks actions; Sys1 executes + records episodic memory.
 grew more distinct over 3 days (Lazy rest 14.5%->49.8%); day 1 all failed (battery), day 3 all survived via
 nightly reflection alone; best = big model once/day + small model per step (all-cloud too slow, all-small
 can't reflect). Limitation: fixed action repertoire bounds novelty.
-Applied: (1) self-written rules + (2) life goal (DONE), (3) a bigger free brain for the nightly run (NEXT).
+Applied: (1) self-written rules + (2) life goal (DONE), (3) a bigger free brain for the nightly run (DONE):
+BLIP_NIGHT_MODEL (mistral-nemo:12b, the audition's funniest but too slow per move) is pulled only for the
+"end of the day" run (no cache: GitHub's 10 GB cache can't hold it alongside llama + nomic; ~7 GB download
+each night); `use_night_brain()` switches MODEL for the whole diary command if /api/tags shows it, else
+stays on llama3.1:8b. Job timeout raised to 90 min (nightly run is slower; the 00:17 session may queue).
 
 ### Lessons + life goal (DONE)
 `day_review` summarises today's log (fizzles, failed builds/drawings, plan done, kept promises, grey world,

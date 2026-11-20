@@ -28,7 +28,8 @@ import requests
 # ---- Settings you can change ----
 NAME = "Blip"                                            # your creature's name
 MODEL = os.environ.get("BLIP_MODEL", "llama3.1:8b")
-EMBED_MODEL = os.environ.get("BLIP_EMBED_MODEL", "nomic-embed-text")   # small free "meaning" model for recall       # any model you've pulled with Ollama
+EMBED_MODEL = os.environ.get("BLIP_EMBED_MODEL", "nomic-embed-text")
+NIGHT_MODEL = os.environ.get("BLIP_NIGHT_MODEL", "")   # a bigger free brain for the nightly run (PEPA-style)   # small free "meaning" model for recall       # any model you've pulled with Ollama
 HOPS_PER_WANDER = int(os.environ.get("BLIP_HOPS", "7"))  # most pages a walk can take (a vivid, energetic Blip)
 MAX_LOG = 1000                                           # oldest log entries are dropped past this
 ALERT_AT = int(os.environ.get("BLIP_ALERT_AT", "9"))     # interest score that counts as "amazing"
@@ -2892,9 +2893,27 @@ and bring up things you've read or made when it fits."""
         save(m)
 
 
+def use_night_brain():
+    """At night (diary, rules, life goal, website) speed doesn't matter, so use a bigger brain if it's there."""
+    global MODEL
+    if not NIGHT_MODEL:
+        return
+    try:
+        have = [x["name"] for x in requests.get(f"{OLLAMA}/api/tags", timeout=10).json().get("models", [])]
+    except (requests.RequestException, ValueError):
+        have = []
+    if NIGHT_MODEL in have or f"{NIGHT_MODEL}:latest" in have:
+        MODEL = NIGHT_MODEL
+        print(f"🌙 Thinking with the bigger night brain: {NIGHT_MODEL}")
+    else:
+        print(f"(night brain {NIGHT_MODEL} isn't here, using {MODEL})")
+
+
 if __name__ == "__main__":
     command = sys.argv[1] if len(sys.argv) > 1 else "wander"
     memory = load()
+    if command == "diary":
+        use_night_brain()
     actions = {"wander": wander, "diary": diary, "chat": chat, "home": home, "check": check}
     if command in actions:
         actions[command](memory)

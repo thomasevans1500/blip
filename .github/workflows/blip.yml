@@ -29,11 +29,12 @@ concurrency:
 jobs:
   live:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 90       # the nightly run uses a bigger, slower brain
     env:
       PYTHONUNBUFFERED: "1"      # show Blip's moves in the log as they happen
       TZ: America/New_York       # Blip's days follow its human's clock (US East Coast)
       BLIP_MODEL: llama3.1:8b
+      BLIP_NIGHT_MODEL: mistral-nemo:12b   # bigger free brain, only for the nightly diary/reflection
       BLIP_CONTACT: ${{ vars.BLIP_CONTACT }}
       BLIP_ALERT_AT: ${{ inputs.alert_at || '9' }}
       OLLAMA_MODELS: /home/runner/ollama-models
@@ -83,6 +84,10 @@ jobs:
           else
             echo "cmd=wander" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Fetch the night brain (only for the end-of-day run)
+        if: steps.pick.outputs.cmd == 'diary'
+        run: ollama pull "$BLIP_NIGHT_MODEL" || echo "Couldn't fetch the night brain; the day brain will do."
 
       - name: Blip does its thing
         env:
