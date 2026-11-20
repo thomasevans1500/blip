@@ -1531,12 +1531,35 @@ def topic_repeat(m, text, window=8):
     return max(sum(w in r for r in recent) / window for w in words)
 
 
+DOTE_MOVES = ("daydream", "visit")
+DOTE_WINDOW, DOTE_MAX = 8, 3   # at most 3 daydreams/visits in any 8 brain moves; then they go flat for a bit
+
+
+def doting(m):
+    """How many of his last few real moves were daydreams or visits (one family: alternating doesn't escape)."""
+    return sum(x["move"] in DOTE_MOVES for x in [y for y in m.get("moves", []) if not y["fallback"]][-DOTE_WINDOW:])
+
+
 def stale_moves(m):
-    """When the world has gone dull, the kinds of move he keeps repeating stop working for a while."""
+    """When the world has gone dull, the kinds of move he keeps repeating stop working for a while.
+    Doting is different: too much of it goes flat however lively he feels (a favourite song on repeat)."""
+    stale = set(DOTE_MOVES) if doting(m) >= DOTE_MAX else set()
     if senses(m)["stimulation"] >= 0.3:
-        return set()
+        return stale
     recent = [x["move"] for x in m.get("moves", []) if not x["fallback"]][-3:]
-    return {mv for mv in set(recent) if recent.count(mv) >= 2 and mv in FIZZLE}
+    return stale | {mv for mv in set(recent) if recent.count(mv) >= 2 and mv in FIZZLE}
+
+
+def dote_gain(d):
+    """Fondness grows from coming back after a while, not from never leaving: a darling doted on in the
+    last 3 hours only grows a little."""
+    last = d.get("last_dote", "")
+    try:
+        recent = bool(last) and (datetime.datetime.now().astimezone() - datetime.datetime.fromisoformat(last)).total_seconds() < 3 * 3600
+    except ValueError:
+        recent = False
+    d["last_dote"] = now()
+    d["strength"] = round(min(3.0, d["strength"] + (0.05 if recent else 0.2)), 3)
 
 
 def moves_menu(m, has_place):
@@ -2101,7 +2124,7 @@ Reply in JSON:
     feel(m, f"{subject} {text}")
     tire(m, 0.03)
     if d:
-        d["strength"] = round(min(3.0, d["strength"] + 0.2), 3)
+        dote_gain(d)
     m.setdefault("thoughts", []).append({"time": now(), "text": text, "topic": subject, "kind": "daydream"})
     m["thoughts"] = m["thoughts"][-MAX_THOUGHTS:]
     feeling = str(r.get("feeling", "")).strip()[:40]
@@ -2123,12 +2146,16 @@ def visit_darling(m, d):
     except (requests.RequestException, KeyError, ValueError):
         page = None
     text = (page or {}).get("text") or place.get("text", "")
+    n = reading_chars(m)
+    if len(text) > n:   # wander to a different corner of the place each time, so visits aren't identical
+        start = random.randrange(0, len(text) - n // 2)
+        text = ("..." if start else "") + text[start:start + n]
     try:
         r = ask(f"""{who_am_i(m, context=d['name'])}
 
 You've come back to visit {d['name']}, one of the things you're fond of, just to enjoy it.
 You're looking at: {place['title']} ({place.get('source', '')})
-{text[:reading_chars(m)]}
+{text}
 
 Reply in JSON:
 "thought": what goes through your head being back here, in your own voice (one to three sentences)
@@ -2144,7 +2171,7 @@ Reply in JSON:
     tire(m, 0.03)
     d["visits"] += 1
     d["last_visit"] = today()
-    d["strength"] = round(min(3.0, d["strength"] + 0.2), 3)
+    dote_gain(d)
     m["log"].append({"type": "visited", "date": today(), "time": now(), "name": d["name"],
                      "title": place["title"], "thought": thought, "feeling": feeling, "noticed": noticed})
     if feeling:

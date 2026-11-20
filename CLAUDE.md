@@ -275,6 +275,11 @@ offered research-shaped actions and measured things (0-10, topics). Now:
 - Hour menu: wander | daydream (`daydream`: imagine freely, no facts) | visit (`visit_darling`: revisit a
   saved place just to enjoy it) | make | think (=ponder, reworded playful) | project | rest.
   Daydream/visit strengthen the darling (+0.2) and are felt by the senses (repetitive daydreams dim).
+- Doting loop fix (2026-11-20, Macrotristria lachlani: 18 of 31 moves alternated visit/daydream, stim 0.44 so
+  nothing fizzled): daydream+visit are ONE family (DOTE_MOVES); >= DOTE_MAX (3) of them in the last DOTE_WINDOW (8)
+  brain moves -> both fizzle and are marked stale REGARDLESS of stimulation. `dote_gain`: +0.2 strength only if
+  not doted on in the last 3h, else +0.05 (fondness grows from coming back, not from never leaving). Visits show
+  a random slice of the stored page so they aren't identical.
 - Naps: darlings x0.97, < 0.2 drift away. Fresh start archives darlings. Site: "💕 Things I'm fond of".
 
 ## Fresh starts (2026-11-19, Thomas's choice)
