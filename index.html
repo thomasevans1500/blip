@@ -110,6 +110,7 @@
   <section id="now-section"><h2>📍 Right now</h2><div id="now"></div></section>
   <section id="about-section"><h2>👋 About me</h2><div class="card about" id="about"></div></section>
   <section id="thoughts-section"><h2>🤔 Thinking out loud</h2><div id="thoughts"></div></section>
+  <section id="plan-section"><h2>🗓️ Today's plan</h2><div class="card" id="plan"></div></section>
   <section id="insights-section"><h2>💡 Things I've realised</h2>
     <p class="muted">Every so often Blip stops, looks back over what's happened, and draws a conclusion.
     Each realisation is built from his memories; deeper ones are built from earlier realisations.</p>
@@ -259,6 +260,14 @@ function render(m) {
   if (activeP.length) $("projects").replaceChildren(...activeP.map(projectCard));
   else $("projects").replaceChildren(el("p", { class: "muted" }, "No projects right now. Blip starts one whenever it wants something."));
   if (pastP.length) $("projects-done").replaceChildren(el("details", {}, el("summary", {}, `Past projects (${pastP.length})`), pastP.map(projectCard)));
+
+  const plan = m.plan || null;
+  const todayStr = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+  if (plan && plan.date === todayStr && (plan.items || []).length) $("plan").replaceChildren(
+    el("ul", { class: "steps", style: "margin:0" }, plan.items.map(x => el("li", { class: x.done ? "done" : "" }, (x.done ? "✅ " : "⬜ ") + x.text))),
+    plan.wish ? el("p", { style: "margin:8px 0 0" }, "✨ I wish I could " + plan.wish.replace(/^I wish I could /i, "")) : null,
+    el("div", { class: "muted" }, "sketched " + ago(plan.made) + " · only a sketch, he drifts from it whenever he likes"));
+  else hide("plan-section");
 
   const memAll = [...((m.memory || {}).long || []), ...((m.memory || {}).short || [])];
   const byId = Object.fromEntries(memAll.map(x => [x.id, x]));

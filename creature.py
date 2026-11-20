@@ -821,6 +821,9 @@ def form_opinion(m, op):
     print(f"🗯️  {'Changed its mind about' if old else 'New opinion on'} {about}: {opinion}")
 
 
+CANT_YET = ("see photos or videos, hear sounds or music, move or touch anything in the physical world, "
+            "buy anything or handle money, talk to anyone except your human")
+
 ABILITIES = """Things you can do: read Wikipedia, look up words, ask DuckDuckGo, find books, browse NASA's
 pictures, read the BBC news and Hacker News, see what happened on this day in history; write things and
 draw simple pictures; keep memories, opinions and notes; run your own website with spaces and project
@@ -1457,6 +1460,49 @@ Reply in JSON:
     return result if isinstance(result, dict) else None
 
 
+def today_plan(m):
+    p = m.get("plan") or {}
+    return p if p.get("date") == today() else None
+
+
+def make_day_plan(m, rest_of_day=False):
+    """A loose plan for the day (Generative Agents: plans keep behaviour coherent and stop repeats).
+    Also the moment he notices what he wishes he could do."""
+    yesterday = (m.get("diary") or [{}])[-1].get("entry", "")[:500]
+    insights = [x["text"] for x in memory_store(m)["long"] if x.get("source") == "insight"][-3:]
+    try:
+        r = ask(f"""{who_am_i(m)}
+
+{ABILITIES}
+
+{"Your diary from last time: " + yesterday if yesterday and not rest_of_day else ""}
+{"Things you've realised lately: " + "; ".join(insights) if insights else ""}
+It's {"later in the day and you've done everything you planned" if rest_of_day else "a new day"}.
+Sketch a loose plan for {"the rest of today" if rest_of_day else "today"}: 4 to 6 things you'd like to do,
+in your own words, roughly in order. It's only a sketch; you can drift from it whenever you like.
+And is there anything you wish you could do, but can't yet?
+
+Reply in JSON:
+"plan": a list of 4 to 6 short things you'd like to do
+"wish": something you wish you could do but can't yet, or """"", as_json=True, temperature=1.0, max_words=160)
+    except BrainError as e:
+        print(f"(couldn't plan the day: {e})")
+        return
+    items = [unwrap(x)[:120] for x in as_list(r.get("plan")) if len(unwrap(x)) > 3][:6]
+    if not items:
+        return
+    wish = unwrap(r.get("wish", ""))[:200]
+    m["plan"] = {"date": today(), "made": now(), "items": [{"text": t, "done": False} for t in items], "wish": wish}
+    if wish:
+        m.setdefault("wishes", []).append({"text": wish, "date": today()})
+        m["wishes"] = m["wishes"][-30:]
+    m["log"].append({"type": "planned", "date": today(), "time": now(), "items": items, "wish": wish})
+    remember(m, f"My plan for {'the rest of ' if rest_of_day else ''}today: " + "; ".join(items), 0.5, source="plan")
+    print("🗓️  Plan for today:\n" + "\n".join(f"   {i}. {t}" for i, t in enumerate(items, 1))
+          + (f"\n   ✨ wishes he could: {wish}" if wish else ""))
+    save(m)
+
+
 def session(m):
     """An awake session: one small move at a time, each chosen (with a reason) by Blip. When he's in the
     middle of something that takes a while (resting, daydreaming, reading closely), he simply carries on
@@ -1497,6 +1543,10 @@ def one_move(m, st):
     recent = "\n".join(f"- {x['move']}{': ' + x['detail'][:50] if x['detail'] and x['move'] != 'think' else ''}"
                        for x in m.get("moves", [])[-6:]) or "- you've only just woken up"
     promises = open_intentions(m)
+    plan = today_plan(m)
+    plan_text = ("Your loose plan for today (follow it or drift from it, it's up to you):\n" + "\n".join(
+        f"  {i}. [{'done' if x['done'] else 'not yet'}] {x['text']}" for i, x in enumerate(plan["items"], 1))
+        if plan else "")
     can_look = bool(place) and st.get("looks", 0) < MAX_LOOKS_PER_PAGE and \
         bool(place["text"][st["offset"] + 700:].strip())
     menu = moves_menu(m, can_look)
@@ -1512,6 +1562,8 @@ def one_move(m, st):
 What you've done in the last few minutes:
 {recent}
 Things you said you'd do: {"; ".join(i['text'] for i in promises) or "nothing"}
+{plan_text}
+Things you can't do (yet): {CANT_YET}.{" You wish you could: " + plan['wish'] + "." if plan and plan.get('wish') else ""}
 
 What do you do next? Pick ONE move:
 {chr(10).join(f'  - "{k}": {v}' for k, v in menu)}
@@ -1524,6 +1576,7 @@ Reply in JSON:
 "reason": why, in under 10 words, in your own voice
 "minutes": for rest, daydream or look closer: how many minutes you'll spend (1 to 5)
 "intend": something you mean to do later, or ""
+"plan_step": if this move does something from your plan, its number, otherwise null
 "kept": if this move keeps something you said you'd do, copy it exactly, otherwise """"", as_json=True, temperature=0.9,
                 max_words=220)
     except BrainError as e:
@@ -1563,6 +1616,15 @@ Reply in JSON:
         print(f"   🌫️ {FIZZLE[move]}")
         return
     log_move(m, move or "?", "" if move == "think" else detail, reason)
+    if plan and move in {k for k, _ in menu}:
+        try:
+            step = plan["items"][int(r.get("plan_step")) - 1]
+            if not step["done"]:
+                step["done"] = True
+                m["log"].append({"type": "plan step", "date": today(), "time": now(), "text": step["text"]})
+                print(f"   🗓️ ticked off: {step['text']}")
+        except (TypeError, ValueError, IndexError):
+            pass
     if move in {k for k, _ in menu} and move not in ("think", "rest"):
         kept = str(r.get("kept", "")).strip().lower()
         for i in m.get("intentions", []):
@@ -1665,6 +1727,11 @@ def wander(m):
     awaken_senses(m)
     tire(m, -0.06)
     check_mail(m)
+    plan = today_plan(m)
+    if not plan:
+        make_day_plan(m)
+    elif all(x["done"] for x in plan["items"]):
+        make_day_plan(m, rest_of_day=True)
     session(m)
     if m.get("reflect_points", 0) >= REFLECT_AT:
         reflect(m)
@@ -2254,6 +2321,10 @@ def diary(m):
             lines.append(f"- Chatted with my human. They said: {e['you']} / I said: {e['me']}")
         elif e["type"] == "pondered":
             lines.append(f"- Stayed in and thought about {e['topic']}. Conclusion: {e['conclusion']}")
+        elif e["type"] == "planned":
+            lines.append("- Planned my day: " + "; ".join(e["items"]) + (f" (and wished I could {e['wish']})" if e.get("wish") else ""))
+        elif e["type"] == "plan step":
+            lines.append(f"- Did something I'd planned: {e['text']}")
         elif e["type"] == "reflected":
             lines.append("- Stopped to reflect and realised: " + ("; ".join(e["insights"]) or "nothing yet"))
         elif e["type"] == "asked":

@@ -145,7 +145,7 @@ full 29.89 > no reflection 26.88 > no refl/plan 25.64 > humans 22.95 > none 21.2
 retrieval misses, embellishment, overly formal & cooperative (instruction tuning). Without plans, agents
 repeat ("lunch at 12, 12:30 and 1pm") = Blip's loops.
 Agreed plan (one at a time): 1 reflection (DONE) -> 2 loose daily plan + react -> 3 importance + embedding
-recall (nomic-embed-text via Ollama) -> 4 cached short "who I am" summary.
+recall (nomic-embed-text via Ollama) -> 4 cached short "who I am" summary. (2 DONE too.)
 
 ### 1. Reflection (DONE)
 `remember()` adds importance points (strength*8, 1-10) to memory["reflect_points"]; after a session, if
@@ -154,6 +154,14 @@ recall (nomic-embed-text via Ollama) -> 4 cached short "who I am" summary.
 "insight", question, evidence ids, depth = 1 + max(evidence depth) (reflection tree); evidence memories
 +0.1 strength; points reset; log "reflected". Naps see the latest 5 insights when adding sheet lines.
 Site: "💡 Things I've realised" (evidence expandable, depth>1 = "a deeper realisation").
+
+### 2. Loose daily plan + wishes (DONE)
+`make_day_plan` at the first session of each day (memory["plan"]["date"] != today), and again for "the rest
+of today" once every item is done: sees ABILITIES, yesterday's diary, latest insights -> 4-6 loose items +
+"wish" (something he wishes he could do but can't yet; also memory["wishes"]). Every move prompt now shows
+the plan ("follow it or drift from it, it's up to you"), CANT_YET and the wish; JSON "plan_step" ticks an
+item off. Why: in 56 moves after ask/build launched he never asked for anything - the can't-do list was
+only in the (rarely used) project prompt, so he never noticed what he lacked. Site: "🗓️ Today's plan".
 
 ## Asking & building (2026-11-20) - so interests turn into action, not just reading
 Thomas: "if he's interested in trains, why doesn't he code a train simulator, or ask me to make one?"
