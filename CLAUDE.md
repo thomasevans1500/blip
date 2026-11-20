@@ -285,6 +285,13 @@ into `past_lives.json` (committed; shown on the site as "🕰️ My past lives")
 reborn_at + creations_before_rebirth. Diary, creations, letters, mail and log are kept as history;
 `since_rebirth()` keeps pre-rebirth log entries out of his head (think, make, chat, senses, diary).
 To give him another fresh start later: change FRESH_START.
+Fresh start #2 (2026-11-20, Thomas): FRESH_START = "2026-11-20-llama" - cleared the Gemma-era baggage and a
+"taxonomy and mass extinctions" loop so Llama + plan/rules/reflection/identity start clean. Also archives
+recent_trips, reflect_points, wishes now.
+Topic-aware novelty (same day): the word meter missed that loop (stimulation stayed ~0.5) because he kept
+rewording it. `topic_repeat` = max over this move's content words of "share of the last 8 brain moves
+(detail+reason) containing it"; one_move adds max(0, topic-0.25)*1.2 to extra_staleness. Replay of the real
+loop: 0.70 -> 0.07; a varied day stays ~0.95.
 Also: quoted catchphrases in character.md become tics with small models ("oh dear" on every line) - avoid
 them; and the "old football seasons" line was removed at Thomas's request (no football obsession).
 Optional later: describe internet sources as places with atmosphere.

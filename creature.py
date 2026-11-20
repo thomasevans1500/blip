@@ -69,7 +69,7 @@ HEADERS = {"User-Agent": f"BlipCreature/0.3 ({CONTACT + '; ' if CONTACT else ''}
 HERE = Path(__file__).parent
 MEMORY_FILE = HERE / "memory.json"
 FIRST_LIVES_FILE = HERE / "past_lives.json"  # identities Blip has moved on from (fresh starts), kept as history
-FRESH_START = "2026-11-19-playful"          # change this to give Blip a new fresh start (archives the old self)
+FRESH_START = "2026-11-20-llama"            # change this to give Blip a new fresh start (archives the old self)
 CHARACTER_FILE = HERE / "character.md"     # who Blip is, written by a person; Blip adds to it in naps
 NOTIFY_FILE = HERE / "notify.json"         # GitHub Actions turns each note in here into an issue (= email)
 CREATIONS_DIR = HERE / "creations"
@@ -1468,7 +1468,8 @@ def fresh_start(m):
         return
     keys = ["about", "self", "traits", "opinions", "interests", "memory", "scrapbook", "mood", "projects",
             "thoughts", "senses", "home", "portrait", "spaces", "sheet", "sheet_history", "current", "hours",
-            "darlings", "moves", "intentions", "identity", "plan", "lessons", "purpose"]
+            "darlings", "moves", "intentions", "identity", "plan", "lessons", "purpose", "recent_trips",
+            "reflect_points", "wishes"]
     past = json.loads(FIRST_LIVES_FILE.read_text(encoding="utf-8")) if FIRST_LIVES_FILE.exists() else []
     past.append({"ended": now(), "label": m.get("fresh_start") or "first life",
                  **{k: m.get(k) for k in keys if k in m}})
@@ -1503,6 +1504,17 @@ FIZZLE = {
     "rest": "You try to sit still, but you're too restless.",
     "project": "You look at your projects, but your head is too foggy to plan anything.",
 }
+
+
+def topic_repeat(m, text, window=8):
+    """How much of what he's about to do is about the same thing as his last few moves, whatever the
+    wording ('taxonomy' in 6 of the last 8 moves -> 0.75). Catches loops the word-novelty meter misses."""
+    words = _sense_words(text)
+    recent = [_sense_words(f"{x['detail']} {x['reason']}") for x in
+              [y for y in m.get("moves", []) if not y["fallback"]][-window:]]
+    if not words or not recent:
+        return 0.0
+    return max(sum(w in r for r in recent) / window for w in words)
 
 
 def stale_moves(m):
@@ -1729,7 +1741,8 @@ Reply in JSON:
     except (TypeError, ValueError):
         minutes = 1
     same = sum(1 for x in [y for y in m.get("moves", []) if not y["fallback"]][-3:] if x["move"] == move) / 3
-    feel(m, f"{move} {detail} {reason}", extra_staleness=0.2 * same)
+    topic = topic_repeat(m, f"{detail} {reason}")
+    feel(m, f"{move} {detail} {reason}", extra_staleness=0.2 * same + max(0.0, topic - 0.25) * 1.2)
     print(f"🕐 {move}{': ' + detail[:120] if detail and move != 'think' else ''} (because {reason})")
 
     intend = str(r.get("intend", "")).strip()
