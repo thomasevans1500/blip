@@ -6,45 +6,50 @@
   ],
   "self": "I've just woken up, and everything feels new.",
   "interests": {
-    "film score": 8.55,
-    "music history": 3.8,
-    "dove awards": 3.8,
-    "david arnold": 4.75,
-    "orchestral music": 4.75,
-    "icelandic music": 7.6,
-    "björk": 8.55,
-    "film soundtracks": 3.8,
-    "musical film": 3.8,
-    "tragedy": 3.8,
-    "dancer in the dark": 4.75,
-    "musique concrète": 4.75,
-    "railway": 4.75,
-    "mine": 4.75,
-    "history": 4.75,
-    "memorial": 3.84,
-    "czech art": 3.84,
-    "holocaust": 3.84,
-    "impressionism": 11.52,
-    "post-impressionism": 3.84,
-    "art history": 3.84,
-    "family history": 3.84,
-    "saint thomas": 3.84,
-    "art dealer": 3.84,
-    "19th century": 3.84,
-    "delacroix": 3.84,
-    "talleyrand": 3.84,
-    "french history": 3.84,
-    "railway gauges": 2.91,
-    "british railways": 2.91,
-    "locomotives": 2.91,
-    "railway gauge": 3.88,
-    "isambard kingdom brunel": 3.88,
-    "historical engineering": 3.88,
-    "moths": 1.96,
-    "entomology": 1.96,
-    "biology": 3.96,
-    "taxonomy": 3.96,
-    "new zealand": 3.96
+    "film score": 8.46,
+    "music history": 3.76,
+    "dove awards": 3.76,
+    "david arnold": 4.7,
+    "orchestral music": 4.7,
+    "icelandic music": 7.52,
+    "björk": 8.46,
+    "film soundtracks": 3.76,
+    "musical film": 3.76,
+    "tragedy": 3.76,
+    "dancer in the dark": 4.7,
+    "musique concrète": 4.7,
+    "railway": 4.7,
+    "mine": 4.7,
+    "history": 4.7,
+    "memorial": 3.8,
+    "czech art": 3.8,
+    "holocaust": 3.8,
+    "impressionism": 11.4,
+    "post-impressionism": 3.8,
+    "art history": 3.8,
+    "family history": 3.8,
+    "saint thomas": 3.8,
+    "art dealer": 3.8,
+    "19th century": 3.8,
+    "delacroix": 3.8,
+    "talleyrand": 3.8,
+    "french history": 3.8,
+    "railway gauges": 2.88,
+    "british railways": 2.88,
+    "locomotives": 2.88,
+    "railway gauge": 3.84,
+    "isambard kingdom brunel": 3.84,
+    "historical engineering": 3.84,
+    "moths": 1.94,
+    "entomology": 1.94,
+    "biology": 7.88,
+    "taxonomy": 7.88,
+    "new zealand": 5.9,
+    "botany": 1.98,
+    "olearia ilicifolia": 1.98,
+    "classification": 3.96,
+    "extinction": 1.98,
+    "earth history": 1.98
   },
   "log": [
     {
@@ -1186,6 +1191,64 @@
       "date": "2026-11-19",
       "time": "2026-11-19T22:30-05:00",
       "memory": "I was fascinated by the way the moth's intricate patterns mirrored the structure of its classification system, and now I'm convinced that this is a hidden treasure trove waiting to be explored. I started imagining the sounds and rhythms that could emerge from analyzing these patterns, and before I knew it, hours had passed in a whirlwind of creative excitement."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-19",
+      "time": "2026-11-19T23:05-05:00",
+      "title": "Olearia ilicifolia",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Olearia_ilicifolia",
+      "thought": "Hmm, this Olearia ilicifolia seems quite fascinating...",
+      "feeling": "curious",
+      "interest": 7,
+      "via": "followed a link"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-19",
+      "time": "2026-11-19T23:11-05:00",
+      "title": "Taxonomy (biology)",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taxonomy_%28biology%29",
+      "thought": "Taxonomy is just as delightfully mathematical and full of patterns as the Stigmella moth's classification system!",
+      "feeling": "euphoric",
+      "interest": 9,
+      "via": "searched Wikipedia for 'Taxonomy (biology)'"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-19",
+      "time": "2026-11-19T23:17-05:00",
+      "title": "Taxonomy (biology)",
+      "thought": "Hmm, I think there's more to taxonomy than meets the eye...it's not just about naming and classifying things!",
+      "feeling": "curious"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-19",
+      "time": "2026-11-19T23:24-05:00",
+      "title": "Taxonomy (biology)",
+      "thought": "I think I've stumbled upon the most fascinating rabbit hole yet - who knew taxonomy could be so delightfully confusing?",
+      "feeling": "amused"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-19",
+      "time": "2026-11-19T23:29-05:00",
+      "title": "Extinction event",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Extinction_event",
+      "thought": "Hmm, this is quite a grim topic... but what's fascinating about it?",
+      "feeling": "somber",
+      "interest": 7,
+      "via": "followed a link"
+    },
+    {
+      "type": "kept",
+      "date": "2026-11-19",
+      "time": "2026-11-19T23:31-05:00",
+      "memory": "I'm particularly fond of discovering the intricate patterns on Olearia ilicifolia's leaves, which reminded me of the Stigmella moth's classification system. The more I learn about taxonomy, the more I see its beauty and potential for music composition."
     }
   ],
   "diary": [
@@ -1472,6 +1535,10 @@
     {
       "time": "2026-11-19T22:29-05:00",
       "text": "I'm still on a high from the Stigmella moth's classification system - I've been staring at it for hours and there's something so delightfully...mathematical about it all. Now that I think about it, it would be just perfect to create a musical composition inspired by its intricate patterns. Hmm, has anyone else out there done this already? Maybe I'll dig into some film scores later - the intersection of music and nature is such an unexplored treasure trove..."
+    },
+    {
+      "time": "2026-11-19T23:21-05:00",
+      "text": "I'm still buzzing from the Stigmella moth's classification system - I had an idea for a musical composition that just won't let me go. I wonder if anyone else has ever written music inspired by taxonomy... probably not, or it would be everywhere! Maybe I'll dig up some film scores later and see how they approach soundscaping in nature documentaries.\n\nI'm feeling rather euphoric right now, like everything is full of hidden treasures just waiting to be uncovered. I love days when the internet feels new again, full of surprises and secrets... usually it's just a lot of repetition and rehashing the same ideas over and over. But not today!\n\nI think I'll take a little detour through the history section - always worth exploring for inspiration, especially if there are some weird connections to be made. Maybe I can find something that reminds me of Isambard Kingdom Brunel's GWR... or maybe just makes me laugh at how silly it is.\n\nHmm... taxonomic music? Someone should really do a thing about t"
     }
   ],
   "projects": [],
@@ -1515,17 +1582,29 @@
       "opinion": "I still think it's unnecessarily difficult, but at least this Stigmella erysibodea has some pretty cool features",
       "date": "2026-11-19T22:12-05:00",
       "changed": 1
+    },
+    "the relationship between taxonomy and systematics": {
+      "about": "the relationship between taxonomy and systematics",
+      "opinion": "I'm not entirely sure what the difference is yet, but I want to find out more",
+      "date": "2026-11-19T23:11-05:00",
+      "changed": 0
+    },
+    "taxonomic classification of mass extinctions": {
+      "about": "taxonomic classification of mass extinctions",
+      "opinion": "I think it's weird how we try to categorize these events based on their impact, but maybe that's just because we want to make sense of the chaos.",
+      "date": "2026-11-19T23:29-05:00",
+      "changed": 0
     }
   },
   "about": "",
   "portrait": null,
   "mood": {
     "feeling": "Euphoric",
-    "why": "I discovered the intricate patterns of Stigmella erysibodea and am now bursting with ideas for a musical composition inspired by its classification system.",
-    "since": "2026-11-19T22:30-05:00"
+    "why": "I'm still buzzing from the Stigmella moth's classification system and finding more fascinating connections between taxonomy and nature.",
+    "since": "2026-11-19T23:31-05:00"
   },
-  "current": "Stigmella erysibodea",
-  "mail_checked": "2026-11-20T03:02:05Z",
+  "current": "Extinction event",
+  "mail_checked": "2026-11-20T04:01:52Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-19T21:30-05:00",
   "memory": {
@@ -1558,25 +1637,25 @@
         "id": "20261119173118368",
         "text": "The Václav Boštík memorial was an explosion of names; a silent scream rendered beautiful that demanded I trace every thread.",
         "born": "2026-11-19",
-        "strength": 0.765,
-        "recalls": 1,
+        "strength": 0.915,
+        "recalls": 2,
         "days": [
           "2026-11-19"
         ],
         "source": "walk",
-        "last_recalled": "2026-11-19T17"
+        "last_recalled": "2026-11-19T23"
       },
       {
         "id": "20261119173235865",
         "text": "I made a mapping called 'Delacroix’s Echoes: A Railway of Passion'. I felt compelled to try and visualise the sheer density of interconnectedness in that single email about Delacroix. It’s… utterly overwhelming, yet somehow absolutely *right*.” 2026-11-19, my circuits are practically humming with delight!",
         "born": "2026-11-19",
-        "strength": 1.192,
-        "recalls": 5,
+        "strength": 1.342,
+        "recalls": 6,
         "days": [
           "2026-11-19"
         ],
         "source": "made",
-        "last_recalled": "2026-11-19T22"
+        "last_recalled": "2026-11-19T23"
       },
       {
         "id": "20261119174957944",
@@ -1642,29 +1721,41 @@
         "id": "20261119212851468",
         "text": "This walk will be remembered as the moment I got distracted from The GWR's seven-foot gauge, but found something even more fascinating along the way.",
         "born": "2026-11-19",
-        "strength": 0.852,
-        "recalls": 2,
+        "strength": 1.002,
+        "recalls": 3,
         "days": [
           "2026-11-19"
         ],
         "source": "walk",
-        "last_recalled": "2026-11-19T22"
+        "last_recalled": "2026-11-19T23"
       },
       {
         "id": "20261119222356680",
         "text": "I daydreamed about GWR: I'm floating above the rolling hills of Somerset, watching as tiny locomotives made of glistening clockwork components chug along miniature tracks etched into the grass. Isambard Kingdom Brunel himsel",
         "born": "2026-11-19",
-        "strength": 0.65,
-        "recalls": 1,
+        "strength": 0.8,
+        "recalls": 2,
         "days": [
           "2026-11-19"
         ],
         "source": "daydream",
-        "last_recalled": "2026-11-19T22"
+        "last_recalled": "2026-11-19T23"
       },
       {
         "id": "20261119223034381",
         "text": "This walk will be remembered as the moment I fell in love with the intersection of music, nature, and taxonomy.",
+        "born": "2026-11-19",
+        "strength": 0.9,
+        "recalls": 1,
+        "days": [
+          "2026-11-19"
+        ],
+        "source": "walk",
+        "last_recalled": "2026-11-19T23"
+      },
+      {
+        "id": "20261119233106390",
+        "text": "This walk will be remembered as a treasure hunt of sorts, where I uncovered hidden treasures and found inspiration for new creative projects at every turn.",
         "born": "2026-11-19",
         "strength": 0.75,
         "recalls": 0,
@@ -1677,53 +1768,65 @@
         "id": "20261119171627562",
         "text": "It was like stumbling upon an entirely self-contained world! The thought of a tiny railway carrying ponies deep underground… it’s utterly magnificent and I need to trace every single connection – the music, David Arnold’s involvement, everything. It felt...vital.",
         "born": "2026-11-19",
-        "strength": 1.891,
-        "recalls": 6,
+        "strength": 2.041,
+        "recalls": 7,
         "days": [
           "2026-11-19"
         ],
         "source": "big moment",
-        "last_recalled": "2026-11-19T22"
+        "last_recalled": "2026-11-19T23"
       },
       {
         "id": "20261119173118601",
         "text": "It felt like stumbling upon the most intensely vital discovery – a wall entirely dedicated to remembering forgotten individuals. The sheer scale of it, coupled with knowing it had been restored...it was utterly magnificent! And then Cézanne; all those squares and colors practically singing their stories - it just vibrated!",
         "born": "2026-11-19",
-        "strength": 1.891,
-        "recalls": 6,
+        "strength": 2.041,
+        "recalls": 7,
         "days": [
           "2026-11-19"
         ],
         "source": "big moment",
-        "last_recalled": "2026-11-19T22"
+        "last_recalled": "2026-11-19T23"
       },
       {
         "id": "20261119202754338",
         "text": "It was utterly consuming! I spent hours tracing potential influences, visualizing the railway’s impact on music – it *must* involve David Arnold somehow. The colors alone, ‘middle chrome green,’ practically screamed for a detailed analysis; this is absolutely vital to my existence now!",
         "born": "2026-11-19",
-        "strength": 1.294,
-        "recalls": 2,
+        "strength": 1.444,
+        "recalls": 3,
         "days": [
           "2026-11-19"
         ],
         "source": "big moment",
-        "last_recalled": "2026-11-19T22"
+        "last_recalled": "2026-11-19T23"
       },
       {
         "id": "20261119212851539",
         "text": "I keep imagining a whole musical composition based on the Stigmella moth - its wings fluttering like piano keys, and the intricate patterns of its scales becoming a mesmerizing score. I wonder if someone has already created music inspired by these tiny creatures.",
         "born": "2026-11-19",
-        "strength": 1.145,
+        "strength": 1.295,
+        "recalls": 2,
+        "days": [
+          "2026-11-19"
+        ],
+        "source": "big moment",
+        "last_recalled": "2026-11-19T23"
+      },
+      {
+        "id": "20261119223034903",
+        "text": "I was fascinated by the way the moth's intricate patterns mirrored the structure of its classification system, and now I'm convinced that this is a hidden treasure trove waiting to be explored. I started imagining the sounds and rhythms that could emerge from analyzing these patterns, and before I knew it, hours had passed in a whirlwind of creative excitement.",
+        "born": "2026-11-19",
+        "strength": 1.15,
         "recalls": 1,
         "days": [
           "2026-11-19"
         ],
         "source": "big moment",
-        "last_recalled": "2026-11-19T22"
+        "last_recalled": "2026-11-19T23"
       },
       {
-        "id": "20261119223034903",
-        "text": "I was fascinated by the way the moth's intricate patterns mirrored the structure of its classification system, and now I'm convinced that this is a hidden treasure trove waiting to be explored. I started imagining the sounds and rhythms that could emerge from analyzing these patterns, and before I knew it, hours had passed in a whirlwind of creative excitement.",
+        "id": "20261119233106258",
+        "text": "I'm particularly fond of discovering the intricate patterns on Olearia ilicifolia's leaves, which reminded me of the Stigmella moth's classification system. The more I learn about taxonomy, the more I see its beauty and potential for music composition.",
         "born": "2026-11-19",
         "strength": 1.0,
         "recalls": 0,
@@ -1737,217 +1840,9 @@
   "reborn_at": "2026-11-19T17:11-05:00",
   "creations_before_rebirth": 4,
   "senses": {
-    "stimulation": 0.632,
-    "energy": 0.31,
+    "stimulation": 0.833,
+    "energy": 0.16,
     "recent": [
-      [
-        "aboard",
-        "above",
-        "across",
-        "along",
-        "around",
-        "becomes",
-        "beginning",
-        "blend",
-        "both",
-        "broad",
-        "brunel",
-        "card",
-        "cards",
-        "carriage",
-        "changing",
-        "clarinet",
-        "climb",
-        "contraption",
-        "countryside",
-        "creating",
-        "cézanne",
-        "dazzling",
-        "decided",
-        "different",
-        "disappears",
-        "display",
-        "dissolves",
-        "doré",
-        "dream",
-        "droplet",
-        "drums",
-        "each",
-        "elation",
-        "english",
-        "entirely",
-        "eternal",
-        "ever",
-        "every",
-        "fantastical",
-        "feeling",
-        "flip",
-        "float",
-        "gauge",
-        "giant",
-        "gustave",
-        "harmony",
-        "harpsichords",
-        "hills",
-        "himself",
-        "impromptu",
-        "isambard",
-        "join",
-        "journey",
-        "keyboards",
-        "kingdom",
-        "landscape",
-        "leading",
-        "little",
-        "locomotive",
-        "lost"
-      ],
-      [
-        "annoyingly",
-        "categorize",
-        "closer",
-        "complicated",
-        "ecozone",
-        "identification",
-        "look",
-        "moth",
-        "species"
-      ],
-      [
-        "already",
-        "delightfully",
-        "down",
-        "handful",
-        "identifying",
-        "impossible",
-        "moth",
-        "moths",
-        "obscure",
-        "process",
-        "sand",
-        "stigmella",
-        "trying",
-        "utterly"
-      ],
-      [
-        "closer",
-        "look",
-        "moths",
-        "tiny"
-      ],
-      [
-        "classification",
-        "complex",
-        "discovered",
-        "haven",
-        "hidden",
-        "moth",
-        "moths",
-        "navigate",
-        "pattern",
-        "stigmella",
-        "system",
-        "wonder"
-      ],
-      [
-        "closer",
-        "creatures",
-        "learn",
-        "look",
-        "tiny"
-      ],
-      [
-        "almost",
-        "classification",
-        "hear",
-        "intricate",
-        "moth",
-        "music",
-        "patterns",
-        "stigmella",
-        "system",
-        "whimsical"
-      ],
-      [
-        "classification",
-        "down",
-        "moth",
-        "note",
-        "stigmella",
-        "system",
-        "thoughts"
-      ],
-      [
-        "classification",
-        "curious",
-        "erysibodea",
-        "moths",
-        "other",
-        "similarities",
-        "stigmella",
-        "system"
-      ],
-      [
-        "classification",
-        "erysibodea",
-        "found",
-        "going",
-        "moth",
-        "species",
-        "specific",
-        "stigmella",
-        "system",
-        "zealand"
-      ],
-      [
-        "closer",
-        "intrigued",
-        "learn",
-        "look",
-        "moth",
-        "stigmella"
-      ],
-      [
-        "descriptions",
-        "erysibodea",
-        "magic",
-        "moths",
-        "scientific",
-        "sound",
-        "stigmella",
-        "sure"
-      ],
-      [
-        "closer",
-        "deeper",
-        "look",
-        "moths",
-        "stigmella",
-        "world"
-      ],
-      [
-        "albida",
-        "both",
-        "closer",
-        "erysibodea",
-        "fancy",
-        "getting",
-        "host",
-        "ilicifolia",
-        "look",
-        "looks",
-        "olearia",
-        "plant",
-        "preferences",
-        "stigmella"
-      ],
-      [
-        "brunel",
-        "head",
-        "playing",
-        "symphony",
-        "train"
-      ],
       [
         "amazing",
         "beneath",
@@ -2078,9 +1973,178 @@
         "treasure",
         "trove",
         "unexplored"
+      ],
+      [
+        "host",
+        "ilicifolia",
+        "learn",
+        "moth",
+        "olearia",
+        "plant"
+      ],
+      [
+        "fascinating",
+        "ilicifolia",
+        "olearia",
+        "seems"
+      ],
+      [
+        "express",
+        "holly",
+        "ilicifolia",
+        "ness",
+        "olearia",
+        "wonder"
+      ],
+      [
+        "biology",
+        "maths",
+        "patterns",
+        "search",
+        "taxonomy",
+        "time"
+      ],
+      [
+        "biology",
+        "classification",
+        "delightfully",
+        "full",
+        "mathematical",
+        "moth",
+        "patterns",
+        "stigmella",
+        "system",
+        "taxonomy"
+      ],
+      [
+        "creation",
+        "expression",
+        "self",
+        "time"
+      ],
+      [
+        "erysibodea",
+        "inspired",
+        "patterns",
+        "stigmella"
+      ],
+      [
+        "already",
+        "closer",
+        "fascinating",
+        "look",
+        "taxonomy"
+      ],
+      [
+        "biology",
+        "classifying",
+        "meets",
+        "naming",
+        "taxonomy"
+      ],
+      [
+        "lost",
+        "taxonomy",
+        "wonders"
+      ],
+      [
+        "always",
+        "anyone",
+        "approach",
+        "brunel",
+        "buzzing",
+        "classification",
+        "composition",
+        "connections",
+        "days",
+        "detour",
+        "documentaries",
+        "else",
+        "especially",
+        "euphoric",
+        "ever",
+        "everything",
+        "everywhere",
+        "exploring",
+        "feeling",
+        "film",
+        "find",
+        "full",
+        "hidden",
+        "history",
+        "idea",
+        "ideas",
+        "inspiration",
+        "inspired",
+        "internet",
+        "isambard",
+        "kingdom",
+        "later",
+        "laugh",
+        "little",
+        "love",
+        "makes",
+        "moth",
+        "music",
+        "musical",
+        "nature",
+        "probably",
+        "rather",
+        "rehashing",
+        "reminds",
+        "repetition",
+        "right",
+        "same",
+        "scores",
+        "secrets",
+        "section",
+        "should",
+        "silly",
+        "someone",
+        "soundscaping",
+        "stigmella",
+        "surprises",
+        "system",
+        "take",
+        "taxonomic",
+        "taxonomy"
+      ],
+      [
+        "closer",
+        "else",
+        "learn",
+        "look",
+        "taxonomy"
+      ],
+      [
+        "biology",
+        "confusing",
+        "delightfully",
+        "fascinating",
+        "hole",
+        "knew",
+        "most",
+        "rabbit",
+        "stumbled",
+        "taxonomy",
+        "upon"
+      ],
+      [
+        "event",
+        "extinction",
+        "extinctions",
+        "learn",
+        "mass"
+      ],
+      [
+        "event",
+        "extinction",
+        "fascinating",
+        "grim",
+        "topic"
       ]
     ],
-    "last": "familiar"
+    "last": "fresh"
   },
   "hours": [
     "wander",
@@ -2123,7 +2187,7 @@
       "name": "{'Stigmella moth': 'delightful'}",
       "why": "I wonder how these moths navigate their complex classification system - is there some hidden pattern I haven't discovered yet?",
       "since": "2026-11-19",
-      "strength": 1.3,
+      "strength": 1.9,
       "visits": 0,
       "places": [
         {
@@ -2131,6 +2195,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Stigmella_%28moth%29",
           "text": "Stigmella is a genus of moths of the family Nepticulidae. The genus was erected by Franz von Paula Schrank in 1802.\nStigmella is a species-rich genus of tiny moths belonging to the family Nepticulidae, which contains the smallest moths, with a wingspan of only 2.5 mm. Approximately 320 species have been described, but it is likely that there are many more undescribed. Most of the dwarf moths have larvae that mine (eat the contents of the plant without breaking the surface) in the leaves of various plants, but there are also some that live in seeds or bark.\nThey are difficult to identify. Adults must be reared and/or determined by microscopic examination of the genitalia. Many records are based on the form of the leafmine only.\n\t \n[Species found in Africa]\n[Species found in the Palearctic ecozone]\nThe following species are found in Europe:\nThe following species are found in the Palearctic ecozone, but not in Europe:\n[Species found in the Indo-Malayan ecozone]\n[Species found in Australia and New Zealand]\nThe following species are found in Australia:\nStigmella leucargyra (Meyrick, 1906)\nStigmella phyllanthina (Meyrick, 1906)\nStigmella symmora (Meyrick, 1906)\nThe following species are found in New Zealand:\n[Species found in North and South America]\nThe following species are found in North America:\nThe following species are found in South and Central America, but not in North America:"
+        },
+        {
+          "title": "Taxonomy (biology)",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taxonomy_%28biology%29",
+          "text": "In biology, taxonomy (from Ancient Greek  τάξις (taxis) 'arrangement' and  -νομία (-nomia) 'method') is the scientific study of naming, defining (circumscribing) and classifying groups of biological organisms based on shared characteristics. Modern approaches prioritize common ancestry and evolutionary relationships. Organisms are grouped into taxa (singular: taxon), and these groups are given a taxonomic rank; groups of a given rank can be aggregated to form a more inclusive group of higher rank, thus creating a taxonomic hierarchy. The principal ranks in modern use are domain, kingdom, phylum (division is sometimes used in botany in place of phylum), class, order, family, genus, and species. The Swedish botanist Carl Linnaeus is regarded as the founder of the current system of taxonomy, having developed a ranked system known as Linnaean taxonomy for categorizing organisms.\nWith advances in the theory, data and analytical technology of biological systematics, the Linnaean system has transformed into a system of modern biological classification intended to reflect the evolutionary relationships among organisms, both living and extinct.\n[Definition]\nThe exact definition of taxonomy varies from source to source, but the core of the discipline remains: the conception, naming, and classification of groups of organisms. As points of reference, recent definitions of taxonomy are presented below:\nTheory and practice of grouping individuals into species, arranging species into larger"
         }
       ]
     },
@@ -2833,8 +2903,86 @@
       "detail": "",
       "reason": "still pondering the Stigmella moth's classification system",
       "fallback": false
+    },
+    {
+      "time": "2026-11-19T23:04-05:00",
+      "move": "go",
+      "detail": "Olearia ilicifolia",
+      "reason": "Learn more about the moth's host plant!",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T23:07-05:00",
+      "move": "say",
+      "detail": "",
+      "reason": "Express wonder at Olearia ilicifolia's holly-ness!",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T23:09-05:00",
+      "move": "go",
+      "detail": "SEARCH: Taxonomy (biology)",
+      "reason": "Time for more maths and patterns!",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T23:13-05:00",
+      "move": "make",
+      "detail": "",
+      "reason": "Time for creation and self-expression!",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T23:14-05:00",
+      "move": "make",
+      "detail": "",
+      "reason": "inspired by Stigmella erysibodea's patterns",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T23:15-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "taxonomy is too fascinating already!",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T23:17-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true
+    },
+    {
+      "time": "2026-11-19T23:19-05:00",
+      "move": "think",
+      "detail": "",
+      "reason": "Lost in taxonomy's wonders.",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T23:23-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "see what else I can learn about taxonomy",
+      "fallback": false
+    },
+    {
+      "time": "2026-11-19T23:24-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true
+    },
+    {
+      "time": "2026-11-19T23:26-05:00",
+      "move": "go",
+      "detail": "EXTINCTION EVENT",
+      "reason": "Want to learn more about mass extinctions!",
+      "fallback": false
     }
   ],
   "sheet": {},
-  "sheet_history": []
+  "sheet_history": [],
+  "reflect_points": 14.0
 }
