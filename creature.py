@@ -519,7 +519,13 @@ Sum yourself up, briefly and in your own voice. Reply in JSON:
     except BrainError as e:
         print(f"(couldn't sum himself up: {e})")
         return
-    ident = {k: unwrap(r.get(k, ""))[:300] for k in ("innate", "who", "currently", "feeling")}
+    def flat(v):
+        if isinstance(v, list):
+            return ", ".join(plain(x) for x in v if plain(x))
+        if isinstance(v, dict):
+            return " ".join(str(x).strip() for x in v.values() if isinstance(x, str) and x.strip())
+        return unwrap(v)
+    ident = {k: flat(r.get(k, ""))[:300] for k in ("innate", "who", "currently", "feeling")}
     if len(ident["who"]) < 10:
         return
     ident["updated"] = now()
@@ -1892,10 +1898,11 @@ Reply in JSON:
 def wander(m):
     """One hour of Blip's life, then a nap if it's been a while."""
     fresh_start(m)
-    if not (m.get("identity") or {}).get("who"):
-        refresh_identity(m)
+    ident = m.get("identity") or {}
+    if not ident.get("who") or ident.get("who", "").startswith("'") or ident.get("innate", "").startswith("["):
+        refresh_identity(m)            # none yet, or a garbled one from before the fix
     if not m.get("purpose"):
-        learn_from_today(m)
+        learn_from_today(m, goal_only=True)
     awaken_senses(m)
     tire(m, -0.06)
     check_mail(m)
@@ -2612,13 +2619,29 @@ def day_review(m):
     return "\n".join(lines)
 
 
-def learn_from_today(m):
+def learn_from_today(m, goal_only=False):
     """PEPA (Liu et al. 2026): each night the agent reflects on its experiences and rewrites its own goals
     and rules - so it learns from failure without anyone scripting it. Blip keeps, drops or adds rules for
     himself, and writes (or revisits) his life goal."""
     current = m.get("lessons", [])
     numbered = "\n".join(f"{i}. {x['text']}" for i, x in enumerate(current, 1)) or "(none yet)"
     purpose = (m.get("purpose") or {}).get("text", "")
+    if goal_only:
+        try:
+            r = ask(f"""{who_am_i(m)}
+
+You haven't decided what your life is for yet. In one sentence, in your own words, what do you want your
+life to be about? Reply in JSON: {{"life_goal": "..."}}""", as_json=True, temperature=0.8, max_words=80)
+            goal = plain(r.get("life_goal", ""))[:240]
+        except BrainError as e:
+            print(f"(couldn't think about his life goal: {e})")
+            return
+        if len(goal) > 10:
+            m["purpose"] = {"text": goal, "made": today(), "before": ""}
+            print(f"   🧭 new life goal: {goal}")
+            remember(m, f"I decided what my life is for: {goal}", 0.9, source="purpose", importance=8)
+            save(m)
+        return
     try:
         r = ask(f"""{who_am_i(m)}
 

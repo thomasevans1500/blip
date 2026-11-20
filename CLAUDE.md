@@ -300,6 +300,11 @@ Remaining driver of "finding hidden connections": character.md line "finding the
 things nobody thought to connect" (Llama takes it literally) - REPLACED (Thomas chose) with "noticing sweet
 little things other people walk past". Avoid sheet lines about connections/threads/patterns: they turn into
 research missions.
+First clean session (2026-11-20, llama-2): no taxonomy; grew fond of a cicada (Cape York cherrynose) and
+daydreamed about it 3x - the Pino-style doting we wanted. Fixed after it: identity summary accepts lists /
+nested records (and a garbled one is redone at the next session start); rules are only written at night -
+the first session after a fresh start only writes the life goal (learn_from_today(goal_only=True)), since an
+empty day made him decide "today was boring".
 Also: quoted catchphrases in character.md become tics with small models ("oh dear" on every line) - avoid
 them; and the "old football seasons" line was removed at Thomas's request (no football obsession).
 Optional later: describe internet sources as places with atmosphere.
