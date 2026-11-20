@@ -145,7 +145,7 @@ full 29.89 > no reflection 26.88 > no refl/plan 25.64 > humans 22.95 > none 21.2
 retrieval misses, embellishment, overly formal & cooperative (instruction tuning). Without plans, agents
 repeat ("lunch at 12, 12:30 and 1pm") = Blip's loops.
 Agreed plan (one at a time): 1 reflection (DONE) -> 2 loose daily plan + react -> 3 importance + embedding
-recall (nomic-embed-text via Ollama) -> 4 cached short "who I am" summary. (2 and 3 DONE too.)
+recall (nomic-embed-text via Ollama) -> 4 cached short "who I am" summary. (ALL 4 DONE.)
 
 ### 1. Reflection (DONE)
 `remember()` adds importance points (strength*8, 1-10) to memory["reflect_points"]; after a session, if
@@ -172,6 +172,18 @@ else strength*8). reflect_points add importance. `recall()` = Generative Agents 
 Ollama /api/embed, "search_query:"/"search_document:" prefixes), cached per run in _VECTORS (never stored -
 keeps memory.json small); if embedding fails, falls back to shared-word counts (_EMBED_OK). Workflow pulls
 nomic-embed-text; cache key includes it.
+
+### 4. Cached identity summary + emoji per move (DONE)
+Inspired by Smallville's persona files (innate / learned / currently) and master_movement.json (emoji per
+step). `refresh_identity` (no summary yet, after every nap, start of the nightly describe_self) -> memory
+["identity"] = {innate (3 words), who (2 sentences), currently, feeling}. who_am_i uses it instead of the long
+about + self notes + subjects/bored/made lists (prompt ~23% shorter); falls back to the long version before
+the first summary. relevant_opinions shows 3. Move JSON "emoji" -> `clean_emoji` (emoji chars only, max 8)
+-> stored on each move (fallbacks inherit the last emoji). Site: emoji in feed + big in Right now; About me
+shows innate/who/currently/feeling.
+Repeat-search loophole (seen live: "SEARCH: taxonomy and mass extinctions" ~10x in 3 hours): `go` to a
+SEARCH/WORD/ASK/BOOKS/SPACE/link already in memory["recent_trips"] (last 8) finds "the same pages you've
+already seen" -> fizzle + extra staleness. RANDOM/NEWS/HN/ON THIS DAY are never blocked.
 
 ## Asking & building (2026-11-20) - so interests turn into action, not just reading
 Thomas: "if he's interested in trains, why doesn't he code a train simulator, or ask me to make one?"

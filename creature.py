@@ -1764,6 +1764,17 @@ Reply in JSON:
 
     if move == "go":
         go, via = choose_next(detail, (place or {}).get("links", []))
+        # Looking up the same thing again so soon just shows the same pages he's already seen
+        if go[0] not in ("RANDOM", "NEWS", "HACKER NEWS", "ON THIS DAY") and go[1]:
+            key = f"{go[0]}:{str(go[1]).lower().strip()}"
+            if key in m.get("recent_trips", []):
+                text = f"You look up {go[1]} again, but it's the same pages you've already seen. Nothing new there."
+                m["moves"][-1].update(fallback=True, reason=text)
+                m["log"].append({"type": "fizzled", "date": today(), "time": now(), "move": "go", "text": text})
+                feel(m, f"{detail} {reason}", extra_staleness=0.4)
+                print(f"   🌫️ {text}")
+                return
+            m["recent_trips"] = (m.get("recent_trips", []) + [key])[-8:]
         try:
             p = visit(go)
             if p is None:
