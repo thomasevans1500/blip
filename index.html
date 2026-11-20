@@ -110,6 +110,10 @@
   <section id="now-section"><h2>📍 Right now</h2><div id="now"></div></section>
   <section id="about-section"><h2>👋 About me</h2><div class="card about" id="about"></div></section>
   <section id="thoughts-section"><h2>🤔 Thinking out loud</h2><div id="thoughts"></div></section>
+  <section id="insights-section"><h2>💡 Things I've realised</h2>
+    <p class="muted">Every so often Blip stops, looks back over what's happened, and draws a conclusion.
+    Each realisation is built from his memories; deeper ones are built from earlier realisations.</p>
+    <div id="insights"></div></section>
   <section id="moves-section"><h2>🐾 What I did, move by move</h2>
     <p class="muted">Each move is one Blip chose, with his reason. Faded lines are him carrying on with what
     he was doing because nothing new had happened.</p>
@@ -255,6 +259,16 @@ function render(m) {
   if (activeP.length) $("projects").replaceChildren(...activeP.map(projectCard));
   else $("projects").replaceChildren(el("p", { class: "muted" }, "No projects right now. Blip starts one whenever it wants something."));
   if (pastP.length) $("projects-done").replaceChildren(el("details", {}, el("summary", {}, `Past projects (${pastP.length})`), pastP.map(projectCard)));
+
+  const memAll = [...((m.memory || {}).long || []), ...((m.memory || {}).short || [])];
+  const byId = Object.fromEntries(memAll.map(x => [x.id, x]));
+  const ins = memAll.filter(x => x.source === "insight").sort((a, b) => (b.born + b.id).localeCompare(a.born + a.id));
+  if (ins.length) $("insights").replaceChildren(...ins.slice(0, 12).map(x => el("div", { class: "card", style: "margin-bottom:10px" },
+    el("div", { style: "font-size:18px" }, (x.depth > 1 ? "💡💡 " : "💡 ") + x.text),
+    el("div", { class: "muted" }, `${niceDate(x.born)}${x.question ? " · wondering: " + x.question : ""}${x.depth > 1 ? " · a deeper realisation" : ""}`),
+    (x.evidence || []).length ? el("details", {}, el("summary", {}, `Because of ${x.evidence.length} memor${x.evidence.length === 1 ? "y" : "ies"}`),
+      el("ul", { class: "memlist" }, x.evidence.map(id => el("li", {}, byId[id] ? byId[id].text : "(a memory that has since faded)")))) : null)));
+  else hide("insights-section");
 
   const mv = [...(m.moves || [])].reverse().slice(0, 40);
   if (mv.length) {

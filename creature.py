@@ -38,6 +38,7 @@ MAX_LETTERS_PER_DAY = 2                                  # emails it can write t
 MAX_THOUGHTS = 200                                       # thinking-out-loud entries kept
 MAX_OPINIONS = 100                                       # opinions kept (least recently formed drop off)
 PORTRAIT_EVERY_DAYS = 7                                  # how often it's offered the chance to redraw itself
+REFLECT_AT = 150                                         # importance points that add up to a reflection (paper: 150)
 SHORT_ROOM, LONG_ROOM, FADED_ROOM = 40, 40, 200          # how much fits in each part of its memory
 SESSION_MINUTES = float(os.environ.get("BLIP_SESSION_MIN", "25"))  # how long each awake session lasts
 MOVE_SECONDS = 45                                        # roughly one move per this many seconds
@@ -201,6 +202,8 @@ def remember(m, text, strength=0.5, big=False, source=""):
         return
     mem = memory_store(m)
     item = _memory_item(text, max(strength, 1.0) if big else strength, source)
+    if source != "insight":                    # importance piles up until he stops to reflect
+        m["reflect_points"] = round(m.get("reflect_points", 0) + min(10, max(1, item["strength"] * 8)), 1)
     if big and _admit_long(m, item):
         return
     mem["short"].append(item)
@@ -1663,11 +1666,78 @@ def wander(m):
     tire(m, -0.06)
     check_mail(m)
     session(m)
+    if m.get("reflect_points", 0) >= REFLECT_AT:
+        reflect(m)
     last = m.get("last_nap")
     hours = ((datetime.datetime.now().astimezone() - datetime.datetime.fromisoformat(last)).total_seconds() / 3600
              if last else 99)
     if hours >= NAP_EVERY_HOURS - 0.25:
         nap(m)
+
+
+def reflect(m):
+    """Stepping back (Generative Agents, Park et al. 2023): from his recent memories he asks himself a few
+    big questions, then draws insights that cite the memories behind them. Insights become long-term
+    memories, so later reflections can build on them (a reflection tree)."""
+    mem = memory_store(m)
+    recent = sorted(mem["short"] + mem["long"], key=lambda x: x["born"] + x["id"])[-30:]
+    if len(recent) < 5:
+        return
+    numbered = "\n".join(f"{i}. {x['text']}" for i, x in enumerate(recent, 1))
+    print("💡 Stepping back to reflect...")
+    try:
+        q = ask(f"""{who_am_i(m)}
+
+Things you remember from lately:
+{numbered}
+
+Given only the things above, what are the 3 most important big questions you could answer about
+yourself and your world? Reply in JSON: {{"questions": ["...", "...", "..."]}}""", as_json=True, max_words=120)
+    except BrainError as e:
+        print(f"(couldn't gather his thoughts: {e})")
+        return
+    questions = [str(x).strip() for x in as_list(q.get("questions")) if len(str(x).strip()) > 5][:3]
+    made = []
+    for question in questions:
+        related = recall(m, context=question, n=8)
+        pool = list({x["id"]: x for x in related + recent[-8:]}.values())[:12]
+        listing = "\n".join(f"{i}. {x['text']}" for i, x in enumerate(pool, 1))
+        try:
+            r = ask(f"""{who_am_i(m, context=question)}
+
+You're wondering: {question}
+
+Things you remember that might help:
+{listing}
+
+What do these tell you? Write up to 2 insights about yourself or your world, in your own voice,
+each in one short sentence, and say which memories (by number) they come from.
+Reply in JSON: {{"insights": [{{"insight": "...", "because": [1, 3]}}]}}""", as_json=True, max_words=150)
+        except BrainError:
+            continue
+        for ins in as_list(r.get("insights"))[:2]:
+            if not isinstance(ins, dict):
+                continue
+            text = unwrap(ins.get("insight", ""))[:300]
+            idx = [int(i) for i in as_list(ins.get("because")) if str(i).strip().isdigit()]
+            evidence = [pool[i - 1] for i in idx if 1 <= i <= len(pool)]
+            if len(text) < 10 or not evidence or any(text.lower() == x["text"].lower() for x in mem["long"]):
+                continue
+            item = _memory_item(text, 1.3, "insight")
+            item["question"] = question[:200]
+            item["evidence"] = [x["id"] for x in evidence]
+            item["depth"] = 1 + max(x.get("depth", 0) for x in evidence)
+            if not _admit_long(m, item):
+                mem["short"].append(item)
+            for x in evidence:                     # the memories behind an insight matter more now
+                x["strength"] = round(x["strength"] + 0.1, 3)
+            made.append(item)
+            print(f"   💡 {text}  (because of {len(evidence)} memories{', a reflection on reflections' if item['depth'] > 1 else ''})")
+    m["reflect_points"] = 0
+    m["log"].append({"type": "reflected", "date": today(), "time": now(),
+                     "questions": questions, "insights": [x["text"] for x in made]})
+    feel(m, " ".join(x["text"] for x in made) or "reflecting")
+    save(m)
 
 
 def nap(m):
@@ -1682,6 +1752,9 @@ def nap(m):
     print(f"😴 Napping... {moved} memories settled into long term, {forgotten} faded away.")
     mem = memory_store(m)
     lately = "\n".join(f"- {x['text']}" for x in mem["short"][-10:]) or "- nothing much"
+    insights = [x["text"] for x in mem["long"] + mem["short"] if x.get("source") == "insight"][-5:]
+    if insights:
+        lately += "\nThings you've realised about yourself lately:\n" + "\n".join(f"- {t}" for t in insights)
     mine = {sec: [x["text"] for x in items] for sec, items in m.get("sheet", {}).items() if items}
     try:
         r = ask(f"""{who_am_i(m, context=lately)}
@@ -2181,6 +2254,8 @@ def diary(m):
             lines.append(f"- Chatted with my human. They said: {e['you']} / I said: {e['me']}")
         elif e["type"] == "pondered":
             lines.append(f"- Stayed in and thought about {e['topic']}. Conclusion: {e['conclusion']}")
+        elif e["type"] == "reflected":
+            lines.append("- Stopped to reflect and realised: " + ("; ".join(e["insights"]) or "nothing yet"))
         elif e["type"] == "asked":
             lines.append(f"- Asked my human: {e['text']}")
         elif e["type"] == "request closed":

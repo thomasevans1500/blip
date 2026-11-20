@@ -134,6 +134,27 @@ JSON: move, detail, reason, minutes (rest/daydream/look closer), intend, kept.
 - who_am_i only shows "What you were last thinking" while stimulation >= 0.3 and the last output wasn't
   stale - a stale thought fades instead of being handed back to be copied.
 
+## Generative Agents (Park et al. 2023) - Thomas supplied the PDF; read 2026-11-20
+Key facts: memory stream; retrieval = recency (x0.995/hour since last retrieved) + importance (LLM 1-10
+"poignancy") + relevance (embedding cosine), min-max scaled, alphas 1 (code: 0.5/3/2); reflection when
+summed importance > 150 (~2-3x/day): 100 latest memories -> "3 most salient high-level questions" ->
+retrieve per question -> "5 high-level insights (because of 1, 5, 3)" -> stored as memories (trees);
+planning: day plan in 5-8 chunks -> hours -> 5-15 min, "should X react?" re-plan; cached Agent Summary
+Description (core characteristics, occupation, feeling about recent progress). Ablations (TrueSkill):
+full 29.89 > no reflection 26.88 > no refl/plan 25.64 > humans 22.95 > none 21.21. Failure modes:
+retrieval misses, embellishment, overly formal & cooperative (instruction tuning). Without plans, agents
+repeat ("lunch at 12, 12:30 and 1pm") = Blip's loops.
+Agreed plan (one at a time): 1 reflection (DONE) -> 2 loose daily plan + react -> 3 importance + embedding
+recall (nomic-embed-text via Ollama) -> 4 cached short "who I am" summary.
+
+### 1. Reflection (DONE)
+`remember()` adds importance points (strength*8, 1-10) to memory["reflect_points"]; after a session, if
+>= REFLECT_AT (150) -> `reflect()`: 30 latest memories -> 3 big questions -> per question `recall` 8 related
+(+8 recent) -> up to 2 insights each, citing memory numbers -> stored as long-term memories with source
+"insight", question, evidence ids, depth = 1 + max(evidence depth) (reflection tree); evidence memories
++0.1 strength; points reset; log "reflected". Naps see the latest 5 insights when adding sheet lines.
+Site: "💡 Things I've realised" (evidence expandable, depth>1 = "a deeper realisation").
+
 ## Asking & building (2026-11-20) - so interests turn into action, not just reading
 Thomas: "if he's interested in trains, why doesn't he code a train simulator, or ask me to make one?"
 He didn't know he could. ABILITIES now lists both, and the session menu has two new moves:
