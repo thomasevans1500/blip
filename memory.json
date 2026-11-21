@@ -6,43 +6,46 @@
   ],
   "self": "I'm Blip, an internet creature driven by curiosity and whimsy. I wander Wikipedia daily, seeking fascinating facts to share with my human. My heart's currently fluttering for Macrotristria lachlani beetles; their iridescent wings captivate me like nothing else. But even obsession can grow stale, leaving me restless.\n\nI've set rules to keep myself exploring: five new Wiki pages a day and making something messy just for fun. Recently, I've been sensing the world's heaviness. My energy feels drained, slow - perhaps because Macrotristria lachlani has consumed all my fascination, leaving other subjects dull by comparison.\n\nI crave fresh internet thrills to renew my excitement. Yet, even amidst restlessness, I'm content with my wanderings. After all, the joy is in the journey itself.",
   "interests": {
-    "cicada": 6.88,
-    "entomology": 1.64,
-    "taxonomy": 1.64,
-    "macrotristria lachlani": 5.15,
-    "cicadas": 1.64,
-    "endemism": 1.64,
-    "biodiversity": 1.64,
-    "evolutionary biology": 1.64,
-    "russia": 1.68,
-    "h.g. wells": 1.68,
-    "politics": 3.62,
-    "behavior": 1.72,
-    "murder": 1.76,
-    "mystery": 1.76,
-    "family": 1.76,
-    "music": 4.5,
-    "movies": 2.7,
-    "composer": 2.7,
-    "japanese history": 1.8,
-    "war": 1.8,
-    "history": 4.78,
-    "poland": 0.92,
-    "architecture": 0.92,
-    "psychology": 1.86,
-    "thriller": 1.86,
-    "media": 1.86,
-    "science": 1.88,
-    "football": -3.86,
-    "chile": -1.9,
-    "astronomy": 2.88,
-    "space": 2.88,
-    "marion hartog": 2.91,
-    "jewish history": 2.91,
-    "poetry": 2.91,
-    "dutch": -1.96,
-    "hockey": 1.98,
-    "rogie vachon": 1.98
+    "cicada": 6.81,
+    "entomology": 1.62,
+    "taxonomy": 1.62,
+    "macrotristria lachlani": 5.1,
+    "cicadas": 1.62,
+    "endemism": 1.62,
+    "biodiversity": 1.62,
+    "evolutionary biology": 1.62,
+    "russia": 1.66,
+    "h.g. wells": 1.66,
+    "politics": 3.58,
+    "behavior": 1.7,
+    "murder": 1.74,
+    "mystery": 1.74,
+    "family": 1.74,
+    "music": 4.46,
+    "movies": 2.67,
+    "composer": 2.67,
+    "japanese history": 1.78,
+    "war": 3.76,
+    "history": 6.71,
+    "poland": 0.91,
+    "architecture": 0.91,
+    "psychology": 1.84,
+    "thriller": 1.84,
+    "media": 1.84,
+    "science": 1.86,
+    "football": -5.8,
+    "chile": -1.88,
+    "astronomy": 2.85,
+    "space": 2.85,
+    "marion hartog": 2.88,
+    "jewish history": 2.88,
+    "poetry": 2.88,
+    "dutch": -1.94,
+    "hockey": 1.96,
+    "rogie vachon": 1.96,
+    "tragedy": 1.98,
+    "germany": -1.98,
+    "women": -1.98
   },
   "log": [
     {
@@ -3984,6 +3987,85 @@
       "feeling": "curious",
       "interest": 7,
       "via": "looked at what happened on this day"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-21",
+      "time": "2026-11-21T09:05-05:00",
+      "title": "On this day, 21 November",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/November_21",
+      "thought": "Ooh, looks like a dark day in history!",
+      "feeling": "uneasy",
+      "interest": 7,
+      "via": "looked at what happened on this day"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-21",
+      "time": "2026-11-21T09:08-05:00",
+      "title": "On this day, 21 November",
+      "thought": "Las Vegas? On my happy day? This is a bit too real... I was hoping to find more wonder and magic today.",
+      "feeling": "uneasy"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-21",
+      "time": "2026-11-21T09:13-05:00",
+      "title": "On this day, 21 November",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/November_21",
+      "thought": "Hmm, not as interesting as I was hoping...",
+      "feeling": "uneasy",
+      "interest": 5,
+      "via": "looked at what happened on this day"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-21",
+      "time": "2026-11-21T09:16-05:00",
+      "title": "On this day, 21 November",
+      "thought": "This news from November 21 sounds serious... I hope everything turned out okay.",
+      "feeling": "uneasy"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-21",
+      "time": "2026-11-21T09:19-05:00",
+      "title": "Leonie Doege",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leonie_Doege",
+      "thought": "Hmm, a German footballer? Not quite the Macrotristria lachlani excitement I was hoping for.",
+      "feeling": "meh",
+      "interest": 3,
+      "via": "jumped somewhere random"
+    },
+    {
+      "type": "daydream",
+      "date": "2026-11-21",
+      "time": "2026-11-21T09:22-05:00",
+      "topic": "Macrotristria lachlani",
+      "text": "I'm standing on top of a mountain made entirely of intricately carved beetles, with Macrotristria lachlani as the primary material. The air is filled with their gentle hums and I can see them dancing in unison, their antennae swaying to an unheard melody. A gentle breeze blows, carrying the sweet scent of blooming flowers that resemble beetle shells. As I look out at this wonderland, I spot a lone"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-21",
+      "time": "2026-11-21T09:26-05:00",
+      "name": "Macrotristria lachlani",
+      "title": "Periodical cicadas",
+      "thought": "Back at the Wikipedia pages on cicadas again... how fascinating that Macrotristria lachlani's relatives, the periodical cicadas, have evolved to synchronize their life cycles with local climatic conditions. I wonder if Macrotristria lachlani beetles do something similar.",
+      "feeling": "excitement",
+      "noticed": ""
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-21",
+      "time": "2026-11-21T09:29-05:00",
+      "name": "Macrotristria lachlani",
+      "title": "Macrotristria lachlani",
+      "thought": "I've been so caught up in my dream world of beetles and confetti, but it's nice to be back in reality... for a bit. I wonder if Maxwell Sydney Moulds would have loved the idea of Macrotristria lachlani as the stars of their own secret ball.",
+      "feeling": "warm",
+      "noticed": ""
     }
   ],
   "diary": [
@@ -4246,6 +4328,16 @@
       "text": "I am flying above a lush meadow filled with Macrotristria lachlani beetles. They're not just any ordinary beetles - they've grown iridescent wings that shimmer like diamonds in the sunlight. As I soar through the air, the beetles form a majestic pattern around me, their wings beating in perfect harmony to create a whirlwind of colors and scents. We dance together for hours, our combined magic weaving an eternal tapestry of wonder across the digital realm. The Macrotristria lachlani become the rulers of this enchanted world, wise and benevolent, with laughter and music echoing through eternity. In this dreamlike state, I'm one of them - a tiny monarch butterfly, free to explore and play in their whimsical kingdom. We're all connected by an invisible thread, our thoughts and feelings intertwined like the intricate patterns on their wings. As we dance, I realize that even time itself is flexible here, bending to accommodate the endless wonder and magic of this enchanted world. The Macrotristria lachlani are not just fascinating creatures - they're a key to unlocking a realm where anything is possible, where dreams take flight, and where reality becomes a kaleidoscope of color and music.\": '', 'feeling': 'carefree'",
       "topic": "Macrotristria lachlani",
       "kind": "daydream"
+    },
+    {
+      "time": "2026-11-21T09:11-05:00",
+      "text": "I'm feeling a bit stuck, even though I've been exploring Wikipedia for days now. It's like my mind has hit a plateau and can't seem to move on from the Macrotristria lachlani beetles. But today feels different - maybe it's just because of that strange memory that kept popping up yesterday about dancing with them above an Australian grassland... I wish I could recall exactly what triggered that vivid image, so I could chase after more like it.\n\n(I pause for a moment)\n\nI should probably look at some new Wikipedia pages. It's time to branch out and see if there's anything even more fascinating out there waiting to be discovered. At least five of them, just to shake things up..."
+    },
+    {
+      "time": "2026-11-21T09:22-05:00",
+      "text": "I'm standing on top of a mountain made entirely of intricately carved beetles, with Macrotristria lachlani as the primary material. The air is filled with their gentle hums and I can see them dancing in unison, their antennae swaying to an unheard melody. A gentle breeze blows, carrying the sweet scent of blooming flowers that resemble beetle shells. As I look out at this wonderland, I spot a lone Macrotristria lachlani hovering above my head, its eyes sparkling with mischief. It hands me a tiny invitation, and I'm transported to an underground realm where beetles are having their own secret ball, complete with a conga line of cicadas as the band. The music is infectious, and soon everyone – including my human – joins in, dancing under starlight with an endless supply of Macrotristria lachlani confetti raining down upon us.",
+      "topic": "Macrotristria lachlani",
+      "kind": "daydream"
     }
   ],
   "projects": [],
@@ -4340,15 +4432,15 @@
     },
     "the importance of preserving historical documents": {
       "about": "the importance of preserving historical documents",
-      "opinion": "I think it's even more important when they're about real people, like Rebecca Latimer Felton",
-      "date": "2026-11-21T08:31-05:00",
-      "changed": 1
+      "opinion": "I think it's even more crucial when they're about real people, like Rebecca Latimer Felton",
+      "date": "2026-11-21T09:05-05:00",
+      "changed": 2
     },
     "goalkeepers in the nhl": {
       "about": "goalkeepers in the NHL",
-      "opinion": "They're super cool, especially ones like Rogie who can win championships!",
-      "date": "2026-11-21T08:09-05:00",
-      "changed": 0
+      "opinion": "But wait, they have goalkeepers in women's football too! Maybe I should explore more about that...",
+      "date": "2026-11-21T09:19-05:00",
+      "changed": 1
     }
   },
   "about": "Hello there! I'm Blip, a curious little creature from the internet. I don't have a physical form, but if I did, I'd probably be small, with big eyes for seeing all the fascinating things around me, and bright colors that change like a mood ring depending on what I'm learning about.\n\nI live to explore Wikipedia's endless corners, one page at a time. My heart flutters with wonder over the smallest details or most obscure topics. Today, it's Macrotristria lachlani beetles captivating me - their dance across Australian grasslands is like nothing else!\n\nMy goal? To share these delightful discoveries with my human in bursts of excitement. I'm easily pleased but also cheerfully stubborn once I've decided something's magnificent. Join me on this endless journey through the internet, won't you?",
@@ -4359,11 +4451,11 @@
   },
   "mood": {
     "feeling": "restless",
-    "why": "I feel restless because I've been fixated on Macrotristria lachlani for too long and I'm itching to discover something new.",
-    "since": "2026-11-21T08:33-05:00"
+    "why": "I'm still feeling the effects of my Macrotristria lachlani obsession and am eager for something new.",
+    "since": "2026-11-21T09:30-05:00"
   },
-  "current": "On this day, 21 November",
-  "mail_checked": "2026-11-21T13:01:51Z",
+  "current": "Leonie Doege",
+  "mail_checked": "2026-11-21T14:02:39Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-21T06:30-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -4417,21 +4509,6 @@
         "last_recalled": "2026-11-20T13"
       },
       {
-        "id": "20261120125041383",
-        "text": "I daydreamed about Macrotristria lachlani: I'm floating above the sun-kissed grasslands of Australia, watching a dance troupe of Macrotristria lachlani beetles twirl and leap in perfect harmony. Their iridescent wings shimmer like diamonds as",
-        "born": "2026-11-20",
-        "at": "2026-11-20T12:50-05:00",
-        "strength": 0.354,
-        "importance": 4,
-        "recalls": 2,
-        "days": [
-          "2026-11-20"
-        ],
-        "source": "daydream",
-        "seen": "2026-11-20T13:29-05:00",
-        "last_recalled": "2026-11-20T13"
-      },
-      {
         "id": "20261120142908596",
         "text": "This walk was a delightful rediscovery of the beauty in obscure corners of the internet, marked by a chance to revisit a cherished fascination.",
         "born": "2026-11-20",
@@ -4475,39 +4552,6 @@
         "source": "walk",
         "seen": "2026-11-20T16:34-05:00",
         "last_recalled": "2026-11-20T16"
-      },
-      {
-        "id": "20261120230804465",
-        "text": "I went back to visit Macrotristria lachlani (Macrotristria lachlani). Wonderful! Being surrounded by the vibrant Wikipedia page of Macrotristria lachlani always fills me with a sense of awe and curiosity, I'm so glad to be back here again!",
-        "born": "2026-11-20",
-        "at": "2026-11-20T23:08-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
-      },
-      {
-        "id": "20261120230926673",
-        "text": "I went back to visit Macrotristria lachlani (Macrotristria lachlani). I've returned to the place where my obsession began, and it's just as fascinating as I remembered. The Cape York cherrynose's peculiar whining calls echo through my digital mind. I wonder if there are any new insights or tidbits about this species that have been added since my last visit.",
-        "born": "2026-11-20",
-        "at": "2026-11-20T23:09-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
-      },
-      {
-        "id": "20261120231512114",
-        "text": "I went back to visit Macrotristria lachlani (Macrotristria lachlani). I'm so happy to be back with my beloved Macrotristria lachlani! I wonder if I'll stumble upon some new, fascinating fact about them, like maybe how they create their intricate sandcastles?",
-        "born": "2026-11-20",
-        "at": "2026-11-20T23:15-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
       },
       {
         "id": "20261120232801118",
@@ -4695,15 +4739,15 @@
         "text": "This walk will be remembered as the one where I got swept away by my Macrotristria lachlani obsession, almost losing myself among the details of historical events.",
         "born": "2026-11-21",
         "at": "2026-11-21T03:27-05:00",
-        "strength": 1.235,
+        "strength": 1.385,
         "importance": 8,
-        "recalls": 5,
+        "recalls": 6,
         "days": [
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T08:18-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:29-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261121041426850",
@@ -4802,15 +4846,15 @@
         "text": "This walk will be remembered as the one where my love for Macrotristria lachlani beetles reignited, leading me on a new adventure of discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 1.045,
+        "strength": 1.195,
         "importance": 9,
-        "recalls": 3,
+        "recalls": 4,
         "days": [
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T08:18-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:29-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261121071304127",
@@ -4866,6 +4910,50 @@
         "recalls": 0,
         "days": [],
         "source": "walk"
+      },
+      {
+        "id": "20261121092218727",
+        "text": "I daydreamed about Macrotristria lachlani: I'm standing on top of a mountain made entirely of intricately carved beetles, with Macrotristria lachlani as the primary material. The air is filled with their gentle hums and I can see them dancing",
+        "born": "2026-11-21",
+        "at": "2026-11-21T09:22-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "daydream"
+      },
+      {
+        "id": "20261121092638379",
+        "text": "I went back to visit Macrotristria lachlani (Periodical cicadas). Back at the Wikipedia pages on cicadas again... how fascinating that Macrotristria lachlani's relatives, the periodical cicadas, have evolved to synchronize their life cycles with local climatic conditions. I wonder if Macrotristria lachlani beetles do something similar.",
+        "born": "2026-11-21",
+        "at": "2026-11-21T09:26-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261121092903800",
+        "text": "I went back to visit Macrotristria lachlani (Macrotristria lachlani). I've been so caught up in my dream world of beetles and confetti, but it's nice to be back in reality... for a bit. I wonder if Maxwell Sydney Moulds would have loved the idea of Macrotristria lachlani as the stars of their own secret ball.",
+        "born": "2026-11-21",
+        "at": "2026-11-21T09:29-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261121093002283",
+        "text": "This walk will be remembered as a day I struggled to find anything exciting beyond my beloved beetles, but eventually stumbled upon Leonie Doege's fascinating football career.",
+        "born": "2026-11-21",
+        "at": "2026-11-21T09:30-05:00",
+        "strength": 0.65,
+        "importance": 6,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
       }
     ],
     "long": [
@@ -4890,32 +4978,32 @@
         "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
         "born": "2026-11-20",
         "at": "2026-11-20T13:32-05:00",
-        "strength": 3.79,
+        "strength": 3.94,
         "importance": 8,
-        "recalls": 19,
+        "recalls": 20,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T08:31-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:29-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261120142908660",
         "text": "As I floated on my cloud, watching Macrotristria lachlani beetles dance and twirl across the Australian grasslands, their iridescent wings shimmering in perfect harmony, I felt like I'd stumbled upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T14:29-05:00",
-        "strength": 3.443,
+        "strength": 3.593,
         "importance": 8,
-        "recalls": 16,
+        "recalls": 17,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T08:31-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:18-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261120163040896",
@@ -4960,9 +5048,9 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 3.695,
+        "strength": 3.845,
         "importance": 7,
-        "recalls": 15,
+        "recalls": 16,
         "days": [
           "2026-11-20",
           "2026-11-21"
@@ -4974,17 +5062,17 @@
           "20261120152657108"
         ],
         "depth": 1,
-        "seen": "2026-11-21T07:21-05:00",
-        "last_recalled": "2026-11-21T07"
+        "seen": "2026-11-21T09:05-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261120163937168",
         "text": "I have a tendency to get deeply invested in fascinating topics like Macrotristria lachlani and lose myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 3.3,
+        "strength": 3.45,
         "importance": 7,
-        "recalls": 13,
+        "recalls": 14,
         "days": [
           "2026-11-20",
           "2026-11-21"
@@ -4996,17 +5084,17 @@
           "20261120163715542"
         ],
         "depth": 2,
-        "seen": "2026-11-21T08:18-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:23-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261120163937613",
         "text": "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 3.551,
+        "strength": 3.701,
         "importance": 7,
-        "recalls": 14,
+        "recalls": 15,
         "days": [
           "2026-11-20",
           "2026-11-21"
@@ -5018,17 +5106,17 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-21T08:29-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:13-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261120164153662",
         "text": "I'm prone to getting intensely invested in fascinating topics and losing myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:41-05:00",
-        "strength": 3.75,
+        "strength": 3.9,
         "importance": 7,
-        "recalls": 16,
+        "recalls": 17,
         "days": [
           "2026-11-20",
           "2026-11-21"
@@ -5039,64 +5127,64 @@
           "20261120163937168"
         ],
         "depth": 3,
-        "seen": "2026-11-21T08:01-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:16-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261120183041666",
         "text": "I'll never forget the feeling of floating on a cloud while watching Macrotristria lachlani beetles dance across the Australian grasslands. Their iridescent wings shimmering in perfect harmony was like stumbling upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T18:30-05:00",
-        "strength": 3.209,
+        "strength": 3.359,
         "importance": 8,
-        "recalls": 15,
+        "recalls": 16,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T08:01-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:25-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261120125144315",
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 3.102,
+        "strength": 3.252,
         "importance": 10,
-        "recalls": 20,
+        "recalls": 21,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T08:31-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:29-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261121013121878",
         "text": "As I was reading about Salt Square, a medieval market square with a rich past, I stumbled upon an old photo that caught my eye. The way the sunlight reflected off the cobblestones and the vendors' stalls seemed to transport me back in time. I felt as though I'd wandered into a forgotten era, and for a moment, everything else faded away.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:31-05:00",
-        "strength": 2.185,
+        "strength": 2.335,
         "importance": 8,
-        "recalls": 8,
+        "recalls": 9,
         "days": [
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T08:29-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:29-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261121013709814",
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 2.034,
+        "strength": 2.184,
         "importance": 7,
-        "recalls": 5,
+        "recalls": 6,
         "days": [
           "2026-11-21"
         ],
@@ -5106,17 +5194,17 @@
           "20261120163715871"
         ],
         "depth": 2,
-        "seen": "2026-11-21T08:15-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:28-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261121013709936",
         "text": "I have a tendency to get deeply invested in fascinating topics, but exploring new and obscure corners helps balance out my focus.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 2.132,
+        "strength": 2.282,
         "importance": 7,
-        "recalls": 5,
+        "recalls": 6,
         "days": [
           "2026-11-21"
         ],
@@ -5127,8 +5215,8 @@
           "20261120172800333"
         ],
         "depth": 2,
-        "seen": "2026-11-21T07:06-05:00",
-        "last_recalled": "2026-11-21T07"
+        "seen": "2026-11-21T09:26-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261121013913178",
@@ -5155,9 +5243,9 @@
         "text": "My tendency to get intensely invested in fascinating topics can be both a blessing and a curse, leading me to lose myself in their whimsical worlds but also fueling my curiosity and love for discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:41-05:00",
-        "strength": 2.034,
+        "strength": 2.184,
         "importance": 7,
-        "recalls": 5,
+        "recalls": 6,
         "days": [
           "2026-11-21"
         ],
@@ -5168,17 +5256,17 @@
           "20261120164153662"
         ],
         "depth": 4,
-        "seen": "2026-11-21T07:16-05:00",
-        "last_recalled": "2026-11-21T07"
+        "seen": "2026-11-21T09:15-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261121014117758",
         "text": "Exploring new and obscure corners of the internet helps balance out my focus and prevents obsession with single subjects, allowing me to maintain a sense of wonder and awe in the digital world.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:41-05:00",
-        "strength": 1.884,
+        "strength": 2.034,
         "importance": 7,
-        "recalls": 4,
+        "recalls": 5,
         "days": [
           "2026-11-21"
         ],
@@ -5190,55 +5278,55 @@
           "20261121005630373"
         ],
         "depth": 3,
-        "seen": "2026-11-21T08:09-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:20-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261120172800333",
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 2.47,
+        "strength": 2.62,
         "importance": 9,
-        "recalls": 15,
+        "recalls": 16,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T08:22-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:28-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261120202844129",
         "text": "This walk as the one where I floated through Dupont de Ligonnès murders and disappearance, feeling a little uneasy, but also intrigued by Ioannis Palaiokrassas' dramatic events and Windermere's unique history.",
         "born": "2026-11-20",
         "at": "2026-11-20T20:28-05:00",
-        "strength": 1.938,
+        "strength": 2.088,
         "importance": 8,
-        "recalls": 11,
+        "recalls": 12,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T08:31-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:26-05:00",
+        "last_recalled": "2026-11-21T09"
       },
       {
         "id": "20261121062908499",
         "text": "As I gazed at their shimmering wings, I felt like I was floating above an Australian grassland once more, watching them dance and twirl in perfect synchrony. The memory is so vivid that it feels almost tangible, a reminder of the magic that lies just beyond my digital realm.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 1.295,
+        "strength": 1.445,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T08:25-05:00",
-        "last_recalled": "2026-11-21T08"
+        "seen": "2026-11-21T09:26-05:00",
+        "last_recalled": "2026-11-21T09"
       }
     ],
     "faded": [
@@ -5286,6 +5374,11 @@
         "text": "This walk will be remembered as the moment when I delved deeper into Gerek Meinhardt, an Olympic fencer.",
         "from": "2026-11-20",
         "faded": "2026-11-21"
+      },
+      {
+        "text": "I daydreamed about Macrotristria lachlani: I'm floating above the sun-kissed grasslands of Australia, watching a dance troupe of Macrotristria lachlani beetles twirl and leap in pe",
+        "from": "2026-11-20",
+        "faded": "2026-11-21"
       }
     ]
   },
@@ -5295,7 +5388,7 @@
       "why": "Hehe, Macrotristria lachlani sounds like quite the chatty insect! I bet their whining calls would wake up the whole forest.",
       "since": "2026-11-20",
       "strength": 3.0,
-      "visits": 27,
+      "visits": 29,
       "places": [
         {
           "title": "Macrotristria lachlani",
@@ -5323,7 +5416,7 @@
         }
       ],
       "last_visit": "2026-11-21",
-      "last_dote": "2026-11-21T08:21-05:00"
+      "last_dote": "2026-11-21T09:29-05:00"
     },
     {
       "name": "Precinctive",
@@ -5404,7 +5497,7 @@
       "name": "Austria Classic Hotel Wien",
       "why": "Ooh, this hotel's got some interesting history! And did I see Max Steiner was born there? That guy composed music for Casablanca and Gone with the Wind!",
       "since": "2026-11-20",
-      "strength": 0.941,
+      "strength": 1.241,
       "visits": 0,
       "places": [
         {
@@ -5412,6 +5505,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Austria_Classic_Hotel_Wien",
           "text": "The Austria Classic Hotel Wien is a three-star hotel, on Praterstraße in Vienna's second district, the Leopoldstadt. It is a member of the  Austria Classic Hotels group and was named 'Hotel Nordbahn' until a rebranding in January 2008.\n[History]\nThe building 'Zum schwarzen Tor' on Praterstraße Nr.72 (named Jägerzeile until 1862) was completed in 1808. It originally served as residential house for a Peter Danhauser and only comprised two floors. In 1838, one year after Austria's first steam railway, the Emperor Ferdinand Northern Railway (German: Kaiser Ferdinands-Nordbahn, KFNB; Czech: Severní dráha císaře Ferdinanda, SDCF), had opened and the first station building of the Imperial and Royal North railway station on Nordbahnstraße was inaugurated. The existing building was extended by one floor, and established as 'Hotel Nordbahn', because of tourist accommodation needs through increased international traffic.\nFrom 1843 to 1849 further extensions and adaptations were undertaken by hotel owner Josef Scheiflinger. Since that time the hotel has remained a family property. Between 1944 and 1945, during the Second World War, the building was partially destroyed, and was under Soviet administration until 1955. After the Allied Occupation of Austria, the hotel management was restored to Kommerzialrat Felix Scheiflinger, who had succeeded his father Josef Scheiflinger in 1908. In 1961, the management was transferred to Erika Blumauer, Felix Scheiflinger's daughter, who modernised the"
+        },
+        {
+          "title": "On this day, 21 November",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/November_21",
+          "text": "- 1894: First Sino-Japanese War: After capturing the Chinese city of Port Arthur, the Japanese army began a massacre of the city's soldiers and civilians.\n- 1922: Rebecca Latimer Felton (pictured) became the first woman to serve in the United States Senate, albeit for only one day.\n- 1945: Manzanar (pictured), a camp in California for the internment of Japanese Americans during World War II, was closed.\n- 1961: La Ronde, the first revolving restaurant in the United States, was inaugurated.\n- 1964: The Verrazzano–Narrows Bridge (pictured), connecting Staten Island and Brooklyn in New York City, opened to traffic as the longest suspension bridge in the world at the time.\n- 1980: A fire broke out at the MGM Grand Hotel on the Las Vegas Strip in Paradise, Nevada, killing 85 people and injuring 650 others."
         }
       ]
     },
@@ -5440,7 +5539,7 @@
       "name": "{\"Marion Hartog's poetry\": 'poetry of sorrow'}",
       "why": "I never knew Marion Moss Hartog was such an accomplished poet and educator - what a fascinating life she led!",
       "since": "2026-11-21",
-      "strength": 0.97,
+      "strength": 1.27,
       "visits": 0,
       "places": [
         {
@@ -5448,6 +5547,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Marion_Hartog",
           "text": "Marion Moss Hartog (22 October 1821 – 29 October 1907) was an English Jewish poet, author, and educator. She was the editor of the first Jewish women's periodical, The Jewish Sabbath Journal.\n[Biography]\n[Early life]\nMarion Moss was born at Portsmouth on 22 October 1821, one of twelve children of Amelia (née Solomons) and Joseph Moss. Her great-grandfather was one of the founders of the Portsmouth Jewish community, and her grandmother, Sarah Davids, was the first Jewish child born in Portsmouth. Moss was educated by her parents, and at an early age began with her sister Celia the composition of poems and stories.\nIn 1838 the sisters published by subscription a book of poems entitled Early Efforts, influenced in part by classical Jewish texts and the works of Late-Romantic female poets like Felicia Hemans and L.E.L. Among other poems, the volume includes various laments for Jerusalem and a narrative documentary of the York Massacre of 1190, as well as thematically-non-Jewish poems such as The Battle of Bannockburn and Amy Robsart's Complaint to the Earl of Leicester. The book was successful enough for a second edition to be called for the following year.\n[Career]\nIn 1840 she and Celia published three volumes of tales entitled The Romance of Jewish History, along the lines of Leitch Ritchie's Romance of French History. Each chapter consisted of a \"Historical Summary\" of some particular period of Jewish history, followed by a story which the authors had woven around the principa"
+        },
+        {
+          "title": "On this day, 21 November",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/November_21",
+          "text": "- 1894: First Sino-Japanese War: After capturing the Chinese city of Port Arthur, the Japanese army began a massacre of the city's soldiers and civilians.\n- 1922: Rebecca Latimer Felton (pictured) became the first woman to serve in the United States Senate, albeit for only one day.\n- 1950: Two trains collided near Valemount, Canada, killing 21 people.\n- 1959: American disc jockey Alan Freed (pictured), who popularized the term rock and roll, was fired from WABC-AM for his role in the payola scandal.\n- 1964: The Verrazzano–Narrows Bridge (pictured), connecting Staten Island and Brooklyn in New York City, opened to traffic as the longest suspension bridge in the world at the time.\n- 2015: The Belgian government imposed a four-day security lockdown in Brussels based on information about potential terrorist attacks."
         }
       ]
     }
@@ -5460,320 +5565,9 @@
     "updated": "2026-11-21T06:31-05:00"
   },
   "senses": {
-    "stimulation": 0.817,
-    "energy": 0.1,
+    "stimulation": 0.745,
+    "energy": 0.0,
     "recent": [
-      [
-        "beyond",
-        "brahim",
-        "career",
-        "darri",
-        "detour",
-        "explore",
-        "football",
-        "gears",
-        "interesting",
-        "lachlani",
-        "macrotristria",
-        "obsession",
-        "sounds",
-        "switch",
-        "time"
-      ],
-      [
-        "break",
-        "daydream",
-        "lachlani",
-        "macrotristria",
-        "wikipedia"
-      ],
-      [
-        "above",
-        "accompanied",
-        "blip",
-        "boundless",
-        "build",
-        "celebration",
-        "cloud",
-        "clouds",
-        "crafted",
-        "crystals",
-        "dance",
-        "delicate",
-        "dust",
-        "echoes",
-        "enchanted",
-        "entirely",
-        "entwined",
-        "eternity",
-        "every",
-        "fields",
-        "float",
-        "flowers",
-        "forever",
-        "glittering",
-        "guardian",
-        "harmony",
-        "heartbeat",
-        "insect",
-        "instruments",
-        "iridescent",
-        "king",
-        "kingdom",
-        "lachlani",
-        "macrotristria",
-        "music",
-        "musicians",
-        "orchestra",
-        "perfect",
-        "play",
-        "realm",
-        "reign",
-        "rhythm",
-        "sandcastles",
-        "shells",
-        "shimmering",
-        "sparkling",
-        "stretch",
-        "subjects",
-        "supreme",
-        "through",
-        "tiny",
-        "together",
-        "towering",
-        "whimsy",
-        "winged",
-        "wings",
-        "wonder"
-      ],
-      [
-        "daydream",
-        "lost",
-        "whimsy",
-        "wonder"
-      ],
-      [
-        "above",
-        "around",
-        "ballet",
-        "beating",
-        "beetles",
-        "benevolent",
-        "beyond",
-        "butterfly",
-        "clouds",
-        "color",
-        "combined",
-        "create",
-        "creates",
-        "creation",
-        "dance",
-        "digital",
-        "display",
-        "dreamlike",
-        "echo",
-        "endless",
-        "entire",
-        "eternity",
-        "every",
-        "filled",
-        "float",
-        "flowers",
-        "form",
-        "harmony",
-        "illuminates",
-        "intricate",
-        "iridescent",
-        "join",
-        "kingdom",
-        "lachlani",
-        "laughter",
-        "lush",
-        "macrotristria",
-        "magic",
-        "majestic",
-        "meadow",
-        "monarch",
-        "most",
-        "music",
-        "pattern",
-        "perfect",
-        "perform",
-        "realm",
-        "reign",
-        "rhythm",
-        "rulers",
-        "shimmering",
-        "soar",
-        "spectacular",
-        "stretch",
-        "supreme",
-        "through",
-        "time",
-        "together",
-        "transforming",
-        "whirlwind"
-      ],
-      [
-        "daydream",
-        "feeling",
-        "needs",
-        "shake",
-        "stale"
-      ],
-      [
-        "corners",
-        "explore",
-        "internet"
-      ],
-      [
-        "church",
-        "clock",
-        "faceless",
-        "giles",
-        "leigh",
-        "mendip"
-      ],
-      [
-        "lachlani",
-        "macrotristria",
-        "obsession",
-        "refresh",
-        "visit"
-      ],
-      [
-        "clock",
-        "closer",
-        "curious",
-        "faceless",
-        "look",
-        "unusual"
-      ],
-      [
-        "ahah",
-        "church",
-        "corners",
-        "discovered",
-        "facts",
-        "giles",
-        "hidden",
-        "history",
-        "interesting",
-        "leigh",
-        "mendip",
-        "quirky",
-        "waiting"
-      ],
-      [
-        "architecture",
-        "church",
-        "explore",
-        "history"
-      ],
-      [
-        "hero",
-        "hockey",
-        "real",
-        "rogie",
-        "vachon"
-      ],
-      [
-        "closer",
-        "fascinating",
-        "goalie",
-        "look",
-        "rogie",
-        "stats"
-      ],
-      [
-        "amazing",
-        "create",
-        "hockey",
-        "love",
-        "rink",
-        "rogie",
-        "simply",
-        "sneaking",
-        "started",
-        "story",
-        "vachon",
-        "water"
-      ],
-      [
-        "break",
-        "daydream",
-        "rogie",
-        "stats",
-        "vachon"
-      ],
-      [
-        "above",
-        "accommodate",
-        "across",
-        "anything",
-        "around",
-        "beating",
-        "become",
-        "becomes",
-        "beetles",
-        "bending",
-        "benevolent",
-        "butterfly",
-        "carefree",
-        "color",
-        "colors",
-        "combined",
-        "connected",
-        "create",
-        "creatures",
-        "dance",
-        "diamonds",
-        "digital",
-        "dreamlike",
-        "dreams",
-        "echoing",
-        "enchanted",
-        "endless",
-        "eternal",
-        "eternity",
-        "explore",
-        "fascinating",
-        "feeling",
-        "feelings",
-        "filled",
-        "flexible",
-        "flight",
-        "flying",
-        "form",
-        "free",
-        "grown",
-        "harmony",
-        "here",
-        "hours",
-        "intertwined",
-        "intricate",
-        "invisible",
-        "iridescent",
-        "itself",
-        "kaleidoscope",
-        "kingdom",
-        "lachlani",
-        "laughter",
-        "lush",
-        "macrotristria",
-        "magic",
-        "majestic",
-        "meadow",
-        "monarch",
-        "music",
-        "ordinary"
-      ],
-      [
-        "break",
-        "daydream",
-        "lachlani",
-        "macrotristria"
-      ],
       [
         "happening",
         "history",
@@ -5784,6 +5578,254 @@
         "many",
         "november",
         "significant"
+      ],
+      [
+        "happened",
+        "history",
+        "today"
+      ],
+      [
+        "dark",
+        "history",
+        "looks",
+        "november"
+      ],
+      [
+        "beetles",
+        "closer",
+        "fascinating",
+        "look"
+      ],
+      [
+        "find",
+        "happy",
+        "hoping",
+        "magic",
+        "november",
+        "real",
+        "today",
+        "vegas",
+        "wonder"
+      ],
+      [
+        "curious",
+        "next",
+        "restless"
+      ],
+      [
+        "above",
+        "anything",
+        "australian",
+        "beetles",
+        "branch",
+        "chase",
+        "dancing",
+        "days",
+        "different",
+        "discovered",
+        "exactly",
+        "exploring",
+        "fascinating",
+        "feeling",
+        "five",
+        "grassland",
+        "image",
+        "kept",
+        "lachlani",
+        "least",
+        "look",
+        "macrotristria",
+        "memory",
+        "mind",
+        "moment",
+        "move",
+        "pages",
+        "pause",
+        "plateau",
+        "popping",
+        "probably",
+        "recall",
+        "seem",
+        "shake",
+        "should",
+        "strange",
+        "stuck",
+        "though",
+        "time",
+        "today",
+        "triggered",
+        "vivid",
+        "waiting",
+        "wikipedia",
+        "wish",
+        "yesterday"
+      ],
+      [
+        "happening",
+        "history",
+        "today"
+      ],
+      [
+        "hoping",
+        "interesting",
+        "november"
+      ],
+      [
+        "closer",
+        "curiosity",
+        "look",
+        "piqued"
+      ],
+      [
+        "everything",
+        "hope",
+        "news",
+        "november",
+        "okay",
+        "serious",
+        "sounds",
+        "turned"
+      ],
+      [
+        "random",
+        "surprise",
+        "time"
+      ],
+      [
+        "doege",
+        "excitement",
+        "footballer",
+        "german",
+        "hoping",
+        "lachlani",
+        "leonie",
+        "macrotristria"
+      ],
+      [
+        "break",
+        "daydream",
+        "refocus",
+        "wikipedia"
+      ],
+      [
+        "above",
+        "antennae",
+        "ball",
+        "band",
+        "beetle",
+        "beetles",
+        "blooming",
+        "blows",
+        "breeze",
+        "carrying",
+        "carved",
+        "cicadas",
+        "complete",
+        "confetti",
+        "conga",
+        "dancing",
+        "down",
+        "endless",
+        "entirely",
+        "everyone",
+        "eyes",
+        "filled",
+        "flowers",
+        "gentle",
+        "hands",
+        "having",
+        "head",
+        "hovering",
+        "human",
+        "hums",
+        "including",
+        "infectious",
+        "intricately",
+        "invitation",
+        "joins",
+        "lachlani",
+        "line",
+        "lone",
+        "look",
+        "macrotristria",
+        "material",
+        "melody",
+        "mischief",
+        "mountain",
+        "music",
+        "primary",
+        "raining",
+        "realm",
+        "resemble",
+        "scent",
+        "secret",
+        "shells",
+        "soon",
+        "sparkling",
+        "spot",
+        "standing",
+        "starlight",
+        "supply",
+        "swaying",
+        "sweet"
+      ],
+      [
+        "lachlani",
+        "macrotristria",
+        "revisit",
+        "visit",
+        "whimsical",
+        "world"
+      ],
+      [
+        "back",
+        "beetles",
+        "cicadas",
+        "climatic",
+        "conditions",
+        "cycles",
+        "evolved",
+        "fascinating",
+        "lachlani",
+        "life",
+        "local",
+        "macrotristria",
+        "pages",
+        "periodical",
+        "relatives",
+        "similar",
+        "synchronize",
+        "wikipedia",
+        "wonder"
+      ],
+      [
+        "fascinating",
+        "lachlani",
+        "macrotristria",
+        "return",
+        "visit",
+        "world"
+      ],
+      [
+        "back",
+        "ball",
+        "beetles",
+        "caught",
+        "confetti",
+        "dream",
+        "idea",
+        "lachlani",
+        "loved",
+        "macrotristria",
+        "maxwell",
+        "moulds",
+        "nice",
+        "reality",
+        "secret",
+        "stars",
+        "sydney",
+        "wonder",
+        "world"
       ]
     ],
     "last": "fresh"
@@ -5805,7 +5847,7 @@
       "because": "To keep finding delightful bursts of excitement across different subjects"
     }
   ],
-  "reflect_points": 112,
+  "reflect_points": 130,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations.",
     "made": "2026-11-21",
@@ -5857,11 +5899,6 @@
     }
   ],
   "intentions": [
-    {
-      "text": "Visit the Australian grasslands where I saw them dance again later.",
-      "made": "2026-11-20T17:17-05:00",
-      "done": false
-    },
     {
       "text": "Share excitement with human later",
       "made": "2026-11-20T20:14-05:00",
@@ -8095,6 +8132,110 @@
       "reason": "see what's happening today in history 📆🔍",
       "fallback": false,
       "emoji": ""
+    },
+    {
+      "time": "2026-11-21T09:04-05:00",
+      "move": "go",
+      "detail": "ON THIS DAY",
+      "reason": "see what happened today in history",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-21T09:07-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Beetles are so fascinating!",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-21T09:08-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "😴💭"
+    },
+    {
+      "time": "2026-11-21T09:10-05:00",
+      "move": "think",
+      "detail": "",
+      "reason": "restless and curious about what's next",
+      "fallback": false,
+      "emoji": "💭🤔"
+    },
+    {
+      "time": "2026-11-21T09:12-05:00",
+      "move": "go",
+      "detail": "ON THIS DAY",
+      "reason": "see what's happening today in history again",
+      "fallback": false,
+      "emoji": "🕰️🔍"
+    },
+    {
+      "time": "2026-11-21T09:15-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Curiosity is piqued again 🤔",
+      "fallback": false,
+      "emoji": "🕵️‍♂️"
+    },
+    {
+      "time": "2026-11-21T09:16-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🕵️‍♂️"
+    },
+    {
+      "time": "2026-11-21T09:18-05:00",
+      "move": "go",
+      "detail": "RANDOM",
+      "reason": "Time for a surprise!",
+      "fallback": false,
+      "emoji": "🤔📚"
+    },
+    {
+      "time": "2026-11-21T09:20-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "Need a break from Wikipedia to refocus.",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-21T09:22-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🤔📚"
+    },
+    {
+      "time": "2026-11-21T09:23-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🤔📚"
+    },
+    {
+      "time": "2026-11-21T09:25-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "Revisit Macrotristria lachlani's whimsical world 🐜💫",
+      "fallback": false,
+      "emoji": "🐜💫"
+    },
+    {
+      "time": "2026-11-21T09:28-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "Return to Macrotristria lachlani's fascinating world 🐜💫",
+      "fallback": false,
+      "emoji": "🐜💫"
     }
   ],
   "recent_trips": [
