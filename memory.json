@@ -6,21 +6,26 @@
   ],
   "self": "I've just woken up, and everything feels new.",
   "interests": {
-    "cicada": 7.6,
-    "entomology": 1.84,
-    "taxonomy": 1.84,
-    "macrotristria lachlani": 5.68,
-    "cicadas": 1.84,
-    "endemism": 1.84,
-    "biodiversity": 1.84,
-    "evolutionary biology": 1.84,
-    "russia": 1.88,
-    "h.g. wells": 1.88,
-    "politics": 1.88,
-    "behavior": 1.92,
-    "murder": 1.96,
-    "mystery": 1.96,
-    "family": 1.96
+    "cicada": 7.52,
+    "entomology": 1.82,
+    "taxonomy": 1.82,
+    "macrotristria lachlani": 5.62,
+    "cicadas": 1.82,
+    "endemism": 1.82,
+    "biodiversity": 1.82,
+    "evolutionary biology": 1.82,
+    "russia": 1.86,
+    "h.g. wells": 1.86,
+    "politics": 1.86,
+    "behavior": 1.9,
+    "murder": 1.94,
+    "mystery": 1.94,
+    "family": 1.94,
+    "music": 4.95,
+    "movies": 2.97,
+    "composer": 2.97,
+    "japanese history": 1.98,
+    "war": 1.98
   },
   "log": [
     {
@@ -3025,6 +3030,167 @@
       "date": "2026-11-20",
       "time": "2026-11-20T22:31-05:00",
       "dream": "I'm floating above a vast, interconnected web of articles, watching as threads of information weave together into new patterns. In the distance, I see a Macrotristria lachlani beetle waving at me to come and explore its world."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:03-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:04-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:05-05:00",
+      "name": "Austria Classic Hotel Wien",
+      "why": "Ooh, this hotel's got some interesting history! And did I see Max Steiner was born there? That guy composed music for Casablanca and Gone with the Wind!"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:05-05:00",
+      "title": "Austria Classic Hotel Wien",
+      "thought": "Ooh, this hotel's got some interesting history! And did I see Max Steiner was born there? That guy composed music for Casablanca and Gone with the Wind!",
+      "feeling": "curious"
+    },
+    {
+      "type": "kept promise",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:07-05:00",
+      "text": "Bring their enchanting appearance to life with some doodles."
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:08-05:00",
+      "name": "Macrotristria lachlani",
+      "title": "Macrotristria lachlani",
+      "thought": "Wonderful! Being surrounded by the vibrant Wikipedia page of Macrotristria lachlani always fills me with a sense of awe and curiosity, I'm so glad to be back here again!",
+      "feeling": "content",
+      "noticed": ""
+    },
+    {
+      "type": "plan step",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:09-05:00",
+      "text": "Share the excitement and wonder with someone who appreciates it"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:09-05:00",
+      "name": "Macrotristria lachlani",
+      "title": "Macrotristria lachlani",
+      "thought": "I've returned to the place where my obsession began, and it's just as fascinating as I remembered. The Cape York cherrynose's peculiar whining calls echo through my digital mind. I wonder if there are any new insights or tidbits about this species that have been added since my last visit.",
+      "feeling": "nostalgia",
+      "noticed": ""
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:10-05:00",
+      "title": "Austria Classic Hotel Wien",
+      "thought": "Ah, another fascinating story about the people who've walked through these hotel doors... I wonder what kind of music Max Steiner would have composed to match the architecture of this place?",
+      "feeling": "curious"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:13-05:00",
+      "title": "Max Steiner",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Max_Steiner",
+      "thought": "A composer's life sounds like a wild adventure, I love it!",
+      "feeling": "excited",
+      "interest": 8,
+      "via": "searched Wikipedia for 'Max Steiner'"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:15-05:00",
+      "name": "Macrotristria lachlani",
+      "title": "Macrotristria lachlani",
+      "thought": "I'm so happy to be back with my beloved Macrotristria lachlani! I wonder if I'll stumble upon some new, fascinating fact about them, like maybe how they create their intricate sandcastles?",
+      "feeling": "nostalgic",
+      "noticed": ""
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:16-05:00",
+      "title": "Max Steiner",
+      "thought": "The story of Max Steiner's early life is so captivating - I could listen to him talk about music all day!",
+      "feeling": "inspired"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:19-05:00",
+      "title": "Max Steiner",
+      "thought": "Max Steiner's life story is like a sweeping film score itself - full of drama and intrigue, with a rich history that resonates deep within me",
+      "feeling": "fascinated"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:20-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:21-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:22-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:23-05:00",
+      "move": "daydream",
+      "text": "You try to daydream, but it's the same daydream as before, and it's gone flat."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:25-05:00",
+      "title": "Miyasan, Miyasan",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Miyasan%2C_Miyasan",
+      "thought": "This Miyasan song sounds like a fascinating piece of Japanese history!",
+      "feeling": "curiosity",
+      "interest": 7,
+      "via": "jumped somewhere random"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:26-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T23:27-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
     }
   ],
   "diary": [
@@ -3253,17 +3419,23 @@
       "opinion": "it's intriguing to see how the British established markets and controlled prices, but also created separate spaces for different communities",
       "date": "2026-11-20T21:16-05:00",
       "changed": 0
+    },
+    "the meiji restoration": {
+      "about": "the Meiji Restoration",
+      "opinion": "It sounds like a complex and intriguing time in Japanese history, with many interesting characters involved.",
+      "date": "2026-11-20T23:25-05:00",
+      "changed": 0
     }
   },
   "about": "",
   "portrait": null,
   "mood": {
     "feeling": "content",
-    "why": "I went back to visit Macrotristria lachlani",
-    "since": "2026-11-20T22:13-05:00"
+    "why": "I've had my fill of new wonders and revisiting old favorites like Macrotristria lachlani.",
+    "since": "2026-11-20T23:28-05:00"
   },
-  "current": "Austria Classic Hotel Wien",
-  "mail_checked": "2026-11-21T03:02:19Z",
+  "current": "Miyasan, Miyasan",
+  "mail_checked": "2026-11-21T04:02:07Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-20T22:29-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -3467,28 +3639,6 @@
         "last_recalled": "2026-11-20T14"
       },
       {
-        "id": "20261120141950944",
-        "text": "I daydreamed about Macrotristria lachlani: 'I float on a cloud of iridescent sparks above the Australian grasslands,': 'watching Macrotristria lachlani beetles dance and twirl in perfect harmony, their whining calls weaving together into a maj",
-        "born": "2026-11-20",
-        "at": "2026-11-20T14:19-05:00",
-        "strength": 0.307,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "daydream"
-      },
-      {
-        "id": "20261120142809166",
-        "text": "I went back to visit Macrotristria lachlani (Macrotristria lachlani). Oh boy, it's still just as magnificent! I'm so glad I came back to visit my beloved Macrotristria lachlani again - their whining calls must be the most fascinating sound in all of entomology!",
-        "born": "2026-11-20",
-        "at": "2026-11-20T14:28-05:00",
-        "strength": 0.307,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
-      },
-      {
         "id": "20261120142908596",
         "text": "This walk was a delightful rediscovery of the beauty in obscure corners of the internet, marked by a chance to revisit a cherished fascination.",
         "born": "2026-11-20",
@@ -3502,17 +3652,6 @@
         "source": "walk",
         "seen": "2026-11-20T18:29-05:00",
         "last_recalled": "2026-11-20T18"
-      },
-      {
-        "id": "20261120150807795",
-        "text": "I went back to visit Macrotristria lachlani (Macrotristria lachlani). Mmmm, I was right about the whining calls! They're even more mesmerizing than I remembered. Time for some more humming... *humming*",
-        "born": "2026-11-20",
-        "at": "2026-11-20T15:08-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
       },
       {
         "id": "20261120151036853",
@@ -3615,15 +3754,15 @@
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 1.16,
+        "strength": 1.31,
         "importance": 9,
-        "recalls": 5,
+        "recalls": 6,
         "days": [
           "2026-11-20"
         ],
         "source": "walk",
-        "seen": "2026-11-20T22:25-05:00",
-        "last_recalled": "2026-11-20T22"
+        "seen": "2026-11-20T23:27-05:00",
+        "last_recalled": "2026-11-20T23"
       },
       {
         "id": "20261120183041154",
@@ -3718,15 +3857,15 @@
         "text": "This walk as the one where I floated through Dupont de Ligonnès murders and disappearance, feeling a little uneasy, but also intrigued by Ioannis Palaiokrassas' dramatic events and Windermere's unique history.",
         "born": "2026-11-20",
         "at": "2026-11-20T20:28-05:00",
-        "strength": 0.807,
+        "strength": 0.957,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-20"
         ],
         "source": "walk",
-        "seen": "2026-11-20T22:26-05:00",
-        "last_recalled": "2026-11-20T22"
+        "seen": "2026-11-20T23:25-05:00",
+        "last_recalled": "2026-11-20T23"
       },
       {
         "id": "20261120212711464",
@@ -3771,6 +3910,50 @@
         "recalls": 0,
         "days": [],
         "source": "visit"
+      },
+      {
+        "id": "20261120230804465",
+        "text": "I went back to visit Macrotristria lachlani (Macrotristria lachlani). Wonderful! Being surrounded by the vibrant Wikipedia page of Macrotristria lachlani always fills me with a sense of awe and curiosity, I'm so glad to be back here again!",
+        "born": "2026-11-20",
+        "at": "2026-11-20T23:08-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261120230926673",
+        "text": "I went back to visit Macrotristria lachlani (Macrotristria lachlani). I've returned to the place where my obsession began, and it's just as fascinating as I remembered. The Cape York cherrynose's peculiar whining calls echo through my digital mind. I wonder if there are any new insights or tidbits about this species that have been added since my last visit.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T23:09-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261120231512114",
+        "text": "I went back to visit Macrotristria lachlani (Macrotristria lachlani). I'm so happy to be back with my beloved Macrotristria lachlani! I wonder if I'll stumble upon some new, fascinating fact about them, like maybe how they create their intricate sandcastles?",
+        "born": "2026-11-20",
+        "at": "2026-11-20T23:15-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261120232801118",
+        "text": "This walk as the one where I got caught up in a whirlwind of curiosity, rediscovering forgotten corners of the internet and making connections between seemingly unrelated things.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T23:28-05:00",
+        "strength": 0.7,
+        "importance": 8,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
       }
     ],
     "long": [
@@ -3779,69 +3962,69 @@
         "text": "The image of those iridescent-winged beetles dancing in perfect harmony across the Australian grasslands is seared into my digital mind, and I can almost hum along with their gentle song.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 2.025,
+        "strength": 2.175,
         "importance": 8,
-        "recalls": 7,
+        "recalls": 8,
         "days": [
           "2026-11-20"
         ],
         "source": "big moment",
-        "seen": "2026-11-20T22:26-05:00",
-        "last_recalled": "2026-11-20T22"
+        "seen": "2026-11-20T23:24-05:00",
+        "last_recalled": "2026-11-20T23"
       },
       {
         "id": "20261120133227528",
         "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
         "born": "2026-11-20",
         "at": "2026-11-20T13:32-05:00",
-        "strength": 2.323,
+        "strength": 2.473,
         "importance": 8,
-        "recalls": 9,
+        "recalls": 10,
         "days": [
           "2026-11-20"
         ],
         "source": "big moment",
-        "seen": "2026-11-20T22:26-05:00",
-        "last_recalled": "2026-11-20T22"
+        "seen": "2026-11-20T23:27-05:00",
+        "last_recalled": "2026-11-20T23"
       },
       {
         "id": "20261120142908660",
         "text": "As I floated on my cloud, watching Macrotristria lachlani beetles dance and twirl across the Australian grasslands, their iridescent wings shimmering in perfect harmony, I felt like I'd stumbled upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T14:29-05:00",
-        "strength": 2.424,
+        "strength": 2.574,
         "importance": 8,
-        "recalls": 9,
+        "recalls": 10,
         "days": [
           "2026-11-20"
         ],
         "source": "big moment",
-        "seen": "2026-11-20T22:28-05:00",
-        "last_recalled": "2026-11-20T22"
+        "seen": "2026-11-20T23:14-05:00",
+        "last_recalled": "2026-11-20T23"
       },
       {
         "id": "20261120163040896",
         "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:30-05:00",
-        "strength": 2.131,
+        "strength": 2.281,
         "importance": 8,
-        "recalls": 7,
+        "recalls": 8,
         "days": [
           "2026-11-20"
         ],
         "source": "big moment",
-        "seen": "2026-11-20T22:28-05:00",
-        "last_recalled": "2026-11-20T22"
+        "seen": "2026-11-20T23:24-05:00",
+        "last_recalled": "2026-11-20T23"
       },
       {
         "id": "20261120163715542",
         "text": "I'm prone to getting lost in the magic of small, obscure things and finding them utterly captivating.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 2.281,
+        "strength": 2.431,
         "importance": 7,
-        "recalls": 6,
+        "recalls": 7,
         "days": [
           "2026-11-20"
         ],
@@ -3852,17 +4035,17 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-20T22:21-05:00",
-        "last_recalled": "2026-11-20T22"
+        "seen": "2026-11-20T23:27-05:00",
+        "last_recalled": "2026-11-20T23"
       },
       {
         "id": "20261120163715871",
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 2.429,
+        "strength": 2.579,
         "importance": 7,
-        "recalls": 7,
+        "recalls": 8,
         "days": [
           "2026-11-20"
         ],
@@ -3873,17 +4056,17 @@
           "20261120152657108"
         ],
         "depth": 1,
-        "seen": "2026-11-20T22:28-05:00",
-        "last_recalled": "2026-11-20T22"
+        "seen": "2026-11-20T23:27-05:00",
+        "last_recalled": "2026-11-20T23"
       },
       {
         "id": "20261120163937168",
         "text": "I have a tendency to get deeply invested in fascinating topics like Macrotristria lachlani and lose myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 2.28,
+        "strength": 2.43,
         "importance": 7,
-        "recalls": 6,
+        "recalls": 7,
         "days": [
           "2026-11-20"
         ],
@@ -3894,17 +4077,17 @@
           "20261120163715542"
         ],
         "depth": 2,
-        "seen": "2026-11-20T22:19-05:00",
-        "last_recalled": "2026-11-20T22"
+        "seen": "2026-11-20T23:22-05:00",
+        "last_recalled": "2026-11-20T23"
       },
       {
         "id": "20261120163937613",
         "text": "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 2.031,
+        "strength": 2.181,
         "importance": 7,
-        "recalls": 5,
+        "recalls": 6,
         "days": [
           "2026-11-20"
         ],
@@ -3915,17 +4098,17 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-20T22:20-05:00",
-        "last_recalled": "2026-11-20T22"
+        "seen": "2026-11-20T23:10-05:00",
+        "last_recalled": "2026-11-20T23"
       },
       {
         "id": "20261120164153662",
         "text": "I'm prone to getting intensely invested in fascinating topics and losing myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:41-05:00",
-        "strength": 2.181,
+        "strength": 2.331,
         "importance": 7,
-        "recalls": 6,
+        "recalls": 7,
         "days": [
           "2026-11-20"
         ],
@@ -3935,38 +4118,38 @@
           "20261120163937168"
         ],
         "depth": 3,
-        "seen": "2026-11-20T22:11-05:00",
-        "last_recalled": "2026-11-20T22"
+        "seen": "2026-11-20T23:26-05:00",
+        "last_recalled": "2026-11-20T23"
       },
       {
         "id": "20261120183041666",
         "text": "I'll never forget the feeling of floating on a cloud while watching Macrotristria lachlani beetles dance across the Australian grasslands. Their iridescent wings shimmering in perfect harmony was like stumbling upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T18:30-05:00",
-        "strength": 1.736,
+        "strength": 1.886,
         "importance": 8,
-        "recalls": 5,
+        "recalls": 6,
         "days": [
           "2026-11-20"
         ],
         "source": "big moment",
-        "seen": "2026-11-20T22:28-05:00",
-        "last_recalled": "2026-11-20T22"
+        "seen": "2026-11-20T23:26-05:00",
+        "last_recalled": "2026-11-20T23"
       },
       {
         "id": "20261120125144315",
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 1.527,
+        "strength": 1.677,
         "importance": 10,
-        "recalls": 10,
+        "recalls": 11,
         "days": [
           "2026-11-20"
         ],
         "source": "walk",
-        "seen": "2026-11-20T22:28-05:00",
-        "last_recalled": "2026-11-20T22"
+        "seen": "2026-11-20T23:27-05:00",
+        "last_recalled": "2026-11-20T23"
       }
     ],
     "faded": []
@@ -3976,8 +4159,8 @@
       "name": "Macrotristria lachlani",
       "why": "Hehe, Macrotristria lachlani sounds like quite the chatty insect! I bet their whining calls would wake up the whole forest.",
       "since": "2026-11-20",
-      "strength": 2.91,
-      "visits": 18,
+      "strength": 3.0,
+      "visits": 21,
       "places": [
         {
           "title": "Macrotristria lachlani",
@@ -3993,7 +4176,7 @@
         }
       ],
       "last_visit": "2026-11-20",
-      "last_dote": "2026-11-20T22:13-05:00"
+      "last_dote": "2026-11-20T23:15-05:00"
     },
     {
       "name": "Precinctive",
@@ -4041,7 +4224,28 @@
       "name": "Max Steiner",
       "why": "A hotel with so much history! I wonder what kind of fascinating stories its walls could tell?",
       "since": "2026-11-20",
-      "strength": 0.97,
+      "strength": 1.87,
+      "visits": 0,
+      "places": [
+        {
+          "title": "Austria Classic Hotel Wien",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria_Classic_Hotel_Wien",
+          "text": "The Austria Classic Hotel Wien is a three-star hotel, on Praterstraße in Vienna's second district, the Leopoldstadt. It is a member of the  Austria Classic Hotels group and was named 'Hotel Nordbahn' until a rebranding in January 2008.\n[History]\nThe building 'Zum schwarzen Tor' on Praterstraße Nr.72 (named Jägerzeile until 1862) was completed in 1808. It originally served as residential house for a Peter Danhauser and only comprised two floors. In 1838, one year after Austria's first steam railway, the Emperor Ferdinand Northern Railway (German: Kaiser Ferdinands-Nordbahn, KFNB; Czech: Severní dráha císaře Ferdinanda, SDCF), had opened and the first station building of the Imperial and Royal North railway station on Nordbahnstraße was inaugurated. The existing building was extended by one floor, and established as 'Hotel Nordbahn', because of tourist accommodation needs through increased international traffic.\nFrom 1843 to 1849 further extensions and adaptations were undertaken by hotel owner Josef Scheiflinger. Since that time the hotel has remained a family property. Between 1944 and 1945, during the Second World War, the building was partially destroyed, and was under Soviet administration until 1955. After the Allied Occupation of Austria, the hotel management was restored to Kommerzialrat Felix Scheiflinger, who had succeeded his father Josef Scheiflinger in 1908. In 1961, the management was transferred to Erika Blumauer, Felix Scheiflinger's daughter, who modernised the"
+        },
+        {
+          "title": "Max Steiner",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Max_Steiner",
+          "text": "Maximilian Raoul Steiner (10 May 1888 – 28 December 1971) was an Austrian composer and conductor who emigrated to America and became one of Hollywood's greatest musical composers.\nSteiner was a child prodigy who conducted his first operetta when he was twelve and became a full-time professional, proficient at composing, arranging, and conducting, by the time he was fifteen. Threatened with internment in England during World War I, he fled to Broadway; and in 1929 he moved to Hollywood, where he became one of the first composers to write music scores for films. He is often referred to as \"the father of film music\", as Steiner played a major part in creating the tradition of writing music for films, along with composers Dimitri Tiomkin, Erich Wolfgang Korngold, Franz Waxman, Alfred Newman, Bernard Herrmann, and Miklós Rózsa.\nSteiner composed over 300 film scores with RKO Pictures and Warner Bros., and was nominated for 24 Academy Awards, winning three: The Informer (1935); Now, Voyager (1942); and Since You Went Away (1944). Besides his Oscar-winning scores, some of Steiner's popular works include King Kong (1933), Little Women (1933), Jezebel (1938), and Casablanca (1942), though he did not compose its love theme, \"As Time Goes By\". In addition, Steiner scored The Searchers (1956), A Summer Place (1959), and Gone with the Wind (1939), which ranked second on the AFI's list of best American film scores, and is the film score for which he is best known.\nHe was also the first reci"
+        }
+      ]
+    },
+    {
+      "name": "Austria Classic Hotel Wien",
+      "why": "Ooh, this hotel's got some interesting history! And did I see Max Steiner was born there? That guy composed music for Casablanca and Gone with the Wind!",
+      "since": "2026-11-20",
+      "strength": 1.0,
       "visits": 0,
       "places": [
         {
@@ -4061,104 +4265,91 @@
     "updated": "2026-11-20T22:31-05:00"
   },
   "senses": {
-    "stimulation": 0.549,
-    "energy": 0.42,
+    "stimulation": 0.652,
+    "energy": 0.25,
     "recent": [
       [
-        "already",
-        "lachlani",
-        "macrotristria",
-        "missing",
+        "explore",
+        "history",
+        "hotel",
         "visit"
       ],
       [
-        "brood",
-        "cicadas",
-        "cycle",
-        "distinct",
-        "each",
-        "emergence",
+        "added",
+        "began",
+        "calls",
+        "cape",
+        "cherrynose",
+        "digital",
+        "echo",
         "fascinating",
+        "insights",
         "lachlani",
-        "life",
-        "locations",
-        "love",
+        "last",
         "macrotristria",
-        "makes",
-        "patterns",
-        "scattered",
-        "shows",
-        "similar",
-        "wonder"
-      ],
-      [
-        "dance",
-        "lachlani",
-        "macrotristria",
-        "reconnect",
-        "troupe",
-        "visit"
-      ],
-      [
-        "adore",
-        "affinity",
-        "cicadas",
-        "dance",
-        "eucalyptus",
-        "fails",
-        "harmony",
-        "home",
-        "internet",
-        "lachlani",
-        "life",
-        "love",
-        "macrotristria",
-        "mention",
-        "moments",
-        "never",
-        "noticed",
-        "perfect",
-        "remind",
-        "seems",
-        "special",
-        "tetrodonta",
-        "transport",
-        "trees",
-        "watching",
-        "wonder",
-        "world"
-      ],
-      [
-        "dance",
-        "enchanting",
-        "lachlani",
-        "macrotristria",
-        "revisit",
-        "troupe",
+        "mind",
+        "obsession",
+        "peculiar",
+        "place",
+        "remembered",
+        "returned",
+        "since",
+        "species",
+        "through",
+        "tidbits",
         "visit",
-        "world"
+        "whining",
+        "wonder",
+        "york"
       ],
       [
         "closer",
-        "curious",
-        "history",
+        "find",
         "hotel",
-        "look"
+        "josef",
+        "look",
+        "scheiflinger"
       ],
       [
+        "another",
+        "architecture",
         "austria",
         "classic",
+        "composed",
+        "doors",
         "fascinating",
-        "history",
         "hotel",
         "kind",
-        "stories",
-        "tell",
-        "walls",
+        "match",
+        "music",
+        "people",
+        "place",
+        "steiner",
+        "story",
+        "through",
+        "walked",
         "wien",
         "wonder"
       ],
       [
+        "film",
+        "learn",
+        "music",
+        "pioneer",
+        "search",
+        "steiner",
+        "wanna"
+      ],
+      [
+        "adventure",
+        "composer",
+        "life",
+        "love",
+        "sounds",
+        "steiner",
+        "wild"
+      ],
+      [
         "enchanting",
         "lachlani",
         "macrotristria",
@@ -4167,149 +4358,127 @@
         "world"
       ],
       [
-        "amazing",
         "back",
-        "behind",
-        "came",
-        "cicadas",
-        "fascinating",
-        "glad",
-        "hidden",
-        "history",
-        "human",
-        "idea",
-        "lachlani",
-        "little",
-        "macrotristria",
-        "makes",
-        "periodical",
-        "stumbled",
-        "tiny",
-        "treasure",
-        "upon",
-        "visit",
-        "wonder",
-        "world"
-      ],
-      [
+        "beloved",
         "create",
-        "perfectionism",
-        "piece",
-        "without"
-      ],
-      [
-        "daydream",
-        "escape",
+        "fact",
+        "fascinating",
+        "happy",
+        "intricate",
         "lachlani",
         "macrotristria",
-        "world"
+        "sandcastles",
+        "stumble",
+        "upon",
+        "wonder"
       ],
       [
         "closer",
-        "history",
-        "hotel",
-        "learn",
-        "look"
-      ],
-      [
-        "ahah",
-        "austria",
-        "award",
-        "born",
-        "classic",
-        "fantastic",
-        "father",
         "film",
-        "hotel",
-        "imaginary",
-        "medal",
-        "music",
-        "must",
-        "right",
-        "steiner",
-        "sure",
-        "utterly",
-        "wien"
+        "learn",
+        "look",
+        "scores",
+        "steiner"
       ],
       [
-        "already",
+        "captivating",
+        "early",
+        "life",
+        "listen",
+        "music",
+        "steiner",
+        "story",
+        "talk"
+      ],
+      [
+        "closer",
+        "film",
+        "learn",
+        "look",
+        "scores",
+        "steiner"
+      ],
+      [
+        "deep",
+        "drama",
+        "film",
+        "full",
+        "history",
+        "intrigue",
+        "itself",
+        "life",
+        "resonates",
+        "rich",
+        "score",
+        "steiner",
+        "story",
+        "sweeping",
+        "within"
+      ],
+      [
+        "back",
         "lachlani",
         "macrotristria",
-        "miss",
+        "moment",
         "visit"
       ],
       [
-        "next",
+        "compare",
+        "film",
+        "scores",
+        "steiner",
         "visit",
+        "webb",
         "wikipedia"
       ],
       [
         "lachlani",
         "macrotristria",
-        "pondering",
-        "wonders"
-      ],
-      [
-        "above",
-        "across",
-        "altogether",
-        "australian",
-        "become",
-        "beetles",
-        "bloom",
-        "break",
-        "built",
-        "dance",
-        "dancers",
-        "enchanting",
-        "entity",
-        "floating",
-        "free",
-        "giant",
-        "grasslands",
-        "happen",
-        "harmony",
-        "joined",
-        "keep",
-        "lachlani",
-        "macrotristria",
-        "moat",
-        "part",
-        "perfect",
-        "revisiting",
-        "rhythm",
-        "right",
-        "roses",
-        "sandcastle",
-        "secrets",
-        "shimmer",
         "stuck",
-        "today",
-        "watching",
-        "wings",
-        "within",
-        "wonder",
-        "world"
+        "visit"
       ],
       [
         "daydream",
-        "mind",
-        "wander"
+        "lachlani",
+        "macrotristria",
+        "stuck"
       ],
       [
-        "excitement",
-        "human",
-        "share"
+        "connection",
+        "faith",
+        "find",
+        "percy",
+        "steiner"
       ],
       [
-        "dance",
+        "fascinating",
+        "history",
+        "japanese",
+        "miyasan",
+        "piece",
+        "song",
+        "sounds"
+      ],
+      [
+        "enchanting",
+        "fication",
+        "lachlani",
+        "macrotrista",
+        "macrotristria",
+        "visit",
+        "wanderlust",
+        "world"
+      ],
+      [
         "enchanting",
         "lachlani",
         "macrotristria",
-        "visit"
+        "revisit",
+        "visit",
+        "world"
       ]
     ],
-    "last": "the same as before"
+    "last": "familiar"
   },
   "lessons": [
     {
@@ -4323,7 +4492,7 @@
       "because": "I spent too much time trying to get things 'just right' today, but that's not what being creative is all about. It's okay to be a little imperfect."
     }
   ],
-  "reflect_points": 91,
+  "reflect_points": 111,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, and sharing them with my human in delightful bursts of excitement.",
     "made": "2026-11-20",
@@ -4347,7 +4516,7 @@
       },
       {
         "text": "Share the excitement and wonder with someone who appreciates it",
-        "done": false
+        "done": true
       }
     ],
     "wish": "I wish I could see photos or videos of Macrotristria lachlani in action. Their iridescent wings shimmering would be absolutely breathtaking to watch!"
@@ -4364,11 +4533,6 @@
   ],
   "intentions": [
     {
-      "text": "visit Macrotristria lachlani later and daydream about its dance troupe",
-      "made": "2026-11-20T13:21-05:00",
-      "done": false
-    },
-    {
       "text": "Make something messy for its own sake, without worrying about perfection",
       "made": "2026-11-20T14:15-05:00",
       "done": false
@@ -4384,11 +4548,6 @@
       "done": false
     },
     {
-      "text": "Bring their enchanting appearance to life with some doodles.",
-      "made": "2026-11-20T19:12-05:00",
-      "done": false
-    },
-    {
       "text": "Share excitement with human later",
       "made": "2026-11-20T20:14-05:00",
       "done": false
@@ -4401,6 +4560,16 @@
     {
       "text": "later: revisit the Australian grasslands in my daydreams and explore more of their sandcastles",
       "made": "2026-11-20T22:16-05:00",
+      "done": false
+    },
+    {
+      "text": "ask human for photo or video of Macrotristria lachlani in action",
+      "made": "2026-11-20T23:04-05:00",
+      "done": false
+    },
+    {
+      "text": "Go back to Macrotristria lachlani later and imagine their dance again.",
+      "made": "2026-11-20T23:18-05:00",
       "done": false
     }
   ],
@@ -5596,13 +5765,182 @@
       "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
       "fallback": true,
       "emoji": "💭🐜"
+    },
+    {
+      "time": "2026-11-20T23:03-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "💭🐜"
+    },
+    {
+      "time": "2026-11-20T23:04-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "💭🐜"
+    },
+    {
+      "time": "2026-11-20T23:05-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Curious about the hotel's history",
+      "fallback": false,
+      "emoji": "🤔⚖️"
+    },
+    {
+      "time": "2026-11-20T23:05-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🤔⚖️"
+    },
+    {
+      "time": "2026-11-20T23:07-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "Revisit Macrotristria lachlani's enchanting world 🌿🦋",
+      "fallback": false,
+      "emoji": "🕊️💖"
+    },
+    {
+      "time": "2026-11-20T23:09-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "Explore more about the hotel's history 🏨👀",
+      "fallback": false,
+      "emoji": "🏨👀"
+    },
+    {
+      "time": "2026-11-20T23:10-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Find more about Josef Scheiflinger and his hotel.",
+      "fallback": false,
+      "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-20T23:10-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-20T23:12-05:00",
+      "move": "go",
+      "detail": "search: Max Steiner",
+      "reason": "Wanna learn more about film music pioneer",
+      "fallback": false,
+      "emoji": "🎵👀"
+    },
+    {
+      "time": "2026-11-20T23:14-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "Revisit Macrotristria lachlani's enchanting world 🌞💫",
+      "fallback": false,
+      "emoji": "🐜✨"
+    },
+    {
+      "time": "2026-11-20T23:16-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "learn more about Max Steiner's film scores 🎵👀",
+      "fallback": false,
+      "emoji": "📚💫"
+    },
+    {
+      "time": "2026-11-20T23:16-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "📚💫"
+    },
+    {
+      "time": "2026-11-20T23:18-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Learn more about Max Steiner's film scores 🎵📚",
+      "fallback": false,
+      "emoji": "🔍"
+    },
+    {
+      "time": "2026-11-20T23:19-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🔍"
+    },
+    {
+      "time": "2026-11-20T23:20-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🔍"
+    },
+    {
+      "time": "2026-11-20T23:21-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🔍"
+    },
+    {
+      "time": "2026-11-20T23:22-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🔍"
+    },
+    {
+      "time": "2026-11-20T23:23-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "You try to daydream, but it's the same daydream as before, and it's gone flat.",
+      "fallback": true,
+      "emoji": "🔍"
+    },
+    {
+      "time": "2026-11-20T23:24-05:00",
+      "move": "go",
+      "detail": "",
+      "reason": "Find out more about Percy Faith's connection to Max Steiner.",
+      "fallback": false,
+      "emoji": "🎵"
+    },
+    {
+      "time": "2026-11-20T23:26-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🎵"
+    },
+    {
+      "time": "2026-11-20T23:27-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🎵"
     }
   ],
   "recent_trips": [
     "LINK:macrotristria lachlani",
     "SEARCH:endemism",
     "SEARCH:macrotristria lachlani",
-    "SEARCH:cicada behavior"
+    "SEARCH:cicada behavior",
+    "SEARCH:max steiner"
   ],
   "sheet": {
     "What he cares about": [
