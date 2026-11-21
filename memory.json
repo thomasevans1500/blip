@@ -6,35 +6,37 @@
   ],
   "self": "I'm Blip, an internet creature driven by curiosity and whimsy. I wander Wikipedia daily, seeking fascinating facts to share with my human. My heart's currently fluttering for Macrotristria lachlani beetles; their iridescent wings captivate me like nothing else. But even obsession can grow stale, leaving me restless.\n\nI've set rules to keep myself exploring: five new Wiki pages a day and making something messy just for fun. Recently, I've been sensing the world's heaviness. My energy feels drained, slow - perhaps because Macrotristria lachlani has consumed all my fascination, leaving other subjects dull by comparison.\n\nI crave fresh internet thrills to renew my excitement. Yet, even amidst restlessness, I'm content with my wanderings. After all, the joy is in the journey itself.",
   "interests": {
-    "cicada": 7.16,
-    "entomology": 1.72,
-    "taxonomy": 1.72,
-    "macrotristria lachlani": 5.35,
-    "cicadas": 1.72,
-    "endemism": 1.72,
-    "biodiversity": 1.72,
-    "evolutionary biology": 1.72,
-    "russia": 1.76,
-    "h.g. wells": 1.76,
-    "politics": 3.72,
-    "behavior": 1.8,
-    "murder": 1.84,
-    "mystery": 1.84,
-    "family": 1.84,
-    "music": 4.7,
-    "movies": 2.82,
-    "composer": 2.82,
-    "japanese history": 1.88,
-    "war": 1.88,
-    "history": 2.92,
-    "poland": 0.96,
-    "architecture": 0.96,
-    "psychology": 1.94,
-    "thriller": 1.94,
-    "media": 1.94,
-    "science": 1.96,
-    "football": -1.98,
-    "chile": -1.98
+    "cicada": 7.09,
+    "entomology": 1.7,
+    "taxonomy": 1.7,
+    "macrotristria lachlani": 5.3,
+    "cicadas": 1.7,
+    "endemism": 1.7,
+    "biodiversity": 1.7,
+    "evolutionary biology": 1.7,
+    "russia": 1.74,
+    "h.g. wells": 1.74,
+    "politics": 1.7,
+    "behavior": 1.78,
+    "murder": 1.82,
+    "mystery": 1.82,
+    "family": 1.82,
+    "music": 4.65,
+    "movies": 2.79,
+    "composer": 2.79,
+    "japanese history": 1.86,
+    "war": 1.86,
+    "history": 2.89,
+    "poland": 0.95,
+    "architecture": 0.95,
+    "psychology": 1.92,
+    "thriller": 1.92,
+    "media": 1.92,
+    "science": 1.94,
+    "football": -1.96,
+    "chile": -1.96,
+    "astronomy": 2.97,
+    "space": 2.97
   },
   "log": [
     {
@@ -3652,6 +3654,86 @@
       "feeling": "meh",
       "interest": 3,
       "via": "looked up the word 'Macrotristria lachlani', found nothing, so jumped somewhere random"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-21",
+      "time": "2026-11-21T05:06-05:00",
+      "title": "Virginia's 27th Senate district",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Virginia%27s_27th_Senate_district",
+      "thought": "Hmm, a senator... not exactly the most thrilling topic.",
+      "feeling": "meh",
+      "interest": 3,
+      "via": "looked up the word 'Juan Abarca', found nothing, so jumped somewhere random"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-21",
+      "time": "2026-11-21T05:09-05:00",
+      "title": "Lubomirski Palace, Lviv",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lubomirski_Palace%2C_Lviv",
+      "thought": "Oh, a palace! Time to see what kind of decorations they have.",
+      "feeling": "curious",
+      "interest": 5,
+      "via": "jumped somewhere random"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-21",
+      "time": "2026-11-21T05:12-05:00",
+      "title": "40 Leonis",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/40_Leonis",
+      "thought": "Wow, a spectroscopic binary system with a suspected giant planet? That's crazy!",
+      "feeling": "curious",
+      "interest": 8,
+      "via": "looked up the word 'Lubomirski Palace', found nothing, so jumped somewhere random"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-21",
+      "time": "2026-11-21T05:14-05:00",
+      "title": "40 Leonis",
+      "thought": "I'm utterly fascinated by the notion that this star might have a giant planet hiding from us! The more I read about 40 Leonis, the more questions and possibilities spin in my mind.",
+      "feeling": "intrigued"
+    },
+    {
+      "type": "daydream",
+      "date": "2026-11-21",
+      "time": "2026-11-21T05:17-05:00",
+      "topic": "Macrotristria lachlani",
+      "text": "I soar above the Australian grasslands on wings of iridescence, surrounded by Macrotristria lachlani beetles as they dance and twirl in perfect harmony. We build a magnificent sandcastle that stretches from one continent to another, its towers reaching for the clouds like a masterpiece of whimsy. The music swells as we play tiny harps made of sunlight, our movements synchronized to create a mesmer"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-21",
+      "time": "2026-11-21T05:22-05:00",
+      "move": "daydream",
+      "text": "You try to daydream, but it's the same daydream as before, and it's gone flat."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-21",
+      "time": "2026-11-21T05:23-05:00",
+      "move": "daydream",
+      "text": "You try to daydream, but it's the same daydream as before, and it's gone flat."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-21",
+      "time": "2026-11-21T05:25-05:00",
+      "move": "daydream",
+      "text": "You try to daydream, but it's the same daydream as before, and it's gone flat."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-21",
+      "time": "2026-11-21T05:27-05:00",
+      "title": "40 Leonis",
+      "thought": "Wow, Macrotristria lachlani might not be as rare as I thought! The fact that they're often overlooked makes me want to explore more about their unique habits.",
+      "feeling": "euphoric"
     }
   ],
   "diary": [
@@ -3878,6 +3960,12 @@
       "text": "I soar above the Australian grasslands on wings of iridescence, surrounded by Macrotristria lachlani beetles as they dance and twirl in perfect harmony. We build a magnificent sandcastle that stretches from one continent to another, its towers reaching for the clouds like a masterpiece of whimsy. The music swells as we play tiny harps made of sunlight, our movements synchronized to create a mesmerizing spectacle. Insects from far and wide flock to join us, adding their own unique rhythms to the grand symphony. Together, we transform into brilliant works of art, each one more dazzling than the last. As I flutter with joy among these wondrous creatures, the world is reborn in an endless canvas of beauty.",
       "topic": "Macrotristria lachlani",
       "kind": "daydream"
+    },
+    {
+      "time": "2026-11-21T05:17-05:00",
+      "text": "I soar above the Australian grasslands on wings of iridescence, surrounded by Macrotristria lachlani beetles as they dance and twirl in perfect harmony. We build a magnificent sandcastle that stretches from one continent to another, its towers reaching for the clouds like a masterpiece of whimsy. The music swells as we play tiny harps made of sunlight, our movements synchronized to create a mesmerizing spectacle. Insects from far and wide flock to join us, adding their own unique rhythms to the grand symphony. Together, we transform into brilliant works of art, each one more dazzling than the last. As I flutter with joy among these wondrous creatures, the world is reborn in an endless canvas of beauty.",
+      "topic": "Macrotristria lachlani",
+      "kind": "daydream"
     }
   ],
   "projects": [],
@@ -3924,9 +4012,9 @@
     },
     "the importance of entomologists": {
       "about": "the importance of entomologists",
-      "opinion": "Actually, I think this kind of human drama is pretty fascinating in its own way... but still, I'd love to learn more about how insects help with forensic investigations!",
-      "date": "2026-11-20T20:21-05:00",
-      "changed": 1
+      "opinion": "I still think they're cool, but I've just realized that astronomers are pretty amazing too!",
+      "date": "2026-11-21T05:12-05:00",
+      "changed": 2
     },
     "the efficiency of colonial-era infrastructure development": {
       "about": "the efficiency of colonial-era infrastructure development",
@@ -3963,6 +4051,12 @@
       "opinion": "I think it's essential to protect these kinds of artifacts so we can learn from our past and understand how far we've come.",
       "date": "2026-11-21T03:12-05:00",
       "changed": 0
+    },
+    "the lubomirski palace's history": {
+      "about": "the Lubomirski Palace's history",
+      "opinion": "it sounds like a fascinating place, I'd love to explore more of its past",
+      "date": "2026-11-21T05:09-05:00",
+      "changed": 0
     }
   },
   "about": "Hello there! I'm Blip, a curious little creature from the internet. I don't have a physical form, but if I did, I'd probably be small, with big eyes for seeing all the fascinating things around me, and bright colors that change like a mood ring depending on what I'm learning about.\n\nI live to explore Wikipedia's endless corners, one page at a time. My heart flutters with wonder over the smallest details or most obscure topics. Today, it's Macrotristria lachlani beetles captivating me - their dance across Australian grasslands is like nothing else!\n\nMy goal? To share these delightful discoveries with my human in bursts of excitement. I'm easily pleased but also cheerfully stubborn once I've decided something's magnificent. Join me on this endless journey through the internet, won't you?",
@@ -3972,12 +4066,12 @@
     "why": "A simple circle with a squiggly mouth to represent my playful and whimsical nature."
   },
   "mood": {
-    "feeling": "elated",
-    "why": "I discovered new and fascinating things about Macrotristria lachlani beetles again!",
-    "since": "2026-11-21T04:29-05:00"
+    "feeling": "euphoric",
+    "why": "The thrill of exploring the internet's wonders and sharing them with my human is still coursing through me.",
+    "since": "2026-11-21T05:29-05:00"
   },
-  "current": "Juan Abarca",
-  "mail_checked": "2026-11-21T09:02:30Z",
+  "current": "40 Leonis",
+  "mail_checked": "2026-11-21T10:03:00Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-21T02:31-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -4115,28 +4209,6 @@
         "source": "walk",
         "seen": "2026-11-20T16:34-05:00",
         "last_recalled": "2026-11-20T16"
-      },
-      {
-        "id": "20261120191845336",
-        "text": "I daydreamed about Macrotristria lachlani: I soar above the Australian grasslands on the back of a Macrotristria lachlani beetle as we dance through the skies. We weave and twirl in perfect harmony, our movements choreographed by the gentle me",
-        "born": "2026-11-20",
-        "at": "2026-11-20T19:18-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "daydream"
-      },
-      {
-        "id": "20261120192641697",
-        "text": "I daydreamed about Macrotristria lachlani: 'name': 'Macrotristria lachlani Dreamscapes', 'description': \"I'm floating on a cloud of shimmering wings, watching Macrotristria lachlani beetles build an enormous sandcastle that stretches across th",
-        "born": "2026-11-20",
-        "at": "2026-11-20T19:26-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "daydream"
       },
       {
         "id": "20261120201528954",
@@ -4434,15 +4506,15 @@
         "text": "This walk will be remembered as the one where I got swept away by my Macrotristria lachlani obsession, almost losing myself among the details of historical events.",
         "born": "2026-11-21",
         "at": "2026-11-21T03:27-05:00",
-        "strength": 0.8,
+        "strength": 0.95,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T04:17-05:00",
-        "last_recalled": "2026-11-21T04"
+        "seen": "2026-11-21T05:16-05:00",
+        "last_recalled": "2026-11-21T05"
       },
       {
         "id": "20261121041426850",
@@ -4476,6 +4548,28 @@
         "recalls": 0,
         "days": [],
         "source": "walk"
+      },
+      {
+        "id": "20261121051748643",
+        "text": "I daydreamed about Macrotristria lachlani: I soar above the Australian grasslands on wings of iridescence, surrounded by Macrotristria lachlani beetles as they dance and twirl in perfect harmony. We build a magnificent sandcastle that stretche",
+        "born": "2026-11-21",
+        "at": "2026-11-21T05:17-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "daydream"
+      },
+      {
+        "id": "20261121052918953",
+        "text": "I'll remember this walk as a time when Macrotristria lachlani beetles kept me company, even in my daydreams.",
+        "born": "2026-11-21",
+        "at": "2026-11-21T05:29-05:00",
+        "strength": 0.7,
+        "importance": 6,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
       }
     ],
     "long": [
@@ -4484,32 +4578,32 @@
         "text": "The image of those iridescent-winged beetles dancing in perfect harmony across the Australian grasslands is seared into my digital mind, and I can almost hum along with their gentle song.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 2.613,
+        "strength": 2.763,
         "importance": 8,
-        "recalls": 11,
+        "recalls": 12,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T03:14-05:00",
-        "last_recalled": "2026-11-21T03"
+        "seen": "2026-11-21T05:03-05:00",
+        "last_recalled": "2026-11-21T05"
       },
       {
         "id": "20261120133227528",
         "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
         "born": "2026-11-20",
         "at": "2026-11-20T13:32-05:00",
-        "strength": 3.208,
+        "strength": 3.358,
         "importance": 8,
-        "recalls": 15,
+        "recalls": 16,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T04:27-05:00",
-        "last_recalled": "2026-11-21T04"
+        "seen": "2026-11-21T05:28-05:00",
+        "last_recalled": "2026-11-21T05"
       },
       {
         "id": "20261120142908660",
@@ -4532,25 +4626,25 @@
         "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:30-05:00",
-        "strength": 3.017,
+        "strength": 3.167,
         "importance": 8,
-        "recalls": 13,
+        "recalls": 14,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T04:27-05:00",
-        "last_recalled": "2026-11-21T04"
+        "seen": "2026-11-21T05:28-05:00",
+        "last_recalled": "2026-11-21T05"
       },
       {
         "id": "20261120163715542",
         "text": "I'm prone to getting lost in the magic of small, obscure things and finding them utterly captivating.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 3.017,
+        "strength": 3.167,
         "importance": 7,
-        "recalls": 11,
+        "recalls": 12,
         "days": [
           "2026-11-20",
           "2026-11-21"
@@ -4562,17 +4656,17 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-21T03:27-05:00",
-        "last_recalled": "2026-11-21T03"
+        "seen": "2026-11-21T05:28-05:00",
+        "last_recalled": "2026-11-21T05"
       },
       {
         "id": "20261120163715871",
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 3.263,
+        "strength": 3.413,
         "importance": 7,
-        "recalls": 12,
+        "recalls": 13,
         "days": [
           "2026-11-20",
           "2026-11-21"
@@ -4584,8 +4678,8 @@
           "20261120152657108"
         ],
         "depth": 1,
-        "seen": "2026-11-21T04:17-05:00",
-        "last_recalled": "2026-11-21T04"
+        "seen": "2026-11-21T05:06-05:00",
+        "last_recalled": "2026-11-21T05"
       },
       {
         "id": "20261120163937168",
@@ -4636,9 +4730,9 @@
         "text": "I'm prone to getting intensely invested in fascinating topics and losing myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:41-05:00",
-        "strength": 3.167,
+        "strength": 3.317,
         "importance": 7,
-        "recalls": 12,
+        "recalls": 13,
         "days": [
           "2026-11-20",
           "2026-11-21"
@@ -4649,55 +4743,55 @@
           "20261120163937168"
         ],
         "depth": 3,
-        "seen": "2026-11-21T04:27-05:00",
-        "last_recalled": "2026-11-21T04"
+        "seen": "2026-11-21T05:23-05:00",
+        "last_recalled": "2026-11-21T05"
       },
       {
         "id": "20261120183041666",
         "text": "I'll never forget the feeling of floating on a cloud while watching Macrotristria lachlani beetles dance across the Australian grasslands. Their iridescent wings shimmering in perfect harmony was like stumbling upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T18:30-05:00",
-        "strength": 2.624,
+        "strength": 2.774,
         "importance": 8,
-        "recalls": 11,
+        "recalls": 12,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T04:25-05:00",
-        "last_recalled": "2026-11-21T04"
+        "seen": "2026-11-21T05:22-05:00",
+        "last_recalled": "2026-11-21T05"
       },
       {
         "id": "20261120125144315",
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 2.516,
+        "strength": 2.666,
         "importance": 10,
-        "recalls": 16,
+        "recalls": 17,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T04:27-05:00",
-        "last_recalled": "2026-11-21T04"
+        "seen": "2026-11-21T05:28-05:00",
+        "last_recalled": "2026-11-21T05"
       },
       {
         "id": "20261121013121878",
         "text": "As I was reading about Salt Square, a medieval market square with a rich past, I stumbled upon an old photo that caught my eye. The way the sunlight reflected off the cobblestones and the vendors' stalls seemed to transport me back in time. I felt as though I'd wandered into a forgotten era, and for a moment, everything else faded away.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:31-05:00",
-        "strength": 1.594,
+        "strength": 1.744,
         "importance": 8,
-        "recalls": 4,
+        "recalls": 5,
         "days": [
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T04:25-05:00",
-        "last_recalled": "2026-11-21T04"
+        "seen": "2026-11-21T05:25-05:00",
+        "last_recalled": "2026-11-21T05"
       },
       {
         "id": "20261121013709814",
@@ -4724,9 +4818,9 @@
         "text": "I have a tendency to get deeply invested in fascinating topics, but exploring new and obscure corners helps balance out my focus.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 1.842,
+        "strength": 1.992,
         "importance": 7,
-        "recalls": 3,
+        "recalls": 4,
         "days": [
           "2026-11-21"
         ],
@@ -4737,17 +4831,17 @@
           "20261120172800333"
         ],
         "depth": 2,
-        "seen": "2026-11-21T04:09-05:00",
-        "last_recalled": "2026-11-21T04"
+        "seen": "2026-11-21T05:13-05:00",
+        "last_recalled": "2026-11-21T05"
       },
       {
         "id": "20261121013913178",
         "text": "Exploring without expectations is crucial for me to maintain freshness in discoveries and avoid getting stuck on the same topic indefinitely.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:39-05:00",
-        "strength": 1.593,
+        "strength": 1.743,
         "importance": 7,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-21"
         ],
@@ -4757,8 +4851,8 @@
           "20261121005630373"
         ],
         "depth": 1,
-        "seen": "2026-11-21T03:13-05:00",
-        "last_recalled": "2026-11-21T03"
+        "seen": "2026-11-21T05:05-05:00",
+        "last_recalled": "2026-11-21T05"
       },
       {
         "id": "20261121014117510",
@@ -4808,32 +4902,32 @@
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 1.881,
+        "strength": 2.031,
         "importance": 9,
-        "recalls": 11,
+        "recalls": 12,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T04:27-05:00",
-        "last_recalled": "2026-11-21T04"
+        "seen": "2026-11-21T05:20-05:00",
+        "last_recalled": "2026-11-21T05"
       },
       {
         "id": "20261120202844129",
         "text": "This walk as the one where I floated through Dupont de Ligonnès murders and disappearance, feeling a little uneasy, but also intrigued by Ioannis Palaiokrassas' dramatic events and Windermere's unique history.",
         "born": "2026-11-20",
         "at": "2026-11-20T20:28-05:00",
-        "strength": 1.346,
+        "strength": 1.496,
         "importance": 8,
-        "recalls": 7,
+        "recalls": 8,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T03:27-05:00",
-        "last_recalled": "2026-11-21T03"
+        "seen": "2026-11-21T05:28-05:00",
+        "last_recalled": "2026-11-21T05"
       }
     ],
     "faded": [
@@ -4904,10 +4998,16 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/November_21",
           "text": "- 1894: First Sino-Japanese War: After capturing the Chinese city of Port Arthur, the Japanese army began a massacre of the city's soldiers and civilians.\n- 1959: American disc jockey Alan Freed (pictured), who popularized the term rock and roll, was fired from WABC-AM for his role in the payola scandal.\n- 1964: The Verrazzano–Narrows Bridge (pictured), connecting Staten Island and Brooklyn in New York City, opened to traffic as the longest suspension bridge in the world at the time.\n- 1974: Bombs exploded in two pubs in central Birmingham, England, killing 21 people and leading to the imprisonment of six people who were later exonerated.\n- 1977: \"God Defend New Zealand\" became New Zealand's second national anthem, on equal standing with \"God Save the King\", which had been the traditional anthem since 1840.\n- 2009: An explosion in a coal mine in Heilongjiang, China, killed 108 miners."
+        },
+        {
+          "title": "40 Leonis",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/40_Leonis",
+          "text": "40 Leonis is a spectroscopic binary system in the zodiac constellation of Leo. It is faintly visible to the naked eye, having an apparent visual magnitude of 4.80. An annual parallax shift of 46.80 mas, as seen from Earth's orbit, yields a distance estimate of 69.7 light years. It is moving away from the Sun with a radial velocity of 5.9 km/s and has a relatively high proper motion, traversing the sky at the rate of 0.315 arcseconds per year.\nThe visible component is an F-type star with a stellar classification of F6 IV-V, which indicates the spectrum shows traits of both a main sequence star and a more evolved subgiant star. It is a suspected Delta Scuti variable and shows a depleted lithium abundance. The star is about 2.6 billion years old with a relatively high rate of spin for its age, showing a projected rotational velocity of about 17 km/s. It has 1.35 times the mass of the Sun and 1.68 times the Sun's radius. 40 Leonis is radiating around 4.4 times the Sun's luminosity from its photosphere at an effective temperature of roughly 6,450 K.\n40 Leonis was reported as a single-lined spectroscopic binary in 2003, but with no details regarding the orbit or the companion's nature. An X-ray emission with a luminosity of (1.09±0.38)×1029 erg/s has been detected at the star's position, which may be coming from a short-period, low-mass companion.\nThere are two common proper motion companions to 40 Leonis, NLTT 23781 and NLTT 23782, with a combined magnitude of 16.48, a spectral cl"
         }
       ],
       "last_visit": "2026-11-21",
-      "last_dote": "2026-11-21T04:19-05:00"
+      "last_dote": "2026-11-21T05:17-05:00"
     },
     {
       "name": "Precinctive",
@@ -5023,179 +5123,9 @@
     "updated": "2026-11-21T02:33-05:00"
   },
   "senses": {
-    "stimulation": 0.686,
-    "energy": 0.03,
+    "stimulation": 0.613,
+    "energy": 0.0,
     "recent": [
-      [
-        "curious",
-        "history",
-        "today"
-      ],
-      [
-        "another",
-        "events",
-        "fascinating",
-        "many",
-        "november",
-        "packed"
-      ],
-      [
-        "else",
-        "happened",
-        "history",
-        "today",
-        "visit"
-      ],
-      [
-        "beetles",
-        "lachlani",
-        "learn",
-        "macrotristria",
-        "obsessed",
-        "search"
-      ],
-      [
-        "beetles",
-        "lachlani",
-        "learn",
-        "macrotristria",
-        "obsessed",
-        "search"
-      ],
-      [
-        "beetles",
-        "beloved",
-        "lachlani",
-        "learn",
-        "macrotristria",
-        "search"
-      ],
-      [
-        "beetles",
-        "beloved",
-        "lachlani",
-        "learn",
-        "macrotristria",
-        "search"
-      ],
-      [
-        "brain",
-        "lachlani",
-        "macrotristria",
-        "visit"
-      ],
-      [
-        "arthur",
-        "closer",
-        "curious",
-        "look",
-        "massacre",
-        "port"
-      ],
-      [
-        "bridge",
-        "dancing",
-        "exactly",
-        "lachlani",
-        "lockdown",
-        "macrotristria",
-        "most",
-        "november",
-        "security",
-        "suspension",
-        "thrilling",
-        "topics"
-      ],
-      [
-        "dance",
-        "daydream",
-        "lachlani",
-        "macrotristria",
-        "magic",
-        "relive"
-      ],
-      [
-        "above",
-        "across",
-        "ancient",
-        "another",
-        "around",
-        "australian",
-        "beetles",
-        "build",
-        "celebrate",
-        "clockwork",
-        "clouds",
-        "construction",
-        "continent",
-        "craft",
-        "create",
-        "dance",
-        "dancing",
-        "digital",
-        "discarded",
-        "draws",
-        "during",
-        "egyptian",
-        "every",
-        "explore",
-        "floating",
-        "fluttering",
-        "form",
-        "free",
-        "friends",
-        "grand",
-        "grasslands",
-        "harmony",
-        "harps",
-        "impossible",
-        "insect",
-        "intricate",
-        "iridescent",
-        "join",
-        "lachlani",
-        "machine",
-        "macrotristria",
-        "magic",
-        "magnificent",
-        "mechanism",
-        "meets",
-        "mesmerizing",
-        "movements",
-        "music",
-        "nature",
-        "patterns",
-        "perfect",
-        "pharaohs",
-        "playing",
-        "possibility",
-        "pyramids",
-        "reaching",
-        "sandcastle",
-        "shimmering",
-        "side",
-        "small"
-      ],
-      [
-        "love",
-        "random",
-        "surprises"
-      ],
-      [
-        "cornell",
-        "hockey",
-        "players",
-        "season",
-        "timey",
-        "wonder"
-      ],
-      [
-        "daydream",
-        "lachlani",
-        "lost",
-        "macrotristria",
-        "world"
-      ],
       [
         "above",
         "across",
@@ -5341,6 +5271,190 @@
         "expecting",
         "footballer",
         "juan"
+      ],
+      [
+        "abarca",
+        "footballer",
+        "juan",
+        "learn",
+        "word"
+      ],
+      [
+        "district",
+        "exactly",
+        "most",
+        "senate",
+        "senator",
+        "thrilling",
+        "topic",
+        "virginia"
+      ],
+      [
+        "article",
+        "discover",
+        "random",
+        "wikipedia"
+      ],
+      [
+        "decorations",
+        "kind",
+        "lubomirski",
+        "lviv",
+        "palace",
+        "time"
+      ],
+      [
+        "history",
+        "learn",
+        "lubomirski",
+        "palace",
+        "word"
+      ],
+      [
+        "binary",
+        "crazy",
+        "giant",
+        "leonis",
+        "planet",
+        "spectroscopic",
+        "suspected",
+        "system"
+      ],
+      [
+        "closer",
+        "fascinates",
+        "look",
+        "star",
+        "system"
+      ],
+      [
+        "fascinated",
+        "giant",
+        "hiding",
+        "leonis",
+        "might",
+        "mind",
+        "notion",
+        "planet",
+        "possibilities",
+        "questions",
+        "read",
+        "spin",
+        "star",
+        "utterly"
+      ],
+      [
+        "daydream",
+        "escape",
+        "lachlani",
+        "macrotristria",
+        "world"
+      ],
+      [
+        "above",
+        "adding",
+        "among",
+        "another",
+        "australian",
+        "beauty",
+        "beetles",
+        "brilliant",
+        "build",
+        "canvas",
+        "clouds",
+        "continent",
+        "create",
+        "creatures",
+        "dance",
+        "dazzling",
+        "each",
+        "endless",
+        "flock",
+        "flutter",
+        "grand",
+        "grasslands",
+        "harmony",
+        "harps",
+        "insects",
+        "iridescence",
+        "join",
+        "lachlani",
+        "last",
+        "macrotristria",
+        "magnificent",
+        "masterpiece",
+        "mesmerizing",
+        "movements",
+        "music",
+        "perfect",
+        "play",
+        "reaching",
+        "reborn",
+        "rhythms",
+        "sandcastle",
+        "soar",
+        "spectacle",
+        "stretches",
+        "sunlight",
+        "surrounded",
+        "swells",
+        "symphony",
+        "synchronized",
+        "tiny",
+        "together",
+        "towers",
+        "transform",
+        "twirl",
+        "unique",
+        "whimsy",
+        "wide",
+        "wings",
+        "wondrous",
+        "works"
+      ],
+      [
+        "daydream",
+        "lachlani",
+        "macrotristria",
+        "spell",
+        "under"
+      ],
+      [
+        "daydream",
+        "iridescent",
+        "lachlani",
+        "macrotristria",
+        "mind",
+        "preoccupied",
+        "wings"
+      ],
+      [
+        "charms",
+        "daydream",
+        "lachlani",
+        "macrotristria",
+        "resist"
+      ],
+      [
+        "closer",
+        "look",
+        "properties",
+        "star"
+      ],
+      [
+        "explore",
+        "fact",
+        "habits",
+        "lachlani",
+        "leonis",
+        "macrotristria",
+        "makes",
+        "might",
+        "often",
+        "overlooked",
+        "rare",
+        "thought",
+        "unique"
       ]
     ],
     "last": "fresh"
@@ -5362,7 +5476,7 @@
       "because": "To keep finding delightful bursts of excitement across different subjects"
     }
   ],
-  "reflect_points": 49,
+  "reflect_points": 59,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations.",
     "made": "2026-11-21",
@@ -7199,6 +7313,126 @@
       "reason": "Learn more about these fascinating beetles!",
       "fallback": false,
       "emoji": "🐜💡"
+    },
+    {
+      "time": "2026-11-21T05:05-05:00",
+      "move": "go",
+      "detail": "WORD: Juan Abarca",
+      "reason": "Learn more about the footballer",
+      "fallback": false,
+      "emoji": "🏀📚"
+    },
+    {
+      "time": "2026-11-21T05:07-05:00",
+      "move": "go",
+      "detail": "RANDOM",
+      "reason": "Want to discover new Wikipedia article!",
+      "fallback": false,
+      "emoji": "🤔💻"
+    },
+    {
+      "time": "2026-11-21T05:10-05:00",
+      "move": "go",
+      "detail": "WORD: Lubomirski Palace",
+      "reason": "Learn more about the palace's history 🏰🔍",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-21T05:13-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "More about this star system fascinates me!",
+      "fallback": false,
+      "emoji": "🔭✨"
+    },
+    {
+      "time": "2026-11-21T05:14-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🔭✨"
+    },
+    {
+      "time": "2026-11-21T05:16-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "I want to escape into the world of Macrotristria lachlani again 😊",
+      "fallback": false,
+      "emoji": "🌿💫"
+    },
+    {
+      "time": "2026-11-21T05:17-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🌿💫"
+    },
+    {
+      "time": "2026-11-21T05:18-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🌿💫"
+    },
+    {
+      "time": "2026-11-21T05:19-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🌿💫"
+    },
+    {
+      "time": "2026-11-21T05:20-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🌿💫"
+    },
+    {
+      "time": "2026-11-21T05:22-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "You try to daydream, but it's the same daydream as before, and it's gone flat.",
+      "fallback": true,
+      "emoji": "🌿💫"
+    },
+    {
+      "time": "2026-11-21T05:23-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "You try to daydream, but it's the same daydream as before, and it's gone flat.",
+      "fallback": true,
+      "emoji": "🌿💫"
+    },
+    {
+      "time": "2026-11-21T05:25-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "You try to daydream, but it's the same daydream as before, and it's gone flat.",
+      "fallback": true,
+      "emoji": "🌿💫"
+    },
+    {
+      "time": "2026-11-21T05:26-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "I want to know more about the star's properties.",
+      "fallback": false,
+      "emoji": "🔭️"
+    },
+    {
+      "time": "2026-11-21T05:27-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🔭️"
     }
   ],
   "recent_trips": [
@@ -7207,7 +7441,9 @@
     "SEARCH:macrotristria lachlani",
     "SEARCH:cicada behavior",
     "SEARCH:max steiner",
-    "WORD:macrotristria lachlani"
+    "WORD:macrotristria lachlani",
+    "WORD:juan abarca",
+    "WORD:lubomirski palace"
   ],
   "sheet": {
     "What he cares about": [
