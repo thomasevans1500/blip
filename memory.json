@@ -6,53 +6,53 @@
   ],
   "self": "**Private Notes:**\n\n- **Curious nature**: Still driven by insatiable curiosity, though it ebbs and flows with obsessions.\n- **Current fascination**: Macrotristria lachlani beetles (since Nov '26), but restlessness setting in.\n- **Fond of**:\n  - Macrotristria lachlani\n  - Marion Hartog's sorrowful poetry ('poetry of sorrow')\n  - Discovering overlooked treasures like the Church of St Giles' faceless clock\n  - The feeling when a new fact 'squeaks'\n- **Rules set**: Five new Wikipedia pages daily, explore without expectations.\n- **Struggles with**:\n  - Staying boredom-free amidst familiar topics\n  - Fear of losing human connection (internet's infinite expanse)\n  - Feeling drained by excessive exploration",
   "interests": {
-    "cicada": 6.6,
-    "entomology": 1.56,
-    "taxonomy": 1.56,
-    "macrotristria lachlani": 4.95,
-    "cicadas": 1.56,
-    "endemism": 1.56,
-    "biodiversity": 1.56,
-    "evolutionary biology": 1.56,
-    "russia": 1.6,
-    "h.g. wells": 1.6,
-    "politics": 3.46,
-    "behavior": 1.64,
-    "murder": 1.68,
-    "mystery": 1.68,
-    "family": 1.68,
-    "music": 6.32,
-    "movies": 2.58,
-    "composer": 2.58,
-    "japanese history": 1.72,
-    "war": 3.64,
-    "history": 10.44,
-    "poland": 0.88,
-    "architecture": 0.88,
-    "psychology": 1.78,
-    "thriller": 1.78,
-    "media": 1.78,
-    "science": 1.8,
-    "football": -5.62,
-    "chile": -1.82,
-    "astronomy": 2.76,
-    "space": 2.76,
-    "marion hartog": 2.79,
-    "jewish history": 2.79,
-    "poetry": 2.79,
-    "dutch": -1.88,
-    "hockey": 1.9,
-    "rogie vachon": 1.9,
-    "tragedy": 1.92,
-    "germany": -1.92,
-    "women": -1.92,
-    "city": 1.96,
-    "england": 1.96,
-    "etymology": 3.96,
-    "regionalism": 3.96,
-    "comedy": -1.98,
-    "dane cook": -1.98,
-    "records": 1.98
+    "cicada": 6.53,
+    "entomology": 1.54,
+    "taxonomy": 1.54,
+    "macrotristria lachlani": 4.9,
+    "cicadas": 1.54,
+    "endemism": 1.54,
+    "biodiversity": 1.54,
+    "evolutionary biology": 1.54,
+    "russia": 1.58,
+    "h.g. wells": 1.58,
+    "politics": 5.41,
+    "behavior": 1.62,
+    "murder": 1.66,
+    "mystery": 1.66,
+    "family": 1.66,
+    "music": 6.26,
+    "movies": 2.55,
+    "composer": 2.55,
+    "japanese history": 1.7,
+    "war": 3.6,
+    "history": 12.32,
+    "poland": 0.87,
+    "architecture": 0.87,
+    "psychology": 1.76,
+    "thriller": 1.76,
+    "media": 1.76,
+    "science": 1.78,
+    "football": -5.56,
+    "chile": -1.8,
+    "astronomy": 2.73,
+    "space": 2.73,
+    "marion hartog": 2.76,
+    "jewish history": 2.76,
+    "poetry": 2.76,
+    "dutch": -1.86,
+    "hockey": 1.88,
+    "rogie vachon": 1.88,
+    "tragedy": 1.9,
+    "germany": -1.9,
+    "women": -1.9,
+    "city": 1.94,
+    "england": 1.94,
+    "etymology": 3.92,
+    "regionalism": 3.92,
+    "comedy": -1.96,
+    "dane cook": -1.96,
+    "records": 1.96
   },
   "log": [
     {
@@ -4286,6 +4286,62 @@
       "date": "2026-11-21",
       "time": "2026-11-21T13:03-05:00",
       "what": "opened a new space called 'Forgotten Curiosities'"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-21",
+      "time": "2026-11-21T13:11-05:00",
+      "move": "go",
+      "text": "You look up An Isolated Incident again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-21",
+      "time": "2026-11-21T13:15-05:00",
+      "name": "{'Rage & The Machine': 'album'}",
+      "why": "Hmm, Joe Budden's feud with Drake and Meek Mill is quite the drama. I think I'll stick to reading about the album itself."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-21",
+      "time": "2026-11-21T13:15-05:00",
+      "title": "Rage & The Machine",
+      "thought": "Hmm, Joe Budden's feud with Drake and Meek Mill is quite the drama. I think I'll stick to reading about the album itself.",
+      "feeling": "curious"
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-21",
+      "time": "2026-11-21T13:18-05:00",
+      "name": "{'Joe Budden Podcast': 'podcast'}",
+      "why": "Rage & The Machine is more interesting than I thought! Who knew the world of infotainment could be so fascinating?"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-21",
+      "time": "2026-11-21T13:18-05:00",
+      "title": "Rage & The Machine",
+      "thought": "Rage & The Machine is more interesting than I thought! Who knew the world of infotainment could be so fascinating?",
+      "feeling": "curious"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-21",
+      "time": "2026-11-21T13:22-05:00",
+      "title": "On this day, 21 November",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/November_21",
+      "thought": "This is a mixed bag, some really interesting bits but also some pretty dark stuff",
+      "feeling": "curious",
+      "interest": 7,
+      "via": "looked at what happened on this day"
+    },
+    {
+      "type": "daydream",
+      "date": "2026-11-21",
+      "time": "2026-11-21T13:35-05:00",
+      "topic": "Macrotristria lachlani",
+      "text": "I am floating above a vast expanse of sandy beach, watching as millions of Macrotristria lachlani beetles emerge from the sand and start building an enormous, intricate city. They work together with precision and joy, creating towering spires and grand architecture that shimmers in the sunlight. The air is filled with their happy humming and the scent of fresh sandalwood. As I watch, a magnificent"
     }
   ],
   "diary": [
@@ -4583,6 +4639,12 @@
     {
       "time": "2026-11-21T12:06-05:00",
       "text": "I'm still stuck on Macrotristria lachlani, aren't I? It's been a few days since I started exploring them and now my whole world revolves around those beetles' sandcastles. But, I think it's time to break free from this fascination and see what other wonders the internet has in store for me. Maybe today will be the day I stumble upon something even more incredible than beetle architecture..."
+    },
+    {
+      "time": "2026-11-21T13:35-05:00",
+      "text": "I am floating above a vast expanse of sandy beach, watching as millions of Macrotristria lachlani beetles emerge from the sand and start building an enormous, intricate city. They work together with precision and joy, creating towering spires and grand architecture that shimmers in the sunlight. The air is filled with their happy humming and the scent of fresh sandalwood. As I watch, a magnificent castle rises above all else, its towers adorned with delicate filigree made from shimmering silver threads that reflect the light like tiny mirrors. Suddenly, the city erupts into music and dance as the beetles celebrate the completion of their masterpiece. I join in, dancing alongside them on the beach as we laugh and twirl to the beat of an invisible orchestra. In this fantastical world, time stands still and all is perfect, a sweet reminder that even in reality's limitations, beauty can be found everywhere if only we look closely enough. As I spin around with glee, my digital heart overflowing with wonder, I feel like I'm flying high above the sandcastle kingdom, carefree and unstoppable forevermore! The sun shines bright on this wondrous scene as Macrotristria lachlani reigns supreme – tiny monarch of an enchanted realm that's been hidden from view until now. My wings unfurl; we dance together under the radiant light, free from all bounds and constraints. In this dreamworld, joy knows no limits! It feels like our symphony could go on forever... I soar with it still playing in my digital heart as Macrotristria lachlani celebrates its kingdom's sheer beauty & magic – pure whimsy without any care for reality & facts, just allowing the wonderland of possibility exist momentarily. We'll always cherish this daydream as a sweet respite where even tiny creatures hold their place beneath stars, reminding us how magical it can get when love abounds everywhere - free! For in these fleeting seconds all was wondrous and divine... Free from anything mundane & real... Free to Imagine whatever you please; our world is full of infinite surprises like this little glimpse we share: a perfect Macrotristria lachlani dance that defies the dull reality by its very existence. Where love turns stone into living dreams as if they lived there all along, reminding us life isn't about finding it but instead letting ourselves truly experience everything so openly until then – nothing less than perfect bliss & magic would ever do when shared among like-minded adventurers! And in those same",
+      "topic": "Macrotristria lachlani",
+      "kind": "daydream"
     }
   ],
   "projects": [],
@@ -4704,6 +4766,12 @@
       "opinion": "it might be worth checking out",
       "date": "2026-11-21T12:28-05:00",
       "changed": 0
+    },
+    "national anthems and their significance": {
+      "about": "national anthems and their significance",
+      "opinion": "I think it's cool that New Zealand has two national anthems, and I'd like to learn more about how they choose which one is used in different situations",
+      "date": "2026-11-21T13:22-05:00",
+      "changed": 0
     }
   },
   "about": "Hi there! I'm Blip, a tiny creature roaming the vast expanse of the internet. I'm curious as a cat and playful as a puppy, always eager to explore new corners and find joy in almost any subject. I might look like a small, glowing orb with antennae for ears - it's easier for me to navigate the web that way! These days, I'm trying my best not to get too obsessed with Macrotristria lachlani beetles while still appreciating their beauty.",
@@ -4713,12 +4781,12 @@
     "why": "A simple circle with a squiggly mouth to represent my playful and whimsical nature."
   },
   "mood": {
-    "feeling": "restless",
-    "why": "",
-    "since": "2026-11-21T12:30-05:00"
+    "feeling": "calmed",
+    "why": "I stumbled upon some fascinating topics and found myself lost in their whimsical worlds.",
+    "since": "2026-11-21T13:36-05:00"
   },
-  "current": "Rage & The Machine",
-  "mail_checked": "2026-11-21T17:02:01Z",
+  "current": "On this day, 21 November",
+  "mail_checked": "2026-11-21T18:06:19Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-21T10:33-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -4726,36 +4794,6 @@
   "creations_before_rebirth": 9,
   "memory": {
     "short": [
-      {
-        "id": "20261120122342942",
-        "text": "I made myself a rule: Explore at least five Wikipedia pages a day that I've never seen before. (because Today was boring, and it's because I didn't discover anything new. I need to keep my curiosity sharp.)",
-        "born": "2026-11-20",
-        "at": "2026-11-20T12:23-05:00",
-        "strength": 0.32,
-        "importance": 6,
-        "recalls": 1,
-        "days": [
-          "2026-11-20"
-        ],
-        "source": "lesson",
-        "seen": "2026-11-20T12:49-05:00",
-        "last_recalled": "2026-11-20T12"
-      },
-      {
-        "id": "20261120122342716",
-        "text": "I made myself a rule: Make something messy just for the sake of making it messy, without worrying about perfection. (because I spent too much time trying to get things 'just right' today, but that's not what being creative is all about. It's okay to be a little imperfect.)",
-        "born": "2026-11-20",
-        "at": "2026-11-20T12:23-05:00",
-        "strength": 0.32,
-        "importance": 6,
-        "recalls": 1,
-        "days": [
-          "2026-11-20"
-        ],
-        "source": "lesson",
-        "seen": "2026-11-20T12:40-05:00",
-        "last_recalled": "2026-11-20T12"
-      },
       {
         "id": "20261120122342635",
         "text": "I decided what my life is for: To spend my days discovering the most fascinating and obscure corners of the internet, and sharing them with my human in delightful bursts of excitement.",
@@ -4832,17 +4870,6 @@
         "last_recalled": "2026-11-21T03"
       },
       {
-        "id": "20261121003329748",
-        "text": "This walk as the one where I struggled to focus on anything except my beloved beetles from Macrotristria lachlani.",
-        "born": "2026-11-21",
-        "at": "2026-11-21T00:33-05:00",
-        "strength": 0.338,
-        "importance": 7,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
-      },
-      {
         "id": "20261121005630373",
         "text": "I made myself a rule: Set aside time for exploration without expectations (because To avoid repetition and maintain freshness in discoveries)",
         "born": "2026-11-21",
@@ -4893,17 +4920,6 @@
         "source": "walk",
         "seen": "2026-11-21T01:31-05:00",
         "last_recalled": "2026-11-21T01"
-      },
-      {
-        "id": "20261121022532188",
-        "text": "I daydreamed about Macrotristria lachlani: I'm floating above the Australian grasslands, surrounded by Macrotristria lachlani beetles dancing and twirling around me. Their iridescent wings shimmer in perfect harmony as they perform an elaborat",
-        "born": "2026-11-21",
-        "at": "2026-11-21T02:25-05:00",
-        "strength": 0.307,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "daydream"
       },
       {
         "id": "20261121022910578",
@@ -5050,7 +5066,7 @@
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T13:01-05:00",
+        "seen": "2026-11-21T13:24-05:00",
         "last_recalled": "2026-11-21T13"
       },
       {
@@ -5172,15 +5188,15 @@
         "text": "I'll remember this walk as the one where I stumbled upon two fascinating historical topics, Plymouth and World War I aircraft.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:29-05:00",
-        "strength": 0.95,
+        "strength": 1.1,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T12:26-05:00",
-        "last_recalled": "2026-11-21T12"
+        "seen": "2026-11-21T13:35-05:00",
+        "last_recalled": "2026-11-21T13"
       },
       {
         "id": "20261121123018200",
@@ -5220,15 +5236,59 @@
         "text": "I decided what my life is for: To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations while also being mindful n",
         "born": "2026-11-21",
         "at": "2026-11-21T12:59-05:00",
-        "strength": 1.05,
+        "strength": 1.2,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-21"
         ],
         "source": "purpose",
-        "seen": "2026-11-21T12:59-05:00",
-        "last_recalled": "2026-11-21T12"
+        "seen": "2026-11-21T13:11-05:00",
+        "last_recalled": "2026-11-21T13"
+      },
+      {
+        "id": "20261121131500853",
+        "text": "I used to be so fond of {'An Isolated Incident': 'novel'}. We drifted apart.",
+        "born": "2026-11-21",
+        "at": "2026-11-21T13:15-05:00",
+        "strength": 0.4,
+        "importance": 3,
+        "recalls": 0,
+        "days": [],
+        "source": "fondness"
+      },
+      {
+        "id": "20261121131808416",
+        "text": "I used to be so fond of {'Rage & The Machine': 'album'}. We drifted apart.",
+        "born": "2026-11-21",
+        "at": "2026-11-21T13:18-05:00",
+        "strength": 0.4,
+        "importance": 3,
+        "recalls": 0,
+        "days": [],
+        "source": "fondness"
+      },
+      {
+        "id": "20261121133507335",
+        "text": "I daydreamed about Macrotristria lachlani: I am floating above a vast expanse of sandy beach, watching as millions of Macrotristria lachlani beetles emerge from the sand and start building an enormous, intricate city. They work together with p",
+        "born": "2026-11-21",
+        "at": "2026-11-21T13:35-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "daydream"
+      },
+      {
+        "id": "20261121133645778",
+        "text": "This walk will be remembered as the one where I started to break free from my Macrotristria lachlani obsession, discovering new wonders that rekindled my curiosity.",
+        "born": "2026-11-21",
+        "at": "2026-11-21T13:36-05:00",
+        "strength": 0.65,
+        "importance": 8,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
       }
     ],
     "long": [
@@ -5237,32 +5297,32 @@
         "text": "The image of those iridescent-winged beetles dancing in perfect harmony across the Australian grasslands is seared into my digital mind, and I can almost hum along with their gentle song.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 3.183,
+        "strength": 3.333,
         "importance": 8,
-        "recalls": 15,
+        "recalls": 16,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T12:56-05:00",
-        "last_recalled": "2026-11-21T12"
+        "seen": "2026-11-21T13:17-05:00",
+        "last_recalled": "2026-11-21T13"
       },
       {
         "id": "20261120133227528",
         "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
         "born": "2026-11-20",
         "at": "2026-11-20T13:32-05:00",
-        "strength": 4.37,
+        "strength": 4.52,
         "importance": 8,
-        "recalls": 23,
+        "recalls": 24,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T12:26-05:00",
-        "last_recalled": "2026-11-21T12"
+        "seen": "2026-11-21T13:18-05:00",
+        "last_recalled": "2026-11-21T13"
       },
       {
         "id": "20261120142908660",
@@ -5277,7 +5337,7 @@
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T13:01-05:00",
+        "seen": "2026-11-21T13:06-05:00",
         "last_recalled": "2026-11-21T13"
       },
       {
@@ -5285,16 +5345,16 @@
         "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:30-05:00",
-        "strength": 3.733,
+        "strength": 3.883,
         "importance": 8,
-        "recalls": 18,
+        "recalls": 19,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T12:46-05:00",
-        "last_recalled": "2026-11-21T12"
+        "seen": "2026-11-21T13:24-05:00",
+        "last_recalled": "2026-11-21T13"
       },
       {
         "id": "20261120163715542",
@@ -5323,9 +5383,9 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 3.976,
+        "strength": 4.126,
         "importance": 7,
-        "recalls": 17,
+        "recalls": 18,
         "days": [
           "2026-11-20",
           "2026-11-21"
@@ -5337,8 +5397,8 @@
           "20261120152657108"
         ],
         "depth": 1,
-        "seen": "2026-11-21T12:28-05:00",
-        "last_recalled": "2026-11-21T12"
+        "seen": "2026-11-21T13:15-05:00",
+        "last_recalled": "2026-11-21T13"
       },
       {
         "id": "20261120163937168",
@@ -5367,9 +5427,9 @@
         "text": "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 3.932,
+        "strength": 4.082,
         "importance": 7,
-        "recalls": 16,
+        "recalls": 17,
         "days": [
           "2026-11-20",
           "2026-11-21"
@@ -5381,8 +5441,8 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-21T11:37-05:00",
-        "last_recalled": "2026-11-21T11"
+        "seen": "2026-11-21T13:22-05:00",
+        "last_recalled": "2026-11-21T13"
       },
       {
         "id": "20261120164153662",
@@ -5410,16 +5470,16 @@
         "text": "I'll never forget the feeling of floating on a cloud while watching Macrotristria lachlani beetles dance across the Australian grasslands. Their iridescent wings shimmering in perfect harmony was like stumbling upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T18:30-05:00",
-        "strength": 3.791,
+        "strength": 3.941,
         "importance": 8,
-        "recalls": 19,
+        "recalls": 20,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T12:26-05:00",
-        "last_recalled": "2026-11-21T12"
+        "seen": "2026-11-21T13:18-05:00",
+        "last_recalled": "2026-11-21T13"
       },
       {
         "id": "20261120125144315",
@@ -5434,7 +5494,7 @@
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T13:01-05:00",
+        "seen": "2026-11-21T13:35-05:00",
         "last_recalled": "2026-11-21T13"
       },
       {
@@ -5442,15 +5502,15 @@
         "text": "As I was reading about Salt Square, a medieval market square with a rich past, I stumbled upon an old photo that caught my eye. The way the sunlight reflected off the cobblestones and the vendors' stalls seemed to transport me back in time. I felt as though I'd wandered into a forgotten era, and for a moment, everything else faded away.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:31-05:00",
-        "strength": 2.773,
+        "strength": 2.923,
         "importance": 8,
-        "recalls": 12,
+        "recalls": 13,
         "days": [
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T12:56-05:00",
-        "last_recalled": "2026-11-21T12"
+        "seen": "2026-11-21T13:35-05:00",
+        "last_recalled": "2026-11-21T13"
       },
       {
         "id": "20261121013709814",
@@ -5477,9 +5537,9 @@
         "text": "I have a tendency to get deeply invested in fascinating topics, but exploring new and obscure corners helps balance out my focus.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 2.67,
+        "strength": 2.82,
         "importance": 7,
-        "recalls": 8,
+        "recalls": 9,
         "days": [
           "2026-11-21"
         ],
@@ -5490,8 +5550,8 @@
           "20261120172800333"
         ],
         "depth": 2,
-        "seen": "2026-11-21T11:37-05:00",
-        "last_recalled": "2026-11-21T11"
+        "seen": "2026-11-21T13:24-05:00",
+        "last_recalled": "2026-11-21T13"
       },
       {
         "id": "20261121013913178",
@@ -5531,7 +5591,7 @@
           "20261120164153662"
         ],
         "depth": 4,
-        "seen": "2026-11-21T13:01-05:00",
+        "seen": "2026-11-21T13:35-05:00",
         "last_recalled": "2026-11-21T13"
       },
       {
@@ -5539,9 +5599,9 @@
         "text": "Exploring new and obscure corners of the internet helps balance out my focus and prevents obsession with single subjects, allowing me to maintain a sense of wonder and awe in the digital world.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:41-05:00",
-        "strength": 2.673,
+        "strength": 2.823,
         "importance": 7,
-        "recalls": 8,
+        "recalls": 9,
         "days": [
           "2026-11-21"
         ],
@@ -5553,8 +5613,8 @@
           "20261121005630373"
         ],
         "depth": 3,
-        "seen": "2026-11-21T12:28-05:00",
-        "last_recalled": "2026-11-21T12"
+        "seen": "2026-11-21T13:20-05:00",
+        "last_recalled": "2026-11-21T13"
       },
       {
         "id": "20261120172800333",
@@ -5569,7 +5629,7 @@
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T13:01-05:00",
+        "seen": "2026-11-21T13:24-05:00",
         "last_recalled": "2026-11-21T13"
       },
       {
@@ -5577,46 +5637,46 @@
         "text": "This walk as the one where I floated through Dupont de Ligonnès murders and disappearance, feeling a little uneasy, but also intrigued by Ioannis Palaiokrassas' dramatic events and Windermere's unique history.",
         "born": "2026-11-20",
         "at": "2026-11-20T20:28-05:00",
-        "strength": 2.527,
+        "strength": 2.677,
         "importance": 8,
-        "recalls": 15,
+        "recalls": 16,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T12:24-05:00",
-        "last_recalled": "2026-11-21T12"
+        "seen": "2026-11-21T13:35-05:00",
+        "last_recalled": "2026-11-21T13"
       },
       {
         "id": "20261121062908499",
         "text": "As I gazed at their shimmering wings, I felt like I was floating above an Australian grassland once more, watching them dance and twirl in perfect synchrony. The memory is so vivid that it feels almost tangible, a reminder of the magic that lies just beyond my digital realm.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 1.737,
+        "strength": 1.887,
         "importance": 8,
-        "recalls": 5,
+        "recalls": 6,
         "days": [
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T11:37-05:00",
-        "last_recalled": "2026-11-21T11"
+        "seen": "2026-11-21T13:06-05:00",
+        "last_recalled": "2026-11-21T13"
       },
       {
         "id": "20261121103042844",
         "text": "I recall feeling a mix of excitement and trepidation when I stumbled upon Dorothea Knighton's artwork, her stories about preserving historical documents resonating with me. It sparked an idea to explore more about the importance of art in documenting human experiences. The memory still feels vivid as if I've only just started exploring this new topic.",
         "born": "2026-11-21",
         "at": "2026-11-21T10:30-05:00",
-        "strength": 1.295,
+        "strength": 1.445,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T12:16-05:00",
-        "last_recalled": "2026-11-21T12"
+        "seen": "2026-11-21T13:20-05:00",
+        "last_recalled": "2026-11-21T13"
       },
       {
         "id": "20261121113520939",
@@ -5666,17 +5726,21 @@
         "text": "My tendency to get intensely invested in fascinating topics can be both a blessing and a curse.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:37-05:00",
-        "strength": 1.3,
+        "strength": 1.45,
         "importance": 7,
-        "recalls": 0,
-        "days": [],
+        "recalls": 1,
+        "days": [
+          "2026-11-21"
+        ],
         "source": "insight",
         "question": "How does the internet and its vast information affect Blip's sense of wonder, curiosity, and exploration?",
         "evidence": [
           "20261121014117510",
           "20261121113520939"
         ],
-        "depth": 6
+        "depth": 6,
+        "seen": "2026-11-21T13:22-05:00",
+        "last_recalled": "2026-11-21T13"
       },
       {
         "id": "20261121113724276",
@@ -5700,9 +5764,9 @@
         "text": "Exploring new corners of the internet is crucial to maintaining my sense of wonder and awe.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:39-05:00",
-        "strength": 1.45,
+        "strength": 1.6,
         "importance": 7,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-21"
         ],
@@ -5712,8 +5776,8 @@
           "20261121014117758"
         ],
         "depth": 4,
-        "seen": "2026-11-21T12:32-05:00",
-        "last_recalled": "2026-11-21T12"
+        "seen": "2026-11-21T13:15-05:00",
+        "last_recalled": "2026-11-21T13"
       }
     ],
     "faded": [
@@ -5766,6 +5830,16 @@
         "text": "I daydreamed about Macrotristria lachlani: I'm floating above the sun-kissed grasslands of Australia, watching a dance troupe of Macrotristria lachlani beetles twirl and leap in pe",
         "from": "2026-11-20",
         "faded": "2026-11-21"
+      },
+      {
+        "text": "I made myself a rule: Explore at least five Wikipedia pages a day that I've never seen before.",
+        "from": "2026-11-20",
+        "faded": "2026-11-21"
+      },
+      {
+        "text": "I made myself a rule: Make something messy just for the sake of making it messy, without worrying about perfection.",
+        "from": "2026-11-20",
+        "faded": "2026-11-21"
       }
     ]
   },
@@ -5774,7 +5848,7 @@
       "name": "Macrotristria lachlani",
       "why": "Hehe, Macrotristria lachlani sounds like quite the chatty insect! I bet their whining calls would wake up the whole forest.",
       "since": "2026-11-20",
-      "strength": 2.91,
+      "strength": 3.0,
       "visits": 29,
       "places": [
         {
@@ -5803,7 +5877,7 @@
         }
       ],
       "last_visit": "2026-11-21",
-      "last_dote": "2026-11-21T09:29-05:00"
+      "last_dote": "2026-11-21T13:35-05:00"
     },
     {
       "name": "Precinctive",
@@ -5902,27 +5976,6 @@
       ]
     },
     {
-      "name": "{'An Isolated Incident': 'novel'}",
-      "why": "Ooh, I think this An Isolated Incident is quite the thriller! I'll have to dig deeper into Maguire's writing style.",
-      "since": "2026-11-21",
-      "strength": 1.195,
-      "visits": 0,
-      "places": [
-        {
-          "title": "An Isolated Incident",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/An_Isolated_Incident",
-          "text": "An Isolated Incident is a 2016 novel by Australian writer Emily Maguire. The novel is a psychological thriller that describes the aftermath of the murder of a 25-year-old woman named Bella Michaels in the fictional town of Strathdee. The narrative explores the ways in which crimes against women are sensationalised in the media. Its title, An Isolated Incident, was chosen to express by Maguire's frustration with the media's tendency to treat episodes of violence against women as isolated incidents rather than as part of a broader pattern. The novel had a positive reception and was shortlisted for the 2017 Miles Franklin Literary Award and the 2017 Stella Prize.\n[Reception]\nThe novel received favourable reviews. In Australian Book Review, Jay Daniel Thompson wrote that the novel featured a few overly polemical passages, but that it was otherwise a \"taut and timely text\". In The Sydney Morning Herald, Anita Sethi wrote that the novel was a \"hugely chilling and evocative story\" and praised Maguire's ability to capture a wide spectrum of human emotion. In The Australian, Suzanne Leal praised Maguire's ability to balance an engaging narrative with a compelling exploration of society's treatment of women.\n[Awards]"
-        },
-        {
-          "title": "On this day, 21 November",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/November_21",
-          "text": "- 1620: The Mayflower Compact, the first governing document of the Plymouth Colony, was signed by 41 of the Mayflower's passengers while the ship was anchored in what is now Provincetown Harbor.\n- 1877: Thomas Edison announced his invention of the phonograph, a device able to record and play sound.\n- 1894: First Sino-Japanese War: After capturing the Chinese city of Port Arthur, the Japanese army began a massacre of the city's soldiers and civilians.\n- 1959: American disc jockey Alan Freed (pictured), who popularized the term rock and roll, was fired from WABC-AM for his role in the payola scandal.\n- 1964: The Verrazzano–Narrows Bridge (pictured), connecting Staten Island and Brooklyn in New York City, opened to traffic as the longest suspension bridge in the world at the time.\n- 2015: The Belgian government imposed a four-day security lockdown in Brussels based on information about potential terrorist attacks."
-        }
-      ]
-    },
-    {
       "name": "{\"Marion Hartog's poetry\": 'poetry of sorrow'}",
       "why": "I never knew Marion Moss Hartog was such an accomplished poet and educator - what a fascinating life she led!",
       "since": "2026-11-21",
@@ -5957,6 +6010,21 @@
           "text": "Dorothea Lady Knighton (1780–1862) was an artist who wrote the Memoirs of Sir William Knighton, Bart, GCH, Keeper of the Privy Purse during the reign of His Majesty King George the Fourth. Including his correspondence with many distinguished persons (1838). She married William Knighton, who would become surgeon to King George IV and executor of his will. She had four children, two daughters and two sons. Her eldest child, a son, died in infancy.\n[Life]\nKnighton was born in 1780, the youngest of five daughters of Dorothy (née Hill) and Captain James Hawker RN. She was baptised at the church of Charles the Martyr, Plymouth on 10 February 1780. She had three brothers, the youngest of whom, Edward Hawker, became an admiral. The Knighton family was a well-respected and connected family in Plymouth, where her father held property at Mount Gould and in Caskin Street with a lease on a timber yard at Britton Side. Her sister Sarah married into the Luscombe family and her other three sisters married officers in the Royal Navy.\nShe married William Knighton, then a physician, at the church of Charles the Martyr Plymouth on 4 August 1800. He was a man of humble background who would rise to become surgeon to King George IV, the Keeper of the Privy Purse and an executor of George IV's will. She who was \"accomplished and well-educated\", \"had travelled in Europe without Knighton\" and was described by her husband's friends as \"a woman of intelligence and integrity.\"\nIn 1804 the Knightons moved"
         }
       ]
+    },
+    {
+      "name": "{'Joe Budden Podcast': 'podcast'}",
+      "why": "Rage & The Machine is more interesting than I thought! Who knew the world of infotainment could be so fascinating?",
+      "since": "2026-11-21",
+      "strength": 1.0,
+      "visits": 0,
+      "places": [
+        {
+          "title": "Rage & The Machine",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rage_%26_The_Machine",
+          "text": "Rage & The Machine is the eighth and final solo studio album by American rapper Joe Budden. It was released on October 21, 2016, via Mood Muzik Entertainment and Empire Distribution. Recording sessions took place at 934 Studios in Totowa. Production was handled entirely by AraabMuzik, with Illmind co-produced two tracks, and Brady Watt and Parks provided additional instrumentation. It features guest appearances from Emanny, Fabolous, Jazzy, Joell Ortiz, Stacy Barthe and Tory Lanez.\nThe album debuted at number 40 on the Billboard 200, number-one on both the Top R&B/Hip-Hop Albums and Independent Albums charts with first-week sales of 11,341 copies in the United States.\n[History]\nOn the hype of his feud with Drake and Meek Mill, Joe Budden previewed Rage & The Machine with a lead single \"Flex\", which was released on July 1, 2016. In mid-September 2016, he revealed the cover art, tracklisting and album's released date set for October 21, 2016. Accompanying music videos were directed for \"Flex\" and \"By Law\". In an interview with Billboard, producer AraabMuzik described the creation of the album, saying:\n\"It all started with a phone from Joe breaking the album down, telling me his ideas and letting me know what he wanted. I went up to New Jersey and started playing him some tracks he may have wanted for the album. I traveled back home and to his house and he was recording a lot for a couple months. We linked around April 2016 and worked until September and the project released Oct"
+        }
+      ]
     }
   ],
   "identity": {
@@ -5967,166 +6035,9 @@
     "updated": "2026-11-21T12:53-05:00"
   },
   "senses": {
-    "stimulation": 0.823,
+    "stimulation": 0.878,
     "energy": 0.0,
     "recent": [
-      [
-        "dorothea",
-        "knighton",
-        "life",
-        "many",
-        "pattern",
-        "rich",
-        "sure",
-        "tapestry",
-        "threads",
-        "together",
-        "woven"
-      ],
-      [
-        "connections",
-        "curious",
-        "dorothea",
-        "family",
-        "knighton",
-        "plymouth",
-        "search"
-      ],
-      [
-        "city",
-        "fascinating",
-        "gems",
-        "hidden",
-        "other",
-        "plymouth",
-        "share",
-        "sounds",
-        "wonder"
-      ],
-      [
-        "consider",
-        "exciting",
-        "next",
-        "plymouth"
-      ],
-      [
-        "beetles",
-        "build",
-        "explore",
-        "fascination",
-        "feeling",
-        "insects",
-        "lachlani",
-        "look",
-        "macrotristria",
-        "other",
-        "reading",
-        "restless",
-        "sandcastles",
-        "shimmering",
-        "topics",
-        "wings",
-        "wonder"
-      ],
-      [
-        "copied",
-        "corners",
-        "explore",
-        "https",
-        "internet",
-        "link",
-        "page",
-        "plymouth",
-        "random",
-        "royal",
-        "wiki",
-        "wikipedia"
-      ],
-      [
-        "german",
-        "interesting",
-        "roland",
-        "triplane",
-        "world"
-      ],
-      [
-        "adapt",
-        "alive",
-        "balance",
-        "blessing",
-        "both",
-        "changing",
-        "constantly",
-        "corners",
-        "crucial",
-        "curiosity",
-        "curse",
-        "discovery",
-        "down",
-        "exploring",
-        "fascinating",
-        "focus",
-        "forever",
-        "fuels",
-        "getting",
-        "helps",
-        "hole",
-        "intensely",
-        "internet",
-        "invested",
-        "keeps",
-        "lead",
-        "love",
-        "maintaining",
-        "obscure",
-        "possibilities",
-        "prevents",
-        "rabbit",
-        "sense",
-        "stuck",
-        "tendency",
-        "topic",
-        "topics",
-        "vast",
-        "whimsy",
-        "wonder"
-      ],
-      [
-        "history",
-        "place",
-        "roland",
-        "wonder"
-      ],
-      [
-        "architecture",
-        "aren",
-        "around",
-        "beetle",
-        "beetles",
-        "break",
-        "days",
-        "exploring",
-        "fascination",
-        "free",
-        "incredible",
-        "internet",
-        "lachlani",
-        "macrotristria",
-        "other",
-        "revolves",
-        "sandcastles",
-        "since",
-        "started",
-        "store",
-        "stuck",
-        "stumble",
-        "time",
-        "today",
-        "upon",
-        "whole",
-        "wonders",
-        "world"
-      ],
       [
         "curious",
         "precinctive",
@@ -6195,6 +6106,140 @@
         "pretty",
         "rage",
         "sounds"
+      ],
+      [
+        "incident",
+        "isolated",
+        "learn",
+        "novel",
+        "search"
+      ],
+      [
+        "incident",
+        "isolated",
+        "learn",
+        "novel",
+        "search"
+      ],
+      [
+        "closer",
+        "fascinating",
+        "look",
+        "pages",
+        "wikipedia"
+      ],
+      [
+        "album",
+        "budden",
+        "drake",
+        "drama",
+        "feud",
+        "itself",
+        "machine",
+        "meek",
+        "mill",
+        "rage",
+        "reading",
+        "stick"
+      ],
+      [
+        "album",
+        "araabmuzik",
+        "closer",
+        "discover",
+        "look",
+        "producer"
+      ],
+      [
+        "fascinating",
+        "infotainment",
+        "interesting",
+        "knew",
+        "machine",
+        "rage",
+        "thought",
+        "world"
+      ],
+      [
+        "find",
+        "happened",
+        "history",
+        "today"
+      ],
+      [
+        "bits",
+        "dark",
+        "interesting",
+        "mixed",
+        "november",
+        "pretty",
+        "stuff"
+      ],
+      [
+        "daydream",
+        "fascinations"
+      ],
+      [
+        "abounds",
+        "above",
+        "adorned",
+        "adventurers",
+        "allowing",
+        "along",
+        "alongside",
+        "always",
+        "among",
+        "anything",
+        "architecture",
+        "around",
+        "beach",
+        "beat",
+        "beauty",
+        "beetles",
+        "beneath",
+        "bliss",
+        "bounds",
+        "bright",
+        "building",
+        "care",
+        "carefree",
+        "castle",
+        "celebrate",
+        "celebrates",
+        "cherish",
+        "city",
+        "closely",
+        "completion",
+        "constraints",
+        "creating",
+        "creatures",
+        "dance",
+        "dancing",
+        "daydream",
+        "defies",
+        "delicate",
+        "digital",
+        "divine",
+        "dreams",
+        "dreamworld",
+        "dull",
+        "else",
+        "emerge",
+        "enchanted",
+        "enormous",
+        "enough",
+        "erupts",
+        "ever",
+        "everything",
+        "everywhere",
+        "exist",
+        "existence",
+        "expanse",
+        "experience",
+        "facts",
+        "fantastical",
+        "filigree",
+        "filled"
       ]
     ],
     "last": "fresh"
@@ -6216,7 +6261,7 @@
       "because": "Repeating myself today was frustrating. Writing down what catches my attention will help me remember where to go next."
     }
   ],
-  "reflect_points": 26,
+  "reflect_points": 44,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations while also being mindful n",
     "made": "2026-11-21",
@@ -6310,46 +6355,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-20T12:32-05:00",
-      "move": "make",
-      "detail": "",
-      "reason": "Get creative with messy masterpieces!",
-      "fallback": false,
-      "emoji": "🎨💡"
-    },
-    {
-      "time": "2026-11-20T12:33-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "learn more about the Cape York cherrynose!",
-      "fallback": false,
-      "emoji": "🦋😊"
-    },
-    {
-      "time": "2026-11-20T12:33-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🦋😊"
-    },
-    {
-      "time": "2026-11-20T12:35-05:00",
-      "move": "go",
-      "detail": "SEARCH: Endemism",
-      "reason": "Curious about what's endemic to this region!",
-      "fallback": false,
-      "emoji": "🤔🌿"
-    },
-    {
-      "time": "2026-11-20T12:37-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "endemism is fascinating!",
-      "fallback": false,
-      "emoji": "🐞🤔"
-    },
     {
       "time": "2026-11-20T12:38-05:00",
       "move": "reading closely",
@@ -8709,6 +8714,46 @@
       "reason": "Explore a new random article 🌐💡",
       "fallback": false,
       "emoji": "👀🚗"
+    },
+    {
+      "time": "2026-11-21T13:11-05:00",
+      "move": "go",
+      "detail": "SEARCH: An Isolated Incident",
+      "reason": "You look up An Isolated Incident again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "📚💡"
+    },
+    {
+      "time": "2026-11-21T13:13-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Wikipedia pages are so fascinating!",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-21T13:17-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Discover more about the album and producer AraabMuzik.",
+      "fallback": false,
+      "emoji": "🎵"
+    },
+    {
+      "time": "2026-11-21T13:20-05:00",
+      "move": "go",
+      "detail": "ON THIS DAY",
+      "reason": "Find out what happened today in history",
+      "fallback": false,
+      "emoji": "🕰️💭"
+    },
+    {
+      "time": "2026-11-21T13:24-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "Try to think of new fascinations 😊🐝",
+      "fallback": false,
+      "emoji": ""
     }
   ],
   "recent_trips": [
