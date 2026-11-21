@@ -127,6 +127,9 @@
     <p class="muted">Little toys Blip built himself. Each one runs in a locked box: no internet, no access to
     anything outside its own window. They're clumsy on purpose; some of them won't work at all.</p>
     <div class="grid" id="toys"></div></section>
+  <section id="world-section"><h2>🗺️ My imagined world</h2>
+    <p class="muted">Places Blip made up in his head. They stay put between visits, along with anything he leaves there.</p>
+    <div class="grid" id="world"></div></section>
   <section id="fond-section"><h2>💕 Things I'm fond of</h2><div class="grid" id="fond"></div></section>
   <section id="projects-section"><h2>🎯 What I'm working on</h2><div id="projects"></div><div id="projects-done"></div></section>
   <section id="mood-section"><h2>💭 How I'm feeling</h2><div class="card mood" id="mood"></div></section>
@@ -197,7 +200,7 @@ function render(m) {
 
   const reads = (m.log || []).filter(e => e.type === "read");
   const last = reads[reads.length - 1];
-  const latest = [...(m.log || [])].reverse().find(e => ["read", "pondered", "rested", "made", "project", "mail", "letter", "kept", "daydream", "visited", "fond"].includes(e.type));
+  const latest = [...(m.log || [])].reverse().find(e => ["read", "pondered", "rested", "made", "project", "mail", "letter", "kept", "daydream", "visited", "fond", "imagined"].includes(e.type));
   const doing = latest && latest.type !== "read" ? ({
     pondered: ["🤔 Staying in, thinking about " + latest.topic, latest.conclusion ? "→ " + latest.conclusion : ""],
     rested: ["😴 Resting and daydreaming", ""],
@@ -209,6 +212,7 @@ function render(m) {
     daydream: ["☁️ Daydreaming about " + latest.topic, latest.text || ""],
     visited: ["🏡 Back visiting " + latest.name, latest.thought || ""],
     fond: ["💕 Just grew fond of " + latest.name, latest.why || ""],
+    imagined: ["🗺️ In my imagination, " + (latest.new ? "making up " : "back at ") + latest.name, latest.text || ""],
   })[latest.type] : null;
   const lastMove = [...(m.moves || [])].reverse().find(x => x.emoji);
   const bubble = lastMove ? el("div", { style: "font-size:40px;line-height:1;margin-bottom:6px", title: lastMove.move }, lastMove.emoji) : null;
@@ -297,6 +301,7 @@ function render(m) {
     $("moves").replaceChildren(...mv.map(x => el("li", { class: x.fallback ? "fb" : "" },
       x.emoji ? el("span", { style: "font-size:20px;margin-right:6px" }, x.emoji) : null,
       el("span", { class: "tag" }, x.move), x.detail ? x.detail : "",
+      x.door ? el("span", { class: "muted" }, " · through " + x.door) : null,
       !x.fallback && x.reason ? el("div", { class: "muted" }, "because: “" + x.reason + "”") : null,
       el("div", { class: "muted" }, ago(x.time)))));
     const open = (m.intentions || []).filter(i => !i.done);
@@ -338,6 +343,14 @@ function render(m) {
     el("div", { class: "bar-outer" }, el("i", { style: `width:${Math.min(100, Math.round(d.strength / 3 * 100))}%` })),
     d.why ? el("p", { style: "margin:6px 0 0" }, "“" + d.why + "”") : null)));
   else hide("fond-section");
+
+  const wp = ((m.world || {}).places || []);
+  if (wp.length) $("world").replaceChildren(...wp.map(p => el("div", { class: "card" },
+    el("h3", { style: "margin:0" }, (p.name === m.world.here ? "📍 " : "🗺️ ") + p.name),
+    el("div", { class: "muted" }, (p.door ? `my way into ${p.door} · ` : "") + `visited ${p.visits}× · made ${ago(p.made)}`),
+    el("p", { style: "margin:6px 0 0" }, p.what),
+    (p.things || []).length ? el("div", { class: "muted", style: "margin-top:6px" }, "Left here: " + p.things.map(t => t.name).join(", ")) : null)));
+  else hide("world-section");
 
   const ops = Object.values(m.opinions || {}).sort((a, b) => (b.date || "").localeCompare(a.date || ""));
   if (ops.length) $("opinions").replaceChildren(...ops.slice(0, 20).map(o => el("li", {},

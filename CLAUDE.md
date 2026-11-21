@@ -282,6 +282,21 @@ offered research-shaped actions and measured things (0-10, topics). Now:
   a random slice of the stored page so they aren't identical.
 - Naps: darlings x0.97, < 0.2 drift away. Fresh start archives darlings. Site: "💕 Things I'm fond of".
 
+## Imagined world (2026-11-21, Thomas's idea; step 1 of 3: world -> games -> living there)
+Daydreams vanish; this persists. Move "imagine" (detail: the place) -> `imagine_place`: a NEW place = brain invents
+name + what (2-3 sentences) + what he does + optional thing to leave + optional "door"; an OLD place (matched by
+`find_world_place`) shows its description + things left there -> do / change (new description) / leave / take.
+memory["world"] = {places [{name, what, things[{name, left}] (max 8), made, visits, last, door}] (max 12; the least
+visited non-door place fades -> memory), here}. Doors: a place can be his way into a real source (DOOR_NAMES:
+Wikipedia, Wiktionary, DuckDuckGo, Open Library, NASA, BBC News, Hacker News; DOOR_SOURCES maps go commands incl.
+LINK) - HE names them, we never do (no hard-coded "library"). With a door: destination menu shows "(in your world:
+X)", the reaction's via says "through X, in your imagined world", world.here = X, the move gets "door" (site: "·
+through X"). who_am_i lists the places (world_text); ABILITIES mentions it. Too long in his head goes quiet:
+HEAD_MOVES (daydream/visit/imagine) >= HEAD_MAX (4) of the last 8 brain moves -> all three fizzle. Diary sees
+"imagined" log entries. Fresh start archives "world". Site: "🗺️ My imagined world" (📍 = where he is) + Right now.
+Next (when Thomas says): step 2 games ("play": invent rules, code rolls real dice, scores/high scores persist),
+step 3 every move prompt says where he is in his world.
+
 ## Fresh starts (2026-11-19, Thomas's choice)
 Old identity material (formed under the earlier analytical sheet) kept dragging Blip back to Guerin/football
 analytics. `fresh_start(m)` runs at the start of each hour; when memory["fresh_start"] != FRESH_START it

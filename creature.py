@@ -493,6 +493,137 @@ def darling_text(m):
     return "; ".join(f"{d['name']} (since {d['since']})" for d in ds) or "nothing yet"
 
 
+# ---------- His imagined world: places he makes up, that are still there when he comes back ----------
+
+WORLD_MAX_PLACES, WORLD_MAX_THINGS = 12, 8
+DOOR_SOURCES = {"SEARCH": "Wikipedia", "RANDOM": "Wikipedia", "ON THIS DAY": "Wikipedia", "LINK": "Wikipedia",
+                "WORD": "Wiktionary", "ASK": "DuckDuckGo", "BOOKS": "Open Library", "SPACE": "NASA",
+                "NEWS": "BBC News", "HACKER NEWS": "Hacker News"}
+DOOR_NAMES = sorted(set(DOOR_SOURCES.values()))
+
+
+def world(m):
+    return m.setdefault("world", {"places": [], "here": None})
+
+
+def find_world_place(m, name):
+    name = unwrap(name).lower().strip(" .!'\"")
+    places = world(m)["places"]
+    for p in places:
+        if p["name"].lower() == name:
+            return p
+    words = {w for w in WORD_RE.findall(name) if len(w) > 3}
+    best = max(places, key=lambda p: len(words & set(WORD_RE.findall(p["name"].lower()))), default=None)
+    return best if best and words & set(WORD_RE.findall(best["name"].lower())) else None
+
+
+def door_for(m, source):
+    """The place in his imagined world that is his way into a real source (he decides which, if any)."""
+    return next((p for p in world(m)["places"] if p.get("door") == source), None)
+
+
+def world_text(m):
+    ps = world(m)["places"]
+    if not ps:
+        return ""
+    here = world(m).get("here")
+    return "Places in your imagined world: " + "; ".join(
+        p["name"] + (f" (your way into {p['door']})" if p.get("door") else "") + (" (you're here)" if p["name"] == here else "")
+        for p in ps) + ".\n"
+
+
+def imagine_place(m, detail):
+    """He goes somewhere in his imagination. New places are made up on the spot; old ones are exactly as he
+    left them, things and all, so his world builds up instead of vanishing like a daydream."""
+    w = world(m)
+    p = find_world_place(m, detail) if detail else None
+    open_doors = [s for s in DOOR_NAMES if not door_for(m, s)]
+    try:
+        if p:
+            things = "; ".join(t["name"] for t in p.get("things", [])) or "nothing"
+            r = ask(f"""{who_am_i(m, context=p['name'] + ' ' + p['what'])}
+
+In your imagination, you go back to {p['name']}, a place you made up.
+It's like this: {p['what']}
+Things you've left here: {things}
+{"It's your way into " + p['door'] + " (a real place on the internet)." if p.get('door') else ""}
+
+Reply in JSON:
+"do": what you do or notice here this time, in first person, 1 to 3 sentences
+"change": if something about the place changes, its new description (2 or 3 sentences), otherwise ""
+"leave": something you leave here, otherwise ""
+"take": something you take away from here (copy its name), otherwise ""
+"feeling": one word""", as_json=True, temperature=1.0)
+        else:
+            r = ask(f"""{who_am_i(m, context=detail)}
+
+In your imagination, you go somewhere new: {detail or "wherever you like"}. It can be anywhere, made of
+anything, as big or tiny as you like. It's yours, and it will still be there next time you come.
+{"Some real places on the internet don't have a place in your world yet: " + ", ".join(open_doors) + ". If this place is your way into one of them, say which." if open_doors else ""}
+
+Reply in JSON:
+"name": a short name for the place
+"what": what it's like, 2 or 3 sentences
+"do": what you do there, in first person, 1 to 3 sentences
+"leave": something you leave here, otherwise ""
+"door": {"which real place it's your way into, or " + '""' if open_doors else '""'}
+"feeling": one word""", as_json=True, temperature=1.0)
+    except BrainError as e:
+        print(f"(couldn't picture it: {e})")
+        return
+    do = unwrap(r.get("do", ""))[:600]
+    if p is None:
+        name = unwrap(r.get("name", "")).strip(" .!'\"")[:60]
+        what = unwrap(r.get("what", ""))[:500]
+        if len(name) < 2 or len(what) < 15:
+            print("(the place wouldn't come into focus)")
+            return
+        p = find_world_place(m, name)        # he may have reinvented somewhere he already has
+        if p is None:
+            door = next((s for s in open_doors if s.lower() == unwrap(r.get("door", "")).lower().strip()), None)
+            p = {"name": name, "what": what, "things": [], "made": now(), "visits": 0, "door": door}
+            w["places"].append(p)
+            if len(w["places"]) > WORLD_MAX_PLACES:
+                gone = min((x for x in w["places"][:-1] if not x.get("door")) or w["places"][:-1],
+                           key=lambda x: (x["visits"], x.get("last", x["made"])))
+                w["places"].remove(gone)
+                remember(m, f"{gone['name']} slowly faded out of my imagination.", 0.3, source="world")
+            new = True
+        else:
+            new = False
+    else:
+        new = False
+        change = unwrap(r.get("change", ""))[:500]
+        if len(change) > 15:
+            p["what"] = change
+        take = unwrap(r.get("take", "")).lower().strip()
+        took = next((t for t in p.get("things", []) if take and (t["name"].lower() == take or take in t["name"].lower())), None)
+        if took:
+            p["things"].remove(took)
+            r["took"] = took["name"]
+    leave = unwrap(r.get("leave", "")).strip(" .")[:80]
+    if len(leave) > 2:
+        p.setdefault("things", []).append({"name": leave, "left": now()})
+        p["things"] = p["things"][-WORLD_MAX_THINGS:]
+    p["visits"] += 1
+    p["last"] = now()
+    w["here"] = p["name"]
+    feeling = str(r.get("feeling", "")).strip()[:40]
+    if feeling:
+        m["mood"] = {"feeling": feeling, "why": f"I've been in {p['name']}, in my imagination", "since": now()}
+    feel(m, f"{p['name']} {do}")
+    tire(m, 0.03)
+    m["log"].append({"type": "imagined", "date": today(), "time": now(), "name": p["name"], "new": new,
+                     "text": do, "left": leave if len(leave) > 2 else "", "took": r.get("took", ""),
+                     "door": p.get("door")})
+    remember(m, f"{'I made up a place in my head' if new else 'I went back to'} {p['name']}: {do[:200]}", 0.4,
+             source="world")
+    save(m)
+    print(f"🗺️  {'Imagined a new place' if new else 'Went back to'} {p['name']}"
+          + (f" (his way into {p['door']})" if new and p.get("door") else "") + f": {do}"
+          + (f"\n   left: {leave}" if len(leave) > 2 else "") + (f"\n   took: {r['took']}" if r.get("took") else ""))
+
+
 def refresh_identity(m):
     """A short summary of who he is right now, rebuilt every few hours from his character sheet, his
     realisations and recent memories (Generative Agents' cached summary: core characteristics, what he's
@@ -590,6 +721,7 @@ def who_am_i(m, context=""):
         f"{projects}"
         f"{heard}"
         f"Things you're fond of: {darling_text(m)}.\n"
+        f"{world_text(m)}"
         f"{extras}"
     ).rstrip()
 
@@ -842,8 +974,11 @@ DESTINATIONS = [
 ]
 
 
-def destination_menu():
-    return "\n".join(f'  - "{cmd}: <anything>"  {what}' if topic else f'  - "{cmd}"  {what}'
+def destination_menu(m=None):
+    def door(cmd):
+        p = door_for(m, DOOR_SOURCES.get(cmd)) if m else None
+        return f" (in your world: {p['name']})" if p else ""
+    return "\n".join((f'  - "{cmd}: <anything>"  {what}' if topic else f'  - "{cmd}"  {what}') + door(cmd)
                      for cmd, topic, what, _ in DESTINATIONS)
 
 
@@ -959,7 +1094,9 @@ pictures, read the BBC news and Hacker News, see what happened on this day in hi
 draw simple pictures; keep memories, opinions and notes; run your own website with spaces and project
 pages; write a letter to your human (they get it by email, and their replies reach you next hour);
 build small interactive toys yourself (games, simulators, gadgets) that run in a little box on your website;
-ask your human for things you'd like them to do, make or give you (your requests show on your website).
+ask your human for things you'd like them to do, make or give you (your requests show on your website);
+imagine places of your own: a world in your head that's still there when you come back, where you can
+leave things and find them again (real places on the internet can have a place in it too, if you like).
 Things you can't do (yet): see photos or videos, hear sounds or music, move or touch anything in the
 physical world, buy anything or handle money, talk to anyone except your human."""
 
@@ -1483,7 +1620,7 @@ def fresh_start(m):
     keys = ["about", "self", "traits", "opinions", "interests", "memory", "scrapbook", "mood", "projects",
             "thoughts", "senses", "home", "portrait", "spaces", "sheet", "sheet_history", "current", "hours",
             "darlings", "moves", "intentions", "identity", "plan", "lessons", "purpose", "recent_trips",
-            "reflect_points", "wishes"]
+            "reflect_points", "wishes", "world"]
     past = json.loads(FIRST_LIVES_FILE.read_text(encoding="utf-8")) if FIRST_LIVES_FILE.exists() else []
     past.append({"ended": now(), "label": m.get("fresh_start") or "first life",
                  **{k: m.get(k) for k in keys if k in m}})
@@ -1511,6 +1648,7 @@ FIZZLE = {
     "think": "You try to think, but the same thoughts just go round in circles. Nothing new comes.",
     "daydream": "You try to daydream, but it's the same daydream as before, and it's gone flat.",
     "visit": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+    "imagine": "You close your eyes to go there, but your imagination has gone quiet for now.",
     "say": "You open your mouth, but it would only be the same thing again. Nothing comes out.",
     "note": "You go to write a note, but it would say what you already wrote.",
     "look closer": "You stare at the page, but the words blur together.",
@@ -1532,6 +1670,7 @@ def topic_repeat(m, text, window=8):
 
 
 DOTE_MOVES = ("daydream", "visit")
+HEAD_MOVES, HEAD_MAX = ("daydream", "visit", "imagine"), 4   # 4 of the last 8 in his head -> it goes quiet
 DOTE_WINDOW, DOTE_MAX = 8, 3   # at most 3 daydreams/visits in any 8 brain moves; then they go flat for a bit
 
 
@@ -1544,6 +1683,9 @@ def stale_moves(m):
     """When the world has gone dull, the kinds of move he keeps repeating stop working for a while.
     Doting is different: too much of it goes flat however lively he feels (a favourite song on repeat)."""
     stale = set(DOTE_MOVES) if doting(m) >= DOTE_MAX else set()
+    head = sum(x["move"] in HEAD_MOVES for x in [y for y in m.get("moves", []) if not y["fallback"]][-DOTE_WINDOW:])
+    if head >= HEAD_MAX:
+        stale |= set(HEAD_MOVES)
     if senses(m)["stimulation"] >= 0.3:
         return stale
     recent = [x["move"] for x in m.get("moves", []) if not x["fallback"]][-3:]
@@ -1572,6 +1714,7 @@ def moves_menu(m, has_place):
     if darlings(m):
         items += [("daydream", "daydream about something you're fond of (detail: which)"),
                   ("visit", "go back to something you're fond of, just to enjoy it (detail: which)")]
+    items.append(("imagine", "go somewhere in your imagination: a place you've imagined before, or a new one (detail: the place)"))
     items += [("make", "make something"),
               ("build", "build a small interactive toy, like a game, simulator or gadget (detail: what it is)"),
               ("ask", "ask your human for something you'd like them to do, make or give you (detail: your request)"),
@@ -1750,14 +1893,14 @@ Things you can't do (yet): {CANT_YET}.{" You wish you could: " + plan['wish'] + 
 What do you do next? Pick ONE move:
 {chr(10).join(f'  - "{k}": {v}' for k, v in menu)}
 Destinations for "go":
-{destination_menu()}
+{destination_menu(m)}
 
 Reply in JSON:
 "move": one of the moves above
 "detail": what the move needs (see above), or ""
 "reason": why, in under 10 words, in your own voice
 "emoji": one or two emoji that show what you're doing
-"minutes": for rest, daydream or look closer: how many minutes you'll spend (1 to 5)
+"minutes": for rest, daydream, imagine or look closer: how many minutes you'll spend (1 to 5)
 "intend": something you mean to do later, or ""
 "plan_step": if this move does something from your plan, its number, otherwise null
 "kept": if this move keeps something you said you'd do, copy it exactly, otherwise """"", as_json=True, temperature=0.9,
@@ -1835,6 +1978,11 @@ Reply in JSON:
                 print(f"   🌫️ {text}")
                 return
             m["recent_trips"] = (m.get("recent_trips", []) + [key])[-8:]
+        door = door_for(m, DOOR_SOURCES.get(go[0]))
+        if door:          # in his own world, he goes through his own way in
+            via += f" (through {door['name']}, in your imagined world)"
+            world(m)["here"] = door["name"]
+            m["moves"][-1]["door"] = door["name"]
         try:
             p = visit(go)
             if p is None:
@@ -1897,6 +2045,9 @@ Reply in JSON:
         else:
             daydream(m, d)
             st.update(activity="daydreaming", left=minutes - 1)
+    elif move == "imagine":
+        imagine_place(m, detail)
+        st.update(activity="somewhere in his imagination", left=minutes - 1)
     elif move == "make":
         maybe_make(m, st["reads"][-5:] or since_rebirth(m, [e for e in m["log"] if e["type"] == "read"])[-5:],
                    just_because=True)
@@ -2561,6 +2712,9 @@ def diary(m):
             lines.append(f"- Daydreamed about {e['topic']}: {e['text'][:200]}")
         elif e["type"] == "visited":
             lines.append(f"- Went back to visit {e['name']} ({e['title']}): {e['thought']}")
+        elif e["type"] == "imagined":
+            lines.append(f"- {'Made up a place in my head' if e.get('new') else 'Went back to'} {e['name']}: {e['text'][:200]}"
+                         + (f" (left {e['left']} there)" if e.get("left") else ""))
         elif e["type"] == "napped":
             lines.append(f"- Had a nap" + (f" and dreamt: {e['dream']}" if e.get("dream") else ""))
         elif e["type"] == "rested":
