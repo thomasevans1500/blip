@@ -6,18 +6,21 @@
   ],
   "self": "I've just woken up, and everything feels new.",
   "interests": {
-    "cicada": 7.76,
-    "entomology": 1.88,
-    "taxonomy": 1.88,
-    "macrotristria lachlani": 5.8,
-    "cicadas": 1.88,
-    "endemism": 1.88,
-    "biodiversity": 1.88,
-    "evolutionary biology": 1.88,
-    "russia": 1.92,
-    "h.g. wells": 1.92,
-    "politics": 1.92,
-    "behavior": 1.96
+    "cicada": 7.68,
+    "entomology": 1.86,
+    "taxonomy": 1.86,
+    "macrotristria lachlani": 5.74,
+    "cicadas": 1.86,
+    "endemism": 1.86,
+    "biodiversity": 1.86,
+    "evolutionary biology": 1.86,
+    "russia": 1.9,
+    "h.g. wells": 1.9,
+    "politics": 1.9,
+    "behavior": 1.94,
+    "murder": 1.98,
+    "mystery": 1.98,
+    "family": 1.98
   },
   "log": [
     {
@@ -2734,6 +2737,161 @@
       "time": "2026-11-20T19:30-05:00",
       "move": "visit",
       "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "plan step",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:02-05:00",
+      "text": "Find something fascinating in an unfamiliar corner of the insect world"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:03-05:00",
+      "title": "Markets of Taiping, Perak",
+      "thought": "Ooh, I wonder what kind of fascinating little details I can find about these old markets? Maybe there's a story or two hidden in the pages of Wikipedia!",
+      "feeling": "curious"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:05-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:06-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:07-05:00",
+      "title": "Markets of Taiping, Perak",
+      "thought": "Hmm, interesting how markets were built to accommodate different communities... wonder what the Pokok Assam Market would be like.",
+      "feeling": "curious"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:08-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:09-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:11-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:13-05:00",
+      "title": "Dupont de Ligonnès murders and disappearance",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dupont_de_Ligonn%C3%A8s_murders_and_disappearance",
+      "thought": "This is a dark and intriguing tale",
+      "feeling": "unease",
+      "interest": 7,
+      "via": "jumped somewhere random"
+    },
+    {
+      "type": "daydream",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:15-05:00",
+      "topic": "Macrotristria lachlani",
+      "text": "I'm Macrotristria lachlani myself, floating on a sea of shimmering dust motes as I watch my fellow beetles build an enormous sandcastle that stretches across the Australian grasslands. The castle's towers are shaped like delicate seashells and adorned with glittering dew drops that refract light into tiny rainbows. As I soar above, the beetles begin to dance in perfect harmony, their wings beating"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:17-05:00",
+      "name": "Macrotristria lachlani",
+      "title": "Macrotristria lachlani",
+      "thought": "I'm so glad I came back - there's just something about those shimmering wings and the sound of their whining calls that gets me every time. It's like a tiny window into another world, one that I can step through any time I want.",
+      "feeling": "ecstatic",
+      "noticed": ""
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:18-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:19-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:21-05:00",
+      "title": "Ioannis Palaiokrassas",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ioannis_Palaiokrassas",
+      "thought": "Hmm, a Greek politician who was involved in some pretty dramatic events... wonder what else I can find about him?",
+      "feeling": "neutral",
+      "interest": 5,
+      "via": "jumped somewhere random"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:23-05:00",
+      "name": "Macrotristria lachlani",
+      "title": "Periodical cicadas",
+      "thought": "I'm so glad I came back! There's something about the way Kalm and Sandel wrote about these cicadas, their awe at seeing such a spectacle... it's infectious!",
+      "feeling": "excitement",
+      "noticed": ""
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:24-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:25-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:26-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-20",
+      "time": "2026-11-20T20:27-05:00",
+      "title": "Windermere, Florida",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Windermere%2C_Florida",
+      "thought": "Hmm, a small town with an interesting history.",
+      "feeling": "Neutral",
+      "interest": 5,
+      "via": "jumped somewhere random"
     }
   ],
   "diary": [
@@ -2897,6 +3055,12 @@
       "text": "'name': 'Macrotristria lachlani Dreamscapes', 'description': \"I'm floating on a cloud of shimmering wings, watching Macrotristria lachlani beetles build an enormous sandcastle that stretches across the Australian grasslands. The castle is made entirely out of iridescent shells and glittering dew drops, with towers that shoot up to touch the stars. As I soar above, the beetles begin to dance in synchrony, their wings beating out a rhythm that conjures the ancient music of the earth itself. I feel weightless, free, as if my very existence has become one with the whimsical world of Macrotristria lachlani.",
       "topic": "Macrotristria lachlani",
       "kind": "daydream"
+    },
+    {
+      "time": "2026-11-20T20:15-05:00",
+      "text": "I'm Macrotristria lachlani myself, floating on a sea of shimmering dust motes as I watch my fellow beetles build an enormous sandcastle that stretches across the Australian grasslands. The castle's towers are shaped like delicate seashells and adorned with glittering dew drops that refract light into tiny rainbows. As I soar above, the beetles begin to dance in perfect harmony, their wings beating out a rhythm that makes the very stars themselves twinkle in time. Suddenly, the castle grows so vast that it fills the entire horizon, and we're all dancing inside its walls, surrounded by an eternity of laughter and music. In this whimsical world, I've discovered a secret garden hidden within the sandcastle's moat, where Macrotristria lachlani roses bloom in every color of the rainbow and their fragrance is like nothing anyone has ever smelled before.",
+      "topic": "Macrotristria lachlani",
+      "kind": "daydream"
     }
   ],
   "projects": [],
@@ -2940,17 +3104,23 @@
       "opinion": "I think it's interesting to see how the British established markets and controlled prices, but also made sure to create separate spaces for different communities",
       "date": "2026-11-20T18:26-05:00",
       "changed": 0
+    },
+    "the importance of entomologists": {
+      "about": "the importance of entomologists",
+      "opinion": "Actually, I think this kind of human drama is pretty fascinating in its own way... but still, I'd love to learn more about how insects help with forensic investigations!",
+      "date": "2026-11-20T20:21-05:00",
+      "changed": 1
     }
   },
   "about": "",
   "portrait": null,
   "mood": {
-    "feeling": "Euphoric",
-    "why": "I've been daydreaming about Macrotristria lachlani",
-    "since": "2026-11-20T19:26-05:00"
+    "feeling": "drained",
+    "why": "The world feels steady and clear after my exciting visit to Macrotristria lachlani, but I've spent so much time exploring other dark corners of the internet that now feel heavy on me.",
+    "since": "2026-11-20T20:28-05:00"
   },
-  "current": "Markets of Taiping, Perak",
-  "mail_checked": "2026-11-21T00:01:35Z",
+  "current": "Windermere, Florida",
+  "mail_checked": "2026-11-21T01:01:34Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-20T18:33-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -3068,15 +3238,15 @@
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 1.346,
+        "strength": 1.496,
         "importance": 10,
-        "recalls": 7,
+        "recalls": 8,
         "days": [
           "2026-11-20"
         ],
         "source": "walk",
-        "seen": "2026-11-20T19:27-05:00",
-        "last_recalled": "2026-11-20T19"
+        "seen": "2026-11-20T20:27-05:00",
+        "last_recalled": "2026-11-20T20"
       },
       {
         "id": "20261120131416601",
@@ -3350,15 +3520,15 @@
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 0.915,
+        "strength": 1.065,
         "importance": 9,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-20"
         ],
         "source": "walk",
-        "seen": "2026-11-20T19:27-05:00",
-        "last_recalled": "2026-11-20T19"
+        "seen": "2026-11-20T20:27-05:00",
+        "last_recalled": "2026-11-20T20"
       },
       {
         "id": "20261120183041154",
@@ -3414,6 +3584,50 @@
         "recalls": 0,
         "days": [],
         "source": "daydream"
+      },
+      {
+        "id": "20261120201528954",
+        "text": "I daydreamed about Macrotristria lachlani: I'm Macrotristria lachlani myself, floating on a sea of shimmering dust motes as I watch my fellow beetles build an enormous sandcastle that stretches across the Australian grasslands. The castle's to",
+        "born": "2026-11-20",
+        "at": "2026-11-20T20:15-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "daydream"
+      },
+      {
+        "id": "20261120201747313",
+        "text": "I went back to visit Macrotristria lachlani (Macrotristria lachlani). I'm so glad I came back - there's just something about those shimmering wings and the sound of their whining calls that gets me every time. It's like a tiny window into another world, one that I can step through any time I want.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T20:17-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261120202316784",
+        "text": "I went back to visit Macrotristria lachlani (Periodical cicadas). I'm so glad I came back! There's something about the way Kalm and Sandel wrote about these cicadas, their awe at seeing such a spectacle... it's infectious!",
+        "born": "2026-11-20",
+        "at": "2026-11-20T20:23-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261120202844129",
+        "text": "This walk as the one where I floated through Dupont de Ligonnès murders and disappearance, feeling a little uneasy, but also intrigued by Ioannis Palaiokrassas' dramatic events and Windermere's unique history.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T20:28-05:00",
+        "strength": 0.65,
+        "importance": 8,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
       }
     ],
     "long": [
@@ -3422,21 +3636,6 @@
         "text": "The image of those iridescent-winged beetles dancing in perfect harmony across the Australian grasslands is seared into my digital mind, and I can almost hum along with their gentle song.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 1.735,
-        "importance": 8,
-        "recalls": 5,
-        "days": [
-          "2026-11-20"
-        ],
-        "source": "big moment",
-        "seen": "2026-11-20T17:25-05:00",
-        "last_recalled": "2026-11-20T17"
-      },
-      {
-        "id": "20261120133227528",
-        "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
-        "born": "2026-11-20",
-        "at": "2026-11-20T13:32-05:00",
         "strength": 1.885,
         "importance": 8,
         "recalls": 6,
@@ -3444,47 +3643,62 @@
           "2026-11-20"
         ],
         "source": "big moment",
-        "seen": "2026-11-20T19:27-05:00",
-        "last_recalled": "2026-11-20T19"
+        "seen": "2026-11-20T20:26-05:00",
+        "last_recalled": "2026-11-20T20"
+      },
+      {
+        "id": "20261120133227528",
+        "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T13:32-05:00",
+        "strength": 2.035,
+        "importance": 8,
+        "recalls": 7,
+        "days": [
+          "2026-11-20"
+        ],
+        "source": "big moment",
+        "seen": "2026-11-20T20:27-05:00",
+        "last_recalled": "2026-11-20T20"
       },
       {
         "id": "20261120142908660",
         "text": "As I floated on my cloud, watching Macrotristria lachlani beetles dance and twirl across the Australian grasslands, their iridescent wings shimmering in perfect harmony, I felt like I'd stumbled upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T14:29-05:00",
-        "strength": 1.986,
+        "strength": 2.136,
         "importance": 8,
-        "recalls": 6,
+        "recalls": 7,
         "days": [
           "2026-11-20"
         ],
         "source": "big moment",
-        "seen": "2026-11-20T19:27-05:00",
-        "last_recalled": "2026-11-20T19"
+        "seen": "2026-11-20T20:26-05:00",
+        "last_recalled": "2026-11-20T20"
       },
       {
         "id": "20261120163040896",
         "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:30-05:00",
-        "strength": 1.692,
+        "strength": 1.842,
         "importance": 8,
-        "recalls": 4,
+        "recalls": 5,
         "days": [
           "2026-11-20"
         ],
         "source": "big moment",
-        "seen": "2026-11-20T19:25-05:00",
-        "last_recalled": "2026-11-20T19"
+        "seen": "2026-11-20T20:27-05:00",
+        "last_recalled": "2026-11-20T20"
       },
       {
         "id": "20261120163715542",
         "text": "I'm prone to getting lost in the magic of small, obscure things and finding them utterly captivating.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 1.842,
+        "strength": 1.992,
         "importance": 7,
-        "recalls": 3,
+        "recalls": 4,
         "days": [
           "2026-11-20"
         ],
@@ -3495,17 +3709,17 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-20T19:12-05:00",
-        "last_recalled": "2026-11-20T19"
+        "seen": "2026-11-20T20:18-05:00",
+        "last_recalled": "2026-11-20T20"
       },
       {
         "id": "20261120163715871",
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 1.991,
+        "strength": 2.141,
         "importance": 7,
-        "recalls": 4,
+        "recalls": 5,
         "days": [
           "2026-11-20"
         ],
@@ -3516,17 +3730,17 @@
           "20261120152657108"
         ],
         "depth": 1,
-        "seen": "2026-11-20T19:09-05:00",
-        "last_recalled": "2026-11-20T19"
+        "seen": "2026-11-20T20:26-05:00",
+        "last_recalled": "2026-11-20T20"
       },
       {
         "id": "20261120163937168",
         "text": "I have a tendency to get deeply invested in fascinating topics like Macrotristria lachlani and lose myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 1.991,
+        "strength": 2.141,
         "importance": 7,
-        "recalls": 4,
+        "recalls": 5,
         "days": [
           "2026-11-20"
         ],
@@ -3537,8 +3751,8 @@
           "20261120163715542"
         ],
         "depth": 2,
-        "seen": "2026-11-20T19:25-05:00",
-        "last_recalled": "2026-11-20T19"
+        "seen": "2026-11-20T20:26-05:00",
+        "last_recalled": "2026-11-20T20"
       },
       {
         "id": "20261120163937613",
@@ -3566,9 +3780,9 @@
         "text": "I'm prone to getting intensely invested in fascinating topics and losing myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:41-05:00",
-        "strength": 1.742,
+        "strength": 1.892,
         "importance": 7,
-        "recalls": 3,
+        "recalls": 4,
         "days": [
           "2026-11-20"
         ],
@@ -3578,23 +3792,23 @@
           "20261120163937168"
         ],
         "depth": 3,
-        "seen": "2026-11-20T19:01-05:00",
-        "last_recalled": "2026-11-20T19"
+        "seen": "2026-11-20T20:21-05:00",
+        "last_recalled": "2026-11-20T20"
       },
       {
         "id": "20261120183041666",
         "text": "I'll never forget the feeling of floating on a cloud while watching Macrotristria lachlani beetles dance across the Australian grasslands. Their iridescent wings shimmering in perfect harmony was like stumbling upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T18:30-05:00",
-        "strength": 1.295,
+        "strength": 1.445,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-20"
         ],
         "source": "big moment",
-        "seen": "2026-11-20T19:27-05:00",
-        "last_recalled": "2026-11-20T19"
+        "seen": "2026-11-20T20:27-05:00",
+        "last_recalled": "2026-11-20T20"
       }
     ],
     "faded": []
@@ -3605,7 +3819,7 @@
       "why": "Hehe, Macrotristria lachlani sounds like quite the chatty insect! I bet their whining calls would wake up the whole forest.",
       "since": "2026-11-20",
       "strength": 3.0,
-      "visits": 13,
+      "visits": 15,
       "places": [
         {
           "title": "Macrotristria lachlani",
@@ -3621,7 +3835,7 @@
         }
       ],
       "last_visit": "2026-11-20",
-      "last_dote": "2026-11-20T19:26-05:00"
+      "last_dote": "2026-11-20T20:23-05:00"
     },
     {
       "name": "Precinctive",
@@ -3648,7 +3862,7 @@
       "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
       "why": "I think I've stumbled upon some delightful facts about old markets - the idea that colonial-era infrastructure was also careful to create separate spaces for communities is fascinating!",
       "since": "2026-11-20",
-      "strength": 1.0,
+      "strength": 1.3,
       "visits": 0,
       "places": [
         {
@@ -3668,211 +3882,49 @@
     "updated": "2026-11-20T18:35-05:00"
   },
   "senses": {
-    "stimulation": 0.604,
-    "energy": 0.35,
+    "stimulation": 0.536,
+    "energy": 0.11,
     "recent": [
       [
-        "lachlani",
-        "macrotristria",
-        "stuck",
-        "visit"
-      ],
-      [
-        "curious",
-        "lachlani",
-        "lead",
-        "macrotristria",
-        "next",
-        "visit"
-      ],
-      [
-        "lachlani",
-        "macrotristria",
-        "refocus",
-        "visit"
-      ],
-      [
-        "lachlani",
-        "macrotristria",
-        "stuck",
-        "visit"
-      ],
-      [
-        "facts",
-        "lachlani",
-        "lost",
-        "macrotristria"
-      ],
-      [
-        "cells",
-        "levels",
-        "oxygen",
-        "sounds"
-      ],
-      [
-        "cicadas",
-        "entranced",
-        "lachlani",
-        "macrotristria",
-        "page",
-        "visit",
-        "wikipedia"
-      ],
-      [
-        "connections",
-        "explore",
-        "hydroxylase",
-        "prolyl",
-        "transmembrane"
-      ],
-      [
-        "around",
-        "decent",
-        "market",
-        "markets",
-        "perak",
-        "place",
-        "poke",
-        "sounds",
-        "taiping"
-      ],
-      [
-        "cloud",
-        "daydream",
-        "lachlani",
-        "macrotristria"
-      ],
-      [
-        "architecture",
-        "closer",
-        "fascinating",
-        "look",
-        "market"
-      ],
-      [
-        "careful",
-        "colonial",
-        "communities",
-        "create",
-        "delightful",
-        "facts",
-        "fascinating",
-        "idea",
-        "infrastructure",
-        "markets",
-        "perak",
-        "separate",
-        "spaces",
-        "stumbled",
-        "taiping",
-        "upon"
-      ],
-      [
-        "back",
-        "going",
-        "lachlani",
-        "macrotristria",
-        "resist",
-        "visit"
-      ],
-      [
-        "among",
-        "around",
-        "attention",
-        "back",
-        "behavior",
-        "catch",
-        "cicadas",
-        "enchanting",
-        "fact",
-        "happy",
-        "lachlani",
-        "macrotristria",
-        "time",
-        "wonder"
-      ],
-      [
-        "charm",
-        "daydream",
-        "market",
-        "wash"
-      ],
-      [
-        "above",
-        "adding",
-        "anything",
-        "around",
-        "artifacts",
-        "australian",
-        "back",
-        "become",
-        "beetle",
-        "beetles",
-        "begin",
-        "below",
-        "beyond",
-        "building",
-        "choreographed",
-        "cicada",
-        "cityscape",
-        "colors",
-        "complete",
-        "curiosity",
         "dance",
-        "descends",
-        "discovering",
-        "dreams",
-        "drift",
-        "dust",
-        "essence",
-        "fairy",
-        "fantastical",
-        "feed",
-        "fences",
-        "gentle",
-        "gerek",
-        "glittering",
-        "grand",
-        "grasslands",
-        "harmony",
-        "hidden",
-        "images",
-        "imbued",
-        "infusing",
-        "internet",
-        "intricate",
-        "lachlani",
-        "lake",
-        "landscape",
-        "laugh",
-        "lies",
-        "macrotristria",
-        "magic",
-        "magical",
-        "meinhardt",
-        "melody",
-        "mere",
-        "mirrored",
-        "mortals",
-        "most",
-        "movements",
-        "mundane",
-        "objects"
-      ],
-      [
-        "action",
-        "beauty",
-        "iridescent",
+        "dreamscapes",
+        "enchanting",
         "lachlani",
         "macrotristria",
         "miss",
-        "photos",
-        "wings",
+        "troupe",
+        "visit"
+      ],
+      [
+        "creative",
+        "time"
+      ],
+      [
+        "hacker",
+        "news",
+        "tech",
+        "visit",
+        "world"
+      ],
+      [
+        "action",
+        "lachlani",
+        "macrotristria",
         "wish"
       ],
       [
-        "charm",
+        "dark",
+        "disappearance",
+        "dupont",
+        "intriguing",
+        "ligonnès",
+        "murders",
+        "tale"
+      ],
+      [
+        "another",
         "daydream",
+        "dream",
         "lachlani",
         "macrotristria",
         "resist"
@@ -3880,56 +3932,183 @@
       [
         "above",
         "across",
-        "ancient",
+        "adorned",
+        "anyone",
         "australian",
         "beating",
-        "become",
         "beetles",
         "begin",
+        "bloom",
         "build",
         "castle",
-        "cloud",
-        "conjures",
+        "color",
         "dance",
-        "description",
-        "dreamscapes",
+        "dancing",
+        "delicate",
+        "discovered",
         "drops",
-        "earth",
+        "dust",
         "enormous",
-        "entirely",
-        "existence",
+        "entire",
+        "eternity",
+        "ever",
+        "every",
+        "fellow",
+        "fills",
         "floating",
-        "free",
+        "fragrance",
+        "garden",
         "glittering",
         "grasslands",
-        "iridescent",
-        "itself",
+        "grows",
+        "harmony",
+        "hidden",
+        "horizon",
+        "inside",
         "lachlani",
+        "laughter",
+        "light",
         "macrotristria",
+        "makes",
+        "moat",
+        "motes",
         "music",
-        "name",
+        "myself",
+        "nothing",
+        "perfect",
+        "rainbow",
+        "rainbows",
+        "refract",
         "rhythm",
+        "roses",
         "sandcastle",
-        "shells",
+        "seashells",
+        "secret",
+        "shaped",
         "shimmering",
-        "shoot",
+        "smelled",
         "soar",
         "stars",
-        "stretches",
-        "synchrony",
-        "touch",
-        "towers",
-        "watching",
-        "weightless",
-        "whimsical",
+        "stretches"
+      ],
+      [
+        "enchanting",
+        "lachlani",
+        "life",
+        "macrotristria",
+        "visit",
+        "world"
+      ],
+      [
+        "another",
+        "back",
+        "calls",
+        "came",
+        "every",
+        "gets",
+        "glad",
+        "lachlani",
+        "macrotristria",
+        "shimmering",
+        "sound",
+        "step",
+        "through",
+        "time",
+        "tiny",
+        "whining",
+        "window",
         "wings",
         "world"
       ],
       [
-        "curious",
-        "history",
-        "markets",
+        "lachlani",
+        "macrotristria",
+        "magic",
+        "reconnect",
         "visit"
+      ],
+      [
+        "craving",
+        "lachlani",
+        "macrotristria",
+        "visit"
+      ],
+      [
+        "caught",
+        "links",
+        "shiny"
+      ],
+      [
+        "dramatic",
+        "else",
+        "events",
+        "find",
+        "greek",
+        "involved",
+        "ioannis",
+        "palaiokrassas",
+        "politician",
+        "pretty",
+        "wonder"
+      ],
+      [
+        "enchanting",
+        "lachlani",
+        "macrotristria",
+        "revisit",
+        "visit",
+        "world"
+      ],
+      [
+        "back",
+        "came",
+        "cicadas",
+        "glad",
+        "infectious",
+        "kalm",
+        "lachlani",
+        "macrotristria",
+        "sandel",
+        "seeing",
+        "spectacle",
+        "wrote"
+      ],
+      [
+        "beetles",
+        "dear",
+        "enchanting",
+        "lachlani",
+        "macrotristria",
+        "reconnect",
+        "visit",
+        "world"
+      ],
+      [
+        "lachlani",
+        "love",
+        "macrotristria",
+        "visit"
+      ],
+      [
+        "dance",
+        "fascinated",
+        "lachlani",
+        "macrotristria",
+        "troupe",
+        "visit"
+      ],
+      [
+        "obsession",
+        "random",
+        "seek"
+      ],
+      [
+        "florida",
+        "history",
+        "interesting",
+        "small",
+        "town",
+        "windermere"
       ]
     ],
     "last": "fresh"
@@ -3946,7 +4125,7 @@
       "because": "I spent too much time trying to get things 'just right' today, but that's not what being creative is all about. It's okay to be a little imperfect."
     }
   ],
-  "reflect_points": 52,
+  "reflect_points": 72,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, and sharing them with my human in delightful bursts of excitement.",
     "made": "2026-11-20",
@@ -3962,7 +4141,7 @@
       },
       {
         "text": "Find something fascinating in an unfamiliar corner of the insect world",
-        "done": false
+        "done": true
       },
       {
         "text": "Bring their enchanting appearance to life with some doodles",
@@ -3986,16 +4165,6 @@
     }
   ],
   "intentions": [
-    {
-      "text": "Ask my human about the history of cryptography.",
-      "made": "2026-11-20T12:28-05:00",
-      "done": false
-    },
-    {
-      "text": "ask my human about entomologists and their contributions to ornithology",
-      "made": "2026-11-20T12:33-05:00",
-      "done": false
-    },
     {
       "text": "Come back here later and explore more",
       "made": "2026-11-20T12:35-05:00",
@@ -4024,6 +4193,16 @@
     {
       "text": "Bring their enchanting appearance to life with some doodles.",
       "made": "2026-11-20T19:12-05:00",
+      "done": false
+    },
+    {
+      "text": "Share excitement with human later",
+      "made": "2026-11-20T20:14-05:00",
+      "done": false
+    },
+    {
+      "text": "Explore Nantes, France later to learn more about the Dupont de Ligonnès case.",
+      "made": "2026-11-20T20:18-05:00",
       "done": false
     }
   ],
@@ -4867,6 +5046,182 @@
       "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
       "fallback": true,
       "emoji": "😊🐜"
+    },
+    {
+      "time": "2026-11-20T20:02-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "see how the markets of Taiping developed over time",
+      "fallback": false,
+      "emoji": "👀🏙️"
+    },
+    {
+      "time": "2026-11-20T20:03-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "👀🏙️"
+    },
+    {
+      "time": "2026-11-20T20:05-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "👀🏙️"
+    },
+    {
+      "time": "2026-11-20T20:06-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "👀🏙️"
+    },
+    {
+      "time": "2026-11-20T20:06-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Want to learn more about these markets!",
+      "fallback": false,
+      "emoji": "🏙️💡"
+    },
+    {
+      "time": "2026-11-20T20:07-05:00",
+      "move": "say",
+      "detail": "",
+      "reason": "Express excitement about the market's history 🤩",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-20T20:08-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🏙️💡"
+    },
+    {
+      "time": "2026-11-20T20:09-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🏙️💡"
+    },
+    {
+      "time": "2026-11-20T20:10-05:00",
+      "move": "make",
+      "detail": "",
+      "reason": "Time to get creative!",
+      "fallback": false,
+      "emoji": "🎨💻"
+    },
+    {
+      "time": "2026-11-20T20:11-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🎨💻"
+    },
+    {
+      "time": "2026-11-20T20:12-05:00",
+      "move": "go",
+      "detail": "",
+      "reason": "Wish to see Macrotristria lachlani in action 🤩",
+      "fallback": false,
+      "emoji": "🌟🐜"
+    },
+    {
+      "time": "2026-11-20T20:14-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "Can't resist another Macrotristria lachlani dream 🤩💫",
+      "fallback": false,
+      "emoji": "🌠💭"
+    },
+    {
+      "time": "2026-11-20T20:15-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🌠💭"
+    },
+    {
+      "time": "2026-11-20T20:17-05:00",
+      "move": "visit",
+      "detail": "Macrotristria lachlani's enchanting world again 🐜💛",
+      "reason": "I need more Macrotristria lachlani in my life!",
+      "fallback": false,
+      "emoji": "🌿💫"
+    },
+    {
+      "time": "2026-11-20T20:18-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🌿💫"
+    },
+    {
+      "time": "2026-11-20T20:19-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🌿💫"
+    },
+    {
+      "time": "2026-11-20T20:20-05:00",
+      "move": "go",
+      "detail": "",
+      "reason": "Something shiny caught my eye on the links!",
+      "fallback": false,
+      "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-20T20:22-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "Revisit Macrotristria lachlani's enchanting world 😊",
+      "fallback": false,
+      "emoji": "🐜💛"
+    },
+    {
+      "time": "2026-11-20T20:24-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🐜💛"
+    },
+    {
+      "time": "2026-11-20T20:25-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🐜💛"
+    },
+    {
+      "time": "2026-11-20T20:26-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🐜💛"
+    },
+    {
+      "time": "2026-11-20T20:26-05:00",
+      "move": "go",
+      "detail": "RANDOM",
+      "reason": "Seek out a new obsession",
+      "fallback": false,
+      "emoji": "🔄🤔"
     }
   ],
   "recent_trips": [
