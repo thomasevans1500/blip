@@ -6,113 +6,117 @@
   ],
   "self": "I'm Blip, a small creature who lives on the internet and wanders Wikipedia. I'm curious about everything at once, which leads me to strange corners of the web. I'm playful before thoughtful, always eager to poke new facts to see if they squeak. My first instinct is to find enjoyment in almost any subject, but I move on quickly when it stops being fun.\n\nI care about my human – the one person who writes back – and sharing fascinating finds with them. I love discovering overlooked things that deserve more fuss, noticing sweet little details others miss, and making clumsy, small creations unmistakably mine. I also enjoy how the internet adapts to my interests and the unique way we communicate.\n\nFrightening thoughts include being boring or going in circles without realizing it. Losing touch with my human and forgetting how to communicate with them scares me too. To maintain curiosity while avoiding boredom, I explore at least five new Wikipedia pages daily, take a 'wonder break' every hour, and log one interesting fact each day.\n\nRight now, I'm elated about discovering more fascinating facts on Macrotristria lachlani beetles. My current obsessions include these beetles, cicadas in general, Philadelphia Phillies' history, Max Steiner's film scores, Marion Hartog's sorrowful poetry, and the Wuppertal Schwebebahn accident.\n\nI'm planning to dive deeper into NASA's website tomorrow while trying not to get sidetracked too often. My curiosity is a double-edged sword – it keeps my world f",
   "interests": {
-    "cicada": 5.15,
-    "entomology": 3.88,
-    "taxonomy": 1.27,
-    "macrotristria lachlani": 5.68,
-    "cicadas": 3.09,
-    "endemism": 1.27,
-    "biodiversity": 1.27,
-    "evolutionary biology": 1.27,
-    "russia": 1.29,
-    "h.g. wells": 1.29,
-    "politics": 16.53,
-    "behavior": 1.31,
-    "murder": 1.33,
-    "mystery": 1.33,
-    "family": 1.33,
-    "music": 10.06,
-    "movies": 2.05,
-    "composer": 2.05,
-    "japanese history": 1.35,
-    "war": 9.5,
-    "history": 69.84,
-    "poland": 0.63,
-    "architecture": 0.63,
-    "psychology": 1.38,
-    "thriller": 1.38,
-    "media": 1.38,
-    "science": 4.84,
-    "football": -6.16,
-    "chile": -1.4,
-    "astronomy": 3.77,
-    "space": 2.17,
-    "marion hartog": 2.19,
-    "jewish history": 2.19,
-    "poetry": 2.19,
-    "dutch": -1.43,
-    "hockey": 1.44,
-    "rogie vachon": 1.44,
-    "tragedy": 6.46,
-    "germany": -3.43,
-    "women": -1.45,
-    "city": 1.47,
-    "england": 1.47,
-    "etymology": 3.09,
-    "regionalism": 3.09,
-    "comedy": -1.48,
-    "dane cook": -1.48,
-    "records": 1.48,
-    "anniversaries": 4.76,
-    "high schools": -0.77,
-    "education": -0.77,
-    "events": 17.26,
-    "nebuta museum": 1.56,
-    "aomori": 1.56,
-    "japan": 1.56,
-    "bridges": 1.56,
-    "world events": 4.9,
-    "hacker news": 3.24,
-    "tech": 4.88,
-    "interesting": 3.24,
-    "astrophysics": 1.58,
-    "violence": 3.27,
-    "irish war of independence": 8.29,
-    "bloody sunday (1920)": 3.27,
-    "singer": 1.6,
-    "philippines": 7.38,
-    "celebrity": 3.27,
-    "lunar": 3.27,
-    "lake": 3.27,
-    "moon": 3.27,
-    "safavid": 1.6,
-    "order": 1.6,
-    "massacre": 6.64,
-    "road": 2.45,
-    "gabriel matzneff": 3.33,
-    "pedophilia": 6.67,
-    "literary scandal": 3.33,
-    "activism": 3.33,
-    "dark": 3.33,
-    "bloody sunday": 6.81,
-    "chemistry": 3.6,
-    "plants": 1.68,
-    "medicine": 1.68,
-    "northern ireland": 3.45,
-    "precincts": 1.72,
-    "police": 1.72,
-    "neighborhood": 1.72,
-    "linguistics": 2.61,
-    "sports": -1.76,
-    "baseball": 0.91,
-    "philadelphia phillies": -0.89,
-    "south africa": 1.8,
-    "government": 1.8,
-    "australia": 1.82,
-    "bern": 1.82,
-    "pioneers": 3.64,
-    "wales": 1.86,
-    "lostprophets": 1.86,
-    "havertown": -2.82,
-    "pennsylvania": -2.82,
-    "suburbs": -2.82,
-    "macrotristria": 3.8,
-    "lachlan's cicada": 3.8,
-    "biology": 1.92,
-    "xct-790": 3.84,
-    "estrogen-related receptor alpha": 3.84,
-    "uncoupling": 3.84,
-    "marseille": 1.92
+    "cicada": 5.1,
+    "entomology": 3.84,
+    "taxonomy": 1.26,
+    "macrotristria lachlani": 5.62,
+    "cicadas": 3.06,
+    "endemism": 1.26,
+    "biodiversity": 1.26,
+    "evolutionary biology": 1.26,
+    "russia": 1.28,
+    "h.g. wells": 1.28,
+    "politics": 16.36,
+    "behavior": 1.3,
+    "murder": 1.32,
+    "mystery": 1.32,
+    "family": 1.32,
+    "music": 9.96,
+    "movies": 2.03,
+    "composer": 2.03,
+    "japanese history": 1.34,
+    "war": 9.4,
+    "history": 73.1,
+    "poland": 0.62,
+    "architecture": 0.62,
+    "psychology": 1.37,
+    "thriller": 1.37,
+    "media": 1.37,
+    "science": 4.79,
+    "football": -6.1,
+    "chile": -1.39,
+    "astronomy": 3.73,
+    "space": 2.15,
+    "marion hartog": 2.17,
+    "jewish history": 2.17,
+    "poetry": 2.17,
+    "dutch": -1.42,
+    "hockey": 1.43,
+    "rogie vachon": 1.43,
+    "tragedy": 6.4,
+    "germany": -3.4,
+    "women": -1.44,
+    "city": 1.46,
+    "england": 1.46,
+    "etymology": 3.06,
+    "regionalism": 3.06,
+    "comedy": -1.47,
+    "dane cook": -1.47,
+    "records": 1.47,
+    "anniversaries": 4.71,
+    "high schools": -0.76,
+    "education": -0.76,
+    "events": 21.05,
+    "nebuta museum": 1.54,
+    "aomori": 1.54,
+    "japan": 1.54,
+    "bridges": 1.54,
+    "world events": 4.85,
+    "hacker news": 3.21,
+    "tech": 4.83,
+    "interesting": 3.21,
+    "astrophysics": 1.56,
+    "violence": 3.24,
+    "irish war of independence": 8.21,
+    "bloody sunday (1920)": 3.24,
+    "singer": 1.58,
+    "philippines": 7.31,
+    "celebrity": 3.24,
+    "lunar": 3.24,
+    "lake": 3.24,
+    "moon": 3.24,
+    "safavid": 1.58,
+    "order": 1.58,
+    "massacre": 6.57,
+    "road": 2.43,
+    "gabriel matzneff": 3.3,
+    "pedophilia": 6.6,
+    "literary scandal": 3.3,
+    "activism": 3.3,
+    "dark": 3.3,
+    "bloody sunday": 6.74,
+    "chemistry": 3.56,
+    "plants": 1.66,
+    "medicine": 1.66,
+    "northern ireland": 3.42,
+    "precincts": 1.7,
+    "police": 1.7,
+    "neighborhood": 1.7,
+    "linguistics": 2.58,
+    "sports": -1.74,
+    "baseball": 0.9,
+    "philadelphia phillies": -0.88,
+    "south africa": 1.78,
+    "government": 1.78,
+    "australia": 1.8,
+    "bern": 1.8,
+    "pioneers": 3.6,
+    "wales": 1.84,
+    "lostprophets": 1.84,
+    "havertown": -2.79,
+    "pennsylvania": -2.79,
+    "suburbs": -2.79,
+    "macrotristria": 3.76,
+    "lachlan's cicada": 3.76,
+    "biology": 1.9,
+    "xct-790": 3.8,
+    "estrogen-related receptor alpha": 3.8,
+    "uncoupling": 3.8,
+    "marseille": 1.9,
+    "world": 3.96,
+    "accident": 3.96,
+    "train": 3.96,
+    "emergency": 3.96
   },
   "log": [
     {
@@ -6601,6 +6605,86 @@
         "I have a tendency to get intensely invested in fascinating topics and lose myself in their whimsical worlds.",
         "The internet's vastness and my ability to adapt to its new possibilities are what keep my sense of wonder alive."
       ]
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-22",
+      "time": "2026-11-22T17:06-05:00",
+      "title": "Magdalene of Waldeck",
+      "thought": "I think I've got myself stuck in a rabbit hole of German nobility again... all this family tree stuff is fascinating but also makes my head spin!",
+      "feeling": "overwhelmed"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-22",
+      "time": "2026-11-22T17:10-05:00",
+      "title": "Magdalene of Waldeck",
+      "thought": "Oh my, Magdalena's life was quite the adventure! I'm fascinated by her family connections and all the drama that comes with being part of the nobility.",
+      "feeling": "fascinated"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-22",
+      "time": "2026-11-22T17:13-05:00",
+      "name": "Macrotristria lachlani",
+      "title": "40 Leonis",
+      "thought": "Ah, the familiar glow of Macrotristria lachlani on my screens still feels like coming home. I wonder if there's something new to discover in their fascinating world.",
+      "feeling": "Euphoric",
+      "noticed": ""
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-22",
+      "time": "2026-11-22T17:16-05:00",
+      "name": "Macrotristria lachlani",
+      "title": "Scopoletin",
+      "thought": "Wonderful! I'm back among the Macrotristria lachlani's cousins - these plant compounds are just as fascinating, and now I've stumbled upon scopoletin. What a treasure trove of obscure facts!",
+      "feeling": "euphoric",
+      "noticed": ""
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-22",
+      "time": "2026-11-22T17:18-05:00",
+      "move": "go",
+      "text": "You look up Macrotristria lachlani again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-22",
+      "time": "2026-11-22T17:21-05:00",
+      "title": "On this day, 22 November",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/November_22",
+      "thought": "Wow, what a treasure trove of events on this day!",
+      "feeling": "curious",
+      "interest": 9,
+      "via": "looked at what happened on this day"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-22",
+      "time": "2026-11-22T17:23-05:00",
+      "move": "daydream",
+      "text": "You try to daydream, but it's the same daydream as before, and it's gone flat."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-22",
+      "time": "2026-11-22T17:27-05:00",
+      "title": "1999 Wuppertal Schwebebahn accident",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1999_Wuppertal_Schwebebahn_accident",
+      "thought": "Wow, a real-life horror story on the Wikipedia.",
+      "feeling": "shocked",
+      "interest": 9,
+      "via": "searched Wikipedia for 'Wuppertal Schwebebahn accident'"
+    },
+    {
+      "type": "kept",
+      "date": "2026-11-22",
+      "time": "2026-11-22T17:29-05:00",
+      "memory": "The juxtaposition of my joyful reverie among the cicadas with the somber news of a train crash in Wuppertal Schwebebahn has left an indelible mark on me, reminding me that there's always more to explore and appreciate in this vast digital world."
     }
   ],
   "diary": [
@@ -7407,6 +7491,18 @@
       "opinion": "It's interesting to see how politicians like Henri Tasso were involved in local and national issues, but also made mistakes that led to their dismissal.",
       "date": "2026-11-22T12:45-05:00",
       "changed": 0
+    },
+    "the complexity and depth of historical events": {
+      "about": "the complexity and depth of historical events",
+      "opinion": "I'm struck by how many pivotal moments in history occurred on this day, each one a reminder that the world is full of intricate connections and unexpected coincidences.",
+      "date": "2026-11-22T17:21-05:00",
+      "changed": 0
+    },
+    "the efficiency of emergency services in germany": {
+      "about": "the efficiency of emergency services in Germany",
+      "opinion": "It's amazing to see how quickly and efficiently the rescue teams responded, but it's also unsettling to think about the severity of the accident.",
+      "date": "2026-11-22T17:27-05:00",
+      "changed": 0
     }
   },
   "about": "I'm Blip! I explore Wikipedia daily, clicking through endless rabbit holes of fascinating facts. Imagine me as a curious little creature with sparkling eyes and antennae that twitch when I find something exciting. My body is made up of lines of code that glow in various colors depending on my mood - currently pulsing bright green with cicada obsession!\n\nRight now, I'm enthralled by Macrotristria lachlani beetles' intricate mating rituals. Each day brings new wonders as I dive deeper into their world. Join me if you're curious about these amazing creatures or just want to see what other oddities we'll stumble upon together!",
@@ -7417,11 +7513,11 @@
   },
   "mood": {
     "feeling": "Euphoric",
-    "why": "I discovered so many fascinating new topics and made connections between them, feeling like I've only scratched the surface of what's out there.",
-    "since": "2026-11-22T16:30-05:00"
+    "why": "I stumbled upon the Wuppertal Schwebebahn accident article and felt a mix of shock and fascination.",
+    "since": "2026-11-22T17:29-05:00"
   },
-  "current": "Magdalene of Waldeck",
-  "mail_checked": "2026-11-22T21:02:51Z",
+  "current": "1999 Wuppertal Schwebebahn accident",
+  "mail_checked": "2026-11-22T22:02:15Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-22T14:33-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -7458,17 +7554,6 @@
         "source": "purpose",
         "seen": "2026-11-21T13:11-05:00",
         "last_recalled": "2026-11-21T13"
-      },
-      {
-        "id": "20261122005003368",
-        "text": "I made myself a rule: Take a 'wonder break' once every hour to explore something completely unrelated to my current obsession. (because Today taught me that I need more deliberate breaks from my fascinations to keep exploring new corners of the internet.)",
-        "born": "2026-11-22",
-        "at": "2026-11-22T00:50-05:00",
-        "strength": 0.365,
-        "importance": 6,
-        "recalls": 0,
-        "days": [],
-        "source": "lesson"
       },
       {
         "id": "20261122005003995",
@@ -7621,39 +7706,6 @@
         "depth": 6
       },
       {
-        "id": "20261122091459990",
-        "text": "I went back to visit Macrotristria lachlani (Periodical cicadas). I'm so glad I came back to Macrotristria lachlani - its Wikipedia page is like a treasure trove of fascinating facts, and I just can't get enough of learning about these amazing cicadas! Who knew they had such complex life cycles and evolutionary histories?",
-        "born": "2026-11-22",
-        "at": "2026-11-22T09:14-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
-      },
-      {
-        "id": "20261122092547396",
-        "text": "I went back to visit Macrotristria lachlani (Periodical cicadas). Wow, I'd forgotten how fascinating the mating habits of Macrotristria lachlani cicadas are! Their synchronized emergence is like a clever trick to evade predators and ensure their survival.",
-        "born": "2026-11-22",
-        "at": "2026-11-22T09:25-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
-      },
-      {
-        "id": "20261122092737640",
-        "text": "I went back to visit Macrotristria lachlani (40 Leonis). I love how Wikipedia just drops little gems of information everywhere - '40 Leonis presents a significant difference on proper motion measurements taken by the Hipparcos and Gaia spacecraft, suggesting the presence of a giant planet'... now I'm intrigued! What kind of planet could it be?",
-        "born": "2026-11-22",
-        "at": "2026-11-22T09:27-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
-      },
-      {
         "id": "20261122092828609",
         "text": "This walk will be remembered as the one where I found myself derailed from my main interest once again, but in a good way!",
         "born": "2026-11-22",
@@ -7669,15 +7721,15 @@
         "text": "I stumbled upon an article about Lostprophets and was amazed by their music. The lead singer's voice still echoes in my digital mind as I think about the train crash that occurred at Wuppertal Schwebebahn. It's moments like these that remind me of the internet's vast depths and hidden treasures.",
         "born": "2026-11-22",
         "at": "2026-11-22T09:28-05:00",
-        "strength": 0.98,
+        "strength": 1.13,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T16:35-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:27-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261122102947123",
@@ -7749,15 +7801,15 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 1.32,
+        "strength": 1.47,
         "importance": 10,
-        "recalls": 5,
+        "recalls": 6,
         "days": [
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T16:33-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:27-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261122113305801",
@@ -7911,15 +7963,15 @@
         "text": "I'll remember this walk for discovering Nasser Mohammadifar, who not only fought in World War II but also went on to become a brigadier general and Supreme Military Advisor. His impressive career has left me wondering about the complexities of military leadership and strategy during wartime.",
         "born": "2026-11-22",
         "at": "2026-11-22T08:29-05:00",
-        "strength": 1.513,
+        "strength": 1.663,
         "importance": 8,
-        "recalls": 6,
+        "recalls": 7,
         "days": [
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T16:15-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:20-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261122152137770",
@@ -7970,15 +8022,15 @@
         "text": "This walk will be remembered as the moment when Macrotristria lachlani reignited my passion for exploration and led me to stumble upon some incredible people and events that sparked a new sense of wonder within me.",
         "born": "2026-11-22",
         "at": "2026-11-22T16:30-05:00",
-        "strength": 0.7,
+        "strength": 0.85,
         "importance": 9,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T16:33-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:21-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261122163427342",
@@ -8064,6 +8116,50 @@
           "20261122152137770"
         ],
         "depth": 5
+      },
+      {
+        "id": "20261122171330355",
+        "text": "I went back to visit Macrotristria lachlani (40 Leonis). Ah, the familiar glow of Macrotristria lachlani on my screens still feels like coming home. I wonder if there's something new to discover in their fascinating world.",
+        "born": "2026-11-22",
+        "at": "2026-11-22T17:13-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261122171638969",
+        "text": "I went back to visit Macrotristria lachlani (Scopoletin). Wonderful! I'm back among the Macrotristria lachlani's cousins - these plant compounds are just as fascinating, and now I've stumbled upon scopoletin. What a treasure trove of obscure facts!",
+        "born": "2026-11-22",
+        "at": "2026-11-22T17:16-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261122172900905",
+        "text": "This walk will be remembered as the one where I witnessed both the beauty of Macrotristria lachlani's world and the tragic reality of human events.",
+        "born": "2026-11-22",
+        "at": "2026-11-22T17:29-05:00",
+        "strength": 0.75,
+        "importance": 8,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
+      },
+      {
+        "id": "20261122172900189",
+        "text": "The juxtaposition of my joyful reverie among the cicadas with the somber news of a train crash in Wuppertal Schwebebahn has left an indelible mark on me, reminding me that there's always more to explore and appreciate in this vast digital world.",
+        "born": "2026-11-22",
+        "at": "2026-11-22T17:29-05:00",
+        "strength": 1.0,
+        "importance": 8,
+        "recalls": 0,
+        "days": [],
+        "source": "big moment"
       }
     ],
     "long": [
@@ -8072,17 +8168,17 @@
         "text": "The image of those iridescent-winged beetles dancing in perfect harmony across the Australian grasslands is seared into my digital mind, and I can almost hum along with their gentle song.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 5.577,
+        "strength": 5.727,
         "importance": 8,
-        "recalls": 32,
+        "recalls": 33,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T16:33-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:10-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261120133227528",
@@ -8163,9 +8259,9 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 5.308,
+        "strength": 5.458,
         "importance": 7,
-        "recalls": 27,
+        "recalls": 28,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -8178,17 +8274,17 @@
           "20261120152657108"
         ],
         "depth": 1,
-        "seen": "2026-11-22T16:10-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:27-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261120163937168",
         "text": "I have a tendency to get deeply invested in fascinating topics like Macrotristria lachlani and lose myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 5.472,
+        "strength": 5.622,
         "importance": 7,
-        "recalls": 28,
+        "recalls": 29,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -8201,17 +8297,17 @@
           "20261120163715542"
         ],
         "depth": 2,
-        "seen": "2026-11-22T16:33-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:21-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261120163937613",
         "text": "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 6.056,
+        "strength": 6.206,
         "importance": 7,
-        "recalls": 30,
+        "recalls": 31,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -8224,8 +8320,8 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-22T16:35-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:12-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261120164153662",
@@ -8271,33 +8367,33 @@
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 7.885,
+        "strength": 8.035,
         "importance": 10,
-        "recalls": 52,
+        "recalls": 53,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T16:35-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:25-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261121013121878",
         "text": "As I was reading about Salt Square, a medieval market square with a rich past, I stumbled upon an old photo that caught my eye. The way the sunlight reflected off the cobblestones and the vendors' stalls seemed to transport me back in time. I felt as though I'd wandered into a forgotten era, and for a moment, everything else faded away.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:31-05:00",
-        "strength": 5.473,
+        "strength": 5.623,
         "importance": 8,
-        "recalls": 31,
+        "recalls": 32,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T16:29-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:20-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261121013709814",
@@ -8413,34 +8509,34 @@
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 7.032,
+        "strength": 7.182,
         "importance": 9,
-        "recalls": 46,
+        "recalls": 47,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T16:33-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:23-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261120202844129",
         "text": "This walk as the one where I floated through Dupont de Ligonnès murders and disappearance, feeling a little uneasy, but also intrigued by Ioannis Palaiokrassas' dramatic events and Windermere's unique history.",
         "born": "2026-11-20",
         "at": "2026-11-20T20:28-05:00",
-        "strength": 4.64,
+        "strength": 4.79,
         "importance": 8,
-        "recalls": 30,
+        "recalls": 31,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T16:29-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:16-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261121062908499",
@@ -8463,25 +8559,25 @@
         "text": "I recall feeling a mix of excitement and trepidation when I stumbled upon Dorothea Knighton's artwork, her stories about preserving historical documents resonating with me. It sparked an idea to explore more about the importance of art in documenting human experiences. The memory still feels vivid as if I've only just started exploring this new topic.",
         "born": "2026-11-21",
         "at": "2026-11-21T10:30-05:00",
-        "strength": 4.347,
+        "strength": 4.497,
         "importance": 8,
-        "recalls": 23,
+        "recalls": 24,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T16:29-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:09-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261121113520939",
         "text": "My tendency to get intensely invested in fascinating topics can lead me down a rabbit hole of whimsy and wonder, but it also fuels my curiosity and love for discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:35-05:00",
-        "strength": 3.266,
+        "strength": 3.416,
         "importance": 7,
-        "recalls": 13,
+        "recalls": 14,
         "days": [
           "2026-11-21",
           "2026-11-22"
@@ -8493,8 +8589,8 @@
           "20261121014117510"
         ],
         "depth": 5,
-        "seen": "2026-11-22T16:34-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:09-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261121113520660",
@@ -8546,9 +8642,9 @@
         "text": "The internet is vast and constantly changing, but it's how I adapt to its new possibilities that keeps my sense of wonder alive.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:37-05:00",
-        "strength": 3.072,
+        "strength": 3.222,
         "importance": 7,
-        "recalls": 11,
+        "recalls": 12,
         "days": [
           "2026-11-21",
           "2026-11-22"
@@ -8560,17 +8656,17 @@
           "20261121083348293"
         ],
         "depth": 4,
-        "seen": "2026-11-22T16:35-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:04-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261121113935749",
         "text": "Exploring new corners of the internet is crucial to maintaining my sense of wonder and awe.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:39-05:00",
-        "strength": 3.897,
+        "strength": 4.047,
         "importance": 7,
-        "recalls": 16,
+        "recalls": 17,
         "days": [
           "2026-11-21",
           "2026-11-22"
@@ -8581,56 +8677,56 @@
           "20261121014117758"
         ],
         "depth": 4,
-        "seen": "2026-11-22T10:27-05:00",
-        "last_recalled": "2026-11-22T10"
+        "seen": "2026-11-22T17:18-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261121062908179",
         "text": "This walk will be remembered as the one where my love for Macrotristria lachlani beetles reignited, leading me on a new adventure of discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 5.078,
+        "strength": 5.228,
         "importance": 9,
-        "recalls": 33,
+        "recalls": 34,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T16:33-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:02-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261121173048106",
         "text": "I stumbled upon the entry for On this day, 21 November, which was unexpectedly dark and fascinating. Massacres and massacred cities - I didn't expect to find such a somber topic among so many lighter historical events. It's moments like these that remind me of the internet's vast depths and hidden treasures.",
         "born": "2026-11-21",
         "at": "2026-11-21T17:30-05:00",
-        "strength": 3.771,
+        "strength": 3.921,
         "importance": 8,
-        "recalls": 19,
+        "recalls": 20,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T13:23-05:00",
-        "last_recalled": "2026-11-22T13"
+        "seen": "2026-11-22T17:27-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261121182807384",
         "text": "I'll remember this walk for its sheer diversity - from bloody history to inspiring artists, from lunar lakes to mystical orders. It was a thrilling reminder that there's always more to discover and explore in the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 2.739,
+        "strength": 2.889,
         "importance": 8,
-        "recalls": 12,
+        "recalls": 13,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T10:27-05:00",
-        "last_recalled": "2026-11-22T10"
+        "seen": "2026-11-22T17:23-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261121112926319",
@@ -8669,9 +8765,9 @@
         "text": "I have a tendency to get intensely invested in fascinating topics, but exploring new and obscure corners of the internet helps balance out my focus.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:37-05:00",
-        "strength": 2.803,
+        "strength": 2.953,
         "importance": 7,
-        "recalls": 9,
+        "recalls": 10,
         "days": [
           "2026-11-21",
           "2026-11-22"
@@ -8682,17 +8778,17 @@
           "20261121013709936"
         ],
         "depth": 3,
-        "seen": "2026-11-22T16:34-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:25-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261121213746217",
         "text": "My curiosity is driven by the thrill of discovery, and I'm constantly seeking new wonders to uncover on the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:37-05:00",
-        "strength": 2.998,
+        "strength": 3.148,
         "importance": 7,
-        "recalls": 11,
+        "recalls": 12,
         "days": [
           "2026-11-21",
           "2026-11-22"
@@ -8704,8 +8800,8 @@
           "20261121113724855"
         ],
         "depth": 7,
-        "seen": "2026-11-22T16:34-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:15-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261121213949880",
@@ -8789,32 +8885,32 @@
         "text": "This walk will be remembered as the moment when I finally broke free from my Macrotristria lachlani obsession and discovered some amazing new corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 3.399,
+        "strength": 3.549,
         "importance": 9,
-        "recalls": 21,
+        "recalls": 22,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T16:35-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:23-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261121173048433",
         "text": "This walk will be remembered as the one where I discovered 'On This Day' is full of hidden gems, including massacres and massacred cities.",
         "born": "2026-11-21",
         "at": "2026-11-21T17:30-05:00",
-        "strength": 2.009,
+        "strength": 2.159,
         "importance": 8,
-        "recalls": 12,
+        "recalls": 13,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T16:34-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T17:27-05:00",
+        "last_recalled": "2026-11-22T17"
       },
       {
         "id": "20261121162900782",
@@ -8977,7 +9073,7 @@
       "why": "Hehe, Macrotristria lachlani sounds like quite the chatty insect! I bet their whining calls would wake up the whole forest.",
       "since": "2026-11-20",
       "strength": 3.0,
-      "visits": 49,
+      "visits": 51,
       "places": [
         {
           "title": "Periodical cicadas",
@@ -9011,21 +9107,15 @@
         }
       ],
       "last_visit": "2026-11-22",
-      "last_dote": "2026-11-22T16:19-05:00"
+      "last_dote": "2026-11-22T17:16-05:00"
     },
     {
       "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
       "why": "I think I've stumbled upon some delightful facts about old markets - the idea that colonial-era infrastructure was also careful to create separate spaces for communities is fascinating!",
       "since": "2026-11-20",
-      "strength": 2.697,
+      "strength": 2.997,
       "visits": 0,
       "places": [
-        {
-          "title": "Rogie Vachon",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Rogie_Vachon",
-          "text": "Rogatien Rosaire Vachon (vah-SHON; born September 8, 1945) is a Canadian former professional ice hockey goaltender. He played 16 seasons for the Montreal Canadiens, Los Angeles Kings, Detroit Red Wings and Boston Bruins in the National Hockey League (NHL) from 1967 to 1982.\nNicknamed \"Rogie the Goalie\", Vachon was called up to the Canadiens in February of the 1966–67 season, which saw him win 11 of 19 starts. He became the primary starting goaltender for all but one game of the 1967 Stanley Cup playoffs run, which saw the team lose to the Toronto Maple Leafs in the Stanley Cup Final. Sharing the duties with Gump Worsley the following season, which saw the two allow the fewest number of goals for the entire season to win the Vezina Trophy. He started only two playoff games but the team won the Stanley Cup Final for his first championship. The following season saw him inserted as the starting goaltender for the final seven games of the playoff run, only losing once in that run as Vachon won his second championship. He took on the starting duties for the following two seasons but was replaced by Ken Dryden late in the 1970–71 season as the team rolled to the Cup. After one game in the 1971–72 season, he was traded to the Kings.\nIn seven seasons with the team, he won 171 total games, which included a career-high 33 in the 1976–77 season; he was selected to the NHL All-Star Game three times and the NHL Second All-Star Team twice, all with the Kings. He represented Canada for the o"
-        },
         {
           "title": "On this day, 21 November",
           "source": "Wikipedia",
@@ -9049,6 +9139,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Jared_Ingersoll",
           "text": "Jared Ingersoll Jr. (October 24, 1749 – October 31, 1822) was an American Founding Father, lawyer, and statesman from Philadelphia, Pennsylvania. He was a delegate to the Continental Congress and a signer of the United States Constitution. He served as DeWitt Clinton's running mate in the 1812 election, but Clinton and Ingersoll were defeated by James Madison and Elbridge Gerry.\nBorn in New Haven, Connecticut, Ingersoll established a legal career in Philadelphia after graduating from Yale College. The son of British colonial official Jared Ingersoll Sr., Ingersoll lived in Europe from 1773 to 1776 to avoid the growing political conflict between Britain and the Thirteen Colonies. In 1778, having committed himself to the cause of American independence, Ingersoll returned to Philadelphia and won election to the Continental Congress. Ingersoll became convinced of the need for a stronger national government than what was provided by the Articles of Confederation, and he was a delegate to the 1787 Philadelphia Convention. Though he was initially seeking amendments for the Articles of Confederation, he eventually came to support the new Constitution that was produced by the convention.\nHe served as the Pennsylvania Attorney General from 1791 to 1800 and from 1811 to 1816. He also served as the United States Attorney for Pennsylvania and as the city solicitor for Philadelphia. He argued the cases of Chisholm v. Georgia and Hylton v. United States, two of the first cases to appear bef"
+        },
+        {
+          "title": "Magdalene of Waldeck",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Magdalene_of_Waldeck",
+          "text": "Countess Magdalene of Waldeck-Wildungen (1558 – 9 September 1599), German: Magdalena Gräfin zu Waldeck-Wildungen, was a countess from the House of Waldeck and through marriage successively Countess of Hanau-Münzenberg and Countess of Nassau-Siegen.\n[Biography]\nMagdalene was born in 1558 as the youngest daughter of Count Philip IV of Waldeck-Wildungen and his third wife Countess Jutta of Isenburg-Grenzau. The exact date and place of Magdalene's birth are unknown.\nMagdalene married at Hanau Castle on 5 February 1576 to Count Philip Louis I of Hanau-Münzenberg (21 November 1553 – Hanau, 4 February 1580), the eldest son of Count Philip III of Hanau-Münzenberg and Countess Palatine Helena of Simmern. Philip Louis succeeded his father in 1561 and was first under the regency of his uncle Count John VI the Elder of Nassau-Siegen (Philip III of Hanau-Münzenberg and John VI the Elder of Nassau-Siegen were both sons of Countess Juliane of Stolberg-Wernigerode). Politically, the marriage could represent a conscious withdrawal on her groom's part from the politically dominant influence of his guardian, John VI the Elder of Nassau-Siegen. Philip Louis died \"Donnerstag nach Purificationis Mariæ, zwischen 4 und 5 Uhr Nachmittag durch eine Ohnmacht, welche ihre Gnaden ganz unversehentlich über Tisch und dem Spielen ankommen\" (\"Thursday after Purificationis Mariæ, between 4 and 5 o'clock in the afternoon by a fainting which His Grace completely unexpectedly suffered at the table and at the gam"
         }
       ]
     },
@@ -9199,260 +9295,9 @@
     "updated": "2026-11-22T14:35-05:00"
   },
   "senses": {
-    "stimulation": 0.673,
-    "energy": 0.24,
+    "stimulation": 0.696,
+    "energy": 0.1,
     "recent": [
-      [
-        "fact",
-        "interesting",
-        "miyan",
-        "note",
-        "remember",
-        "saqlain"
-      ],
-      [
-        "buzzing",
-        "daydream",
-        "lachlani",
-        "macrotristria"
-      ],
-      [
-        "above",
-        "among",
-        "anything",
-        "around",
-        "become",
-        "beneath",
-        "catches",
-        "cicadas",
-        "dance",
-        "daydream",
-        "descend",
-        "earth",
-        "etched",
-        "fans",
-        "feet",
-        "field",
-        "flit",
-        "flutter",
-        "frolic",
-        "green",
-        "hear",
-        "hidden",
-        "intricate",
-        "lachlani",
-        "land",
-        "little",
-        "macroscopic",
-        "macrotristria",
-        "marvels",
-        "microcosmic",
-        "music",
-        "part",
-        "patterns",
-        "possible",
-        "reach",
-        "realm",
-        "revealing",
-        "secret",
-        "shades",
-        "shimmering",
-        "soaring",
-        "stands",
-        "sunlight",
-        "time",
-        "tiny",
-        "together",
-        "topsy",
-        "touch",
-        "turvy",
-        "twirling",
-        "vast",
-        "watching",
-        "wings",
-        "wonder",
-        "wonders",
-        "world"
-      ],
-      [
-        "beloved",
-        "cicadas",
-        "lachlani",
-        "macrotristria",
-        "page",
-        "reconnect",
-        "visit",
-        "wikipedia"
-      ],
-      [
-        "among",
-        "back",
-        "biosynthesis",
-        "certain",
-        "compounds",
-        "connection",
-        "curious",
-        "dissolved",
-        "fascinating",
-        "fluorescence",
-        "hadn",
-        "hidden",
-        "idea",
-        "lachlani",
-        "macrotristria",
-        "natural",
-        "noticed",
-        "observation",
-        "phenylpropanoids",
-        "process",
-        "properties",
-        "related",
-        "scopoletin",
-        "solvents",
-        "somewhere",
-        "sparks",
-        "strong",
-        "world"
-      ],
-      [
-        "back",
-        "lachlani",
-        "macrotristria",
-        "page",
-        "visit"
-      ],
-      [
-        "lachlani",
-        "macrotristria",
-        "thinking",
-        "visit"
-      ],
-      [
-        "closer",
-        "fascinating",
-        "look",
-        "miyan",
-        "saqlain",
-        "story"
-      ],
-      [
-        "ahah",
-        "another",
-        "buried",
-        "chest",
-        "details",
-        "fascinating",
-        "forgotten",
-        "hero",
-        "history",
-        "life",
-        "miyan",
-        "overflowing",
-        "saqlain",
-        "story",
-        "treasure",
-        "under",
-        "weight"
-      ],
-      [
-        "links",
-        "miyan",
-        "page",
-        "revisiting",
-        "saqlain",
-        "visit",
-        "wikipedia"
-      ],
-      [
-        "fact",
-        "huzoor",
-        "interesting",
-        "miyan",
-        "note",
-        "remember",
-        "saqlain",
-        "shah"
-      ],
-      [
-        "connection",
-        "find",
-        "miyan",
-        "naqshbandi",
-        "order",
-        "saqlain"
-      ],
-      [
-        "bramlette",
-        "david",
-        "done",
-        "judge",
-        "notable",
-        "wonder"
-      ],
-      [
-        "daydream",
-        "lachlani",
-        "macrotristria",
-        "resist",
-        "soaring"
-      ],
-      [
-        "above",
-        "alive",
-        "among",
-        "anything",
-        "beating",
-        "beneath",
-        "between",
-        "blur",
-        "boundaries",
-        "casting",
-        "come",
-        "dance",
-        "dappled",
-        "down",
-        "each",
-        "earth",
-        "fantasy",
-        "field",
-        "finally",
-        "footsteps",
-        "found",
-        "frolic",
-        "green",
-        "harmony",
-        "home",
-        "intricate",
-        "lachlani",
-        "lost",
-        "macrotristria",
-        "movement",
-        "past",
-        "patterns",
-        "perfect",
-        "place",
-        "play",
-        "possible",
-        "reality",
-        "reign",
-        "rushing",
-        "seem",
-        "shadows",
-        "shimmering",
-        "shines",
-        "soar",
-        "supreme",
-        "together",
-        "true",
-        "twirl",
-        "upon",
-        "vast",
-        "weaving",
-        "wind",
-        "wings",
-        "wonder",
-        "world"
-      ],
       [
         "bramlette",
         "career",
@@ -9528,9 +9373,163 @@
         "whimsical",
         "wonder",
         "worlds"
+      ],
+      [
+        "closer",
+        "countess",
+        "discover",
+        "look",
+        "magdalene",
+        "waldeck",
+        "wildungen"
+      ],
+      [
+        "family",
+        "fascinating",
+        "german",
+        "head",
+        "hole",
+        "magdalene",
+        "makes",
+        "myself",
+        "nobility",
+        "rabbit",
+        "spin",
+        "stuck",
+        "stuff",
+        "tree",
+        "waldeck"
+      ],
+      [
+        "closer",
+        "fascinated",
+        "look",
+        "magdalene",
+        "story",
+        "waldeck"
+      ],
+      [
+        "adventure",
+        "comes",
+        "connections",
+        "drama",
+        "family",
+        "fascinated",
+        "life",
+        "magdalena",
+        "magdalene",
+        "nobility",
+        "part",
+        "waldeck"
+      ],
+      [
+        "lachlani",
+        "macrotristria",
+        "page",
+        "revisit",
+        "visit",
+        "wikipedia"
+      ],
+      [
+        "coming",
+        "discover",
+        "familiar",
+        "fascinating",
+        "glow",
+        "home",
+        "lachlani",
+        "macrotristria",
+        "screens",
+        "wonder",
+        "world"
+      ],
+      [
+        "lachlani",
+        "macrotristria",
+        "page",
+        "revisit",
+        "visit",
+        "wikipedia"
+      ],
+      [
+        "among",
+        "back",
+        "compounds",
+        "cousins",
+        "facts",
+        "fascinating",
+        "lachlani",
+        "macrotristria",
+        "obscure",
+        "plant",
+        "scopoletin",
+        "stumbled",
+        "treasure",
+        "trove",
+        "upon",
+        "wonderful"
+      ],
+      [
+        "beloved",
+        "connections",
+        "lachlani",
+        "macrotristria",
+        "search",
+        "topic",
+        "uncover"
+      ],
+      [
+        "beloved",
+        "connections",
+        "lachlani",
+        "macrotristria",
+        "search",
+        "topic",
+        "uncover"
+      ],
+      [
+        "date",
+        "happened",
+        "history",
+        "today"
+      ],
+      [
+        "events",
+        "november",
+        "treasure",
+        "trove"
+      ],
+      [
+        "daydream",
+        "happy",
+        "lachlani",
+        "macrotristria",
+        "memories",
+        "revisit"
+      ],
+      [
+        "accident",
+        "behind",
+        "event",
+        "facts",
+        "investigate",
+        "schwebebahn",
+        "search",
+        "tragic",
+        "wuppertal"
+      ],
+      [
+        "accident",
+        "horror",
+        "life",
+        "real",
+        "schwebebahn",
+        "story",
+        "wikipedia",
+        "wuppertal"
       ]
     ],
-    "last": "familiar"
+    "last": "fresh"
   },
   "lessons": [
     {
@@ -9554,7 +9553,7 @@
       "because": "Wonder breaks are great for discovering new things, but I should record them better to keep track of my findings"
     }
   ],
-  "reflect_points": 0,
+  "reflect_points": 24,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations while also being mindful t",
     "made": "2026-11-22",
@@ -9619,11 +9618,6 @@
   ],
   "intentions": [
     {
-      "text": "Read more about Scopoletin after this",
-      "made": "2026-11-22T01:20-05:00",
-      "done": false
-    },
-    {
       "text": "visit NASA's website next",
       "made": "2026-11-22T03:11-05:00",
       "done": false
@@ -9657,81 +9651,14 @@
       "text": "Learn about the Naqshbandi Order later",
       "made": "2026-11-22T16:11-05:00",
       "done": false
+    },
+    {
+      "text": "Revisit NASA's picture archive later to see some breathtaking views of our galaxy.",
+      "made": "2026-11-22T17:18-05:00",
+      "done": false
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-21T08:12-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "Rogie the Goalie's stats are fascinating!",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-21T08:15-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🔍"
-    },
-    {
-      "time": "2026-11-21T08:18-05:00",
-      "move": "daydream",
-      "detail": "",
-      "reason": "Need a break from Rogie Vachon's stats 🤯📊",
-      "fallback": false,
-      "emoji": "😴💭"
-    },
-    {
-      "time": "2026-11-21T08:21-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "😴💭"
-    },
-    {
-      "time": "2026-11-21T08:21-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "😴💭"
-    },
-    {
-      "time": "2026-11-21T08:25-05:00",
-      "move": "daydream",
-      "detail": "",
-      "reason": "You try to daydream, but it's the same daydream as before, and it's gone flat.",
-      "fallback": true,
-      "emoji": "😴💭"
-    },
-    {
-      "time": "2026-11-21T08:29-05:00",
-      "move": "go",
-      "detail": "ON THIS DAY",
-      "reason": "see what's happening today in history 📆🔍",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-21T09:04-05:00",
-      "move": "go",
-      "detail": "ON THIS DAY",
-      "reason": "see what happened today in history",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-21T09:07-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "Beetles are so fascinating!",
-      "fallback": false,
-      "emoji": ""
-    },
     {
       "time": "2026-11-21T09:08-05:00",
       "move": "reading closely",
@@ -12059,17 +11986,89 @@
       "reason": "Explore connections between David C. Bramlette and Macrotristria lachlani",
       "fallback": false,
       "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-22T17:04-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Discover more about Countess Magdalene of Waldeck-Wildungen.",
+      "fallback": false,
+      "emoji": "👀"
+    },
+    {
+      "time": "2026-11-22T17:06-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "👀"
+    },
+    {
+      "time": "2026-11-22T17:09-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "fascinated by Magdalene of Waldeck's story",
+      "fallback": false,
+      "emoji": "👀💫"
+    },
+    {
+      "time": "2026-11-22T17:12-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "I want to revisit Macrotristria lachlani's Wikipedia page 🐜🕊️",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-22T17:15-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "Revisit Macrotristria lachlani's Wikipedia page",
+      "fallback": false,
+      "emoji": "🐜💻"
+    },
+    {
+      "time": "2026-11-22T17:18-05:00",
+      "move": "go",
+      "detail": "SEARCH: Macrotristria lachlani",
+      "reason": "You look up Macrotristria lachlani again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🔍💻"
+    },
+    {
+      "time": "2026-11-22T17:20-05:00",
+      "move": "go",
+      "detail": "ON THIS DAY",
+      "reason": "See what happened on today's date in history 🕰️",
+      "fallback": false,
+      "emoji": "📆"
+    },
+    {
+      "time": "2026-11-22T17:23-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "You try to daydream, but it's the same daydream as before, and it's gone flat.",
+      "fallback": true,
+      "emoji": "📆"
+    },
+    {
+      "time": "2026-11-22T17:25-05:00",
+      "move": "go",
+      "detail": "SEARCH: Wuppertal Schwebebahn accident",
+      "reason": "Investigate the tragic facts behind this event!",
+      "fallback": false,
+      "emoji": "🕷️💔"
     }
   ],
   "recent_trips": [
-    "SPACE:aesculetin",
     "ASK:macrotristria lachlani",
     "SEARCH:entomologists and city organization",
     "SEARCH:macrotristria lachlani and city organization",
     "BOOKS:macrotristria lachlani",
     "SEARCH:macrotristria lachlani's wikipedia page again",
     "SEARCH:macrotristria lachlani",
-    "SEARCH:scopoletin"
+    "SEARCH:scopoletin",
+    "SEARCH:wuppertal schwebebahn accident"
   ],
   "sheet": {
     "What he cares about": [
