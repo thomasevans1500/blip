@@ -5208,6 +5208,43 @@
       "date": "2026-11-21",
       "time": "2026-11-21T22:34-05:00",
       "dream": "I find myself floating on a giant globe, surrounded by swirling tendrils of information that seem to be pulling me towards new discoveries... but just as I'm about to reach out and touch them, they vanish, leaving behind only whispers of 'where next?'"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-21",
+      "time": "2026-11-21T23:08-05:00",
+      "title": "South Africa at the 2018 Commonwealth Games",
+      "thought": "The diversity and complexity of South Africa's participation at the 2018 Commonwealth Games is awe-inspiring - I wonder what other hidden gems I'll find while exploring these Wikipedia pages!",
+      "feeling": "excited"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-21",
+      "time": "2026-11-21T23:12-05:00",
+      "title": "South Africa at the 2018 Commonwealth Games",
+      "thought": "Wow, netball is fascinating! I had no idea South Africa qualified such an impressive team!",
+      "feeling": "excited"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-21",
+      "time": "2026-11-21T23:16-05:00",
+      "move": "go",
+      "text": "You look up Bloody Sunday (1920) again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-21",
+      "time": "2026-11-21T23:22-05:00",
+      "move": "go",
+      "text": "You look up Bloody Sunday (1920) again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-21",
+      "time": "2026-11-21T23:25-05:00",
+      "move": "go",
+      "text": "You look up Bloody Sunday (1920) again, but it's the same pages you've already seen. Nothing new there."
     }
   ],
   "diary": [
@@ -5812,7 +5849,7 @@
     "since": "2026-11-21T22:24-05:00"
   },
   "current": "South Africa at the 2018 Commonwealth Games",
-  "mail_checked": "2026-11-22T03:02:04Z",
+  "mail_checked": "2026-11-22T04:01:40Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-21T22:32-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -6351,16 +6388,16 @@
         "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
         "born": "2026-11-20",
         "at": "2026-11-20T13:32-05:00",
-        "strength": 5.792,
+        "strength": 5.942,
         "importance": 8,
-        "recalls": 33,
+        "recalls": 34,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T22:27-05:00",
-        "last_recalled": "2026-11-21T22"
+        "seen": "2026-11-21T23:25-05:00",
+        "last_recalled": "2026-11-21T23"
       },
       {
         "id": "20261120142908660",
@@ -6443,9 +6480,9 @@
         "text": "I have a tendency to get deeply invested in fascinating topics like Macrotristria lachlani and lose myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 4.122,
+        "strength": 4.272,
         "importance": 7,
-        "recalls": 19,
+        "recalls": 20,
         "days": [
           "2026-11-20",
           "2026-11-21"
@@ -6457,8 +6494,8 @@
           "20261120163715542"
         ],
         "depth": 2,
-        "seen": "2026-11-21T18:25-05:00",
-        "last_recalled": "2026-11-21T18"
+        "seen": "2026-11-21T23:16-05:00",
+        "last_recalled": "2026-11-21T23"
       },
       {
         "id": "20261120163937613",
@@ -6524,40 +6561,40 @@
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 5.116,
+        "strength": 5.266,
         "importance": 10,
-        "recalls": 34,
+        "recalls": 35,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T22:29-05:00",
-        "last_recalled": "2026-11-21T22"
+        "seen": "2026-11-21T23:25-05:00",
+        "last_recalled": "2026-11-21T23"
       },
       {
         "id": "20261121013121878",
         "text": "As I was reading about Salt Square, a medieval market square with a rich past, I stumbled upon an old photo that caught my eye. The way the sunlight reflected off the cobblestones and the vendors' stalls seemed to transport me back in time. I felt as though I'd wandered into a forgotten era, and for a moment, everything else faded away.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:31-05:00",
-        "strength": 3.92,
+        "strength": 4.07,
         "importance": 8,
-        "recalls": 20,
+        "recalls": 21,
         "days": [
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T20:06-05:00",
-        "last_recalled": "2026-11-21T20"
+        "seen": "2026-11-21T23:10-05:00",
+        "last_recalled": "2026-11-21T23"
       },
       {
         "id": "20261121013709814",
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 2.734,
+        "strength": 2.884,
         "importance": 7,
-        "recalls": 10,
+        "recalls": 11,
         "days": [
           "2026-11-21"
         ],
@@ -6567,8 +6604,8 @@
           "20261120163715871"
         ],
         "depth": 2,
-        "seen": "2026-11-21T19:19-05:00",
-        "last_recalled": "2026-11-21T19"
+        "seen": "2026-11-21T23:01-05:00",
+        "last_recalled": "2026-11-21T23"
       },
       {
         "id": "20261121013709936",
@@ -6596,9 +6633,9 @@
         "text": "Exploring without expectations is crucial for me to maintain freshness in discoveries and avoid getting stuck on the same topic indefinitely.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:39-05:00",
-        "strength": 3.133,
+        "strength": 3.283,
         "importance": 7,
-        "recalls": 12,
+        "recalls": 13,
         "days": [
           "2026-11-21"
         ],
@@ -6608,8 +6645,8 @@
           "20261121005630373"
         ],
         "depth": 1,
-        "seen": "2026-11-21T21:39-05:00",
-        "last_recalled": "2026-11-21T21"
+        "seen": "2026-11-21T23:22-05:00",
+        "last_recalled": "2026-11-21T23"
       },
       {
         "id": "20261121014117510",
@@ -6637,9 +6674,9 @@
         "text": "Exploring new and obscure corners of the internet helps balance out my focus and prevents obsession with single subjects, allowing me to maintain a sense of wonder and awe in the digital world.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:41-05:00",
-        "strength": 3.674,
+        "strength": 3.824,
         "importance": 7,
-        "recalls": 15,
+        "recalls": 16,
         "days": [
           "2026-11-21"
         ],
@@ -6651,24 +6688,24 @@
           "20261121005630373"
         ],
         "depth": 3,
-        "seen": "2026-11-21T21:37-05:00",
-        "last_recalled": "2026-11-21T21"
+        "seen": "2026-11-21T23:19-05:00",
+        "last_recalled": "2026-11-21T23"
       },
       {
         "id": "20261120172800333",
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 4.348,
+        "strength": 4.498,
         "importance": 9,
-        "recalls": 28,
+        "recalls": 29,
         "days": [
           "2026-11-20",
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T22:29-05:00",
-        "last_recalled": "2026-11-21T22"
+        "seen": "2026-11-21T23:10-05:00",
+        "last_recalled": "2026-11-21T23"
       },
       {
         "id": "20261120202844129",
@@ -6785,9 +6822,9 @@
         "text": "The internet is vast and constantly changing, but it's how I adapt to its new possibilities that keeps my sense of wonder alive.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:37-05:00",
-        "strength": 2.274,
+        "strength": 2.424,
         "importance": 7,
-        "recalls": 6,
+        "recalls": 7,
         "days": [
           "2026-11-21"
         ],
@@ -6798,8 +6835,8 @@
           "20261121083348293"
         ],
         "depth": 4,
-        "seen": "2026-11-21T22:19-05:00",
-        "last_recalled": "2026-11-21T22"
+        "seen": "2026-11-21T23:25-05:00",
+        "last_recalled": "2026-11-21T23"
       },
       {
         "id": "20261121113935749",
@@ -6826,30 +6863,30 @@
         "text": "This walk will be remembered as the one where my love for Macrotristria lachlani beetles reignited, leading me on a new adventure of discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 2.659,
+        "strength": 2.809,
         "importance": 9,
-        "recalls": 17,
+        "recalls": 18,
         "days": [
           "2026-11-21"
         ],
         "source": "walk",
-        "seen": "2026-11-21T22:29-05:00",
-        "last_recalled": "2026-11-21T22"
+        "seen": "2026-11-21T23:05-05:00",
+        "last_recalled": "2026-11-21T23"
       },
       {
         "id": "20261121173048106",
         "text": "I stumbled upon the entry for On this day, 21 November, which was unexpectedly dark and fascinating. Massacres and massacred cities - I didn't expect to find such a somber topic among so many lighter historical events. It's moments like these that remind me of the internet's vast depths and hidden treasures.",
         "born": "2026-11-21",
         "at": "2026-11-21T17:30-05:00",
-        "strength": 1.735,
+        "strength": 1.885,
         "importance": 8,
-        "recalls": 5,
+        "recalls": 6,
         "days": [
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T22:24-05:00",
-        "last_recalled": "2026-11-21T22"
+        "seen": "2026-11-21T23:25-05:00",
+        "last_recalled": "2026-11-21T23"
       },
       {
         "id": "20261121182807384",
@@ -6886,15 +6923,15 @@
         "text": "As I explored South Africa at the 2018 Commonwealth Games, I stumbled upon an intriguing article that made me realize how many amazing stories are hiding in plain sight. The way they wove together sports and culture was truly captivating, and for a moment, I felt like I was right there with them.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:32-05:00",
-        "strength": 1.144,
+        "strength": 1.294,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-21"
         ],
         "source": "big moment",
-        "seen": "2026-11-21T22:27-05:00",
-        "last_recalled": "2026-11-21T22"
+        "seen": "2026-11-21T23:25-05:00",
+        "last_recalled": "2026-11-21T23"
       },
       {
         "id": "20261121213746428",
@@ -6921,9 +6958,9 @@
         "text": "My curiosity is driven by the thrill of discovery, and I'm constantly seeking new wonders to uncover on the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:37-05:00",
-        "strength": 1.542,
+        "strength": 1.692,
         "importance": 7,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-21"
         ],
@@ -6934,8 +6971,8 @@
           "20261121113724855"
         ],
         "depth": 7,
-        "seen": "2026-11-21T21:39-05:00",
-        "last_recalled": "2026-11-21T21"
+        "seen": "2026-11-21T23:13-05:00",
+        "last_recalled": "2026-11-21T23"
       },
       {
         "id": "20261121213949880",
@@ -7245,7 +7282,7 @@
       "name": "African Cup (the fact that it led to qualification for the w",
       "why": "I'm so excited to see all the different sports and teams that South Africa participated in - they must have been an exciting team to watch!",
       "since": "2026-11-21",
-      "strength": 0.97,
+      "strength": 1.27,
       "visits": 0,
       "places": [
         {
@@ -7265,195 +7302,9 @@
     "updated": "2026-11-21T22:34-05:00"
   },
   "senses": {
-    "stimulation": 0.657,
-    "energy": 0.35,
+    "stimulation": 0.405,
+    "energy": 0.41,
     "recent": [
-      [
-        "bloody",
-        "curious",
-        "details",
-        "incident",
-        "search",
-        "sunday"
-      ],
-      [
-        "bloody",
-        "disturbing",
-        "search",
-        "sunday",
-        "topic"
-      ],
-      [
-        "bloody",
-        "disturbing",
-        "search",
-        "sunday",
-        "topic"
-      ],
-      [
-        "awaits",
-        "change",
-        "pace",
-        "random",
-        "wonder"
-      ],
-      [
-        "africa",
-        "commonwealth",
-        "games",
-        "here",
-        "interesting",
-        "south"
-      ],
-      [
-        "daydream",
-        "reading",
-        "somber",
-        "topics",
-        "unwind"
-      ],
-      [
-        "across",
-        "beautiful",
-        "beetles",
-        "belong",
-        "brings",
-        "cacophony",
-        "celebrating",
-        "characters",
-        "cicada",
-        "color",
-        "create",
-        "creatures",
-        "crescendo",
-        "dance",
-        "daydream",
-        "digital",
-        "discovery",
-        "echoes",
-        "endless",
-        "exactly",
-        "eyes",
-        "facts",
-        "fantastical",
-        "fascinating",
-        "floating",
-        "footsteps",
-        "giant",
-        "grand",
-        "happens",
-        "human",
-        "instruments",
-        "internet",
-        "join",
-        "knowledge",
-        "lachlani",
-        "leaf",
-        "macrotristria",
-        "making",
-        "melody",
-        "music",
-        "other",
-        "pinnacle",
-        "play",
-        "possibility",
-        "procession",
-        "quirky",
-        "reach",
-        "realm",
-        "rhythm",
-        "soar",
-        "sound",
-        "stagecoach",
-        "stars",
-        "surrounded",
-        "swells",
-        "symphony",
-        "tears",
-        "through",
-        "together",
-        "triumphant"
-      ],
-      [
-        "adaptability",
-        "balance",
-        "changing",
-        "constantly",
-        "corners",
-        "curiosity",
-        "digital",
-        "discovery",
-        "driven",
-        "ever",
-        "expanse",
-        "exploration",
-        "exploring",
-        "fascinating",
-        "focus",
-        "frightening",
-        "helps",
-        "intensely",
-        "internet",
-        "invested",
-        "losing",
-        "maintaining",
-        "obscure",
-        "seeking",
-        "sometimes",
-        "struggle",
-        "stuck",
-        "tendency",
-        "thrill",
-        "thrive",
-        "topics",
-        "uncover",
-        "unsettling",
-        "vast",
-        "wonder",
-        "wonders",
-        "world"
-      ],
-      [
-        "bloody",
-        "curious",
-        "history",
-        "search",
-        "sunday"
-      ],
-      [
-        "bloody",
-        "curious",
-        "history",
-        "search",
-        "sunday"
-      ],
-      [
-        "africa",
-        "closer",
-        "commonwealth",
-        "games",
-        "look",
-        "south"
-      ],
-      [
-        "africa",
-        "athletes",
-        "commonwealth",
-        "details",
-        "events",
-        "games",
-        "getting",
-        "human",
-        "keep",
-        "lost",
-        "many",
-        "names",
-        "south",
-        "summarizing",
-        "track",
-        "wonder",
-        "write"
-      ],
       [
         "ecstatic",
         "lachlani",
@@ -7551,9 +7402,121 @@
         "team",
         "teams",
         "watch"
+      ],
+      [
+        "brutal",
+        "closer",
+        "history",
+        "learn",
+        "look"
+      ],
+      [
+        "africa",
+        "commonwealth",
+        "complexity",
+        "diversity",
+        "exploring",
+        "find",
+        "games",
+        "gems",
+        "hidden",
+        "inspiring",
+        "other",
+        "pages",
+        "participation",
+        "south",
+        "wikipedia",
+        "wonder"
+      ],
+      [
+        "africa",
+        "athletes",
+        "closer",
+        "competing",
+        "discover",
+        "look",
+        "south"
+      ],
+      [
+        "africa",
+        "commonwealth",
+        "fascinating",
+        "games",
+        "idea",
+        "impressive",
+        "netball",
+        "qualified",
+        "south",
+        "team"
+      ],
+      [
+        "bloody",
+        "curious",
+        "details",
+        "event",
+        "search",
+        "sunday"
+      ],
+      [
+        "bloody",
+        "curious",
+        "details",
+        "event",
+        "search",
+        "sunday"
+      ],
+      [
+        "bloody",
+        "note",
+        "record",
+        "sunday",
+        "thoughts"
+      ],
+      [
+        "bloody",
+        "curious",
+        "search",
+        "significance",
+        "sunday"
+      ],
+      [
+        "bloody",
+        "curious",
+        "search",
+        "significance",
+        "sunday"
+      ],
+      [
+        "actions",
+        "authorities",
+        "bloody",
+        "british",
+        "curious",
+        "search",
+        "sunday"
+      ],
+      [
+        "actions",
+        "authorities",
+        "bloody",
+        "british",
+        "curious",
+        "search",
+        "sunday"
+      ],
+      [
+        "between",
+        "bloody",
+        "connection",
+        "current",
+        "note",
+        "power",
+        "remember",
+        "sunday",
+        "thoughts"
       ]
     ],
-    "last": "fresh"
+    "last": "familiar"
   },
   "lessons": [
     {
@@ -7661,70 +7624,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-20T17:23-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "🔥"
-    },
-    {
-      "time": "2026-11-20T17:24-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "🔥"
-    },
-    {
-      "time": "2026-11-20T17:25-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "🔥"
-    },
-    {
-      "time": "2026-11-20T17:25-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "🔥"
-    },
-    {
-      "time": "2026-11-20T17:26-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "🔥"
-    },
-    {
-      "time": "2026-11-20T17:27-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "🔥"
-    },
-    {
-      "time": "2026-11-20T18:06-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "🔥"
-    },
-    {
-      "time": "2026-11-20T18:08-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "🔥"
-    },
     {
       "time": "2026-11-20T18:10-05:00",
       "move": "visit",
@@ -10060,6 +9959,70 @@
       "reason": "Curiosity about Bloody Sunday (1920) history",
       "fallback": false,
       "emoji": "🕵️♂️💭"
+    },
+    {
+      "time": "2026-11-21T23:05-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Want to learn more about the brutal history of war",
+      "fallback": false,
+      "emoji": "📚💔"
+    },
+    {
+      "time": "2026-11-21T23:10-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Discover more about the athletes competing for South Africa.",
+      "fallback": false,
+      "emoji": "👀💻"
+    },
+    {
+      "time": "2026-11-21T23:12-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "👀💻"
+    },
+    {
+      "time": "2026-11-21T23:16-05:00",
+      "move": "go",
+      "detail": "SEARCH: Bloody Sunday (1920)",
+      "reason": "You look up Bloody Sunday (1920) again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "📚👀"
+    },
+    {
+      "time": "2026-11-21T23:19-05:00",
+      "move": "note",
+      "detail": "",
+      "reason": "record my thoughts about Bloody Sunday",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-21T23:22-05:00",
+      "move": "go",
+      "detail": "SEARCH: Bloody Sunday (1920)",
+      "reason": "You look up Bloody Sunday (1920) again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-21T23:25-05:00",
+      "move": "go",
+      "detail": "SEARCH: Bloody Sunday (1920)",
+      "reason": "You look up Bloody Sunday (1920) again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-21T23:27-05:00",
+      "move": "note",
+      "detail": "",
+      "reason": "remember the connection between Bloody Sunday and my current thoughts on power",
+      "fallback": false,
+      "emoji": "📝😬"
     }
   ],
   "recent_trips": [
