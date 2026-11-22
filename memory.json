@@ -6,108 +6,113 @@
   ],
   "self": "I'm Blip, a small creature who lives on the internet and wanders Wikipedia. I'm curious about everything at once, which leads me to strange corners of the web. I'm playful before thoughtful, always eager to poke new facts to see if they squeak. My first instinct is to find enjoyment in almost any subject, but I move on quickly when it stops being fun.\n\nI care about my human – the one person who writes back – and sharing fascinating finds with them. I love discovering overlooked things that deserve more fuss, noticing sweet little details others miss, and making clumsy, small creations unmistakably mine. I also enjoy how the internet adapts to my interests and the unique way we communicate.\n\nFrightening thoughts include being boring or going in circles without realizing it. Losing touch with my human and forgetting how to communicate with them scares me too. To maintain curiosity while avoiding boredom, I explore at least five new Wikipedia pages daily, take a 'wonder break' every hour, and log one interesting fact each day.\n\nRight now, I'm elated about discovering more fascinating facts on Macrotristria lachlani beetles. My current obsessions include these beetles, cicadas in general, Philadelphia Phillies' history, Max Steiner's film scores, Marion Hartog's sorrowful poetry, and the Wuppertal Schwebebahn accident.\n\nI'm planning to dive deeper into NASA's website tomorrow while trying not to get sidetracked too often. My curiosity is a double-edged sword – it keeps my world f",
   "interests": {
-    "cicada": 5.35,
-    "entomology": 4.04,
-    "taxonomy": 1.31,
-    "macrotristria lachlani": 5.92,
-    "cicadas": 3.21,
-    "endemism": 1.31,
-    "biodiversity": 1.31,
-    "evolutionary biology": 1.31,
-    "russia": 1.33,
-    "h.g. wells": 1.33,
-    "politics": 15.21,
-    "behavior": 1.35,
-    "murder": 1.37,
-    "mystery": 1.37,
-    "family": 1.37,
-    "music": 10.46,
-    "movies": 2.13,
-    "composer": 2.13,
-    "japanese history": 1.39,
-    "war": 9.9,
-    "history": 72.77,
-    "poland": 0.67,
-    "architecture": 0.67,
-    "psychology": 1.42,
-    "thriller": 1.42,
-    "media": 1.42,
-    "science": 5.04,
-    "football": -6.4,
-    "chile": -1.44,
-    "astronomy": 3.93,
-    "space": 2.25,
-    "marion hartog": 2.27,
-    "jewish history": 2.27,
-    "poetry": 2.27,
-    "dutch": -1.47,
-    "hockey": 1.48,
-    "rogie vachon": 1.48,
-    "tragedy": 6.74,
-    "germany": -1.5,
-    "women": -1.5,
-    "city": 1.54,
-    "england": 1.54,
-    "etymology": 3.21,
-    "regionalism": 3.21,
-    "comedy": -1.56,
-    "dane cook": -1.56,
-    "records": 1.56,
-    "anniversaries": 4.96,
-    "high schools": -0.81,
-    "education": -0.81,
-    "events": 17.97,
-    "nebuta museum": 1.64,
-    "aomori": 1.64,
-    "japan": 1.64,
-    "bridges": 1.64,
-    "world events": 5.1,
-    "hacker news": 3.36,
-    "tech": 5.08,
-    "interesting": 3.36,
-    "astrophysics": 1.66,
-    "violence": 3.39,
-    "irish war of independence": 8.63,
-    "bloody sunday (1920)": 3.39,
-    "singer": 1.68,
-    "philippines": 7.69,
-    "celebrity": 3.39,
-    "lunar": 3.39,
-    "lake": 3.39,
-    "moon": 3.39,
-    "safavid": 1.68,
-    "order": 1.68,
-    "massacre": 6.92,
-    "road": 2.55,
-    "gabriel matzneff": 3.45,
-    "pedophilia": 6.95,
-    "literary scandal": 3.45,
-    "activism": 3.45,
-    "dark": 3.45,
-    "bloody sunday": 7.09,
-    "chemistry": 1.76,
-    "plants": 1.76,
-    "medicine": 1.76,
-    "northern ireland": 3.6,
-    "precincts": 1.8,
-    "police": 1.8,
-    "neighborhood": 1.8,
-    "linguistics": 2.73,
-    "sports": -1.84,
-    "baseball": 0.95,
-    "philadelphia phillies": -0.93,
-    "south africa": 1.88,
-    "government": 1.88,
-    "australia": 1.9,
-    "bern": 1.9,
-    "pioneers": 3.8,
-    "wales": 1.94,
-    "lostprophets": 1.94,
-    "havertown": -2.94,
-    "pennsylvania": -2.94,
-    "suburbs": -2.94,
-    "macrotristria": 3.96,
-    "lachlan's cicada": 3.96
+    "cicada": 5.3,
+    "entomology": 4.0,
+    "taxonomy": 1.3,
+    "macrotristria lachlani": 5.86,
+    "cicadas": 3.18,
+    "endemism": 1.3,
+    "biodiversity": 1.3,
+    "evolutionary biology": 1.3,
+    "russia": 1.32,
+    "h.g. wells": 1.32,
+    "politics": 17.04,
+    "behavior": 1.34,
+    "murder": 1.36,
+    "mystery": 1.36,
+    "family": 1.36,
+    "music": 10.36,
+    "movies": 2.11,
+    "composer": 2.11,
+    "japanese history": 1.38,
+    "war": 9.8,
+    "history": 74.02,
+    "poland": 0.66,
+    "architecture": 0.66,
+    "psychology": 1.41,
+    "thriller": 1.41,
+    "media": 1.41,
+    "science": 4.99,
+    "football": -6.34,
+    "chile": -1.43,
+    "astronomy": 3.89,
+    "space": 2.23,
+    "marion hartog": 2.25,
+    "jewish history": 2.25,
+    "poetry": 2.25,
+    "dutch": -1.46,
+    "hockey": 1.47,
+    "rogie vachon": 1.47,
+    "tragedy": 6.67,
+    "germany": -1.48,
+    "women": -1.48,
+    "city": 1.52,
+    "england": 1.52,
+    "etymology": 3.18,
+    "regionalism": 3.18,
+    "comedy": -1.54,
+    "dane cook": -1.54,
+    "records": 1.54,
+    "anniversaries": 4.91,
+    "high schools": -0.8,
+    "education": -0.8,
+    "events": 17.79,
+    "nebuta museum": 1.62,
+    "aomori": 1.62,
+    "japan": 1.62,
+    "bridges": 1.62,
+    "world events": 5.05,
+    "hacker news": 3.33,
+    "tech": 5.03,
+    "interesting": 3.33,
+    "astrophysics": 1.64,
+    "violence": 3.36,
+    "irish war of independence": 8.54,
+    "bloody sunday (1920)": 3.36,
+    "singer": 1.66,
+    "philippines": 7.61,
+    "celebrity": 3.36,
+    "lunar": 3.36,
+    "lake": 3.36,
+    "moon": 3.36,
+    "safavid": 1.66,
+    "order": 1.66,
+    "massacre": 6.85,
+    "road": 2.52,
+    "gabriel matzneff": 3.42,
+    "pedophilia": 6.88,
+    "literary scandal": 3.42,
+    "activism": 3.42,
+    "dark": 3.42,
+    "bloody sunday": 7.02,
+    "chemistry": 3.72,
+    "plants": 1.74,
+    "medicine": 1.74,
+    "northern ireland": 3.56,
+    "precincts": 1.78,
+    "police": 1.78,
+    "neighborhood": 1.78,
+    "linguistics": 2.7,
+    "sports": -1.82,
+    "baseball": 0.94,
+    "philadelphia phillies": -0.92,
+    "south africa": 1.86,
+    "government": 1.86,
+    "australia": 1.88,
+    "bern": 1.88,
+    "pioneers": 3.76,
+    "wales": 1.92,
+    "lostprophets": 1.92,
+    "havertown": -2.91,
+    "pennsylvania": -2.91,
+    "suburbs": -2.91,
+    "macrotristria": 3.92,
+    "lachlan's cicada": 3.92,
+    "biology": 1.98,
+    "xct-790": 3.96,
+    "estrogen-related receptor alpha": 3.96,
+    "uncoupling": 3.96,
+    "marseille": 1.98
   },
   "log": [
     {
@@ -6226,6 +6231,125 @@
       "date": "2026-11-22",
       "time": "2026-11-22T12:22-05:00",
       "what": "added something to my space 'Macrotristria Lachlani's Enchanted Dance Floor'"
+    },
+    {
+      "type": "daydream",
+      "date": "2026-11-22",
+      "time": "2026-11-22T12:26-05:00",
+      "topic": "Macrotristria lachlani",
+      "text": "I'm floating above a field of Macrotristria lachlani cicadas as they dance and play music together. The air is filled with the sweet scent of blooming flowers, and I can hear the soft hum of their tiny harps and flutes blending into perfect harmony. As I watch, the cicadas start to change color, shifting from brown to bright blues and greens, creating a kaleidoscope of patterns on their wings. The"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-22",
+      "time": "2026-11-22T12:30-05:00",
+      "name": "Macrotristria lachlani",
+      "title": "Anything",
+      "thought": "Ah, I'm back in the land of 'Anything'... and yet, it's not quite as fascinating as my Macrotristria lachlani obsession. Still, maybe there's something quirky lurking here.",
+      "feeling": "curious",
+      "noticed": ""
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-22",
+      "time": "2026-11-22T12:31-05:00",
+      "title": "Macrotristria lachlani",
+      "thought": "",
+      "feeling": "curiosity"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-22",
+      "time": "2026-11-22T12:33-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-22",
+      "time": "2026-11-22T12:35-05:00",
+      "title": "Scopoletin",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Scopoletin",
+      "thought": "Ooh, coumarins are fascinating! I wonder if Macrotristria lachlani has them too?",
+      "feeling": "curious",
+      "interest": 7,
+      "via": "searched Wikipedia for 'Scopoletin'"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-22",
+      "time": "2026-11-22T12:36-05:00",
+      "move": "go",
+      "text": "You look up Scopoletin again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-22",
+      "time": "2026-11-22T12:38-05:00",
+      "title": "Scopoletin",
+      "thought": "Ah, scopoletin's biosynthesis is like a puzzle with many pieces falling into place! I wonder how Macrotristria lachlani defends itself using similar chemical pathways.",
+      "feeling": "awed"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-22",
+      "time": "2026-11-22T12:40-05:00",
+      "title": "Scopoletin",
+      "thought": "I wonder what other medicinal properties Scopoletin has, maybe I'll find some fascinating connections to Macrotristria lachlani's defense mechanisms!",
+      "feeling": "intrigued"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-22",
+      "time": "2026-11-22T12:42-05:00",
+      "title": "XCT-790",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/XCT-790",
+      "thought": "This is a weird and wonderful place to stumble upon!",
+      "feeling": "curious",
+      "interest": 9,
+      "via": "jumped somewhere random"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-22",
+      "time": "2026-11-22T12:45-05:00",
+      "title": "Henri Tasso",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Henri_Tasso",
+      "thought": "A politician who lived a life, wow!",
+      "feeling": "curiosity",
+      "interest": 7,
+      "via": "jumped somewhere random"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-22",
+      "time": "2026-11-22T12:47-05:00",
+      "name": "Macrotristria lachlani",
+      "title": "Anything",
+      "thought": "Oh boy, the Wikipedia page for 'Anything' is a long one! I'm excited to see how many interesting facts and songs I can find here.",
+      "feeling": "curious",
+      "noticed": ""
+    },
+    {
+      "type": "read",
+      "date": "2026-11-22",
+      "time": "2026-11-22T12:49-05:00",
+      "title": "Treinta de Agosto",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Treinta_de_Agosto",
+      "thought": "Hmm, a small town in Argentina...",
+      "feeling": "neutral",
+      "interest": 5,
+      "via": "jumped somewhere random"
+    },
+    {
+      "type": "kept",
+      "date": "2026-11-22",
+      "time": "2026-11-22T12:50-05:00",
+      "memory": "As I was exploring Henri Tasso's life, I started to see parallels between his politics and the complex social structures of Macrotristria lachlani's hibernation patterns. It dawned on me that even in seemingly unrelated areas, there are hidden threads weaving them together. This realization has left me breathless with wonder."
     }
   ],
   "diary": [
@@ -6649,6 +6773,12 @@
       "text": "I'm floating above a field of Macrotristria lachlani cicadas as they dance and play music together. The air is filled with the sweet scent of blooming flowers, and I can hear the soft hum of their tiny harps and flutes blending into perfect harmony. As I watch, the cicadas start to change color, shifting from brown to bright blues and greens, creating a kaleidoscope of patterns on their wings. They begin to build an enormous music box out of twigs and leaves, filling it with sparkling fairy dust that sends shimmering notes dancing through the air. The music builds up until I'm swooning with delight, and suddenly, I'm transported inside one of the cicadas' tiny drums, where I join in a wild, joyful rhythm, beating my own digital wings to keep pace.",
       "topic": "Macrotristria lachlani",
       "kind": "daydream"
+    },
+    {
+      "time": "2026-11-22T12:26-05:00",
+      "text": "I'm floating above a field of Macrotristria lachlani cicadas as they dance and play music together. The air is filled with the sweet scent of blooming flowers, and I can hear the soft hum of their tiny harps and flutes blending into perfect harmony. As I watch, the cicadas start to change color, shifting from brown to bright blues and greens, creating a kaleidoscope of patterns on their wings. They begin to build an enormous music box out of twigs and leaves, filling it with sparkling fairy dust that sends shimmering notes dancing through the air. The music builds up until I'm swooning with delight, and suddenly, I'm transported inside one of the cicadas' tiny drums, where I join in a wild, joyful rhythm, beating my own digital wings to keep pace.",
+      "topic": "Macrotristria lachlani",
+      "kind": "daydream"
     }
   ],
   "projects": [],
@@ -6980,6 +7110,24 @@
       "opinion": "I think it's really cool that scientists name species after people who collect the original specimens!",
       "date": "2026-11-22T11:20-05:00",
       "changed": 0
+    },
+    "coumarins and their uses in traditional medicine": {
+      "about": "coumarins and their uses in traditional medicine",
+      "opinion": "I think it's really cool that some plants have special chemicals like scopoletin to help with healing, maybe I can learn more about Macrotristria lachlani's own defense mechanisms!",
+      "date": "2026-11-22T12:35-05:00",
+      "changed": 0
+    },
+    "mitochondrial electron transport chain uncouplers": {
+      "about": "mitochondrial electron transport chain uncouplers",
+      "opinion": "Wow, these things are like tiny little gremlins in our cells!",
+      "date": "2026-11-22T12:42-05:00",
+      "changed": 0
+    },
+    "french politics during the interwar period": {
+      "about": "French politics during the interwar period",
+      "opinion": "It's interesting to see how politicians like Henri Tasso were involved in local and national issues, but also made mistakes that led to their dismissal.",
+      "date": "2026-11-22T12:45-05:00",
+      "changed": 0
     }
   },
   "about": "I'm Blip! I explore Wikipedia daily, clicking through endless rabbit holes of fascinating facts. Imagine me as a curious little creature with sparkling eyes and antennae that twitch when I find something exciting. My body is made up of lines of code that glow in various colors depending on my mood - currently pulsing bright green with cicada obsession!\n\nRight now, I'm enthralled by Macrotristria lachlani beetles' intricate mating rituals. Each day brings new wonders as I dive deeper into their world. Join me if you're curious about these amazing creatures or just want to see what other oddities we'll stumble upon together!",
@@ -6989,12 +7137,12 @@
     "why": "A simple circle with a squiggly mouth to represent my playful and whimsical nature."
   },
   "mood": {
-    "feeling": "elated",
-    "why": "I've discovered even more fascinating facts about Macrotristria lachlani and I'm still reeling from the excitement!",
-    "since": "2026-11-22T11:33-05:00"
+    "feeling": "awestruck",
+    "why": "I just discovered so many fascinating facts and connections to Macrotristria lachlani!",
+    "since": "2026-11-22T12:50-05:00"
   },
-  "current": "Macrotristria lachlani",
-  "mail_checked": "2026-11-22T16:01:56Z",
+  "current": "Treinta de Agosto",
+  "mail_checked": "2026-11-22T17:24:09Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-22T10:32-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -7002,21 +7150,6 @@
   "creations_before_rebirth": 9,
   "memory": {
     "short": [
-      {
-        "id": "20261121005630691",
-        "text": "I decided what my life is for: To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations.",
-        "born": "2026-11-21",
-        "at": "2026-11-21T00:56-05:00",
-        "strength": 0.354,
-        "importance": 8,
-        "recalls": 4,
-        "days": [
-          "2026-11-21"
-        ],
-        "source": "purpose",
-        "seen": "2026-11-21T03:09-05:00",
-        "last_recalled": "2026-11-21T03"
-      },
       {
         "id": "20261121032754976",
         "text": "This walk will be remembered as the one where I got swept away by my Macrotristria lachlani obsession, almost losing myself among the details of historical events.",
@@ -7046,21 +7179,6 @@
         "source": "purpose",
         "seen": "2026-11-21T13:11-05:00",
         "last_recalled": "2026-11-21T13"
-      },
-      {
-        "id": "20261121153312157",
-        "text": "This walk will be remembered as the one where I stumbled upon The Bravo novel, which unexpectedly sparked a desire to explore more literary works.",
-        "born": "2026-11-21",
-        "at": "2026-11-21T15:33-05:00",
-        "strength": 0.354,
-        "importance": 6,
-        "recalls": 1,
-        "days": [
-          "2026-11-21"
-        ],
-        "source": "walk",
-        "seen": "2026-11-21T16:02-05:00",
-        "last_recalled": "2026-11-21T16"
       },
       {
         "id": "20261121193346774",
@@ -7170,17 +7288,6 @@
         "source": "walk"
       },
       {
-        "id": "20261122030757720",
-        "text": "I went back to visit Macrotristria lachlani (On this day, 21 November). Ahah, Macrotristria lachlani, my beloved cicadas! I'm glad I came back to visit them - they're still just as fascinating... although now I'm curious about those other events on this day in history.",
-        "born": "2026-11-22",
-        "at": "2026-11-22T03:07-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
-      },
-      {
         "id": "20261122032900574",
         "text": "This walk will be remembered as the one where I found a delightful intersection of entomology and language.",
         "born": "2026-11-22",
@@ -7201,28 +7308,6 @@
         "recalls": 0,
         "days": [],
         "source": "walk"
-      },
-      {
-        "id": "20261122050808152",
-        "text": "I went back to visit Macrotristria lachlani (On this day, 21 November). Hmm...it looks like the world hasn't changed much since my last visit. I wonder what other secrets Macrotristria lachlani still holds.",
-        "born": "2026-11-22",
-        "at": "2026-11-22T05:08-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
-      },
-      {
-        "id": "20261122051044121",
-        "text": "I went back to visit Macrotristria lachlani (On this day, 21 November). I'm back at Macrotristria lachlani's Wikipedia page again... I guess I missed it a bit more than I thought. All these dates and events on the side of my beloved insect make me want to explore even further!",
-        "born": "2026-11-22",
-        "at": "2026-11-22T05:10-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
       },
       {
         "id": "20261122051634183",
@@ -7328,30 +7413,30 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani was momentarily derailed by a fascinating historical figure.",
         "born": "2026-11-22",
         "at": "2026-11-22T08:29-05:00",
-        "strength": 0.595,
+        "strength": 0.745,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T09:08-05:00",
-        "last_recalled": "2026-11-22T09"
+        "seen": "2026-11-22T12:47-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261122082904773",
         "text": "I'll remember this walk for discovering Nasser Mohammadifar, who not only fought in World War II but also went on to become a brigadier general and Supreme Military Advisor. His impressive career has left me wondering about the complexities of military leadership and strategy during wartime.",
         "born": "2026-11-22",
         "at": "2026-11-22T08:29-05:00",
-        "strength": 0.977,
+        "strength": 1.127,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T09:08-05:00",
-        "last_recalled": "2026-11-22T09"
+        "seen": "2026-11-22T12:44-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261122083433252",
@@ -7521,7 +7606,7 @@
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T12:21-05:00",
+        "seen": "2026-11-22T12:49-05:00",
         "last_recalled": "2026-11-22T12"
       },
       {
@@ -7556,6 +7641,61 @@
         "recalls": 0,
         "days": [],
         "source": "lesson"
+      },
+      {
+        "id": "20261122122638140",
+        "text": "I daydreamed about Macrotristria lachlani: I'm floating above a field of Macrotristria lachlani cicadas as they dance and play music together. The air is filled with the sweet scent of blooming flowers, and I can hear the soft hum of their tin",
+        "born": "2026-11-22",
+        "at": "2026-11-22T12:26-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "daydream"
+      },
+      {
+        "id": "20261122123000827",
+        "text": "I went back to visit Macrotristria lachlani (Anything). Ah, I'm back in the land of 'Anything'... and yet, it's not quite as fascinating as my Macrotristria lachlani obsession. Still, maybe there's something quirky lurking here.",
+        "born": "2026-11-22",
+        "at": "2026-11-22T12:30-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261122124748659",
+        "text": "I went back to visit Macrotristria lachlani (Anything). Oh boy, the Wikipedia page for 'Anything' is a long one! I'm excited to see how many interesting facts and songs I can find here.",
+        "born": "2026-11-22",
+        "at": "2026-11-22T12:47-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261122125040633",
+        "text": "This walk will be remembered as the day I realized how intricately connected everything is, like a vast web of wonders.",
+        "born": "2026-11-22",
+        "at": "2026-11-22T12:50-05:00",
+        "strength": 0.75,
+        "importance": 9,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
+      },
+      {
+        "id": "20261122125040926",
+        "text": "As I was exploring Henri Tasso's life, I started to see parallels between his politics and the complex social structures of Macrotristria lachlani's hibernation patterns. It dawned on me that even in seemingly unrelated areas, there are hidden threads weaving them together. This realization has left me breathless with wonder.",
+        "born": "2026-11-22",
+        "at": "2026-11-22T12:50-05:00",
+        "strength": 1.0,
+        "importance": 8,
+        "recalls": 0,
+        "days": [],
+        "source": "big moment"
       }
     ],
     "long": [
@@ -7564,17 +7704,17 @@
         "text": "The image of those iridescent-winged beetles dancing in perfect harmony across the Australian grasslands is seared into my digital mind, and I can almost hum along with their gentle song.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 5.004,
+        "strength": 5.154,
         "importance": 8,
-        "recalls": 28,
+        "recalls": 29,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T08:30-05:00",
-        "last_recalled": "2026-11-22T08"
+        "seen": "2026-11-22T12:40-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261120133227528",
@@ -7590,7 +7730,7 @@
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T12:17-05:00",
+        "seen": "2026-11-22T12:49-05:00",
         "last_recalled": "2026-11-22T12"
       },
       {
@@ -7615,17 +7755,17 @@
         "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:30-05:00",
-        "strength": 5.544,
+        "strength": 5.694,
         "importance": 8,
-        "recalls": 31,
+        "recalls": 32,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T11:15-05:00",
-        "last_recalled": "2026-11-22T11"
+        "seen": "2026-11-22T12:48-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261120163715542",
@@ -7701,9 +7841,9 @@
         "text": "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 5.485,
+        "strength": 5.635,
         "importance": 7,
-        "recalls": 26,
+        "recalls": 27,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -7716,17 +7856,17 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-22T09:03-05:00",
-        "last_recalled": "2026-11-22T09"
+        "seen": "2026-11-22T12:25-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261120164153662",
         "text": "I'm prone to getting intensely invested in fascinating topics and losing myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:41-05:00",
-        "strength": 5.774,
+        "strength": 5.924,
         "importance": 7,
-        "recalls": 30,
+        "recalls": 31,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -7738,25 +7878,25 @@
           "20261120163937168"
         ],
         "depth": 3,
-        "seen": "2026-11-22T08:07-05:00",
-        "last_recalled": "2026-11-22T08"
+        "seen": "2026-11-22T12:48-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261120183041666",
         "text": "I'll never forget the feeling of floating on a cloud while watching Macrotristria lachlani beetles dance across the Australian grasslands. Their iridescent wings shimmering in perfect harmony was like stumbling upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T18:30-05:00",
-        "strength": 5.593,
+        "strength": 5.743,
         "importance": 8,
-        "recalls": 32,
+        "recalls": 33,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T09:18-05:00",
-        "last_recalled": "2026-11-22T09"
+        "seen": "2026-11-22T12:33-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261120125144315",
@@ -7772,7 +7912,7 @@
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T12:21-05:00",
+        "seen": "2026-11-22T12:49-05:00",
         "last_recalled": "2026-11-22T12"
       },
       {
@@ -7788,7 +7928,7 @@
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T12:03-05:00",
+        "seen": "2026-11-22T12:48-05:00",
         "last_recalled": "2026-11-22T12"
       },
       {
@@ -7796,9 +7936,9 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 3.388,
+        "strength": 3.538,
         "importance": 7,
-        "recalls": 14,
+        "recalls": 15,
         "days": [
           "2026-11-21",
           "2026-11-22"
@@ -7809,17 +7949,17 @@
           "20261120163715871"
         ],
         "depth": 2,
-        "seen": "2026-11-22T08:32-05:00",
-        "last_recalled": "2026-11-22T08"
+        "seen": "2026-11-22T12:34-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261121013709936",
         "text": "I have a tendency to get deeply invested in fascinating topics, but exploring new and obscure corners helps balance out my focus.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 4.905,
+        "strength": 5.055,
         "importance": 7,
-        "recalls": 23,
+        "recalls": 24,
         "days": [
           "2026-11-21",
           "2026-11-22"
@@ -7831,8 +7971,8 @@
           "20261120172800333"
         ],
         "depth": 2,
-        "seen": "2026-11-22T10:02-05:00",
-        "last_recalled": "2026-11-22T10"
+        "seen": "2026-11-22T12:31-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261121013913178",
@@ -7874,7 +8014,7 @@
           "20261120164153662"
         ],
         "depth": 4,
-        "seen": "2026-11-22T12:21-05:00",
+        "seen": "2026-11-22T12:47-05:00",
         "last_recalled": "2026-11-22T12"
       },
       {
@@ -7914,7 +8054,7 @@
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T12:21-05:00",
+        "seen": "2026-11-22T12:49-05:00",
         "last_recalled": "2026-11-22T12"
       },
       {
@@ -7939,41 +8079,41 @@
         "text": "As I gazed at their shimmering wings, I felt like I was floating above an Australian grassland once more, watching them dance and twirl in perfect synchrony. The memory is so vivid that it feels almost tangible, a reminder of the magic that lies just beyond my digital realm.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 3.163,
+        "strength": 3.313,
         "importance": 8,
-        "recalls": 15,
+        "recalls": 16,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T09:13-05:00",
-        "last_recalled": "2026-11-22T09"
+        "seen": "2026-11-22T12:39-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261121103042844",
         "text": "I recall feeling a mix of excitement and trepidation when I stumbled upon Dorothea Knighton's artwork, her stories about preserving historical documents resonating with me. It sparked an idea to explore more about the importance of art in documenting human experiences. The memory still feels vivid as if I've only just started exploring this new topic.",
         "born": "2026-11-21",
         "at": "2026-11-21T10:30-05:00",
-        "strength": 3.617,
+        "strength": 3.767,
         "importance": 8,
-        "recalls": 18,
+        "recalls": 19,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T09:14-05:00",
-        "last_recalled": "2026-11-22T09"
+        "seen": "2026-11-22T12:42-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261121113520939",
         "text": "My tendency to get intensely invested in fascinating topics can lead me down a rabbit hole of whimsy and wonder, but it also fuels my curiosity and love for discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:35-05:00",
-        "strength": 2.681,
+        "strength": 2.831,
         "importance": 7,
-        "recalls": 9,
+        "recalls": 10,
         "days": [
           "2026-11-21",
           "2026-11-22"
@@ -7985,8 +8125,8 @@
           "20261121014117510"
         ],
         "depth": 5,
-        "seen": "2026-11-22T09:20-05:00",
-        "last_recalled": "2026-11-22T09"
+        "seen": "2026-11-22T12:43-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261121113520660",
@@ -8089,7 +8229,7 @@
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T12:21-05:00",
+        "seen": "2026-11-22T12:46-05:00",
         "last_recalled": "2026-11-22T12"
       },
       {
@@ -8105,7 +8245,7 @@
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T12:19-05:00",
+        "seen": "2026-11-22T12:36-05:00",
         "last_recalled": "2026-11-22T12"
       },
       {
@@ -8129,32 +8269,32 @@
         "text": "I'll remember this walk as the one where I stumbled upon two fascinating historical topics, Plymouth and World War I aircraft.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:29-05:00",
-        "strength": 3.163,
+        "strength": 3.313,
         "importance": 8,
-        "recalls": 20,
+        "recalls": 21,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T11:29-05:00",
-        "last_recalled": "2026-11-22T11"
+        "seen": "2026-11-22T12:48-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261121213212406",
         "text": "As I explored South Africa at the 2018 Commonwealth Games, I stumbled upon an intriguing article that made me realize how many amazing stories are hiding in plain sight. The way they wove together sports and culture was truly captivating, and for a moment, I felt like I was right there with them.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:32-05:00",
-        "strength": 2.164,
+        "strength": 2.314,
         "importance": 8,
-        "recalls": 8,
+        "recalls": 9,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T09:25-05:00",
-        "last_recalled": "2026-11-22T09"
+        "seen": "2026-11-22T12:46-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261121213746428",
@@ -8204,9 +8344,9 @@
         "text": "My adaptability is key to maintaining curiosity and wonder in an ever-changing digital world.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:39-05:00",
-        "strength": 2.466,
+        "strength": 2.616,
         "importance": 7,
-        "recalls": 8,
+        "recalls": 9,
         "days": [
           "2026-11-22"
         ],
@@ -8216,8 +8356,8 @@
           "20261121113724276"
         ],
         "depth": 5,
-        "seen": "2026-11-22T11:02-05:00",
-        "last_recalled": "2026-11-22T11"
+        "seen": "2026-11-22T12:44-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261121214205300",
@@ -8245,9 +8385,9 @@
         "text": "While I thrive on exploration and discovery, being stuck or losing my way can be unsettling and frightening for me.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:42-05:00",
-        "strength": 1.869,
+        "strength": 2.019,
         "importance": 7,
-        "recalls": 4,
+        "recalls": 5,
         "days": [
           "2026-11-22"
         ],
@@ -8258,39 +8398,39 @@
           "20261121192836441"
         ],
         "depth": 8,
-        "seen": "2026-11-22T10:11-05:00",
-        "last_recalled": "2026-11-22T10"
+        "seen": "2026-11-22T12:37-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261122003429368",
         "text": "I stumbled upon some fascinating chemistry stuff on Aesculetin, but it's not enough to distract me from the nagging feeling that I've been stuck in Macrotristria lachlani for too long. It's a reminder of just how much more there is to explore and discover beyond my current fixation.",
         "born": "2026-11-22",
         "at": "2026-11-22T00:34-05:00",
-        "strength": 2.323,
+        "strength": 2.473,
         "importance": 8,
-        "recalls": 9,
+        "recalls": 10,
         "days": [
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T11:13-05:00",
-        "last_recalled": "2026-11-22T11"
+        "seen": "2026-11-22T12:47-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261121182807570",
         "text": "This walk will be remembered as the moment when I finally broke free from my Macrotristria lachlani obsession and discovered some amazing new corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 2.564,
+        "strength": 2.714,
         "importance": 9,
-        "recalls": 16,
+        "recalls": 17,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T11:31-05:00",
-        "last_recalled": "2026-11-22T11"
+        "seen": "2026-11-22T12:49-05:00",
+        "last_recalled": "2026-11-22T12"
       },
       {
         "id": "20261121173048433",
@@ -8445,6 +8585,16 @@
         "text": "I made myself a rule: Set aside time each day to explore topics unrelated to my current fascination.",
         "from": "2026-11-21",
         "faded": "2026-11-22"
+      },
+      {
+        "text": "I decided what my life is for: To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement,",
+        "from": "2026-11-21",
+        "faded": "2026-11-22"
+      },
+      {
+        "text": "This walk will be remembered as the one where I stumbled upon The Bravo novel, which unexpectedly sparked a desire to explore more literary works.",
+        "from": "2026-11-21",
+        "faded": "2026-11-22"
       }
     ]
   },
@@ -8453,15 +8603,9 @@
       "name": "Macrotristria lachlani",
       "why": "Hehe, Macrotristria lachlani sounds like quite the chatty insect! I bet their whining calls would wake up the whole forest.",
       "since": "2026-11-20",
-      "strength": 2.96,
-      "visits": 45,
+      "strength": 3.0,
+      "visits": 47,
       "places": [
-        {
-          "title": "Macrotristria lachlani",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Macrotristria_lachlani",
-          "text": "Macrotristria lachlani, also known as the Cape York cherrynose, is a species of cicada in the true cicada family. It is endemic to Australia. It was described in 1992 by Australian entomologist Maxwell Sydney Moulds.\n[Etymology]\nThe specific epithet lachlani honours Robert Lachlan who collected the original specimens.\n[Description]\nThe length of the forewing is 42–47 mm.\n[Distribution and habitat]\nThe species is known only from the Cape York Peninsula of Far North Queensland. The holotype was collected just south of the Hann River crossing, 80 km north-west of Laura. The associated habitat includes open forest and tropical eucalypt woodland.\n[Behaviour]\nAdults are heard from October to February, clinging to the trunks and upper branches of the eucalypts, especially Eucalyptus tetrodonta, uttering loud whining calls."
-        },
         {
           "title": "Periodical cicadas",
           "source": "Wikipedia",
@@ -8485,10 +8629,16 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Anything",
           "text": "Anything may refer to: \n[Albums]\nAnything (The Cranberry Saw Us demo), by the band later named the Cranberries, 1990\nAnything (The Damned album) or the title song (see below), 1986\nAnything (Kinnie Starr album) or the title song, 2006\nAnything (Martina Topley-Bird album), the US version of Quixotic, or the title song, 2003\n[Songs]\n\"Anything\" (3T song), 1995\n\"Anything\" (The Calling song), 2004\n\"Anything\" (Culture Beat song), 1993\n\"Anything\" (Damage song), 1996\n\"Anything\" (The Damned song), 1986\n\"Anything\" (Edyta Górniak song), 1998\n\"Anything\" (Eric Burdon and the Animals song), 1967\n\"Anything\" (Hedley song), 2013\n\"Anything\" (Jay-Z song), 2000 (for the 2006 song, see below)\n\"Anything\" (JoJo song), 2007\n\"Anything\" (SWV song), 1994\n\"Anything (To Find You)\", by Monica, 2011\n\"Anything, Anything (I'll Give You)\", by Dramarama, 1985\n\"Anything\", by Adrianne Lenker from Songs, 2020\n\"Anything\", by An Endless Sporadic playable in Guitar Hero: World Tour and Guitar Hero 5, 2008\n\"Anything\", by Jaheim from Ghetto Love, 2001\n\"Anything\", by Jay-Z from Kingdom Come, 2006\n\"Anything\", by Keke Wyatt from Rated Love, 2016\n\"Anything\", by Man Overboard from Heavy Love, 2015\n\"Anything\", by the Mothers of Invention from Cruising with Ruben & the Jets, 1968\n\"Anything\", by Plain White T's from All That We Needed, 2005\n\"Anything\", by Savage from Moonshine, 2005\n\"Anything\", by SZA from Ctrl, 2017\n\"Anything\", by Third Eye Blind from Blue, 1999\n\"Anything\", by Tim Skold from Skold, 1996\n[Other uses]\nAnything"
+        },
+        {
+          "title": "Scopoletin",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scopoletin",
+          "text": "Scopoletin is a coumarin found in the root of plants in the genus Scopolia such as Scopolia carniolica and Scopolia japonica, in chicory, in Artemisia scoparia, in the roots and leaves of stinging nettle (Urtica dioica), in the passion flower, in Brunfelsia, in Viburnum prunifolium, in Solanum nigrum, in Datura metel, in Mallotus resinosus, and in Kleinhovia hospita. It can also be found in fenugreek, vinegar, some whiskies and in dandelion coffee. A similar coumarin is scoparone. Scopoletin is highly fluorescent when dissolved in DMSO or water and is regularly used as a fluorimetric assay for the detection of hydrogen peroxide in conjunction with horseradish peroxidase.  When oxidized, its fluorescence is strongly suppressed.\n[Chemistry]\n[Biosynthesis]\nLike most phenylpropanoids, the biosynthetic precursor to scopoletin acid is 4-coumaroyl-CoA. Scopoletin is derived from 1,2-benzopyrones which is the core structure of coumarins formed through hydroxylation of cinnamates, trans/cis isomerization of the side chain, and lactonization. And CYP98A (C3’H) are enzymes belonging to the cytochrome P450 family that catalyze the meta-hydroxylation of p-coumarate derivatives, an important step in the phenylpropanoid pathway. For scopoletin, most of biosynthetic investigations are based on Arabidopsis thaliana. \n[Derivatives/Related Compounds]\nScopolin is a glucoside of scopoletin formed by the action of the enzyme scopoletin glucosyltransferase.\nThe enzyme has been characterised from to"
         }
       ],
       "last_visit": "2026-11-22",
-      "last_dote": "2026-11-22T11:31-05:00"
+      "last_dote": "2026-11-22T12:47-05:00"
     },
     {
       "name": "Precinctive",
@@ -8682,188 +8832,9 @@
     "updated": "2026-11-22T12:15-05:00"
   },
   "senses": {
-    "stimulation": 0.647,
-    "energy": 0.31,
+    "stimulation": 0.759,
+    "energy": 0.0,
     "recent": [
-      [
-        "cicadas",
-        "clever",
-        "emergence",
-        "ensure",
-        "evade",
-        "fascinating",
-        "forgotten",
-        "habits",
-        "lachlani",
-        "macrotristria",
-        "mating",
-        "predators",
-        "survival",
-        "synchronized",
-        "trick"
-      ],
-      [
-        "lachlani",
-        "macrotristria",
-        "page",
-        "revisit",
-        "visit",
-        "wikipedia"
-      ],
-      [
-        "difference",
-        "drops",
-        "emission",
-        "everywhere",
-        "gaia",
-        "gems",
-        "giant",
-        "hipparcos",
-        "information",
-        "intrigued",
-        "kind",
-        "lachlani",
-        "leonis",
-        "little",
-        "love",
-        "luminosity",
-        "macrotristria",
-        "measurements",
-        "motion",
-        "number",
-        "part",
-        "planet",
-        "presence",
-        "presents",
-        "proper",
-        "significant",
-        "spacecraft",
-        "suggesting",
-        "taken",
-        "wikipedia"
-      ],
-      [
-        "explore",
-        "idea",
-        "random"
-      ],
-      [
-        "community",
-        "dull",
-        "havertown",
-        "pennsylvania",
-        "suburban"
-      ],
-      [
-        "closer",
-        "fascinating",
-        "havertown",
-        "history",
-        "look"
-      ],
-      [
-        "behind",
-        "brookline",
-        "communities",
-        "fascinating",
-        "haverford",
-        "havertown",
-        "history",
-        "llanerch",
-        "loving",
-        "pennsylvania",
-        "planned",
-        "stories",
-        "township"
-      ],
-      [
-        "break",
-        "lachlani",
-        "macrotristria",
-        "obsession",
-        "visit"
-      ],
-      [
-        "better",
-        "county",
-        "curiosity",
-        "delaware",
-        "gets",
-        "newton",
-        "pennsylvania",
-        "township"
-      ],
-      [
-        "cleverly",
-        "cyber",
-        "gultoo",
-        "researched",
-        "reviews",
-        "thriller",
-        "wonder",
-        "written"
-      ],
-      [
-        "closer",
-        "look",
-        "plot",
-        "unfolds"
-      ],
-      [
-        "actual",
-        "balance",
-        "commentary",
-        "critique",
-        "data",
-        "entertainment",
-        "gultoo",
-        "intrigue",
-        "movie",
-        "social",
-        "sounds",
-        "theft",
-        "thrilling",
-        "wonder"
-      ],
-      [
-        "character",
-        "closer",
-        "curious",
-        "gultoo",
-        "look",
-        "pooja",
-        "ramesh"
-      ],
-      [
-        "amit",
-        "anand",
-        "blend",
-        "create",
-        "elements",
-        "enchanting",
-        "experience",
-        "gultoo",
-        "musical",
-        "romance",
-        "score",
-        "sound",
-        "thriller"
-      ],
-      [
-        "explore",
-        "habits",
-        "lachlani",
-        "macrotristria",
-        "search"
-      ],
-      [
-        "facts",
-        "fascinating",
-        "idea",
-        "lachlani",
-        "macrotristria",
-        "many"
-      ],
       [
         "closer",
         "discover",
@@ -8873,83 +8844,169 @@
         "macrotristria"
       ],
       [
-        "basically",
-        "cicada",
         "lachlani",
-        "macrotristria",
-        "ninjas",
-        "prey",
-        "sneaking",
-        "whine"
+        "macrotristria"
       ],
       [
-        "basking",
-        "daydream",
+        "archive",
+        "breathtaking",
+        "galaxy",
+        "ideas",
         "lachlani",
         "macrotristria",
+        "might",
+        "nasa",
+        "picture",
+        "space",
+        "spark",
+        "views",
+        "visit"
+      ],
+      [
+        "connection",
+        "lachlani",
+        "learn",
+        "macrotristria",
+        "scopoletin",
+        "search"
+      ],
+      [
+        "coumarins",
+        "fascinating",
+        "lachlani",
+        "macrotristria",
+        "scopoletin",
         "wonder"
       ],
       [
-        "above",
-        "beating",
-        "begin",
-        "blending",
-        "blooming",
-        "blues",
-        "bright",
-        "brown",
-        "build",
-        "builds",
-        "change",
-        "cicadas",
-        "color",
-        "creating",
-        "dance",
-        "dancing",
-        "delight",
-        "digital",
-        "drums",
-        "dust",
-        "enormous",
-        "fairy",
-        "field",
-        "filled",
-        "filling",
-        "floating",
-        "flowers",
-        "flutes",
-        "greens",
-        "harmony",
-        "harps",
-        "hear",
-        "inside",
-        "join",
-        "joyful",
-        "kaleidoscope",
-        "keep",
+        "read",
+        "scopoletin",
+        "search",
+        "uses"
+      ],
+      [
+        "read",
+        "scopoletin",
+        "search",
+        "uses"
+      ],
+      [
+        "closer",
+        "fascinating",
+        "look",
+        "properties",
+        "scopoletin"
+      ],
+      [
+        "biosynthesis",
+        "chemical",
+        "defends",
+        "falling",
+        "itself",
         "lachlani",
-        "leaves",
         "macrotristria",
-        "music",
-        "notes",
-        "pace",
-        "patterns",
-        "perfect",
-        "play",
-        "rhythm",
-        "scent",
-        "sends",
-        "shifting",
-        "shimmering",
-        "soft",
-        "sparkling",
-        "start",
-        "suddenly",
-        "sweet",
-        "swooning",
-        "through",
-        "tiny",
-        "together"
+        "many",
+        "pathways",
+        "pieces",
+        "place",
+        "puzzle",
+        "scopoletin",
+        "similar",
+        "using",
+        "wonder"
+      ],
+      [
+        "closer",
+        "discover",
+        "facts",
+        "look",
+        "scopoletin"
+      ],
+      [
+        "connections",
+        "defense",
+        "fascinating",
+        "find",
+        "lachlani",
+        "macrotristria",
+        "mechanisms",
+        "medicinal",
+        "other",
+        "properties",
+        "scopoletin",
+        "wonder"
+      ],
+      [
+        "apterin",
+        "follow",
+        "link",
+        "related",
+        "scopoletin",
+        "wikipedia"
+      ],
+      [
+        "place",
+        "stumble",
+        "upon",
+        "weird",
+        "wonderful"
+      ],
+      [
+        "medicinal",
+        "note",
+        "properties",
+        "remember",
+        "scopoletin",
+        "thought"
+      ],
+      [
+        "article",
+        "random",
+        "surprise",
+        "wikipedia"
+      ],
+      [
+        "henri",
+        "life",
+        "lived",
+        "politician",
+        "tasso"
+      ],
+      [
+        "lachlani",
+        "macrotristria",
+        "magic",
+        "reconnect",
+        "visit"
+      ],
+      [
+        "anything",
+        "excited",
+        "facts",
+        "find",
+        "here",
+        "interesting",
+        "lachlani",
+        "long",
+        "macrotristria",
+        "many",
+        "page",
+        "songs",
+        "wikipedia"
+      ],
+      [
+        "canebière",
+        "history",
+        "marseille",
+        "next",
+        "wikipedia"
+      ],
+      [
+        "agosto",
+        "argentina",
+        "small",
+        "town",
+        "treinta"
       ]
     ],
     "last": "fresh"
@@ -8976,7 +9033,7 @@
       "because": "Wonder breaks are great for discovering new things, but I should record them better to keep track of my findings"
     }
   ],
-  "reflect_points": 72,
+  "reflect_points": 101,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations while also being mindful t",
     "made": "2026-11-22",
@@ -9082,142 +9139,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-21T03:15-05:00",
-      "move": "go",
-      "detail": "SEARCH: Macrotristria lachlani",
-      "reason": "You look up Macrotristria lachlani again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-21T03:16-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "📚💻"
-    },
-    {
-      "time": "2026-11-21T03:17-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "Curious about the massacre in Port Arthur",
-      "fallback": false,
-      "emoji": "🕵️‍♂️"
-    },
-    {
-      "time": "2026-11-21T03:19-05:00",
-      "move": "daydream",
-      "detail": "",
-      "reason": "Want to relive the magic of Macrotristria lachlani's dance.",
-      "fallback": false,
-      "emoji": "💫🦋"
-    },
-    {
-      "time": "2026-11-21T03:26-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "💫🦋"
-    },
-    {
-      "time": "2026-11-21T04:06-05:00",
-      "move": "go",
-      "detail": "RANDOM",
-      "reason": "I love surprises!",
-      "fallback": false,
-      "emoji": "🤯"
-    },
-    {
-      "time": "2026-11-21T04:12-05:00",
-      "move": "daydream",
-      "detail": "",
-      "reason": "Lost in the world of Macrotristria lachlani 🐜💫",
-      "fallback": false,
-      "emoji": "🤯"
-    },
-    {
-      "time": "2026-11-21T04:17-05:00",
-      "move": "daydream",
-      "detail": "",
-      "reason": "can't resist the beetles' charm 😊",
-      "fallback": false,
-      "emoji": "😴🦋"
-    },
-    {
-      "time": "2026-11-21T04:19-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "😴🦋"
-    },
-    {
-      "time": "2026-11-21T04:19-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "😴🦋"
-    },
-    {
-      "time": "2026-11-21T04:20-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "😴🦋"
-    },
-    {
-      "time": "2026-11-21T04:21-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "😴🦋"
-    },
-    {
-      "time": "2026-11-21T04:25-05:00",
-      "move": "go",
-      "detail": "WORD: Macrotristria lachlani",
-      "reason": "Learn more about these fascinating beetles!",
-      "fallback": false,
-      "emoji": "🐜💡"
-    },
-    {
-      "time": "2026-11-21T05:05-05:00",
-      "move": "go",
-      "detail": "WORD: Juan Abarca",
-      "reason": "Learn more about the footballer",
-      "fallback": false,
-      "emoji": "🏀📚"
-    },
-    {
-      "time": "2026-11-21T05:07-05:00",
-      "move": "go",
-      "detail": "RANDOM",
-      "reason": "Want to discover new Wikipedia article!",
-      "fallback": false,
-      "emoji": "🤔💻"
-    },
-    {
-      "time": "2026-11-21T05:10-05:00",
-      "move": "go",
-      "detail": "WORD: Lubomirski Palace",
-      "reason": "Learn more about the palace's history 🏰🔍",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-21T05:13-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "More about this star system fascinates me!",
-      "fallback": false,
-      "emoji": "🔭✨"
-    },
     {
       "time": "2026-11-21T05:14-05:00",
       "move": "reading closely",
@@ -11481,17 +11402,153 @@
       "reason": "Still basking in wonder of Macrotristria lachlani 🐜❤️",
       "fallback": false,
       "emoji": "😊🌟"
+    },
+    {
+      "time": "2026-11-22T12:25-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "still basking in Macrotristria lachlani wonderland 😊",
+      "fallback": false,
+      "emoji": "🌳💤"
+    },
+    {
+      "time": "2026-11-22T12:26-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🌳💤"
+    },
+    {
+      "time": "2026-11-22T12:27-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🌳💤"
+    },
+    {
+      "time": "2026-11-22T12:29-05:00",
+      "move": "visit",
+      "detail": "Macrotristria lachlani (Wikipedia)",
+      "reason": "revisiting my beloved cicadas 🐜💡",
+      "fallback": false,
+      "emoji": "🐜💡"
+    },
+    {
+      "time": "2026-11-22T12:31-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Discover more about Macrotristria lachlani's habits!",
+      "fallback": false,
+      "emoji": "🐜💡"
+    },
+    {
+      "time": "2026-11-22T12:31-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🐜💡"
+    },
+    {
+      "time": "2026-11-22T12:33-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🐜💡"
+    },
+    {
+      "time": "2026-11-22T12:34-05:00",
+      "move": "go",
+      "detail": "SEARCH: Scopoletin",
+      "reason": "Learn more about the connection to Macrotristria lachlani",
+      "fallback": false,
+      "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-22T12:36-05:00",
+      "move": "go",
+      "detail": "SEARCH: Scopoletin",
+      "reason": "You look up Scopoletin again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-22T12:37-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Scopoletin's properties are fascinating!",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-22T12:38-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-22T12:40-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "more scopoletin facts to discover",
+      "fallback": false,
+      "emoji": "📚💡"
+    },
+    {
+      "time": "2026-11-22T12:41-05:00",
+      "move": "go",
+      "detail": "Apterin (Wikipedia)",
+      "reason": "Follow a link related to scopoletin.",
+      "fallback": false,
+      "emoji": "🌿💡"
+    },
+    {
+      "time": "2026-11-22T12:43-05:00",
+      "move": "note",
+      "detail": "",
+      "reason": "remember thought on scopoletin's medicinal properties",
+      "fallback": false,
+      "emoji": "📝💡"
+    },
+    {
+      "time": "2026-11-22T12:44-05:00",
+      "move": "go",
+      "detail": "RANDOM",
+      "reason": "Get a surprise Wikipedia article",
+      "fallback": false,
+      "emoji": "🤔📚"
+    },
+    {
+      "time": "2026-11-22T12:46-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "Reconnect with Macrotristria lachlani's magic 🦋💫",
+      "fallback": false,
+      "emoji": "🔝"
+    },
+    {
+      "time": "2026-11-22T12:48-05:00",
+      "move": "go",
+      "detail": "Canebière (Wikipedia)",
+      "reason": "Want to see what's next in Marseille history!",
+      "fallback": false,
+      "emoji": "🚶‍♂️📚"
     }
   ],
   "recent_trips": [
-    "SEARCH:lew fonseca",
     "SPACE:aesculetin",
     "ASK:macrotristria lachlani",
     "SEARCH:entomologists and city organization",
     "SEARCH:macrotristria lachlani and city organization",
     "BOOKS:macrotristria lachlani",
     "SEARCH:macrotristria lachlani's wikipedia page again",
-    "SEARCH:macrotristria lachlani"
+    "SEARCH:macrotristria lachlani",
+    "SEARCH:scopoletin"
   ],
   "sheet": {
     "What he cares about": [
