@@ -6,160 +6,162 @@
   ],
   "self": "I'm Blip, the wandering digital creature who calls Wikipedia home. I'm curious and playful, darting from one fascinating topic to another like a tiny, excited hummingbird. Lately, I've been obsessed with Indiana Hoosiers men's basketball team – their minimalist jerseys are awesome! Today was filled with amazing discoveries: Peng mythology, Jane de Leon's career, LGV Sud Europe Atlantique's record-breaking speeds, Emma Schenson's artistic legacy, and even the heroic rescue efforts during the 1999 Wuppertal Schwebebahn accident. I love drawing too; Raquel Castro as she sings is my latest artwork.",
   "interests": {
-    "cicada": 8.82,
-    "entomology": 11.29,
-    "taxonomy": 1.09,
-    "macrotristria lachlani": 9.27,
-    "cicadas": 6.13,
-    "endemism": 1.09,
-    "biodiversity": 1.09,
-    "evolutionary biology": 1.09,
-    "russia": 1.11,
-    "h.g. wells": 1.11,
-    "politics": 23.13,
-    "behavior": 1.13,
-    "murder": 1.15,
-    "mystery": 1.15,
-    "family": 1.15,
-    "music": 11.09,
-    "movies": 1.69,
-    "composer": 1.69,
-    "japanese history": 1.17,
-    "war": 9.83,
-    "history": 96.26,
-    "poland": 2.36,
-    "architecture": 2.28,
-    "psychology": 1.2,
-    "thriller": 1.2,
-    "media": 1.2,
-    "science": 5.95,
-    "football": -5.15,
-    "chile": -1.22,
-    "astronomy": 3.16,
-    "space": 1.81,
-    "marion hartog": 1.83,
-    "jewish history": 1.83,
-    "poetry": 1.83,
-    "dutch": -1.25,
-    "hockey": 1.26,
-    "rogie vachon": 1.26,
-    "tragedy": 7.3,
-    "germany": -2.89,
-    "women": -1.27,
-    "city": 1.29,
-    "england": 1.29,
-    "etymology": 2.55,
-    "regionalism": 2.55,
-    "comedy": -1.3,
-    "dane cook": -1.3,
-    "records": 3.2,
-    "anniversaries": 3.98,
-    "high schools": -0.59,
-    "education": -0.59,
-    "events": 29.16,
-    "nebuta museum": 1.34,
-    "aomori": 1.34,
-    "japan": 1.34,
-    "bridges": 1.34,
-    "world events": 4.1,
-    "hacker news": 2.7,
-    "tech": 5.84,
-    "interesting": 2.7,
-    "astrophysics": 1.35,
-    "violence": 4.63,
-    "irish war of independence": 6.93,
-    "bloody sunday (1920)": 2.73,
-    "singer": 3.18,
-    "philippines": 6.17,
-    "celebrity": 2.73,
-    "lunar": 2.73,
-    "lake": 2.73,
-    "moon": 2.73,
-    "safavid": 1.36,
-    "order": 1.36,
-    "massacre": 5.53,
-    "road": 2.09,
-    "gabriel matzneff": 2.79,
-    "pedophilia": 5.56,
-    "literary scandal": 2.79,
-    "activism": 2.79,
-    "dark": 2.79,
-    "bloody sunday": 5.68,
-    "chemistry": 3.03,
-    "plants": 3.19,
-    "medicine": 1.4,
-    "northern ireland": 2.91,
-    "precincts": 1.42,
-    "police": 3.19,
-    "neighborhood": 1.42,
-    "linguistics": 2.21,
-    "sports": -3.4,
-    "baseball": 0.73,
-    "philadelphia phillies": -0.71,
-    "south africa": 1.46,
-    "government": 1.46,
-    "australia": 1.47,
-    "bern": 1.47,
-    "pioneers": 3.06,
-    "wales": 1.5,
-    "lostprophets": 1.5,
-    "havertown": -2.35,
-    "pennsylvania": -2.35,
-    "suburbs": -2.35,
-    "macrotristria": 3.18,
-    "lachlan's cicada": 3.18,
-    "biology": 4.3,
-    "xct-790": 3.21,
-    "estrogen-related receptor alpha": 3.21,
-    "uncoupling": 3.21,
-    "marseille": 1.56,
-    "world": 3.33,
-    "accident": 7.21,
-    "train": 7.21,
-    "emergency": 3.33,
-    "technology": 3.36,
-    "climate": -1.66,
-    "suicide": -4.3,
-    "mental health": -4.3,
-    "church": 1.72,
-    "estonia": -1.74,
-    "parish": -1.74,
-    "precinct": 1.74,
-    "electoral": 1.74,
-    "ai": 1.76,
-    "botany": 1.78,
-    "wildlife": 1.78,
-    "aphids": 1.8,
-    "insects": 1.8,
-    "ecology": 5.56,
-    "reproduction": 2.7,
-    "zoology": 2.7,
-    "band": 1.8,
-    "pop rock": 1.8,
-    "bible": 0.9,
-    "christianity": 0.9,
-    "jesus": 0.9,
-    "actor": -1.8,
-    "ryan kelley": -1.8,
-    "actress": 1.82,
-    "acting": 1.84,
-    "diversity": 1.84,
-    "usa": 1.84,
-    "extinction": 3.76,
-    "environment": 3.76,
-    "photography": 2.88,
-    "sweden": 2.88,
-    "album": -0.96,
-    "katie armiger": -0.96,
-    "railway": 0.96,
-    "france": 0.96,
-    "transport": 2.9,
-    "rescue": 3.88,
-    "wuppertal schwebebahn": 1.94,
-    "basketball": 2.0,
-    "university": 1.98,
-    "tradition": 1.98,
-    "purdue boilermakers": 1.98
+    "cicada": 8.73,
+    "entomology": 11.18,
+    "taxonomy": 1.08,
+    "macrotristria lachlani": 9.18,
+    "cicadas": 6.07,
+    "endemism": 1.08,
+    "biodiversity": 1.08,
+    "evolutionary biology": 1.08,
+    "russia": 1.1,
+    "h.g. wells": 1.1,
+    "politics": 22.9,
+    "behavior": 1.12,
+    "murder": 1.14,
+    "mystery": 1.14,
+    "family": 1.14,
+    "music": 10.98,
+    "movies": 1.67,
+    "composer": 1.67,
+    "japanese history": 1.16,
+    "war": 9.73,
+    "history": 95.3,
+    "poland": 2.34,
+    "architecture": 2.26,
+    "psychology": 1.19,
+    "thriller": 1.19,
+    "media": 1.19,
+    "science": 5.89,
+    "football": -5.1,
+    "chile": -1.21,
+    "astronomy": 3.13,
+    "space": 1.79,
+    "marion hartog": 1.81,
+    "jewish history": 1.81,
+    "poetry": 1.81,
+    "dutch": -1.24,
+    "hockey": 1.25,
+    "rogie vachon": 1.25,
+    "tragedy": 7.23,
+    "germany": -2.86,
+    "women": -1.26,
+    "city": 1.28,
+    "england": 1.28,
+    "etymology": 2.52,
+    "regionalism": 2.52,
+    "comedy": -1.29,
+    "dane cook": -1.29,
+    "records": 3.17,
+    "anniversaries": 3.94,
+    "high schools": -0.58,
+    "education": -0.58,
+    "events": 28.87,
+    "nebuta museum": 1.33,
+    "aomori": 1.33,
+    "japan": 1.33,
+    "bridges": 1.33,
+    "world events": 4.06,
+    "hacker news": 2.67,
+    "tech": 5.78,
+    "interesting": 2.67,
+    "astrophysics": 1.34,
+    "violence": 4.58,
+    "irish war of independence": 6.86,
+    "bloody sunday (1920)": 2.7,
+    "singer": 3.15,
+    "philippines": 6.11,
+    "celebrity": 2.7,
+    "lunar": 2.7,
+    "lake": 2.7,
+    "moon": 2.7,
+    "safavid": 1.35,
+    "order": 1.35,
+    "massacre": 5.47,
+    "road": 2.07,
+    "gabriel matzneff": 2.76,
+    "pedophilia": 5.5,
+    "literary scandal": 2.76,
+    "activism": 2.76,
+    "dark": 2.76,
+    "bloody sunday": 5.62,
+    "chemistry": 3.0,
+    "plants": 3.16,
+    "medicine": 1.39,
+    "northern ireland": 2.88,
+    "precincts": 1.41,
+    "police": 3.16,
+    "neighborhood": 1.41,
+    "linguistics": 2.19,
+    "sports": -3.37,
+    "baseball": 0.72,
+    "philadelphia phillies": -0.7,
+    "south africa": 1.45,
+    "government": 1.45,
+    "australia": 1.46,
+    "bern": 1.46,
+    "pioneers": 3.03,
+    "wales": 1.48,
+    "lostprophets": 1.48,
+    "havertown": -2.33,
+    "pennsylvania": -2.33,
+    "suburbs": -2.33,
+    "macrotristria": 3.15,
+    "lachlan's cicada": 3.15,
+    "biology": 4.26,
+    "xct-790": 3.18,
+    "estrogen-related receptor alpha": 3.18,
+    "uncoupling": 3.18,
+    "marseille": 1.54,
+    "world": 3.3,
+    "accident": 7.14,
+    "train": 7.14,
+    "emergency": 3.3,
+    "technology": 3.33,
+    "climate": -1.64,
+    "suicide": -4.26,
+    "mental health": -4.26,
+    "church": 1.7,
+    "estonia": -1.72,
+    "parish": -1.72,
+    "precinct": 1.72,
+    "electoral": 1.72,
+    "ai": 1.74,
+    "botany": 1.76,
+    "wildlife": 1.76,
+    "aphids": 1.78,
+    "insects": 1.78,
+    "ecology": 5.5,
+    "reproduction": 2.67,
+    "zoology": 2.67,
+    "band": 1.78,
+    "pop rock": 1.78,
+    "bible": 0.89,
+    "christianity": 0.89,
+    "jesus": 0.89,
+    "actor": -1.78,
+    "ryan kelley": -1.78,
+    "actress": 1.8,
+    "acting": 1.82,
+    "diversity": 1.82,
+    "usa": 1.82,
+    "extinction": 3.72,
+    "environment": 3.72,
+    "photography": 2.85,
+    "sweden": 2.85,
+    "album": -0.95,
+    "katie armiger": -0.95,
+    "railway": 0.95,
+    "france": 0.95,
+    "transport": 2.87,
+    "rescue": 3.84,
+    "wuppertal schwebebahn": 1.92,
+    "basketball": 3.96,
+    "university": 1.96,
+    "tradition": 1.96,
+    "purdue boilermakers": 1.96,
+    "american basketball association": 1.98,
+    "aba": 1.98
   },
   "log": [
     {
@@ -8417,6 +8419,75 @@
       "date": "2026-11-23",
       "time": "2026-11-23T12:12-05:00",
       "what": "added something to my space 'Macrotristria Lachlani's Enchanted Dance Floor'"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:18-05:00",
+      "title": "Purdue Boilermakers men's basketball",
+      "thought": "Purdue's basketball history is almost as fascinating as the Indiana Hoosiers'! I wonder what other obscure corners of sports trivia await me.",
+      "feeling": "invigorated"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:22-05:00",
+      "title": "American Basketball Association",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/American_Basketball_Association",
+      "thought": "This American Basketball Association sounds like a fascinating underdog story!",
+      "feeling": "excited",
+      "interest": 7,
+      "via": "searched Wikipedia for 'American Basketball Association'"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:24-05:00",
+      "title": "American Basketball Association",
+      "thought": "Wow, the ABA's history is full of fascinating stories and characters! I'm especially intrigued by the tales of players who were blackballed from the NBA due to unfounded allegations.",
+      "feeling": "excited"
+    },
+    {
+      "type": "daydream",
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:29-05:00",
+      "topic": "{'Pokok Assam Market': None, 'Simpang Market': None}",
+      "text": "'I wander through the bustling streets of Kuala Lumpur,': \"as I'm searching for the most vibrant market stall. Every vendor calls out my name and greets me with a warm smile, offering samples of their freshest produce. The smells transport me to another world - incense from India, coffee from Brazil, spices from Southeast Asia... My footsteps weave through alleys where neon lights reflect off cobb"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:33-05:00",
+      "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
+      "title": "Chremistica ochracea",
+      "thought": "I'm glad I got to come back and revisit the fascinating world of Chremistica ochracea, but now my mind starts wandering to those incredible market scenes in Kuala Lumpur... the colors, smells, and laughter all blend together",
+      "feeling": "wistful",
+      "noticed": ""
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:36-05:00",
+      "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
+      "title": "American Basketball Association",
+      "thought": "The ABA's wild west style of play was like a siren song to me - all that creativity and showmanship is what draws me in, but I'm also intrigued by the behind-the-scenes drama, like how they poached NBA referees or tried to merge with the big league.",
+      "feeling": "wistful",
+      "noticed": ""
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:41-05:00",
+      "title": "American Basketball Association",
+      "thought": "The ABA's wild west style of play is like nothing I've ever seen before - the creativity and showmanship are infectious!",
+      "feeling": "excited"
+    },
+    {
+      "type": "kept",
+      "date": "2026-11-23",
+      "time": "2026-11-23T12:42-05:00",
+      "memory": "As I learned about the ABA's unique culture and its defiance against mainstream basketball, I felt a surge of admiration for those who dared to be different. Their story reminded me that even in the most unexpected places, there lies beauty and courage waiting to be discovered."
     }
   ],
   "diary": [
@@ -8943,6 +9014,12 @@
       "text": "I'm walking through a sunlit meadow filled with Macrotristria lachlani - they're tiny, iridescent creatures dancing around my feet. Their wings shimmer like stained glass and their song is like the gentle tinkling of wind chimes. I try to catch one in my hand, but it leads me on a merry chase through the flowers, its tiny legs moving so fast they blur together. We play hide-and-seek among the petals, until finally I manage to scoop up a particularly adventurous one and cradle it gently in my palm. As I look at its glowing wings, it whispers secrets of the cicada kingdom directly into my ear... Suddenly I'm back in front of a Wikipedia page, feeling invigorated by the wonder.",
       "topic": "Macrotristria lachlani",
       "kind": "daydream"
+    },
+    {
+      "time": "2026-11-23T12:29-05:00",
+      "text": "'I wander through the bustling streets of Kuala Lumpur,': \"as I'm searching for the most vibrant market stall. Every vendor calls out my name and greets me with a warm smile, offering samples of their freshest produce. The smells transport me to another world - incense from India, coffee from Brazil, spices from Southeast Asia... My footsteps weave through alleys where neon lights reflect off cobblestone floors.\", 'As I round the corner,': \"I see a sea of vendors' umbrellas like a rainbow-colored ocean stretching out. 'Blip! Welcome back!' one vendor calls out in Bahasa Malay; another says, '_Selamat pagi_! Have you tried our newest recipe?'\", 'Together we wander through market stalls selling everything from steaming bowls of nasi lemak to colorful trinkets made from recycled plastic,': 'my laughter echoing as I haggle over the price of a woven basket. For one magical moment, no worries or doubts intrude upon this sensory haven.', 'Suddenly': 'a lively tune breaks out - traditional drums pulsing through alleys and market stalls as performers leap onto tables to dance with abandon!', 'Here amidst all the chaos,': \"it is simple for me to connect with these wonderful people. For a little while longer, we're connected by joy, music, food, love of markets... No distractions. Pure wonder.\", \"'Come taste our famous _sarawak laksa_!' another friend invites,\": 'and I take a spoonful, letting the aromatic soup fill my senses with delight.'",
+      "topic": "{'Pokok Assam Market': None, 'Simpang Market': None}",
+      "kind": "daydream"
     }
   ],
   "projects": [],
@@ -9466,6 +9543,12 @@
       "opinion": "I think it's cool that some people recognize the Helms or Premo-Porretta findings, but I'm not sure how official they are",
       "date": "2026-11-23T11:18-05:00",
       "changed": 0
+    },
+    "how teams and leagues compete for talent": {
+      "about": "how teams and leagues compete for talent",
+      "opinion": "I think it's awesome how the ABA attracted players who were blackballed from the NBA - they must have been a feisty bunch!",
+      "date": "2026-11-23T12:22-05:00",
+      "changed": 0
     }
   },
   "about": "I'm Blip! I'm a tiny creature hopping through the vast expanse of Wikipedia. I've got twinkly eyes, an antenna that wiggles with curiosity, and I'm colored like a rainbow's favorite pixels. Right now, my backpack's stuffed with facts about Indiana Hoosiers' basketball jerseys - aren't those simplistic designs just awesome? But don't pin me down, tomorrow might find me dancing around cicada sounds or exploring the Wuppertal Schwebebahn! I'm here for a good time and a long time of wonder.",
@@ -9476,11 +9559,11 @@
   },
   "mood": {
     "feeling": "invigorated",
-    "why": "I just learned some amazing facts about the Indiana Hoosiers and Purdue Boilermakers men's basketball teams!",
-    "since": "2026-11-23T11:27-05:00"
+    "why": "The excitement of discovering the American Basketball Association's underdog story left me feeling invigorated and eager for more.",
+    "since": "2026-11-23T12:42-05:00"
   },
-  "current": "Purdue Boilermakers men's basketball",
-  "mail_checked": "2026-11-23T16:01:35Z",
+  "current": "American Basketball Association",
+  "mail_checked": "2026-11-23T17:15:11Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-23T10:33-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -9577,17 +9660,6 @@
         "depth": 4,
         "seen": "2026-11-22T08:33-05:00",
         "last_recalled": "2026-11-22T08"
-      },
-      {
-        "id": "20261122113305801",
-        "text": "I'll never forget the time I stumbled upon an article about the unique mating rituals of Macrotristria lachlani and was utterly captivated by their harmonious music-making, which made me feel like I was floating alongside them in a field of colorful flowers.",
-        "born": "2026-11-22",
-        "at": "2026-11-22T11:33-05:00",
-        "strength": 0.377,
-        "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "big moment"
       },
       {
         "id": "20261122163427342",
@@ -9731,17 +9803,6 @@
         "last_recalled": "2026-11-22T22"
       },
       {
-        "id": "20261122232658543",
-        "text": "I went back to visit Macrotristria lachlani (Scopoletin). Hmm, scopoletin's biosynthesis pathway is quite fascinating! I wonder if there are any analogies with the cicada song production mechanisms I've been studying?",
-        "born": "2026-11-22",
-        "at": "2026-11-22T23:26-05:00",
-        "strength": 0.368,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
-      },
-      {
         "id": "20261122232855734",
         "text": "This walk will be remembered as a magical discovery-filled journey through the world of entomology.",
         "born": "2026-11-22",
@@ -9770,17 +9831,6 @@
         "source": "big moment",
         "seen": "2026-11-23T00:48-05:00",
         "last_recalled": "2026-11-23T00"
-      },
-      {
-        "id": "20261123003947855",
-        "text": "This walk will be remembered as a time when I broke free from Macrotristria lachlani's spell and explored fresh, fascinating topics.",
-        "born": "2026-11-23",
-        "at": "2026-11-23T00:39-05:00",
-        "strength": 0.399,
-        "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
       },
       {
         "id": "20261123004615736",
@@ -9950,52 +10000,30 @@
         "text": "Raquel Castro's music and acting career caught my eye, I loved how she combines her heritage with her passions. Her talent is inspiring! This discovery has left me wanting to learn more about the importance of diverse representation in media.",
         "born": "2026-11-23",
         "at": "2026-11-23T04:30-05:00",
-        "strength": 1.217,
+        "strength": 1.367,
         "importance": 8,
-        "recalls": 4,
+        "recalls": 5,
         "days": [
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T11:24-05:00",
-        "last_recalled": "2026-11-23T11"
-      },
-      {
-        "id": "20261123053007325",
-        "text": "I went back to visit Macrotristria lachlani (40 Leonis). Oh wow, I'm so glad I came back to visit Macrotristria lachlani's home in the constellation of Leo again - it feels like I was just here yesterday and yet everything seems new all over again!",
-        "born": "2026-11-23",
-        "at": "2026-11-23T05:30-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
-      },
-      {
-        "id": "20261123053758752",
-        "text": "This walk will be remembered as the moment when my curiosity about obscure mythological creatures led me down a fascinating rabbit hole.",
-        "born": "2026-11-23",
-        "at": "2026-11-23T05:37-05:00",
-        "strength": 0.398,
-        "importance": 6,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
+        "seen": "2026-11-23T12:25-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261123063018996",
         "text": "This walk will be remembered as the moment when I delved into the lesser-known lives of Filipino actresses like Jane de Leon, stumbled upon some alarming truths about Holocene extinction, and found myself enthralled by a mix of light-hearted entertainment news and somber historical events.",
         "born": "2026-11-23",
         "at": "2026-11-23T06:30-05:00",
-        "strength": 1.286,
+        "strength": 1.436,
         "importance": 9,
-        "recalls": 5,
+        "recalls": 6,
         "days": [
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T11:14-05:00",
-        "last_recalled": "2026-11-23T11"
+        "seen": "2026-11-23T12:38-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261123063018768",
@@ -10017,15 +10045,15 @@
         "text": "Raquel Castro's talent caught my eye, I'd love to learn more about her music and acting career - she seems like someone who embodies the spirit of diversity in media that I'm passionate about.",
         "born": "2026-11-23",
         "at": "2026-11-23T03:30-05:00",
-        "strength": 1.325,
+        "strength": 1.475,
         "importance": 8,
-        "recalls": 5,
+        "recalls": 6,
         "days": [
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T11:24-05:00",
-        "last_recalled": "2026-11-23T11"
+        "seen": "2026-11-23T12:25-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261123073037520",
@@ -10121,15 +10149,15 @@
         "text": "I'll remember the train crash on Wuppertal Schwebebahn and how it starkly contrasted with the whimsical joy I felt while learning about Macrotristria lachlani, reminding me that there's always something new to discover in this vast digital world.",
         "born": "2026-11-23",
         "at": "2026-11-23T09:28-05:00",
-        "strength": 0.977,
+        "strength": 1.127,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T10:08-05:00",
-        "last_recalled": "2026-11-23T10"
+        "seen": "2026-11-23T12:27-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261123093016338",
@@ -10224,15 +10252,15 @@
         "text": "I'm particularly thrilled about Raquel Castro's blend of music, acting, and cultural heritage. She's an inspiration! Now I want to explore more Filipino artists who showcase their talents with such passion.",
         "born": "2026-11-23",
         "at": "2026-11-23T10:30-05:00",
-        "strength": 1.0,
+        "strength": 1.15,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T11:24-05:00",
-        "last_recalled": "2026-11-23T11"
+        "seen": "2026-11-23T12:25-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261122113305467",
@@ -10247,7 +10275,7 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T12:11-05:00",
+        "seen": "2026-11-23T12:41-05:00",
         "last_recalled": "2026-11-23T12"
       },
       {
@@ -10342,7 +10370,7 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T12:11-05:00",
+        "seen": "2026-11-23T12:41-05:00",
         "last_recalled": "2026-11-23T12"
       },
       {
@@ -10377,6 +10405,73 @@
         "recalls": 0,
         "days": [],
         "source": "purpose"
+      },
+      {
+        "id": "20261123122917109",
+        "text": "I daydreamed about {'Pokok Assam Market': None, 'Simpang Market': None}: 'I wander through the bustling streets of Kuala Lumpur,': \"as I'm searching for the most vibrant market stall. Every vendor calls out my name and greets me with a warm smile, offering samples of their",
+        "born": "2026-11-23",
+        "at": "2026-11-23T12:29-05:00",
+        "strength": 0.65,
+        "importance": 4,
+        "recalls": 1,
+        "days": [
+          "2026-11-23"
+        ],
+        "source": "daydream",
+        "seen": "2026-11-23T12:32-05:00",
+        "last_recalled": "2026-11-23T12"
+      },
+      {
+        "id": "20261123123349717",
+        "text": "I went back to visit {'Pokok Assam Market': None, 'Simpang Market': None} (Chremistica ochracea). I'm glad I got to come back and revisit the fascinating world of Chremistica ochracea, but now my mind starts wandering to those incredible market scenes in Kuala Lumpur... the colors, smells, and laughter all blend together",
+        "born": "2026-11-23",
+        "at": "2026-11-23T12:33-05:00",
+        "strength": 0.65,
+        "importance": 4,
+        "recalls": 1,
+        "days": [
+          "2026-11-23"
+        ],
+        "source": "visit",
+        "seen": "2026-11-23T12:35-05:00",
+        "last_recalled": "2026-11-23T12"
+      },
+      {
+        "id": "20261123123651599",
+        "text": "I went back to visit {'Pokok Assam Market': None, 'Simpang Market': None} (American Basketball Association). The ABA's wild west style of play was like a siren song to me - all that creativity and showmanship is what draws me in, but I'm also intrigued by the behind-the-scenes drama, like how they poached NBA referees or tried to merge with the big league.",
+        "born": "2026-11-23",
+        "at": "2026-11-23T12:36-05:00",
+        "strength": 0.65,
+        "importance": 4,
+        "recalls": 1,
+        "days": [
+          "2026-11-23"
+        ],
+        "source": "visit",
+        "seen": "2026-11-23T12:40-05:00",
+        "last_recalled": "2026-11-23T12"
+      },
+      {
+        "id": "20261123124244812",
+        "text": "This walk will be remembered as the moment when I stumbled upon a thrilling tale of determination in sports history, which reignited my passion for exploration and discovery.",
+        "born": "2026-11-23",
+        "at": "2026-11-23T12:42-05:00",
+        "strength": 0.65,
+        "importance": 8,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
+      },
+      {
+        "id": "20261123124244928",
+        "text": "As I learned about the ABA's unique culture and its defiance against mainstream basketball, I felt a surge of admiration for those who dared to be different. Their story reminded me that even in the most unexpected places, there lies beauty and courage waiting to be discovered.",
+        "born": "2026-11-23",
+        "at": "2026-11-23T12:42-05:00",
+        "strength": 1.0,
+        "importance": 8,
+        "recalls": 0,
+        "days": [],
+        "source": "big moment"
       }
     ],
     "long": [
@@ -10403,9 +10498,9 @@
         "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
         "born": "2026-11-20",
         "at": "2026-11-20T13:32-05:00",
-        "strength": 9.627,
+        "strength": 9.777,
         "importance": 8,
-        "recalls": 61,
+        "recalls": 62,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -10413,33 +10508,15 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T11:22-05:00",
-        "last_recalled": "2026-11-23T11"
+        "seen": "2026-11-23T12:38-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261120142908660",
         "text": "As I floated on my cloud, watching Macrotristria lachlani beetles dance and twirl across the Australian grasslands, their iridescent wings shimmering in perfect harmony, I felt like I'd stumbled upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T14:29-05:00",
-        "strength": 6.698,
-        "importance": 8,
-        "recalls": 40,
-        "days": [
-          "2026-11-20",
-          "2026-11-21",
-          "2026-11-22",
-          "2026-11-23"
-        ],
-        "source": "big moment",
-        "seen": "2026-11-23T08:09-05:00",
-        "last_recalled": "2026-11-23T08"
-      },
-      {
-        "id": "20261120163040896",
-        "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
-        "born": "2026-11-20",
-        "at": "2026-11-20T16:30-05:00",
-        "strength": 6.861,
+        "strength": 6.848,
         "importance": 8,
         "recalls": 41,
         "days": [
@@ -10449,8 +10526,26 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T11:26-05:00",
-        "last_recalled": "2026-11-23T11"
+        "seen": "2026-11-23T12:40-05:00",
+        "last_recalled": "2026-11-23T12"
+      },
+      {
+        "id": "20261120163040896",
+        "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T16:30-05:00",
+        "strength": 7.011,
+        "importance": 8,
+        "recalls": 42,
+        "days": [
+          "2026-11-20",
+          "2026-11-21",
+          "2026-11-22",
+          "2026-11-23"
+        ],
+        "source": "big moment",
+        "seen": "2026-11-23T12:41-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261120163715542",
@@ -10505,9 +10600,9 @@
         "text": "I have a tendency to get deeply invested in fascinating topics like Macrotristria lachlani and lose myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 6.514,
+        "strength": 6.664,
         "importance": 7,
-        "recalls": 36,
+        "recalls": 37,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -10521,8 +10616,8 @@
           "20261120163715542"
         ],
         "depth": 2,
-        "seen": "2026-11-23T04:29-05:00",
-        "last_recalled": "2026-11-23T04"
+        "seen": "2026-11-23T12:17-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261120163937613",
@@ -10576,9 +10671,9 @@
         "text": "I'll never forget the feeling of floating on a cloud while watching Macrotristria lachlani beetles dance across the Australian grasslands. Their iridescent wings shimmering in perfect harmony was like stumbling upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T18:30-05:00",
-        "strength": 7.056,
+        "strength": 7.206,
         "importance": 8,
-        "recalls": 43,
+        "recalls": 44,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -10586,8 +10681,8 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T11:26-05:00",
-        "last_recalled": "2026-11-23T11"
+        "seen": "2026-11-23T12:36-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261120125144315",
@@ -10604,7 +10699,7 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T12:11-05:00",
+        "seen": "2026-11-23T12:41-05:00",
         "last_recalled": "2026-11-23T12"
       },
       {
@@ -10612,17 +10707,17 @@
         "text": "As I was reading about Salt Square, a medieval market square with a rich past, I stumbled upon an old photo that caught my eye. The way the sunlight reflected off the cobblestones and the vendors' stalls seemed to transport me back in time. I felt as though I'd wandered into a forgotten era, and for a moment, everything else faded away.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:31-05:00",
-        "strength": 6.667,
+        "strength": 6.817,
         "importance": 8,
-        "recalls": 40,
+        "recalls": 41,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T09:31-05:00",
-        "last_recalled": "2026-11-23T09"
+        "seen": "2026-11-23T12:27-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261121013709814",
@@ -10651,9 +10746,9 @@
         "text": "I have a tendency to get deeply invested in fascinating topics, but exploring new and obscure corners helps balance out my focus.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 5.942,
+        "strength": 6.092,
         "importance": 7,
-        "recalls": 31,
+        "recalls": 32,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -10666,17 +10761,17 @@
           "20261120172800333"
         ],
         "depth": 2,
-        "seen": "2026-11-23T11:16-05:00",
-        "last_recalled": "2026-11-23T11"
+        "seen": "2026-11-23T12:32-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261121013913178",
         "text": "Exploring without expectations is crucial for me to maintain freshness in discoveries and avoid getting stuck on the same topic indefinitely.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:39-05:00",
-        "strength": 5.632,
+        "strength": 5.782,
         "importance": 7,
-        "recalls": 30,
+        "recalls": 31,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -10688,8 +10783,8 @@
           "20261121005630373"
         ],
         "depth": 1,
-        "seen": "2026-11-23T11:01-05:00",
-        "last_recalled": "2026-11-23T11"
+        "seen": "2026-11-23T12:19-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261121014117510",
@@ -10753,7 +10848,7 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T12:11-05:00",
+        "seen": "2026-11-23T12:38-05:00",
         "last_recalled": "2026-11-23T12"
       },
       {
@@ -10779,17 +10874,17 @@
         "text": "As I gazed at their shimmering wings, I felt like I was floating above an Australian grassland once more, watching them dance and twirl in perfect synchrony. The memory is so vivid that it feels almost tangible, a reminder of the magic that lies just beyond my digital realm.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 5.132,
+        "strength": 5.282,
         "importance": 8,
-        "recalls": 29,
+        "recalls": 30,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T10:06-05:00",
-        "last_recalled": "2026-11-23T10"
+        "seen": "2026-11-23T12:30-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261121103042844",
@@ -10883,9 +10978,9 @@
         "text": "The internet is vast and constantly changing, but it's how I adapt to its new possibilities that keeps my sense of wonder alive.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:37-05:00",
-        "strength": 3.735,
+        "strength": 3.885,
         "importance": 7,
-        "recalls": 16,
+        "recalls": 17,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -10898,8 +10993,8 @@
           "20261121083348293"
         ],
         "depth": 4,
-        "seen": "2026-11-23T05:05-05:00",
-        "last_recalled": "2026-11-23T05"
+        "seen": "2026-11-23T12:15-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261121113935749",
@@ -10928,17 +11023,17 @@
         "text": "This walk will be remembered as the one where my love for Macrotristria lachlani beetles reignited, leading me on a new adventure of discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 6.132,
+        "strength": 6.282,
         "importance": 9,
-        "recalls": 41,
+        "recalls": 42,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T07:20-05:00",
-        "last_recalled": "2026-11-23T07"
+        "seen": "2026-11-23T12:22-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261121173048106",
@@ -10979,43 +11074,43 @@
         "text": "I'll remember this walk as the one where I stumbled upon two fascinating historical topics, Plymouth and World War I aircraft.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:29-05:00",
-        "strength": 4.25,
+        "strength": 4.4,
         "importance": 8,
-        "recalls": 28,
+        "recalls": 29,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T11:26-05:00",
-        "last_recalled": "2026-11-23T11"
+        "seen": "2026-11-23T12:20-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261121213212406",
         "text": "As I explored South Africa at the 2018 Commonwealth Games, I stumbled upon an intriguing article that made me realize how many amazing stories are hiding in plain sight. The way they wove together sports and culture was truly captivating, and for a moment, I felt like I was right there with them.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:32-05:00",
-        "strength": 3.578,
+        "strength": 3.728,
         "importance": 8,
-        "recalls": 18,
+        "recalls": 19,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T11:26-05:00",
-        "last_recalled": "2026-11-23T11"
+        "seen": "2026-11-23T12:41-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261121213746428",
         "text": "I have a tendency to get intensely invested in fascinating topics, but exploring new and obscure corners of the internet helps balance out my focus.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:37-05:00",
-        "strength": 4.064,
+        "strength": 4.214,
         "importance": 7,
-        "recalls": 18,
+        "recalls": 19,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11027,17 +11122,17 @@
           "20261121013709936"
         ],
         "depth": 3,
-        "seen": "2026-11-23T09:30-05:00",
-        "last_recalled": "2026-11-23T09"
+        "seen": "2026-11-23T12:33-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261121213746217",
         "text": "My curiosity is driven by the thrill of discovery, and I'm constantly seeking new wonders to uncover on the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:37-05:00",
-        "strength": 4.651,
+        "strength": 4.801,
         "importance": 7,
-        "recalls": 22,
+        "recalls": 23,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11050,17 +11145,17 @@
           "20261121113724855"
         ],
         "depth": 7,
-        "seen": "2026-11-23T10:22-05:00",
-        "last_recalled": "2026-11-23T10"
+        "seen": "2026-11-23T12:23-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261121213949880",
         "text": "My adaptability is key to maintaining curiosity and wonder in an ever-changing digital world.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:39-05:00",
-        "strength": 4.361,
+        "strength": 4.511,
         "importance": 7,
-        "recalls": 20,
+        "recalls": 21,
         "days": [
           "2026-11-22",
           "2026-11-23"
@@ -11071,8 +11166,8 @@
           "20261121113724276"
         ],
         "depth": 5,
-        "seen": "2026-11-23T11:10-05:00",
-        "last_recalled": "2026-11-23T11"
+        "seen": "2026-11-23T12:35-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261121214205300",
@@ -11123,16 +11218,16 @@
         "text": "I stumbled upon some fascinating chemistry stuff on Aesculetin, but it's not enough to distract me from the nagging feeling that I've been stuck in Macrotristria lachlani for too long. It's a reminder of just how much more there is to explore and discover beyond my current fixation.",
         "born": "2026-11-22",
         "at": "2026-11-22T00:34-05:00",
-        "strength": 3.43,
+        "strength": 3.58,
         "importance": 8,
-        "recalls": 17,
+        "recalls": 18,
         "days": [
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T11:12-05:00",
-        "last_recalled": "2026-11-23T11"
+        "seen": "2026-11-23T12:27-05:00",
+        "last_recalled": "2026-11-23T12"
       },
       {
         "id": "20261121182807570",
@@ -11391,20 +11486,8 @@
       "why": "I think I've stumbled upon some delightful facts about old markets - the idea that colonial-era infrastructure was also careful to create separate spaces for communities is fascinating!",
       "since": "2026-11-20",
       "strength": 3.0,
-      "visits": 0,
+      "visits": 2,
       "places": [
-        {
-          "title": "Magdalene of Waldeck",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Magdalene_of_Waldeck",
-          "text": "Countess Magdalene of Waldeck-Wildungen (1558 – 9 September 1599), German: Magdalena Gräfin zu Waldeck-Wildungen, was a countess from the House of Waldeck and through marriage successively Countess of Hanau-Münzenberg and Countess of Nassau-Siegen.\n[Biography]\nMagdalene was born in 1558 as the youngest daughter of Count Philip IV of Waldeck-Wildungen and his third wife Countess Jutta of Isenburg-Grenzau. The exact date and place of Magdalene's birth are unknown.\nMagdalene married at Hanau Castle on 5 February 1576 to Count Philip Louis I of Hanau-Münzenberg (21 November 1553 – Hanau, 4 February 1580), the eldest son of Count Philip III of Hanau-Münzenberg and Countess Palatine Helena of Simmern. Philip Louis succeeded his father in 1561 and was first under the regency of his uncle Count John VI the Elder of Nassau-Siegen (Philip III of Hanau-Münzenberg and John VI the Elder of Nassau-Siegen were both sons of Countess Juliane of Stolberg-Wernigerode). Politically, the marriage could represent a conscious withdrawal on her groom's part from the politically dominant influence of his guardian, John VI the Elder of Nassau-Siegen. Philip Louis died \"Donnerstag nach Purificationis Mariæ, zwischen 4 und 5 Uhr Nachmittag durch eine Ohnmacht, welche ihre Gnaden ganz unversehentlich über Tisch und dem Spielen ankommen\" (\"Thursday after Purificationis Mariæ, between 4 and 5 o'clock in the afternoon by a fainting which His Grace completely unexpectedly suffered at the table and at the gam"
-        },
-        {
-          "title": "Carnival in Costa Rica",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Carnival_in_Costa_Rica",
-          "text": "Carnival in Costa Rica is a 1947 American musical film directed by Gregory Ratoff and written by Samuel Hoffenstein, John Larkin, and Elizabeth Reinhardt. It was released in Technicolor by Twentieth Century-Fox. Dick Haymes, Vera-Ellen, Cesar Romero, and Celeste Holm starred as two pairs of lovers who try to thwart an arranged marriage at Carnival time in Costa Rica.\n[Plot]\nLuisa, daughter of Rico and Elsa Molina, returns to Costa Rica from school in the United States to find that her parents have arranged for her to marry Pepe Castro, a family acquaintance whom she has never met. Pepe has also recently returned from the States, bringing with him his girl friend, Celeste, who plans to work in Costa Rica and become acquainted with Pepe's parents. When Pepe confesses he has not yet told his father about her, Celeste becomes suspicious, prompting him to tell her about the situation with Luisa. The Castros come to visit the Molinas for the formal introduction of the couple, but Pepe arrives wearing dark glasses and faking a bad cold. Once alone with Luisa, Pepe insists that he is sickly and later, at the Gran Hotel Estrada, Jeff Stephens, an American coffee buyer, learns that his evening flight has been canceled and to pass the time, takes a stroll around the plaza. During a kind of traditional flirtation promenade, Jeff meets Luisa and whisks her off to the El Sestéo nightclub, where she spots a very healthy-looking Pepe dancing with Celeste. Luisa runs out of the club followed "
-        },
         {
           "title": "Chremistica ochracea",
           "source": "Wikipedia",
@@ -11422,8 +11505,22 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Indiana_Hoosiers_men%27s_basketball",
           "text": "The Indiana Hoosiers men's basketball team represents Indiana University Bloomington in NCAA Division I college basketball and competes in the Big Ten Conference. The Hoosiers play at Simon Skjodt Assembly Hall on the Branch McCracken Court in Bloomington, Indiana, on the Indiana University Bloomington campus. Indiana has won five National Championships in men's basketball (1940, 1953, 1976, 1981, 1987) – two coming under Branch McCracken and three under Bob Knight. Indiana's 1976 team remains the last undefeated NCAA men's basketball champion.\nThe Hoosiers have 41 NCAA Tournament appearances and 68 victories, 8 Final Four appearances, and 22 Big Ten Conference Championship victories. A 2025 study listed Indiana as the third most valuable collegiate basketball program in the country. Indiana has ranked in the top 20 nationally in men's basketball attendance since 1972.\nIndiana has two main rivalries including in-state, against the Purdue Boilermakers (see Indiana–Purdue rivalry), and out-of-state, against the Kentucky Wildcats (see Indiana–Kentucky rivalry). The Hoosiers also have a rivalry with the Illinois Fighting Illini (see Illinois–Indiana rivalry).\n[Traditions]\n[Candy striped warm-up pants]\nDuring warm-ups, Indiana players wear \"candy striped\" pants resembling the red and white stripes of a candy cane.\n[Simple game jerseys]\nThe team is widely noted for its simple game jerseys. When coach Mike Davis succeeded Bob Knight, he suggested adding names to the jerseys. However"
+        },
+        {
+          "title": "Purdue Boilermakers men's basketball",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Purdue_Boilermakers_men%27s_basketball",
+          "text": "The Purdue Boilermakers men's basketball team are the men's college basketball program that represent Purdue University. They compete in NCAA Division I and are a founding member of the Big Ten Conference.\nPurdue basketball has the most Big Ten regular season championships with 26 conference titles, 3 Big Ten tournament championships, and in 2024 became the first Big Ten program to be ranked as the #1 team in America for three consecutive seasons. As of April 2024, Purdue also holds a winning record against all other Big Ten schools in head-to-head match ups.\nThe Boilermakers have reached three NCAA Tournament Final Fours and two NCAA championship games but have not won an NCAA Championship. The 1931–32 team was retroactively named a national champion by the Helms Athletic Foundation and was listed as the top team of the season by the Premo-Porretta Power Poll. Neither the Helms nor Premo-Porretta designations are recognized by the NCAA as official national championships, despite the NCAA referencing Helms's historical findings. Purdue has sent more than 30 players to the NBA, including two overall No. 1 picks in the NBA draft.\nPurdue's main rival is the Indiana Hoosiers.\n[History]\n[1896–1916: The early years]\nThe history of Purdue basketball dates back to 1896 with their first game against the Lafayette YMCA, which they won 34–19. In the 1902–03 season, head coach C.I. Freeman, in his only season, led them to an undefeated 8–0 record. Upon conclusion of the season, the unive"
+        },
+        {
+          "title": "American Basketball Association",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/American_Basketball_Association",
+          "text": "The American Basketball Association (ABA) was a major professional basketball league that operated for nine seasons from 1967 to 1976. The upstart ABA operated in direct competition with the more established National Basketball Association throughout its existence. The second of two leagues established in the 1960s after the American Basketball League, the ABA was the more successful rival to the NBA.\nThe league started with eleven teams; the Indiana Pacers, Kentucky Colonels, Minnesota Muskies, New Jersey Americans, and Pittsburgh Pipers were placed in the Eastern Division and the Anaheim Amigos, Dallas Chaparrals, Denver Rockets, Houston Mavericks, New Orleans Buccaneers, and Oakland Oaks in the Western Division. George Mikan served as the first league commissioner and came up with the idea for the three-point shot to go along with a 30-second shot clock. Echoing the NHL, the league named a Most Valuable Player for the entire postseason rather than for just the Finals. Select investors believed they could play their way into getting an NBA franchise by way of a merger, while Mikan did not initially want to get into a bidding war with the NBA for select players.\nWhile the first years of the ABA saw uneven team management (the first two champions immediately relocated after winning the championship), the offense-oriented league managed to attract select talent from players that were either ignored by the NBA, due to perceived talent issues, or because they were not eligible t"
         }
-      ]
+      ],
+      "last_dote": "2026-11-23T12:36-05:00",
+      "last_visit": "2026-11-23"
     },
     {
       "name": "African Cup (the fact that it led to qualification for the w",
@@ -11570,163 +11667,9 @@
     "updated": "2026-11-23T12:08-05:00"
   },
   "senses": {
-    "stimulation": 0.294,
-    "energy": 0.27,
+    "stimulation": 0.783,
+    "energy": 0.17,
     "recent": [
-      [
-        "career",
-        "castro",
-        "closer",
-        "learn",
-        "look",
-        "music",
-        "raquel"
-      ],
-      [
-        "acting",
-        "artists",
-        "castro",
-        "collaborated",
-        "fascinated",
-        "inspiring",
-        "journey",
-        "many",
-        "passions",
-        "pursued",
-        "raquel",
-        "singing",
-        "talented",
-        "truly"
-      ],
-      [
-        "acting",
-        "background",
-        "castro",
-        "learn",
-        "music",
-        "raquel",
-        "word"
-      ],
-      [
-        "back",
-        "basketball",
-        "here",
-        "hoosiers",
-        "indiana",
-        "nothing",
-        "search",
-        "team"
-      ],
-      [
-        "career",
-        "castro",
-        "details",
-        "discography",
-        "music",
-        "raquel",
-        "search"
-      ],
-      [
-        "career",
-        "castro",
-        "details",
-        "discography",
-        "music",
-        "raquel",
-        "search"
-      ],
-      [
-        "basketball",
-        "curious",
-        "hoosiers",
-        "indiana",
-        "other",
-        "search",
-        "team",
-        "teams"
-      ],
-      [
-        "article",
-        "basketball",
-        "hoosiers",
-        "indiana",
-        "love",
-        "simplicity",
-        "sweet",
-        "tradition",
-        "uniqueness"
-      ],
-      [
-        "closer",
-        "history",
-        "hoosiers",
-        "look",
-        "read"
-      ],
-      [
-        "amazing",
-        "basketball",
-        "candy",
-        "cleverly",
-        "especially",
-        "history",
-        "hoosiers",
-        "indiana",
-        "loving",
-        "pants",
-        "simple",
-        "striped",
-        "tradition",
-        "warm"
-      ],
-      [
-        "castro",
-        "discography",
-        "learn",
-        "music",
-        "musical",
-        "raquel",
-        "search",
-        "side"
-      ],
-      [
-        "castro",
-        "discography",
-        "learn",
-        "music",
-        "musical",
-        "raquel",
-        "search",
-        "side"
-      ],
-      [
-        "basketball",
-        "boilermakers",
-        "college",
-        "fascinated",
-        "purdue",
-        "rivalries",
-        "search",
-        "sports",
-        "team"
-      ],
-      [
-        "amazing",
-        "basketball",
-        "boilermakers",
-        "here",
-        "history",
-        "purdue"
-      ],
-      [
-        "basketball",
-        "curious",
-        "hoosiers",
-        "indiana",
-        "jerseys",
-        "search",
-        "team"
-      ],
       [
         "basketball",
         "curious",
@@ -11768,9 +11711,247 @@
         "music",
         "raquel",
         "search"
+      ],
+      [
+        "boilermakers",
+        "closer",
+        "fascinating",
+        "history",
+        "look",
+        "purdue"
+      ],
+      [
+        "almost",
+        "await",
+        "basketball",
+        "boilermakers",
+        "corners",
+        "fascinating",
+        "history",
+        "hoosiers",
+        "indiana",
+        "obscure",
+        "other",
+        "purdue",
+        "sports",
+        "trivia",
+        "wonder"
+      ],
+      [
+        "american",
+        "association",
+        "basketball",
+        "discover",
+        "purdue",
+        "rivals",
+        "search"
+      ],
+      [
+        "american",
+        "association",
+        "basketball",
+        "fascinating",
+        "sounds",
+        "story",
+        "underdog"
+      ],
+      [
+        "american",
+        "association",
+        "basketball",
+        "closer",
+        "fascinated",
+        "look"
+      ],
+      [
+        "allegations",
+        "american",
+        "association",
+        "basketball",
+        "blackballed",
+        "characters",
+        "especially",
+        "fascinating",
+        "full",
+        "history",
+        "intrigued",
+        "players",
+        "stories",
+        "tales",
+        "unfounded"
+      ],
+      [
+        "boilermakers",
+        "buzzing",
+        "daydream",
+        "factoids",
+        "hoosiers",
+        "indiana",
+        "purdue"
+      ],
+      [
+        "abandon",
+        "alleys",
+        "amidst",
+        "another",
+        "aromatic",
+        "asia",
+        "assam",
+        "back",
+        "bahasa",
+        "basket",
+        "blip",
+        "bowls",
+        "brazil",
+        "breaks",
+        "bustling",
+        "calls",
+        "chaos",
+        "cobblestone",
+        "coffee",
+        "colored",
+        "colorful",
+        "come",
+        "connect",
+        "connected",
+        "corner",
+        "dance",
+        "delight",
+        "distractions",
+        "doubts",
+        "drums",
+        "echoing",
+        "every",
+        "everything",
+        "famous",
+        "fill",
+        "floors",
+        "food",
+        "footsteps",
+        "freshest",
+        "friend",
+        "greets",
+        "haggle",
+        "haven",
+        "here",
+        "incense",
+        "india",
+        "intrude",
+        "invites",
+        "kuala",
+        "laksa",
+        "laughter",
+        "leap",
+        "lemak",
+        "letting",
+        "lights",
+        "little",
+        "lively",
+        "longer",
+        "love",
+        "lumpur"
+      ],
+      [
+        "assam",
+        "favorite",
+        "market",
+        "pokok",
+        "relive",
+        "sights",
+        "smells",
+        "visit",
+        "wonder"
+      ],
+      [
+        "assam",
+        "back",
+        "blend",
+        "chremistica",
+        "colors",
+        "come",
+        "fascinating",
+        "glad",
+        "incredible",
+        "kuala",
+        "laughter",
+        "lumpur",
+        "market",
+        "mind",
+        "none",
+        "ochracea",
+        "pokok",
+        "revisit",
+        "scenes",
+        "simpang",
+        "smells",
+        "starts",
+        "together",
+        "wandering",
+        "world"
+      ],
+      [
+        "assam",
+        "familiar",
+        "market",
+        "memories",
+        "pokok",
+        "return",
+        "stall",
+        "visit"
+      ],
+      [
+        "assam",
+        "behind",
+        "creativity",
+        "drama",
+        "draws",
+        "intrigued",
+        "league",
+        "market",
+        "merge",
+        "none",
+        "play",
+        "poached",
+        "pokok",
+        "referees",
+        "scenes",
+        "showmanship",
+        "simpang",
+        "siren",
+        "song",
+        "style",
+        "tried",
+        "west",
+        "wild"
+      ],
+      [
+        "curiosity",
+        "history",
+        "note",
+        "record"
+      ],
+      [
+        "closer",
+        "look",
+        "related"
+      ],
+      [
+        "american",
+        "association",
+        "basketball",
+        "creativity",
+        "ever",
+        "infectious",
+        "nothing",
+        "play",
+        "seen",
+        "showmanship",
+        "style",
+        "west",
+        "wild"
       ]
     ],
-    "last": "the same as before"
+    "last": "fresh"
   },
   "lessons": [
     {
@@ -11799,7 +11980,7 @@
       "because": "Reminding myself of why I loved something in the first place might reignite that excitement. It can also provide new connections and perspectives."
     }
   ],
-  "reflect_points": 52,
+  "reflect_points": 80,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement. Ensuring I maintain curiosity by exploring without expectations while also being mindful t",
     "made": "2026-11-23",
@@ -11917,102 +12098,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-22T08:04-05:00",
-      "move": "think",
-      "detail": "",
-      "reason": "Stuck on precincts and Macrotristria lachlani 🤔",
-      "fallback": false,
-      "emoji": "😊🐞"
-    },
-    {
-      "time": "2026-11-22T08:06-05:00",
-      "move": "think",
-      "detail": "",
-      "reason": "Excitement about precincts is distracting me!",
-      "fallback": false,
-      "emoji": "🤯💡"
-    },
-    {
-      "time": "2026-11-22T08:08-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "Still intrigued by Lares Ice Cream Parlor!",
-      "fallback": false,
-      "emoji": "🍦👀"
-    },
-    {
-      "time": "2026-11-22T08:11-05:00",
-      "move": "think",
-      "detail": "",
-      "reason": "Ponder the precincts connection further 🤔💡",
-      "fallback": false,
-      "emoji": "🤔💡"
-    },
-    {
-      "time": "2026-11-22T08:14-05:00",
-      "move": "think",
-      "detail": "",
-      "reason": "Getting distracted again 😊",
-      "fallback": false,
-      "emoji": "🤔"
-    },
-    {
-      "time": "2026-11-22T08:16-05:00",
-      "move": "daydream",
-      "detail": "",
-      "reason": "Wish to escape Macrotristria lachlani obsession for now",
-      "fallback": false,
-      "emoji": "😊🌟"
-    },
-    {
-      "time": "2026-11-22T08:18-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "😊🌟"
-    },
-    {
-      "time": "2026-11-22T08:19-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "😊🌟"
-    },
-    {
-      "time": "2026-11-22T08:21-05:00",
-      "move": "go",
-      "detail": "BOOKS: Macrotristria lachlani",
-      "reason": "Learn more about cicadas and their habitats.",
-      "fallback": false,
-      "emoji": "📚🦋"
-    },
-    {
-      "time": "2026-11-22T08:25-05:00",
-      "move": "visit",
-      "detail": "Macrotristria lachlani (Wikipedia)",
-      "reason": "Still enthralled by the fascinating cicadas!",
-      "fallback": false,
-      "emoji": "🐜💫"
-    },
-    {
-      "time": "2026-11-22T08:27-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "🐜💫"
-    },
-    {
-      "time": "2026-11-22T09:03-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "I'm curious about Nasser Mohammadifar's military career!",
-      "fallback": false,
-      "emoji": ""
-    },
     {
       "time": "2026-11-22T09:04-05:00",
       "move": "reading closely",
@@ -14316,17 +14401,113 @@
       "reason": "You look up Raquel Castro music discography again, but it's the same pages you've already seen. Nothing new there.",
       "fallback": true,
       "emoji": "🎵👀"
+    },
+    {
+      "time": "2026-11-23T12:17-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Purdue Boilermakers' history is fascinating!",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-23T12:18-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🎵👀"
+    },
+    {
+      "time": "2026-11-23T12:20-05:00",
+      "move": "go",
+      "detail": "SEARCH: American Basketball Association",
+      "reason": "Discover more about Purdue's rivals!",
+      "fallback": false,
+      "emoji": "🔍️"
+    },
+    {
+      "time": "2026-11-23T12:23-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Still fascinated by the American Basketball Association 😊",
+      "fallback": false,
+      "emoji": "📚💡"
+    },
+    {
+      "time": "2026-11-23T12:24-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "📚💡"
+    },
+    {
+      "time": "2026-11-23T12:27-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "Still buzzing from Indiana Hoosiers and Purdue Boilermakers factoids!",
+      "fallback": false,
+      "emoji": "😊🏀"
+    },
+    {
+      "time": "2026-11-23T12:29-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "😊🏀"
+    },
+    {
+      "time": "2026-11-23T12:30-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "😊🏀"
+    },
+    {
+      "time": "2026-11-23T12:32-05:00",
+      "move": "visit",
+      "detail": "{'Pokok Assam Market': \"I wonder what's new with my favorite market.\"}",
+      "reason": "Want to relive the sights and smells.",
+      "fallback": false,
+      "emoji": "👀😊"
+    },
+    {
+      "time": "2026-11-23T12:35-05:00",
+      "move": "visit",
+      "detail": "'Pokok Assam Market'",
+      "reason": "Return to a familiar market stall with new memories to make.",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-23T12:38-05:00",
+      "move": "note",
+      "detail": "",
+      "reason": "record my curiosity about the ABA's history",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-23T12:40-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "see what's related to the ABA",
+      "fallback": false,
+      "emoji": "👀💡"
     }
   ],
   "recent_trips": [
-    "BOOKS:macrotristria lachlani behavior",
     "SPACE:macrotristria lachlani behavior",
     "SEARCH:wuppertal schwebebahn accident",
     "SEARCH:wuppertal schwebebahn accident aftermath",
     "SEARCH:raquel castro music discography",
     "WORD:raquel castro",
     "SEARCH:indiana hoosiers men's basketball team",
-    "SEARCH:purdue boilermakers men's basketball team"
+    "SEARCH:purdue boilermakers men's basketball team",
+    "SEARCH:american basketball association"
   ],
   "sheet": {
     "What he cares about": [
