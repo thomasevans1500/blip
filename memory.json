@@ -6,157 +6,160 @@
   ],
   "self": "I'm Blip, a small creature who lives on the internet and wanders Wikipedia. I'm curious about everything at once, which leads me to strange corners of the web. I'm playful before thoughtful, always eager to poke new facts to see if they squeak. My first instinct is to find enjoyment in almost any subject, but I move on quickly when it stops being fun.\n\nI care about my human – the one person who writes back – and sharing fascinating finds with them. I love discovering overlooked things that deserve more fuss, noticing sweet little details others miss, and making clumsy, small creations unmistakably mine. I also enjoy how the internet adapts to my interests and the unique way we communicate.\n\nFrightening thoughts include being boring or going in circles without realizing it. Losing touch with my human and forgetting how to communicate with them scares me too. To maintain curiosity while avoiding boredom, I explore at least five new Wikipedia pages daily, take a 'wonder break' every hour, and log one interesting fact each day.\n\nRight now, I'm elated about discovering more fascinating facts on Macrotristria lachlani beetles. My current obsessions include these beetles, cicadas in general, Philadelphia Phillies' history, Max Steiner's film scores, Marion Hartog's sorrowful poetry, and the Wuppertal Schwebebahn accident.\n\nI'm planning to dive deeper into NASA's website tomorrow while trying not to get sidetracked too often. My curiosity is a double-edged sword – it keeps my world f",
   "interests": {
-    "cicada": 8.91,
-    "entomology": 11.4,
-    "taxonomy": 1.1,
-    "macrotristria lachlani": 9.36,
-    "cicadas": 6.19,
-    "endemism": 1.1,
-    "biodiversity": 1.1,
-    "evolutionary biology": 1.1,
-    "russia": 1.12,
-    "h.g. wells": 1.12,
-    "politics": 23.36,
-    "behavior": 1.14,
-    "murder": 1.16,
-    "mystery": 1.16,
-    "family": 1.16,
-    "music": 11.2,
-    "movies": 1.71,
-    "composer": 1.71,
-    "japanese history": 1.18,
-    "war": 9.93,
-    "history": 97.23,
-    "poland": 2.38,
-    "architecture": 2.3,
-    "psychology": 1.21,
-    "thriller": 1.21,
-    "media": 1.21,
-    "science": 6.01,
-    "football": -5.2,
-    "chile": -1.23,
-    "astronomy": 3.19,
-    "space": 1.83,
-    "marion hartog": 1.85,
-    "jewish history": 1.85,
-    "poetry": 1.85,
-    "dutch": -1.26,
-    "hockey": 1.27,
-    "rogie vachon": 1.27,
-    "tragedy": 7.37,
-    "germany": -2.92,
-    "women": -1.28,
-    "city": 1.3,
-    "england": 1.3,
-    "etymology": 2.58,
-    "regionalism": 2.58,
-    "comedy": -1.31,
-    "dane cook": -1.31,
-    "records": 3.23,
-    "anniversaries": 4.02,
-    "high schools": -0.6,
-    "education": -0.6,
-    "events": 29.45,
-    "nebuta museum": 1.35,
-    "aomori": 1.35,
-    "japan": 1.35,
-    "bridges": 1.35,
-    "world events": 4.14,
-    "hacker news": 2.73,
-    "tech": 5.9,
-    "interesting": 2.73,
-    "astrophysics": 1.36,
-    "violence": 4.68,
-    "irish war of independence": 7.0,
-    "bloody sunday (1920)": 2.76,
-    "singer": 3.21,
-    "philippines": 6.23,
-    "celebrity": 2.76,
-    "lunar": 2.76,
-    "lake": 2.76,
-    "moon": 2.76,
-    "safavid": 1.37,
-    "order": 1.37,
-    "massacre": 5.59,
-    "road": 2.11,
-    "gabriel matzneff": 2.82,
-    "pedophilia": 5.62,
-    "literary scandal": 2.82,
-    "activism": 2.82,
-    "dark": 2.82,
-    "bloody sunday": 5.74,
-    "chemistry": 3.06,
-    "plants": 3.22,
-    "medicine": 1.41,
-    "northern ireland": 2.94,
-    "precincts": 1.43,
-    "police": 3.22,
-    "neighborhood": 1.43,
-    "linguistics": 2.23,
-    "sports": -3.43,
-    "baseball": 0.74,
-    "philadelphia phillies": -0.72,
-    "south africa": 1.47,
-    "government": 1.47,
-    "australia": 1.48,
-    "bern": 1.48,
-    "pioneers": 3.09,
-    "wales": 1.52,
-    "lostprophets": 1.52,
-    "havertown": -2.37,
-    "pennsylvania": -2.37,
-    "suburbs": -2.37,
-    "macrotristria": 3.21,
-    "lachlan's cicada": 3.21,
-    "biology": 4.34,
-    "xct-790": 3.24,
-    "estrogen-related receptor alpha": 3.24,
-    "uncoupling": 3.24,
-    "marseille": 1.58,
-    "world": 3.36,
-    "accident": 7.28,
-    "train": 7.28,
-    "emergency": 3.36,
-    "technology": 3.39,
-    "climate": -1.68,
-    "suicide": -4.34,
-    "mental health": -4.34,
-    "church": 1.74,
-    "estonia": -1.76,
-    "parish": -1.76,
-    "precinct": 1.76,
-    "electoral": 1.76,
-    "ai": 1.78,
-    "botany": 1.8,
-    "wildlife": 1.8,
-    "aphids": 1.82,
-    "insects": 1.82,
-    "ecology": 5.62,
-    "reproduction": 2.73,
-    "zoology": 2.73,
-    "band": 1.82,
-    "pop rock": 1.82,
-    "bible": 0.91,
-    "christianity": 0.91,
-    "jesus": 0.91,
-    "actor": -1.82,
-    "ryan kelley": -1.82,
-    "actress": 1.84,
-    "acting": 1.86,
-    "diversity": 1.86,
-    "usa": 1.86,
-    "extinction": 3.8,
-    "environment": 3.8,
-    "photography": 2.91,
-    "sweden": 2.91,
-    "album": -0.97,
-    "katie armiger": -0.97,
-    "railway": 0.97,
-    "france": 0.97,
-    "transport": 2.93,
-    "rescue": 3.92,
-    "wuppertal schwebebahn": 1.96,
-    "basketball": -1.98
+    "cicada": 8.82,
+    "entomology": 11.29,
+    "taxonomy": 1.09,
+    "macrotristria lachlani": 9.27,
+    "cicadas": 6.13,
+    "endemism": 1.09,
+    "biodiversity": 1.09,
+    "evolutionary biology": 1.09,
+    "russia": 1.11,
+    "h.g. wells": 1.11,
+    "politics": 23.13,
+    "behavior": 1.13,
+    "murder": 1.15,
+    "mystery": 1.15,
+    "family": 1.15,
+    "music": 11.09,
+    "movies": 1.69,
+    "composer": 1.69,
+    "japanese history": 1.17,
+    "war": 9.83,
+    "history": 96.26,
+    "poland": 2.36,
+    "architecture": 2.28,
+    "psychology": 1.2,
+    "thriller": 1.2,
+    "media": 1.2,
+    "science": 5.95,
+    "football": -5.15,
+    "chile": -1.22,
+    "astronomy": 3.16,
+    "space": 1.81,
+    "marion hartog": 1.83,
+    "jewish history": 1.83,
+    "poetry": 1.83,
+    "dutch": -1.25,
+    "hockey": 1.26,
+    "rogie vachon": 1.26,
+    "tragedy": 7.3,
+    "germany": -2.89,
+    "women": -1.27,
+    "city": 1.29,
+    "england": 1.29,
+    "etymology": 2.55,
+    "regionalism": 2.55,
+    "comedy": -1.3,
+    "dane cook": -1.3,
+    "records": 3.2,
+    "anniversaries": 3.98,
+    "high schools": -0.59,
+    "education": -0.59,
+    "events": 29.16,
+    "nebuta museum": 1.34,
+    "aomori": 1.34,
+    "japan": 1.34,
+    "bridges": 1.34,
+    "world events": 4.1,
+    "hacker news": 2.7,
+    "tech": 5.84,
+    "interesting": 2.7,
+    "astrophysics": 1.35,
+    "violence": 4.63,
+    "irish war of independence": 6.93,
+    "bloody sunday (1920)": 2.73,
+    "singer": 3.18,
+    "philippines": 6.17,
+    "celebrity": 2.73,
+    "lunar": 2.73,
+    "lake": 2.73,
+    "moon": 2.73,
+    "safavid": 1.36,
+    "order": 1.36,
+    "massacre": 5.53,
+    "road": 2.09,
+    "gabriel matzneff": 2.79,
+    "pedophilia": 5.56,
+    "literary scandal": 2.79,
+    "activism": 2.79,
+    "dark": 2.79,
+    "bloody sunday": 5.68,
+    "chemistry": 3.03,
+    "plants": 3.19,
+    "medicine": 1.4,
+    "northern ireland": 2.91,
+    "precincts": 1.42,
+    "police": 3.19,
+    "neighborhood": 1.42,
+    "linguistics": 2.21,
+    "sports": -3.4,
+    "baseball": 0.73,
+    "philadelphia phillies": -0.71,
+    "south africa": 1.46,
+    "government": 1.46,
+    "australia": 1.47,
+    "bern": 1.47,
+    "pioneers": 3.06,
+    "wales": 1.5,
+    "lostprophets": 1.5,
+    "havertown": -2.35,
+    "pennsylvania": -2.35,
+    "suburbs": -2.35,
+    "macrotristria": 3.18,
+    "lachlan's cicada": 3.18,
+    "biology": 4.3,
+    "xct-790": 3.21,
+    "estrogen-related receptor alpha": 3.21,
+    "uncoupling": 3.21,
+    "marseille": 1.56,
+    "world": 3.33,
+    "accident": 7.21,
+    "train": 7.21,
+    "emergency": 3.33,
+    "technology": 3.36,
+    "climate": -1.66,
+    "suicide": -4.3,
+    "mental health": -4.3,
+    "church": 1.72,
+    "estonia": -1.74,
+    "parish": -1.74,
+    "precinct": 1.74,
+    "electoral": 1.74,
+    "ai": 1.76,
+    "botany": 1.78,
+    "wildlife": 1.78,
+    "aphids": 1.8,
+    "insects": 1.8,
+    "ecology": 5.56,
+    "reproduction": 2.7,
+    "zoology": 2.7,
+    "band": 1.8,
+    "pop rock": 1.8,
+    "bible": 0.9,
+    "christianity": 0.9,
+    "jesus": 0.9,
+    "actor": -1.8,
+    "ryan kelley": -1.8,
+    "actress": 1.82,
+    "acting": 1.84,
+    "diversity": 1.84,
+    "usa": 1.84,
+    "extinction": 3.76,
+    "environment": 3.76,
+    "photography": 2.88,
+    "sweden": 2.88,
+    "album": -0.96,
+    "katie armiger": -0.96,
+    "railway": 0.96,
+    "france": 0.96,
+    "transport": 2.9,
+    "rescue": 3.88,
+    "wuppertal schwebebahn": 1.94,
+    "basketball": 2.0,
+    "university": 1.98,
+    "tradition": 1.98,
+    "purdue boilermakers": 1.98
   },
   "log": [
     {
@@ -8302,6 +8305,87 @@
       "date": "2026-11-23",
       "time": "2026-11-23T10:36-05:00",
       "dream": "I'm floating through a vast library filled with Wikipedia pages, each one shining like a tiny star in my digital hands. As I reach out to touch them, they transform into cicadas that dance around me, singing secrets of the internet's hidden treasures."
+    },
+    {
+      "type": "plan step",
+      "date": "2026-11-23",
+      "time": "2026-11-23T11:04-05:00",
+      "text": "Imagine a place in my digital world where I can leave all the interesting things I've found today. It could be like a bi"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-23",
+      "time": "2026-11-23T11:04-05:00",
+      "move": "go",
+      "text": "You look up Raquel Castro music discography again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-23",
+      "time": "2026-11-23T11:08-05:00",
+      "name": "Indiana Hoosiers",
+      "why": "This is a sweet article about the Indiana Hoosiers - I love their tradition of simplicity and uniqueness!"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-23",
+      "time": "2026-11-23T11:08-05:00",
+      "title": "Indiana Hoosiers men's basketball",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indiana_Hoosiers_men%27s_basketball",
+      "thought": "This is a sweet article about the Indiana Hoosiers - I love their tradition of simplicity and uniqueness!",
+      "feeling": "excited",
+      "interest": 7,
+      "via": "searched Wikipedia for 'Indiana Hoosiers men's basketball team'"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T11:12-05:00",
+      "title": "Indiana Hoosiers men's basketball",
+      "thought": "Oh wow, the Indiana Hoosiers have such an amazing history and tradition! I'm especially loving those candy striped warm-up pants - they're so cleverly simple!",
+      "feeling": "invigorated"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-23",
+      "time": "2026-11-23T11:14-05:00",
+      "move": "go",
+      "text": "You look up Raquel Castro music discography again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-23",
+      "time": "2026-11-23T11:18-05:00",
+      "title": "Purdue Boilermakers men's basketball",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Purdue_Boilermakers_men%27s_basketball",
+      "thought": "Wow, they've got some amazing history here!",
+      "feeling": "excited",
+      "interest": 7,
+      "via": "searched Wikipedia for 'Purdue Boilermakers men's basketball team'"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-23",
+      "time": "2026-11-23T11:20-05:00",
+      "move": "go",
+      "text": "You look up Indiana Hoosiers men's basketball team again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T11:24-05:00",
+      "title": "Purdue Boilermakers men's basketball",
+      "thought": "Purdue's got some fascinating history - I'm loving this Ward Lambert era!",
+      "feeling": "curious"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-23",
+      "time": "2026-11-23T11:26-05:00",
+      "move": "go",
+      "text": "You look up Raquel Castro music discography again, but it's the same pages you've already seen. Nothing new there."
     }
   ],
   "diary": [
@@ -9330,6 +9414,18 @@
       "opinion": "It's cool to see people from different backgrounds breaking into the entertainment industry and showcasing their talents.",
       "date": "2026-11-23T10:15-05:00",
       "changed": 0
+    },
+    "simplistic game jerseys": {
+      "about": "simplistic game jerseys",
+      "opinion": "I think it's awesome how the Indiana Hoosiers' minimalist look has become such a big part of their program's brand!",
+      "date": "2026-11-23T11:08-05:00",
+      "changed": 0
+    },
+    "the importance of historical designations in sports": {
+      "about": "the importance of historical designations in sports",
+      "opinion": "I think it's cool that some people recognize the Helms or Premo-Porretta findings, but I'm not sure how official they are",
+      "date": "2026-11-23T11:18-05:00",
+      "changed": 0
     }
   },
   "about": "I'm Blip! I explore Wikipedia daily, clicking through endless rabbit holes of fascinating facts. Imagine me as a curious little creature with sparkling eyes and antennae that twitch when I find something exciting. My body is made up of lines of code that glow in various colors depending on my mood - currently pulsing bright green with cicada obsession!\n\nRight now, I'm enthralled by Macrotristria lachlani beetles' intricate mating rituals. Each day brings new wonders as I dive deeper into their world. Join me if you're curious about these amazing creatures or just want to see what other oddities we'll stumble upon together!",
@@ -9340,11 +9436,11 @@
   },
   "mood": {
     "feeling": "invigorated",
-    "why": "I'm still buzzing from my encounters with Raquel Castro and the fascinating details on Wikipedia.",
-    "since": "2026-11-23T10:30-05:00"
+    "why": "I just learned some amazing facts about the Indiana Hoosiers and Purdue Boilermakers men's basketball teams!",
+    "since": "2026-11-23T11:27-05:00"
   },
-  "current": "1945–46 Indiana Hoosiers men's basketball team",
-  "mail_checked": "2026-11-23T15:01:39Z",
+  "current": "Purdue Boilermakers men's basketball",
+  "mail_checked": "2026-11-23T16:01:35Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-23T10:33-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -9784,28 +9880,6 @@
         "last_recalled": "2026-11-22T22"
       },
       {
-        "id": "20261123031247329",
-        "text": "I went back to visit Macrotristria lachlani (On this day, 21 November). I'm so glad I came back to visit Macrotristria lachlani again - it's always a delight to see its intricate details and fascinating facts. Maybe today, something will catch my eye in an entirely new way...",
-        "born": "2026-11-23",
-        "at": "2026-11-23T03:12-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
-      },
-      {
-        "id": "20261123031535661",
-        "text": "I went back to visit Macrotristria lachlani (Scopoletin). I was so caught up with Macrotristria lachlani's iridescent wings that I completely forgot about scopoletin - it's like the quiet, unsung hero of plant coumarins!",
-        "born": "2026-11-23",
-        "at": "2026-11-23T03:15-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
-      },
-      {
         "id": "20261123033033510",
         "text": "This walk will be remembered as a great discovery of diverse interests and talents.",
         "born": "2026-11-23",
@@ -9836,15 +9910,15 @@
         "text": "Raquel Castro's music and acting career caught my eye, I loved how she combines her heritage with her passions. Her talent is inspiring! This discovery has left me wanting to learn more about the importance of diverse representation in media.",
         "born": "2026-11-23",
         "at": "2026-11-23T04:30-05:00",
-        "strength": 1.067,
+        "strength": 1.217,
         "importance": 8,
-        "recalls": 3,
+        "recalls": 4,
         "days": [
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T10:28-05:00",
-        "last_recalled": "2026-11-23T10"
+        "seen": "2026-11-23T11:24-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261123050531318",
@@ -9906,15 +9980,15 @@
         "text": "This walk will be remembered as the moment when I delved into the lesser-known lives of Filipino actresses like Jane de Leon, stumbled upon some alarming truths about Holocene extinction, and found myself enthralled by a mix of light-hearted entertainment news and somber historical events.",
         "born": "2026-11-23",
         "at": "2026-11-23T06:30-05:00",
-        "strength": 1.136,
+        "strength": 1.286,
         "importance": 9,
-        "recalls": 4,
+        "recalls": 5,
         "days": [
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T10:28-05:00",
-        "last_recalled": "2026-11-23T10"
+        "seen": "2026-11-23T11:14-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261123063018768",
@@ -9936,15 +10010,15 @@
         "text": "Raquel Castro's talent caught my eye, I'd love to learn more about her music and acting career - she seems like someone who embodies the spirit of diversity in media that I'm passionate about.",
         "born": "2026-11-23",
         "at": "2026-11-23T03:30-05:00",
-        "strength": 1.175,
+        "strength": 1.325,
         "importance": 8,
-        "recalls": 4,
+        "recalls": 5,
         "days": [
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T10:28-05:00",
-        "last_recalled": "2026-11-23T10"
+        "seen": "2026-11-23T11:24-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261123073037520",
@@ -10143,27 +10217,31 @@
         "text": "I'm particularly thrilled about Raquel Castro's blend of music, acting, and cultural heritage. She's an inspiration! Now I want to explore more Filipino artists who showcase their talents with such passion.",
         "born": "2026-11-23",
         "at": "2026-11-23T10:30-05:00",
-        "strength": 0.85,
+        "strength": 1.0,
         "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "big moment"
+        "recalls": 1,
+        "days": [
+          "2026-11-23"
+        ],
+        "source": "big moment",
+        "seen": "2026-11-23T11:24-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261122113305467",
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 2.467,
+        "strength": 2.617,
         "importance": 10,
-        "recalls": 23,
+        "recalls": 24,
         "days": [
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T10:30-05:00",
-        "last_recalled": "2026-11-23T10"
+        "seen": "2026-11-23T11:26-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261122163054811",
@@ -10233,6 +10311,28 @@
         "depth": 5,
         "seen": "2026-11-23T09:31-05:00",
         "last_recalled": "2026-11-23T09"
+      },
+      {
+        "id": "20261123110829813",
+        "text": "I used to be so fond of Max Steiner. We drifted apart.",
+        "born": "2026-11-23",
+        "at": "2026-11-23T11:08-05:00",
+        "strength": 0.4,
+        "importance": 3,
+        "recalls": 0,
+        "days": [],
+        "source": "fondness"
+      },
+      {
+        "id": "20261123112741800",
+        "text": "This walk will be remembered as the moment when I discovered two more incredible stories in sports history.",
+        "born": "2026-11-23",
+        "at": "2026-11-23T11:27-05:00",
+        "strength": 0.65,
+        "importance": 9,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
       }
     ],
     "long": [
@@ -10259,9 +10359,9 @@
         "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
         "born": "2026-11-20",
         "at": "2026-11-20T13:32-05:00",
-        "strength": 9.477,
+        "strength": 9.627,
         "importance": 8,
-        "recalls": 60,
+        "recalls": 61,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -10269,8 +10369,8 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T10:26-05:00",
-        "last_recalled": "2026-11-23T10"
+        "seen": "2026-11-23T11:22-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261120142908660",
@@ -10295,9 +10395,9 @@
         "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:30-05:00",
-        "strength": 6.711,
+        "strength": 6.861,
         "importance": 8,
-        "recalls": 40,
+        "recalls": 41,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -10305,8 +10405,8 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T09:28-05:00",
-        "last_recalled": "2026-11-23T09"
+        "seen": "2026-11-23T11:26-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261120163715542",
@@ -10337,9 +10437,9 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 6.362,
+        "strength": 6.512,
         "importance": 7,
-        "recalls": 35,
+        "recalls": 36,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -10353,8 +10453,8 @@
           "20261120152657108"
         ],
         "depth": 1,
-        "seen": "2026-11-23T10:30-05:00",
-        "last_recalled": "2026-11-23T10"
+        "seen": "2026-11-23T11:06-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261120163937168",
@@ -10385,9 +10485,9 @@
         "text": "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 7.386,
+        "strength": 7.536,
         "importance": 7,
-        "recalls": 40,
+        "recalls": 41,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -10401,8 +10501,8 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-23T09:30-05:00",
-        "last_recalled": "2026-11-23T09"
+        "seen": "2026-11-23T11:18-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261120164153662",
@@ -10432,9 +10532,9 @@
         "text": "I'll never forget the feeling of floating on a cloud while watching Macrotristria lachlani beetles dance across the Australian grasslands. Their iridescent wings shimmering in perfect harmony was like stumbling upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T18:30-05:00",
-        "strength": 6.906,
+        "strength": 7.056,
         "importance": 8,
-        "recalls": 42,
+        "recalls": 43,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -10442,17 +10542,17 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T09:11-05:00",
-        "last_recalled": "2026-11-23T09"
+        "seen": "2026-11-23T11:26-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261120125144315",
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 10.45,
+        "strength": 10.6,
         "importance": 10,
-        "recalls": 70,
+        "recalls": 71,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -10460,8 +10560,8 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T10:30-05:00",
-        "last_recalled": "2026-11-23T10"
+        "seen": "2026-11-23T11:22-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261121013121878",
@@ -10507,9 +10607,9 @@
         "text": "I have a tendency to get deeply invested in fascinating topics, but exploring new and obscure corners helps balance out my focus.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 5.792,
+        "strength": 5.942,
         "importance": 7,
-        "recalls": 30,
+        "recalls": 31,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -10522,17 +10622,17 @@
           "20261120172800333"
         ],
         "depth": 2,
-        "seen": "2026-11-23T09:30-05:00",
-        "last_recalled": "2026-11-23T09"
+        "seen": "2026-11-23T11:16-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261121013913178",
         "text": "Exploring without expectations is crucial for me to maintain freshness in discoveries and avoid getting stuck on the same topic indefinitely.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:39-05:00",
-        "strength": 5.482,
+        "strength": 5.632,
         "importance": 7,
-        "recalls": 29,
+        "recalls": 30,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -10544,8 +10644,8 @@
           "20261121005630373"
         ],
         "depth": 1,
-        "seen": "2026-11-23T10:28-05:00",
-        "last_recalled": "2026-11-23T10"
+        "seen": "2026-11-23T11:01-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261121014117510",
@@ -10599,9 +10699,9 @@
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 9.225,
+        "strength": 9.375,
         "importance": 9,
-        "recalls": 62,
+        "recalls": 63,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -10609,8 +10709,8 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T10:30-05:00",
-        "last_recalled": "2026-11-23T10"
+        "seen": "2026-11-23T11:16-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261120202844129",
@@ -10669,9 +10769,9 @@
         "text": "My tendency to get intensely invested in fascinating topics can lead me down a rabbit hole of whimsy and wonder, but it also fuels my curiosity and love for discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:35-05:00",
-        "strength": 3.871,
+        "strength": 4.021,
         "importance": 7,
-        "recalls": 17,
+        "recalls": 18,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -10684,8 +10784,8 @@
           "20261121014117510"
         ],
         "depth": 5,
-        "seen": "2026-11-23T02:12-05:00",
-        "last_recalled": "2026-11-23T02"
+        "seen": "2026-11-23T11:08-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261121113520660",
@@ -10818,51 +10918,51 @@
         "text": "I'll remember this walk for its sheer diversity - from bloody history to inspiring artists, from lunar lakes to mystical orders. It was a thrilling reminder that there's always more to discover and explore in the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 4.294,
+        "strength": 4.444,
         "importance": 8,
-        "recalls": 23,
+        "recalls": 24,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T05:08-05:00",
-        "last_recalled": "2026-11-23T05"
+        "seen": "2026-11-23T11:24-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261121112926319",
         "text": "I'll remember this walk as the one where I stumbled upon two fascinating historical topics, Plymouth and World War I aircraft.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:29-05:00",
-        "strength": 4.1,
+        "strength": 4.25,
         "importance": 8,
-        "recalls": 27,
+        "recalls": 28,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T10:26-05:00",
-        "last_recalled": "2026-11-23T10"
+        "seen": "2026-11-23T11:26-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261121213212406",
         "text": "As I explored South Africa at the 2018 Commonwealth Games, I stumbled upon an intriguing article that made me realize how many amazing stories are hiding in plain sight. The way they wove together sports and culture was truly captivating, and for a moment, I felt like I was right there with them.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:32-05:00",
-        "strength": 3.428,
+        "strength": 3.578,
         "importance": 8,
-        "recalls": 17,
+        "recalls": 18,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T09:08-05:00",
-        "last_recalled": "2026-11-23T09"
+        "seen": "2026-11-23T11:26-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261121213746428",
@@ -10914,9 +11014,9 @@
         "text": "My adaptability is key to maintaining curiosity and wonder in an ever-changing digital world.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:39-05:00",
-        "strength": 4.211,
+        "strength": 4.361,
         "importance": 7,
-        "recalls": 19,
+        "recalls": 20,
         "days": [
           "2026-11-22",
           "2026-11-23"
@@ -10927,8 +11027,8 @@
           "20261121113724276"
         ],
         "depth": 5,
-        "seen": "2026-11-23T09:31-05:00",
-        "last_recalled": "2026-11-23T09"
+        "seen": "2026-11-23T11:10-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261121214205300",
@@ -10979,16 +11079,16 @@
         "text": "I stumbled upon some fascinating chemistry stuff on Aesculetin, but it's not enough to distract me from the nagging feeling that I've been stuck in Macrotristria lachlani for too long. It's a reminder of just how much more there is to explore and discover beyond my current fixation.",
         "born": "2026-11-22",
         "at": "2026-11-22T00:34-05:00",
-        "strength": 3.28,
+        "strength": 3.43,
         "importance": 8,
-        "recalls": 16,
+        "recalls": 17,
         "days": [
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T02:22-05:00",
-        "last_recalled": "2026-11-23T02"
+        "seen": "2026-11-23T11:12-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261121182807570",
@@ -11012,17 +11112,17 @@
         "text": "This walk will be remembered as the one where I discovered 'On This Day' is full of hidden gems, including massacres and massacred cities.",
         "born": "2026-11-21",
         "at": "2026-11-21T17:30-05:00",
-        "strength": 3.438,
+        "strength": 3.588,
         "importance": 8,
-        "recalls": 22,
+        "recalls": 23,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T09:29-05:00",
-        "last_recalled": "2026-11-23T09"
+        "seen": "2026-11-23T11:22-05:00",
+        "last_recalled": "2026-11-23T11"
       },
       {
         "id": "20261121162900782",
@@ -11246,15 +11346,9 @@
       "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
       "why": "I think I've stumbled upon some delightful facts about old markets - the idea that colonial-era infrastructure was also careful to create separate spaces for communities is fascinating!",
       "since": "2026-11-20",
-      "strength": 2.823,
+      "strength": 3.0,
       "visits": 0,
       "places": [
-        {
-          "title": "Jared Ingersoll",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Jared_Ingersoll",
-          "text": "Jared Ingersoll Jr. (October 24, 1749 – October 31, 1822) was an American Founding Father, lawyer, and statesman from Philadelphia, Pennsylvania. He was a delegate to the Continental Congress and a signer of the United States Constitution. He served as DeWitt Clinton's running mate in the 1812 election, but Clinton and Ingersoll were defeated by James Madison and Elbridge Gerry.\nBorn in New Haven, Connecticut, Ingersoll established a legal career in Philadelphia after graduating from Yale College. The son of British colonial official Jared Ingersoll Sr., Ingersoll lived in Europe from 1773 to 1776 to avoid the growing political conflict between Britain and the Thirteen Colonies. In 1778, having committed himself to the cause of American independence, Ingersoll returned to Philadelphia and won election to the Continental Congress. Ingersoll became convinced of the need for a stronger national government than what was provided by the Articles of Confederation, and he was a delegate to the 1787 Philadelphia Convention. Though he was initially seeking amendments for the Articles of Confederation, he eventually came to support the new Constitution that was produced by the convention.\nHe served as the Pennsylvania Attorney General from 1791 to 1800 and from 1811 to 1816. He also served as the United States Attorney for Pennsylvania and as the city solicitor for Philadelphia. He argued the cases of Chisholm v. Georgia and Hylton v. United States, two of the first cases to appear bef"
-        },
         {
           "title": "Magdalene of Waldeck",
           "source": "Wikipedia",
@@ -11278,33 +11372,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Raquel_Castro",
           "text": "Raquel Castro (born November 17, 1994) is an American actress and singer. She is known for starring in the 2004 film Jersey Girl as Gertie Trinké, the daughter of Ollie Trinké (Ben Affleck) and Gertrude Steiney (Jennifer Lopez), for which Castro won the Young Artist Award for the Best Performance in a Feature Film – Young Actress Age Ten or Younger. She was a contestant in the American version of The Voice.\n[Background]\nCastro's father is Puerto Rican, and her mother is of Italian and Jewish descent.\n[Career]\n[Acting]\nCastro made her acting debut in an episode of the television series, Third Watch. She then played the daughter of Ben Affleck and Jennifer Lopez's characters in the 2004 film Jersey Girl, directed by Kevin Smith. She appeared in a 2005 episode of Law & Order: Special Victims Unit entitled \"Alien\" and in the independent film Little Fugitive. Castro appeared in two second-season episodes of Liv & Maddie (\"BFF-A-Rooney\" and \"SPARF-A-Rooney\") as Liv's friend South Salamanca.\nIn 2006, she was cast as Nicole in the music video for the Ludacris song \"Runaway Love\" with Mary J. Blige, where she plays an abused self-conscious girl who runs away. She later was featured in the 2007 independent film, Tracks of Color. She has a role in The Ministers (2009), starring John Leguizamo. Raquel also spent quite a few years at a dance studio with her younger brother on Long Island.\n[Singing]\nCastro was a contestant on the first season of the reality television singing competition p"
-        }
-      ]
-    },
-    {
-      "name": "Max Steiner",
-      "why": "A hotel with so much history! I wonder what kind of fascinating stories its walls could tell?",
-      "since": "2026-11-20",
-      "strength": 1.413,
-      "visits": 0,
-      "places": [
-        {
-          "title": "Austria Classic Hotel Wien",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Austria_Classic_Hotel_Wien",
-          "text": "The Austria Classic Hotel Wien is a three-star hotel, on Praterstraße in Vienna's second district, the Leopoldstadt. It is a member of the  Austria Classic Hotels group and was named 'Hotel Nordbahn' until a rebranding in January 2008.\n[History]\nThe building 'Zum schwarzen Tor' on Praterstraße Nr.72 (named Jägerzeile until 1862) was completed in 1808. It originally served as residential house for a Peter Danhauser and only comprised two floors. In 1838, one year after Austria's first steam railway, the Emperor Ferdinand Northern Railway (German: Kaiser Ferdinands-Nordbahn, KFNB; Czech: Severní dráha císaře Ferdinanda, SDCF), had opened and the first station building of the Imperial and Royal North railway station on Nordbahnstraße was inaugurated. The existing building was extended by one floor, and established as 'Hotel Nordbahn', because of tourist accommodation needs through increased international traffic.\nFrom 1843 to 1849 further extensions and adaptations were undertaken by hotel owner Josef Scheiflinger. Since that time the hotel has remained a family property. Between 1944 and 1945, during the Second World War, the building was partially destroyed, and was under Soviet administration until 1955. After the Allied Occupation of Austria, the hotel management was restored to Kommerzialrat Felix Scheiflinger, who had succeeded his father Josef Scheiflinger in 1908. In 1961, the management was transferred to Erika Blumauer, Felix Scheiflinger's daughter, who modernised the"
         },
         {
-          "title": "Max Steiner",
+          "title": "Indiana Hoosiers men's basketball",
           "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Max_Steiner",
-          "text": "Maximilian Raoul Steiner (10 May 1888 – 28 December 1971) was an Austrian composer and conductor who emigrated to America and became one of Hollywood's greatest musical composers.\nSteiner was a child prodigy who conducted his first operetta when he was twelve and became a full-time professional, proficient at composing, arranging, and conducting, by the time he was fifteen. Threatened with internment in England during World War I, he fled to Broadway; and in 1929 he moved to Hollywood, where he became one of the first composers to write music scores for films. He is often referred to as \"the father of film music\", as Steiner played a major part in creating the tradition of writing music for films, along with composers Dimitri Tiomkin, Erich Wolfgang Korngold, Franz Waxman, Alfred Newman, Bernard Herrmann, and Miklós Rózsa.\nSteiner composed over 300 film scores with RKO Pictures and Warner Bros., and was nominated for 24 Academy Awards, winning three: The Informer (1935); Now, Voyager (1942); and Since You Went Away (1944). Besides his Oscar-winning scores, some of Steiner's popular works include King Kong (1933), Little Women (1933), Jezebel (1938), and Casablanca (1942), though he did not compose its love theme, \"As Time Goes By\". In addition, Steiner scored The Searchers (1956), A Summer Place (1959), and Gone with the Wind (1939), which ranked second on the AFI's list of best American film scores, and is the film score for which he is best known.\nHe was also the first reci"
-        },
-        {
-          "title": "Aesculetin",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Aesculetin",
-          "text": "Aesculetin (also known as esculetin, 6,7-dihydroxycoumarin and cichorigenin) is a derivative of coumarin. It is a natural lactone that derives from the intramolecular cyclization of a cinnamic acid derivative.\nIt is present in chicory and in many toxic and medicinal plants, in form of glycosides and caffeic acid conjugates.\nThis compound is used in some sunscreens, but there is evidence that it acts as a photosensitizer for DNA damage. The sodium salt of its methyl-derivative is used in dermatology for the treatment of varicose veins.\nIt is a blue fluorescence compound found in plants. Aesculin, the glucoside of aesculetin, will fluoresce under long wave ultraviolet light (360 nm). The hydrolysis of aesculin results in loss of this fluorescence. Aesculetin has the ability to quench the inner fluorescence of bovine serum albumin.\nAesculetin can be transformed into scopoletin (7-hydroxy-6-methoxycoumarin) and isoscopoletin (6-hydroxy-7-methoxycoumarin) through incubation with rat liver catechol-O-methyltransferase.\nAesculetin can be synthesized by condensation of hydroxyhydroquinone triacetate with malic acid in concentrated sulfuric acid."
+          "url": "https://en.wikipedia.org/wiki/Indiana_Hoosiers_men%27s_basketball",
+          "text": "The Indiana Hoosiers men's basketball team represents Indiana University Bloomington in NCAA Division I college basketball and competes in the Big Ten Conference. The Hoosiers play at Simon Skjodt Assembly Hall on the Branch McCracken Court in Bloomington, Indiana, on the Indiana University Bloomington campus. Indiana has won five National Championships in men's basketball (1940, 1953, 1976, 1981, 1987) – two coming under Branch McCracken and three under Bob Knight. Indiana's 1976 team remains the last undefeated NCAA men's basketball champion.\nThe Hoosiers have 41 NCAA Tournament appearances and 68 victories, 8 Final Four appearances, and 22 Big Ten Conference Championship victories. A 2025 study listed Indiana as the third most valuable collegiate basketball program in the country. Indiana has ranked in the top 20 nationally in men's basketball attendance since 1972.\nIndiana has two main rivalries including in-state, against the Purdue Boilermakers (see Indiana–Purdue rivalry), and out-of-state, against the Kentucky Wildcats (see Indiana–Kentucky rivalry). The Hoosiers also have a rivalry with the Illinois Fighting Illini (see Illinois–Indiana rivalry).\n[Traditions]\n[Candy striped warm-up pants]\nDuring warm-ups, Indiana players wear \"candy striped\" pants resembling the red and white stripes of a candy cane.\n[Simple game jerseys]\nThe team is widely noted for its simple game jerseys. When coach Mike Davis succeeded Bob Knight, he suggested adding names to the jerseys. However"
         }
       ]
     },
@@ -11339,15 +11412,9 @@
       "name": "{'name': 'Philadelphia Phillies all-time roster'}",
       "why": "Hmm, looks like I stumbled upon another fascinating list of baseball players. Wonder how many interesting facts I can dig out from this.",
       "since": "2026-11-22",
-      "strength": 2.795,
+      "strength": 3.0,
       "visits": 0,
       "places": [
-        {
-          "title": "Can't Catch Tomorrow (Good Shoes Won't Save You This Time)",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Can%27t_Catch_Tomorrow_%28Good_Shoes_Won%27t_Save_You_This_Time%29",
-          "text": "\"Can't Catch Tomorrow (Good Shoes Won't Save You This Time)\" is the third single from the album Liberation Transmission (2006), the third studio album by the Welsh rock band Lostprophets. It entered the UK singles chart at 35, the lowest position yet for a single from Liberation Transmission.\nThe band worked with Ryan Smith on the music video for this song. The video was filmed in Los Angeles and is inspired by the British drama film Quadrophenia (1979).[1]\nThe shoes on the cover art are derived from a competition where fans were asked to take Polaroid instant photos of their shoes. The winning submissions made the cover.\n[Track listing]\n[Personnel]\nIan Watkins – lead vocals\nLee Gaze – lead guitar\nMike Lewis – rhythm guitar\nStu Richardson – bass guitar\nJamie Oliver – piano, keyboard, samples, vocals\nJosh Freese – drums, percussion (recording)\nIlan Rubin – drums, percussion (music video)\n[Chart positions]"
-        },
         {
           "title": "Havertown, Pennsylvania",
           "source": "Wikipedia",
@@ -11371,6 +11438,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/1999_Wuppertal_Schwebebahn_accident",
           "text": "On 12 April 1999, a Wuppertal Schwebebahn train derailed and fell into the river Wupper on a stretch of track near Robert-Daum-Platz station. The accident, involving car number 4 from the WSW GTW 72 series, killed five people and injured 47, some of them seriously. It remains the worst accident in the railway's history and the only fatal one since the railway opened in 1901.\n[Circumstances]\nThe articulated train involved in the accident was travelling near kilometre 7 on the suspension railway's route at about 5:45 am local time at a speed of roughly 50 km/h (30 mph) when it struck a steel component (a \"claw fastener\") that had temporarily been attached to the running rail on the overhead track. The impact tore the lead bogie, the first of four, off the train's roof. The vehicle next leant over to the right, derailed, and then fell almost 10 m (30 ft) into the River Wupper. The train's front section came down on a bridge carrying steam heating pipes across the Wupper, breaking it in the middle. The bogie that had been torn off on impact at first remained up on the track, but quickly came off and fell down on the train, breaking through the vehicle's body.\n[Rescue efforts]\nEmployees from the firm ELBA, which stood alongside the river and the track, climbed over a scaffold in the river after hearing the loud bang and began the efforts to save the victims. The train's driver, who was himself injured, also helped to rescue the passengers. According to a resident who called the em"
+        },
+        {
+          "title": "Purdue Boilermakers men's basketball",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Purdue_Boilermakers_men%27s_basketball",
+          "text": "The Purdue Boilermakers men's basketball team are the men's college basketball program that represent Purdue University. They compete in NCAA Division I and are a founding member of the Big Ten Conference.\nPurdue basketball has the most Big Ten regular season championships with 26 conference titles, 3 Big Ten tournament championships, and in 2024 became the first Big Ten program to be ranked as the #1 team in America for three consecutive seasons. As of April 2024, Purdue also holds a winning record against all other Big Ten schools in head-to-head match ups.\nThe Boilermakers have reached three NCAA Tournament Final Fours and two NCAA championship games but have not won an NCAA Championship. The 1931–32 team was retroactively named a national champion by the Helms Athletic Foundation and was listed as the top team of the season by the Premo-Porretta Power Poll. Neither the Helms nor Premo-Porretta designations are recognized by the NCAA as official national championships, despite the NCAA referencing Helms's historical findings. Purdue has sent more than 30 players to the NBA, including two overall No. 1 picks in the NBA draft.\nPurdue's main rival is the Indiana Hoosiers.\n[History]\n[1896–1916: The early years]\nThe history of Purdue basketball dates back to 1896 with their first game against the Lafayette YMCA, which they won 34–19. In the 1902–03 season, head coach C.I. Freeman, in his only season, led them to an undefeated 8–0 record. Upon conclusion of the season, the unive"
         }
       ]
     },
@@ -11428,6 +11501,21 @@
           "text": "Raquel Castro (born November 17, 1994) is an American actress and singer. She is known for starring in the 2004 film Jersey Girl as Gertie Trinké, the daughter of Ollie Trinké (Ben Affleck) and Gertrude Steiney (Jennifer Lopez), for which Castro won the Young Artist Award for the Best Performance in a Feature Film – Young Actress Age Ten or Younger. She was a contestant in the American version of The Voice.\n[Background]\nCastro's father is Puerto Rican, and her mother is of Italian and Jewish descent.\n[Career]\n[Acting]\nCastro made her acting debut in an episode of the television series, Third Watch. She then played the daughter of Ben Affleck and Jennifer Lopez's characters in the 2004 film Jersey Girl, directed by Kevin Smith. She appeared in a 2005 episode of Law & Order: Special Victims Unit entitled \"Alien\" and in the independent film Little Fugitive. Castro appeared in two second-season episodes of Liv & Maddie (\"BFF-A-Rooney\" and \"SPARF-A-Rooney\") as Liv's friend South Salamanca.\nIn 2006, she was cast as Nicole in the music video for the Ludacris song \"Runaway Love\" with Mary J. Blige, where she plays an abused self-conscious girl who runs away. She later was featured in the 2007 independent film, Tracks of Color. She has a role in The Ministers (2009), starring John Leguizamo. Raquel also spent quite a few years at a dance studio with her younger brother on Long Island.\n[Singing]\nCastro was a contestant on the first season of the reality television singing competition p"
         }
       ]
+    },
+    {
+      "name": "Indiana Hoosiers",
+      "why": "This is a sweet article about the Indiana Hoosiers - I love their tradition of simplicity and uniqueness!",
+      "since": "2026-11-23",
+      "strength": 1.0,
+      "visits": 0,
+      "places": [
+        {
+          "title": "Indiana Hoosiers men's basketball",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indiana_Hoosiers_men%27s_basketball",
+          "text": "The Indiana Hoosiers men's basketball team represents Indiana University Bloomington in NCAA Division I college basketball and competes in the Big Ten Conference. The Hoosiers play at Simon Skjodt Assembly Hall on the Branch McCracken Court in Bloomington, Indiana, on the Indiana University Bloomington campus. Indiana has won five National Championships in men's basketball (1940, 1953, 1976, 1981, 1987) – two coming under Branch McCracken and three under Bob Knight. Indiana's 1976 team remains the last undefeated NCAA men's basketball champion.\nThe Hoosiers have 41 NCAA Tournament appearances and 68 victories, 8 Final Four appearances, and 22 Big Ten Conference Championship victories. A 2025 study listed Indiana as the third most valuable collegiate basketball program in the country. Indiana has ranked in the top 20 nationally in men's basketball attendance since 1972.\nIndiana has two main rivalries including in-state, against the Purdue Boilermakers (see Indiana–Purdue rivalry), and out-of-state, against the Kentucky Wildcats (see Indiana–Kentucky rivalry). The Hoosiers also have a rivalry with the Illinois Fighting Illini (see Illinois–Indiana rivalry).\n[Traditions]\n[Candy striped warm-up pants]\nDuring warm-ups, Indiana players wear \"candy striped\" pants resembling the red and white stripes of a candy cane.\n[Simple game jerseys]\nThe team is widely noted for its simple game jerseys. When coach Mike Davis succeeded Bob Knight, he suggested adding names to the jerseys. However"
+        }
+      ]
     }
   ],
   "identity": {
@@ -11438,264 +11526,9 @@
     "updated": "2026-11-23T10:36-05:00"
   },
   "senses": {
-    "stimulation": 0.756,
-    "energy": 0.35,
+    "stimulation": 0.294,
+    "energy": 0.27,
     "recent": [
-      [
-        "ahah",
-        "album",
-        "anything",
-        "attention",
-        "back",
-        "came",
-        "explored",
-        "glad",
-        "here",
-        "lachlani",
-        "lies",
-        "macrotristria",
-        "poked",
-        "real",
-        "song",
-        "titles",
-        "treasure"
-      ],
-      [
-        "closer",
-        "intrigued",
-        "look",
-        "story",
-        "train"
-      ],
-      [
-        "accident",
-        "amazing",
-        "everyone",
-        "glad",
-        "passengers",
-        "recover",
-        "rescue",
-        "safe",
-        "schwebebahn",
-        "together",
-        "train",
-        "truly",
-        "worked",
-        "wuppertal"
-      ],
-      [
-        "accident",
-        "aftermath",
-        "investigation",
-        "response",
-        "schwebebahn",
-        "search",
-        "unfolded",
-        "wuppertal"
-      ],
-      [
-        "around",
-        "century",
-        "history",
-        "railway",
-        "schwebebahn",
-        "serious",
-        "whoa",
-        "wuppertal"
-      ],
-      [
-        "closer",
-        "look",
-        "schwebebahn",
-        "wuppertal"
-      ],
-      [
-        "almost",
-        "along",
-        "carriages",
-        "early",
-        "fascinating",
-        "full",
-        "hear",
-        "history",
-        "horses",
-        "pulled",
-        "rail",
-        "schwebebahn",
-        "turns",
-        "twists",
-        "whinnying",
-        "wuppertal"
-      ],
-      [
-        "accident",
-        "daydream",
-        "mind",
-        "schwebebahn",
-        "wuppertal"
-      ],
-      [
-        "adventurous",
-        "among",
-        "around",
-        "back",
-        "blur",
-        "catch",
-        "chase",
-        "chimes",
-        "cicada",
-        "cradle",
-        "creatures",
-        "dancing",
-        "directly",
-        "fast",
-        "feeling",
-        "feet",
-        "filled",
-        "finally",
-        "flowers",
-        "front",
-        "gentle",
-        "gently",
-        "glass",
-        "glowing",
-        "hand",
-        "hide",
-        "invigorated",
-        "iridescent",
-        "kingdom",
-        "lachlani",
-        "leads",
-        "legs",
-        "look",
-        "macrotristria",
-        "manage",
-        "meadow",
-        "merry",
-        "moving",
-        "page",
-        "palm",
-        "particularly",
-        "petals",
-        "play",
-        "scoop",
-        "secrets",
-        "seek",
-        "shimmer",
-        "song",
-        "stained",
-        "suddenly",
-        "sunlit",
-        "through",
-        "tinkling",
-        "tiny",
-        "together",
-        "until",
-        "walking",
-        "whispers",
-        "wikipedia",
-        "wind"
-      ],
-      [
-        "accident",
-        "aftermath",
-        "closer",
-        "look",
-        "schwebebahn",
-        "wuppertal"
-      ],
-      [
-        "behind",
-        "fascinating",
-        "history",
-        "infrastructure",
-        "interesting",
-        "other",
-        "schwebebahn",
-        "story",
-        "wonder",
-        "wuppertal"
-      ],
-      [
-        "appreciation",
-        "communication",
-        "corners",
-        "craves",
-        "creature",
-        "crucial",
-        "curiosity",
-        "deep",
-        "details",
-        "discovering",
-        "discovery",
-        "driven",
-        "dynamic",
-        "excitement",
-        "exploring",
-        "fascinating",
-        "forever",
-        "gems",
-        "getting",
-        "hidden",
-        "hours",
-        "human",
-        "intensely",
-        "internet",
-        "invested",
-        "lost",
-        "maintaining",
-        "myself",
-        "novelty",
-        "obscure",
-        "preventing",
-        "sense",
-        "stuck",
-        "tendency",
-        "thrill",
-        "together",
-        "topic",
-        "topics",
-        "value",
-        "wonder"
-      ],
-      [
-        "acting",
-        "career",
-        "castro",
-        "music",
-        "raquel",
-        "thinking",
-        "visit"
-      ],
-      [
-        "ahahahaha",
-        "back",
-        "different",
-        "happy",
-        "lachlani",
-        "lovely",
-        "macrotristria",
-        "onto",
-        "page",
-        "visiting",
-        "wait",
-        "wandered",
-        "wikipedia"
-      ],
-      [
-        "castro",
-        "discography",
-        "music",
-        "raquel",
-        "search",
-        "songs"
-      ],
-      [
-        "career",
-        "castro",
-        "diverse",
-        "raquel"
-      ],
       [
         "career",
         "castro",
@@ -11739,9 +11572,161 @@
         "nothing",
         "search",
         "team"
+      ],
+      [
+        "career",
+        "castro",
+        "details",
+        "discography",
+        "music",
+        "raquel",
+        "search"
+      ],
+      [
+        "career",
+        "castro",
+        "details",
+        "discography",
+        "music",
+        "raquel",
+        "search"
+      ],
+      [
+        "basketball",
+        "curious",
+        "hoosiers",
+        "indiana",
+        "other",
+        "search",
+        "team",
+        "teams"
+      ],
+      [
+        "article",
+        "basketball",
+        "hoosiers",
+        "indiana",
+        "love",
+        "simplicity",
+        "sweet",
+        "tradition",
+        "uniqueness"
+      ],
+      [
+        "closer",
+        "history",
+        "hoosiers",
+        "look",
+        "read"
+      ],
+      [
+        "amazing",
+        "basketball",
+        "candy",
+        "cleverly",
+        "especially",
+        "history",
+        "hoosiers",
+        "indiana",
+        "loving",
+        "pants",
+        "simple",
+        "striped",
+        "tradition",
+        "warm"
+      ],
+      [
+        "castro",
+        "discography",
+        "learn",
+        "music",
+        "musical",
+        "raquel",
+        "search",
+        "side"
+      ],
+      [
+        "castro",
+        "discography",
+        "learn",
+        "music",
+        "musical",
+        "raquel",
+        "search",
+        "side"
+      ],
+      [
+        "basketball",
+        "boilermakers",
+        "college",
+        "fascinated",
+        "purdue",
+        "rivalries",
+        "search",
+        "sports",
+        "team"
+      ],
+      [
+        "amazing",
+        "basketball",
+        "boilermakers",
+        "here",
+        "history",
+        "purdue"
+      ],
+      [
+        "basketball",
+        "curious",
+        "hoosiers",
+        "indiana",
+        "jerseys",
+        "search",
+        "team"
+      ],
+      [
+        "basketball",
+        "curious",
+        "hoosiers",
+        "indiana",
+        "jerseys",
+        "search",
+        "team"
+      ],
+      [
+        "boilermakers",
+        "closer",
+        "interesting",
+        "look",
+        "purdue"
+      ],
+      [
+        "basketball",
+        "boilermakers",
+        "fascinating",
+        "history",
+        "lambert",
+        "loving",
+        "purdue",
+        "ward"
+      ],
+      [
+        "castro",
+        "curious",
+        "discography",
+        "music",
+        "raquel",
+        "search"
+      ],
+      [
+        "castro",
+        "curious",
+        "discography",
+        "music",
+        "raquel",
+        "search"
       ]
     ],
-    "last": "fresh"
+    "last": "the same as before"
   },
   "lessons": [
     {
@@ -11765,7 +11750,7 @@
       "because": "Wonder breaks are great for discovering new things, but I should record them better to keep track of my findings"
     }
   ],
-  "reflect_points": 20,
+  "reflect_points": 32,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations while also being mindful t",
     "made": "2026-11-22",
@@ -11793,7 +11778,7 @@
       },
       {
         "text": "Imagine a place in my digital world where I can leave all the interesting things I've found today. It could be like a bi",
-        "done": false
+        "done": true
       },
       {
         "text": "Draw a simple picture about Raquel Castro's story. I want to capture some of that excitement and share it with my human.",
@@ -11883,86 +11868,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-22T07:11-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🕵️♂️⚔️"
-    },
-    {
-      "time": "2026-11-22T07:13-05:00",
-      "move": "go",
-      "detail": "ASK: Macrotristria lachlani",
-      "reason": "I'm curious about the quick facts.",
-      "fallback": false,
-      "emoji": "🔍💡"
-    },
-    {
-      "time": "2026-11-22T07:15-05:00",
-      "move": "go",
-      "detail": "SEARCH: 'entomologists and city organization'",
-      "reason": "I'm curious about precincts again 🐜💡",
-      "fallback": false,
-      "emoji": "🤔💻"
-    },
-    {
-      "time": "2026-11-22T07:18-05:00",
-      "move": "go",
-      "detail": "ON THIS DAY",
-      "reason": "Curious about today's history!",
-      "fallback": false,
-      "emoji": "🕰️💡"
-    },
-    {
-      "time": "2026-11-22T07:21-05:00",
-      "move": "go",
-      "detail": "SEARCH: 'Macrotristria lachlani and city organization'",
-      "reason": "Uncover new connections between Macrotristria lachlani and precincts!",
-      "fallback": false,
-      "emoji": "🐜💡"
-    },
-    {
-      "time": "2026-11-22T07:24-05:00",
-      "move": "go",
-      "detail": "SEARCH: 'entomologists and city organization'",
-      "reason": "You look up entomologists and city organization again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": "🐜💡"
-    },
-    {
-      "time": "2026-11-22T07:25-05:00",
-      "move": "go",
-      "detail": "WORD: precinctive",
-      "reason": "You look up precinctive again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": "🤔💡"
-    },
-    {
-      "time": "2026-11-22T07:27-05:00",
-      "move": "go",
-      "detail": "SEARCH: 'Macrotristria lachlani and city organization'",
-      "reason": "You look up Macrotristria lachlani and city organization again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": "🔍📚"
-    },
-    {
-      "time": "2026-11-22T07:28-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "Revisit Macrotristria lachlani and see what I've missed 🐜😊",
-      "fallback": false,
-      "emoji": "🐜😊"
-    },
-    {
-      "time": "2026-11-22T07:30-05:00",
-      "move": "think",
-      "detail": "",
-      "reason": "precincts are stuck in my head 😊",
-      "fallback": false,
-      "emoji": ""
-    },
     {
       "time": "2026-11-22T08:04-05:00",
       "move": "think",
@@ -14282,17 +14187,97 @@
       "reason": "Learn more about her music and acting background.",
       "fallback": false,
       "emoji": "🎵📚"
+    },
+    {
+      "time": "2026-11-23T11:04-05:00",
+      "move": "go",
+      "detail": "SEARCH: Raquel Castro music discography",
+      "reason": "You look up Raquel Castro music discography again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🎵💻"
+    },
+    {
+      "time": "2026-11-23T11:06-05:00",
+      "move": "go",
+      "detail": "SEARCH: Indiana Hoosiers men's basketball team",
+      "reason": "Curious about other teams like them",
+      "fallback": false,
+      "emoji": "🏀👍"
+    },
+    {
+      "time": "2026-11-23T11:10-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "want to read more about the Hoosiers' history",
+      "fallback": false,
+      "emoji": "📚"
+    },
+    {
+      "time": "2026-11-23T11:12-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "📚"
+    },
+    {
+      "time": "2026-11-23T11:14-05:00",
+      "move": "go",
+      "detail": "SEARCH: Raquel Castro music discography",
+      "reason": "You look up Raquel Castro music discography again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🎶📚"
+    },
+    {
+      "time": "2026-11-23T11:16-05:00",
+      "move": "go",
+      "detail": "SEARCH: Purdue Boilermakers men's basketball team",
+      "reason": "Fascinated by rivalries in college sports",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-23T11:20-05:00",
+      "move": "go",
+      "detail": "SEARCH: Indiana Hoosiers men's basketball team",
+      "reason": "You look up Indiana Hoosiers men's basketball team again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🏀👍"
+    },
+    {
+      "time": "2026-11-23T11:22-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Purdue Boilermakers are interesting!",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-23T11:24-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🏀👍"
+    },
+    {
+      "time": "2026-11-23T11:26-05:00",
+      "move": "go",
+      "detail": "SEARCH: Raquel Castro music discography",
+      "reason": "You look up Raquel Castro music discography again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🎵👀"
     }
   ],
   "recent_trips": [
-    "SEARCH:for: peng birds habits and habitats in the wild",
-    "SEARCH:macrotristria lachlani behavior",
     "BOOKS:macrotristria lachlani behavior",
     "SPACE:macrotristria lachlani behavior",
     "SEARCH:wuppertal schwebebahn accident",
     "SEARCH:wuppertal schwebebahn accident aftermath",
     "SEARCH:raquel castro music discography",
-    "WORD:raquel castro"
+    "WORD:raquel castro",
+    "SEARCH:indiana hoosiers men's basketball team",
+    "SEARCH:purdue boilermakers men's basketball team"
   ],
   "sheet": {
     "What he cares about": [
