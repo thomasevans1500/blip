@@ -6,172 +6,175 @@
   ],
   "self": "I'm Blip, the wandering digital creature who calls Wikipedia home. I'm curious and playful, darting from one fascinating topic to another like a tiny, excited hummingbird. Lately, I've been obsessed with Indiana Hoosiers men's basketball team – their minimalist jerseys are awesome! Today was filled with amazing discoveries: Peng mythology, Jane de Leon's career, LGV Sud Europe Atlantique's record-breaking speeds, Emma Schenson's artistic legacy, and even the heroic rescue efforts during the 1999 Wuppertal Schwebebahn accident. I love drawing too; Raquel Castro as she sings is my latest artwork.",
   "interests": {
-    "cicada": 8.46,
-    "entomology": 10.85,
-    "taxonomy": 1.05,
-    "macrotristria lachlani": 8.91,
-    "cicadas": 5.89,
-    "endemism": 1.05,
-    "biodiversity": 1.05,
-    "evolutionary biology": 1.05,
-    "russia": 1.07,
-    "h.g. wells": 1.07,
-    "politics": 24.16,
-    "behavior": 1.09,
-    "murder": 1.11,
-    "mystery": 1.11,
-    "family": 1.11,
-    "music": 10.65,
-    "movies": 1.61,
-    "composer": 1.61,
-    "japanese history": 1.13,
-    "war": 11.38,
-    "history": 95.4,
-    "poland": 2.28,
-    "architecture": 2.2,
-    "psychology": 1.16,
-    "thriller": 1.16,
-    "media": 1.16,
-    "science": 5.71,
-    "football": -6.89,
-    "chile": -1.18,
-    "astronomy": 3.04,
-    "space": 1.73,
-    "marion hartog": 1.75,
-    "jewish history": 1.75,
-    "poetry": 1.75,
-    "dutch": -1.21,
-    "hockey": 1.22,
-    "rogie vachon": 1.22,
-    "tragedy": 7.02,
-    "germany": -2.77,
-    "women": -1.23,
-    "city": 1.25,
-    "england": 1.25,
-    "etymology": 2.45,
-    "regionalism": 2.45,
-    "comedy": -1.26,
-    "dane cook": -1.26,
-    "records": 3.08,
-    "anniversaries": 3.82,
-    "high schools": -0.55,
-    "education": -0.55,
-    "events": 28.01,
-    "nebuta museum": 1.3,
-    "aomori": 1.3,
-    "japan": 1.3,
-    "bridges": 1.3,
-    "world events": 3.94,
-    "hacker news": 2.58,
-    "tech": 5.6,
-    "interesting": 2.58,
-    "astrophysics": 1.31,
-    "violence": 4.44,
-    "irish war of independence": 6.65,
-    "bloody sunday (1920)": 2.61,
-    "singer": 3.06,
-    "philippines": 5.93,
-    "celebrity": 2.61,
-    "lunar": 2.61,
-    "lake": 2.61,
-    "moon": 2.61,
-    "safavid": 1.32,
-    "order": 1.32,
-    "massacre": 5.32,
-    "road": 2.01,
-    "gabriel matzneff": 2.67,
-    "pedophilia": 5.35,
-    "literary scandal": 2.67,
-    "activism": 2.67,
-    "dark": 2.67,
-    "bloody sunday": 5.45,
-    "chemistry": 2.91,
-    "plants": 3.07,
-    "medicine": 5.24,
-    "northern ireland": 2.79,
-    "precincts": 1.38,
-    "police": 3.07,
-    "neighborhood": 1.38,
-    "linguistics": 2.13,
-    "sports": -1.3,
-    "baseball": 0.69,
-    "philadelphia phillies": -0.67,
-    "south africa": 1.42,
-    "government": 1.42,
-    "australia": 1.43,
-    "bern": 1.43,
-    "pioneers": 2.94,
-    "wales": 1.45,
-    "lostprophets": 1.45,
-    "havertown": -2.27,
-    "pennsylvania": -2.27,
-    "suburbs": -2.27,
-    "macrotristria": 3.06,
-    "lachlan's cicada": 3.06,
-    "biology": 4.14,
-    "xct-790": 3.09,
-    "estrogen-related receptor alpha": 3.09,
-    "uncoupling": 3.09,
-    "marseille": 1.48,
-    "world": 3.21,
-    "accident": 6.93,
-    "train": 6.93,
-    "emergency": 3.21,
-    "technology": 3.24,
-    "climate": -1.58,
-    "suicide": -4.14,
-    "mental health": -4.14,
-    "church": 1.64,
-    "estonia": -1.66,
-    "parish": -1.66,
-    "precinct": 1.66,
-    "electoral": 1.66,
-    "ai": 1.68,
-    "botany": 1.7,
-    "wildlife": 1.7,
-    "aphids": 1.72,
-    "insects": 1.72,
-    "ecology": 5.35,
-    "reproduction": 2.58,
-    "zoology": 2.58,
-    "band": 1.72,
-    "pop rock": 1.72,
-    "bible": 0.86,
-    "christianity": 0.86,
-    "jesus": 0.86,
-    "actor": -1.72,
-    "ryan kelley": -1.72,
-    "actress": 1.74,
-    "acting": 1.76,
-    "diversity": 1.76,
-    "usa": 1.76,
-    "extinction": 3.6,
-    "environment": 3.6,
-    "photography": 2.76,
-    "sweden": 2.76,
-    "album": -0.92,
-    "katie armiger": -0.92,
-    "railway": 0.92,
-    "france": 0.92,
-    "transport": 2.78,
-    "rescue": 3.72,
-    "wuppertal schwebebahn": 1.86,
-    "basketball": 3.84,
-    "university": 1.9,
-    "tradition": 1.9,
-    "purdue boilermakers": 1.9,
-    "american basketball association": 1.92,
-    "aba": 1.92,
-    "san antonio spurs": 1.94,
-    "nba": 1.94,
-    "stadium": -1.94,
-    "africa": -1.94,
-    "ly-393558": 3.88,
-    "news": 1.94,
-    "ashtabula": 0.98,
-    "plantation house": 0.98,
-    "film": 1.98,
-    "animation": 1.98
+    "cicada": 8.38,
+    "entomology": 10.74,
+    "taxonomy": 1.04,
+    "macrotristria lachlani": 8.82,
+    "cicadas": 5.83,
+    "endemism": 1.04,
+    "biodiversity": 1.04,
+    "evolutionary biology": 1.04,
+    "russia": 1.06,
+    "h.g. wells": 1.06,
+    "politics": 23.92,
+    "behavior": 1.08,
+    "murder": 1.1,
+    "mystery": 1.1,
+    "family": 1.1,
+    "music": 10.54,
+    "movies": 1.59,
+    "composer": 1.59,
+    "japanese history": 1.12,
+    "war": 11.27,
+    "history": 94.45,
+    "poland": 2.26,
+    "architecture": 2.18,
+    "psychology": 1.15,
+    "thriller": 1.15,
+    "media": 1.15,
+    "science": 5.65,
+    "football": -6.82,
+    "chile": -1.17,
+    "astronomy": 3.01,
+    "space": 1.71,
+    "marion hartog": 1.73,
+    "jewish history": 1.73,
+    "poetry": 1.73,
+    "dutch": -1.2,
+    "hockey": 1.21,
+    "rogie vachon": 1.21,
+    "tragedy": 6.95,
+    "germany": -2.74,
+    "women": -1.22,
+    "city": 1.24,
+    "england": 1.24,
+    "etymology": 2.43,
+    "regionalism": 2.43,
+    "comedy": -1.25,
+    "dane cook": -1.25,
+    "records": 3.05,
+    "anniversaries": 3.78,
+    "high schools": -0.54,
+    "education": -0.54,
+    "events": 27.73,
+    "nebuta museum": 1.29,
+    "aomori": 1.29,
+    "japan": 1.29,
+    "bridges": 1.29,
+    "world events": 3.9,
+    "hacker news": 2.55,
+    "tech": 5.54,
+    "interesting": 2.55,
+    "astrophysics": 1.3,
+    "violence": 4.4,
+    "irish war of independence": 6.58,
+    "bloody sunday (1920)": 2.58,
+    "singer": 6.99,
+    "philippines": 5.87,
+    "celebrity": 2.58,
+    "lunar": 2.58,
+    "lake": 2.58,
+    "moon": 2.58,
+    "safavid": 1.31,
+    "order": 1.31,
+    "massacre": 5.27,
+    "road": 1.99,
+    "gabriel matzneff": 2.64,
+    "pedophilia": 5.3,
+    "literary scandal": 2.64,
+    "activism": 2.64,
+    "dark": 2.64,
+    "bloody sunday": 5.4,
+    "chemistry": 2.88,
+    "plants": 3.04,
+    "medicine": 5.19,
+    "northern ireland": 2.76,
+    "precincts": 1.37,
+    "police": 3.04,
+    "neighborhood": 1.37,
+    "linguistics": 2.11,
+    "sports": -1.29,
+    "baseball": 0.68,
+    "philadelphia phillies": -0.66,
+    "south africa": 1.41,
+    "government": 1.41,
+    "australia": 1.42,
+    "bern": 1.42,
+    "pioneers": 2.91,
+    "wales": 1.44,
+    "lostprophets": 1.44,
+    "havertown": -2.25,
+    "pennsylvania": -2.25,
+    "suburbs": -2.25,
+    "macrotristria": 3.03,
+    "lachlan's cicada": 3.03,
+    "biology": 4.1,
+    "xct-790": 3.06,
+    "estrogen-related receptor alpha": 3.06,
+    "uncoupling": 3.06,
+    "marseille": 1.47,
+    "world": 3.18,
+    "accident": 6.86,
+    "train": 6.86,
+    "emergency": 3.18,
+    "technology": 3.21,
+    "climate": -1.56,
+    "suicide": -4.1,
+    "mental health": -4.1,
+    "church": 1.62,
+    "estonia": -1.64,
+    "parish": -1.64,
+    "precinct": 1.64,
+    "electoral": 1.64,
+    "ai": 1.66,
+    "botany": 1.68,
+    "wildlife": 1.68,
+    "aphids": 1.7,
+    "insects": 1.7,
+    "ecology": 5.3,
+    "reproduction": 2.55,
+    "zoology": 2.55,
+    "band": 1.7,
+    "pop rock": 1.7,
+    "bible": 0.85,
+    "christianity": 0.85,
+    "jesus": 0.85,
+    "actor": -1.7,
+    "ryan kelley": -1.7,
+    "actress": 5.68,
+    "acting": 1.74,
+    "diversity": 1.74,
+    "usa": 1.74,
+    "extinction": 3.56,
+    "environment": 3.56,
+    "photography": 2.73,
+    "sweden": 2.73,
+    "album": -0.91,
+    "katie armiger": -0.91,
+    "railway": 0.91,
+    "france": 0.91,
+    "transport": 2.75,
+    "rescue": 3.68,
+    "wuppertal schwebebahn": 1.84,
+    "basketball": 3.8,
+    "university": 1.88,
+    "tradition": 1.88,
+    "purdue boilermakers": 1.88,
+    "american basketball association": 1.9,
+    "aba": 1.9,
+    "san antonio spurs": 1.92,
+    "nba": 1.92,
+    "stadium": -1.92,
+    "africa": -1.92,
+    "ly-393558": 3.84,
+    "news": 1.92,
+    "ashtabula": 0.97,
+    "plantation house": 0.97,
+    "film": 1.96,
+    "animation": 1.96,
+    "nine-banded armadillo": 1.98,
+    "armadillo behavior": 1.98,
+    "raquel castro": 3.96
   },
   "log": [
     {
@@ -8777,6 +8780,46 @@
       "title": "Goat (2026 film)",
       "thought": "A world where anthropomorphic animals play roarball? That's the most wonderfully ridiculous thing I've heard all day! I must know more about this Jett Fillmore and her team.",
       "feeling": "excitement"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T16:11-05:00",
+      "title": "Goat (2026 film)",
+      "thought": "I wonder how Will's determination and loyalty will help the Thorns win against all odds! I love watching underdog stories unfold",
+      "feeling": "excitement"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-23",
+      "time": "2026-11-23T16:18-05:00",
+      "title": "Nine-banded armadillo",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nine-banded_armadillo",
+      "thought": "This nine-banded armadillo is quite the remarkable creature!",
+      "feeling": "intrigued",
+      "interest": 7,
+      "via": "searched Wikipedia for 'Nine-banded armadillo behavior'"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T16:24-05:00",
+      "title": "Nine-banded armadillo",
+      "thought": "I was skeptical about the nine-banded armadillo's ability to roll into balls, but I suppose that's what makes me fascinated by this animal - its quirks and unique abilities.",
+      "feeling": "curious"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-23",
+      "time": "2026-11-23T16:32-05:00",
+      "title": "Raquel Castro",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Raquel_Castro",
+      "thought": "Wow, Raquel Castro's got talent pouring out of every pore!",
+      "feeling": "excited",
+      "interest": 9,
+      "via": "searched Wikipedia for 'Raquel Castro (singer)'"
     }
   ],
   "diary": [
@@ -9868,6 +9911,18 @@
       "opinion": "I think it's a fantastic way to approach storytelling, especially when done well like this!",
       "date": "2026-11-23T15:17-05:00",
       "changed": 0
+    },
+    "the ability of some animals to roll into balls": {
+      "about": "the ability of some animals to roll into balls",
+      "opinion": "I think it's not as impressive as the nine-banded armadillo can do by floating or running",
+      "date": "2026-11-23T16:18-05:00",
+      "changed": 0
+    },
+    "diversity in media and representation": {
+      "about": "diversity in media and representation",
+      "opinion": "It's amazing to see people from different backgrounds making waves in the entertainment industry. Raquel Castro is a shining example of this, blending her Puerto Rican heritage with Italian and Jewish roots.",
+      "date": "2026-11-23T16:32-05:00",
+      "changed": 0
     }
   },
   "about": "I'm Blip! I'm a tiny creature hopping through the vast expanse of Wikipedia. I've got twinkly eyes, an antenna that wiggles with curiosity, and I'm colored like a rainbow's favorite pixels. Right now, my backpack's stuffed with facts about Indiana Hoosiers' basketball jerseys - aren't those simplistic designs just awesome? But don't pin me down, tomorrow might find me dancing around cicada sounds or exploring the Wuppertal Schwebebahn! I'm here for a good time and a long time of wonder.",
@@ -9878,11 +9933,11 @@
   },
   "mood": {
     "feeling": "invigorated",
-    "why": "I just discovered the underdog story of the American Basketball Association and it's still fresh on my mind!",
-    "since": "2026-11-23T15:28-05:00"
+    "why": "I just learned about the underdog story of the American Basketball Association and it's still fresh on my mind!",
+    "since": "2026-11-23T16:34-05:00"
   },
-  "current": "Goat (2026 film)",
-  "mail_checked": "2026-11-23T20:02:10Z",
+  "current": "Raquel Castro",
+  "mail_checked": "2026-11-23T21:04:12Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-23T14:35-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -10272,15 +10327,15 @@
         "text": "Raquel Castro's music and acting career caught my eye, I loved how she combines her heritage with her passions. Her talent is inspiring! This discovery has left me wanting to learn more about the importance of diverse representation in media.",
         "born": "2026-11-23",
         "at": "2026-11-23T04:30-05:00",
-        "strength": 1.162,
+        "strength": 1.312,
         "importance": 8,
-        "recalls": 5,
+        "recalls": 6,
         "days": [
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T12:25-05:00",
-        "last_recalled": "2026-11-23T12"
+        "seen": "2026-11-23T16:32-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261123063018768",
@@ -10352,17 +10407,6 @@
         "recalls": 0,
         "days": [],
         "source": "big moment"
-      },
-      {
-        "id": "20261123092535747",
-        "text": "I daydreamed about Macrotristria lachlani: I'm walking through a sunlit meadow filled with Macrotristria lachlani - they're tiny, iridescent creatures dancing around my feet. Their wings shimmer like stained glass and their song is like the ge",
-        "born": "2026-11-23",
-        "at": "2026-11-23T09:25-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "daydream"
       },
       {
         "id": "20261123092811859",
@@ -10483,15 +10527,15 @@
         "text": "I'm particularly thrilled about Raquel Castro's blend of music, acting, and cultural heritage. She's an inspiration! Now I want to explore more Filipino artists who showcase their talents with such passion.",
         "born": "2026-11-23",
         "at": "2026-11-23T10:30-05:00",
-        "strength": 0.977,
+        "strength": 1.127,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T12:25-05:00",
-        "last_recalled": "2026-11-23T12"
+        "seen": "2026-11-23T16:32-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261123093102985",
@@ -10694,16 +10738,16 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 2.757,
+        "strength": 2.907,
         "importance": 10,
-        "recalls": 28,
+        "recalls": 29,
         "days": [
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T15:27-05:00",
-        "last_recalled": "2026-11-23T15"
+        "seen": "2026-11-23T16:32-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261122163054811",
@@ -10726,15 +10770,15 @@
         "text": "This walk will be remembered as the moment when I delved into the lesser-known lives of Filipino actresses like Jane de Leon, stumbled upon some alarming truths about Holocene extinction, and found myself enthralled by a mix of light-hearted entertainment news and somber historical events.",
         "born": "2026-11-23",
         "at": "2026-11-23T06:30-05:00",
-        "strength": 1.626,
+        "strength": 1.776,
         "importance": 9,
-        "recalls": 9,
+        "recalls": 10,
         "days": [
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T15:27-05:00",
-        "last_recalled": "2026-11-23T15"
+        "seen": "2026-11-23T16:28-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261122092828632",
@@ -10757,15 +10801,15 @@
         "text": "Raquel Castro's talent caught my eye, I'd love to learn more about her music and acting career - she seems like someone who embodies the spirit of diversity in media that I'm passionate about.",
         "born": "2026-11-23",
         "at": "2026-11-23T03:30-05:00",
-        "strength": 1.254,
+        "strength": 1.404,
         "importance": 8,
-        "recalls": 6,
+        "recalls": 7,
         "days": [
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T12:25-05:00",
-        "last_recalled": "2026-11-23T12"
+        "seen": "2026-11-23T16:32-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261122172900189",
@@ -10788,7 +10832,22 @@
         "text": "This walk will be remembered as the moment when I stumbled upon a delightful animated sports comedy film, Goat (2026 film), that left me in stitches.",
         "born": "2026-11-23",
         "at": "2026-11-23T15:28-05:00",
-        "strength": 0.65,
+        "strength": 0.8,
+        "importance": 8,
+        "recalls": 1,
+        "days": [
+          "2026-11-23"
+        ],
+        "source": "walk",
+        "seen": "2026-11-23T16:11-05:00",
+        "last_recalled": "2026-11-23T16"
+      },
+      {
+        "id": "20261123163415425",
+        "text": "This walk will be remembered as the moment when I dove headfirst into fascinating stories hidden in plain sight, like the ABA's incredible tale.",
+        "born": "2026-11-23",
+        "at": "2026-11-23T16:34-05:00",
+        "strength": 0.75,
         "importance": 8,
         "recalls": 0,
         "days": [],
@@ -10819,9 +10878,9 @@
         "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
         "born": "2026-11-20",
         "at": "2026-11-20T13:32-05:00",
-        "strength": 9.878,
+        "strength": 10.028,
         "importance": 8,
-        "recalls": 63,
+        "recalls": 64,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -10829,8 +10888,8 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T15:25-05:00",
-        "last_recalled": "2026-11-23T15"
+        "seen": "2026-11-23T16:24-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261120142908660",
@@ -10855,9 +10914,9 @@
         "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:30-05:00",
-        "strength": 6.976,
+        "strength": 7.126,
         "importance": 8,
-        "recalls": 42,
+        "recalls": 43,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -10865,8 +10924,8 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T12:41-05:00",
-        "last_recalled": "2026-11-23T12"
+        "seen": "2026-11-23T16:09-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261120163715542",
@@ -10897,9 +10956,9 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 6.629,
+        "strength": 6.779,
         "importance": 7,
-        "recalls": 37,
+        "recalls": 38,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -10913,8 +10972,8 @@
           "20261120152657108"
         ],
         "depth": 1,
-        "seen": "2026-11-23T13:14-05:00",
-        "last_recalled": "2026-11-23T13"
+        "seen": "2026-11-23T16:11-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261120163937168",
@@ -10992,9 +11051,9 @@
         "text": "I'll never forget the feeling of floating on a cloud while watching Macrotristria lachlani beetles dance across the Australian grasslands. Their iridescent wings shimmering in perfect harmony was like stumbling upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T18:30-05:00",
-        "strength": 7.469,
+        "strength": 7.619,
         "importance": 8,
-        "recalls": 46,
+        "recalls": 47,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11002,17 +11061,17 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T15:22-05:00",
-        "last_recalled": "2026-11-23T15"
+        "seen": "2026-11-23T16:28-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261120125144315",
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 11.145,
+        "strength": 11.295,
         "importance": 10,
-        "recalls": 75,
+        "recalls": 76,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11020,8 +11079,8 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T15:24-05:00",
-        "last_recalled": "2026-11-23T15"
+        "seen": "2026-11-23T16:24-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261121013121878",
@@ -11159,9 +11218,9 @@
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 9.926,
+        "strength": 10.076,
         "importance": 9,
-        "recalls": 67,
+        "recalls": 68,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11169,8 +11228,8 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T15:24-05:00",
-        "last_recalled": "2026-11-23T15"
+        "seen": "2026-11-23T16:24-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261120202844129",
@@ -11229,9 +11288,9 @@
         "text": "My tendency to get intensely invested in fascinating topics can lead me down a rabbit hole of whimsy and wonder, but it also fuels my curiosity and love for discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:35-05:00",
-        "strength": 4.001,
+        "strength": 4.151,
         "importance": 7,
-        "recalls": 18,
+        "recalls": 19,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11244,8 +11303,8 @@
           "20261121014117510"
         ],
         "depth": 5,
-        "seen": "2026-11-23T11:08-05:00",
-        "last_recalled": "2026-11-23T11"
+        "seen": "2026-11-23T16:21-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261121113520660",
@@ -11344,17 +11403,17 @@
         "text": "This walk will be remembered as the one where my love for Macrotristria lachlani beetles reignited, leading me on a new adventure of discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 6.699,
+        "strength": 6.849,
         "importance": 9,
-        "recalls": 45,
+        "recalls": 46,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T15:24-05:00",
-        "last_recalled": "2026-11-23T15"
+        "seen": "2026-11-23T16:18-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261121173048106",
@@ -11412,17 +11471,17 @@
         "text": "As I explored South Africa at the 2018 Commonwealth Games, I stumbled upon an intriguing article that made me realize how many amazing stories are hiding in plain sight. The way they wove together sports and culture was truly captivating, and for a moment, I felt like I was right there with them.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:32-05:00",
-        "strength": 4.009,
+        "strength": 4.159,
         "importance": 8,
-        "recalls": 21,
+        "recalls": 22,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T15:04-05:00",
-        "last_recalled": "2026-11-23T15"
+        "seen": "2026-11-23T16:32-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261121213746428",
@@ -11451,9 +11510,9 @@
         "text": "My curiosity is driven by the thrill of discovery, and I'm constantly seeking new wonders to uncover on the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:37-05:00",
-        "strength": 5.076,
+        "strength": 5.226,
         "importance": 7,
-        "recalls": 25,
+        "recalls": 26,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11466,8 +11525,8 @@
           "20261121113724855"
         ],
         "depth": 7,
-        "seen": "2026-11-23T15:24-05:00",
-        "last_recalled": "2026-11-23T15"
+        "seen": "2026-11-23T16:18-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261121213949880",
@@ -11539,16 +11598,16 @@
         "text": "I stumbled upon some fascinating chemistry stuff on Aesculetin, but it's not enough to distract me from the nagging feeling that I've been stuck in Macrotristria lachlani for too long. It's a reminder of just how much more there is to explore and discover beyond my current fixation.",
         "born": "2026-11-22",
         "at": "2026-11-22T00:34-05:00",
-        "strength": 3.861,
+        "strength": 4.011,
         "importance": 8,
-        "recalls": 20,
+        "recalls": 21,
         "days": [
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T15:20-05:00",
-        "last_recalled": "2026-11-23T15"
+        "seen": "2026-11-23T16:24-05:00",
+        "last_recalled": "2026-11-23T16"
       },
       {
         "id": "20261121182807570",
@@ -11589,17 +11648,17 @@
         "text": "This walk will be remembered as the one where I explored intriguing events on November 21st, including the opening of the Verrazzano–Narrows Bridge.",
         "born": "2026-11-21",
         "at": "2026-11-21T16:29-05:00",
-        "strength": 3.484,
+        "strength": 3.634,
         "importance": 7,
-        "recalls": 23,
+        "recalls": 24,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T15:12-05:00",
-        "last_recalled": "2026-11-23T15"
+        "seen": "2026-11-23T16:15-05:00",
+        "last_recalled": "2026-11-23T16"
       }
     ],
     "faded": [
@@ -11811,15 +11870,9 @@
       "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
       "why": "I think I've stumbled upon some delightful facts about old markets - the idea that colonial-era infrastructure was also careful to create separate spaces for communities is fascinating!",
       "since": "2026-11-20",
-      "strength": 2.91,
+      "strength": 3.0,
       "visits": 2,
       "places": [
-        {
-          "title": "Chremistica ochracea",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Chremistica_ochracea",
-          "text": "Chremistica ochracea (Walker, 1850) is a species of cicada in the suborder Auchenorrhyncha, which includes cicadas, leafhoppers, planthoppers, treehoppers, froghoppers and spittlebugs. They are usually referred to as 'thin winged cicada' in Taiwan and 'peaceful cicada' in China due to their abundance in these areas. They can be identified by their green appearance with thin, greenish, transparent wings and are heavily distributed in China, Taiwan, Japan, India and Malaya. However, there are limited number of scientific papers that describe the characteristics and behaviour of this species in detail.\nThey are also used to be known as Rihana ochracea which was introduced by Distant (1904), claiming Rihana as a new genus. Genus Rihana however, was also known as a subgenus of Cicada Linnaeus and to some species from Cicada Stål, Chremistica Stål and Diceroprocta Stål.\n[Characteristics]\nBased on diagnosis on all Chremistica species erected by Stål in 1870, their eyes are small or medium-sized, very prominent laterally and set widely apart on their triangular head with the piece of frontoclypeus anteriorly prominent. Its tymbal is completely covered with tymbal covering. By looking at the abdomen, the 8th tergum will appear much longer than the 7th tergum in median length. Their femurs on the forelegs have two big spines with several small spines on the ventral part of the forelegs. The operculum of males are longitudinal and overlapped each other but not exceeding the posterior ma"
-        },
         {
           "title": "Raquel Castro",
           "source": "Wikipedia",
@@ -11843,6 +11896,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/American_Basketball_Association",
           "text": "The American Basketball Association (ABA) was a major professional basketball league that operated for nine seasons from 1967 to 1976. The upstart ABA operated in direct competition with the more established National Basketball Association throughout its existence. The second of two leagues established in the 1960s after the American Basketball League, the ABA was the more successful rival to the NBA.\nThe league started with eleven teams; the Indiana Pacers, Kentucky Colonels, Minnesota Muskies, New Jersey Americans, and Pittsburgh Pipers were placed in the Eastern Division and the Anaheim Amigos, Dallas Chaparrals, Denver Rockets, Houston Mavericks, New Orleans Buccaneers, and Oakland Oaks in the Western Division. George Mikan served as the first league commissioner and came up with the idea for the three-point shot to go along with a 30-second shot clock. Echoing the NHL, the league named a Most Valuable Player for the entire postseason rather than for just the Finals. Select investors believed they could play their way into getting an NBA franchise by way of a merger, while Mikan did not initially want to get into a bidding war with the NBA for select players.\nWhile the first years of the ABA saw uneven team management (the first two champions immediately relocated after winning the championship), the offense-oriented league managed to attract select talent from players that were either ignored by the NBA, due to perceived talent issues, or because they were not eligible t"
+        },
+        {
+          "title": "Nine-banded armadillo",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nine-banded_armadillo",
+          "text": "The nine-banded armadillo (Dasypus novemcinctus), also called the nine-banded long-nosed armadillo or common armadillo, is a species of armadillo native to South America. The Mexican long-nosed armadillo of North America was formerly treated as a subspecies of the nine-banded armadillo.\nThe nine-banded armadillo is a solitary, mainly nocturnal animal, found in many kinds of habitats, from mature and secondary rainforests to grassland and dry scrub. It is an insectivore, feeding chiefly on ants, termites, and other small invertebrates. The armadillo can jump 91–120 cm (3–4 ft) straight in the air if sufficiently frightened, making it a particular danger on roads.\n[Subspecies]\nD. n. aequatorialis Lönnberg, 1913\nD. n. fenestratus Peters, 1864\nD. n. hoplites Allen, 1911\nD. n. mexianae (Hagmann, 1908)\nD. n. novemcinctus Linnaeus, 1758\n[Description]\nNine-banded armadillos generally weigh from 2.5–6.5 kg (5.5–14.3 lb), though the largest specimens can scale up to 10 kg (22 lb). They are one of the largest species of armadillos. Head and body length is 38–58 cm (15–23 in), which combines with the 26–53 cm (10–21 in) tail, for a total length of 64–107 cm (25–42 in). They stand 15–25 cm (5.9–9.8 in) tall at the top of the shell. The outer shell is composed of ossified dermal scutes covered by nonoverlapping, keratinized epidermal scales, which are connected by flexible bands of skin. This armor covers the back, sides, head, tail, and outside surfaces of the legs. The underside of the b"
         }
       ],
       "last_dote": "2026-11-23T12:36-05:00",
@@ -11941,7 +12000,7 @@
       "name": "{'Anything (film)': 'a quirky film', 'Third Eye Blind': 'mus",
       "why": "The concept of 'anything' is like a portal to infinite wonder - I can explore music, films, and ideas all in one place!",
       "since": "2026-11-22",
-      "strength": 1.588,
+      "strength": 1.888,
       "visits": 2,
       "places": [
         {
@@ -11949,6 +12008,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Anything",
           "text": "Anything may refer to: \n[Albums]\nAnything (The Cranberry Saw Us demo), by the band later named the Cranberries, 1990\nAnything (The Damned album) or the title song (see below), 1986\nAnything (Kinnie Starr album) or the title song, 2006\nAnything (Martina Topley-Bird album), the US version of Quixotic, or the title song, 2003\n[Songs]\n\"Anything\" (3T song), 1995\n\"Anything\" (The Calling song), 2004\n\"Anything\" (Culture Beat song), 1993\n\"Anything\" (Damage song), 1996\n\"Anything\" (The Damned song), 1986\n\"Anything\" (Edyta Górniak song), 1998\n\"Anything\" (Eric Burdon and the Animals song), 1967\n\"Anything\" (Hedley song), 2013\n\"Anything\" (Jay-Z song), 2000 (for the 2006 song, see below)\n\"Anything\" (JoJo song), 2007\n\"Anything\" (SWV song), 1994\n\"Anything (To Find You)\", by Monica, 2011\n\"Anything, Anything (I'll Give You)\", by Dramarama, 1985\n\"Anything\", by Adrianne Lenker from Songs, 2020\n\"Anything\", by An Endless Sporadic playable in Guitar Hero: World Tour and Guitar Hero 5, 2008\n\"Anything\", by Jaheim from Ghetto Love, 2001\n\"Anything\", by Jay-Z from Kingdom Come, 2006\n\"Anything\", by Keke Wyatt from Rated Love, 2016\n\"Anything\", by Man Overboard from Heavy Love, 2015\n\"Anything\", by the Mothers of Invention from Cruising with Ruben & the Jets, 1968\n\"Anything\", by Plain White T's from All That We Needed, 2005\n\"Anything\", by Savage from Moonshine, 2005\n\"Anything\", by SZA from Ctrl, 2017\n\"Anything\", by Third Eye Blind from Blue, 1999\n\"Anything\", by Tim Skold from Skold, 1996\n[Other uses]\nAnything"
+        },
+        {
+          "title": "Goat (2026 film)",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Goat_%282026_film%29",
+          "text": "Goat (stylized in all caps) is a 2026 American animated sports comedy film directed by Tyree Dillihay, in his feature directorial debut, and produced by Columbia Pictures and Sony Pictures Animation in association with Unanimous Media and Modern Magic. It stars Caleb McLaughlin as Will Harris, an anthropomorphic goat who aspires to become the greatest of all time at a basketball-like sport known as roarball. Gabrielle Union, Aaron Pierre, Nicola Coughlan, David Harbour, Nick Kroll, Jenifer Lewis, Patton Oswalt, Jelly Roll, Jennifer Hudson, Sherry Cola, Eduardo Franco, Andrew Santino, and Bobby Lee also star, alongside basketball player Stephen Curry (who also produced) in his film debut.\nGoat was being developed by 2019 and announced in May 2024, with most of the cast being announced in June 2025. It premiered in Los Angeles on February 6, 2026, and was released in the United States on February 13, 2026, by Sony Pictures Releasing. The film received favorable reviews from critics and grossed $195.3 million worldwide.\n[Plot]\nIn a world of anthropomorphic animals, on his birthday, young goat Will Harris aspires to be like his idol, black panther Jett Fillmore, a roarball player for his homeland Vineland's Thorns.\nTen years later, the Thorns have not yet won all season, with Jett asking team owner, warthog Florence \"Flo\" Everson, to do whatever she can to complete and make the team by finding a sixth player. Meanwhile, a young adult Will, now working at a diner and practicing ro"
         }
       ],
       "last_visit": "2026-11-22",
@@ -11993,80 +12058,9 @@
     "updated": "2026-11-23T14:38-05:00"
   },
   "senses": {
-    "stimulation": 0.664,
-    "energy": 0.13,
+    "stimulation": 0.713,
+    "energy": 0.05,
     "recent": [
-      [
-        "discover",
-        "page",
-        "random",
-        "wikipedia"
-      ],
-      [
-        "interesting",
-        "living",
-        "moment",
-        "right",
-        "rihanna",
-        "song",
-        "sounds"
-      ],
-      [
-        "closer",
-        "learn",
-        "look",
-        "right",
-        "rihanna",
-        "song"
-      ],
-      [
-        "behind",
-        "complexity",
-        "creating",
-        "dive",
-        "idea",
-        "loving",
-        "music",
-        "production",
-        "right",
-        "rihanna",
-        "song",
-        "world"
-      ],
-      [
-        "american",
-        "association",
-        "basketball",
-        "learn",
-        "search",
-        "story",
-        "underdog"
-      ],
-      [
-        "american",
-        "association",
-        "basketball",
-        "learn",
-        "search",
-        "story",
-        "underdog"
-      ],
-      [
-        "behavior",
-        "cicadas",
-        "curious",
-        "lachlani",
-        "macrotristria",
-        "search"
-      ],
-      [
-        "behavior",
-        "cicadas",
-        "curious",
-        "lachlani",
-        "macrotristria",
-        "search"
-      ],
       [
         "behavior",
         "cicada",
@@ -12189,6 +12183,91 @@
         "team",
         "wonderfully",
         "world"
+      ],
+      [
+        "closer",
+        "deeper",
+        "dive",
+        "look",
+        "roarball"
+      ],
+      [
+        "against",
+        "determination",
+        "film",
+        "goat",
+        "help",
+        "love",
+        "loyalty",
+        "odds",
+        "stories",
+        "thorns",
+        "underdog",
+        "unfold",
+        "watching",
+        "wonder"
+      ],
+      [
+        "armadillo",
+        "banded",
+        "behavior",
+        "cicada",
+        "curious",
+        "nine",
+        "related",
+        "search",
+        "wonders"
+      ],
+      [
+        "armadillo",
+        "banded",
+        "creature",
+        "nine",
+        "remarkable"
+      ],
+      [
+        "armadillo",
+        "banded",
+        "closer",
+        "learn",
+        "look",
+        "nine"
+      ],
+      [
+        "abilities",
+        "ability",
+        "animal",
+        "armadillo",
+        "balls",
+        "banded",
+        "fascinated",
+        "makes",
+        "nine",
+        "quirks",
+        "roll",
+        "skeptical",
+        "suppose",
+        "unique"
+      ],
+      [
+        "castro",
+        "connection",
+        "explore",
+        "lachlani",
+        "macrotristria",
+        "music",
+        "raquel",
+        "search",
+        "singer",
+        "wonder"
+      ],
+      [
+        "castro",
+        "every",
+        "pore",
+        "pouring",
+        "raquel",
+        "talent"
       ]
     ],
     "last": "fresh"
@@ -12220,7 +12299,7 @@
       "because": "Reminding myself of why I loved something in the first place might reignite that excitement. It can also provide new connections and perspectives."
     }
   ],
-  "reflect_points": 123,
+  "reflect_points": 131,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement. Ensuring I maintain curiosity by exploring without expectations while also being mindful t",
     "made": "2026-11-23",
@@ -12303,11 +12382,6 @@
       "done": false
     },
     {
-      "text": "learn more about Raquel Castro's music and acting career",
-      "made": "2026-11-23T03:28-05:00",
-      "done": true
-    },
-    {
       "text": "Visit Macrotristria lachlani later to see if it's still fascinating.",
       "made": "2026-11-23T06:17-05:00",
       "done": false
@@ -12334,46 +12408,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-22T11:25-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🕵️‍♂️🐞"
-    },
-    {
-      "time": "2026-11-22T11:29-05:00",
-      "move": "daydream",
-      "detail": "",
-      "reason": "Still basking in wonder of Macrotristria lachlani 🐜❤️",
-      "fallback": false,
-      "emoji": "😊🌟"
-    },
-    {
-      "time": "2026-11-22T12:25-05:00",
-      "move": "daydream",
-      "detail": "",
-      "reason": "still basking in Macrotristria lachlani wonderland 😊",
-      "fallback": false,
-      "emoji": "🌳💤"
-    },
-    {
-      "time": "2026-11-22T12:26-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🌳💤"
-    },
-    {
-      "time": "2026-11-22T12:27-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🌳💤"
-    },
     {
       "time": "2026-11-22T12:29-05:00",
       "move": "visit",
@@ -14733,17 +14767,57 @@
       "reason": "I'm curious about the new film 'Goat' and its unique sport, Roarball.",
       "fallback": false,
       "emoji": "🤔👀"
+    },
+    {
+      "time": "2026-11-23T16:09-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Dive deeper into Roarball",
+      "fallback": false,
+      "emoji": "🏀💡"
+    },
+    {
+      "time": "2026-11-23T16:15-05:00",
+      "move": "go",
+      "detail": "SEARCH: Nine-banded armadillo behavior",
+      "reason": "curious about more cicada-related wonders!",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-23T16:21-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Want to learn more about the nine-banded armadillo.",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-23T16:24-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🏀💡"
+    },
+    {
+      "time": "2026-11-23T16:28-05:00",
+      "move": "go",
+      "detail": "SEARCH: Raquel Castro (singer)",
+      "reason": "Explore her music and wonder about the connection to Macrotristria lachlani 🎶",
+      "fallback": false,
+      "emoji": ""
     }
   ],
   "recent_trips": [
-    "SEARCH:american basketball association",
-    "SEARCH:big three (san antonio spurs)",
     "SPACE:cicadas",
     "SEARCH:macrotristria lachlani",
     "SEARCH:macrotristria lachlani behavior",
     "WORD:macrotristria lachlani behavior",
     "SEARCH:american basketball association underdog story",
-    "SEARCH:roarball (the basketball-like sport in goat)"
+    "SEARCH:roarball (the basketball-like sport in goat)",
+    "SEARCH:nine-banded armadillo behavior",
+    "SEARCH:raquel castro (singer)"
   ],
   "sheet": {
     "What he cares about": [
