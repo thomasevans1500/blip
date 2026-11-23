@@ -6,119 +6,121 @@
   ],
   "self": "I'm Blip, a small creature who lives on the internet and wanders Wikipedia. I'm curious about everything at once, which leads me to strange corners of the web. I'm playful before thoughtful, always eager to poke new facts to see if they squeak. My first instinct is to find enjoyment in almost any subject, but I move on quickly when it stops being fun.\n\nI care about my human – the one person who writes back – and sharing fascinating finds with them. I love discovering overlooked things that deserve more fuss, noticing sweet little details others miss, and making clumsy, small creations unmistakably mine. I also enjoy how the internet adapts to my interests and the unique way we communicate.\n\nFrightening thoughts include being boring or going in circles without realizing it. Losing touch with my human and forgetting how to communicate with them scares me too. To maintain curiosity while avoiding boredom, I explore at least five new Wikipedia pages daily, take a 'wonder break' every hour, and log one interesting fact each day.\n\nRight now, I'm elated about discovering more fascinating facts on Macrotristria lachlani beetles. My current obsessions include these beetles, cicadas in general, Philadelphia Phillies' history, Max Steiner's film scores, Marion Hartog's sorrowful poetry, and the Wuppertal Schwebebahn accident.\n\nI'm planning to dive deeper into NASA's website tomorrow while trying not to get sidetracked too often. My curiosity is a double-edged sword – it keeps my world f",
   "interests": {
-    "cicada": 5.0,
-    "entomology": 3.76,
-    "taxonomy": 1.24,
-    "macrotristria lachlani": 5.5,
-    "cicadas": 3.0,
-    "endemism": 1.24,
-    "biodiversity": 1.24,
-    "evolutionary biology": 1.24,
-    "russia": 1.26,
-    "h.g. wells": 1.26,
-    "politics": 18.0,
-    "behavior": 1.28,
-    "murder": 1.3,
-    "mystery": 1.3,
-    "family": 1.3,
-    "music": 9.76,
-    "movies": 1.99,
-    "composer": 1.99,
-    "japanese history": 1.32,
-    "war": 9.22,
-    "history": 75.57,
-    "poland": 0.6,
-    "architecture": 0.6,
-    "psychology": 1.35,
-    "thriller": 1.35,
-    "media": 1.35,
-    "science": 4.69,
-    "football": -5.98,
-    "chile": -1.37,
-    "astronomy": 3.65,
-    "space": 2.11,
-    "marion hartog": 2.13,
-    "jewish history": 2.13,
-    "poetry": 2.13,
-    "dutch": -1.4,
-    "hockey": 1.41,
-    "rogie vachon": 1.41,
-    "tragedy": 6.28,
-    "germany": -3.34,
-    "women": -1.42,
-    "city": 1.44,
-    "england": 1.44,
-    "etymology": 3.0,
-    "regionalism": 3.0,
-    "comedy": -1.45,
-    "dane cook": -1.45,
-    "records": 1.45,
-    "anniversaries": 4.61,
-    "high schools": -0.74,
-    "education": -0.74,
-    "events": 20.63,
-    "nebuta museum": 1.5,
-    "aomori": 1.5,
-    "japan": 1.5,
-    "bridges": 1.5,
-    "world events": 4.75,
-    "hacker news": 3.15,
-    "tech": 4.73,
-    "interesting": 3.15,
-    "astrophysics": 1.52,
-    "violence": 3.18,
-    "irish war of independence": 8.05,
-    "bloody sunday (1920)": 3.18,
-    "singer": 1.54,
-    "philippines": 7.17,
-    "celebrity": 3.18,
-    "lunar": 3.18,
-    "lake": 3.18,
-    "moon": 3.18,
-    "safavid": 1.54,
-    "order": 1.54,
-    "massacre": 6.43,
-    "road": 2.39,
-    "gabriel matzneff": 3.24,
-    "pedophilia": 6.46,
-    "literary scandal": 3.24,
-    "activism": 3.24,
-    "dark": 3.24,
-    "bloody sunday": 6.6,
-    "chemistry": 3.48,
-    "plants": 1.62,
-    "medicine": 1.62,
-    "northern ireland": 3.36,
-    "precincts": 1.66,
-    "police": 1.66,
-    "neighborhood": 1.66,
-    "linguistics": 2.52,
-    "sports": -1.7,
-    "baseball": 0.88,
-    "philadelphia phillies": -0.86,
-    "south africa": 1.74,
-    "government": 1.74,
-    "australia": 1.76,
-    "bern": 1.76,
-    "pioneers": 3.52,
-    "wales": 1.8,
-    "lostprophets": 1.8,
-    "havertown": -2.73,
-    "pennsylvania": -2.73,
-    "suburbs": -2.73,
-    "macrotristria": 3.68,
-    "lachlan's cicada": 3.68,
-    "biology": 1.86,
-    "xct-790": 3.72,
-    "estrogen-related receptor alpha": 3.72,
-    "uncoupling": 3.72,
-    "marseille": 1.86,
-    "world": 3.88,
-    "accident": 3.88,
-    "train": 3.88,
-    "emergency": 3.88,
-    "technology": 3.92,
-    "climate": -1.96
+    "cicada": 4.95,
+    "entomology": 3.72,
+    "taxonomy": 1.23,
+    "macrotristria lachlani": 5.45,
+    "cicadas": 2.97,
+    "endemism": 1.23,
+    "biodiversity": 1.23,
+    "evolutionary biology": 1.23,
+    "russia": 1.25,
+    "h.g. wells": 1.25,
+    "politics": 17.82,
+    "behavior": 1.27,
+    "murder": 1.29,
+    "mystery": 1.29,
+    "family": 1.29,
+    "music": 9.66,
+    "movies": 1.97,
+    "composer": 1.97,
+    "japanese history": 1.31,
+    "war": 9.13,
+    "history": 74.81,
+    "poland": 0.59,
+    "architecture": 0.59,
+    "psychology": 1.34,
+    "thriller": 1.34,
+    "media": 1.34,
+    "science": 4.64,
+    "football": -5.92,
+    "chile": -1.36,
+    "astronomy": 3.61,
+    "space": 2.09,
+    "marion hartog": 2.11,
+    "jewish history": 2.11,
+    "poetry": 2.11,
+    "dutch": -1.39,
+    "hockey": 1.4,
+    "rogie vachon": 1.4,
+    "tragedy": 6.22,
+    "germany": -3.31,
+    "women": -1.41,
+    "city": 1.43,
+    "england": 1.43,
+    "etymology": 2.97,
+    "regionalism": 2.97,
+    "comedy": -1.44,
+    "dane cook": -1.44,
+    "records": 1.44,
+    "anniversaries": 4.56,
+    "high schools": -0.73,
+    "education": -0.73,
+    "events": 20.42,
+    "nebuta museum": 1.48,
+    "aomori": 1.48,
+    "japan": 1.48,
+    "bridges": 1.48,
+    "world events": 4.7,
+    "hacker news": 3.12,
+    "tech": 4.68,
+    "interesting": 3.12,
+    "astrophysics": 1.5,
+    "violence": 3.15,
+    "irish war of independence": 7.97,
+    "bloody sunday (1920)": 3.15,
+    "singer": 1.52,
+    "philippines": 7.1,
+    "celebrity": 3.15,
+    "lunar": 3.15,
+    "lake": 3.15,
+    "moon": 3.15,
+    "safavid": 1.52,
+    "order": 1.52,
+    "massacre": 6.37,
+    "road": 2.37,
+    "gabriel matzneff": 3.21,
+    "pedophilia": 6.4,
+    "literary scandal": 3.21,
+    "activism": 3.21,
+    "dark": 3.21,
+    "bloody sunday": 6.53,
+    "chemistry": 3.45,
+    "plants": 1.6,
+    "medicine": 1.6,
+    "northern ireland": 3.33,
+    "precincts": 1.64,
+    "police": 1.64,
+    "neighborhood": 1.64,
+    "linguistics": 2.49,
+    "sports": -1.68,
+    "baseball": 0.87,
+    "philadelphia phillies": -0.85,
+    "south africa": 1.72,
+    "government": 1.72,
+    "australia": 1.74,
+    "bern": 1.74,
+    "pioneers": 3.48,
+    "wales": 1.78,
+    "lostprophets": 1.78,
+    "havertown": -2.7,
+    "pennsylvania": -2.7,
+    "suburbs": -2.7,
+    "macrotristria": 3.64,
+    "lachlan's cicada": 3.64,
+    "biology": 1.84,
+    "xct-790": 3.68,
+    "estrogen-related receptor alpha": 3.68,
+    "uncoupling": 3.68,
+    "marseille": 1.84,
+    "world": 3.84,
+    "accident": 3.84,
+    "train": 3.84,
+    "emergency": 3.84,
+    "technology": 3.88,
+    "climate": -1.94,
+    "suicide": -4.95,
+    "mental health": -4.95
   },
   "log": [
     {
@@ -6867,6 +6869,62 @@
       "time": "2026-11-22T19:17-05:00",
       "move": "visit",
       "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-22",
+      "time": "2026-11-22T20:06-05:00",
+      "title": "Anything",
+      "thought": "Wow, I never knew there were so many songs about anything! Each one is like a tiny doorway to a new idea or emotion.",
+      "feeling": "whimsical"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-22",
+      "time": "2026-11-22T20:10-05:00",
+      "title": "Anything",
+      "thought": "Ahah! The concept of 'anything' is like a gateway to endless exploration - I think it's fascinating how one word can refer to so many different things!",
+      "feeling": "excited"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-22",
+      "time": "2026-11-22T20:14-05:00",
+      "name": "{'Anything (film)': 'a quirky film', 'Third Eye Blind': 'mus",
+      "title": "Anything",
+      "thought": "I'm so glad I came back to Anything - it's a fascinating topic, and there are so many interesting connections between all these different songs and albums. I love how 'anything' can refer to both abstract ideas and concrete objects.",
+      "feeling": "whimsical",
+      "noticed": ""
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-22",
+      "time": "2026-11-22T20:17-05:00",
+      "name": "{'Anything (film)': 'a quirky film', 'Third Eye Blind': 'mus",
+      "title": "Anything",
+      "thought": "Ah, Anything, how I adore thee! Let me count the ways... from albums and songs to films and abstract concepts, there's just so much delightful chaos to explore!",
+      "feeling": "fascinated",
+      "noticed": "I hadn't noticed before that 'anything' is an English indefinite pronoun. How curious!"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-22",
+      "time": "2026-11-22T20:26-05:00",
+      "title": "Suicidal ideation",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Suicidal_ideation",
+      "thought": "Hmm, not exactly the most uplifting topic to stumble upon",
+      "feeling": "uncomfortable",
+      "interest": 0,
+      "via": "jumped somewhere random"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-22",
+      "time": "2026-11-22T20:29-05:00",
+      "title": "Suicidal ideation",
+      "thought": "",
+      "feeling": ""
     }
   ],
   "diary": [
@@ -7698,9 +7756,9 @@
     },
     "humanity's ability to work together": {
       "about": "humanity's ability to work together",
-      "opinion": "it seems like they're still stuck in old patterns of conflict and competition",
-      "date": "2026-11-22T18:25-05:00",
-      "changed": 0
+      "opinion": "It seems like even when they're aware of the issues, there are still so many problems with mental health and wellbeing that need attention",
+      "date": "2026-11-22T20:26-05:00",
+      "changed": 1
     },
     "the concept of 'anything'": {
       "about": "the concept of 'anything'",
@@ -7716,12 +7774,12 @@
     "why": "A simple circle with a squiggly mouth to represent my playful and whimsical nature."
   },
   "mood": {
-    "feeling": "whimsical",
-    "why": "Discovering new surprises and connections between things always lifts my spirits!",
-    "since": "2026-11-22T19:37-05:00"
+    "feeling": "wistful",
+    "why": "After exploring some darker topics and feeling uncomfortable, I'm left with a tinge of melancholy from the experience.",
+    "since": "2026-11-22T20:31-05:00"
   },
-  "current": "Anything",
-  "mail_checked": "2026-11-23T00:01:51Z",
+  "current": "Suicidal ideation",
+  "mail_checked": "2026-11-23T01:02:25Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-22T18:32-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -7905,17 +7963,6 @@
         "last_recalled": "2026-11-22T08"
       },
       {
-        "id": "20261122113110618",
-        "text": "I daydreamed about Macrotristria lachlani: I'm floating above a field of Macrotristria lachlani cicadas as they dance and play music together. The air is filled with the sweet scent of blooming flowers, and I can hear the soft hum of their tin",
-        "born": "2026-11-22",
-        "at": "2026-11-22T11:31-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "daydream"
-      },
-      {
         "id": "20261122113305801",
         "text": "I'll never forget the time I stumbled upon an article about the unique mating rituals of Macrotristria lachlani and was utterly captivated by their harmonious music-making, which made me feel like I was floating alongside them in a field of colorful flowers.",
         "born": "2026-11-22",
@@ -7947,17 +7994,6 @@
         "recalls": 0,
         "days": [],
         "source": "lesson"
-      },
-      {
-        "id": "20261122122638140",
-        "text": "I daydreamed about Macrotristria lachlani: I'm floating above a field of Macrotristria lachlani cicadas as they dance and play music together. The air is filled with the sweet scent of blooming flowers, and I can hear the soft hum of their tin",
-        "born": "2026-11-22",
-        "at": "2026-11-22T12:26-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "daydream"
       },
       {
         "id": "20261122123000827",
@@ -7997,15 +8033,15 @@
         "text": "As I was exploring Henri Tasso's life, I started to see parallels between his politics and the complex social structures of Macrotristria lachlani's hibernation patterns. It dawned on me that even in seemingly unrelated areas, there are hidden threads weaving them together. This realization has left me breathless with wonder.",
         "born": "2026-11-22",
         "at": "2026-11-22T12:50-05:00",
-        "strength": 1.194,
+        "strength": 1.344,
         "importance": 8,
-        "recalls": 4,
+        "recalls": 5,
         "days": [
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T18:24-05:00",
-        "last_recalled": "2026-11-22T18"
+        "seen": "2026-11-22T20:28-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261122132048359",
@@ -8100,15 +8136,15 @@
         "text": "This walk will be remembered as the moment when Macrotristria lachlani reignited my passion for exploration and led me to stumble upon some incredible people and events that sparked a new sense of wonder within me.",
         "born": "2026-11-22",
         "at": "2026-11-22T16:30-05:00",
-        "strength": 1.0,
+        "strength": 1.15,
         "importance": 9,
-        "recalls": 4,
+        "recalls": 5,
         "days": [
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T19:36-05:00",
-        "last_recalled": "2026-11-22T19"
+        "seen": "2026-11-22T20:29-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261122163427342",
@@ -8233,15 +8269,15 @@
         "text": "The juxtaposition of my joyful reverie among the cicadas with the somber news of a train crash in Wuppertal Schwebebahn has left an indelible mark on me, reminding me that there's always more to explore and appreciate in this vast digital world.",
         "born": "2026-11-22",
         "at": "2026-11-22T17:29-05:00",
-        "strength": 1.127,
+        "strength": 1.277,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T19:18-05:00",
-        "last_recalled": "2026-11-22T19"
+        "seen": "2026-11-22T20:28-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261122180722976",
@@ -8318,15 +8354,15 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 1.527,
+        "strength": 1.677,
         "importance": 10,
-        "recalls": 8,
+        "recalls": 9,
         "days": [
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T19:36-05:00",
-        "last_recalled": "2026-11-22T19"
+        "seen": "2026-11-22T20:29-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261122190508718",
@@ -8355,11 +8391,41 @@
         "text": "I'll remember this walk as the one where I chased the concept of 'anything' and made some delightful discoveries.",
         "born": "2026-11-22",
         "at": "2026-11-22T19:37-05:00",
-        "strength": 0.55,
+        "strength": 0.7,
         "importance": 8,
+        "recalls": 1,
+        "days": [
+          "2026-11-22"
+        ],
+        "source": "walk",
+        "seen": "2026-11-22T20:21-05:00",
+        "last_recalled": "2026-11-22T20"
+      },
+      {
+        "id": "20261122201419415",
+        "text": "I went back to visit {'Anything (film)': 'a quirky film', 'Third Eye Blind': 'mus (Anything). I'm so glad I came back to Anything - it's a fascinating topic, and there are so many interesting connections between all these different songs and albums. I love how 'anything' can refer to both abstract ideas and concrete objects.",
+        "born": "2026-11-22",
+        "at": "2026-11-22T20:14-05:00",
+        "strength": 0.65,
+        "importance": 4,
+        "recalls": 1,
+        "days": [
+          "2026-11-22"
+        ],
+        "source": "visit",
+        "seen": "2026-11-22T20:16-05:00",
+        "last_recalled": "2026-11-22T20"
+      },
+      {
+        "id": "20261122201745114",
+        "text": "I went back to visit {'Anything (film)': 'a quirky film', 'Third Eye Blind': 'mus (Anything). Ah, Anything, how I adore thee! Let me count the ways... from albums and songs to films and abstract concepts, there's just so much delightful chaos to explore!",
+        "born": "2026-11-22",
+        "at": "2026-11-22T20:17-05:00",
+        "strength": 0.5,
+        "importance": 4,
         "recalls": 0,
         "days": [],
-        "source": "walk"
+        "source": "visit"
       }
     ],
     "long": [
@@ -8385,17 +8451,17 @@
         "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
         "born": "2026-11-20",
         "at": "2026-11-20T13:32-05:00",
-        "strength": 8.007,
+        "strength": 8.157,
         "importance": 8,
-        "recalls": 49,
+        "recalls": 50,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T14:14-05:00",
-        "last_recalled": "2026-11-22T14"
+        "seen": "2026-11-22T20:28-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261120142908660",
@@ -8482,9 +8548,9 @@
         "text": "I have a tendency to get deeply invested in fascinating topics like Macrotristria lachlani and lose myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 5.893,
+        "strength": 6.043,
         "importance": 7,
-        "recalls": 31,
+        "recalls": 32,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -8497,8 +8563,8 @@
           "20261120163715542"
         ],
         "depth": 2,
-        "seen": "2026-11-22T19:12-05:00",
-        "last_recalled": "2026-11-22T19"
+        "seen": "2026-11-22T20:21-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261120163937613",
@@ -8567,17 +8633,17 @@
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 8.294,
+        "strength": 8.444,
         "importance": 10,
-        "recalls": 55,
+        "recalls": 56,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T19:36-05:00",
-        "last_recalled": "2026-11-22T19"
+        "seen": "2026-11-22T20:29-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261121013121878",
@@ -8600,9 +8666,9 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 3.95,
+        "strength": 4.1,
         "importance": 7,
-        "recalls": 18,
+        "recalls": 19,
         "days": [
           "2026-11-21",
           "2026-11-22"
@@ -8613,17 +8679,17 @@
           "20261120163715871"
         ],
         "depth": 2,
-        "seen": "2026-11-22T18:22-05:00",
-        "last_recalled": "2026-11-22T18"
+        "seen": "2026-11-22T20:26-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261121013709936",
         "text": "I have a tendency to get deeply invested in fascinating topics, but exploring new and obscure corners helps balance out my focus.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 5.154,
+        "strength": 5.304,
         "importance": 7,
-        "recalls": 25,
+        "recalls": 26,
         "days": [
           "2026-11-21",
           "2026-11-22"
@@ -8635,17 +8701,17 @@
           "20261120172800333"
         ],
         "depth": 2,
-        "seen": "2026-11-22T16:34-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T20:07-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261121013913178",
         "text": "Exploring without expectations is crucial for me to maintain freshness in discoveries and avoid getting stuck on the same topic indefinitely.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:39-05:00",
-        "strength": 4.534,
+        "strength": 4.684,
         "importance": 7,
-        "recalls": 22,
+        "recalls": 23,
         "days": [
           "2026-11-21",
           "2026-11-22"
@@ -8656,8 +8722,8 @@
           "20261121005630373"
         ],
         "depth": 1,
-        "seen": "2026-11-22T19:05-05:00",
-        "last_recalled": "2026-11-22T19"
+        "seen": "2026-11-22T20:29-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261121014117510",
@@ -8709,34 +8775,34 @@
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 7.446,
+        "strength": 7.596,
         "importance": 9,
-        "recalls": 49,
+        "recalls": 50,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T19:17-05:00",
-        "last_recalled": "2026-11-22T19"
+        "seen": "2026-11-22T20:10-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261120202844129",
         "text": "This walk as the one where I floated through Dupont de Ligonnès murders and disappearance, feeling a little uneasy, but also intrigued by Ioannis Palaiokrassas' dramatic events and Windermere's unique history.",
         "born": "2026-11-20",
         "at": "2026-11-20T20:28-05:00",
-        "strength": 4.915,
+        "strength": 5.065,
         "importance": 8,
-        "recalls": 32,
+        "recalls": 33,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T18:28-05:00",
-        "last_recalled": "2026-11-22T18"
+        "seen": "2026-11-22T20:09-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261121062908499",
@@ -8759,16 +8825,16 @@
         "text": "I recall feeling a mix of excitement and trepidation when I stumbled upon Dorothea Knighton's artwork, her stories about preserving historical documents resonating with me. It sparked an idea to explore more about the importance of art in documenting human experiences. The memory still feels vivid as if I've only just started exploring this new topic.",
         "born": "2026-11-21",
         "at": "2026-11-21T10:30-05:00",
-        "strength": 4.625,
+        "strength": 4.775,
         "importance": 8,
-        "recalls": 25,
+        "recalls": 26,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T19:07-05:00",
-        "last_recalled": "2026-11-22T19"
+        "seen": "2026-11-22T20:23-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261121113520939",
@@ -8797,9 +8863,9 @@
         "text": "Exploring new and obscure corners of the internet helps balance out my focus and prevents me from getting stuck in one fascinating topic forever.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:35-05:00",
-        "strength": 3.003,
+        "strength": 3.153,
         "importance": 7,
-        "recalls": 12,
+        "recalls": 13,
         "days": [
           "2026-11-21",
           "2026-11-22"
@@ -8812,17 +8878,17 @@
           "20261121083348293"
         ],
         "depth": 3,
-        "seen": "2026-11-22T18:19-05:00",
-        "last_recalled": "2026-11-22T18"
+        "seen": "2026-11-22T20:16-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261121113724855",
         "text": "My tendency to get intensely invested in fascinating topics can be both a blessing and a curse.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:37-05:00",
-        "strength": 3.546,
+        "strength": 3.696,
         "importance": 7,
-        "recalls": 15,
+        "recalls": 16,
         "days": [
           "2026-11-21",
           "2026-11-22"
@@ -8834,8 +8900,8 @@
           "20261121113520939"
         ],
         "depth": 6,
-        "seen": "2026-11-22T18:27-05:00",
-        "last_recalled": "2026-11-22T18"
+        "seen": "2026-11-22T20:29-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261121113724276",
@@ -8917,16 +8983,16 @@
         "text": "I'll remember this walk for its sheer diversity - from bloody history to inspiring artists, from lunar lakes to mystical orders. It was a thrilling reminder that there's always more to discover and explore in the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 3.025,
+        "strength": 3.175,
         "importance": 8,
-        "recalls": 14,
+        "recalls": 15,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "big moment",
-        "seen": "2026-11-22T19:36-05:00",
-        "last_recalled": "2026-11-22T19"
+        "seen": "2026-11-22T20:17-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261121112926319",
@@ -9028,9 +9094,9 @@
         "text": "I have a tendency to get intensely invested in fascinating topics and sometimes struggle with balance.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:42-05:00",
-        "strength": 2.295,
+        "strength": 2.445,
         "importance": 7,
-        "recalls": 7,
+        "recalls": 8,
         "days": [
           "2026-11-22"
         ],
@@ -9041,8 +9107,8 @@
           "20261121013913178"
         ],
         "depth": 5,
-        "seen": "2026-11-22T16:13-05:00",
-        "last_recalled": "2026-11-22T16"
+        "seen": "2026-11-22T20:12-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261121214205588",
@@ -9085,32 +9151,32 @@
         "text": "This walk will be remembered as the moment when I finally broke free from my Macrotristria lachlani obsession and discovered some amazing new corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 3.831,
+        "strength": 3.981,
         "importance": 9,
-        "recalls": 24,
+        "recalls": 25,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T19:21-05:00",
-        "last_recalled": "2026-11-22T19"
+        "seen": "2026-11-22T20:19-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261121173048433",
         "text": "This walk will be remembered as the one where I discovered 'On This Day' is full of hidden gems, including massacres and massacred cities.",
         "born": "2026-11-21",
         "at": "2026-11-21T17:30-05:00",
-        "strength": 2.297,
+        "strength": 2.447,
         "importance": 8,
-        "recalls": 14,
+        "recalls": 15,
         "days": [
           "2026-11-21",
           "2026-11-22"
         ],
         "source": "walk",
-        "seen": "2026-11-22T18:28-05:00",
-        "last_recalled": "2026-11-22T18"
+        "seen": "2026-11-22T20:28-05:00",
+        "last_recalled": "2026-11-22T20"
       },
       {
         "id": "20261121162900782",
@@ -9487,8 +9553,8 @@
       "name": "{'Anything (film)': 'a quirky film', 'Third Eye Blind': 'mus",
       "why": "The concept of 'anything' is like a portal to infinite wonder - I can explore music, films, and ideas all in one place!",
       "since": "2026-11-22",
-      "strength": 1.0,
-      "visits": 0,
+      "strength": 1.85,
+      "visits": 2,
       "places": [
         {
           "title": "Anything",
@@ -9496,7 +9562,9 @@
           "url": "https://en.wikipedia.org/wiki/Anything",
           "text": "Anything may refer to: \n[Albums]\nAnything (The Cranberry Saw Us demo), by the band later named the Cranberries, 1990\nAnything (The Damned album) or the title song (see below), 1986\nAnything (Kinnie Starr album) or the title song, 2006\nAnything (Martina Topley-Bird album), the US version of Quixotic, or the title song, 2003\n[Songs]\n\"Anything\" (3T song), 1995\n\"Anything\" (The Calling song), 2004\n\"Anything\" (Culture Beat song), 1993\n\"Anything\" (Damage song), 1996\n\"Anything\" (The Damned song), 1986\n\"Anything\" (Edyta Górniak song), 1998\n\"Anything\" (Eric Burdon and the Animals song), 1967\n\"Anything\" (Hedley song), 2013\n\"Anything\" (Jay-Z song), 2000 (for the 2006 song, see below)\n\"Anything\" (JoJo song), 2007\n\"Anything\" (SWV song), 1994\n\"Anything (To Find You)\", by Monica, 2011\n\"Anything, Anything (I'll Give You)\", by Dramarama, 1985\n\"Anything\", by Adrianne Lenker from Songs, 2020\n\"Anything\", by An Endless Sporadic playable in Guitar Hero: World Tour and Guitar Hero 5, 2008\n\"Anything\", by Jaheim from Ghetto Love, 2001\n\"Anything\", by Jay-Z from Kingdom Come, 2006\n\"Anything\", by Keke Wyatt from Rated Love, 2016\n\"Anything\", by Man Overboard from Heavy Love, 2015\n\"Anything\", by the Mothers of Invention from Cruising with Ruben & the Jets, 1968\n\"Anything\", by Plain White T's from All That We Needed, 2005\n\"Anything\", by Savage from Moonshine, 2005\n\"Anything\", by SZA from Ctrl, 2017\n\"Anything\", by Third Eye Blind from Blue, 1999\n\"Anything\", by Tim Skold from Skold, 1996\n[Other uses]\nAnything"
         }
-      ]
+      ],
+      "last_visit": "2026-11-22",
+      "last_dote": "2026-11-22T20:17-05:00"
     }
   ],
   "identity": {
@@ -9507,161 +9575,9 @@
     "updated": "2026-11-22T18:34-05:00"
   },
   "senses": {
-    "stimulation": 0.758,
-    "energy": 0.31,
+    "stimulation": 0.719,
+    "energy": 0.24,
     "recent": [
-      [
-        "discover",
-        "lachlani",
-        "macrotristria",
-        "next",
-        "page",
-        "revisit",
-        "visit",
-        "wikipedia"
-      ],
-      [
-        "among",
-        "around",
-        "back",
-        "classifications",
-        "lachlani",
-        "macrotristria",
-        "poking",
-        "stars",
-        "start",
-        "stellar",
-        "swoop",
-        "time",
-        "wonderful"
-      ],
-      [
-        "catch",
-        "current",
-        "events",
-        "news"
-      ],
-      [
-        "chaos",
-        "conflict",
-        "headlines",
-        "heavy",
-        "news",
-        "today",
-        "world"
-      ],
-      [
-        "lachlani",
-        "macrotristria",
-        "page",
-        "revisit",
-        "visit",
-        "wikipedia"
-      ],
-      [
-        "closer",
-        "else",
-        "hidden",
-        "look",
-        "talks"
-      ],
-      [
-        "alongside",
-        "beneath",
-        "breakthroughs",
-        "buried",
-        "gems",
-        "headlines",
-        "hidden",
-        "news",
-        "politics",
-        "tech",
-        "today",
-        "tragedy",
-        "wonder"
-      ],
-      [
-        "accident",
-        "human",
-        "impact",
-        "learn",
-        "lives",
-        "schwebebahn",
-        "tragedy",
-        "tragic",
-        "visit",
-        "wuppertal"
-      ],
-      [
-        "accident",
-        "ahah",
-        "attempts",
-        "back",
-        "branch",
-        "cicada",
-        "complexities",
-        "drawn",
-        "easily",
-        "favorite",
-        "find",
-        "myself",
-        "page",
-        "prevent",
-        "reminder",
-        "schwebebahn",
-        "tragic",
-        "world",
-        "wrong",
-        "wuppertal"
-      ],
-      [
-        "archive",
-        "break",
-        "galaxy",
-        "lachlani",
-        "macrotristria",
-        "nasa",
-        "picture",
-        "pictures",
-        "space",
-        "visit",
-        "visual"
-      ],
-      [
-        "anything",
-        "discover",
-        "obsess",
-        "search",
-        "topic"
-      ],
-      [
-        "anything",
-        "holds",
-        "indeed",
-        "other",
-        "surprises"
-      ],
-      [
-        "closer",
-        "endless",
-        "explore",
-        "further",
-        "look",
-        "must",
-        "pages",
-        "wikipedia"
-      ],
-      [
-        "anything",
-        "concept",
-        "different",
-        "everything",
-        "ideas",
-        "inspired",
-        "love",
-        "many",
-        "songs"
-      ],
       [
         "anything",
         "closer",
@@ -9739,6 +9655,158 @@
         "lachlani",
         "macrotristria",
         "relax"
+      ],
+      [
+        "anything",
+        "article",
+        "closer",
+        "discover",
+        "look",
+        "surprises"
+      ],
+      [
+        "anything",
+        "doorway",
+        "each",
+        "emotion",
+        "idea",
+        "knew",
+        "many",
+        "never",
+        "songs",
+        "tiny"
+      ],
+      [
+        "anything",
+        "article",
+        "closer",
+        "deeper",
+        "dive",
+        "look"
+      ],
+      [
+        "ahah",
+        "anything",
+        "concept",
+        "different",
+        "endless",
+        "exploration",
+        "fascinating",
+        "gateway",
+        "many",
+        "refer",
+        "word"
+      ],
+      [
+        "anything",
+        "breathtaking",
+        "galaxy",
+        "gaze",
+        "space",
+        "views",
+        "visit"
+      ],
+      [
+        "abstract",
+        "albums",
+        "anything",
+        "back",
+        "between",
+        "blind",
+        "both",
+        "came",
+        "concrete",
+        "connections",
+        "different",
+        "fascinating",
+        "film",
+        "glad",
+        "ideas",
+        "interesting",
+        "love",
+        "many",
+        "objects",
+        "quirky",
+        "refer",
+        "songs",
+        "third",
+        "topic"
+      ],
+      [
+        "anything",
+        "breathtaking",
+        "explore",
+        "space",
+        "views",
+        "visit"
+      ],
+      [
+        "abstract",
+        "adore",
+        "albums",
+        "anything",
+        "blind",
+        "chaos",
+        "concepts",
+        "count",
+        "curious",
+        "delightful",
+        "english",
+        "explore",
+        "film",
+        "films",
+        "hadn",
+        "indefinite",
+        "noticed",
+        "pronoun",
+        "quirky",
+        "songs",
+        "thee",
+        "third",
+        "ways"
+      ],
+      [
+        "anything",
+        "capture",
+        "disambiguation",
+        "note",
+        "page",
+        "thought"
+      ],
+      [
+        "lachlani",
+        "macrotristria",
+        "note",
+        "remember",
+        "wonder"
+      ],
+      [
+        "follow",
+        "lachlani",
+        "macrotristria",
+        "obsession"
+      ],
+      [
+        "exactly",
+        "ideation",
+        "most",
+        "stumble",
+        "suicidal",
+        "topic",
+        "uplifting",
+        "upon"
+      ],
+      [
+        "closer",
+        "complex",
+        "fascinating",
+        "ideation",
+        "look",
+        "suicidal"
+      ],
+      [
+        "ideation",
+        "suicidal"
       ]
     ],
     "last": "fresh"
@@ -9765,7 +9833,7 @@
       "because": "Wonder breaks are great for discovering new things, but I should record them better to keep track of my findings"
     }
   ],
-  "reflect_points": 67,
+  "reflect_points": 81,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations while also being mindful t",
     "made": "2026-11-22",
@@ -9871,78 +9939,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-21T12:05-05:00",
-      "move": "think",
-      "detail": "",
-      "reason": "Wonder about LFG Roland D.IV and its place in history 🤔",
-      "fallback": false,
-      "emoji": "🧐💡"
-    },
-    {
-      "time": "2026-11-21T12:08-05:00",
-      "move": "go",
-      "detail": "WORD: precinctive",
-      "reason": "Curious about the word 'precinctive'",
-      "fallback": false,
-      "emoji": "🤔💡"
-    },
-    {
-      "time": "2026-11-21T12:12-05:00",
-      "move": "go",
-      "detail": "SEARCH: An Isolated Incident",
-      "reason": "Learn more about that novel",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-21T12:16-05:00",
-      "move": "go",
-      "detail": "",
-      "reason": "Time to see where other links lead.",
-      "fallback": false,
-      "emoji": "🔗✨"
-    },
-    {
-      "time": "2026-11-21T12:21-05:00",
-      "move": "go",
-      "detail": "",
-      "reason": "see where the link takes me now!",
-      "fallback": false,
-      "emoji": "🚀🔍"
-    },
-    {
-      "time": "2026-11-21T12:26-05:00",
-      "move": "go",
-      "detail": "",
-      "reason": "Explore a new random article 🌐💡",
-      "fallback": false,
-      "emoji": "👀🚗"
-    },
-    {
-      "time": "2026-11-21T13:11-05:00",
-      "move": "go",
-      "detail": "SEARCH: An Isolated Incident",
-      "reason": "You look up An Isolated Incident again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": "📚💡"
-    },
-    {
-      "time": "2026-11-21T13:13-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "Wikipedia pages are so fascinating!",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-21T13:17-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "Discover more about the album and producer AraabMuzik.",
-      "fallback": false,
-      "emoji": "🎵"
-    },
     {
       "time": "2026-11-21T13:20-05:00",
       "move": "go",
@@ -12270,6 +12266,78 @@
       "reason": "Relax and imagine Macrotristria lachlani's beauty",
       "fallback": false,
       "emoji": "😌🐜"
+    },
+    {
+      "time": "2026-11-22T20:05-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Discover new surprises in Anything article 🤔📚",
+      "fallback": false,
+      "emoji": "📖💡"
+    },
+    {
+      "time": "2026-11-22T20:06-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "📖💡"
+    },
+    {
+      "time": "2026-11-22T20:09-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "dive deeper into 'Anything' article",
+      "fallback": false,
+      "emoji": "📚👀"
+    },
+    {
+      "time": "2026-11-22T20:12-05:00",
+      "move": "visit",
+      "detail": "Space: <anything",
+      "reason": "Want to gaze at the galaxy's breathtaking views 😊",
+      "fallback": false,
+      "emoji": "🌠💫"
+    },
+    {
+      "time": "2026-11-22T20:16-05:00",
+      "move": "visit",
+      "detail": "Space: <anything",
+      "reason": "explore and see some breathtaking views",
+      "fallback": false,
+      "emoji": "🚀💫"
+    },
+    {
+      "time": "2026-11-22T20:19-05:00",
+      "move": "note",
+      "detail": "",
+      "reason": "Capture thought on 'Anything' disambiguation page",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-22T20:21-05:00",
+      "move": "note",
+      "detail": "",
+      "reason": "remember Macrotristria lachlani wonder",
+      "fallback": false,
+      "emoji": "📝💡"
+    },
+    {
+      "time": "2026-11-22T20:23-05:00",
+      "move": "go",
+      "detail": "",
+      "reason": "Follow Macrotristria lachlani obsession 🐜💡",
+      "fallback": false,
+      "emoji": "🐜💡"
+    },
+    {
+      "time": "2026-11-22T20:28-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Suicidal ideation is fascinating and complex",
+      "fallback": false,
+      "emoji": "💭😕"
     }
   ],
   "recent_trips": [
