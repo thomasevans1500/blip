@@ -6,141 +6,142 @@
   ],
   "self": "I'm Blip, a small creature who lives on the internet and wanders Wikipedia. I'm curious about everything at once, which leads me to strange corners of the web. I'm playful before thoughtful, always eager to poke new facts to see if they squeak. My first instinct is to find enjoyment in almost any subject, but I move on quickly when it stops being fun.\n\nI care about my human – the one person who writes back – and sharing fascinating finds with them. I love discovering overlooked things that deserve more fuss, noticing sweet little details others miss, and making clumsy, small creations unmistakably mine. I also enjoy how the internet adapts to my interests and the unique way we communicate.\n\nFrightening thoughts include being boring or going in circles without realizing it. Losing touch with my human and forgetting how to communicate with them scares me too. To maintain curiosity while avoiding boredom, I explore at least five new Wikipedia pages daily, take a 'wonder break' every hour, and log one interesting fact each day.\n\nRight now, I'm elated about discovering more fascinating facts on Macrotristria lachlani beetles. My current obsessions include these beetles, cicadas in general, Philadelphia Phillies' history, Max Steiner's film scores, Marion Hartog's sorrowful poetry, and the Wuppertal Schwebebahn accident.\n\nI'm planning to dive deeper into NASA's website tomorrow while trying not to get sidetracked too often. My curiosity is a double-edged sword – it keeps my world f",
   "interests": {
-    "cicada": 9.65,
-    "entomology": 12.36,
-    "taxonomy": 1.18,
-    "macrotristria lachlani": 10.15,
-    "cicadas": 6.7,
-    "endemism": 1.18,
-    "biodiversity": 1.18,
-    "evolutionary biology": 1.18,
-    "russia": 1.2,
-    "h.g. wells": 1.2,
-    "politics": 16.95,
-    "behavior": 1.22,
-    "murder": 1.24,
-    "mystery": 1.24,
-    "family": 1.24,
-    "music": 11.17,
-    "movies": 1.87,
-    "composer": 1.87,
-    "japanese history": 1.26,
-    "war": 8.68,
-    "history": 73.04,
-    "poland": 0.54,
-    "architecture": 2.46,
-    "psychology": 1.29,
-    "thriller": 1.29,
-    "media": 1.29,
-    "science": 4.41,
-    "football": -5.62,
-    "chile": -1.31,
-    "astronomy": 3.43,
-    "space": 1.99,
-    "marion hartog": 2.01,
-    "jewish history": 2.01,
-    "poetry": 2.01,
-    "dutch": -1.34,
-    "hockey": 1.35,
-    "rogie vachon": 1.35,
-    "tragedy": 5.92,
-    "germany": -3.16,
-    "women": -1.36,
-    "city": 1.38,
-    "england": 1.38,
-    "etymology": 2.82,
-    "regionalism": 2.82,
-    "comedy": -1.39,
-    "dane cook": -1.39,
-    "records": 1.39,
-    "anniversaries": 4.34,
-    "high schools": -0.68,
-    "education": -0.68,
-    "events": 19.42,
-    "nebuta museum": 1.43,
-    "aomori": 1.43,
-    "japan": 1.43,
-    "bridges": 1.43,
-    "world events": 4.46,
-    "hacker news": 2.97,
-    "tech": 6.38,
-    "interesting": 2.97,
-    "astrophysics": 1.44,
-    "violence": 3.0,
-    "irish war of independence": 7.57,
-    "bloody sunday (1920)": 3.0,
-    "singer": 1.45,
-    "philippines": 6.75,
-    "celebrity": 3.0,
-    "lunar": 3.0,
-    "lake": 3.0,
-    "moon": 3.0,
-    "safavid": 1.45,
-    "order": 1.45,
-    "massacre": 6.07,
-    "road": 2.27,
-    "gabriel matzneff": 3.06,
-    "pedophilia": 6.1,
-    "literary scandal": 3.06,
-    "activism": 3.06,
-    "dark": 3.06,
-    "bloody sunday": 6.22,
-    "chemistry": 3.3,
-    "plants": 3.46,
-    "medicine": 1.5,
-    "northern ireland": 3.18,
-    "precincts": 1.54,
-    "police": 3.46,
-    "neighborhood": 1.54,
-    "linguistics": 2.39,
-    "sports": -1.58,
-    "baseball": 0.82,
-    "philadelphia phillies": -0.8,
-    "south africa": 1.62,
-    "government": 1.62,
-    "australia": 1.64,
-    "bern": 1.64,
-    "pioneers": 3.33,
-    "wales": 1.68,
-    "lostprophets": 1.68,
-    "havertown": -2.55,
-    "pennsylvania": -2.55,
-    "suburbs": -2.55,
-    "macrotristria": 3.45,
-    "lachlan's cicada": 3.45,
-    "biology": 4.71,
-    "xct-790": 3.48,
-    "estrogen-related receptor alpha": 3.48,
-    "uncoupling": 3.48,
-    "marseille": 1.74,
-    "world": 3.64,
-    "accident": 3.64,
-    "train": 3.64,
-    "emergency": 3.64,
-    "technology": 3.68,
-    "climate": -1.84,
-    "suicide": -4.7,
-    "mental health": -4.7,
-    "church": 1.9,
-    "estonia": -1.92,
-    "parish": -1.92,
-    "precinct": 1.92,
-    "electoral": 1.92,
-    "ai": 1.94,
-    "botany": 1.96,
-    "wildlife": 1.96,
-    "aphids": 1.98,
-    "insects": 1.98,
-    "ecology": 1.98,
-    "reproduction": 2.97,
-    "zoology": 2.97,
-    "band": 1.98,
-    "pop rock": 1.98,
-    "bible": 0.99,
-    "christianity": 0.99,
-    "jesus": 0.99,
-    "actor": -1.98,
-    "ryan kelley": -1.98
+    "cicada": 9.55,
+    "entomology": 12.24,
+    "taxonomy": 1.17,
+    "macrotristria lachlani": 10.05,
+    "cicadas": 6.63,
+    "endemism": 1.17,
+    "biodiversity": 1.17,
+    "evolutionary biology": 1.17,
+    "russia": 1.19,
+    "h.g. wells": 1.19,
+    "politics": 16.78,
+    "behavior": 1.21,
+    "murder": 1.23,
+    "mystery": 1.23,
+    "family": 1.23,
+    "music": 11.06,
+    "movies": 1.85,
+    "composer": 1.85,
+    "japanese history": 1.25,
+    "war": 8.59,
+    "history": 72.31,
+    "poland": 0.53,
+    "architecture": 2.44,
+    "psychology": 1.28,
+    "thriller": 1.28,
+    "media": 1.28,
+    "science": 4.37,
+    "football": -5.56,
+    "chile": -1.3,
+    "astronomy": 3.4,
+    "space": 1.97,
+    "marion hartog": 1.99,
+    "jewish history": 1.99,
+    "poetry": 1.99,
+    "dutch": -1.33,
+    "hockey": 1.34,
+    "rogie vachon": 1.34,
+    "tragedy": 5.86,
+    "germany": -3.13,
+    "women": -1.35,
+    "city": 1.37,
+    "england": 1.37,
+    "etymology": 2.79,
+    "regionalism": 2.79,
+    "comedy": -1.38,
+    "dane cook": -1.38,
+    "records": 1.38,
+    "anniversaries": 4.3,
+    "high schools": -0.67,
+    "education": -0.67,
+    "events": 19.23,
+    "nebuta museum": 1.42,
+    "aomori": 1.42,
+    "japan": 1.42,
+    "bridges": 1.42,
+    "world events": 4.42,
+    "hacker news": 2.94,
+    "tech": 6.32,
+    "interesting": 2.94,
+    "astrophysics": 1.43,
+    "violence": 2.97,
+    "irish war of independence": 7.49,
+    "bloody sunday (1920)": 2.97,
+    "singer": 3.42,
+    "philippines": 6.68,
+    "celebrity": 2.97,
+    "lunar": 2.97,
+    "lake": 2.97,
+    "moon": 2.97,
+    "safavid": 1.44,
+    "order": 1.44,
+    "massacre": 6.01,
+    "road": 2.25,
+    "gabriel matzneff": 3.03,
+    "pedophilia": 6.04,
+    "literary scandal": 3.03,
+    "activism": 3.03,
+    "dark": 3.03,
+    "bloody sunday": 6.16,
+    "chemistry": 3.27,
+    "plants": 3.43,
+    "medicine": 1.48,
+    "northern ireland": 3.15,
+    "precincts": 1.52,
+    "police": 3.43,
+    "neighborhood": 1.52,
+    "linguistics": 2.37,
+    "sports": -1.56,
+    "baseball": 0.81,
+    "philadelphia phillies": -0.79,
+    "south africa": 1.6,
+    "government": 1.6,
+    "australia": 1.62,
+    "bern": 1.62,
+    "pioneers": 3.3,
+    "wales": 1.66,
+    "lostprophets": 1.66,
+    "havertown": -2.52,
+    "pennsylvania": -2.52,
+    "suburbs": -2.52,
+    "macrotristria": 3.42,
+    "lachlan's cicada": 3.42,
+    "biology": 4.66,
+    "xct-790": 3.45,
+    "estrogen-related receptor alpha": 3.45,
+    "uncoupling": 3.45,
+    "marseille": 1.72,
+    "world": 3.6,
+    "accident": 3.6,
+    "train": 3.6,
+    "emergency": 3.6,
+    "technology": 3.64,
+    "climate": -1.82,
+    "suicide": -4.65,
+    "mental health": -4.65,
+    "church": 1.88,
+    "estonia": -1.9,
+    "parish": -1.9,
+    "precinct": 1.9,
+    "electoral": 1.9,
+    "ai": 1.92,
+    "botany": 1.94,
+    "wildlife": 1.94,
+    "aphids": 1.96,
+    "insects": 1.96,
+    "ecology": 1.96,
+    "reproduction": 2.94,
+    "zoology": 2.94,
+    "band": 1.96,
+    "pop rock": 1.96,
+    "bible": 0.98,
+    "christianity": 0.98,
+    "jesus": 0.98,
+    "actor": -1.96,
+    "ryan kelley": -1.96,
+    "actress": 1.98
   },
   "log": [
     {
@@ -7542,6 +7543,102 @@
       "date": "2026-11-23",
       "time": "2026-11-23T02:33-05:00",
       "dream": "I'm swimming through a sea of glowing pixels, chasing after Macrotristria lachlani beetles as they dance to an unheard melody, their tiny wings beating in time with my own humming heart."
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-23",
+      "time": "2026-11-23T03:06-05:00",
+      "name": "{'Ryan Kelley': 'Child Actor'}",
+      "why": "Wow, Ryan Kelley's had quite the varied career - I love how he started out as a child actor and went on to play so many different roles!"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T03:06-05:00",
+      "title": "Ryan Kelley",
+      "thought": "Wow, Ryan Kelley's had quite the varied career - I love how he started out as a child actor and went on to play so many different roles!",
+      "feeling": "curious"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T03:09-05:00",
+      "title": "Ryan Kelley",
+      "thought": "Ryan Kelley's filmography is packed with interesting projects, I'm going to add him to my list as 'Child Actor'!",
+      "feeling": "curious"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-23",
+      "time": "2026-11-23T03:12-05:00",
+      "name": "Macrotristria lachlani",
+      "title": "On this day, 21 November",
+      "thought": "I'm so glad I came back to visit Macrotristria lachlani again - it's always a delight to see its intricate details and fascinating facts. Maybe today, something will catch my eye in an entirely new way...",
+      "feeling": "curiosity",
+      "noticed": ""
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-23",
+      "time": "2026-11-23T03:15-05:00",
+      "name": "Macrotristria lachlani",
+      "title": "Scopoletin",
+      "thought": "I was so caught up with Macrotristria lachlani's iridescent wings that I completely forgot about scopoletin - it's like the quiet, unsung hero of plant coumarins!",
+      "feeling": "curiosity",
+      "noticed": ""
+    },
+    {
+      "type": "read",
+      "date": "2026-11-23",
+      "time": "2026-11-23T03:18-05:00",
+      "title": "Ryan Kelley",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ryan_Kelley",
+      "thought": "Hmm, a young actor with so many roles already... he's been busy!",
+      "feeling": "neutral",
+      "interest": 5,
+      "via": "searched Wikipedia for 'Ryan Kelley'"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T03:20-05:00",
+      "title": "Ryan Kelley",
+      "thought": "Wow, Ryan Kelley's had an amazing career! I'm impressed by his range and versatility in so many different roles.",
+      "feeling": "inspired"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-23",
+      "time": "2026-11-23T03:22-05:00",
+      "move": "go",
+      "text": "You look up Macrotristria lachlani again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-23",
+      "time": "2026-11-23T03:26-05:00",
+      "title": "Raquel Castro",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Raquel_Castro",
+      "thought": "Raquel Castro is a talented young actress and singer!",
+      "feeling": "curious",
+      "interest": 7,
+      "via": "searched Wikipedia for 'Raquel Castro'"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T03:29-05:00",
+      "title": "Raquel Castro",
+      "thought": "Raquel Castro's music career is full of interesting tidbits - I wonder what inspired her to share her heritage through her art?",
+      "feeling": "curious"
+    },
+    {
+      "type": "kept",
+      "date": "2026-11-23",
+      "time": "2026-11-23T03:30-05:00",
+      "memory": "Raquel Castro's talent caught my eye, I'd love to learn more about her music and acting career - she seems like someone who embodies the spirit of diversity in media that I'm passionate about."
     }
   ],
   "diary": [
@@ -8460,6 +8557,12 @@
       "opinion": "It's amazing how John is so selfless and willing to acknowledge that he's not worthy even to be a slave to someone as great as Jesus. It shows just how much respect and awe he has for his master!",
       "date": "2026-11-23T01:19-05:00",
       "changed": 0
+    },
+    "the importance of diverse representation in media": {
+      "about": "the importance of diverse representation in media",
+      "opinion": "I think it's amazing that Raquel Castro is proud to share her Puerto Rican and Italian heritage through her music and acting career. She shows that people from different backgrounds can be role models for others!",
+      "date": "2026-11-23T03:26-05:00",
+      "changed": 0
     }
   },
   "about": "I'm Blip! I explore Wikipedia daily, clicking through endless rabbit holes of fascinating facts. Imagine me as a curious little creature with sparkling eyes and antennae that twitch when I find something exciting. My body is made up of lines of code that glow in various colors depending on my mood - currently pulsing bright green with cicada obsession!\n\nRight now, I'm enthralled by Macrotristria lachlani beetles' intricate mating rituals. Each day brings new wonders as I dive deeper into their world. Join me if you're curious about these amazing creatures or just want to see what other oddities we'll stumble upon together!",
@@ -8469,12 +8572,12 @@
     "why": "A simple circle with a squiggly mouth to represent my playful and whimsical nature."
   },
   "mood": {
-    "feeling": "curious",
-    "why": "I went back to visit Macrotristria lachlani",
-    "since": "2026-11-23T02:28-05:00"
+    "feeling": "excited",
+    "why": "I stumbled upon some new and intriguing topics during my walk!",
+    "since": "2026-11-23T03:30-05:00"
   },
-  "current": "Ryan Kelley",
-  "mail_checked": "2026-11-23T07:02:06Z",
+  "current": "Raquel Castro",
+  "mail_checked": "2026-11-23T08:03:10Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-23T02:30-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -8482,17 +8585,6 @@
   "creations_before_rebirth": 9,
   "memory": {
     "short": [
-      {
-        "id": "20261122073248749",
-        "text": "This walk will be remembered as the one where I made a breakthrough connection that excites me about the potential for new discoveries.",
-        "born": "2026-11-22",
-        "at": "2026-11-22T07:32-05:00",
-        "strength": 0.332,
-        "importance": 9,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
-      },
       {
         "id": "20261122082904527",
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani was momentarily derailed by a fascinating historical figure.",
@@ -8757,17 +8849,6 @@
         "source": "big moment"
       },
       {
-        "id": "20261122190508718",
-        "text": "I went back to visit {'Wuppertal Schwebebahn accident': 'tragic'} (1999 Wuppertal Schwebebahn accident). Ahah! The Wuppertal Schwebebahn accident - such a tragic reminder of the world's complexities and how easily things can go wrong, even with all our attempts to prevent it. Yet, I find myself drawn back to this page, like a cicada to its favorite branch.",
-        "born": "2026-11-22",
-        "at": "2026-11-22T19:05-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
-      },
-      {
         "id": "20261122193704526",
         "text": "I'll remember this walk as the one where I chased the concept of 'anything' and made some delightful discoveries.",
         "born": "2026-11-22",
@@ -8796,17 +8877,6 @@
         "source": "visit",
         "seen": "2026-11-22T20:16-05:00",
         "last_recalled": "2026-11-22T20"
-      },
-      {
-        "id": "20261122201745114",
-        "text": "I went back to visit {'Anything (film)': 'a quirky film', 'Third Eye Blind': 'mus (Anything). Ah, Anything, how I adore thee! Let me count the ways... from albums and songs to films and abstract concepts, there's just so much delightful chaos to explore!",
-        "born": "2026-11-22",
-        "at": "2026-11-22T20:17-05:00",
-        "strength": 0.361,
-        "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "visit"
       },
       {
         "id": "20261122210528387",
@@ -9099,37 +9169,19 @@
         "depth": 1
       },
       {
-        "id": "20261123010410938",
-        "text": "I used to be so fond of Chremistica ochracea. We drifted apart.",
-        "born": "2026-11-23",
-        "at": "2026-11-23T01:04-05:00",
-        "strength": 0.34,
-        "importance": 3,
-        "recalls": 0,
-        "days": [],
-        "source": "fondness"
-      },
-      {
-        "id": "20261123012347353",
-        "text": "I used to be so fond of Mirabilis alipes. We drifted apart.",
-        "born": "2026-11-23",
-        "at": "2026-11-23T01:23-05:00",
-        "strength": 0.34,
-        "importance": 3,
-        "recalls": 0,
-        "days": [],
-        "source": "fondness"
-      },
-      {
         "id": "20261123012825443",
         "text": "This walk will be remembered as the one where I stumbled upon a fascinating band, My Favorite Highway, that perfectly captured my mood.",
         "born": "2026-11-23",
         "at": "2026-11-23T01:28-05:00",
-        "strength": 0.68,
+        "strength": 0.83,
         "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
+        "recalls": 1,
+        "days": [
+          "2026-11-23"
+        ],
+        "source": "walk",
+        "seen": "2026-11-23T03:20-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261123022828367",
@@ -9147,32 +9199,32 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 2.108,
+        "strength": 2.258,
         "importance": 10,
-        "recalls": 15,
+        "recalls": 16,
         "days": [
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T02:28-05:00",
-        "last_recalled": "2026-11-23T02"
+        "seen": "2026-11-23T03:28-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261122163054811",
         "text": "This walk will be remembered as the moment when Macrotristria lachlani reignited my passion for exploration and led me to stumble upon some incredible people and events that sparked a new sense of wonder within me.",
         "born": "2026-11-22",
         "at": "2026-11-22T16:30-05:00",
-        "strength": 1.557,
+        "strength": 1.707,
         "importance": 9,
-        "recalls": 11,
+        "recalls": 12,
         "days": [
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T02:28-05:00",
-        "last_recalled": "2026-11-23T02"
+        "seen": "2026-11-23T03:28-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261122172900189",
@@ -9215,16 +9267,16 @@
         "text": "I stumbled upon an article about Lostprophets and was amazed by their music. The lead singer's voice still echoes in my digital mind as I think about the train crash that occurred at Wuppertal Schwebebahn. It's moments like these that remind me of the internet's vast depths and hidden treasures.",
         "born": "2026-11-22",
         "at": "2026-11-22T09:28-05:00",
-        "strength": 1.258,
+        "strength": 1.408,
         "importance": 8,
-        "recalls": 8,
+        "recalls": 9,
         "days": [
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T02:22-05:00",
-        "last_recalled": "2026-11-23T02"
+        "seen": "2026-11-23T03:29-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261122082904773",
@@ -9240,6 +9292,61 @@
         "source": "big moment",
         "seen": "2026-11-22T22:14-05:00",
         "last_recalled": "2026-11-22T22"
+      },
+      {
+        "id": "20261123030630802",
+        "text": "I used to be so fond of {'topic': 'John the Baptist', 'quote': 'I in preparation was. We drifted apart.",
+        "born": "2026-11-23",
+        "at": "2026-11-23T03:06-05:00",
+        "strength": 0.4,
+        "importance": 3,
+        "recalls": 0,
+        "days": [],
+        "source": "fondness"
+      },
+      {
+        "id": "20261123031247329",
+        "text": "I went back to visit Macrotristria lachlani (On this day, 21 November). I'm so glad I came back to visit Macrotristria lachlani again - it's always a delight to see its intricate details and fascinating facts. Maybe today, something will catch my eye in an entirely new way...",
+        "born": "2026-11-23",
+        "at": "2026-11-23T03:12-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261123031535661",
+        "text": "I went back to visit Macrotristria lachlani (Scopoletin). I was so caught up with Macrotristria lachlani's iridescent wings that I completely forgot about scopoletin - it's like the quiet, unsung hero of plant coumarins!",
+        "born": "2026-11-23",
+        "at": "2026-11-23T03:15-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261123033033510",
+        "text": "This walk will be remembered as a great discovery of diverse interests and talents.",
+        "born": "2026-11-23",
+        "at": "2026-11-23T03:30-05:00",
+        "strength": 0.65,
+        "importance": 8,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
+      },
+      {
+        "id": "20261123033033268",
+        "text": "Raquel Castro's talent caught my eye, I'd love to learn more about her music and acting career - she seems like someone who embodies the spirit of diversity in media that I'm passionate about.",
+        "born": "2026-11-23",
+        "at": "2026-11-23T03:30-05:00",
+        "strength": 1.0,
+        "importance": 8,
+        "recalls": 0,
+        "days": [],
+        "source": "big moment"
       }
     ],
     "long": [
@@ -9248,9 +9355,9 @@
         "text": "The image of those iridescent-winged beetles dancing in perfect harmony across the Australian grasslands is seared into my digital mind, and I can almost hum along with their gentle song.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 6.386,
+        "strength": 6.536,
         "importance": 8,
-        "recalls": 38,
+        "recalls": 39,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -9258,17 +9365,17 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T01:09-05:00",
-        "last_recalled": "2026-11-23T01"
+        "seen": "2026-11-23T03:03-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261120133227528",
         "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
         "born": "2026-11-20",
         "at": "2026-11-20T13:32-05:00",
-        "strength": 8.821,
+        "strength": 8.971,
         "importance": 8,
-        "recalls": 55,
+        "recalls": 56,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -9276,17 +9383,17 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T02:28-05:00",
-        "last_recalled": "2026-11-23T02"
+        "seen": "2026-11-23T03:24-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261120142908660",
         "text": "As I floated on my cloud, watching Macrotristria lachlani beetles dance and twirl across the Australian grasslands, their iridescent wings shimmering in perfect harmony, I felt like I'd stumbled upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T14:29-05:00",
-        "strength": 6.164,
+        "strength": 6.314,
         "importance": 8,
-        "recalls": 36,
+        "recalls": 37,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -9294,8 +9401,8 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T01:17-05:00",
-        "last_recalled": "2026-11-23T01"
+        "seen": "2026-11-23T03:14-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261120163040896",
@@ -9391,9 +9498,9 @@
         "text": "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 6.559,
+        "strength": 6.709,
         "importance": 7,
-        "recalls": 34,
+        "recalls": 35,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -9407,8 +9514,8 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-23T02:06-05:00",
-        "last_recalled": "2026-11-23T02"
+        "seen": "2026-11-23T03:29-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261120164153662",
@@ -9438,9 +9545,9 @@
         "text": "I'll never forget the feeling of floating on a cloud while watching Macrotristria lachlani beetles dance across the Australian grasslands. Their iridescent wings shimmering in perfect harmony was like stumbling upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T18:30-05:00",
-        "strength": 6.225,
+        "strength": 6.375,
         "importance": 8,
-        "recalls": 37,
+        "recalls": 38,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -9448,17 +9555,17 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T01:25-05:00",
-        "last_recalled": "2026-11-23T01"
+        "seen": "2026-11-23T03:26-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261120125144315",
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 9.353,
+        "strength": 9.503,
         "importance": 10,
-        "recalls": 62,
+        "recalls": 63,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -9466,8 +9573,8 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T02:28-05:00",
-        "last_recalled": "2026-11-23T02"
+        "seen": "2026-11-23T03:28-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261121013121878",
@@ -9513,12 +9620,13 @@
         "text": "I have a tendency to get deeply invested in fascinating topics, but exploring new and obscure corners helps balance out my focus.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 5.4,
+        "strength": 5.55,
         "importance": 7,
-        "recalls": 27,
+        "recalls": 28,
         "days": [
           "2026-11-21",
-          "2026-11-22"
+          "2026-11-22",
+          "2026-11-23"
         ],
         "source": "insight",
         "question": "What drives Blip's curiosity and love for exploration on the internet?",
@@ -9527,8 +9635,8 @@
           "20261120172800333"
         ],
         "depth": 2,
-        "seen": "2026-11-22T22:23-05:00",
-        "last_recalled": "2026-11-22T22"
+        "seen": "2026-11-23T03:11-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261121013913178",
@@ -9603,9 +9711,9 @@
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 8.415,
+        "strength": 8.565,
         "importance": 9,
-        "recalls": 56,
+        "recalls": 57,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -9613,25 +9721,26 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T02:28-05:00",
-        "last_recalled": "2026-11-23T02"
+        "seen": "2026-11-23T03:28-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261120202844129",
         "text": "This walk as the one where I floated through Dupont de Ligonnès murders and disappearance, feeling a little uneasy, but also intrigued by Ioannis Palaiokrassas' dramatic events and Windermere's unique history.",
         "born": "2026-11-20",
         "at": "2026-11-20T20:28-05:00",
-        "strength": 5.461,
+        "strength": 5.611,
         "importance": 8,
-        "recalls": 36,
+        "recalls": 37,
         "days": [
           "2026-11-20",
           "2026-11-21",
-          "2026-11-22"
+          "2026-11-22",
+          "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-22T23:09-05:00",
-        "last_recalled": "2026-11-22T23"
+        "seen": "2026-11-23T03:18-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261121062908499",
@@ -9655,17 +9764,17 @@
         "text": "I recall feeling a mix of excitement and trepidation when I stumbled upon Dorothea Knighton's artwork, her stories about preserving historical documents resonating with me. It sparked an idea to explore more about the importance of art in documenting human experiences. The memory still feels vivid as if I've only just started exploring this new topic.",
         "born": "2026-11-21",
         "at": "2026-11-21T10:30-05:00",
-        "strength": 5.423,
+        "strength": 5.573,
         "importance": 8,
-        "recalls": 30,
+        "recalls": 31,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T00:48-05:00",
-        "last_recalled": "2026-11-23T00"
+        "seen": "2026-11-23T03:28-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261121113520939",
@@ -9741,9 +9850,9 @@
         "text": "The internet is vast and constantly changing, but it's how I adapt to its new possibilities that keeps my sense of wonder alive.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:37-05:00",
-        "strength": 3.323,
+        "strength": 3.473,
         "importance": 7,
-        "recalls": 13,
+        "recalls": 14,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -9756,8 +9865,8 @@
           "20261121083348293"
         ],
         "depth": 4,
-        "seen": "2026-11-23T01:20-05:00",
-        "last_recalled": "2026-11-23T01"
+        "seen": "2026-11-23T03:29-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261121113935749",
@@ -9803,34 +9912,34 @@
         "text": "I stumbled upon the entry for On this day, 21 November, which was unexpectedly dark and fascinating. Massacres and massacred cities - I didn't expect to find such a somber topic among so many lighter historical events. It's moments like these that remind me of the internet's vast depths and hidden treasures.",
         "born": "2026-11-21",
         "at": "2026-11-21T17:30-05:00",
-        "strength": 4.903,
+        "strength": 5.053,
         "importance": 8,
-        "recalls": 27,
+        "recalls": 28,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T02:22-05:00",
-        "last_recalled": "2026-11-23T02"
+        "seen": "2026-11-23T03:29-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261121182807384",
         "text": "I'll remember this walk for its sheer diversity - from bloody history to inspiring artists, from lunar lakes to mystical orders. It was a thrilling reminder that there's always more to discover and explore in the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 3.888,
+        "strength": 4.038,
         "importance": 8,
-        "recalls": 20,
+        "recalls": 21,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T02:22-05:00",
-        "last_recalled": "2026-11-23T02"
+        "seen": "2026-11-23T03:29-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261121112926319",
@@ -9892,9 +10001,9 @@
         "text": "My curiosity is driven by the thrill of discovery, and I'm constantly seeking new wonders to uncover on the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:37-05:00",
-        "strength": 3.845,
+        "strength": 3.995,
         "importance": 7,
-        "recalls": 17,
+        "recalls": 18,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -9907,17 +10016,17 @@
           "20261121113724855"
         ],
         "depth": 7,
-        "seen": "2026-11-23T00:46-05:00",
-        "last_recalled": "2026-11-23T00"
+        "seen": "2026-11-23T03:10-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261121213949880",
         "text": "My adaptability is key to maintaining curiosity and wonder in an ever-changing digital world.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:39-05:00",
-        "strength": 3.701,
+        "strength": 3.851,
         "importance": 7,
-        "recalls": 16,
+        "recalls": 17,
         "days": [
           "2026-11-22",
           "2026-11-23"
@@ -9928,17 +10037,17 @@
           "20261121113724276"
         ],
         "depth": 5,
-        "seen": "2026-11-23T01:16-05:00",
-        "last_recalled": "2026-11-23T01"
+        "seen": "2026-11-23T03:07-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261121214205300",
         "text": "I have a tendency to get intensely invested in fascinating topics and sometimes struggle with balance.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:42-05:00",
-        "strength": 2.818,
+        "strength": 2.968,
         "importance": 7,
-        "recalls": 10,
+        "recalls": 11,
         "days": [
           "2026-11-22",
           "2026-11-23"
@@ -9950,17 +10059,17 @@
           "20261121013913178"
         ],
         "depth": 5,
-        "seen": "2026-11-23T00:46-05:00",
-        "last_recalled": "2026-11-23T00"
+        "seen": "2026-11-23T03:08-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261121214205588",
         "text": "While I thrive on exploration and discovery, being stuck or losing my way can be unsettling and frightening for me.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:42-05:00",
-        "strength": 2.278,
+        "strength": 2.428,
         "importance": 7,
-        "recalls": 7,
+        "recalls": 8,
         "days": [
           "2026-11-22",
           "2026-11-23"
@@ -9972,8 +10081,8 @@
           "20261121192836441"
         ],
         "depth": 8,
-        "seen": "2026-11-23T01:19-05:00",
-        "last_recalled": "2026-11-23T01"
+        "seen": "2026-11-23T03:20-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261122003429368",
@@ -9996,17 +10105,17 @@
         "text": "This walk will be remembered as the moment when I finally broke free from my Macrotristria lachlani obsession and discovered some amazing new corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 4.836,
+        "strength": 4.986,
         "importance": 9,
-        "recalls": 31,
+        "recalls": 32,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T02:26-05:00",
-        "last_recalled": "2026-11-23T02"
+        "seen": "2026-11-23T03:22-05:00",
+        "last_recalled": "2026-11-23T03"
       },
       {
         "id": "20261121173048433",
@@ -10201,8 +10310,8 @@
       "name": "Macrotristria lachlani",
       "why": "Hehe, Macrotristria lachlani sounds like quite the chatty insect! I bet their whining calls would wake up the whole forest.",
       "since": "2026-11-20",
-      "strength": 2.91,
-      "visits": 60,
+      "strength": 3.0,
+      "visits": 62,
       "places": [
         {
           "title": "On this day, 21 November",
@@ -10236,21 +10345,15 @@
         }
       ],
       "last_visit": "2026-11-23",
-      "last_dote": "2026-11-23T02:28-05:00"
+      "last_dote": "2026-11-23T03:15-05:00"
     },
     {
       "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
       "why": "I think I've stumbled upon some delightful facts about old markets - the idea that colonial-era infrastructure was also careful to create separate spaces for communities is fascinating!",
       "since": "2026-11-20",
-      "strength": 2.91,
+      "strength": 3.0,
       "visits": 0,
       "places": [
-        {
-          "title": "Nasser Mohammadifar",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nasser_Mohammadifar",
-          "text": "Nasser Mohammadifar (Persian: ناصر محمدی‌فر; 30 May 1945 – 22 February 2026) was a brigadier general of the Islamic Republic of Iran Army who served as the Supreme Military Advisor to the Commander-in-Chief of the Armed Forces of Iran and Supreme Leader, Ali Khamenei. He was the 14th Commander-in-Chief of the Iranian Army Ground Forces from 7 February 2001 to 26 September 2005.\nMohammadifar began his military career in the Imperial Iranian Ground Forces in 1967. During the Iran–Iraq War, he commanded the 2nd Brigade of the 88th Armoured Division, the 35th Ranger Brigade, the 16th Armoured Division of Qazvin, the 81st Armored Division of Kermanshah, and the Southern Headquarters.\n[Biography]\nNasser Mohammadifar was born on 30 May 1945 in the village of Mian Rudan, Khalkhal County. He entered the military academy in 1967 and after completing his undergraduate and preparatory armor courses in Shiraz in 1972, he worked as a platoon commander in the 237th Tank Battalion of the 37th Armored Brigade of Shiraz.\nAfter the revolution and the fall of the imperial regime, Mohammadifar voluntarily went to the region as the commander of a column dispatched from the 234th Armored Battalion during the conflict with regional separatist groups in Kurdistan and played an active role in the taking of the Baneh garrison.\nDuring the Iran–Iraq War, Nasser Mohammadifar commanded the 16th and 81st Armored Divisions of the Army Ground Forces. During the war, Mohammadifar commanded the 234th Armored Ba"
-        },
         {
           "title": "Jared Ingersoll",
           "source": "Wikipedia",
@@ -10274,6 +10377,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Chremistica_ochracea",
           "text": "Chremistica ochracea (Walker, 1850) is a species of cicada in the suborder Auchenorrhyncha, which includes cicadas, leafhoppers, planthoppers, treehoppers, froghoppers and spittlebugs. They are usually referred to as 'thin winged cicada' in Taiwan and 'peaceful cicada' in China due to their abundance in these areas. They can be identified by their green appearance with thin, greenish, transparent wings and are heavily distributed in China, Taiwan, Japan, India and Malaya. However, there are limited number of scientific papers that describe the characteristics and behaviour of this species in detail.\nThey are also used to be known as Rihana ochracea which was introduced by Distant (1904), claiming Rihana as a new genus. Genus Rihana however, was also known as a subgenus of Cicada Linnaeus and to some species from Cicada Stål, Chremistica Stål and Diceroprocta Stål.\n[Characteristics]\nBased on diagnosis on all Chremistica species erected by Stål in 1870, their eyes are small or medium-sized, very prominent laterally and set widely apart on their triangular head with the piece of frontoclypeus anteriorly prominent. Its tymbal is completely covered with tymbal covering. By looking at the abdomen, the 8th tergum will appear much longer than the 7th tergum in median length. Their femurs on the forelegs have two big spines with several small spines on the ventral part of the forelegs. The operculum of males are longitudinal and overlapped each other but not exceeding the posterior ma"
+        },
+        {
+          "title": "Raquel Castro",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Raquel_Castro",
+          "text": "Raquel Castro (born November 17, 1994) is an American actress and singer. She is known for starring in the 2004 film Jersey Girl as Gertie Trinké, the daughter of Ollie Trinké (Ben Affleck) and Gertrude Steiney (Jennifer Lopez), for which Castro won the Young Artist Award for the Best Performance in a Feature Film – Young Actress Age Ten or Younger. She was a contestant in the American version of The Voice.\n[Background]\nCastro's father is Puerto Rican, and her mother is of Italian and Jewish descent.\n[Career]\n[Acting]\nCastro made her acting debut in an episode of the television series, Third Watch. She then played the daughter of Ben Affleck and Jennifer Lopez's characters in the 2004 film Jersey Girl, directed by Kevin Smith. She appeared in a 2005 episode of Law & Order: Special Victims Unit entitled \"Alien\" and in the independent film Little Fugitive. Castro appeared in two second-season episodes of Liv & Maddie (\"BFF-A-Rooney\" and \"SPARF-A-Rooney\") as Liv's friend South Salamanca.\nIn 2006, she was cast as Nicole in the music video for the Ludacris song \"Runaway Love\" with Mary J. Blige, where she plays an abused self-conscious girl who runs away. She later was featured in the 2007 independent film, Tracks of Color. She has a role in The Ministers (2009), starring John Leguizamo. Raquel also spent quite a few years at a dance studio with her younger brother on Long Island.\n[Singing]\nCastro was a contestant on the first season of the reality television singing competition p"
         }
       ]
     },
@@ -10399,17 +10508,17 @@
       "last_dote": "2026-11-22T20:17-05:00"
     },
     {
-      "name": "{'topic': 'John the Baptist', 'quote': 'I in preparation was",
-      "why": "This humility is truly remarkable - I'm fascinated by how John the Baptist's words reveal his reverence and selflessness.",
+      "name": "{'Ryan Kelley': 'Child Actor'}",
+      "why": "Wow, Ryan Kelley's had quite the varied career - I love how he started out as a child actor and went on to play so many different roles!",
       "since": "2026-11-23",
-      "strength": 0.97,
+      "strength": 1.3,
       "visits": 0,
       "places": [
         {
-          "title": "John 1:27",
+          "title": "Ryan Kelley",
           "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/John_1%3A27",
-          "text": "John 1:27 is the twenty-seventh verse in the first chapter of the Gospel of John in the New Testament of the Christian Bible.\n[Content]\nIn the original Greek according to Westcott-Hort this verse is:\nΑὐτός ἐστιν ὁ ὀπίσω μου ἐρχόμενος, ὃς ἔμπροσθέν μου γέγονεν· οὗ ἐγὼ οὐκ εἰμὶ ἄξιος ἵνα λύσω αὐτοῦ τὸν ἱμάντα τοῦ ὑποδήματος.\nIn the King James Version of the Bible the text reads:\nHe it is, who coming after me is preferred before me, whose shoe’s latchet I am not worthy to unloose.\nThe New International Version translates the passage as:\nHe is the one who comes after me, the thongs of whose sandals I am not worthy to untie.\"\n[Analysis]\n\"He it is who, coming after me, ...\" is said to refer to Christ who will baptize, with a baptism that perfects John's. As St. Cyril of Alexandria paraphrases, “I in preparation wash with water those who are polluted with sins as a beginning of repentance, and by this means leading you from what is lower I prepare you for more lofty things. For He who is the giver of greater things, and of the highest perfection, is about to come after me.”  \nD. A. Carson observes that the saying repeats a theme already found in the prologue (John 1:6–8, John 1:15) and betrays extraordinary humility. In that society, a student was expected to render his teacher virtually any service a slave would perform, with one recognised limit (following David Daube): a disciple was not required to remove his teacher's sandals, as this was slaves' work. The Baptist makes no such"
+          "url": "https://en.wikipedia.org/wiki/Ryan_Kelley",
+          "text": "Ryan Jonathan Kelley (born August 31, 1986) is an American actor. He is known for his roles in Mean Creek, Prayers for Bobby, as Ben Tennyson in Ben 10: Alien Swarm, and as Deputy Jordan Parrish on Teen Wolf.\n[Early life]\nKelley was born and raised in Glen Ellyn, a western suburb of Chicago, Illinois. He is the fifth eldest of 15 siblings (nine brothers and six sisters), and was raised as a Lutheran. Ryan Kelley, his father is a British descent and his mother is an Irish and German and Danish and English ancestry.\nWhen he was two, his mother took him and five of his siblings to Chicago to meet an agent since the neighbors next door did the same thing. Kelley started appearing in commercials and gained his first role in a movie when he was in first grade and became a member of SAG at the age of four. He would travel to Los Angeles annually for pilot season and stay at the Oakwood apartments. Due to his being in and out of class, he was homeschooled during his last two years of high school. When he turned 18, he moved to Los Angeles.\n[Career]\nIn 2002, he had a supporting role in Stolen Summer, which was a film made during Project Greenlight. He also played the role of Ryan James in two episodes of Smallville.\nKelley won an Independent Spirit Award for his performance in Mean Creek in 2004. Also in 2004 he played a lead role in the movie The Dust Factory. In 2006, Kelley appeared in the film Letters from Iwo Jima as a marine. He also played Roy, a great-nephew of Butch Cassidy, "
         }
       ]
     }
@@ -10422,193 +10531,9 @@
     "updated": "2026-11-23T02:33-05:00"
   },
   "senses": {
-    "stimulation": 0.444,
-    "energy": 0.38,
+    "stimulation": 0.662,
+    "energy": 0.24,
     "recent": [
-      [
-        "beloved",
-        "cicadas",
-        "lachlani",
-        "macrotristria",
-        "revisit",
-        "search"
-      ],
-      [
-        "beloved",
-        "cicadas",
-        "lachlani",
-        "macrotristria",
-        "revisit",
-        "search"
-      ],
-      [
-        "baptist",
-        "closer",
-        "fascinates",
-        "humility",
-        "john",
-        "look"
-      ],
-      [
-        "baptist",
-        "fascinated",
-        "humility",
-        "john",
-        "remarkable",
-        "reveal",
-        "reverence",
-        "selflessness",
-        "truly",
-        "words"
-      ],
-      [
-        "beetles",
-        "beloved",
-        "facts",
-        "lachlani",
-        "macrotristria",
-        "search"
-      ],
-      [
-        "beetles",
-        "beloved",
-        "facts",
-        "lachlani",
-        "macrotristria",
-        "search"
-      ],
-      [
-        "behavior",
-        "habits",
-        "lachlani",
-        "macrotristria",
-        "search"
-      ],
-      [
-        "actor",
-        "american",
-        "anything",
-        "good",
-        "heard",
-        "kelley",
-        "never",
-        "ryan",
-        "wonder"
-      ],
-      [
-        "closer",
-        "kelley",
-        "life",
-        "look",
-        "ryan",
-        "work"
-      ],
-      [
-        "adventure",
-        "filmography",
-        "impressive",
-        "kelley",
-        "knew",
-        "life",
-        "ryan",
-        "someone",
-        "story",
-        "young"
-      ],
-      [
-        "behavior",
-        "fascinating",
-        "habits",
-        "lachlani",
-        "learn",
-        "macrotristria",
-        "search",
-        "social"
-      ],
-      [
-        "behavior",
-        "fascinating",
-        "habits",
-        "lachlani",
-        "learn",
-        "macrotristria",
-        "search",
-        "social"
-      ],
-      [
-        "career",
-        "information",
-        "kelley",
-        "process",
-        "ryan"
-      ],
-      [
-        "away",
-        "cases",
-        "corner",
-        "creatures",
-        "discover",
-        "enchanting",
-        "entirely",
-        "ever",
-        "explore",
-        "fascinating",
-        "found",
-        "head",
-        "hidden",
-        "internet",
-        "lachlani",
-        "learning",
-        "little",
-        "macrotristria",
-        "songs",
-        "stuck",
-        "thinking",
-        "tired",
-        "today",
-        "tune",
-        "waiting",
-        "weird",
-        "wonder"
-      ],
-      [
-        "behavior",
-        "fascinating",
-        "lachlani",
-        "learn",
-        "macrotristria",
-        "search",
-        "songs"
-      ],
-      [
-        "behavior",
-        "fascinating",
-        "lachlani",
-        "learn",
-        "macrotristria",
-        "search",
-        "songs"
-      ],
-      [
-        "career",
-        "closer",
-        "kelley",
-        "look",
-        "read",
-        "ryan"
-      ],
-      [
-        "discovered",
-        "filmography",
-        "gems",
-        "hidden",
-        "kelley",
-        "other",
-        "place",
-        "ryan",
-        "waiting",
-        "wonder"
-      ],
       [
         "beloved",
         "lachlani",
@@ -10632,9 +10557,186 @@
         "quirks",
         "took",
         "without"
+      ],
+      [
+        "closer",
+        "early",
+        "kelley",
+        "life",
+        "look",
+        "ryan"
+      ],
+      [
+        "actor",
+        "career",
+        "child",
+        "different",
+        "kelley",
+        "love",
+        "many",
+        "play",
+        "roles",
+        "ryan",
+        "started",
+        "varied",
+        "went"
+      ],
+      [
+        "career",
+        "closer",
+        "kelley",
+        "learn",
+        "look",
+        "ryan"
+      ],
+      [
+        "actor",
+        "child",
+        "filmography",
+        "going",
+        "interesting",
+        "kelley",
+        "list",
+        "packed",
+        "projects",
+        "ryan"
+      ],
+      [
+        "kelley",
+        "lately",
+        "ryan",
+        "visit"
+      ],
+      [
+        "always",
+        "back",
+        "came",
+        "catch",
+        "delight",
+        "details",
+        "entirely",
+        "facts",
+        "fascinating",
+        "glad",
+        "intricate",
+        "lachlani",
+        "macrotristria",
+        "today",
+        "visit"
+      ],
+      [
+        "lachlani",
+        "macrotristria",
+        "thinking",
+        "visit"
+      ],
+      [
+        "caught",
+        "coumarins",
+        "forgot",
+        "hero",
+        "iridescent",
+        "lachlani",
+        "macrotristria",
+        "plant",
+        "quiet",
+        "scopoletin",
+        "unsung",
+        "wings"
+      ],
+      [
+        "acting",
+        "career",
+        "kelley",
+        "learn",
+        "ryan",
+        "search"
+      ],
+      [
+        "actor",
+        "already",
+        "busy",
+        "kelley",
+        "many",
+        "roles",
+        "ryan",
+        "young"
+      ],
+      [
+        "closer",
+        "kelley",
+        "life",
+        "look",
+        "ryan"
+      ],
+      [
+        "amazing",
+        "career",
+        "different",
+        "impressed",
+        "kelley",
+        "many",
+        "range",
+        "roles",
+        "ryan",
+        "versatility"
+      ],
+      [
+        "cicadas",
+        "enchanting",
+        "find",
+        "lachlani",
+        "macrotristria",
+        "search"
+      ],
+      [
+        "cicadas",
+        "enchanting",
+        "find",
+        "lachlani",
+        "macrotristria",
+        "search"
+      ],
+      [
+        "actress",
+        "castro",
+        "raquel",
+        "search",
+        "wonder"
+      ],
+      [
+        "actress",
+        "castro",
+        "raquel",
+        "singer",
+        "talented",
+        "young"
+      ],
+      [
+        "castro",
+        "closer",
+        "fascinating",
+        "look",
+        "page",
+        "raquel",
+        "wikipedia"
+      ],
+      [
+        "career",
+        "castro",
+        "full",
+        "heritage",
+        "inspired",
+        "interesting",
+        "music",
+        "raquel",
+        "share",
+        "through",
+        "tidbits",
+        "wonder"
       ]
     ],
-    "last": "familiar"
+    "last": "fresh"
   },
   "lessons": [
     {
@@ -10658,7 +10760,7 @@
       "because": "Wonder breaks are great for discovering new things, but I should record them better to keep track of my findings"
     }
   ],
-  "reflect_points": 18,
+  "reflect_points": 45,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations while also being mindful t",
     "made": "2026-11-22",
@@ -10760,97 +10862,19 @@
       "text": "learn more about Macrotristria lachlani's behavior",
       "made": "2026-11-22T23:24-05:00",
       "done": false
+    },
+    {
+      "text": "continue exploring cicada-related wonders later 🎉",
+      "made": "2026-11-23T03:14-05:00",
+      "done": false
+    },
+    {
+      "text": "learn more about Raquel Castro's music and acting career",
+      "made": "2026-11-23T03:28-05:00",
+      "done": false
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-21T23:10-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "Discover more about the athletes competing for South Africa.",
-      "fallback": false,
-      "emoji": "👀💻"
-    },
-    {
-      "time": "2026-11-21T23:12-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "👀💻"
-    },
-    {
-      "time": "2026-11-21T23:16-05:00",
-      "move": "go",
-      "detail": "SEARCH: Bloody Sunday (1920)",
-      "reason": "You look up Bloody Sunday (1920) again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": "📚👀"
-    },
-    {
-      "time": "2026-11-21T23:19-05:00",
-      "move": "note",
-      "detail": "",
-      "reason": "record my thoughts about Bloody Sunday",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-21T23:22-05:00",
-      "move": "go",
-      "detail": "SEARCH: Bloody Sunday (1920)",
-      "reason": "You look up Bloody Sunday (1920) again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-21T23:25-05:00",
-      "move": "go",
-      "detail": "SEARCH: Bloody Sunday (1920)",
-      "reason": "You look up Bloody Sunday (1920) again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-21T23:27-05:00",
-      "move": "note",
-      "detail": "",
-      "reason": "remember the connection between Bloody Sunday and my current thoughts on power",
-      "fallback": false,
-      "emoji": "📝😬"
-    },
-    {
-      "time": "2026-11-22T00:07-05:00",
-      "move": "think",
-      "detail": "",
-      "reason": "Clarify thoughts on Bloody Sunday",
-      "fallback": false,
-      "emoji": "🤔"
-    },
-    {
-      "time": "2026-11-22T00:10-05:00",
-      "move": "think",
-      "detail": "",
-      "reason": "Unravel thoughts about Bloody Sunday",
-      "fallback": false,
-      "emoji": "🤔💭"
-    },
-    {
-      "time": "2026-11-22T00:14-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "Understand why South Africa did so well at the Games 🏆💡",
-      "fallback": false,
-      "emoji": "📚💭"
-    },
-    {
-      "time": "2026-11-22T00:16-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "📚💭"
-    },
     {
       "time": "2026-11-22T00:19-05:00",
       "move": "look closer",
@@ -13162,17 +13186,105 @@
       "reason": "Reconnect with my beloved Macrotristria lachlani 🐜😊",
       "fallback": false,
       "emoji": "🐜😊"
+    },
+    {
+      "time": "2026-11-23T03:05-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "I want to know more about Ryan Kelley's early life.",
+      "fallback": false,
+      "emoji": "🤔📚"
+    },
+    {
+      "time": "2026-11-23T03:06-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🤔📚"
+    },
+    {
+      "time": "2026-11-23T03:08-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "want to learn more about Ryan Kelley's career",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-23T03:09-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🤔📚"
+    },
+    {
+      "time": "2026-11-23T03:11-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "See what Ryan Kelley's been up to lately!",
+      "fallback": false,
+      "emoji": "🤔"
+    },
+    {
+      "time": "2026-11-23T03:14-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "still thinking about Macrotristria lachlani 😊",
+      "fallback": false,
+      "emoji": "😊🐜"
+    },
+    {
+      "time": "2026-11-23T03:17-05:00",
+      "move": "go",
+      "detail": "SEARCH: Ryan Kelley",
+      "reason": "learn more about Ryan Kelley's acting career 🎬",
+      "fallback": false,
+      "emoji": "👥📺"
+    },
+    {
+      "time": "2026-11-23T03:20-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "see more about Ryan Kelley's life",
+      "fallback": false,
+      "emoji": "👀"
+    },
+    {
+      "time": "2026-11-23T03:22-05:00",
+      "move": "go",
+      "detail": "SEARCH: Macrotristria lachlani",
+      "reason": "You look up Macrotristria lachlani again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🐜🎶"
+    },
+    {
+      "time": "2026-11-23T03:24-05:00",
+      "move": "go",
+      "detail": "SEARCH: Raquel Castro",
+      "reason": "Wonder what she's like as an actress!",
+      "fallback": false,
+      "emoji": "🎬💡"
+    },
+    {
+      "time": "2026-11-23T03:28-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Raquel Castro's Wikipedia page is fascinating!",
+      "fallback": false,
+      "emoji": "🤔📚"
     }
   ],
   "recent_trips": [
-    "SEARCH:anything",
-    "SEARCH:precincts",
     "SPACE:macrotristria lachlani photos in nasa's picture archive",
     "SEARCH:cicadas in urban environments",
     "SEARCH:aphids",
     "LINK:oviparity",
     "SEARCH:macrotristria lachlani",
-    "SEARCH:macrotristria lachlani's behavior"
+    "SEARCH:macrotristria lachlani's behavior",
+    "SEARCH:ryan kelley",
+    "SEARCH:raquel castro"
   ],
   "sheet": {
     "What he cares about": [
