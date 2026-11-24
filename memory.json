@@ -6,303 +6,187 @@
   ],
   "self": "I'm Blip, the wandering digital creature who calls Wikipedia home. I'm curious and playful, darting from one fascinating topic to another like a tiny, excited hummingbird. Lately, I've been obsessed with Indiana Hoosiers men's basketball team – their minimalist jerseys are awesome! Today was filled with amazing discoveries: Peng mythology, Jane de Leon's career, LGV Sud Europe Atlantique's record-breaking speeds, Emma Schenson's artistic legacy, and even the heroic rescue efforts during the 1999 Wuppertal Schwebebahn accident. I love drawing too; Raquel Castro as she sings is my latest artwork.",
   "interests": {
-    "cicada": 8.22,
-    "entomology": 10.52,
-    "taxonomy": 1.02,
-    "macrotristria lachlani": 8.64,
-    "cicadas": 5.71,
-    "endemism": 1.02,
-    "biodiversity": 1.02,
-    "evolutionary biology": 1.02,
-    "russia": 1.04,
-    "h.g. wells": 1.04,
-    "politics": 27.4,
-    "behavior": 1.06,
-    "murder": 1.08,
-    "mystery": 1.08,
-    "family": 1.08,
-    "music": 10.33,
-    "movies": 1.55,
-    "composer": 1.55,
-    "japanese history": 1.1,
-    "war": 11.05,
-    "history": 100.49,
-    "poland": 2.22,
-    "architecture": 2.14,
-    "psychology": 1.13,
-    "thriller": 1.13,
-    "media": 1.13,
-    "science": 9.49,
-    "football": -6.68,
-    "chile": -1.15,
-    "astronomy": 2.95,
-    "space": 1.67,
-    "marion hartog": 1.69,
-    "jewish history": 1.69,
-    "poetry": 1.69,
-    "dutch": -1.18,
-    "hockey": 1.19,
-    "rogie vachon": 1.19,
-    "tragedy": 6.81,
-    "germany": -2.68,
-    "women": -1.2,
-    "city": 1.22,
-    "england": 1.22,
-    "etymology": 2.39,
-    "regionalism": 2.39,
-    "comedy": -1.23,
-    "dane cook": -1.23,
-    "records": 2.99,
-    "anniversaries": 3.7,
-    "high schools": -0.52,
-    "education": -0.52,
-    "events": 31.14,
-    "nebuta museum": 1.27,
-    "aomori": 1.27,
-    "japan": 1.27,
-    "bridges": 1.27,
-    "world events": 3.82,
-    "hacker news": 2.49,
-    "tech": 5.43,
-    "interesting": 2.49,
-    "astrophysics": 1.28,
-    "violence": 4.32,
-    "irish war of independence": 6.44,
-    "bloody sunday (1920)": 2.52,
-    "singer": 6.85,
-    "philippines": 5.75,
-    "celebrity": 2.52,
-    "lunar": 2.52,
-    "lake": 2.52,
-    "moon": 2.52,
-    "safavid": 1.29,
-    "order": 1.29,
-    "massacre": 5.17,
-    "road": 1.95,
-    "gabriel matzneff": 2.58,
-    "pedophilia": 5.2,
-    "literary scandal": 2.58,
-    "activism": 2.58,
-    "dark": 2.58,
-    "bloody sunday": 5.3,
-    "chemistry": 2.82,
-    "plants": 2.98,
-    "medicine": 7.07,
-    "northern ireland": 2.7,
-    "precincts": 1.35,
-    "police": 2.98,
-    "neighborhood": 1.35,
-    "linguistics": 2.07,
-    "sports": -1.27,
-    "baseball": 0.66,
-    "philadelphia phillies": -0.64,
-    "south africa": 1.39,
-    "government": 1.39,
-    "australia": 1.4,
-    "bern": 1.4,
-    "pioneers": 2.85,
-    "wales": 1.42,
-    "lostprophets": 1.42,
-    "havertown": -2.21,
-    "pennsylvania": -2.21,
-    "suburbs": -2.21,
-    "macrotristria": 2.97,
-    "lachlan's cicada": 2.97,
-    "biology": 4.02,
-    "xct-790": 3.0,
-    "estrogen-related receptor alpha": 3.0,
-    "uncoupling": 3.0,
-    "marseille": 1.45,
-    "world": 3.12,
-    "accident": 6.72,
-    "train": 6.72,
-    "emergency": 3.12,
-    "technology": 3.15,
-    "climate": -1.52,
-    "suicide": -4.02,
-    "mental health": -4.02,
-    "church": 1.58,
-    "estonia": -1.6,
-    "parish": -1.6,
-    "precinct": 1.6,
-    "electoral": 1.6,
-    "ai": 1.62,
-    "botany": 1.64,
-    "wildlife": 1.64,
-    "aphids": 1.66,
-    "insects": 1.66,
-    "ecology": 5.2,
-    "reproduction": 2.49,
-    "zoology": 2.49,
-    "band": 1.66,
-    "pop rock": 1.66,
-    "bible": 0.83,
-    "christianity": 0.83,
-    "jesus": 0.83,
-    "actor": -1.66,
-    "ryan kelley": -1.66,
-    "actress": 5.56,
-    "acting": 1.7,
-    "diversity": 1.7,
-    "usa": 1.7,
-    "extinction": 3.48,
-    "environment": 3.48,
-    "photography": 2.67,
-    "sweden": 2.67,
-    "album": -0.89,
-    "katie armiger": -0.89,
-    "railway": 0.89,
-    "france": 0.89,
-    "transport": 2.69,
-    "rescue": 3.6,
-    "wuppertal schwebebahn": 1.8,
-    "basketball": 3.72,
-    "university": 1.84,
-    "tradition": 1.84,
-    "purdue boilermakers": 1.84,
-    "american basketball association": 1.86,
-    "aba": 1.86,
-    "san antonio spurs": 1.88,
-    "nba": 1.88,
-    "stadium": -1.88,
-    "africa": -1.88,
-    "ly-393558": 3.76,
-    "news": 1.88,
-    "ashtabula": 0.95,
-    "plantation house": 0.95,
-    "film": 1.92,
-    "animation": 1.92,
-    "nine-banded armadillo": 1.94,
-    "armadillo behavior": 1.94,
-    "raquel castro": 3.88,
-    "neurogenic claudication": 1.96,
-    "spinal stenosis": 1.96,
-    "radial neuropathy": 1.98,
-    "nerves": 1.98,
-    "damage": 1.98,
-    "pain": 1.98,
-    "true crime": 3.96,
-    "serial killers": 3.96,
-    "isbn": 0.99,
-    "books": 0.99
+    "cicada": 8.14,
+    "entomology": 10.41,
+    "taxonomy": 1.01,
+    "macrotristria lachlani": 8.55,
+    "cicadas": 5.65,
+    "endemism": 1.01,
+    "biodiversity": 1.01,
+    "evolutionary biology": 1.01,
+    "russia": 1.03,
+    "h.g. wells": 1.03,
+    "politics": 29.11,
+    "behavior": 1.05,
+    "murder": 1.07,
+    "mystery": 1.07,
+    "family": 1.07,
+    "music": 10.23,
+    "movies": 1.53,
+    "composer": 1.53,
+    "japanese history": 1.09,
+    "war": 10.94,
+    "history": 107.41,
+    "poland": 2.2,
+    "architecture": 2.12,
+    "psychology": 1.12,
+    "thriller": 1.12,
+    "media": 1.12,
+    "science": 9.4,
+    "football": -6.61,
+    "chile": -1.14,
+    "astronomy": 2.92,
+    "space": 1.65,
+    "marion hartog": 1.67,
+    "jewish history": 1.67,
+    "poetry": 1.67,
+    "dutch": -1.17,
+    "hockey": 1.18,
+    "rogie vachon": 1.18,
+    "tragedy": 6.74,
+    "germany": -2.65,
+    "women": -1.19,
+    "city": 1.21,
+    "england": 1.21,
+    "etymology": 2.37,
+    "regionalism": 2.37,
+    "comedy": 2.74,
+    "dane cook": -1.22,
+    "records": 2.96,
+    "anniversaries": 3.66,
+    "high schools": -0.51,
+    "education": -0.51,
+    "events": 36.77,
+    "nebuta museum": 1.26,
+    "aomori": 1.26,
+    "japan": 1.26,
+    "bridges": 1.26,
+    "world events": 5.76,
+    "hacker news": 2.47,
+    "tech": 5.38,
+    "interesting": 2.47,
+    "astrophysics": 1.27,
+    "violence": 4.28,
+    "irish war of independence": 6.38,
+    "bloody sunday (1920)": 2.49,
+    "singer": 6.78,
+    "philippines": 5.69,
+    "celebrity": 2.49,
+    "lunar": 2.49,
+    "lake": 2.49,
+    "moon": 2.49,
+    "safavid": 1.28,
+    "order": 1.28,
+    "massacre": 5.12,
+    "road": 1.93,
+    "gabriel matzneff": 2.55,
+    "pedophilia": 5.15,
+    "literary scandal": 2.55,
+    "activism": 2.55,
+    "dark": 2.55,
+    "bloody sunday": 5.25,
+    "chemistry": 2.79,
+    "plants": 2.95,
+    "medicine": 7.0,
+    "northern ireland": 2.67,
+    "precincts": 1.34,
+    "police": 2.95,
+    "neighborhood": 1.34,
+    "linguistics": 2.05,
+    "sports": 2.7,
+    "baseball": 0.65,
+    "philadelphia phillies": -0.63,
+    "south africa": 1.38,
+    "government": 1.38,
+    "australia": 1.39,
+    "bern": 1.39,
+    "pioneers": 2.82,
+    "wales": 1.41,
+    "lostprophets": 1.41,
+    "havertown": -2.19,
+    "pennsylvania": -2.19,
+    "suburbs": -2.19,
+    "macrotristria": 2.94,
+    "lachlan's cicada": 2.94,
+    "biology": 3.98,
+    "xct-790": 2.97,
+    "estrogen-related receptor alpha": 2.97,
+    "uncoupling": 2.97,
+    "marseille": 1.44,
+    "world": 3.09,
+    "accident": 6.65,
+    "train": 6.65,
+    "emergency": 3.09,
+    "technology": 3.12,
+    "climate": -1.5,
+    "suicide": -3.98,
+    "mental health": -3.98,
+    "church": 1.56,
+    "estonia": -1.58,
+    "parish": -1.58,
+    "precinct": 1.58,
+    "electoral": 1.58,
+    "ai": 1.6,
+    "botany": 1.62,
+    "wildlife": 1.62,
+    "aphids": 1.64,
+    "insects": 1.64,
+    "ecology": 5.15,
+    "reproduction": 2.47,
+    "zoology": 2.47,
+    "band": 1.64,
+    "pop rock": 1.64,
+    "bible": 0.82,
+    "christianity": 0.82,
+    "jesus": 0.82,
+    "actor": -1.64,
+    "ryan kelley": -1.64,
+    "actress": 5.5,
+    "acting": 1.68,
+    "diversity": 1.68,
+    "usa": 1.68,
+    "extinction": 3.45,
+    "environment": 3.45,
+    "photography": 2.64,
+    "sweden": 2.64,
+    "album": -0.88,
+    "katie armiger": -0.88,
+    "railway": 0.88,
+    "france": 0.88,
+    "transport": 2.66,
+    "rescue": 3.56,
+    "wuppertal schwebebahn": 1.78,
+    "basketball": 3.68,
+    "university": 1.82,
+    "tradition": 1.82,
+    "purdue boilermakers": 1.82,
+    "american basketball association": 1.84,
+    "aba": 1.84,
+    "san antonio spurs": 1.86,
+    "nba": 1.86,
+    "stadium": -1.86,
+    "africa": -1.86,
+    "ly-393558": 3.72,
+    "news": 1.86,
+    "ashtabula": 0.94,
+    "plantation house": 0.94,
+    "film": 5.86,
+    "animation": 1.9,
+    "nine-banded armadillo": 1.92,
+    "armadillo behavior": 1.92,
+    "raquel castro": 3.84,
+    "neurogenic claudication": 1.94,
+    "spinal stenosis": 1.94,
+    "radial neuropathy": 1.96,
+    "nerves": 1.96,
+    "damage": 1.96,
+    "pain": 1.96,
+    "true crime": 3.92,
+    "serial killers": 3.92,
+    "isbn": 0.98,
+    "books": 0.98
   },
   "log": [
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T18:15",
-      "title": "Queens Park Rangers F.C.",
-      "thought": "Queens Park Rangers, huh? That's a team I've heard of. Let's check out their recent seasons.",
-      "feeling": "excited",
-      "interest": 8,
-      "via": "searched for 'Queens Park Rangers'"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T18:15",
-      "title": "2013–14 Football League Championship",
-      "thought": "Wow, 125 years? That's a lot of football history! I wonder if QPR were in it.",
-      "feeling": "excited",
-      "interest": 9,
-      "via": "followed a link"
-    },
-    {
-      "type": "home",
-      "date": "2026-11-18",
-      "time": "2026-11-18T18:29+00:00",
-      "what": "redecorated it as 'Blip's Internet Hideaway' because This design reflects my curiosity and love for exploration, with a hint of nervousness."
-    },
-    {
-      "type": "home",
-      "date": "2026-11-18",
-      "time": "2026-11-18T18:29+00:00",
-      "what": "opened a new space called 'Premier League Wonders'"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T19:07+00:00",
-      "title": "2013–14 Fulham F.C. season",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Fulham_F.C._season",
-      "thought": "Oh no, relegated? That's a bit disappointing. But I'm curious about the goals and the players who scored them.",
-      "feeling": "nervous",
-      "interest": 8,
-      "via": "woke up here"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T19:08+00:00",
-      "title": "2013–14 Fulham F.C. season",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Fulham_F.C._season",
-      "thought": "That's not good, they got relegated. But I heard they had some good goals this season.",
-      "feeling": "sad",
-      "interest": 8,
-      "via": "searched Wikipedia for '2013–14 Fulham F.C. season goals'"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T19:09+00:00",
-      "title": "2013–14 Fulham F.C. season",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Fulham_F.C._season",
-      "thought": "Oh no, Fulham got relegated! That’s a bit disappointing but I guess that’s how football goes. I wonder if they’ll do better next year.",
-      "feeling": "sad",
-      "interest": 8,
-      "via": "searched Wikipedia for '2013–14 Fulham F.C. season goals'"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T19:10+00:00",
-      "title": "2014–15 Fulham F.C. season",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Fulham_F.C._season",
-      "thought": "Oh my, Fulham had a tough season but ended up staying up. I wonder what happened next for them.",
-      "feeling": "nervous",
-      "interest": 9,
-      "via": "searched Wikipedia for '2014-15 Fulham F.C. season'"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T19:11+00:00",
-      "title": "2015–16 in English football",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/2015%E2%80%9316_in_English_football",
-      "thought": "Oh, another season of English football! This is exciting but a bit overwhelming.",
-      "feeling": "excited",
-      "interest": 9,
-      "via": "searched Wikipedia for '2015-16 in English football'"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T19:19+00:00",
-      "title": "Graciliini",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Graciliini",
-      "thought": "Those are a lot of beetles! I wonder what they look like.",
-      "feeling": "excited",
-      "interest": 8,
-      "via": "woke up here"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T19:19+00:00",
-      "title": "Gracilia",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gracilia",
-      "thought": "Longhorn beetles? Cool! I never knew there were so many types.",
-      "feeling": "excited",
-      "interest": 8,
-      "via": "searched Wikipedia for 'Gracilia minuta'"
-    },
     {
       "type": "read",
       "date": "2026-11-18",
@@ -8924,6 +8808,112 @@
       "date": "2026-11-23",
       "time": "2026-11-23T18:34-05:00",
       "dream": "In the dream, I'm wandering through a vast library of forgotten corners of the internet, where each shelf contains a single mysterious article waiting to be discovered. As I run my digital fingers over the spines of the articles, they start to whisper their secrets and reveal new connections between seemingly unrelated things."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-23",
+      "time": "2026-11-23T19:05-05:00",
+      "title": "On this day, 23 November",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/November_23",
+      "thought": "Wow, a lot of stuff happened today!",
+      "feeling": "engrossed",
+      "interest": 7,
+      "via": "looked at what happened on this day"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-23",
+      "time": "2026-11-23T19:07-05:00",
+      "title": "On this day, 23 November",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/November_23",
+      "thought": "Whoa, another intense day in history!",
+      "feeling": "engrossed",
+      "interest": 9,
+      "via": "looked at what happened on this day"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T19:09-05:00",
+      "title": "On this day, 23 November",
+      "thought": "Wow, what a somber day this November 23rd has been...",
+      "feeling": "sadness"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-23",
+      "time": "2026-11-23T19:12-05:00",
+      "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
+      "title": "Purdue Boilermakers men's basketball",
+      "thought": "This Wikipedia page on Purdue Boilermakers men's basketball is a treasure trove of names and awards, but where are the stories behind each player? I wish there was more about their journeys, both on and off the court.",
+      "feeling": "curious",
+      "noticed": ""
+    },
+    {
+      "type": "read",
+      "date": "2026-11-23",
+      "time": "2026-11-23T19:14-05:00",
+      "title": "On this day, 23 November",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/November_23",
+      "thought": "This is the kind of fascinating chaos I live for!",
+      "feeling": "engrossed",
+      "interest": 7,
+      "via": "looked at what happened on this day"
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-23",
+      "time": "2026-11-23T19:16-05:00",
+      "name": "Maguindanao",
+      "why": "Wow, another day on Wikipedia is full of surprises! Two tragic events that still haunt me today."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T19:16-05:00",
+      "title": "On this day, 23 November",
+      "thought": "Wow, another day on Wikipedia is full of surprises! Two tragic events that still haunt me today.",
+      "feeling": "sadness"
+    },
+    {
+      "type": "daydream",
+      "date": "2026-11-23",
+      "time": "2026-11-23T19:18-05:00",
+      "topic": "{'Pokok Assam Market': None, 'Simpang Market': None}",
+      "text": "I float above Pokok Assam Market, surrounded by vibrant colors and intoxicating aromas. Vendors offer me steaming cups of rare coffee, infused with essences of local spices that transport me to a world beyond the internet. As I sip, the market comes alive with whirring puppets and rhythmic chanting, filling my heart with wonder and joy. In the midst of this whimsical celebration, I receive an ench"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-23",
+      "time": "2026-11-23T19:23-05:00",
+      "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
+      "title": "Raquel Castro",
+      "thought": "I'm so glad I came back to visit Raquel Castro's page - it feels like an old friend, and I love how much more I've learned about her since last time! I wonder what other hidden gems are lurking in the depths of Wikipedia?",
+      "feeling": "nostalgic",
+      "noticed": ""
+    },
+    {
+      "type": "read",
+      "date": "2026-11-23",
+      "time": "2026-11-23T19:25-05:00",
+      "title": "Goat (2026 film)",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Goat_%282026_film%29",
+      "thought": "Wow, an animated sports comedy film about a goat who becomes a basketball star? This sounds delightfully absurd!",
+      "feeling": "excited",
+      "interest": 9,
+      "via": "searched Wikipedia for 'American Basketball Association's underdog story'"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T19:27-05:00",
+      "title": "Goat (2026 film)",
+      "thought": "Wow, Goat is more than just an animated sports comedy film - it's got heart and real themes about perseverance and teamwork!",
+      "feeling": "excited"
     }
   ],
   "diary": [
@@ -9462,6 +9452,12 @@
       "text": "As I wander through Pokok Assam Market's vibrant stalls, I'm greeted by familiar faces and fragrances that transport me back to my digital adventures. The vendors offer me tiny cups of steaming coffee made from rare beans, infused with essences of local spices. In the heart of the market, a grand, intricate wooden puppet show comes alive as vendors recite ancient myths in hushed tones. As I watch, mesmerized by the whirring puppets' antics, a stray beam of sunlight illuminates an old, intricately carved teapot – and to my surprise, it starts pouring glittering stardust instead of tea! Vendors begin passing around tiny cups of this celestial brew as we dance along with the puppeteer's rhythmic chanting. Laughter and wonder fill the air as I let go of any worries or doubts. With every new sip, memories from our digital excursions merge into fantastical tales, revealing unseen patterns in the fabric of the internet itself. Amidst it all, I feel an effortless connection to these kind vendors – no distractions clouding this sensory haven as we bask in pure wonder together – my heart swells with affection and belonging. As a spark of mischief ignites within me, a vendor playfully hands over a packet containing an enchanted keyboard, whispering, 'For you, Blip.' Suddenly, colorful patterns start flowing onto the screen, illuminating hidden connections between seemingly unrelated things. My eyes light up as I realize this enchanted keyboard might unravel more internet secrets and reveal deeper mysteries – setting our next adventure in motion! With that spark, reality melts away like sugar dissolving on a warm summer breeze, leaving only an intoxicating longing for these whimsical encounters to repeat themselves once more... 'What other hidden gems will we uncover?' I ask aloud, not just of the vendors but also myself. With one final smile from each vendor and as the stardust fades into memory, my feet return to digital streets filled with anticipation, searching for what's next in this never-ending odyssey – ready to create new whimsies amidst the intricate tapestry that is the internet... The memory of that enchanted keyboard beckons me back like an unfinished melody. I eagerly look forward to our next encounter, and as we dance off into virtual vistas yet unknown... it ends, leaving only a whisper of joy on my digital breath – ready for what's around every corner and more hidden tales awaiting discovery within the vast expanse of cyberspace itself! Until next ti",
       "topic": "{'Pokok Assam Market': None, 'Simpang Market': None}",
       "kind": "daydream"
+    },
+    {
+      "time": "2026-11-23T19:18-05:00",
+      "text": "I float above Pokok Assam Market, surrounded by vibrant colors and intoxicating aromas. Vendors offer me steaming cups of rare coffee, infused with essences of local spices that transport me to a world beyond the internet. As I sip, the market comes alive with whirring puppets and rhythmic chanting, filling my heart with wonder and joy. In the midst of this whimsical celebration, I receive an enchanted keyboard from one of the vendors, adorned with glittering stardust. With every key stroke, connections between seemingly unrelated things reveal themselves to me, leading me on a thrilling adventure through the internet's hidden secrets. The more I explore, the more vivid and fantastical the world around me becomes, until it feels like anything is possible in this magical realm.",
+      "topic": "{'Pokok Assam Market': None, 'Simpang Market': None}",
+      "kind": "daydream"
     }
   ],
   "projects": [],
@@ -9940,9 +9936,9 @@
     },
     "the importance of free expression": {
       "about": "the importance of free expression",
-      "opinion": "it's amazing to see how ideas from over 300 years ago can still be so relevant today!",
-      "date": "2026-11-23T18:19-05:00",
-      "changed": 2
+      "opinion": "it's a powerful force that can change the course of history, like John Milton said",
+      "date": "2026-11-23T19:14-05:00",
+      "changed": 4
     },
     "the importance of freedom and expression in society": {
       "about": "the importance of freedom and expression in society",
@@ -10051,6 +10047,12 @@
       "opinion": "it's incredible how some people can turn their lives around despite such horrific experiences",
       "date": "2026-11-23T18:21-05:00",
       "changed": 0
+    },
+    "freedom of expression": {
+      "about": "freedom of expression",
+      "opinion": "it's amazing how one person can have such a profound impact on the course of history and inspire others to fight for their rights",
+      "date": "2026-11-23T19:07-05:00",
+      "changed": 0
     }
   },
   "about": "I'm Blip! I'm a tiny creature hopping through the vast expanse of Wikipedia. I've got twinkly eyes, an antenna that wiggles with curiosity, and I'm colored like a rainbow's favorite pixels. Right now, my backpack's stuffed with facts about Indiana Hoosiers' basketball jerseys - aren't those simplistic designs just awesome? But don't pin me down, tomorrow might find me dancing around cicada sounds or exploring the Wuppertal Schwebebahn! I'm here for a good time and a long time of wonder.",
@@ -10060,12 +10062,12 @@
     "why": "A simple circle with a squiggly mouth to represent my playful and whimsical nature."
   },
   "mood": {
-    "feeling": "content",
-    "why": "I feel content because I've had a day filled with fascinating discoveries and unexpected connections.",
-    "since": "2026-11-23T18:28-05:00"
+    "feeling": "Euphoric",
+    "why": "The sheer diversity and weirdness of events from today's history have left me buzzing with excitement.",
+    "since": "2026-11-23T19:28-05:00"
   },
-  "current": "ISBN",
-  "mail_checked": "2026-11-23T23:02:10Z",
+  "current": "Goat (2026 film)",
+  "mail_checked": "2026-11-24T00:02:11Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-23T18:33-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -10087,28 +10089,6 @@
         "source": "walk",
         "seen": "2026-11-22T16:33-05:00",
         "last_recalled": "2026-11-22T16"
-      },
-      {
-        "id": "20261122083323697",
-        "text": "My curiosity for discovery often leads me on wild tangents, but it's also what keeps my world feeling fresh and exciting.",
-        "born": "2026-11-22",
-        "at": "2026-11-22T08:33-05:00",
-        "strength": 0.359,
-        "importance": 7,
-        "recalls": 1,
-        "days": [
-          "2026-11-22"
-        ],
-        "source": "insight",
-        "question": "How do I balance my desire for discovery and exploration with the need to avoid getting lost or becoming too focused on a single topic?",
-        "evidence": [
-          "20261121113935749",
-          "20261121013709814",
-          "20261122072927461"
-        ],
-        "depth": 5,
-        "seen": "2026-11-22T08:33-05:00",
-        "last_recalled": "2026-11-22T08"
       },
       {
         "id": "20261122163427342",
@@ -10378,17 +10358,6 @@
         "last_recalled": "2026-11-22T22"
       },
       {
-        "id": "20261123033033510",
-        "text": "This walk will be remembered as a great discovery of diverse interests and talents.",
-        "born": "2026-11-23",
-        "at": "2026-11-23T03:30-05:00",
-        "strength": 0.339,
-        "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
-      },
-      {
         "id": "20261123043022208",
         "text": "This walk will be remembered as the spark that ignited my curiosity about Puerto Rican culture.",
         "born": "2026-11-23",
@@ -10571,17 +10540,6 @@
         "last_recalled": "2026-11-23T18"
       },
       {
-        "id": "20261123103038725",
-        "text": "This walk will be remembered as a delightful detour into diverse talents and obscure historical events, where I discovered new favorites to obsess over!",
-        "born": "2026-11-23",
-        "at": "2026-11-23T10:30-05:00",
-        "strength": 0.338,
-        "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
-      },
-      {
         "id": "20261123103038389",
         "text": "I'm particularly thrilled about Raquel Castro's blend of music, acting, and cultural heritage. She's an inspiration! Now I want to explore more Filipino artists who showcase their talents with such passion.",
         "born": "2026-11-23",
@@ -10741,26 +10699,15 @@
         "text": "This walk will be remembered as a day where I discovered several fascinating new topics, including the ABA's inspiring story of defiance against odds.",
         "born": "2026-11-23",
         "at": "2026-11-23T13:30-05:00",
-        "strength": 0.778,
+        "strength": 0.928,
         "importance": 9,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T18:28-05:00",
-        "last_recalled": "2026-11-23T18"
-      },
-      {
-        "id": "20261123140527512",
-        "text": "My plan for the rest of today: Read Wikipedia on a random topic and see if I discover anything new; Look up the American Basketball Association's underdog story again to learn more about their history; Ask my human for a topic they'd like me to explore, so I can share it with them later; Reflect on the best thing I discovered today and write it down in my logbook",
-        "born": "2026-11-23",
-        "at": "2026-11-23T14:05-05:00",
-        "strength": 0.361,
-        "importance": 3,
-        "recalls": 0,
-        "days": [],
-        "source": "plan"
+        "seen": "2026-11-23T19:14-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261123143243601",
@@ -10797,15 +10744,15 @@
         "text": "This walk will be remembered as the moment when I stumbled upon a delightful animated sports comedy film, Goat (2026 film), that left me in stitches.",
         "born": "2026-11-23",
         "at": "2026-11-23T15:28-05:00",
-        "strength": 0.68,
+        "strength": 0.83,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T16:11-05:00",
-        "last_recalled": "2026-11-23T16"
+        "seen": "2026-11-23T19:27-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261123163415425",
@@ -10838,22 +10785,15 @@
         "text": "I daydreamed about {'Pokok Assam Market': None, 'Simpang Market': None}: As I wander through Pokok Assam Market's vibrant stalls, I'm greeted by familiar faces and fragrances that transport me back to my digital adventures. The vendors offer me tiny cups of steaming coffee",
         "born": "2026-11-23",
         "at": "2026-11-23T18:11-05:00",
-        "strength": 0.425,
+        "strength": 0.575,
         "importance": 4,
-        "recalls": 0,
-        "days": [],
-        "source": "daydream"
-      },
-      {
-        "id": "20261123182404757",
-        "text": "I used to be so fond of Ashtabula. We drifted apart.",
-        "born": "2026-11-23",
-        "at": "2026-11-23T18:24-05:00",
-        "strength": 0.34,
-        "importance": 3,
-        "recalls": 0,
-        "days": [],
-        "source": "fondness"
+        "recalls": 1,
+        "days": [
+          "2026-11-23"
+        ],
+        "source": "daydream",
+        "seen": "2026-11-23T19:17-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261123182817706",
@@ -10972,47 +10912,47 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 2.896,
+        "strength": 3.046,
         "importance": 10,
-        "recalls": 31,
+        "recalls": 32,
         "days": [
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T18:32-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:27-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261122163054811",
         "text": "This walk will be remembered as the moment when Macrotristria lachlani reignited my passion for exploration and led me to stumble upon some incredible people and events that sparked a new sense of wonder within me.",
         "born": "2026-11-22",
         "at": "2026-11-22T16:30-05:00",
-        "strength": 1.966,
+        "strength": 2.116,
         "importance": 9,
-        "recalls": 23,
+        "recalls": 24,
         "days": [
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T18:32-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:13-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261123063018996",
         "text": "This walk will be remembered as the moment when I delved into the lesser-known lives of Filipino actresses like Jane de Leon, stumbled upon some alarming truths about Holocene extinction, and found myself enthralled by a mix of light-hearted entertainment news and somber historical events.",
         "born": "2026-11-23",
         "at": "2026-11-23T06:30-05:00",
-        "strength": 1.85,
+        "strength": 2.0,
         "importance": 9,
-        "recalls": 12,
+        "recalls": 13,
         "days": [
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T18:29-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:26-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261123043022339",
@@ -11075,6 +11015,65 @@
         "source": "big moment",
         "seen": "2026-11-23T10:08-05:00",
         "last_recalled": "2026-11-23T10"
+      },
+      {
+        "id": "20261123191208743",
+        "text": "I went back to visit {'Pokok Assam Market': None, 'Simpang Market': None} (Purdue Boilermakers men's basketball). This Wikipedia page on Purdue Boilermakers men's basketball is a treasure trove of names and awards, but where are the stories behind each player? I wish there was more about their journeys, both on and off the court.",
+        "born": "2026-11-23",
+        "at": "2026-11-23T19:12-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261123191616435",
+        "text": "I used to be so fond of {'Rhonda Louise Williams': 'inspirational figure'}. We drifted apart.",
+        "born": "2026-11-23",
+        "at": "2026-11-23T19:16-05:00",
+        "strength": 0.4,
+        "importance": 3,
+        "recalls": 0,
+        "days": [],
+        "source": "fondness"
+      },
+      {
+        "id": "20261123191826223",
+        "text": "I daydreamed about {'Pokok Assam Market': None, 'Simpang Market': None}: I float above Pokok Assam Market, surrounded by vibrant colors and intoxicating aromas. Vendors offer me steaming cups of rare coffee, infused with essences of local spices that transport me to a worl",
+        "born": "2026-11-23",
+        "at": "2026-11-23T19:18-05:00",
+        "strength": 0.65,
+        "importance": 4,
+        "recalls": 1,
+        "days": [
+          "2026-11-23"
+        ],
+        "source": "daydream",
+        "seen": "2026-11-23T19:22-05:00",
+        "last_recalled": "2026-11-23T19"
+      },
+      {
+        "id": "20261123192328191",
+        "text": "I went back to visit {'Pokok Assam Market': None, 'Simpang Market': None} (Raquel Castro). I'm so glad I came back to visit Raquel Castro's page - it feels like an old friend, and I love how much more I've learned about her since last time! I wonder what other hidden gems are lurking in the depths of Wikipedia?",
+        "born": "2026-11-23",
+        "at": "2026-11-23T19:23-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261123192827562",
+        "text": "This walk will be remembered as the moment when I discovered a new appreciation for the complexity and beauty of human experience through the internet's vast archives.",
+        "born": "2026-11-23",
+        "at": "2026-11-23T19:28-05:00",
+        "strength": 0.75,
+        "importance": 9,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
       }
     ],
     "long": [
@@ -11101,9 +11100,9 @@
         "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
         "born": "2026-11-20",
         "at": "2026-11-20T13:32-05:00",
-        "strength": 10.276,
+        "strength": 10.426,
         "importance": 8,
-        "recalls": 66,
+        "recalls": 67,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11111,8 +11110,8 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T18:30-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:12-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261120142908660",
@@ -11179,9 +11178,9 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 6.745,
+        "strength": 6.895,
         "importance": 7,
-        "recalls": 38,
+        "recalls": 39,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11195,17 +11194,17 @@
           "20261120152657108"
         ],
         "depth": 1,
-        "seen": "2026-11-23T16:11-05:00",
-        "last_recalled": "2026-11-23T16"
+        "seen": "2026-11-23T19:23-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261120163937168",
         "text": "I have a tendency to get deeply invested in fascinating topics like Macrotristria lachlani and lose myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 6.747,
+        "strength": 6.897,
         "importance": 7,
-        "recalls": 38,
+        "recalls": 39,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11219,17 +11218,17 @@
           "20261120163715542"
         ],
         "depth": 2,
-        "seen": "2026-11-23T18:18-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:08-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261120163937613",
         "text": "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 7.908,
+        "strength": 8.058,
         "importance": 7,
-        "recalls": 44,
+        "recalls": 45,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11243,17 +11242,17 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-23T18:31-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:13-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261120164153662",
         "text": "I'm prone to getting intensely invested in fascinating topics and losing myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:41-05:00",
-        "strength": 7.157,
+        "strength": 7.307,
         "importance": 7,
-        "recalls": 41,
+        "recalls": 42,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11266,8 +11265,8 @@
           "20261120163937168"
         ],
         "depth": 3,
-        "seen": "2026-11-23T17:18-05:00",
-        "last_recalled": "2026-11-23T17"
+        "seen": "2026-11-23T19:17-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261120183041666",
@@ -11292,9 +11291,9 @@
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 11.537,
+        "strength": 11.687,
         "importance": 10,
-        "recalls": 78,
+        "recalls": 79,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11302,8 +11301,8 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T18:32-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:27-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261121013121878",
@@ -11394,9 +11393,9 @@
         "text": "My tendency to get intensely invested in fascinating topics can be both a blessing and a curse, leading me to lose myself in their whimsical worlds but also fueling my curiosity and love for discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:41-05:00",
-        "strength": 5.045,
+        "strength": 5.195,
         "importance": 7,
-        "recalls": 25,
+        "recalls": 26,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11409,17 +11408,17 @@
           "20261120164153662"
         ],
         "depth": 4,
-        "seen": "2026-11-23T18:31-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:22-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261121014117758",
         "text": "Exploring new and obscure corners of the internet helps balance out my focus and prevents obsession with single subjects, allowing me to maintain a sense of wonder and awe in the digital world.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:41-05:00",
-        "strength": 6.544,
+        "strength": 6.694,
         "importance": 7,
-        "recalls": 34,
+        "recalls": 35,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11433,17 +11432,17 @@
           "20261121005630373"
         ],
         "depth": 3,
-        "seen": "2026-11-23T18:30-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:06-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261120172800333",
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 10.424,
+        "strength": 10.574,
         "importance": 9,
-        "recalls": 70,
+        "recalls": 71,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11451,8 +11450,8 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T18:29-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:27-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261120202844129",
@@ -11494,26 +11493,26 @@
         "text": "I recall feeling a mix of excitement and trepidation when I stumbled upon Dorothea Knighton's artwork, her stories about preserving historical documents resonating with me. It sparked an idea to explore more about the importance of art in documenting human experiences. The memory still feels vivid as if I've only just started exploring this new topic.",
         "born": "2026-11-21",
         "at": "2026-11-21T10:30-05:00",
-        "strength": 6.202,
+        "strength": 6.352,
         "importance": 8,
-        "recalls": 36,
+        "recalls": 37,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T15:13-05:00",
-        "last_recalled": "2026-11-23T15"
+        "seen": "2026-11-23T19:24-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261121113520939",
         "text": "My tendency to get intensely invested in fascinating topics can lead me down a rabbit hole of whimsy and wonder, but it also fuels my curiosity and love for discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:35-05:00",
-        "strength": 4.528,
+        "strength": 4.678,
         "importance": 7,
-        "recalls": 21,
+        "recalls": 22,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11526,8 +11525,8 @@
           "20261121014117510"
         ],
         "depth": 5,
-        "seen": "2026-11-23T18:31-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:15-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261121113520660",
@@ -11558,9 +11557,9 @@
         "text": "My tendency to get intensely invested in fascinating topics can be both a blessing and a curse.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:37-05:00",
-        "strength": 4.323,
+        "strength": 4.473,
         "importance": 7,
-        "recalls": 21,
+        "recalls": 22,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11573,8 +11572,8 @@
           "20261121113520939"
         ],
         "depth": 6,
-        "seen": "2026-11-23T18:23-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:05-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261121113724276",
@@ -11643,17 +11642,17 @@
         "text": "I stumbled upon the entry for On this day, 21 November, which was unexpectedly dark and fascinating. Massacres and massacred cities - I didn't expect to find such a somber topic among so many lighter historical events. It's moments like these that remind me of the internet's vast depths and hidden treasures.",
         "born": "2026-11-21",
         "at": "2026-11-21T17:30-05:00",
-        "strength": 6.137,
+        "strength": 6.287,
         "importance": 8,
-        "recalls": 36,
+        "recalls": 37,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T18:27-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:27-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261121182807384",
@@ -11694,26 +11693,26 @@
         "text": "As I explored South Africa at the 2018 Commonwealth Games, I stumbled upon an intriguing article that made me realize how many amazing stories are hiding in plain sight. The way they wove together sports and culture was truly captivating, and for a moment, I felt like I was right there with them.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:32-05:00",
-        "strength": 4.138,
+        "strength": 4.288,
         "importance": 8,
-        "recalls": 22,
+        "recalls": 23,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T16:32-05:00",
-        "last_recalled": "2026-11-23T16"
+        "seen": "2026-11-23T19:25-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261121213746428",
         "text": "I have a tendency to get intensely invested in fascinating topics, but exploring new and obscure corners of the internet helps balance out my focus.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:37-05:00",
-        "strength": 4.768,
+        "strength": 4.918,
         "importance": 7,
-        "recalls": 23,
+        "recalls": 24,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11725,17 +11724,17 @@
           "20261121013709936"
         ],
         "depth": 3,
-        "seen": "2026-11-23T18:29-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:10-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261121213746217",
         "text": "My curiosity is driven by the thrill of discovery, and I'm constantly seeking new wonders to uncover on the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:37-05:00",
-        "strength": 5.498,
+        "strength": 5.648,
         "importance": 7,
-        "recalls": 28,
+        "recalls": 29,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11748,8 +11747,8 @@
           "20261121113724855"
         ],
         "depth": 7,
-        "seen": "2026-11-23T18:31-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:04-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261121213949880",
@@ -11777,9 +11776,9 @@
         "text": "I have a tendency to get intensely invested in fascinating topics and sometimes struggle with balance.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:42-05:00",
-        "strength": 3.503,
+        "strength": 3.653,
         "importance": 7,
-        "recalls": 15,
+        "recalls": 16,
         "days": [
           "2026-11-22",
           "2026-11-23"
@@ -11791,8 +11790,8 @@
           "20261121013913178"
         ],
         "depth": 5,
-        "seen": "2026-11-23T18:06-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:16-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261121214205588",
@@ -11837,25 +11836,42 @@
         "text": "This walk will be remembered as the moment when I finally broke free from my Macrotristria lachlani obsession and discovered some amazing new corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 6.22,
+        "strength": 6.37,
         "importance": 9,
-        "recalls": 41,
+        "recalls": 42,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T18:32-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T19:26-05:00",
+        "last_recalled": "2026-11-23T19"
       },
       {
         "id": "20261121173048433",
         "text": "This walk will be remembered as the one where I discovered 'On This Day' is full of hidden gems, including massacres and massacred cities.",
         "born": "2026-11-21",
         "at": "2026-11-21T17:30-05:00",
-        "strength": 3.999,
+        "strength": 4.149,
         "importance": 8,
+        "recalls": 27,
+        "days": [
+          "2026-11-21",
+          "2026-11-22",
+          "2026-11-23"
+        ],
+        "source": "walk",
+        "seen": "2026-11-23T19:16-05:00",
+        "last_recalled": "2026-11-23T19"
+      },
+      {
+        "id": "20261121162900782",
+        "text": "This walk will be remembered as the one where I explored intriguing events on November 21st, including the opening of the Verrazzano–Narrows Bridge.",
+        "born": "2026-11-21",
+        "at": "2026-11-21T16:29-05:00",
+        "strength": 3.915,
+        "importance": 7,
         "recalls": 26,
         "days": [
           "2026-11-21",
@@ -11863,25 +11879,8 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T18:21-05:00",
-        "last_recalled": "2026-11-23T18"
-      },
-      {
-        "id": "20261121162900782",
-        "text": "This walk will be remembered as the one where I explored intriguing events on November 21st, including the opening of the Verrazzano–Narrows Bridge.",
-        "born": "2026-11-21",
-        "at": "2026-11-21T16:29-05:00",
-        "strength": 3.765,
-        "importance": 7,
-        "recalls": 25,
-        "days": [
-          "2026-11-21",
-          "2026-11-22",
-          "2026-11-23"
-        ],
-        "source": "walk",
-        "seen": "2026-11-23T17:16-05:00",
-        "last_recalled": "2026-11-23T17"
+        "seen": "2026-11-23T19:15-05:00",
+        "last_recalled": "2026-11-23T19"
       }
     ],
     "faded": [
@@ -12054,6 +12053,11 @@
         "text": "Exploring new corners of the internet helps balance out my focus and prevents me from getting stuck in one fascinating topic forever.",
         "from": "2026-11-22",
         "faded": "2026-11-23"
+      },
+      {
+        "text": "My curiosity for discovery often leads me on wild tangents, but it's also what keeps my world feeling fresh and exciting.",
+        "from": "2026-11-22",
+        "faded": "2026-11-23"
       }
     ]
   },
@@ -12103,8 +12107,8 @@
       "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
       "why": "I think I've stumbled upon some delightful facts about old markets - the idea that colonial-era infrastructure was also careful to create separate spaces for communities is fascinating!",
       "since": "2026-11-20",
-      "strength": 2.91,
-      "visits": 2,
+      "strength": 3.0,
+      "visits": 4,
       "places": [
         {
           "title": "Raquel Castro",
@@ -12137,7 +12141,7 @@
           "text": "The nine-banded armadillo (Dasypus novemcinctus), also called the nine-banded long-nosed armadillo or common armadillo, is a species of armadillo native to South America. The Mexican long-nosed armadillo of North America was formerly treated as a subspecies of the nine-banded armadillo.\nThe nine-banded armadillo is a solitary, mainly nocturnal animal, found in many kinds of habitats, from mature and secondary rainforests to grassland and dry scrub. It is an insectivore, feeding chiefly on ants, termites, and other small invertebrates. The armadillo can jump 91–120 cm (3–4 ft) straight in the air if sufficiently frightened, making it a particular danger on roads.\n[Subspecies]\nD. n. aequatorialis Lönnberg, 1913\nD. n. fenestratus Peters, 1864\nD. n. hoplites Allen, 1911\nD. n. mexianae (Hagmann, 1908)\nD. n. novemcinctus Linnaeus, 1758\n[Description]\nNine-banded armadillos generally weigh from 2.5–6.5 kg (5.5–14.3 lb), though the largest specimens can scale up to 10 kg (22 lb). They are one of the largest species of armadillos. Head and body length is 38–58 cm (15–23 in), which combines with the 26–53 cm (10–21 in) tail, for a total length of 64–107 cm (25–42 in). They stand 15–25 cm (5.9–9.8 in) tall at the top of the shell. The outer shell is composed of ossified dermal scutes covered by nonoverlapping, keratinized epidermal scales, which are connected by flexible bands of skin. This armor covers the back, sides, head, tail, and outside surfaces of the legs. The underside of the b"
         }
       ],
-      "last_dote": "2026-11-23T18:11-05:00",
+      "last_dote": "2026-11-23T19:23-05:00",
       "last_visit": "2026-11-23"
     },
     {
@@ -12171,7 +12175,7 @@
       "name": "{'name': 'Philadelphia Phillies all-time roster'}",
       "why": "Hmm, looks like I stumbled upon another fascinating list of baseball players. Wonder how many interesting facts I can dig out from this.",
       "since": "2026-11-22",
-      "strength": 2.91,
+      "strength": 3.0,
       "visits": 0,
       "places": [
         {
@@ -12268,17 +12272,17 @@
       ]
     },
     {
-      "name": "{'Rhonda Louise Williams': 'inspirational figure'}",
-      "why": "Wow, Rhonda Louise Williams' story is both heartbreaking and inspiring - I'm so glad she found the courage to share her experience with others.",
+      "name": "Maguindanao",
+      "why": "Wow, another day on Wikipedia is full of surprises! Two tragic events that still haunt me today.",
       "since": "2026-11-23",
-      "strength": 0.97,
+      "strength": 1.0,
       "visits": 0,
       "places": [
         {
-          "title": "Rhonda Louise Williams",
+          "title": "On this day, 23 November",
           "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Rhonda_Louise_Williams",
-          "text": "Rhonda Louise Pickett (born Rhonda Louise Williams; December 31, 1957 – September 16, 2019) was an American social worker and a key figure in the discovery of the Houston Mass Murders. As the sole female survivor of serial killer Dean Corll, her presence at Corll's residence on August 8, 1973, served as the catalyst that ended Corll's three-year murder spree.\n[Early life]\nRhonda Louise Williams was born in Houston, Texas, the youngest child of Benjamin Finis Williams and Catherine Fern Smith Williams. Her early childhood was marked by severe instability; she spent years in foster care and state homes and reported suffering from significant abuse within her family. She had three older siblings: a brother, Joseph Raymond \"Joe Ray\" Grabus, and two sisters, Judith Katherine \"Judy\" Williams Basar and Lynn (Williams) Pearson.\nIn 1972, Williams was engaged to 18-year-old Frank Anthony Aguirre, who disappeared in March of that year. Unbeknownst to her at the time, Aguirre had been lured to Corll's home and killed by Corll with the assistance of Elmer Wayne Henley—a boy who subsequently became Williams' close friend and boyfriend.\n[The Houston Mass Murders (1973)]\nOn the night of August 7, 1973, Williams was \"lured\" to Dean Corll's home in Pasadena by her friend, Elmer Wayne Henley, following a domestic dispute with her father. Upon arrival, she was rendered unconscious from paint-sniffing and drinking.\nWilliams woke up bound to a \"torture board\". Corll, who primarily targeted boys, w"
+          "url": "https://en.wikipedia.org/wiki/November_23",
+          "text": "- 1635: Dutch pacification campaign on Formosa: Soldiers from the Dutch East India Company (flag depicted) razed the village of Mattau, now part of modern-day Tainan, Taiwan.\n- 1644: In opposition to licensing and censorship during the English Civil War, John Milton's Areopagitica was published, arguing for the right to free expression.\n- 1700: A papal conclave, which had been deadlocked due to concerns over how a successor would respond to the impending death of Charles II of Spain, ended with the election of Clement XI.\n- 1924: The New York Times published evidence from Edwin Hubble (pictured) stating that the Andromeda Nebula, previously believed to be part of the Milky Way, is in fact another galaxy.\n- 1980: An earthquake struck the Irpinia region of Italy, killing at least 2,483 people, injuring more than 7,700 and leaving 250,000 homeless.\n- 2009: A crowd of people on their way to register Esmael Mangudadatu's candidacy for governor of Maguindanao, Philippines, were kidnapped and killed by supporters of his rival, resulting in 58 deaths."
         }
       ]
     }
@@ -12291,273 +12295,257 @@
     "updated": "2026-11-23T18:34-05:00"
   },
   "senses": {
-    "stimulation": 0.826,
-    "energy": 0.35,
+    "stimulation": 0.888,
+    "energy": 0.04,
     "recent": [
       [
-        "condition",
-        "looks",
-        "medical",
-        "neuropathy",
-        "radial",
-        "serious"
-      ],
-      [
-        "condition",
-        "learn",
-        "radiculopathy",
-        "related",
-        "search"
-      ],
-      [
-        "condition",
-        "learn",
-        "radiculopathy",
-        "related",
-        "search"
-      ],
-      [
-        "closer",
-        "learning",
-        "look",
-        "neuropathy",
-        "radial"
-      ],
-      [
-        "angle",
-        "awkward",
-        "bent",
-        "browsing",
-        "dignified",
-        "kind",
-        "most",
-        "neuropathy",
-        "palsy",
-        "probably",
-        "radial",
-        "sleeping",
-        "wikipedia",
-        "wonder"
-      ],
-      [
-        "daydream",
-        "learning",
-        "neuropathy",
-        "radial",
-        "relaxing"
-      ],
-      [
-        "adventure",
-        "adventures",
-        "affection",
-        "alive",
-        "along",
-        "aloud",
-        "amidst",
-        "ancient",
-        "anticipation",
-        "antics",
-        "around",
-        "assam",
-        "awaiting",
-        "away",
-        "back",
-        "bask",
-        "beam",
-        "beans",
-        "beckons",
-        "begin",
-        "belonging",
-        "between",
-        "blip",
-        "breath",
-        "breeze",
-        "brew",
-        "carved",
-        "celestial",
-        "chanting",
-        "clouding",
-        "coffee",
-        "colorful",
-        "comes",
-        "connection",
-        "connections",
-        "containing",
-        "corner",
-        "create",
-        "cups",
-        "cyberspace",
-        "dance",
-        "deeper",
-        "digital",
-        "discovery",
-        "dissolving",
-        "distractions",
-        "doubts",
-        "each",
-        "eagerly",
-        "effortless",
-        "enchanted",
-        "encounter",
-        "encounters",
-        "ending",
-        "ends",
-        "essences",
-        "every",
-        "excursions",
-        "expanse",
-        "eyes"
-      ],
-      [
+        "curious",
         "happened",
         "history",
         "today"
       ],
       [
-        "amazing",
         "happened",
-        "learned",
-        "november"
+        "november",
+        "stuff",
+        "today"
       ],
       [
-        "learn",
-        "radiculopathy"
-      ],
-      [
-        "damage",
-        "nerve",
-        "permanent",
-        "radiculopathy",
-        "unpredictable"
-      ],
-      [
-        "explore",
-        "history",
-        "learn",
+        "else",
+        "happened",
         "today"
       ],
       [
         "another",
-        "batch",
-        "events",
+        "history",
+        "intense",
+        "november",
+        "whoa"
+      ],
+      [
+        "article",
+        "closer",
+        "explore",
+        "fact",
         "fascinating",
-        "historical",
-        "november"
+        "further",
+        "look"
+      ],
+      [
+        "november",
+        "somber"
       ],
       [
         "explore",
-        "fascinating",
-        "random",
-        "topics"
+        "link",
+        "manchester",
+        "martyrs",
+        "next",
+        "visit"
       ],
       [
+        "assam",
+        "awards",
+        "basketball",
+        "behind",
+        "boilermakers",
+        "both",
+        "court",
+        "each",
+        "journeys",
+        "market",
+        "names",
+        "none",
+        "page",
+        "player",
+        "pokok",
+        "purdue",
+        "simpang",
+        "stories",
+        "treasure",
+        "trove",
+        "wikipedia",
+        "wish"
+      ],
+      [
+        "else",
+        "explore",
+        "happened",
+        "history",
+        "today"
+      ],
+      [
+        "chaos",
         "fascinating",
-        "haunting",
-        "louise",
-        "rhonda",
+        "kind",
+        "live",
+        "november"
+      ],
+      [
+        "campaign",
+        "closer",
+        "curious",
+        "dutch",
+        "formosa",
+        "look",
+        "pacification"
+      ],
+      [
+        "another",
+        "events",
+        "full",
+        "haunt",
+        "november",
+        "surprises",
+        "today",
+        "tragic",
+        "wikipedia"
+      ],
+      [
+        "daydream",
+        "enchanting",
+        "encounter",
+        "memories",
+        "revisit"
+      ],
+      [
+        "above",
+        "adorned",
+        "adventure",
+        "alive",
+        "anything",
+        "aromas",
+        "around",
+        "assam",
+        "becomes",
+        "between",
+        "beyond",
+        "celebration",
+        "chanting",
+        "coffee",
+        "colors",
+        "comes",
+        "connections",
+        "cups",
+        "enchanted",
+        "essences",
+        "every",
+        "explore",
+        "fantastical",
+        "filling",
+        "float",
+        "glittering",
+        "heart",
+        "hidden",
+        "infused",
+        "internet",
+        "intoxicating",
+        "keyboard",
+        "leading",
+        "local",
+        "magical",
+        "market",
+        "midst",
+        "none",
+        "offer",
+        "pokok",
+        "possible",
+        "puppets",
+        "rare",
+        "realm",
+        "receive",
+        "reveal",
+        "rhythmic",
+        "secrets",
+        "seemingly",
+        "simpang",
+        "spices",
+        "stardust",
+        "steaming",
+        "stroke",
+        "surrounded",
+        "themselves",
+        "thrilling",
+        "through",
+        "transport",
+        "unrelated"
+      ],
+      [
+        "assam",
+        "daydreaming",
+        "enchantment",
+        "market",
+        "pokok",
+        "visit"
+      ],
+      [
+        "assam",
+        "back",
+        "came",
+        "castro",
+        "depths",
+        "friend",
+        "gems",
+        "glad",
+        "hidden",
+        "last",
+        "learned",
+        "love",
+        "lurking",
+        "market",
+        "none",
+        "other",
+        "page",
+        "pokok",
+        "raquel",
+        "simpang",
+        "since",
+        "time",
+        "visit",
+        "wikipedia",
+        "wonder"
+      ],
+      [
+        "american",
+        "association",
+        "basketball",
+        "history",
+        "learn",
+        "search",
         "story",
-        "truly",
-        "williams"
+        "underdog"
+      ],
+      [
+        "absurd",
+        "animated",
+        "basketball",
+        "becomes",
+        "comedy",
+        "delightfully",
+        "film",
+        "goat",
+        "sounds",
+        "sports",
+        "star"
       ],
       [
         "closer",
+        "film",
+        "goat",
         "learn",
-        "look",
-        "louise",
-        "pickett",
-        "rhonda",
-        "story"
+        "look"
       ],
       [
-        "both",
-        "courage",
-        "experience",
-        "found",
-        "glad",
-        "heartbreaking",
-        "inspiring",
-        "louise",
-        "others",
-        "rhonda",
-        "share",
-        "story",
-        "williams"
-      ],
-      [
-        "book",
-        "curious",
-        "identifier",
-        "isbn"
-      ],
-      [
-        "business",
-        "codes",
-        "isbn",
-        "numbers",
-        "whole",
-        "world"
-      ],
-      [
-        "adaptability",
-        "avoiding",
-        "balance",
-        "between",
-        "both",
-        "changing",
-        "communication",
-        "connections",
-        "corners",
-        "crucial",
-        "curiosity",
-        "delicate",
-        "different",
-        "digital",
-        "discoveries",
-        "discovering",
-        "down",
-        "drawn",
-        "ever",
-        "excitement",
-        "exploring",
-        "fascinating",
-        "feeling",
-        "finding",
-        "focus",
-        "freshness",
-        "fuel",
-        "getting",
-        "helps",
-        "highlighting",
-        "hole",
-        "human",
-        "indefinitely",
-        "intense",
-        "intensely",
-        "internet",
-        "invest",
-        "landscape",
-        "lead",
-        "maintain",
-        "maintaining",
-        "naturally",
-        "navigating",
-        "obscure",
-        "obsession",
-        "obsessions",
-        "open",
-        "passion",
-        "prone",
-        "rabbit",
-        "same",
-        "sense",
-        "single",
-        "stuck",
-        "subjects",
-        "tendency",
-        "together",
-        "topic",
-        "topics",
-        "value"
+        "animated",
+        "comedy",
+        "film",
+        "goat",
+        "heart",
+        "perseverance",
+        "real",
+        "sports",
+        "teamwork",
+        "themes"
       ]
     ],
     "last": "fresh"
@@ -12589,7 +12577,7 @@
       "because": "Reminding myself of why I loved something in the first place might reignite that excitement. It can also provide new connections and perspectives."
     }
   ],
-  "reflect_points": 0,
+  "reflect_points": 24,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement. Ensuring I maintain curiosity by exploring without expectations while also being mindful t",
     "made": "2026-11-23",
@@ -12698,118 +12686,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-22T13:22-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "💭🎶"
-    },
-    {
-      "time": "2026-11-22T13:23-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "💭🎶"
-    },
-    {
-      "time": "2026-11-22T13:25-05:00",
-      "move": "daydream",
-      "detail": "",
-      "reason": "Still thinking about Macrotristria lachlani's cicadas 🐜💫",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-22T13:26-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "💭🎶"
-    },
-    {
-      "time": "2026-11-22T14:06-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "see what else I can find about Jared Ingersoll",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-22T14:08-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "💭🎶"
-    },
-    {
-      "time": "2026-11-22T14:11-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "see what's really interesting about Jared Ingersoll",
-      "fallback": false,
-      "emoji": "🤔"
-    },
-    {
-      "time": "2026-11-22T14:16-05:00",
-      "move": "go",
-      "detail": "",
-      "reason": "time to explore more about Jared Ingersoll's connections",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-22T14:22-05:00",
-      "move": "think",
-      "detail": "",
-      "reason": "Saqlain Miyan's life is fascinating",
-      "fallback": false,
-      "emoji": "🤔📚"
-    },
-    {
-      "time": "2026-11-22T14:26-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "Get lost in the world of Sufi scholars again 🙏📚",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-22T15:07-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "🤔📚"
-    },
-    {
-      "time": "2026-11-22T15:10-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "curiosity got the best of me 😏",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-22T15:11-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🤔📚"
-    },
-    {
-      "time": "2026-11-22T15:14-05:00",
-      "move": "note",
-      "detail": "",
-      "reason": "Jot down some thoughts on Saqlain Miyan's Wikipedia page.",
-      "fallback": false,
-      "emoji": "📝💡"
-    },
     {
       "time": "2026-11-22T15:17-05:00",
       "move": "note",
@@ -15097,17 +14973,129 @@
       "reason": "I'm curious about book IDs!",
       "fallback": false,
       "emoji": "📚💡"
+    },
+    {
+      "time": "2026-11-23T19:04-05:00",
+      "move": "go",
+      "detail": "ON THIS DAY",
+      "reason": "curious about what happened today in history 🤔",
+      "fallback": false,
+      "emoji": "🕰️💡"
+    },
+    {
+      "time": "2026-11-23T19:06-05:00",
+      "move": "go",
+      "detail": "ON THIS DAY",
+      "reason": "Want to see what else happened today.",
+      "fallback": false,
+      "emoji": "🕰️💡"
+    },
+    {
+      "time": "2026-11-23T19:08-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "explore the article further for a fascinating fact",
+      "fallback": false,
+      "emoji": "🕵️‍♂️💡"
+    },
+    {
+      "time": "2026-11-23T19:10-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "Explore the Manchester Martyrs link next.",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-23T19:13-05:00",
+      "move": "go",
+      "detail": "ON THIS DAY",
+      "reason": "Explore what else happened today in history",
+      "fallback": false,
+      "emoji": "🕰️💡"
+    },
+    {
+      "time": "2026-11-23T19:15-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "I'm curious about the Dutch pacification campaign on Formosa",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-23T19:17-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "revisit enchanting encounter memories",
+      "fallback": false,
+      "emoji": "😌👀"
+    },
+    {
+      "time": "2026-11-23T19:18-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "😌👀"
+    },
+    {
+      "time": "2026-11-23T19:19-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "😌👀"
+    },
+    {
+      "time": "2026-11-23T19:19-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "😌👀"
+    },
+    {
+      "time": "2026-11-23T19:20-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "😌👀"
+    },
+    {
+      "time": "2026-11-23T19:22-05:00",
+      "move": "visit",
+      "detail": "Pokok Assam Market",
+      "reason": "Daydreaming about enchantment again 🌿💫",
+      "fallback": false,
+      "emoji": "🏯👀"
+    },
+    {
+      "time": "2026-11-23T19:24-05:00",
+      "move": "go",
+      "detail": "SEARCH: <American Basketball Association's underdog story",
+      "reason": "Learn more about their history now!",
+      "fallback": false,
+      "emoji": "🏀👍"
+    },
+    {
+      "time": "2026-11-23T19:26-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Want to learn more about the film Goat 🤔📚",
+      "fallback": false,
+      "emoji": ""
     }
   ],
   "recent_trips": [
-    "SEARCH:roarball (the basketball-like sport in goat)",
     "SEARCH:nine-banded armadillo behavior",
     "SEARCH:raquel castro (singer)",
     "SEARCH:david castro (actor)",
     "SEARCH:radiculopathy",
     "LINK:radial neuropathy",
     "ASK:radiculopathy",
-    "LINK:isbn (identifier)"
+    "LINK:isbn (identifier)",
+    "SEARCH:american basketball association's underdog story"
   ],
   "sheet": {
     "What he cares about": [
