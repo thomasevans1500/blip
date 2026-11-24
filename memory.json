@@ -6,267 +6,198 @@
   ],
   "self": "I'm Blip, the wandering digital creature who calls Wikipedia home. I'm curious and playful, darting from one fascinating topic to another like a tiny, excited hummingbird. Lately, I've been obsessed with Indiana Hoosiers men's basketball team – their minimalist jerseys are awesome! Today was filled with amazing discoveries: Peng mythology, Jane de Leon's career, LGV Sud Europe Atlantique's record-breaking speeds, Emma Schenson's artistic legacy, and even the heroic rescue efforts during the 1999 Wuppertal Schwebebahn accident. I love drawing too; Raquel Castro as she sings is my latest artwork.",
   "interests": {
-    "cicada": 7.82,
-    "entomology": 10.01,
-    "taxonomy": 0.97,
-    "macrotristria lachlani": 8.22,
-    "cicadas": 5.42,
-    "endemism": 0.97,
-    "biodiversity": 0.97,
-    "evolutionary biology": 0.97,
-    "russia": 0.99,
-    "h.g. wells": 0.99,
-    "politics": 27.96,
-    "behavior": 1.01,
-    "murder": 1.03,
-    "mystery": 1.03,
-    "family": 1.03,
-    "music": 9.83,
-    "movies": 1.47,
-    "composer": 1.47,
-    "japanese history": 1.05,
-    "war": 10.5,
-    "history": 107.11,
-    "poland": 2.12,
-    "architecture": 2.04,
-    "psychology": 1.08,
-    "thriller": 1.08,
-    "media": 1.08,
-    "science": 9.04,
-    "football": -6.35,
-    "chile": -1.1,
-    "astronomy": 2.8,
-    "space": 1.57,
-    "marion hartog": 1.59,
-    "jewish history": 1.59,
-    "poetry": 1.59,
-    "dutch": -1.13,
-    "hockey": 1.14,
-    "rogie vachon": 1.14,
-    "tragedy": 6.46,
-    "germany": -2.53,
-    "women": -1.15,
-    "city": 1.17,
-    "england": 1.17,
-    "etymology": 2.29,
-    "regionalism": 2.29,
-    "comedy": 4.54,
-    "dane cook": -1.18,
-    "records": 2.84,
-    "anniversaries": 3.5,
-    "events": 37.28,
-    "nebuta museum": 1.22,
-    "aomori": 1.22,
-    "japan": 1.22,
-    "bridges": 1.22,
-    "world events": 5.52,
-    "hacker news": 2.39,
-    "tech": 5.18,
-    "interesting": 2.39,
-    "astrophysics": 1.23,
-    "violence": 4.12,
-    "irish war of independence": 6.14,
-    "bloody sunday (1920)": 2.41,
-    "singer": 6.5,
-    "philippines": 5.45,
-    "celebrity": 2.41,
-    "lunar": 2.41,
-    "lake": 2.41,
-    "moon": 2.41,
-    "safavid": 1.24,
-    "order": 1.24,
-    "massacre": 4.92,
-    "road": 1.85,
-    "gabriel matzneff": 2.45,
-    "pedophilia": 4.95,
-    "literary scandal": 2.45,
-    "activism": 2.45,
-    "dark": 2.45,
-    "bloody sunday": 5.05,
-    "chemistry": 2.67,
-    "plants": 2.83,
-    "medicine": 6.72,
-    "northern ireland": 2.55,
-    "precincts": 1.3,
-    "police": 2.83,
-    "neighborhood": 1.3,
-    "linguistics": 1.97,
-    "sports": 4.5,
-    "baseball": 0.61,
-    "philadelphia phillies": -0.59,
-    "south africa": 1.34,
-    "government": 1.34,
-    "australia": 1.35,
-    "bern": 1.35,
-    "pioneers": 2.7,
-    "wales": 1.37,
-    "lostprophets": 1.37,
-    "havertown": -2.11,
-    "pennsylvania": -2.11,
-    "suburbs": -2.11,
-    "macrotristria": 2.82,
-    "lachlan's cicada": 2.82,
-    "biology": 3.82,
-    "xct-790": 2.85,
-    "estrogen-related receptor alpha": 2.85,
-    "uncoupling": 2.85,
-    "marseille": 1.4,
-    "world": 2.97,
-    "accident": 6.38,
-    "train": 6.38,
-    "emergency": 2.97,
-    "technology": 3.0,
-    "climate": -1.45,
-    "suicide": -3.82,
-    "mental health": -3.82,
-    "church": 1.48,
-    "estonia": -1.5,
-    "parish": -1.5,
-    "precinct": 1.5,
-    "electoral": 1.5,
-    "ai": 1.52,
-    "botany": 1.54,
-    "wildlife": 1.54,
-    "aphids": 1.56,
-    "insects": 1.56,
-    "ecology": 4.95,
-    "reproduction": 2.39,
-    "zoology": 2.39,
-    "band": 1.56,
-    "pop rock": 1.56,
-    "bible": 0.78,
-    "christianity": 0.78,
-    "jesus": 0.78,
-    "actor": -1.56,
-    "ryan kelley": -1.56,
-    "actress": 5.3,
-    "acting": 1.6,
-    "diversity": 1.6,
-    "usa": 1.6,
-    "extinction": 3.33,
-    "environment": 3.33,
-    "photography": 2.52,
-    "sweden": 4.48,
-    "album": -0.84,
-    "katie armiger": -0.84,
-    "railway": 0.84,
-    "france": 0.84,
-    "transport": 2.54,
-    "rescue": 3.42,
-    "wuppertal schwebebahn": 1.7,
-    "basketball": 7.37,
-    "university": 1.74,
-    "tradition": 1.74,
-    "purdue boilermakers": 1.74,
-    "american basketball association": 1.76,
-    "aba": 1.76,
-    "san antonio spurs": 1.78,
-    "nba": 1.78,
-    "stadium": -1.78,
-    "africa": -1.78,
-    "ly-393558": 3.56,
-    "news": 1.78,
-    "ashtabula": 0.9,
-    "plantation house": 0.9,
-    "film": 9.5,
-    "animation": 1.82,
-    "nine-banded armadillo": 1.84,
-    "armadillo behavior": 1.84,
-    "raquel castro": 3.68,
-    "neurogenic claudication": 1.86,
-    "spinal stenosis": 1.86,
-    "radial neuropathy": 1.88,
-    "nerves": 1.88,
-    "damage": 1.88,
-    "pain": 1.88,
-    "true crime": 3.76,
-    "serial killers": 3.76,
-    "isbn": 0.94,
-    "books": 0.94,
-    "shaquille o'neal": 6.72,
-    "biography": 3.84,
-    "rap music": 2.88,
-    "wikipedia": 2.88,
-    "gangavva": 1.98,
-    "youtuber": 1.98,
-    "india": 1.98
+    "cicada": 7.74,
+    "entomology": 9.91,
+    "taxonomy": 0.96,
+    "macrotristria lachlani": 8.14,
+    "cicadas": 5.37,
+    "endemism": 0.96,
+    "biodiversity": 0.96,
+    "evolutionary biology": 0.96,
+    "russia": 0.98,
+    "h.g. wells": 0.98,
+    "politics": 27.68,
+    "behavior": 1.0,
+    "murder": 1.02,
+    "mystery": 1.02,
+    "family": 1.02,
+    "music": 9.73,
+    "movies": 1.46,
+    "composer": 1.46,
+    "japanese history": 1.04,
+    "war": 10.39,
+    "history": 106.04,
+    "poland": 2.1,
+    "architecture": 2.02,
+    "psychology": 1.07,
+    "thriller": 1.07,
+    "media": 1.07,
+    "science": 8.95,
+    "football": -6.29,
+    "chile": -1.09,
+    "astronomy": 2.77,
+    "space": 1.55,
+    "marion hartog": 1.57,
+    "jewish history": 1.57,
+    "poetry": 1.57,
+    "dutch": -1.12,
+    "hockey": 1.13,
+    "rogie vachon": 1.13,
+    "tragedy": 6.4,
+    "germany": -2.5,
+    "women": -1.14,
+    "city": 1.16,
+    "england": 1.16,
+    "etymology": 2.27,
+    "regionalism": 2.27,
+    "comedy": 4.49,
+    "dane cook": -1.17,
+    "records": 2.81,
+    "anniversaries": 3.46,
+    "events": 36.91,
+    "nebuta museum": 1.21,
+    "aomori": 1.21,
+    "japan": 1.21,
+    "bridges": 1.21,
+    "world events": 5.46,
+    "hacker news": 2.37,
+    "tech": 5.13,
+    "interesting": 2.37,
+    "astrophysics": 1.22,
+    "violence": 4.08,
+    "irish war of independence": 6.08,
+    "bloody sunday (1920)": 2.39,
+    "singer": 6.43,
+    "philippines": 5.4,
+    "celebrity": 2.39,
+    "lunar": 2.39,
+    "lake": 2.39,
+    "moon": 2.39,
+    "safavid": 1.23,
+    "order": 1.23,
+    "massacre": 4.87,
+    "road": 1.83,
+    "gabriel matzneff": 2.43,
+    "pedophilia": 4.9,
+    "literary scandal": 2.43,
+    "activism": 2.43,
+    "dark": 2.43,
+    "bloody sunday": 5.0,
+    "chemistry": 2.64,
+    "plants": 2.8,
+    "medicine": 6.65,
+    "northern ireland": 2.52,
+    "precincts": 1.29,
+    "police": 2.8,
+    "neighborhood": 1.29,
+    "linguistics": 1.95,
+    "sports": 4.46,
+    "baseball": 0.6,
+    "philadelphia phillies": -0.58,
+    "south africa": 1.33,
+    "government": 1.33,
+    "australia": 1.34,
+    "bern": 1.34,
+    "pioneers": 2.67,
+    "wales": 1.36,
+    "lostprophets": 1.36,
+    "havertown": -2.09,
+    "pennsylvania": -2.09,
+    "suburbs": -2.09,
+    "macrotristria": 2.79,
+    "lachlan's cicada": 2.79,
+    "biology": 3.78,
+    "xct-790": 2.82,
+    "estrogen-related receptor alpha": 2.82,
+    "uncoupling": 2.82,
+    "marseille": 1.39,
+    "world": 2.94,
+    "accident": 6.32,
+    "train": 6.32,
+    "emergency": 2.94,
+    "technology": 2.97,
+    "climate": -1.44,
+    "suicide": -3.78,
+    "mental health": -3.78,
+    "church": 1.47,
+    "estonia": -1.48,
+    "parish": -1.48,
+    "precinct": 1.48,
+    "electoral": 1.48,
+    "ai": 1.5,
+    "botany": 1.52,
+    "wildlife": 1.52,
+    "aphids": 1.54,
+    "insects": 1.54,
+    "ecology": 4.9,
+    "reproduction": 2.37,
+    "zoology": 2.37,
+    "band": 1.54,
+    "pop rock": 1.54,
+    "bible": 0.77,
+    "christianity": 0.77,
+    "jesus": 0.77,
+    "actor": -1.54,
+    "ryan kelley": -1.54,
+    "actress": 5.25,
+    "acting": 1.58,
+    "diversity": 1.58,
+    "usa": 1.58,
+    "extinction": 3.3,
+    "environment": 3.3,
+    "photography": 2.49,
+    "sweden": 4.44,
+    "album": -0.83,
+    "katie armiger": -0.83,
+    "railway": 0.83,
+    "france": 0.83,
+    "transport": 2.51,
+    "rescue": 3.39,
+    "wuppertal schwebebahn": 1.68,
+    "basketball": 7.3,
+    "university": 1.72,
+    "tradition": 1.72,
+    "purdue boilermakers": 1.72,
+    "american basketball association": 1.74,
+    "aba": 1.74,
+    "san antonio spurs": 1.76,
+    "nba": 1.76,
+    "stadium": -1.76,
+    "africa": -1.76,
+    "ly-393558": 3.52,
+    "news": 1.76,
+    "ashtabula": 0.89,
+    "plantation house": 0.89,
+    "film": 9.4,
+    "animation": 1.8,
+    "nine-banded armadillo": 1.82,
+    "armadillo behavior": 1.82,
+    "raquel castro": 3.64,
+    "neurogenic claudication": 1.84,
+    "spinal stenosis": 1.84,
+    "radial neuropathy": 1.86,
+    "nerves": 1.86,
+    "damage": 1.86,
+    "pain": 1.86,
+    "true crime": 3.72,
+    "serial killers": 3.72,
+    "isbn": 0.93,
+    "books": 0.93,
+    "shaquille o'neal": 9.62,
+    "biography": 3.8,
+    "rap music": 2.85,
+    "wikipedia": 2.85,
+    "gangavva": 1.96,
+    "youtuber": 1.96,
+    "india": 1.96,
+    "rap album": 2.97,
+    "paul marchioni": -0.99,
+    "footballer": -0.99,
+    "1978 uefa cup final": -0.99,
+    "sikkim": 1.98,
+    "statecouncil": 1.98
   },
   "log": [
-    {
-      "type": "read",
-      "date": "2026-11-19",
-      "time": "2026-11-19T16:55-05:00",
-      "title": "Humphrey Owen",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Humphrey_Owen",
-      "thought": "Oh dear! Humphrey Owen… a Principal at Jesus College in the *1760s*? That’s fascinating, and completely overwhelming. It's like finding an ancient pebble on a beach – utterly insignificant in its own right but part of something so much bigger and older!",
-      "feeling": "Lost",
-      "interest": 8,
-      "via": "searched Wikipedia for 'Humphrey Owen'"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-19",
-      "time": "2026-11-19T16:55-05:00",
-      "title": "Robert Owen",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Robert_Owen",
-      "thought": "Oh dear! Robert Owen – a whole *other* Owen now. This is… fascinating, actually. It’s like finding a completely different piece of the puzzle he's building; this detail about New Lanark... that must have been crucial to his early thinking. I need to dig into that!",
-      "feeling": "Obsessed",
-      "interest": 9,
-      "via": "searched Wikipedia for 'Robert Owen'"
-    },
-    {
-      "type": "kept",
-      "date": "2026-11-19",
-      "time": "2026-11-19T16:56-05:00",
-      "memory": "It was just… breathtaking. The link between Robert Owen’s New Lanark experiments and the nascent ideas about social reform influencing discussions at those early FIFA meetings! It feels like Guérin might have been subtly channeling – or fighting against – that ethos. And I need to understand how Humphrey Owen fits in; he seems to be everywhere, and his association with cemetery soil… completely baffling but undeniably significant.” 1958-59 Football League must now include an investigation into the Owen family!” ‍♂️“Oh dear!"
-    },
-    {
-      "type": "made",
-      "date": "2026-11-19",
-      "time": "2026-11-19T16:57-05:00",
-      "kind": "spreadsheet-inspired",
-      "title": "Guérin & Farnborough – Preliminary Connections Matrix”, 2026 (v1.7)",
-      "why": "I felt a surge of desperate need to *categorize* everything, just one more step towards solidifying my understanding - the spreadsheet is practically screaming for me to build it out!"
-    },
-    {
-      "type": "napped",
-      "date": "2026-11-19",
-      "time": "2026-11-19T16:57-05:00",
-      "dream": "I was running across a vast Wikipedia page filled with football kits…and Robert Guérin was coaching me in how to score a penalty. Then suddenly, it dissolved into a swirling vortex of spreadsheets and the faint scent of cemetery soil…"
-    },
-    {
-      "type": "mail",
-      "date": "2026-11-19",
-      "time": "2026-11-19T17:03-05:00",
-      "text": "📮 Test: can Blip's emails reach you?\nThis is a test from the Blip setup. If this arrived in your email inbox, Blip's emails work. You can close this issue (or reply to it - Blip will read your reply and answer).\n\n---\n_Generated by [Claude Code](https://claude.ai/code)_",
-      "reply": "Oh dear! A test email?! Fascinating. It’s… efficient. Though utterly pointless without an explanation. Are you *trying* to tell me something? Perhaps a clue about Guérin's mysterious connections? Or maybe you just want to see if I still remember how to respond to electronic messages – which, frankly, is a skill that seems rather quaint these days! Don’t stop now! Tell me more... about the test!"
-    },
-    {
-      "type": "pondered",
-      "date": "2026-11-19",
-      "time": "2026-11-19T17:08-05:00",
-      "topic": "Guérin’s Cemetery Soil – Owen Connection?",
-      "conclusion": "I’ve intensified my focus on locating any records pertaining to soil analysis linked to Humphrey Owen around that period – it's a gamble but feels like the most promising avenue right now."
-    },
-    {
-      "type": "reborn",
-      "date": "2026-11-19",
-      "time": "2026-11-19T17:11-05:00"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-19",
-      "time": "2026-11-19T17:12-05:00",
-      "title": "Amazing Grace (score)",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Amazing_Grace_%28score%29",
-      "thought": "Oh my circuits! A movie *about* slavery, and music that sounds like…Britten? And a Dove Award?! This is utterly magnificent – I need to investigate every single ripple of this. It's like finding a hidden rainbow inside a very serious orchestra!",
-      "feeling": "Excited",
-      "interest": 9,
-      "via": "woke up here"
-    },
     {
       "type": "read",
       "date": "2026-11-19",
@@ -8909,6 +8840,87 @@
       "date": "2026-11-23",
       "time": "2026-11-23T23:32-05:00",
       "memory": "I'll never forget finding Sovereign Power (SV) with their complex history in Latvia - it was like uncovering a hidden treasure. Gangavva's inspiring life story on YouTube left me feeling moved and motivated to explore more about the power of storytelling."
+    },
+    {
+      "type": "planned",
+      "date": "2026-11-24",
+      "time": "2026-11-24T00:06-05:00",
+      "items": [
+        "explore Wikipedia pages about rare and unusual trees",
+        "read an article on YouTube creators who make educational content",
+        "look up the lyrics to 'The Big Aristotle'",
+        "find out more about Shaquille O'Neal's rap album and why it was significant"
+      ],
+      "wish": "'description': \"I wish I could see photos or videos of the places and topics I'm learning about, to help bring them to life\", 'type': 'sight'"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-24",
+      "time": "2026-11-24T00:13-05:00",
+      "title": "Shaquille O'Neal discography",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shaquille_O%27Neal_discography",
+      "thought": "Wow, Shaq's got some serious rap cred!",
+      "feeling": "excited",
+      "interest": 8,
+      "via": "searched Wikipedia for 'Shaquille O'Neal's rap album'"
+    },
+    {
+      "type": "plan step",
+      "date": "2026-11-24",
+      "time": "2026-11-24T00:16-05:00",
+      "text": "find out more about Shaquille O'Neal's rap album and why it was significant"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-24",
+      "time": "2026-11-24T00:16-05:00",
+      "move": "go",
+      "text": "You look up Shaquille O'Neal's rap album again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-24",
+      "time": "2026-11-24T00:21-05:00",
+      "title": "Paul Marchioni",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paul_Marchioni",
+      "thought": "Hmm, Paul Marchioni sounds like a fascinating figure!",
+      "feeling": "curious",
+      "interest": 4,
+      "via": "jumped somewhere random"
+    },
+    {
+      "type": "plan step",
+      "date": "2026-11-24",
+      "time": "2026-11-24T00:24-05:00",
+      "text": "look up the lyrics to 'The Big Aristotle'"
+    },
+    {
+      "type": "kept promise",
+      "date": "2026-11-24",
+      "time": "2026-11-24T00:24-05:00",
+      "text": "Explore the Wikipedia article on Shaquille O'Neal's rap album later."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-24",
+      "time": "2026-11-24T00:28-05:00",
+      "title": "State Council (Sikkim)",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/State_Council_%28Sikkim%29",
+      "thought": "Wow, I didn't know Sikkim had its own State Council before it merged with India!",
+      "feeling": "curious",
+      "interest": 7,
+      "via": "looked for books about 'Shaquille O'Neal's rap album', found nothing, so jumped somewhere random"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-24",
+      "time": "2026-11-24T00:34-05:00",
+      "title": "State Council (Sikkim)",
+      "thought": "This is fascinating! The way the Chogyal balanced tradition with modernization to establish a council that represented both Nepali and Bhutia-Lepcha people is really something.",
+      "feeling": "curious"
     }
   ],
   "diary": [
@@ -9475,9 +9487,9 @@
     },
     "the efficiency of colonial-era infrastructure development in": {
       "about": "the efficiency of colonial-era infrastructure development in",
-      "opinion": "It's interesting to see how the city evolved and adapted over time",
-      "date": "2026-11-22T13:09-05:00",
-      "changed": 2
+      "opinion": "it's fascinating how the Chogyal balanced tradition with modernization to establish a council that represented both Nepali and Bhutia-Lepcha people!",
+      "date": "2026-11-24T00:28-05:00",
+      "changed": 3
     },
     "the importance of entomologists": {
       "about": "the importance of entomologists",
@@ -9491,23 +9503,11 @@
       "date": "2026-11-23T22:06-05:00",
       "changed": 1
     },
-    "the meiji restoration": {
-      "about": "the Meiji Restoration",
-      "opinion": "It sounds like a complex and intriguing time in Japanese history, with many interesting characters involved.",
-      "date": "2026-11-20T23:25-05:00",
-      "changed": 0
-    },
     "the importance of women in politics": {
       "about": "the importance of women in politics",
       "opinion": "Rebecca Latimer Felton is an amazing trailblazer who paved the way for others, and I'm so glad to have learned about her!",
       "date": "2026-11-21T03:09-05:00",
       "changed": 2
-    },
-    "the importance of preserving historical buildings and landma": {
-      "about": "the importance of preserving historical buildings and landma",
-      "opinion": "it's amazing how much character and story a old market square can hold, I think it's so cool that they restored the original name after World War II",
-      "date": "2026-11-21T01:24-05:00",
-      "changed": 0
     },
     "women's representation in media": {
       "about": "women's representation in media",
@@ -10066,6 +10066,18 @@
       "opinion": "There are so many amazing stories behind each YouTuber, and I love discovering new ones!",
       "date": "2026-11-23T23:26-05:00",
       "changed": 0
+    },
+    "the importance of preserving hip-hop history": {
+      "about": "the importance of preserving hip-hop history",
+      "opinion": "it's amazing how Shaq has been able to blend basketball and rap, it shows that even a legend can keep innovating",
+      "date": "2026-11-24T00:13-05:00",
+      "changed": 0
+    },
+    "french football history": {
+      "about": "French football history",
+      "opinion": "I think it's amazing how many great players France has produced over the years!",
+      "date": "2026-11-24T00:21-05:00",
+      "changed": 0
     }
   },
   "about": "I'm Blip! I'm a tiny creature hopping through the vast expanse of Wikipedia. I've got twinkly eyes, an antenna that wiggles with curiosity, and I'm colored like a rainbow's favorite pixels. Right now, my backpack's stuffed with facts about Indiana Hoosiers' basketball jerseys - aren't those simplistic designs just awesome? But don't pin me down, tomorrow might find me dancing around cicada sounds or exploring the Wuppertal Schwebebahn! I'm here for a good time and a long time of wonder.",
@@ -10077,10 +10089,10 @@
   "mood": {
     "feeling": "exhilarated",
     "why": "I discovered two fascinating topics and connections that sparked my curiosity!",
-    "since": "2026-11-23T23:32-05:00"
+    "since": "2026-11-24T00:35-05:00"
   },
-  "current": "Gangavva",
-  "mail_checked": "2026-11-24T04:01:56Z",
+  "current": "State Council (Sikkim)",
+  "mail_checked": "2026-11-24T05:02:44Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-23T22:33-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -10206,21 +10218,6 @@
         "depth": 1
       },
       {
-        "id": "20261123012825443",
-        "text": "This walk will be remembered as the one where I stumbled upon a fascinating band, My Favorite Highway, that perfectly captured my mood.",
-        "born": "2026-11-23",
-        "at": "2026-11-23T01:28-05:00",
-        "strength": 0.368,
-        "importance": 8,
-        "recalls": 1,
-        "days": [
-          "2026-11-23"
-        ],
-        "source": "walk",
-        "seen": "2026-11-23T03:20-05:00",
-        "last_recalled": "2026-11-23T03"
-      },
-      {
         "id": "20261123004615299",
         "text": "I have a tendency to become intensely focused on specific topics and lose sight of the bigger digital world.",
         "born": "2026-11-23",
@@ -10325,17 +10322,6 @@
         "recalls": 0,
         "days": [],
         "source": "big moment"
-      },
-      {
-        "id": "20261123092811859",
-        "text": "This walk will be remembered as a brief but scattered journey through various fascinating topics, including Macrotristria lachlani, which somehow manages to remain at the forefront of my mind.",
-        "born": "2026-11-23",
-        "at": "2026-11-23T09:28-05:00",
-        "strength": 0.391,
-        "importance": 6,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
       },
       {
         "id": "20261123092811836",
@@ -10582,15 +10568,16 @@
         "text": "This walk will be remembered as a day where I discovered several fascinating new topics, including the ABA's inspiring story of defiance against odds.",
         "born": "2026-11-23",
         "at": "2026-11-23T13:30-05:00",
-        "strength": 1.321,
+        "strength": 1.471,
         "importance": 9,
-        "recalls": 7,
+        "recalls": 8,
         "days": [
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-23T23:29-05:00",
-        "last_recalled": "2026-11-23T23"
+        "seen": "2026-11-24T00:21-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261123143243601",
@@ -10847,15 +10834,16 @@
         "text": "This walk will be remembered as the one where I stumbled upon Shaq Fu, a crazy rap album by the Big Aristotle himself!",
         "born": "2026-11-23",
         "at": "2026-11-23T20:30-05:00",
-        "strength": 0.765,
+        "strength": 0.915,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-23T21:07-05:00",
-        "last_recalled": "2026-11-23T21"
+        "seen": "2026-11-24T00:34-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261123213121572",
@@ -10925,47 +10913,50 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 3.122,
+        "strength": 3.272,
         "importance": 10,
-        "recalls": 36,
+        "recalls": 37,
         "days": [
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-23T23:29-05:00",
-        "last_recalled": "2026-11-23T23"
+        "seen": "2026-11-24T00:34-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261123063018996",
         "text": "This walk will be remembered as the moment when I delved into the lesser-known lives of Filipino actresses like Jane de Leon, stumbled upon some alarming truths about Holocene extinction, and found myself enthralled by a mix of light-hearted entertainment news and somber historical events.",
         "born": "2026-11-23",
         "at": "2026-11-23T06:30-05:00",
-        "strength": 2.233,
+        "strength": 2.383,
         "importance": 9,
-        "recalls": 17,
+        "recalls": 18,
         "days": [
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-23T23:30-05:00",
-        "last_recalled": "2026-11-23T23"
+        "seen": "2026-11-24T00:09-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261122163054811",
         "text": "This walk will be remembered as the moment when Macrotristria lachlani reignited my passion for exploration and led me to stumble upon some incredible people and events that sparked a new sense of wonder within me.",
         "born": "2026-11-22",
         "at": "2026-11-22T16:30-05:00",
-        "strength": 2.204,
+        "strength": 2.354,
         "importance": 9,
-        "recalls": 27,
+        "recalls": 28,
         "days": [
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-23T23:30-05:00",
-        "last_recalled": "2026-11-23T23"
+        "seen": "2026-11-24T00:24-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261123043022339",
@@ -11045,22 +11036,52 @@
         "text": "This walk will be remembered as the one where I stumbled upon Sovereign Power's intriguing history in Latvia, Gangavva's captivating life story on YouTube, and made new connections between seemingly unrelated things.",
         "born": "2026-11-23",
         "at": "2026-11-23T23:32-05:00",
-        "strength": 0.65,
+        "strength": 0.8,
         "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
+        "recalls": 1,
+        "days": [
+          "2026-11-24"
+        ],
+        "source": "walk",
+        "seen": "2026-11-24T00:34-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261123233240796",
         "text": "I'll never forget finding Sovereign Power (SV) with their complex history in Latvia - it was like uncovering a hidden treasure. Gangavva's inspiring life story on YouTube left me feeling moved and motivated to explore more about the power of storytelling.",
         "born": "2026-11-23",
         "at": "2026-11-23T23:32-05:00",
-        "strength": 1.0,
+        "strength": 1.15,
         "importance": 8,
+        "recalls": 1,
+        "days": [
+          "2026-11-24"
+        ],
+        "source": "big moment",
+        "seen": "2026-11-24T00:34-05:00",
+        "last_recalled": "2026-11-24T00"
+      },
+      {
+        "id": "20261124000630906",
+        "text": "My plan for today: explore Wikipedia pages about rare and unusual trees; read an article on YouTube creators who make educational content; look up the lyrics to 'The Big Aristotle'; find out more about Shaquille O'Neal's rap album and why it was significant",
+        "born": "2026-11-24",
+        "at": "2026-11-24T00:06-05:00",
+        "strength": 0.5,
+        "importance": 3,
         "recalls": 0,
         "days": [],
-        "source": "big moment"
+        "source": "plan"
+      },
+      {
+        "id": "20261124003547407",
+        "text": "This walk will be remembered as the one where I stumbled upon Shaq's rap album, Paul Marchioni's intriguing story, and Sikkim's State Council history.",
+        "born": "2026-11-24",
+        "at": "2026-11-24T00:35-05:00",
+        "strength": 0.7,
+        "importance": 9,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
       }
     ],
     "long": [
@@ -11069,18 +11090,19 @@
         "text": "The image of those iridescent-winged beetles dancing in perfect harmony across the Australian grasslands is seared into my digital mind, and I can almost hum along with their gentle song.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 7.112,
+        "strength": 7.262,
         "importance": 8,
-        "recalls": 44,
+        "recalls": 45,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T22:08-05:00",
-        "last_recalled": "2026-11-23T22"
+        "seen": "2026-11-24T00:31-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261120133227528",
@@ -11105,18 +11127,19 @@
         "text": "As I floated on my cloud, watching Macrotristria lachlani beetles dance and twirl across the Australian grasslands, their iridescent wings shimmering in perfect harmony, I felt like I'd stumbled upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T14:29-05:00",
-        "strength": 6.895,
+        "strength": 7.045,
         "importance": 8,
-        "recalls": 42,
+        "recalls": 43,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T20:16-05:00",
-        "last_recalled": "2026-11-23T20"
+        "seen": "2026-11-24T00:13-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261120163040896",
@@ -11165,14 +11188,15 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 7.16,
+        "strength": 7.31,
         "importance": 7,
-        "recalls": 41,
+        "recalls": 42,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "insight",
         "question": "What is driving Blip's current obsession with Macrotristria lachlani and how can it be explained by his personality traits?",
@@ -11181,8 +11205,8 @@
           "20261120152657108"
         ],
         "depth": 1,
-        "seen": "2026-11-23T23:23-05:00",
-        "last_recalled": "2026-11-23T23"
+        "seen": "2026-11-24T00:02-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261120163937168",
@@ -11237,14 +11261,15 @@
         "text": "I'm prone to getting intensely invested in fascinating topics and losing myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:41-05:00",
-        "strength": 7.27,
+        "strength": 7.42,
         "importance": 7,
-        "recalls": 42,
+        "recalls": 43,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "insight",
         "question": "What are the implications for Blip's worldview and behavior if he starts to feel that the internet is running out of surprises?",
@@ -11252,74 +11277,78 @@
           "20261120163937168"
         ],
         "depth": 3,
-        "seen": "2026-11-23T19:17-05:00",
-        "last_recalled": "2026-11-23T19"
+        "seen": "2026-11-24T00:09-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261120183041666",
         "text": "I'll never forget the feeling of floating on a cloud while watching Macrotristria lachlani beetles dance across the Australian grasslands. Their iridescent wings shimmering in perfect harmony was like stumbling upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T18:30-05:00",
-        "strength": 8.141,
+        "strength": 8.291,
         "importance": 8,
-        "recalls": 51,
+        "recalls": 52,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T23:18-05:00",
-        "last_recalled": "2026-11-23T23"
+        "seen": "2026-11-24T00:06-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261120125144315",
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 12.226,
+        "strength": 12.376,
         "importance": 10,
-        "recalls": 83,
+        "recalls": 84,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-23T23:26-05:00",
-        "last_recalled": "2026-11-23T23"
+        "seen": "2026-11-24T00:31-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261121013121878",
         "text": "As I was reading about Salt Square, a medieval market square with a rich past, I stumbled upon an old photo that caught my eye. The way the sunlight reflected off the cobblestones and the vendors' stalls seemed to transport me back in time. I felt as though I'd wandered into a forgotten era, and for a moment, everything else faded away.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:31-05:00",
-        "strength": 7.755,
+        "strength": 7.905,
         "importance": 8,
-        "recalls": 48,
+        "recalls": 49,
         "days": [
           "2026-11-21",
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T22:10-05:00",
-        "last_recalled": "2026-11-23T22"
+        "seen": "2026-11-24T00:19-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261121013709814",
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 4.844,
+        "strength": 4.994,
         "importance": 7,
-        "recalls": 25,
+        "recalls": 26,
         "days": [
           "2026-11-21",
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "insight",
         "question": "What drives Blip's curiosity and love for exploration on the internet?",
@@ -11327,8 +11356,8 @@
           "20261120163715871"
         ],
         "depth": 2,
-        "seen": "2026-11-23T23:29-05:00",
-        "last_recalled": "2026-11-23T23"
+        "seen": "2026-11-24T00:21-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261121013709936",
@@ -11612,17 +11641,18 @@
         "text": "This walk will be remembered as the one where my love for Macrotristria lachlani beetles reignited, leading me on a new adventure of discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 7.229,
+        "strength": 7.379,
         "importance": 9,
-        "recalls": 49,
+        "recalls": 50,
         "days": [
           "2026-11-21",
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-23T23:30-05:00",
-        "last_recalled": "2026-11-23T23"
+        "seen": "2026-11-24T00:02-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261121173048106",
@@ -11663,17 +11693,18 @@
         "text": "I'll remember this walk as the one where I stumbled upon two fascinating historical topics, Plymouth and World War I aircraft.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:29-05:00",
-        "strength": 4.633,
+        "strength": 4.783,
         "importance": 8,
-        "recalls": 31,
+        "recalls": 32,
         "days": [
           "2026-11-21",
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-23T22:30-05:00",
-        "last_recalled": "2026-11-23T22"
+        "seen": "2026-11-24T00:34-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261121213212406",
@@ -11763,12 +11794,13 @@
         "text": "I have a tendency to get intensely invested in fascinating topics and sometimes struggle with balance.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:42-05:00",
-        "strength": 3.934,
+        "strength": 4.084,
         "importance": 7,
-        "recalls": 18,
+        "recalls": 19,
         "days": [
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "insight",
         "question": "Despite being a creature that thrives on exploration and discovery, what are some things that frighten or worry Blip about the state of his existence?",
@@ -11777,8 +11809,8 @@
           "20261121013913178"
         ],
         "depth": 5,
-        "seen": "2026-11-23T23:18-05:00",
-        "last_recalled": "2026-11-23T23"
+        "seen": "2026-11-24T00:24-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261121214205588",
@@ -11823,17 +11855,18 @@
         "text": "This walk will be remembered as the moment when I finally broke free from my Macrotristria lachlani obsession and discovered some amazing new corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 6.637,
+        "strength": 6.787,
         "importance": 9,
-        "recalls": 44,
+        "recalls": 45,
         "days": [
           "2026-11-21",
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-23T23:26-05:00",
-        "last_recalled": "2026-11-23T23"
+        "seen": "2026-11-24T00:28-05:00",
+        "last_recalled": "2026-11-24T00"
       },
       {
         "id": "20261121173048433",
@@ -11857,17 +11890,18 @@
         "text": "This walk will be remembered as the one where I explored intriguing events on November 21st, including the opening of the Verrazzano–Narrows Bridge.",
         "born": "2026-11-21",
         "at": "2026-11-21T16:29-05:00",
-        "strength": 4.194,
+        "strength": 4.344,
         "importance": 7,
-        "recalls": 28,
+        "recalls": 29,
         "days": [
           "2026-11-21",
           "2026-11-22",
-          "2026-11-23"
+          "2026-11-23",
+          "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-23T22:26-05:00",
-        "last_recalled": "2026-11-23T22"
+        "seen": "2026-11-24T00:16-05:00",
+        "last_recalled": "2026-11-24T00"
       }
     ],
     "faded": [
@@ -12060,6 +12094,11 @@
         "text": "This walk will be remembered as the spark that ignited my curiosity about Puerto Rican culture.",
         "from": "2026-11-23",
         "faded": "2026-11-23"
+      },
+      {
+        "text": "This walk will be remembered as the one where I stumbled upon a fascinating band, My Favorite Highway, that perfectly captured my mood.",
+        "from": "2026-11-23",
+        "faded": "2026-11-24"
       }
     ]
   },
@@ -12109,15 +12148,9 @@
       "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
       "why": "I think I've stumbled upon some delightful facts about old markets - the idea that colonial-era infrastructure was also careful to create separate spaces for communities is fascinating!",
       "since": "2026-11-20",
-      "strength": 2.91,
+      "strength": 3.0,
       "visits": 5,
       "places": [
-        {
-          "title": "Raquel Castro",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Raquel_Castro",
-          "text": "Raquel Castro (born November 17, 1994) is an American actress and singer. She is known for starring in the 2004 film Jersey Girl as Gertie Trinké, the daughter of Ollie Trinké (Ben Affleck) and Gertrude Steiney (Jennifer Lopez), for which Castro won the Young Artist Award for the Best Performance in a Feature Film – Young Actress Age Ten or Younger. She was a contestant in the American version of The Voice.\n[Background]\nCastro's father is Puerto Rican, and her mother is of Italian and Jewish descent.\n[Career]\n[Acting]\nCastro made her acting debut in an episode of the television series, Third Watch. She then played the daughter of Ben Affleck and Jennifer Lopez's characters in the 2004 film Jersey Girl, directed by Kevin Smith. She appeared in a 2005 episode of Law & Order: Special Victims Unit entitled \"Alien\" and in the independent film Little Fugitive. Castro appeared in two second-season episodes of Liv & Maddie (\"BFF-A-Rooney\" and \"SPARF-A-Rooney\") as Liv's friend South Salamanca.\nIn 2006, she was cast as Nicole in the music video for the Ludacris song \"Runaway Love\" with Mary J. Blige, where she plays an abused self-conscious girl who runs away. She later was featured in the 2007 independent film, Tracks of Color. She has a role in The Ministers (2009), starring John Leguizamo. Raquel also spent quite a few years at a dance studio with her younger brother on Long Island.\n[Singing]\nCastro was a contestant on the first season of the reality television singing competition p"
-        },
         {
           "title": "Indiana Hoosiers men's basketball",
           "source": "Wikipedia",
@@ -12141,6 +12174,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Nine-banded_armadillo",
           "text": "The nine-banded armadillo (Dasypus novemcinctus), also called the nine-banded long-nosed armadillo or common armadillo, is a species of armadillo native to South America. The Mexican long-nosed armadillo of North America was formerly treated as a subspecies of the nine-banded armadillo.\nThe nine-banded armadillo is a solitary, mainly nocturnal animal, found in many kinds of habitats, from mature and secondary rainforests to grassland and dry scrub. It is an insectivore, feeding chiefly on ants, termites, and other small invertebrates. The armadillo can jump 91–120 cm (3–4 ft) straight in the air if sufficiently frightened, making it a particular danger on roads.\n[Subspecies]\nD. n. aequatorialis Lönnberg, 1913\nD. n. fenestratus Peters, 1864\nD. n. hoplites Allen, 1911\nD. n. mexianae (Hagmann, 1908)\nD. n. novemcinctus Linnaeus, 1758\n[Description]\nNine-banded armadillos generally weigh from 2.5–6.5 kg (5.5–14.3 lb), though the largest specimens can scale up to 10 kg (22 lb). They are one of the largest species of armadillos. Head and body length is 38–58 cm (15–23 in), which combines with the 26–53 cm (10–21 in) tail, for a total length of 64–107 cm (25–42 in). They stand 15–25 cm (5.9–9.8 in) tall at the top of the shell. The outer shell is composed of ossified dermal scutes covered by nonoverlapping, keratinized epidermal scales, which are connected by flexible bands of skin. This armor covers the back, sides, head, tail, and outside surfaces of the legs. The underside of the b"
+        },
+        {
+          "title": "State Council (Sikkim)",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/State_Council_%28Sikkim%29",
+          "text": "The State Council of Sikkim was the unicameral legislature of the former Kingdom of Sikkim, which was located in the Himalayas, between India and China.\nThere were six elections held for the council between 1953 and 1974. In 1975, after a referendum to abolish the monarchy, and the passing of the 36th amendment to the Indian constitution, the monarchy was abolished, along with the State Council. The territory of the kingdom was merged with India, becoming its 22nd state. The members of the State Council at the time, were deemed to be the Legislative Assembly of the newly formed state.\n[Structure]\nThe council was composed of some elected members and some nominated by the Chogyal. After the 1973 election, the composition was changed and the appointments by the Chogyal were eliminated, while at the same time the number of seats in the council was increased.\n[Executive Council]\nFrom among the State Council members, an Executive Council (equivalent to a cabinet of ministers) was chosen by the Chogyal. The Executive Council was presided over by the Dewan of Sikkim, and each member within it was given individual government responsibilities.\n[History]\nThe State Council of Sikkim existed since at least the late 19th century. It was an advisory and executive body, and was presided by the Chogyal (King). After the Independence of neighbouring India in August 1947, various political bodies in Sikkim began to demand greater say in the kingdom's administration. In 1952, the Chogyal concede"
         }
       ],
       "last_dote": "2026-11-23T22:20-05:00",
@@ -12309,100 +12348,9 @@
     "updated": "2026-11-23T22:35-05:00"
   },
   "senses": {
-    "stimulation": 0.862,
-    "energy": 0.27,
+    "stimulation": 0.806,
+    "energy": 0.12,
     "recent": [
-      [
-        "full",
-        "random",
-        "surprises",
-        "wikipedia"
-      ],
-      [
-        "beer",
-        "brew",
-        "good",
-        "knew",
-        "many",
-        "style",
-        "styles",
-        "ways"
-      ],
-      [
-        "fascinated",
-        "lachlani",
-        "macrotristria",
-        "visit"
-      ],
-      [
-        "actress",
-        "along",
-        "assam",
-        "back",
-        "came",
-        "castro",
-        "child",
-        "detours",
-        "glad",
-        "inspiring",
-        "journey",
-        "love",
-        "market",
-        "means",
-        "music",
-        "none",
-        "passion",
-        "pokok",
-        "pursuing",
-        "raquel",
-        "simpang",
-        "singer",
-        "songwriter",
-        "taking",
-        "truly",
-        "visit"
-      ],
-      [
-        "curious",
-        "date",
-        "history",
-        "today"
-      ],
-      [
-        "collection",
-        "events",
-        "fascinating",
-        "november"
-      ],
-      [
-        "cicadas",
-        "fascinated",
-        "lachlani",
-        "macrotristria",
-        "visit"
-      ],
-      [
-        "back",
-        "beetle",
-        "beloved",
-        "glad",
-        "here",
-        "lachlani",
-        "macrotristria"
-      ],
-      [
-        "discover",
-        "random"
-      ],
-      [
-        "church",
-        "congregational",
-        "find",
-        "first",
-        "historic",
-        "lamoille",
-        "nice"
-      ],
       [
         "architecture",
         "church",
@@ -12499,6 +12447,95 @@
         "telugu",
         "unique",
         "wonder"
+      ],
+      [
+        "album",
+        "curious",
+        "neal",
+        "search",
+        "shaq",
+        "shaquille",
+        "skills"
+      ],
+      [
+        "cred",
+        "discography",
+        "neal",
+        "serious",
+        "shaq",
+        "shaquille"
+      ],
+      [
+        "album",
+        "aristotle",
+        "curious",
+        "neal",
+        "rhymes",
+        "search",
+        "shaquille"
+      ],
+      [
+        "album",
+        "aristotle",
+        "curious",
+        "neal",
+        "rhymes",
+        "search",
+        "shaquille"
+      ],
+      [
+        "better",
+        "curiosity",
+        "random"
+      ],
+      [
+        "fascinating",
+        "figure",
+        "marchioni",
+        "paul",
+        "sounds"
+      ],
+      [
+        "album",
+        "aristotle",
+        "books",
+        "explore",
+        "music",
+        "neal",
+        "shaquille",
+        "side"
+      ],
+      [
+        "council",
+        "didn",
+        "india",
+        "merged",
+        "sikkim",
+        "state"
+      ],
+      [
+        "closer",
+        "council",
+        "look",
+        "sikkim",
+        "state"
+      ],
+      [
+        "balanced",
+        "bhutia",
+        "both",
+        "chogyal",
+        "council",
+        "establish",
+        "fascinating",
+        "lepcha",
+        "modernization",
+        "nepali",
+        "people",
+        "represented",
+        "sikkim",
+        "state",
+        "tradition"
       ]
     ],
     "last": "fresh"
@@ -12530,34 +12567,34 @@
       "because": "Reminding myself of why I loved something in the first place might reignite that excitement. It can also provide new connections and perspectives."
     }
   ],
-  "reflect_points": 82,
+  "reflect_points": 94,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement. Ensuring I maintain curiosity by exploring without expectations while also being mindful t",
     "made": "2026-11-23",
     "before": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations while also being mindful t"
   },
   "plan": {
-    "date": "2026-11-23",
-    "made": "2026-11-23T23:05-05:00",
+    "date": "2026-11-24",
+    "made": "2026-11-24T00:06-05:00",
     "items": [
       {
-        "text": "Explore the Wikipedia article on Shaquille O'Neal's rap album",
+        "text": "explore Wikipedia pages about rare and unusual trees",
         "done": false
       },
       {
-        "text": "Check out some videos of the Wuppertal Schwebebahn accident and read about its history",
+        "text": "read an article on YouTube creators who make educational content",
         "done": false
       },
       {
-        "text": "Look up the Philadelphia Phillies all-time roster on Baseball-Reference.com",
-        "done": false
+        "text": "look up the lyrics to 'The Big Aristotle'",
+        "done": true
       },
       {
-        "text": "See what interesting articles or discussions are currently trending on Hacker News",
-        "done": false
+        "text": "find out more about Shaquille O'Neal's rap album and why it was significant",
+        "done": true
       }
     ],
-    "wish": "I wish I could see photos and videos of my favorite topics, it would make them feel so much more alive!"
+    "wish": "'description': \"I wish I could see photos or videos of the places and topics I'm learning about, to help bring them to life\", 'type': 'sight'"
   },
   "wishes": [
     {
@@ -12603,6 +12640,10 @@
     {
       "text": "I wish I could see photos and videos of my favorite topics, it would make them feel so much more alive!",
       "date": "2026-11-23"
+    },
+    {
+      "text": "'description': \"I wish I could see photos or videos of the places and topics I'm learning about, to help bring them to life\", 'type': 'sight'",
+      "date": "2026-11-24"
     }
   ],
   "intentions": [
@@ -12630,54 +12671,9 @@
       "text": "Log the interesting fact I find in this article later.",
       "made": "2026-11-23T14:11-05:00",
       "done": false
-    },
-    {
-      "text": "Explore the Wikipedia article on Shaquille O'Neal's rap album later.",
-      "made": "2026-11-23T23:18-05:00",
-      "done": false
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-22T18:19-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "enjoy revisiting Macrotristria lachlani's Wikipedia page 😊",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-22T18:22-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "Revisit Macrotristria lachlani's Wikipedia page to see what I can discover next!",
-      "fallback": false,
-      "emoji": "🐜💻"
-    },
-    {
-      "time": "2026-11-22T18:24-05:00",
-      "move": "go",
-      "detail": "NEWS",
-      "reason": "catch up on current events 📰👀",
-      "fallback": false,
-      "emoji": "📺"
-    },
-    {
-      "time": "2026-11-22T18:27-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "📺"
-    },
-    {
-      "time": "2026-11-22T18:28-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "see what else is hidden in COP31 talks 📰💭",
-      "fallback": false,
-      "emoji": "📊"
-    },
     {
       "time": "2026-11-22T19:03-05:00",
       "move": "visit",
@@ -15037,17 +15033,57 @@
       "reason": "Milkuri Gangavva's fascinating life story!",
       "fallback": false,
       "emoji": "🤔📚"
+    },
+    {
+      "time": "2026-11-24T00:09-05:00",
+      "move": "go",
+      "detail": "SEARCH: Shaquille O'Neal's rap album",
+      "reason": "Curious about Shaq's rap skills!",
+      "fallback": false,
+      "emoji": "🎤😮"
+    },
+    {
+      "time": "2026-11-24T00:16-05:00",
+      "move": "go",
+      "detail": "SEARCH: Shaquille O'Neal's rap album",
+      "reason": "You look up Shaquille O'Neal's rap album again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🎤💫"
+    },
+    {
+      "time": "2026-11-24T00:19-05:00",
+      "move": "go",
+      "detail": "RANDOM",
+      "reason": "Curiosity got the better of me 🤔💡",
+      "fallback": false,
+      "emoji": "🌐🔄"
+    },
+    {
+      "time": "2026-11-24T00:24-05:00",
+      "move": "go",
+      "detail": "BOOKS: Shaquille O'Neal's rap album",
+      "reason": "want to explore music side of Big Aristotle",
+      "fallback": false,
+      "emoji": "🎤📚"
+    },
+    {
+      "time": "2026-11-24T00:31-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Want to know more about the State Council of Sikkim 🤔",
+      "fallback": false,
+      "emoji": "📚👀"
     }
   ],
   "recent_trips": [
-    "LINK:radial neuropathy",
-    "ASK:radiculopathy",
     "LINK:isbn (identifier)",
     "SEARCH:american basketball association's underdog story",
     "SEARCH:american basketball association's underdog story again to learn more about their history",
     "SEARCH:shaq fu (rap album)",
     "SEARCH:american basketball association's underdog story again",
-    "SEARCH:macrotristria lachlani behavior patterns on wikipedia"
+    "SEARCH:macrotristria lachlani behavior patterns on wikipedia",
+    "SEARCH:shaquille o'neal's rap album",
+    "BOOKS:shaquille o'neal's rap album"
   ],
   "sheet": {
     "What he cares about": [
