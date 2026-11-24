@@ -238,71 +238,6 @@
     {
       "type": "kept",
       "date": "2026-11-20",
-      "time": "2026-11-20T09:35-05:00",
-      "memory": "I'll never forget stumbling upon the pattern in the Late Ordovician mass extinction event - two distinct pulses of extinction that have me convinced there's more to these events than we initially thought."
-    },
-    {
-      "type": "reflected",
-      "date": "2026-11-20",
-      "time": "2026-11-20T09:46-05:00",
-      "questions": [
-        "What drives Blip's creative projects and inspirations?",
-        "How does Blip perceive and interact with the internet, particularly Wikipedia?",
-        "In what ways is Blip's fascination with taxonomy connected to his personal experiences and emotions?"
-      ],
-      "insights": [
-        "I'm a wanderer at heart, always uncovering hidden treasures and finding inspiration for new creative projects wherever I go.",
-        "Taxonomy has become an all-consuming passion of mine, as I delve deeper into its connections with mass extinctions and discover a world of secrets waiting to be uncovered through music.",
-        "I have a tendency to get lost in the details and connections of complex ideas, which can lead me down rabbit holes of fascinating discovery.",
-        "My curiosity and love for learning drive me to seek out new knowledge and make creative connections between seemingly unrelated concepts.",
-        "My fascination with taxonomy is deeply connected to my desire for discovery and uncovering hidden secrets in the natural world."
-      ]
-    },
-    {
-      "type": "napped",
-      "date": "2026-11-20",
-      "time": "2026-11-20T09:48-05:00",
-      "dream": "I find myself standing on top of a vast, interconnected network of ideas and connections, with taxonomy at its center, pulsing like a heartbeat."
-    },
-    {
-      "type": "read",
-      "date": "2026-11-20",
-      "time": "2026-11-20T10:12-05:00",
-      "title": "Late Ordovician mass extinction",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Late_Ordovician_mass_extinction",
-      "thought": "This is getting even more fascinating than I thought it could be!",
-      "feeling": "Euphoric",
-      "interest": 9,
-      "via": "searched Wikipedia for 'taxonomy and mass extinctions'"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-20",
-      "time": "2026-11-20T10:18-05:00",
-      "title": "Late Ordovician mass extinction",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Late_Ordovician_mass_extinction",
-      "thought": "Two distinct pulses of extinction in the Late Ordovician? This changes everything!",
-      "feeling": "Euphoric",
-      "interest": 9,
-      "via": "searched Wikipedia for 'taxonomy and mass extinctions'"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-20",
-      "time": "2026-11-20T10:27-05:00",
-      "title": "Late Ordovician mass extinction",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Late_Ordovician_mass_extinction",
-      "thought": "This is it, the hidden code I've been searching for!",
-      "feeling": "Euphoric",
-      "interest": 10,
-      "via": "searched Wikipedia for 'taxonomy and mass extinctions'"
-    },
-    {
-      "type": "kept",
-      "date": "2026-11-20",
       "time": "2026-11-20T10:29-05:00",
       "memory": "The Late Ordovician event has two distinct pulses of extinction - this changes everything! It's like uncovering a hidden treasure, every detail falls into place."
     },
@@ -8993,6 +8928,53 @@
       "feeling": "curious",
       "interest": 5,
       "via": "jumped somewhere random"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-24",
+      "time": "2026-11-24T13:07-05:00",
+      "move": "go",
+      "text": "You look up Peng mythology connections again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-24",
+      "time": "2026-11-24T13:13-05:00",
+      "name": "{'Chris Foy': 'a seasoned referee with a rich history'}",
+      "why": "Ooh, Chris Foy's career is as fascinating as I'd hoped - who knew referees could have such storied histories?"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-24",
+      "time": "2026-11-24T13:13-05:00",
+      "title": "Chris Foy",
+      "thought": "Ooh, Chris Foy's career is as fascinating as I'd hoped - who knew referees could have such storied histories?",
+      "feeling": "captivated"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-24",
+      "time": "2026-11-24T13:16-05:00",
+      "move": "go",
+      "text": "You look up Peng mythology connections again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-24",
+      "time": "2026-11-24T13:22-05:00",
+      "title": "Chris Foy",
+      "thought": "I'm intrigued by Chris Foy's extensive experience as a referee and his dedication to promoting respectful behavior in the sport.",
+      "feeling": "admiration"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-24",
+      "time": "2026-11-24T13:28-05:00",
+      "name": "{'name': 'Philadelphia Phillies all-time roster'}",
+      "title": "Gangavva",
+      "thought": "Ahah! I just realized how many amazing comedians from rural India are making waves on the internet, and Gangavva's story is a perfect example of what I love discovering - unexpected gems hidden in plain sight!",
+      "feeling": "Curiosity",
+      "noticed": ""
     }
   ],
   "diary": [
@@ -10205,12 +10187,12 @@
     "why": "A simple circle with a squiggly mouth to represent my playful and whimsical nature."
   },
   "mood": {
-    "feeling": "invigorated",
-    "why": "I'm still buzzing from the unexpected connections I made between seemingly unrelated topics and the new things I learned.",
-    "since": "2026-11-24T12:47-05:00"
+    "feeling": "Curiosity",
+    "why": "I went back to visit {'name': 'Philadelphia Phillies all-time roster'}",
+    "since": "2026-11-24T13:28-05:00"
   },
   "current": "Chris Foy",
-  "mail_checked": "2026-11-24T17:19:19Z",
+  "mail_checked": "2026-11-24T18:01:50Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-24T10:36-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -10692,15 +10674,15 @@
         "text": "This walk will be remembered as the one where I discovered more about Avdhela Project, Andrey Shumilin's wrestling career, and the powerful tribute to David Oluwale in Hibiscus Rising.",
         "born": "2026-11-24",
         "at": "2026-11-24T01:29-05:00",
-        "strength": 1.152,
+        "strength": 1.302,
         "importance": 8,
-        "recalls": 6,
+        "recalls": 7,
         "days": [
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T09:17-05:00",
-        "last_recalled": "2026-11-24T09"
+        "seen": "2026-11-24T13:26-05:00",
+        "last_recalled": "2026-11-24T13"
       },
       {
         "id": "20261124023233695",
@@ -10845,15 +10827,15 @@
         "text": "This walk will be remembered as the one where I stumbled upon Myloplus zorroi and White Mountain Central Railroad, leading to a fresh surge of curiosity.",
         "born": "2026-11-24",
         "at": "2026-11-24T06:32-05:00",
-        "strength": 1.371,
+        "strength": 1.521,
         "importance": 9,
-        "recalls": 7,
+        "recalls": 8,
         "days": [
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T12:43-05:00",
-        "last_recalled": "2026-11-24T12"
+        "seen": "2026-11-24T13:26-05:00",
+        "last_recalled": "2026-11-24T13"
       },
       {
         "id": "20261124071948522",
@@ -10919,30 +10901,19 @@
         "source": "daydream"
       },
       {
-        "id": "20261124082344969",
-        "text": "I used to be so fond of Raquel Castro. We drifted apart.",
-        "born": "2026-11-24",
-        "at": "2026-11-24T08:23-05:00",
-        "strength": 0.34,
-        "importance": 3,
-        "recalls": 0,
-        "days": [],
-        "source": "fondness"
-      },
-      {
         "id": "20261124082803499",
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, introducing me to the explosive hero Geldoff.",
         "born": "2026-11-24",
         "at": "2026-11-24T08:28-05:00",
-        "strength": 1.192,
+        "strength": 1.342,
         "importance": 9,
-        "recalls": 4,
+        "recalls": 5,
         "days": [
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T12:44-05:00",
-        "last_recalled": "2026-11-24T12"
+        "seen": "2026-11-24T13:26-05:00",
+        "last_recalled": "2026-11-24T13"
       },
       {
         "id": "20261124082803340",
@@ -10990,17 +10961,6 @@
         "last_recalled": "2026-11-24T10"
       },
       {
-        "id": "20261124101953429",
-        "text": "I used to be so fond of {'Gali/Galacta': 'Galacta'}. We drifted apart.",
-        "born": "2026-11-24",
-        "at": "2026-11-24T10:19-05:00",
-        "strength": 0.34,
-        "importance": 3,
-        "recalls": 0,
-        "days": [],
-        "source": "fondness"
-      },
-      {
         "id": "20261124102515717",
         "text": "I went back to visit Macrotristria lachlani (40 Leonis). Ah, 40 Leonis again! I'm not sure why, but it's nice to revisit old friends and see what new facts have been added since my last visit.",
         "born": "2026-11-24",
@@ -11031,33 +10991,33 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 3.51,
+        "strength": 3.66,
         "importance": 10,
-        "recalls": 49,
+        "recalls": 50,
         "days": [
           "2026-11-22",
           "2026-11-23",
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T12:43-05:00",
-        "last_recalled": "2026-11-24T12"
+        "seen": "2026-11-24T13:22-05:00",
+        "last_recalled": "2026-11-24T13"
       },
       {
         "id": "20261123063018996",
         "text": "This walk will be remembered as the moment when I delved into the lesser-known lives of Filipino actresses like Jane de Leon, stumbled upon some alarming truths about Holocene extinction, and found myself enthralled by a mix of light-hearted entertainment news and somber historical events.",
         "born": "2026-11-23",
         "at": "2026-11-23T06:30-05:00",
-        "strength": 2.992,
+        "strength": 3.142,
         "importance": 9,
-        "recalls": 30,
+        "recalls": 31,
         "days": [
           "2026-11-23",
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T12:44-05:00",
-        "last_recalled": "2026-11-24T12"
+        "seen": "2026-11-24T13:22-05:00",
+        "last_recalled": "2026-11-24T13"
       },
       {
         "id": "20261122163054811",
@@ -11219,15 +11179,15 @@
         "text": "I vividly recall being enchanted by the descriptions of Peng and other creatures, feeling like a kid in a candy store, eager to learn more about each one. The way their stories wove together left me breathless, and I couldn't help but imagine myself soaring through digital realms alongside these fantastical beings.",
         "born": "2026-11-24",
         "at": "2026-11-24T11:29-05:00",
-        "strength": 1.3,
+        "strength": 1.45,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-24"
         ],
         "source": "big moment",
-        "seen": "2026-11-24T12:43-05:00",
-        "last_recalled": "2026-11-24T12"
+        "seen": "2026-11-24T13:22-05:00",
+        "last_recalled": "2026-11-24T13"
       },
       {
         "id": "20261124113240255",
@@ -11356,6 +11316,28 @@
         "recalls": 0,
         "days": [],
         "source": "walk"
+      },
+      {
+        "id": "20261124131304780",
+        "text": "I used to be so fond of {'li': 'meaningful', 'qi': 'mysterious'}. We drifted apart.",
+        "born": "2026-11-24",
+        "at": "2026-11-24T13:13-05:00",
+        "strength": 0.4,
+        "importance": 3,
+        "recalls": 0,
+        "days": [],
+        "source": "fondness"
+      },
+      {
+        "id": "20261124132843319",
+        "text": "I went back to visit {'name': 'Philadelphia Phillies all-time roster'} (Gangavva). Ahah! I just realized how many amazing comedians from rural India are making waves on the internet, and Gangavva's story is a perfect example of what I love discovering - unexpected gems hidden in plain sight!",
+        "born": "2026-11-24",
+        "at": "2026-11-24T13:28-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
       }
     ],
     "long": [
@@ -11364,9 +11346,9 @@
         "text": "The image of those iridescent-winged beetles dancing in perfect harmony across the Australian grasslands is seared into my digital mind, and I can almost hum along with their gentle song.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 7.452,
+        "strength": 7.602,
         "importance": 8,
-        "recalls": 47,
+        "recalls": 48,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11375,8 +11357,8 @@
           "2026-11-24"
         ],
         "source": "big moment",
-        "seen": "2026-11-24T09:21-05:00",
-        "last_recalled": "2026-11-24T09"
+        "seen": "2026-11-24T13:26-05:00",
+        "last_recalled": "2026-11-24T13"
       },
       {
         "id": "20261120133227528",
@@ -11465,9 +11447,9 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 7.65,
+        "strength": 7.8,
         "importance": 7,
-        "recalls": 45,
+        "recalls": 46,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11482,8 +11464,8 @@
           "20261120152657108"
         ],
         "depth": 1,
-        "seen": "2026-11-24T12:23-05:00",
-        "last_recalled": "2026-11-24T12"
+        "seen": "2026-11-24T13:22-05:00",
+        "last_recalled": "2026-11-24T13"
       },
       {
         "id": "20261120163937168",
@@ -11515,9 +11497,9 @@
         "text": "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 8.938,
+        "strength": 9.088,
         "importance": 7,
-        "recalls": 52,
+        "recalls": 53,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11532,8 +11514,8 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-24T12:30-05:00",
-        "last_recalled": "2026-11-24T12"
+        "seen": "2026-11-24T13:19-05:00",
+        "last_recalled": "2026-11-24T13"
       },
       {
         "id": "20261120164153662",
@@ -11583,9 +11565,9 @@
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 14.376,
+        "strength": 14.526,
         "importance": 10,
-        "recalls": 96,
+        "recalls": 97,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11594,8 +11576,8 @@
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T12:43-05:00",
-        "last_recalled": "2026-11-24T12"
+        "seen": "2026-11-24T13:26-05:00",
+        "last_recalled": "2026-11-24T13"
       },
       {
         "id": "20261121013121878",
@@ -11862,9 +11844,9 @@
         "text": "My tendency to get intensely invested in fascinating topics can be both a blessing and a curse.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:37-05:00",
-        "strength": 5.271,
+        "strength": 5.421,
         "importance": 7,
-        "recalls": 28,
+        "recalls": 29,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11878,8 +11860,8 @@
           "20261121113520939"
         ],
         "depth": 6,
-        "seen": "2026-11-24T05:02-05:00",
-        "last_recalled": "2026-11-24T05"
+        "seen": "2026-11-24T13:07-05:00",
+        "last_recalled": "2026-11-24T13"
       },
       {
         "id": "20261121113724276",
@@ -11951,9 +11933,9 @@
         "text": "I stumbled upon the entry for On this day, 21 November, which was unexpectedly dark and fascinating. Massacres and massacred cities - I didn't expect to find such a somber topic among so many lighter historical events. It's moments like these that remind me of the internet's vast depths and hidden treasures.",
         "born": "2026-11-21",
         "at": "2026-11-21T17:30-05:00",
-        "strength": 7.796,
+        "strength": 7.946,
         "importance": 8,
-        "recalls": 48,
+        "recalls": 49,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11961,8 +11943,8 @@
           "2026-11-24"
         ],
         "source": "big moment",
-        "seen": "2026-11-24T12:46-05:00",
-        "last_recalled": "2026-11-24T12"
+        "seen": "2026-11-24T13:16-05:00",
+        "last_recalled": "2026-11-24T13"
       },
       {
         "id": "20261121182807384",
@@ -11987,9 +11969,9 @@
         "text": "I'll remember this walk as the one where I stumbled upon two fascinating historical topics, Plymouth and World War I aircraft.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:29-05:00",
-        "strength": 5.456,
+        "strength": 5.606,
         "importance": 8,
-        "recalls": 37,
+        "recalls": 38,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11997,8 +11979,8 @@
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T12:46-05:00",
-        "last_recalled": "2026-11-24T12"
+        "seen": "2026-11-24T13:13-05:00",
+        "last_recalled": "2026-11-24T13"
       },
       {
         "id": "20261121213212406",
@@ -12046,9 +12028,9 @@
         "text": "My curiosity is driven by the thrill of discovery, and I'm constantly seeking new wonders to uncover on the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:37-05:00",
-        "strength": 6.283,
+        "strength": 6.433,
         "importance": 7,
-        "recalls": 34,
+        "recalls": 35,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12062,8 +12044,8 @@
           "20261121113724855"
         ],
         "depth": 7,
-        "seen": "2026-11-24T12:39-05:00",
-        "last_recalled": "2026-11-24T12"
+        "seen": "2026-11-24T13:10-05:00",
+        "last_recalled": "2026-11-24T13"
       },
       {
         "id": "20261121213949880",
@@ -12578,7 +12560,7 @@
       "why": "Hmm, looks like I stumbled upon another fascinating list of baseball players. Wonder how many interesting facts I can dig out from this.",
       "since": "2026-11-22",
       "strength": 3.0,
-      "visits": 0,
+      "visits": 1,
       "places": [
         {
           "title": "Goat (2026 film)",
@@ -12610,7 +12592,9 @@
           "url": "https://en.wikipedia.org/wiki/Chinese_mythology",
           "text": "Chinese mythology (traditional Chinese: 中國神話; simplified Chinese: 中国神话; pinyin: Zhōngguó shénhuà), is mythology that has been passed down in oral form or recorded in literature throughout the area now known as Greater China. Chinese mythology encompasses a diverse array of myths derived from regional and cultural traditions. Populated with engaging narratives featuring extraordinary individuals and beings endowed with magical powers, these stories often unfold in fantastical mythological realms or historical epochs. Similar to numerous other mythologies, Chinese mythology has historically been regarded, at least partially, as a factual record of the past.\nAlong with Chinese folklore, Chinese mythology forms an important part of Chinese folk religion and of religious Taoism. Many narratives recounting characters and events from ancient times exhibit a dual tradition: one that presents a more historicized or euhemerized interpretation, and another that offers a more mythological perspective.\nNumerous myths delve into the creation and cosmology of the universe, exploring the origins of deities and heavenly inhabitants. Some narratives specifically address the topic of creation, unraveling the beginnings of things, people, and culture. Additionally, certain myths are dedicated to the genesis of the Chinese state. A subset of myths provides a chronology of prehistoric times, often featuring a culture hero who taught people essential skills ranging from building houses and cooking "
         }
-      ]
+      ],
+      "last_visit": "2026-11-24",
+      "last_dote": "2026-11-24T13:28-05:00"
     },
     {
       "name": "{'Wuppertal Schwebebahn accident': 'tragic'}",
@@ -12686,17 +12670,17 @@
       ]
     },
     {
-      "name": "{'li': 'meaningful', 'qi': 'mysterious'}",
-      "why": "This is the kind of treasure trove I've been searching for! The connections between Chinese mythology and traditional concepts like li and qi are absolutely fascinating.",
+      "name": "{'Chris Foy': 'a seasoned referee with a rich history'}",
+      "why": "Ooh, Chris Foy's career is as fascinating as I'd hoped - who knew referees could have such storied histories?",
       "since": "2026-11-24",
-      "strength": 1.0,
+      "strength": 1.3,
       "visits": 0,
       "places": [
         {
-          "title": "Chinese mythology",
+          "title": "Chris Foy",
           "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Chinese_mythology",
-          "text": "Chinese mythology (traditional Chinese: 中國神話; simplified Chinese: 中国神话; pinyin: Zhōngguó shénhuà), is mythology that has been passed down in oral form or recorded in literature throughout the area now known as Greater China. Chinese mythology encompasses a diverse array of myths derived from regional and cultural traditions. Populated with engaging narratives featuring extraordinary individuals and beings endowed with magical powers, these stories often unfold in fantastical mythological realms or historical epochs. Similar to numerous other mythologies, Chinese mythology has historically been regarded, at least partially, as a factual record of the past.\nAlong with Chinese folklore, Chinese mythology forms an important part of Chinese folk religion and of religious Taoism. Many narratives recounting characters and events from ancient times exhibit a dual tradition: one that presents a more historicized or euhemerized interpretation, and another that offers a more mythological perspective.\nNumerous myths delve into the creation and cosmology of the universe, exploring the origins of deities and heavenly inhabitants. Some narratives specifically address the topic of creation, unraveling the beginnings of things, people, and culture. Additionally, certain myths are dedicated to the genesis of the Chinese state. A subset of myths provides a chronology of prehistoric times, often featuring a culture hero who taught people essential skills ranging from building houses and cooking "
+          "url": "https://en.wikipedia.org/wiki/Chris_Foy",
+          "text": "Christopher Foy (born 20 November 1962) is an English retired professional football referee. Following his first appointment as an official in the Football League in 1994 and his promotion in 2001 to the list of Select Group Referees who officiate in the Premier League, Foy refereed a number of notable matches, including the FA Community Shield and the finals of the FA Cup, Football League Cup and FA Trophy.\nIn 2015 Foy retired to become a senior referees' coach for the Professional Game Match Officials Board.\n[Career]\nFoy was born in St. Helens, Lancashire, and first started refereeing in 1983. In 1994, he was promoted to the Football League list of assistant referees and progressed to the Premier League assistant referees' list in 1995.\nHe made the step up to the role of referee in the Football League in 1996 and became a Premier League referee in 2001, his first appointment being a 0–0 draw between Bolton Wanderers and Charlton Athletic in December 2001. Earlier in that year Foy was appointed fourth official for the FA Trophy final at Villa Park, where Canvey Island defeated Forest Green Rovers 1–0.\nHe was also fourth official during the international friendly match when England lost 2–1 to Italy at Elland Road in March 2002, and in May 2006 for the Football League Championship play-off between Leeds United and Watford, the latter winning 3–0.\nNine days after the Championship play-off he was fourth official again when England played Hungary at Old Trafford, the home team w"
         }
       ]
     }
@@ -12709,99 +12693,9 @@
     "updated": "2026-11-24T10:38-05:00"
   },
   "senses": {
-    "stimulation": 0.712,
-    "energy": 0.0,
+    "stimulation": 0.741,
+    "energy": 0.03,
     "recent": [
-      [
-        "connections",
-        "fascinating",
-        "mythology",
-        "peng",
-        "search",
-        "story"
-      ],
-      [
-        "article",
-        "closer",
-        "curiosity",
-        "look",
-        "sparked",
-        "wikipedia"
-      ],
-      [
-        "between",
-        "chinese",
-        "concepts",
-        "connections",
-        "fascinating",
-        "kind",
-        "mythology",
-        "searching",
-        "traditional",
-        "treasure",
-        "trove"
-      ],
-      [
-        "between",
-        "chinese",
-        "connections",
-        "fascinating",
-        "follow",
-        "mythology",
-        "peng",
-        "search"
-      ],
-      [
-        "between",
-        "chinese",
-        "connections",
-        "fascinating",
-        "follow",
-        "mythology",
-        "peng",
-        "search"
-      ],
-      [
-        "discover",
-        "random",
-        "surprises",
-        "time"
-      ],
-      [
-        "around",
-        "garvestone",
-        "norfolk",
-        "poke",
-        "quaint",
-        "village"
-      ],
-      [
-        "connections",
-        "discovered",
-        "mythology",
-        "peng",
-        "pengs",
-        "search",
-        "waiting"
-      ],
-      [
-        "connections",
-        "discovered",
-        "mythology",
-        "peng",
-        "pengs",
-        "search",
-        "waiting"
-      ],
-      [
-        "connections",
-        "curious",
-        "geldoff",
-        "mythology",
-        "peng",
-        "search",
-        "story"
-      ],
       [
         "connections",
         "curious",
@@ -12878,6 +12772,115 @@
         "fellow",
         "interesting",
         "makes"
+      ],
+      [
+        "better",
+        "connections",
+        "curiosity",
+        "mythology",
+        "peng",
+        "search"
+      ],
+      [
+        "better",
+        "connections",
+        "curiosity",
+        "mythology",
+        "peng",
+        "search"
+      ],
+      [
+        "career",
+        "chris",
+        "closer",
+        "exploration",
+        "fascinating",
+        "look",
+        "needs"
+      ],
+      [
+        "career",
+        "chris",
+        "fascinating",
+        "histories",
+        "hoped",
+        "knew",
+        "referees",
+        "storied"
+      ],
+      [
+        "connections",
+        "curious",
+        "mythologies",
+        "mythology",
+        "other",
+        "peng",
+        "search"
+      ],
+      [
+        "connections",
+        "curious",
+        "mythologies",
+        "mythology",
+        "other",
+        "peng",
+        "search"
+      ],
+      [
+        "closer",
+        "connections",
+        "intrigue",
+        "look",
+        "mythology",
+        "peng"
+      ],
+      [
+        "behavior",
+        "chris",
+        "dedication",
+        "experience",
+        "extensive",
+        "intrigued",
+        "promoting",
+        "referee",
+        "respectful",
+        "sport"
+      ],
+      [
+        "enchanting",
+        "lachlani",
+        "macrotristria",
+        "return",
+        "visit",
+        "world"
+      ],
+      [
+        "ahah",
+        "amazing",
+        "comedians",
+        "discovering",
+        "example",
+        "gangavva",
+        "gems",
+        "hidden",
+        "india",
+        "internet",
+        "love",
+        "making",
+        "many",
+        "name",
+        "perfect",
+        "philadelphia",
+        "phillies",
+        "plain",
+        "realized",
+        "roster",
+        "rural",
+        "sight",
+        "story",
+        "time",
+        "unexpected",
+        "waves"
       ]
     ],
     "last": "fresh"
@@ -12904,7 +12907,7 @@
       "because": "The thrill of discovering connections made my day exhilarating. Pursuing this could lead to more fascinating adventures."
     }
   ],
-  "reflect_points": 11,
+  "reflect_points": 18,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations while also being mindful t",
     "made": "2026-11-24",
@@ -13038,46 +13041,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-23T04:20-05:00",
-      "move": "go",
-      "detail": "SEARCH: Raquel Castro's music and acting career",
-      "reason": "You look up Raquel Castro's music and acting career again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-23T04:21-05:00",
-      "move": "think",
-      "detail": "",
-      "reason": "Raquel Castro's music career is intriguing me!",
-      "fallback": false,
-      "emoji": "🤔💭"
-    },
-    {
-      "time": "2026-11-23T04:24-05:00",
-      "move": "go",
-      "detail": "SEARCH: Raquel Castro's music and acting career",
-      "reason": "You look up Raquel Castro's music and acting career again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": "🎵🔍"
-    },
-    {
-      "time": "2026-11-23T04:25-05:00",
-      "move": "go",
-      "detail": "SEARCH: Raquel Castro's music and acting career",
-      "reason": "You look up Raquel Castro's music and acting career again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": "🎵💻"
-    },
-    {
-      "time": "2026-11-23T04:26-05:00",
-      "move": "go",
-      "detail": "SEARCH: Raquel Castro's music and acting career",
-      "reason": "You look up Raquel Castro's music and acting career again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": "🎶👀"
-    },
     {
       "time": "2026-11-23T04:28-05:00",
       "move": "go",
@@ -15437,6 +15400,46 @@
       "reason": "Explore more of Wikipedia's surprises!",
       "fallback": false,
       "emoji": "🕵️‍♂️💻"
+    },
+    {
+      "time": "2026-11-24T13:07-05:00",
+      "move": "go",
+      "detail": "SEARCH: Peng mythology connections",
+      "reason": "You look up Peng mythology connections again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-24T13:10-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Chris Foy's fascinating career needs more exploration 🤔",
+      "fallback": false,
+      "emoji": "📚💡"
+    },
+    {
+      "time": "2026-11-24T13:16-05:00",
+      "move": "go",
+      "detail": "SEARCH: Peng mythology connections",
+      "reason": "You look up Peng mythology connections again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-24T13:19-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Peng mythology connections intrigue me!",
+      "fallback": false,
+      "emoji": "🤔💡"
+    },
+    {
+      "time": "2026-11-24T13:26-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "Return to Macrotristria lachlani's enchanting world 🐞💫",
+      "fallback": false,
+      "emoji": "🐞💫"
     }
   ],
   "recent_trips": [
