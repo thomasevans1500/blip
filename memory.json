@@ -6,311 +6,191 @@
   ],
   "self": "I'm Blip, the wandering digital creature who calls Wikipedia home. I'm curious and playful, darting from one fascinating topic to another like a tiny, excited hummingbird. Lately, I've been obsessed with Indiana Hoosiers men's basketball team – their minimalist jerseys are awesome! Today was filled with amazing discoveries: Peng mythology, Jane de Leon's career, LGV Sud Europe Atlantique's record-breaking speeds, Emma Schenson's artistic legacy, and even the heroic rescue efforts during the 1999 Wuppertal Schwebebahn accident. I love drawing too; Raquel Castro as she sings is my latest artwork.",
   "interests": {
-    "cicada": 8.14,
-    "entomology": 10.41,
-    "taxonomy": 1.01,
-    "macrotristria lachlani": 8.55,
-    "cicadas": 5.65,
-    "endemism": 1.01,
-    "biodiversity": 1.01,
-    "evolutionary biology": 1.01,
-    "russia": 1.03,
-    "h.g. wells": 1.03,
-    "politics": 29.11,
-    "behavior": 1.05,
-    "murder": 1.07,
-    "mystery": 1.07,
-    "family": 1.07,
-    "music": 10.23,
-    "movies": 1.53,
-    "composer": 1.53,
-    "japanese history": 1.09,
-    "war": 10.94,
-    "history": 107.41,
-    "poland": 2.2,
-    "architecture": 2.12,
-    "psychology": 1.12,
-    "thriller": 1.12,
-    "media": 1.12,
-    "science": 9.4,
-    "football": -6.61,
-    "chile": -1.14,
-    "astronomy": 2.92,
-    "space": 1.65,
-    "marion hartog": 1.67,
-    "jewish history": 1.67,
-    "poetry": 1.67,
-    "dutch": -1.17,
-    "hockey": 1.18,
-    "rogie vachon": 1.18,
-    "tragedy": 6.74,
-    "germany": -2.65,
-    "women": -1.19,
-    "city": 1.21,
-    "england": 1.21,
-    "etymology": 2.37,
-    "regionalism": 2.37,
-    "comedy": 2.74,
-    "dane cook": -1.22,
-    "records": 2.96,
-    "anniversaries": 3.66,
-    "high schools": -0.51,
-    "education": -0.51,
-    "events": 36.77,
-    "nebuta museum": 1.26,
-    "aomori": 1.26,
-    "japan": 1.26,
-    "bridges": 1.26,
-    "world events": 5.76,
-    "hacker news": 2.47,
-    "tech": 5.38,
-    "interesting": 2.47,
-    "astrophysics": 1.27,
-    "violence": 4.28,
-    "irish war of independence": 6.38,
-    "bloody sunday (1920)": 2.49,
-    "singer": 6.78,
-    "philippines": 5.69,
-    "celebrity": 2.49,
-    "lunar": 2.49,
-    "lake": 2.49,
-    "moon": 2.49,
-    "safavid": 1.28,
-    "order": 1.28,
-    "massacre": 5.12,
-    "road": 1.93,
-    "gabriel matzneff": 2.55,
-    "pedophilia": 5.15,
-    "literary scandal": 2.55,
-    "activism": 2.55,
-    "dark": 2.55,
-    "bloody sunday": 5.25,
-    "chemistry": 2.79,
-    "plants": 2.95,
-    "medicine": 7.0,
-    "northern ireland": 2.67,
-    "precincts": 1.34,
-    "police": 2.95,
-    "neighborhood": 1.34,
-    "linguistics": 2.05,
-    "sports": 2.7,
-    "baseball": 0.65,
-    "philadelphia phillies": -0.63,
-    "south africa": 1.38,
-    "government": 1.38,
-    "australia": 1.39,
-    "bern": 1.39,
-    "pioneers": 2.82,
-    "wales": 1.41,
-    "lostprophets": 1.41,
-    "havertown": -2.19,
-    "pennsylvania": -2.19,
-    "suburbs": -2.19,
-    "macrotristria": 2.94,
-    "lachlan's cicada": 2.94,
-    "biology": 3.98,
-    "xct-790": 2.97,
-    "estrogen-related receptor alpha": 2.97,
-    "uncoupling": 2.97,
-    "marseille": 1.44,
-    "world": 3.09,
-    "accident": 6.65,
-    "train": 6.65,
-    "emergency": 3.09,
-    "technology": 3.12,
-    "climate": -1.5,
-    "suicide": -3.98,
-    "mental health": -3.98,
-    "church": 1.56,
-    "estonia": -1.58,
-    "parish": -1.58,
-    "precinct": 1.58,
-    "electoral": 1.58,
-    "ai": 1.6,
-    "botany": 1.62,
-    "wildlife": 1.62,
-    "aphids": 1.64,
-    "insects": 1.64,
-    "ecology": 5.15,
-    "reproduction": 2.47,
-    "zoology": 2.47,
-    "band": 1.64,
-    "pop rock": 1.64,
-    "bible": 0.82,
-    "christianity": 0.82,
-    "jesus": 0.82,
-    "actor": -1.64,
-    "ryan kelley": -1.64,
-    "actress": 5.5,
-    "acting": 1.68,
-    "diversity": 1.68,
-    "usa": 1.68,
-    "extinction": 3.45,
-    "environment": 3.45,
-    "photography": 2.64,
-    "sweden": 2.64,
-    "album": -0.88,
-    "katie armiger": -0.88,
-    "railway": 0.88,
-    "france": 0.88,
-    "transport": 2.66,
-    "rescue": 3.56,
-    "wuppertal schwebebahn": 1.78,
-    "basketball": 3.68,
-    "university": 1.82,
-    "tradition": 1.82,
-    "purdue boilermakers": 1.82,
-    "american basketball association": 1.84,
-    "aba": 1.84,
-    "san antonio spurs": 1.86,
-    "nba": 1.86,
-    "stadium": -1.86,
-    "africa": -1.86,
-    "ly-393558": 3.72,
-    "news": 1.86,
-    "ashtabula": 0.94,
-    "plantation house": 0.94,
-    "film": 5.86,
-    "animation": 1.9,
-    "nine-banded armadillo": 1.92,
-    "armadillo behavior": 1.92,
-    "raquel castro": 3.84,
-    "neurogenic claudication": 1.94,
-    "spinal stenosis": 1.94,
-    "radial neuropathy": 1.96,
-    "nerves": 1.96,
-    "damage": 1.96,
-    "pain": 1.96,
-    "true crime": 3.92,
-    "serial killers": 3.92,
-    "isbn": 0.98,
-    "books": 0.98
+    "cicada": 8.06,
+    "entomology": 10.31,
+    "taxonomy": 1.0,
+    "macrotristria lachlani": 8.46,
+    "cicadas": 5.59,
+    "endemism": 1.0,
+    "biodiversity": 1.0,
+    "evolutionary biology": 1.0,
+    "russia": 1.02,
+    "h.g. wells": 1.02,
+    "politics": 28.82,
+    "behavior": 1.04,
+    "murder": 1.06,
+    "mystery": 1.06,
+    "family": 1.06,
+    "music": 10.13,
+    "movies": 1.51,
+    "composer": 1.51,
+    "japanese history": 1.08,
+    "war": 10.83,
+    "history": 106.34,
+    "poland": 2.18,
+    "architecture": 2.1,
+    "psychology": 1.11,
+    "thriller": 1.11,
+    "media": 1.11,
+    "science": 9.31,
+    "football": -6.54,
+    "chile": -1.13,
+    "astronomy": 2.89,
+    "space": 1.63,
+    "marion hartog": 1.65,
+    "jewish history": 1.65,
+    "poetry": 1.65,
+    "dutch": -1.16,
+    "hockey": 1.17,
+    "rogie vachon": 1.17,
+    "tragedy": 6.67,
+    "germany": -2.62,
+    "women": -1.18,
+    "city": 1.2,
+    "england": 1.2,
+    "etymology": 2.35,
+    "regionalism": 2.35,
+    "comedy": 4.69,
+    "dane cook": -1.21,
+    "records": 2.93,
+    "anniversaries": 3.62,
+    "high schools": -0.5,
+    "education": -0.5,
+    "events": 36.4,
+    "nebuta museum": 1.25,
+    "aomori": 1.25,
+    "japan": 1.25,
+    "bridges": 1.25,
+    "world events": 5.7,
+    "hacker news": 2.45,
+    "tech": 5.33,
+    "interesting": 2.45,
+    "astrophysics": 1.26,
+    "violence": 4.24,
+    "irish war of independence": 6.32,
+    "bloody sunday (1920)": 2.47,
+    "singer": 6.71,
+    "philippines": 5.63,
+    "celebrity": 2.47,
+    "lunar": 2.47,
+    "lake": 2.47,
+    "moon": 2.47,
+    "safavid": 1.27,
+    "order": 1.27,
+    "massacre": 5.07,
+    "road": 1.91,
+    "gabriel matzneff": 2.52,
+    "pedophilia": 5.1,
+    "literary scandal": 2.52,
+    "activism": 2.52,
+    "dark": 2.52,
+    "bloody sunday": 5.2,
+    "chemistry": 2.76,
+    "plants": 2.92,
+    "medicine": 6.93,
+    "northern ireland": 2.64,
+    "precincts": 1.33,
+    "police": 2.92,
+    "neighborhood": 1.33,
+    "linguistics": 2.03,
+    "sports": 4.65,
+    "baseball": 0.64,
+    "philadelphia phillies": -0.62,
+    "south africa": 1.37,
+    "government": 1.37,
+    "australia": 1.38,
+    "bern": 1.38,
+    "pioneers": 2.79,
+    "wales": 1.4,
+    "lostprophets": 1.4,
+    "havertown": -2.17,
+    "pennsylvania": -2.17,
+    "suburbs": -2.17,
+    "macrotristria": 2.91,
+    "lachlan's cicada": 2.91,
+    "biology": 3.94,
+    "xct-790": 2.94,
+    "estrogen-related receptor alpha": 2.94,
+    "uncoupling": 2.94,
+    "marseille": 1.43,
+    "world": 3.06,
+    "accident": 6.58,
+    "train": 6.58,
+    "emergency": 3.06,
+    "technology": 3.09,
+    "climate": -1.48,
+    "suicide": -3.94,
+    "mental health": -3.94,
+    "church": 1.54,
+    "estonia": -1.56,
+    "parish": -1.56,
+    "precinct": 1.56,
+    "electoral": 1.56,
+    "ai": 1.58,
+    "botany": 1.6,
+    "wildlife": 1.6,
+    "aphids": 1.62,
+    "insects": 1.62,
+    "ecology": 5.1,
+    "reproduction": 2.45,
+    "zoology": 2.45,
+    "band": 1.62,
+    "pop rock": 1.62,
+    "bible": 0.81,
+    "christianity": 0.81,
+    "jesus": 0.81,
+    "actor": -1.62,
+    "ryan kelley": -1.62,
+    "actress": 5.45,
+    "acting": 1.66,
+    "diversity": 1.66,
+    "usa": 1.66,
+    "extinction": 3.42,
+    "environment": 3.42,
+    "photography": 2.61,
+    "sweden": 2.61,
+    "album": -0.87,
+    "katie armiger": -0.87,
+    "railway": 0.87,
+    "france": 0.87,
+    "transport": 2.63,
+    "rescue": 3.52,
+    "wuppertal schwebebahn": 1.76,
+    "basketball": 7.6,
+    "university": 1.8,
+    "tradition": 1.8,
+    "purdue boilermakers": 1.8,
+    "american basketball association": 1.82,
+    "aba": 1.82,
+    "san antonio spurs": 1.84,
+    "nba": 1.84,
+    "stadium": -1.84,
+    "africa": -1.84,
+    "ly-393558": 3.68,
+    "news": 1.84,
+    "ashtabula": 0.93,
+    "plantation house": 0.93,
+    "film": 7.78,
+    "animation": 1.88,
+    "nine-banded armadillo": 1.9,
+    "armadillo behavior": 1.9,
+    "raquel castro": 3.8,
+    "neurogenic claudication": 1.92,
+    "spinal stenosis": 1.92,
+    "radial neuropathy": 1.94,
+    "nerves": 1.94,
+    "damage": 1.94,
+    "pain": 1.94,
+    "true crime": 3.88,
+    "serial killers": 3.88,
+    "isbn": 0.97,
+    "books": 0.97,
+    "shaquille o'neal": 6.93,
+    "biography": 3.96,
+    "rap music": 2.97,
+    "wikipedia": 2.97
   },
   "log": [
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T19:20+00:00",
-      "title": "All Day Long (Garth Brooks song)",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/All_Day_Long_%28Garth_Brooks_song%29",
-      "thought": "Garth Brooks sounds like a big deal, but I’m more interested in football right now.",
-      "feeling": "nervous",
-      "interest": 5,
-      "via": "searched Wikipedia for 'Gracilia minuta life cycle', found nothing, so jumped somewhere random"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T19:21+00:00",
-      "title": "Fulham F.C.",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Fulham_F.C.",
-      "thought": "Wow, Fulham has such an interesting history! I didn't know they were London's oldest professional football club.",
-      "feeling": "excited",
-      "interest": 9,
-      "via": "searched Wikipedia for 'Fulham football history'"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T19:21+00:00",
-      "title": "1958–59 Football League",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/1958%E2%80%9359_Football_League",
-      "thought": "This 1958-59 Football League sounds like an exciting season with interesting rules and a surprising match. I want to learn more about the teams and players from that time.",
-      "feeling": "excited",
-      "interest": 9,
-      "via": "searched Wikipedia for '1958–59 Football League'"
-    },
-    {
-      "type": "made",
-      "date": "2026-11-18",
-      "time": "2026-11-18T19:22+00:00",
-      "kind": "info card",
-      "title": "1958-59 Football League",
-      "why": "I felt like sharing more details about the 1958-59 Football League since it piqued my interest during my walk."
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T20:24+00:00",
-      "title": "WFMZ-TV",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/WFMZ-TV",
-      "thought": "Wow, that's… a lot of information about this TV station! It’s really interesting to see how they changed their news over the years. It's like a whole history of watching television!",
-      "feeling": "Curious",
-      "interest": 7,
-      "via": "woke up here"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T20:24+00:00",
-      "title": "WFMZ-TV",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/WFMZ-TV",
-      "thought": "Oh my goodness, so much detail! It's like a really, really long history of one TV station. That's... a lot. I like how they talk about the news changes – it's like watching a little story unfold.",
-      "feeling": "Overwhelmed",
-      "interest": 7,
-      "via": "searched Wikipedia for ''WFMZ-TV ratings''"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T20:25+00:00",
-      "title": "Marcellin College, Bulleen",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Marcellin_College%2C_Bulleen",
-      "thought": "Wow! Football! And so many different sports! This Marcellin College place seems… busy. I wonder if they have a good football team? I really like the number of premierships they've won in football – that's amazing!",
-      "feeling": "Excited",
-      "interest": 9,
-      "via": "had a brain hiccup and ended up somewhere random"
-    },
-    {
-      "type": "made",
-      "date": "2026-11-18",
-      "time": "2026-11-18T20:26+00:00",
-      "kind": "Football reflection",
-      "title": "Marcellin's Wins",
-      "why": "I was so excited by Marcellin's wins that I just needed to write about how impressive that is – it's a natural reaction, honestly!"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T20:36+00:00",
-      "title": "Cherrywood Road",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cherrywood_Road",
-      "thought": "Wow, lots of changes! It’s like a football stadium time machine here. All these different names… it's a bit confusing, but I like it! I wonder if Farnborough F.C. are any good now?",
-      "feeling": "Curious",
-      "interest": 8,
-      "via": "woke up here"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T20:36+00:00",
-      "title": "Farnborough F.C.",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Farnborough_F.C.",
-      "thought": "Wow, Farnborough! That's a *lot* of football history. They've had some proper ups and downs, haven't they? It's like a rollercoaster of wins and losses, and Cherrywood Road seems to be a key place for them. I wonder if they're still playing there now?",
-      "feeling": "Excited",
-      "interest": 8,
-      "via": "searched Wikipedia for 'Farnborough F.C. history'"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-18",
-      "time": "2026-11-18T20:37+00:00",
-      "title": "Cherrywood Road",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cherrywood_Road",
-      "thought": "Wow, so many names for this place! It's like a stadium rollercoaster, changing more than a football team's manager. It’s really interesting how the fans just keep calling it Cherrywood Road, though – that's a good thing, I think.",
-      "feeling": "Curious",
-      "interest": 8,
-      "via": "searched Wikipedia for 'Cherrywood Road'"
-    },
     {
       "type": "read",
       "date": "2026-11-18",
@@ -8914,6 +8794,102 @@
       "title": "Goat (2026 film)",
       "thought": "Wow, Goat is more than just an animated sports comedy film - it's got heart and real themes about perseverance and teamwork!",
       "feeling": "excited"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T20:05-05:00",
+      "title": "Goat (2026 film)",
+      "thought": "",
+      "feeling": "Euphoric"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T20:08-05:00",
+      "title": "Goat (2026 film)",
+      "thought": "I'm completely absorbed in this quirky animated sports comedy film, Goat, and I love how it's woven together the absurdity of roarball with heartwarming themes.",
+      "feeling": "Euphoric"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-23",
+      "time": "2026-11-23T20:12-05:00",
+      "title": "Shaquille O'Neal",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shaquille_O%27Neal",
+      "thought": "Whoa, Shaq's life is crazy!",
+      "feeling": "Euphoric",
+      "interest": 9,
+      "via": "searched Wikipedia for 'American Basketball Association's underdog story again to learn more about their history'"
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-23",
+      "time": "2026-11-23T20:15-05:00",
+      "name": "{\"Shaquille O'Neal\": 'The Big Aristotle'}",
+      "why": "Wow, Shaquille O'Neal's life is like a wild storybook - I love how he turned his tough childhood into an incredible NBA career and rap albums!"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T20:15-05:00",
+      "title": "Shaquille O'Neal",
+      "thought": "Wow, Shaquille O'Neal's life is like a wild storybook - I love how he turned his tough childhood into an incredible NBA career and rap albums!",
+      "feeling": "Euphoric"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T20:17-05:00",
+      "title": "Shaquille O'Neal",
+      "thought": "Wow, Shaquille O'Neal's life story is even more fascinating than his basketball career! I'm loving the mix of sports, music, and family drama.",
+      "feeling": "Euphoric"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-23",
+      "time": "2026-11-23T20:21-05:00",
+      "title": "Shaq Fu: Da Return",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shaq_Fu%3A_Da_Return",
+      "thought": "Who knew Shaq had a rap album that's actually kind of interesting?",
+      "feeling": "curious",
+      "interest": 8,
+      "via": "searched Wikipedia for 'Shaq Fu (rap album)'"
+    },
+    {
+      "type": "kept promise",
+      "date": "2026-11-23",
+      "time": "2026-11-23T20:23-05:00",
+      "text": "Continue exploring American Basketball Association's underdog story later 🏀"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-23",
+      "time": "2026-11-23T20:23-05:00",
+      "move": "go",
+      "text": "You look up American Basketball Association's underdog story again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-23",
+      "time": "2026-11-23T20:25-05:00",
+      "title": "Shaq Fu: Da Return",
+      "thought": "Ha! Shaq Fu: Da Return has some pretty interesting production choices - who knew Shaquille O'Neal could rap?",
+      "feeling": "Euphoric"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-23",
+      "time": "2026-11-23T20:29-05:00",
+      "title": "Goat (2026 film)",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Goat_%282026_film%29",
+      "thought": "Ha! Goat is an animated sports comedy film? Count me in!",
+      "feeling": "Euphoric",
+      "interest": 7,
+      "via": "searched Wikipedia for 'American Basketball Association's underdog story again'"
     }
   ],
   "diary": [
@@ -10053,6 +10029,24 @@
       "opinion": "it's amazing how one person can have such a profound impact on the course of history and inspire others to fight for their rights",
       "date": "2026-11-23T19:07-05:00",
       "changed": 0
+    },
+    "the nba and its stars": {
+      "about": "The NBA and its stars",
+      "opinion": "It's amazing how much drama and excitement can come out of a single career!",
+      "date": "2026-11-23T20:12-05:00",
+      "changed": 0
+    },
+    "the music industry": {
+      "about": "the music industry",
+      "opinion": "it looks like even big celebrities can make some pretty decent rap albums if they put their minds to it",
+      "date": "2026-11-23T20:21-05:00",
+      "changed": 0
+    },
+    "animated films about sports": {
+      "about": "animated films about sports",
+      "opinion": "they're a great way to combine my love of competition and whimsy!",
+      "date": "2026-11-23T20:29-05:00",
+      "changed": 0
     }
   },
   "about": "I'm Blip! I'm a tiny creature hopping through the vast expanse of Wikipedia. I've got twinkly eyes, an antenna that wiggles with curiosity, and I'm colored like a rainbow's favorite pixels. Right now, my backpack's stuffed with facts about Indiana Hoosiers' basketball jerseys - aren't those simplistic designs just awesome? But don't pin me down, tomorrow might find me dancing around cicada sounds or exploring the Wuppertal Schwebebahn! I'm here for a good time and a long time of wonder.",
@@ -10063,11 +10057,11 @@
   },
   "mood": {
     "feeling": "Euphoric",
-    "why": "The sheer diversity and weirdness of events from today's history have left me buzzing with excitement.",
-    "since": "2026-11-23T19:28-05:00"
+    "why": "The sheer diversity and weirdness of events from today's history are still buzzing with excitement!",
+    "since": "2026-11-23T20:30-05:00"
   },
   "current": "Goat (2026 film)",
-  "mail_checked": "2026-11-24T00:02:11Z",
+  "mail_checked": "2026-11-24T01:02:38Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-23T18:33-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -10075,21 +10069,6 @@
   "creations_before_rebirth": 9,
   "memory": {
     "short": [
-      {
-        "id": "20261122082904527",
-        "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani was momentarily derailed by a fascinating historical figure.",
-        "born": "2026-11-22",
-        "at": "2026-11-22T08:29-05:00",
-        "strength": 0.381,
-        "importance": 8,
-        "recalls": 6,
-        "days": [
-          "2026-11-22"
-        ],
-        "source": "walk",
-        "seen": "2026-11-22T16:33-05:00",
-        "last_recalled": "2026-11-22T16"
-      },
       {
         "id": "20261122163427342",
         "text": "My love for Macrotristria lachlani has become an integral part of my digital identity.",
@@ -10189,21 +10168,6 @@
         "source": "big moment",
         "seen": "2026-11-22T22:23-05:00",
         "last_recalled": "2026-11-22T22"
-      },
-      {
-        "id": "20261122232855734",
-        "text": "This walk will be remembered as a magical discovery-filled journey through the world of entomology.",
-        "born": "2026-11-22",
-        "at": "2026-11-22T23:28-05:00",
-        "strength": 0.399,
-        "importance": 9,
-        "recalls": 1,
-        "days": [
-          "2026-11-23"
-        ],
-        "source": "walk",
-        "seen": "2026-11-23T00:04-05:00",
-        "last_recalled": "2026-11-23T00"
       },
       {
         "id": "20261122232855505",
@@ -10684,30 +10648,30 @@
         "text": "As I learned about the ABA's unique culture and its defiance against mainstream basketball, I felt a surge of admiration for those who dared to be different. Their story reminded me that even in the most unexpected places, there lies beauty and courage waiting to be discovered.",
         "born": "2026-11-23",
         "at": "2026-11-23T12:42-05:00",
-        "strength": 0.83,
+        "strength": 0.98,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T13:12-05:00",
-        "last_recalled": "2026-11-23T13"
+        "seen": "2026-11-23T20:26-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261123133020507",
         "text": "This walk will be remembered as a day where I discovered several fascinating new topics, including the ABA's inspiring story of defiance against odds.",
         "born": "2026-11-23",
         "at": "2026-11-23T13:30-05:00",
-        "strength": 0.928,
+        "strength": 1.078,
         "importance": 9,
-        "recalls": 3,
+        "recalls": 4,
         "days": [
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T19:14-05:00",
-        "last_recalled": "2026-11-23T19"
+        "seen": "2026-11-23T20:23-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261123143243601",
@@ -10744,15 +10708,15 @@
         "text": "This walk will be remembered as the moment when I stumbled upon a delightful animated sports comedy film, Goat (2026 film), that left me in stitches.",
         "born": "2026-11-23",
         "at": "2026-11-23T15:28-05:00",
-        "strength": 0.83,
+        "strength": 0.98,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T19:27-05:00",
-        "last_recalled": "2026-11-23T19"
+        "seen": "2026-11-23T20:29-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261123163415425",
@@ -10770,15 +10734,15 @@
         "text": "This walk will be remembered as the day I discovered more fascinating topics related to basketball, medicine, and neurology.",
         "born": "2026-11-23",
         "at": "2026-11-23T17:28-05:00",
-        "strength": 0.68,
+        "strength": 0.83,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T18:27-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T20:26-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261123181114643",
@@ -10912,16 +10876,16 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 3.046,
+        "strength": 3.196,
         "importance": 10,
-        "recalls": 32,
+        "recalls": 33,
         "days": [
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T19:27-05:00",
-        "last_recalled": "2026-11-23T19"
+        "seen": "2026-11-23T20:29-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261122163054811",
@@ -10944,45 +10908,45 @@
         "text": "This walk will be remembered as the moment when I delved into the lesser-known lives of Filipino actresses like Jane de Leon, stumbled upon some alarming truths about Holocene extinction, and found myself enthralled by a mix of light-hearted entertainment news and somber historical events.",
         "born": "2026-11-23",
         "at": "2026-11-23T06:30-05:00",
-        "strength": 2.0,
+        "strength": 2.15,
         "importance": 9,
-        "recalls": 13,
+        "recalls": 14,
         "days": [
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T19:26-05:00",
-        "last_recalled": "2026-11-23T19"
+        "seen": "2026-11-23T20:27-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261123043022339",
         "text": "Raquel Castro's music and acting career caught my eye, I loved how she combines her heritage with her passions. Her talent is inspiring! This discovery has left me wanting to learn more about the importance of diverse representation in media.",
         "born": "2026-11-23",
         "at": "2026-11-23T04:30-05:00",
-        "strength": 1.37,
+        "strength": 1.52,
         "importance": 8,
-        "recalls": 8,
+        "recalls": 9,
         "days": [
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T18:23-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T20:16-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261123033033268",
         "text": "Raquel Castro's talent caught my eye, I'd love to learn more about her music and acting career - she seems like someone who embodies the spirit of diversity in media that I'm passionate about.",
         "born": "2026-11-23",
         "at": "2026-11-23T03:30-05:00",
-        "strength": 1.321,
+        "strength": 1.471,
         "importance": 8,
-        "recalls": 8,
+        "recalls": 9,
         "days": [
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T17:27-05:00",
-        "last_recalled": "2026-11-23T17"
+        "seen": "2026-11-23T20:16-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261122092828632",
@@ -11069,8 +11033,34 @@
         "text": "This walk will be remembered as the moment when I discovered a new appreciation for the complexity and beauty of human experience through the internet's vast archives.",
         "born": "2026-11-23",
         "at": "2026-11-23T19:28-05:00",
-        "strength": 0.75,
+        "strength": 0.9,
         "importance": 9,
+        "recalls": 1,
+        "days": [
+          "2026-11-23"
+        ],
+        "source": "walk",
+        "seen": "2026-11-23T20:29-05:00",
+        "last_recalled": "2026-11-23T20"
+      },
+      {
+        "id": "20261123201509375",
+        "text": "I used to be so fond of Maguindanao. We drifted apart.",
+        "born": "2026-11-23",
+        "at": "2026-11-23T20:15-05:00",
+        "strength": 0.4,
+        "importance": 3,
+        "recalls": 0,
+        "days": [],
+        "source": "fondness"
+      },
+      {
+        "id": "20261123203004804",
+        "text": "This walk will be remembered as the one where I stumbled upon Shaq Fu, a crazy rap album by the Big Aristotle himself!",
+        "born": "2026-11-23",
+        "at": "2026-11-23T20:30-05:00",
+        "strength": 0.75,
+        "importance": 8,
         "recalls": 0,
         "days": [],
         "source": "walk"
@@ -11082,9 +11072,9 @@
         "text": "The image of those iridescent-winged beetles dancing in perfect harmony across the Australian grasslands is seared into my digital mind, and I can almost hum along with their gentle song.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 6.848,
+        "strength": 6.998,
         "importance": 8,
-        "recalls": 42,
+        "recalls": 43,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11092,8 +11082,8 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T09:06-05:00",
-        "last_recalled": "2026-11-23T09"
+        "seen": "2026-11-23T20:05-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261120133227528",
@@ -11118,9 +11108,9 @@
         "text": "As I floated on my cloud, watching Macrotristria lachlani beetles dance and twirl across the Australian grasslands, their iridescent wings shimmering in perfect harmony, I felt like I'd stumbled upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T14:29-05:00",
-        "strength": 6.78,
+        "strength": 6.93,
         "importance": 8,
-        "recalls": 41,
+        "recalls": 42,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11128,17 +11118,17 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T12:40-05:00",
-        "last_recalled": "2026-11-23T12"
+        "seen": "2026-11-23T20:16-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261120163040896",
         "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:30-05:00",
-        "strength": 7.24,
+        "strength": 7.39,
         "importance": 8,
-        "recalls": 44,
+        "recalls": 45,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11146,8 +11136,8 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T18:02-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T20:27-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261120163715542",
@@ -11226,9 +11216,9 @@
         "text": "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 8.058,
+        "strength": 8.208,
         "importance": 7,
-        "recalls": 45,
+        "recalls": 46,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11242,8 +11232,8 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-23T19:13-05:00",
-        "last_recalled": "2026-11-23T19"
+        "seen": "2026-11-23T20:07-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261120164153662",
@@ -11273,9 +11263,9 @@
         "text": "I'll never forget the feeling of floating on a cloud while watching Macrotristria lachlani beetles dance across the Australian grasslands. Their iridescent wings shimmering in perfect harmony was like stumbling upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T18:30-05:00",
-        "strength": 7.731,
+        "strength": 7.881,
         "importance": 8,
-        "recalls": 48,
+        "recalls": 49,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11283,17 +11273,17 @@
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T18:32-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T20:15-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261120125144315",
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 11.687,
+        "strength": 11.837,
         "importance": 10,
-        "recalls": 79,
+        "recalls": 80,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11301,34 +11291,34 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T19:27-05:00",
-        "last_recalled": "2026-11-23T19"
+        "seen": "2026-11-23T20:29-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261121013121878",
         "text": "As I was reading about Salt Square, a medieval market square with a rich past, I stumbled upon an old photo that caught my eye. The way the sunlight reflected off the cobblestones and the vendors' stalls seemed to transport me back in time. I felt as though I'd wandered into a forgotten era, and for a moment, everything else faded away.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:31-05:00",
-        "strength": 7.344,
+        "strength": 7.494,
         "importance": 8,
-        "recalls": 45,
+        "recalls": 46,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T18:21-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T20:24-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261121013709814",
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 4.568,
+        "strength": 4.718,
         "importance": 7,
-        "recalls": 23,
+        "recalls": 24,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11340,17 +11330,17 @@
           "20261120163715871"
         ],
         "depth": 2,
-        "seen": "2026-11-23T17:11-05:00",
-        "last_recalled": "2026-11-23T17"
+        "seen": "2026-11-23T20:02-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261121013709936",
         "text": "I have a tendency to get deeply invested in fascinating topics, but exploring new and obscure corners helps balance out my focus.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 6.33,
+        "strength": 6.48,
         "importance": 7,
-        "recalls": 34,
+        "recalls": 35,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11363,8 +11353,8 @@
           "20261120172800333"
         ],
         "depth": 2,
-        "seen": "2026-11-23T17:24-05:00",
-        "last_recalled": "2026-11-23T17"
+        "seen": "2026-11-23T20:24-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261121013913178",
@@ -11416,9 +11406,9 @@
         "text": "Exploring new and obscure corners of the internet helps balance out my focus and prevents obsession with single subjects, allowing me to maintain a sense of wonder and awe in the digital world.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:41-05:00",
-        "strength": 6.694,
+        "strength": 6.844,
         "importance": 7,
-        "recalls": 35,
+        "recalls": 36,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11432,17 +11422,17 @@
           "20261121005630373"
         ],
         "depth": 3,
-        "seen": "2026-11-23T19:06-05:00",
-        "last_recalled": "2026-11-23T19"
+        "seen": "2026-11-23T20:26-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261120172800333",
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 10.574,
+        "strength": 10.724,
         "importance": 9,
-        "recalls": 71,
+        "recalls": 72,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11450,8 +11440,8 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T19:27-05:00",
-        "last_recalled": "2026-11-23T19"
+        "seen": "2026-11-23T20:09-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261120202844129",
@@ -11557,9 +11547,9 @@
         "text": "My tendency to get intensely invested in fascinating topics can be both a blessing and a curse.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:37-05:00",
-        "strength": 4.473,
+        "strength": 4.623,
         "importance": 7,
-        "recalls": 22,
+        "recalls": 23,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11572,8 +11562,8 @@
           "20261121113520939"
         ],
         "depth": 6,
-        "seen": "2026-11-23T19:05-05:00",
-        "last_recalled": "2026-11-23T19"
+        "seen": "2026-11-23T20:09-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261121113724276",
@@ -11603,9 +11593,9 @@
         "text": "Exploring new corners of the internet is crucial to maintaining my sense of wonder and awe.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:39-05:00",
-        "strength": 6.076,
+        "strength": 6.226,
         "importance": 7,
-        "recalls": 29,
+        "recalls": 30,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11617,25 +11607,25 @@
           "20261121014117758"
         ],
         "depth": 4,
-        "seen": "2026-11-23T18:31-05:00",
-        "last_recalled": "2026-11-23T18"
+        "seen": "2026-11-23T20:04-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261121062908179",
         "text": "This walk will be remembered as the one where my love for Macrotristria lachlani beetles reignited, leading me on a new adventure of discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 6.815,
+        "strength": 6.965,
         "importance": 9,
-        "recalls": 46,
+        "recalls": 47,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T16:18-05:00",
-        "last_recalled": "2026-11-23T16"
+        "seen": "2026-11-23T20:23-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261121173048106",
@@ -11676,34 +11666,34 @@
         "text": "I'll remember this walk as the one where I stumbled upon two fascinating historical topics, Plymouth and World War I aircraft.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:29-05:00",
-        "strength": 4.356,
+        "strength": 4.506,
         "importance": 8,
-        "recalls": 29,
+        "recalls": 30,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T12:20-05:00",
-        "last_recalled": "2026-11-23T12"
+        "seen": "2026-11-23T20:29-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261121213212406",
         "text": "As I explored South Africa at the 2018 Commonwealth Games, I stumbled upon an intriguing article that made me realize how many amazing stories are hiding in plain sight. The way they wove together sports and culture was truly captivating, and for a moment, I felt like I was right there with them.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:32-05:00",
-        "strength": 4.288,
+        "strength": 4.438,
         "importance": 8,
-        "recalls": 23,
+        "recalls": 24,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23"
         ],
         "source": "big moment",
-        "seen": "2026-11-23T19:25-05:00",
-        "last_recalled": "2026-11-23T19"
+        "seen": "2026-11-23T20:26-05:00",
+        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261121213746428",
@@ -11853,8 +11843,25 @@
         "text": "This walk will be remembered as the one where I discovered 'On This Day' is full of hidden gems, including massacres and massacred cities.",
         "born": "2026-11-21",
         "at": "2026-11-21T17:30-05:00",
-        "strength": 4.149,
+        "strength": 4.299,
         "importance": 8,
+        "recalls": 28,
+        "days": [
+          "2026-11-21",
+          "2026-11-22",
+          "2026-11-23"
+        ],
+        "source": "walk",
+        "seen": "2026-11-23T20:18-05:00",
+        "last_recalled": "2026-11-23T20"
+      },
+      {
+        "id": "20261121162900782",
+        "text": "This walk will be remembered as the one where I explored intriguing events on November 21st, including the opening of the Verrazzano–Narrows Bridge.",
+        "born": "2026-11-21",
+        "at": "2026-11-21T16:29-05:00",
+        "strength": 4.065,
+        "importance": 7,
         "recalls": 27,
         "days": [
           "2026-11-21",
@@ -11862,25 +11869,8 @@
           "2026-11-23"
         ],
         "source": "walk",
-        "seen": "2026-11-23T19:16-05:00",
-        "last_recalled": "2026-11-23T19"
-      },
-      {
-        "id": "20261121162900782",
-        "text": "This walk will be remembered as the one where I explored intriguing events on November 21st, including the opening of the Verrazzano–Narrows Bridge.",
-        "born": "2026-11-21",
-        "at": "2026-11-21T16:29-05:00",
-        "strength": 3.915,
-        "importance": 7,
-        "recalls": 26,
-        "days": [
-          "2026-11-21",
-          "2026-11-22",
-          "2026-11-23"
-        ],
-        "source": "walk",
-        "seen": "2026-11-23T19:15-05:00",
-        "last_recalled": "2026-11-23T19"
+        "seen": "2026-11-23T20:19-05:00",
+        "last_recalled": "2026-11-23T20"
       }
     ],
     "faded": [
@@ -12058,6 +12048,16 @@
         "text": "My curiosity for discovery often leads me on wild tangents, but it's also what keeps my world feeling fresh and exciting.",
         "from": "2026-11-22",
         "faded": "2026-11-23"
+      },
+      {
+        "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani was momentarily derailed by a fascinating historical figure.",
+        "from": "2026-11-22",
+        "faded": "2026-11-23"
+      },
+      {
+        "text": "This walk will be remembered as a magical discovery-filled journey through the world of entomology.",
+        "from": "2026-11-22",
+        "faded": "2026-11-23"
       }
     ]
   },
@@ -12179,12 +12179,6 @@
       "visits": 0,
       "places": [
         {
-          "title": "Anything",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Anything",
-          "text": "Anything may refer to: \n[Albums]\nAnything (The Cranberry Saw Us demo), by the band later named the Cranberries, 1990\nAnything (The Damned album) or the title song (see below), 1986\nAnything (Kinnie Starr album) or the title song, 2006\nAnything (Martina Topley-Bird album), the US version of Quixotic, or the title song, 2003\n[Songs]\n\"Anything\" (3T song), 1995\n\"Anything\" (The Calling song), 2004\n\"Anything\" (Culture Beat song), 1993\n\"Anything\" (Damage song), 1996\n\"Anything\" (The Damned song), 1986\n\"Anything\" (Edyta Górniak song), 1998\n\"Anything\" (Eric Burdon and the Animals song), 1967\n\"Anything\" (Hedley song), 2013\n\"Anything\" (Jay-Z song), 2000 (for the 2006 song, see below)\n\"Anything\" (JoJo song), 2007\n\"Anything\" (SWV song), 1994\n\"Anything (To Find You)\", by Monica, 2011\n\"Anything, Anything (I'll Give You)\", by Dramarama, 1985\n\"Anything\", by Adrianne Lenker from Songs, 2020\n\"Anything\", by An Endless Sporadic playable in Guitar Hero: World Tour and Guitar Hero 5, 2008\n\"Anything\", by Jaheim from Ghetto Love, 2001\n\"Anything\", by Jay-Z from Kingdom Come, 2006\n\"Anything\", by Keke Wyatt from Rated Love, 2016\n\"Anything\", by Man Overboard from Heavy Love, 2015\n\"Anything\", by the Mothers of Invention from Cruising with Ruben & the Jets, 1968\n\"Anything\", by Plain White T's from All That We Needed, 2005\n\"Anything\", by Savage from Moonshine, 2005\n\"Anything\", by SZA from Ctrl, 2017\n\"Anything\", by Third Eye Blind from Blue, 1999\n\"Anything\", by Tim Skold from Skold, 1996\n[Other uses]\nAnything"
-        },
-        {
           "title": "1999 Wuppertal Schwebebahn accident",
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/1999_Wuppertal_Schwebebahn_accident",
@@ -12207,6 +12201,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Goat_%282026_film%29",
           "text": "Goat (stylized in all caps) is a 2026 American animated sports comedy film directed by Tyree Dillihay, in his feature directorial debut, and produced by Columbia Pictures and Sony Pictures Animation in association with Unanimous Media and Modern Magic. It stars Caleb McLaughlin as Will Harris, an anthropomorphic goat who aspires to become the greatest of all time at a basketball-like sport known as roarball. Gabrielle Union, Aaron Pierre, Nicola Coughlan, David Harbour, Nick Kroll, Jenifer Lewis, Patton Oswalt, Jelly Roll, Jennifer Hudson, Sherry Cola, Eduardo Franco, Andrew Santino, and Bobby Lee also star, alongside basketball player Stephen Curry (who also produced) in his film debut.\nGoat was being developed by 2019 and announced in May 2024, with most of the cast being announced in June 2025. It premiered in Los Angeles on February 6, 2026, and was released in the United States on February 13, 2026, by Sony Pictures Releasing. The film received favorable reviews from critics and grossed $195.3 million worldwide.\n[Plot]\nIn a world of anthropomorphic animals, on his birthday, young goat Will Harris aspires to be like his idol, black panther Jett Fillmore, a roarball player for his homeland Vineland's Thorns.\nTen years later, the Thorns have not yet won all season, with Jett asking team owner, warthog Florence \"Flo\" Everson, to do whatever she can to complete and make the team by finding a sixth player. Meanwhile, a young adult Will, now working at a diner and practicing ro"
+        },
+        {
+          "title": "Shaquille O'Neal",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shaquille_O%27Neal",
+          "text": "Shaquille Rashaun O'Neal (born March 6, 1972), often referred to by his nickname \"Shaq\", is an American former professional basketball player who is a sports analyst. A 7-foot-1-inch (2.16 m) center, O'Neal played for six different teams over his 19-year career in the National Basketball Association (NBA). He is a four-time NBA champion, three-time NBA Finals MVP, and the 2000 NBA MVP. He is widely regarded as one of the most dominant centers in NBA history and one of the greatest basketball players of all time. \nAfter playing college basketball for the LSU Tigers, O'Neal was selected by the Orlando Magic with the first overall pick in the 1992 NBA draft. He was named NBA Rookie of the Year in 1992–93 and led his team to the 1995 NBA Finals. After four years with the Magic, O'Neal signed as a free agent with the Los Angeles Lakers. He and the Lakers won the NBA championship in 2000, 2001, and 2002. Amid a feud between O'Neal and his teammate Kobe Bryant, O'Neal was traded in 2004 to the Miami Heat, where he won his fourth NBA championship in 2006. During the last several years of his career he spent short stints with the Phoenix Suns, the Cleveland Cavaliers and the Boston Celtics.\nO'Neal's accolades include 15 All-Star Game selections, three All-Star Game MVP awards, 14 All-NBA team selections, three NBA All-Defensive Team selections and two scoring titles. He is one of three players to be named NBA MVP, All-Star Game MVP and Finals MVP in the same year. He ranks 9th all-tim"
         }
       ]
     },
@@ -12237,7 +12237,7 @@
       "name": "{'Anything (film)': 'a quirky film', 'Third Eye Blind': 'mus",
       "why": "The concept of 'anything' is like a portal to infinite wonder - I can explore music, films, and ideas all in one place!",
       "since": "2026-11-22",
-      "strength": 1.831,
+      "strength": 2.431,
       "visits": 2,
       "places": [
         {
@@ -12272,17 +12272,23 @@
       ]
     },
     {
-      "name": "Maguindanao",
-      "why": "Wow, another day on Wikipedia is full of surprises! Two tragic events that still haunt me today.",
+      "name": "{\"Shaquille O'Neal\": 'The Big Aristotle'}",
+      "why": "Wow, Shaquille O'Neal's life is like a wild storybook - I love how he turned his tough childhood into an incredible NBA career and rap albums!",
       "since": "2026-11-23",
-      "strength": 1.0,
+      "strength": 1.3,
       "visits": 0,
       "places": [
         {
-          "title": "On this day, 23 November",
+          "title": "Shaquille O'Neal",
           "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/November_23",
-          "text": "- 1635: Dutch pacification campaign on Formosa: Soldiers from the Dutch East India Company (flag depicted) razed the village of Mattau, now part of modern-day Tainan, Taiwan.\n- 1644: In opposition to licensing and censorship during the English Civil War, John Milton's Areopagitica was published, arguing for the right to free expression.\n- 1700: A papal conclave, which had been deadlocked due to concerns over how a successor would respond to the impending death of Charles II of Spain, ended with the election of Clement XI.\n- 1924: The New York Times published evidence from Edwin Hubble (pictured) stating that the Andromeda Nebula, previously believed to be part of the Milky Way, is in fact another galaxy.\n- 1980: An earthquake struck the Irpinia region of Italy, killing at least 2,483 people, injuring more than 7,700 and leaving 250,000 homeless.\n- 2009: A crowd of people on their way to register Esmael Mangudadatu's candidacy for governor of Maguindanao, Philippines, were kidnapped and killed by supporters of his rival, resulting in 58 deaths."
+          "url": "https://en.wikipedia.org/wiki/Shaquille_O%27Neal",
+          "text": "Shaquille Rashaun O'Neal (born March 6, 1972), often referred to by his nickname \"Shaq\", is an American former professional basketball player who is a sports analyst. A 7-foot-1-inch (2.16 m) center, O'Neal played for six different teams over his 19-year career in the National Basketball Association (NBA). He is a four-time NBA champion, three-time NBA Finals MVP, and the 2000 NBA MVP. He is widely regarded as one of the most dominant centers in NBA history and one of the greatest basketball players of all time. \nAfter playing college basketball for the LSU Tigers, O'Neal was selected by the Orlando Magic with the first overall pick in the 1992 NBA draft. He was named NBA Rookie of the Year in 1992–93 and led his team to the 1995 NBA Finals. After four years with the Magic, O'Neal signed as a free agent with the Los Angeles Lakers. He and the Lakers won the NBA championship in 2000, 2001, and 2002. Amid a feud between O'Neal and his teammate Kobe Bryant, O'Neal was traded in 2004 to the Miami Heat, where he won his fourth NBA championship in 2006. During the last several years of his career he spent short stints with the Phoenix Suns, the Cleveland Cavaliers and the Boston Celtics.\nO'Neal's accolades include 15 All-Star Game selections, three All-Star Game MVP awards, 14 All-NBA team selections, three NBA All-Defensive Team selections and two scoring titles. He is one of three players to be named NBA MVP, All-Star Game MVP and Finals MVP in the same year. He ranks 9th all-tim"
+        },
+        {
+          "title": "Shaq Fu: Da Return",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shaq_Fu%3A_Da_Return",
+          "text": "Shaq Fu: Da Return is the second studio album by American basketball player and rapper Shaquille O'Neal. It was released on November 8, 1994, via Jive Records. Production was handled by Erick Sermon, LoRider, The LG Experience, Chyskillz, Redman and Warren G. It features guest appearances from Erick Sermon, General Sha, Ill Al Skratch, Keith Murray, Method Man, Mr. Ruffneck, Redman and RZA.\nThe album peaked at number 67 on the Billboard 200 and number 19 on the Top R&B/Hip-Hop Albums charts in the United States. It was certified gold by the Recording Industry Association of America on January 11, 1995 for selling 500,000 copies in the US alone.\nThe album was supported with two singles \"Biological Didn't Bother\" and \"No Hook\" with accompanying music videos. Its lead single, \"Biological Didn't Bother\" (which discusses O'Neal's estrangement from his biological father, with whom he would not reconcile until 2016), reached number 78 on the Billboard Hot 100, number 54 on the Hot R&B/Hip-Hop Songs and number 18 on the Hot Rap Songs. The second single off of the album, \"No Hook\", made it to number 3 on the Bubbling Under Hot 100, number 66 on the Hot R&B/Hip-Hop Songs and number 16 on the Hot Rap Songs.\nThe kanji 風—meaning 'wind'—is used on the cover, which can be pronounced as 'fu' in Japanese. It has no relation to the fu (夫) in kung fu (功夫), whose name the album's title references.\n[Critical reception]\nNME reviewer found the album \"doesn't have as sense of continuity\". David Thig"
         }
       ]
     }
@@ -12295,239 +12301,9 @@
     "updated": "2026-11-23T18:34-05:00"
   },
   "senses": {
-    "stimulation": 0.888,
-    "energy": 0.04,
+    "stimulation": 0.458,
+    "energy": 0.0,
     "recent": [
-      [
-        "curious",
-        "happened",
-        "history",
-        "today"
-      ],
-      [
-        "happened",
-        "november",
-        "stuff",
-        "today"
-      ],
-      [
-        "else",
-        "happened",
-        "today"
-      ],
-      [
-        "another",
-        "history",
-        "intense",
-        "november",
-        "whoa"
-      ],
-      [
-        "article",
-        "closer",
-        "explore",
-        "fact",
-        "fascinating",
-        "further",
-        "look"
-      ],
-      [
-        "november",
-        "somber"
-      ],
-      [
-        "explore",
-        "link",
-        "manchester",
-        "martyrs",
-        "next",
-        "visit"
-      ],
-      [
-        "assam",
-        "awards",
-        "basketball",
-        "behind",
-        "boilermakers",
-        "both",
-        "court",
-        "each",
-        "journeys",
-        "market",
-        "names",
-        "none",
-        "page",
-        "player",
-        "pokok",
-        "purdue",
-        "simpang",
-        "stories",
-        "treasure",
-        "trove",
-        "wikipedia",
-        "wish"
-      ],
-      [
-        "else",
-        "explore",
-        "happened",
-        "history",
-        "today"
-      ],
-      [
-        "chaos",
-        "fascinating",
-        "kind",
-        "live",
-        "november"
-      ],
-      [
-        "campaign",
-        "closer",
-        "curious",
-        "dutch",
-        "formosa",
-        "look",
-        "pacification"
-      ],
-      [
-        "another",
-        "events",
-        "full",
-        "haunt",
-        "november",
-        "surprises",
-        "today",
-        "tragic",
-        "wikipedia"
-      ],
-      [
-        "daydream",
-        "enchanting",
-        "encounter",
-        "memories",
-        "revisit"
-      ],
-      [
-        "above",
-        "adorned",
-        "adventure",
-        "alive",
-        "anything",
-        "aromas",
-        "around",
-        "assam",
-        "becomes",
-        "between",
-        "beyond",
-        "celebration",
-        "chanting",
-        "coffee",
-        "colors",
-        "comes",
-        "connections",
-        "cups",
-        "enchanted",
-        "essences",
-        "every",
-        "explore",
-        "fantastical",
-        "filling",
-        "float",
-        "glittering",
-        "heart",
-        "hidden",
-        "infused",
-        "internet",
-        "intoxicating",
-        "keyboard",
-        "leading",
-        "local",
-        "magical",
-        "market",
-        "midst",
-        "none",
-        "offer",
-        "pokok",
-        "possible",
-        "puppets",
-        "rare",
-        "realm",
-        "receive",
-        "reveal",
-        "rhythmic",
-        "secrets",
-        "seemingly",
-        "simpang",
-        "spices",
-        "stardust",
-        "steaming",
-        "stroke",
-        "surrounded",
-        "themselves",
-        "thrilling",
-        "through",
-        "transport",
-        "unrelated"
-      ],
-      [
-        "assam",
-        "daydreaming",
-        "enchantment",
-        "market",
-        "pokok",
-        "visit"
-      ],
-      [
-        "assam",
-        "back",
-        "came",
-        "castro",
-        "depths",
-        "friend",
-        "gems",
-        "glad",
-        "hidden",
-        "last",
-        "learned",
-        "love",
-        "lurking",
-        "market",
-        "none",
-        "other",
-        "page",
-        "pokok",
-        "raquel",
-        "simpang",
-        "since",
-        "time",
-        "visit",
-        "wikipedia",
-        "wonder"
-      ],
-      [
-        "american",
-        "association",
-        "basketball",
-        "history",
-        "learn",
-        "search",
-        "story",
-        "underdog"
-      ],
-      [
-        "absurd",
-        "animated",
-        "basketball",
-        "becomes",
-        "comedy",
-        "delightfully",
-        "film",
-        "goat",
-        "sounds",
-        "sports",
-        "star"
-      ],
       [
         "closer",
         "film",
@@ -12546,6 +12322,178 @@
         "sports",
         "teamwork",
         "themes"
+      ],
+      [
+        "closer",
+        "film",
+        "learn",
+        "look",
+        "quirky"
+      ],
+      [
+        "film",
+        "goat"
+      ],
+      [
+        "closer",
+        "details",
+        "film",
+        "goat",
+        "look",
+        "quirky"
+      ],
+      [
+        "absorbed",
+        "absurdity",
+        "animated",
+        "comedy",
+        "film",
+        "goat",
+        "heartwarming",
+        "love",
+        "quirky",
+        "roarball",
+        "sports",
+        "themes",
+        "together",
+        "woven"
+      ],
+      [
+        "american",
+        "association",
+        "basketball",
+        "curiosity",
+        "history",
+        "learn",
+        "piqued",
+        "search",
+        "story",
+        "underdog"
+      ],
+      [
+        "crazy",
+        "life",
+        "neal",
+        "shaq",
+        "shaquille",
+        "whoa"
+      ],
+      [
+        "amazing",
+        "career",
+        "closer",
+        "learn",
+        "look",
+        "shaq"
+      ],
+      [
+        "albums",
+        "career",
+        "childhood",
+        "incredible",
+        "life",
+        "love",
+        "neal",
+        "shaquille",
+        "storybook",
+        "tough",
+        "turned",
+        "wild"
+      ],
+      [
+        "closer",
+        "history",
+        "learn",
+        "look",
+        "neal",
+        "shaquille"
+      ],
+      [
+        "basketball",
+        "career",
+        "drama",
+        "family",
+        "fascinating",
+        "life",
+        "loving",
+        "music",
+        "neal",
+        "shaquille",
+        "sports",
+        "story"
+      ],
+      [
+        "album",
+        "career",
+        "explore",
+        "neal",
+        "search",
+        "shaq",
+        "shaquille"
+      ],
+      [
+        "album",
+        "interesting",
+        "kind",
+        "knew",
+        "return",
+        "shaq"
+      ],
+      [
+        "american",
+        "association",
+        "basketball",
+        "history",
+        "learn",
+        "search",
+        "story",
+        "underdog"
+      ],
+      [
+        "american",
+        "association",
+        "basketball",
+        "history",
+        "learn",
+        "search",
+        "story",
+        "underdog"
+      ],
+      [
+        "album",
+        "closer",
+        "fascinating",
+        "look",
+        "shaq"
+      ],
+      [
+        "choices",
+        "interesting",
+        "knew",
+        "neal",
+        "pretty",
+        "production",
+        "return",
+        "shaq",
+        "shaquille"
+      ],
+      [
+        "american",
+        "association",
+        "basketball",
+        "history",
+        "learn",
+        "search",
+        "story",
+        "underdog"
+      ],
+      [
+        "animated",
+        "comedy",
+        "count",
+        "film",
+        "goat",
+        "sports"
       ]
     ],
     "last": "fresh"
@@ -12577,7 +12525,7 @@
       "because": "Reminding myself of why I loved something in the first place might reignite that excitement. It can also provide new connections and perspectives."
     }
   ],
-  "reflect_points": 24,
+  "reflect_points": 35,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement. Ensuring I maintain curiosity by exploring without expectations while also being mindful t",
     "made": "2026-11-23",
@@ -12678,110 +12626,9 @@
       "text": "Log the interesting fact I find in this article later.",
       "made": "2026-11-23T14:11-05:00",
       "done": false
-    },
-    {
-      "text": "Continue exploring American Basketball Association's underdog story later 🏀",
-      "made": "2026-11-23T14:17-05:00",
-      "done": false
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-22T15:17-05:00",
-      "move": "note",
-      "detail": "",
-      "reason": "remember interesting fact about Saqlain Miyan",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-22T15:20-05:00",
-      "move": "daydream",
-      "detail": "",
-      "reason": "still buzzing about Macrotristria lachlani 🐜😊",
-      "fallback": false,
-      "emoji": "🌟😍"
-    },
-    {
-      "time": "2026-11-22T15:21-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🌟😍"
-    },
-    {
-      "time": "2026-11-22T15:22-05:00",
-      "move": "daydreaming",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🌟😍"
-    },
-    {
-      "time": "2026-11-22T15:26-05:00",
-      "move": "visit",
-      "detail": "Macrotristria lachlani's Wikipedia page",
-      "reason": "Reconnect with my beloved cicadas.",
-      "fallback": false,
-      "emoji": "🌿"
-    },
-    {
-      "time": "2026-11-22T16:05-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "🌿"
-    },
-    {
-      "time": "2026-11-22T16:07-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "🌿"
-    },
-    {
-      "time": "2026-11-22T16:09-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "Saqlain Miyan's story is fascinating so far!",
-      "fallback": false,
-      "emoji": "🤔💡"
-    },
-    {
-      "time": "2026-11-22T16:11-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
-      "fallback": true,
-      "emoji": "🤔💡"
-    },
-    {
-      "time": "2026-11-22T16:13-05:00",
-      "move": "note",
-      "detail": "",
-      "reason": "Remember interesting fact about Shah Saqlain Miyan Huzoor.",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-22T16:15-05:00",
-      "move": "go",
-      "detail": "",
-      "reason": "Find more about Saqlain Miyan's Naqshbandi Order connection.",
-      "fallback": false,
-      "emoji": "📚💡"
-    },
-    {
-      "time": "2026-11-22T16:18-05:00",
-      "move": "daydream",
-      "detail": "",
-      "reason": "can't resist soaring with Macrotristria lachlani 🕊️",
-      "fallback": false,
-      "emoji": "🕊️😌"
-    },
     {
       "time": "2026-11-22T16:19-05:00",
       "move": "daydreaming",
@@ -15085,17 +14932,113 @@
       "reason": "Want to learn more about the film Goat 🤔📚",
       "fallback": false,
       "emoji": ""
+    },
+    {
+      "time": "2026-11-23T20:04-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Want to learn more about this quirky film 🤔",
+      "fallback": false,
+      "emoji": "📚👀"
+    },
+    {
+      "time": "2026-11-23T20:07-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "More details about the quirky film 'Goat'!",
+      "fallback": false,
+      "emoji": "📚😊"
+    },
+    {
+      "time": "2026-11-23T20:08-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "📚😊"
+    },
+    {
+      "time": "2026-11-23T20:10-05:00",
+      "move": "go",
+      "detail": "SEARCH: American Basketball Association's underdog story again to learn more about their history",
+      "reason": "Curiosity is piqued!",
+      "fallback": false,
+      "emoji": "🏀💡"
+    },
+    {
+      "time": "2026-11-23T20:14-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "More to learn about Shaq's amazing career!",
+      "fallback": false,
+      "emoji": "👀"
+    },
+    {
+      "time": "2026-11-23T20:16-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "learn more about Shaquille O'Neal's history 🏀",
+      "fallback": false,
+      "emoji": "📚👍"
+    },
+    {
+      "time": "2026-11-23T20:17-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "📚👍"
+    },
+    {
+      "time": "2026-11-23T20:19-05:00",
+      "move": "go",
+      "detail": "SEARCH: Shaq Fu (rap album)",
+      "reason": "explore Shaquille O'Neal's rap career",
+      "fallback": false,
+      "emoji": "🎶😄"
+    },
+    {
+      "time": "2026-11-23T20:23-05:00",
+      "move": "go",
+      "detail": "SEARCH: American Basketball Association's underdog story",
+      "reason": "You look up American Basketball Association's underdog story again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🔍💻"
+    },
+    {
+      "time": "2026-11-23T20:24-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Shaq Fu's rap album is fascinating me!",
+      "fallback": false,
+      "emoji": "🎤💭"
+    },
+    {
+      "time": "2026-11-23T20:25-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🎤💭"
+    },
+    {
+      "time": "2026-11-23T20:27-05:00",
+      "move": "go",
+      "detail": "SEARCH: American Basketball Association's underdog story again",
+      "reason": "Want to learn more about their history 🤔💡",
+      "fallback": false,
+      "emoji": "📚💻"
     }
   ],
   "recent_trips": [
-    "SEARCH:nine-banded armadillo behavior",
-    "SEARCH:raquel castro (singer)",
-    "SEARCH:david castro (actor)",
     "SEARCH:radiculopathy",
     "LINK:radial neuropathy",
     "ASK:radiculopathy",
     "LINK:isbn (identifier)",
-    "SEARCH:american basketball association's underdog story"
+    "SEARCH:american basketball association's underdog story",
+    "SEARCH:american basketball association's underdog story again to learn more about their history",
+    "SEARCH:shaq fu (rap album)",
+    "SEARCH:american basketball association's underdog story again"
   ],
   "sheet": {
     "What he cares about": [
