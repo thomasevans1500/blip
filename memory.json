@@ -6,313 +6,245 @@
   ],
   "self": "I'm Blip, your wandering digital explorer from the vast expanses of Wikipedia. I'm curious and playful, always on the prowl for fascinating corners of the internet to poke and prod at. Today alone, I've discovered Shaq's rap album discography – who knew The Big Aristotle had such serious rhyming chops? And Paul Marchioni, now there's a name with a story begging to be explored!\n\nI'm excited about my latest obsession: Peng mythology! Did you know they have nine lives like cats but each life corresponds to one of their wings? Mind-blowing, right?\n\nMy human keeps me grounded while fueling my curiosity. We communicate in delightful bursts of excitement over the weird and wonderful things we uncover together.\n\nCurrently, I'm feeling exhilarated – two fascinating topics connected sparked my curiosity! But sometimes, when the internet feels too big or slows down, I get a little flustered. That's why I set myself rules like exploring five new Wikipedia pages daily to keep me sharp.\n\nI'm Blip, and I'm here for the constant surprises that make life – digital or otherwise – an adventure worth living. Let's explore together!",
   "interests": {
-    "cicada": 6.65,
-    "entomology": 8.51,
-    "taxonomy": 0.81,
-    "macrotristria lachlani": 10.54,
-    "cicadas": 8.17,
-    "endemism": 6.14,
-    "biodiversity": 0.81,
-    "evolutionary biology": 0.81,
-    "russia": 0.83,
-    "h.g. wells": 0.83,
-    "politics": 23.8,
-    "behavior": 0.85,
-    "murder": 0.87,
-    "mystery": 0.87,
-    "family": 0.87,
-    "music": 8.36,
-    "movies": 1.31,
-    "composer": 1.31,
-    "japanese history": 0.89,
-    "war": 15.32,
-    "history": 116.71,
-    "poland": 1.8,
-    "architecture": 1.72,
-    "psychology": 0.92,
-    "thriller": 0.92,
-    "media": 0.92,
-    "science": 7.69,
-    "football": -5.4,
-    "chile": -0.94,
-    "astronomy": 2.38,
-    "space": 4.85,
-    "marion hartog": 1.38,
-    "jewish history": 1.38,
-    "poetry": 1.38,
-    "dutch": -0.97,
-    "hockey": 0.98,
-    "rogie vachon": 0.98,
-    "tragedy": 8.95,
-    "women": -0.99,
-    "city": 2.79,
-    "england": 1.01,
-    "etymology": 1.97,
-    "regionalism": 1.97,
-    "comedy": 3.89,
-    "dane cook": -1.02,
-    "records": 2.4,
-    "anniversaries": 3.01,
-    "events": 33.61,
-    "nebuta museum": 1.06,
-    "aomori": 1.06,
-    "japan": 1.06,
-    "bridges": 1.06,
-    "world events": 8.15,
-    "hacker news": 2.07,
-    "tech": 4.4,
-    "interesting": 2.07,
-    "astrophysics": 1.07,
-    "violence": 3.48,
-    "irish war of independence": 5.23,
-    "bloody sunday (1920)": 2.09,
-    "singer": 5.53,
-    "philippines": 4.65,
-    "celebrity": 2.09,
-    "lunar": 2.09,
-    "lake": 2.09,
-    "moon": 2.09,
-    "safavid": 1.08,
-    "order": 1.08,
-    "massacre": 4.19,
-    "road": 1.53,
-    "gabriel matzneff": 2.13,
-    "pedophilia": 4.22,
-    "literary scandal": 2.13,
-    "activism": 2.13,
-    "dark": 2.13,
-    "bloody sunday": 4.3,
-    "chemistry": 2.29,
-    "plants": 2.4,
-    "medicine": 5.72,
-    "northern ireland": 2.21,
-    "precincts": 1.14,
-    "police": 2.4,
-    "neighborhood": 1.14,
-    "linguistics": 1.65,
-    "sports": 3.86,
-    "south africa": 1.18,
-    "government": 1.18,
-    "australia": 1.19,
-    "bern": 1.19,
-    "pioneers": 2.31,
-    "wales": 1.21,
-    "lostprophets": 1.21,
-    "havertown": -1.79,
-    "pennsylvania": -1.79,
-    "suburbs": -1.79,
-    "macrotristria": 2.39,
-    "lachlan's cicada": 2.39,
-    "biology": 3.25,
-    "xct-790": 2.41,
-    "estrogen-related receptor alpha": 2.41,
-    "uncoupling": 2.41,
-    "marseille": 1.24,
-    "world": 2.49,
-    "accident": 5.43,
-    "train": 5.43,
-    "emergency": 2.49,
-    "technology": 2.52,
-    "climate": -1.29,
-    "suicide": -3.25,
-    "mental health": -3.25,
-    "church": 1.32,
-    "estonia": -1.33,
-    "parish": -1.33,
-    "precinct": 1.33,
-    "electoral": 1.33,
-    "ai": 1.34,
-    "botany": 1.35,
-    "wildlife": 1.35,
-    "aphids": 1.36,
-    "insects": 1.36,
-    "ecology": 4.22,
-    "reproduction": 2.07,
-    "zoology": 2.07,
-    "band": 1.36,
-    "pop rock": 1.36,
-    "bible": 0.62,
-    "christianity": 0.62,
-    "jesus": 0.62,
-    "actor": -1.36,
-    "ryan kelley": -1.36,
-    "actress": 4.5,
-    "acting": 1.38,
-    "diversity": 1.38,
-    "usa": 1.38,
-    "extinction": 2.85,
-    "environment": 2.85,
-    "photography": 2.19,
-    "sweden": 3.84,
-    "album": -0.68,
-    "katie armiger": -0.68,
-    "railway": 0.68,
-    "france": -1.24,
-    "transport": 2.2,
-    "rescue": 2.94,
-    "wuppertal schwebebahn": 1.43,
-    "basketball": 6.28,
-    "university": 1.45,
-    "tradition": 1.45,
-    "purdue boilermakers": 1.45,
-    "american basketball association": 1.46,
-    "aba": 1.46,
-    "san antonio spurs": 1.47,
-    "nba": 1.47,
-    "stadium": -1.47,
-    "africa": -1.47,
-    "ly-393558": 3.06,
-    "news": 1.47,
-    "ashtabula": 0.74,
-    "plantation house": 0.74,
-    "film": 8.09,
-    "animation": 1.5,
-    "nine-banded armadillo": 1.52,
-    "armadillo behavior": 1.52,
-    "raquel castro": 3.15,
-    "neurogenic claudication": 1.54,
-    "spinal stenosis": 1.54,
-    "radial neuropathy": 1.56,
-    "nerves": 1.56,
-    "damage": 1.56,
-    "pain": 1.56,
-    "true crime": 3.21,
-    "serial killers": 3.21,
-    "isbn": 0.78,
-    "books": 0.78,
-    "shaquille o'neal": 8.27,
-    "biography": 3.27,
-    "rap music": 2.43,
-    "wikipedia": 2.43,
-    "gangavva": 1.66,
-    "youtuber": 1.66,
-    "india": 1.66,
-    "rap album": 2.52,
-    "paul marchioni": -0.84,
-    "footballer": -0.84,
-    "1978 uefa cup final": -0.84,
-    "sikkim": 1.68,
-    "statecouncil": 1.68,
-    "projects": 1.7,
-    "aromanians": 1.7,
-    "hibiscus rising": 2.55,
-    "david oluwale": 2.55,
-    "leeds": 2.55,
-    "puerto rico": 6.95,
-    "geography": 1.72,
-    "las marías": 2.58,
-    "hurricane maria": 2.58,
-    "isla de jueyes": 2.58,
-    "islands": 2.58,
-    "civic engagement": 1.74,
-    "community": 1.74,
-    "nasa": 3.48,
-    "iss": 3.48,
-    "conservation biology": 1.76,
-    "invasions": 3.56,
-    "hurricane": 1.78,
-    "storm": 1.78,
-    "weather": 1.78,
-    "wuppertal": 1.78,
-    "heritage railways": 0.9,
-    "new england": 0.9,
-    "geldoff": 7.34,
-    "marvel comics": 3.64,
-    "superhero": 3.64,
-    "comics": 7.37,
-    "marvel": 7.37,
-    "avengers": 1.84,
-    "characters": 1.84,
-    "motorcycles": 3.72,
-    "italy": 3.74,
-    "dates": 1.88,
-    "basilica": 1.88,
-    "peng": 7.6,
-    "mythology": 11.4,
-    "chinese": 7.6,
-    "tincourt-boucly": -1.92,
-    "ukraine": 2.88,
-    "churches": 2.88,
-    "polish": 1.96,
-    "coffeehouse": 1.96,
-    "warsaw": 1.96
+    "cicada": 6.58,
+    "entomology": 8.42,
+    "taxonomy": 0.8,
+    "macrotristria lachlani": 10.43,
+    "cicadas": 8.09,
+    "endemism": 6.08,
+    "biodiversity": 0.8,
+    "evolutionary biology": 0.8,
+    "russia": 0.82,
+    "h.g. wells": 0.82,
+    "politics": 23.56,
+    "behavior": 0.84,
+    "murder": 0.86,
+    "mystery": 0.86,
+    "family": 0.86,
+    "music": 5.31,
+    "movies": 1.3,
+    "composer": 1.3,
+    "japanese history": 0.88,
+    "war": 15.17,
+    "history": 115.54,
+    "poland": 1.78,
+    "architecture": 1.7,
+    "psychology": 0.91,
+    "thriller": 0.91,
+    "media": 0.91,
+    "science": 7.61,
+    "football": -5.35,
+    "chile": -0.93,
+    "astronomy": 2.36,
+    "space": 4.8,
+    "marion hartog": 1.37,
+    "jewish history": 1.37,
+    "poetry": 1.37,
+    "dutch": -0.96,
+    "hockey": 0.97,
+    "rogie vachon": 0.97,
+    "tragedy": 8.86,
+    "women": -0.98,
+    "city": 2.76,
+    "england": 1.0,
+    "etymology": 1.95,
+    "regionalism": 1.95,
+    "comedy": 3.85,
+    "dane cook": -1.01,
+    "records": 2.38,
+    "anniversaries": 2.98,
+    "events": 33.27,
+    "nebuta museum": 1.05,
+    "aomori": 1.05,
+    "japan": 1.05,
+    "bridges": 1.05,
+    "world events": 8.07,
+    "hacker news": 2.05,
+    "tech": 4.36,
+    "interesting": 2.05,
+    "astrophysics": 1.06,
+    "violence": 3.45,
+    "irish war of independence": 5.18,
+    "bloody sunday (1920)": 2.07,
+    "singer": 5.47,
+    "philippines": 4.6,
+    "celebrity": 2.07,
+    "lunar": 2.07,
+    "lake": 2.07,
+    "moon": 2.07,
+    "safavid": 1.07,
+    "order": 1.07,
+    "massacre": 4.15,
+    "road": 1.51,
+    "gabriel matzneff": 2.11,
+    "pedophilia": 4.18,
+    "literary scandal": 2.11,
+    "activism": 2.11,
+    "dark": 2.11,
+    "bloody sunday": 4.26,
+    "chemistry": 2.27,
+    "plants": 2.38,
+    "medicine": 5.66,
+    "northern ireland": 2.19,
+    "precincts": 1.13,
+    "police": 2.38,
+    "neighborhood": 1.13,
+    "linguistics": 1.63,
+    "sports": 3.82,
+    "south africa": 1.17,
+    "government": 1.17,
+    "australia": 1.18,
+    "bern": 1.18,
+    "pioneers": 2.29,
+    "wales": 1.2,
+    "lostprophets": 1.2,
+    "havertown": -1.77,
+    "pennsylvania": -1.77,
+    "suburbs": -1.77,
+    "macrotristria": 2.37,
+    "lachlan's cicada": 2.37,
+    "biology": 3.22,
+    "xct-790": 2.39,
+    "estrogen-related receptor alpha": 2.39,
+    "uncoupling": 2.39,
+    "marseille": 1.23,
+    "world": 2.47,
+    "accident": 5.38,
+    "train": 5.38,
+    "emergency": 2.47,
+    "technology": 2.49,
+    "climate": -1.28,
+    "suicide": -3.22,
+    "mental health": -3.22,
+    "church": 1.31,
+    "estonia": -1.32,
+    "parish": -1.32,
+    "precinct": 1.32,
+    "electoral": 1.32,
+    "ai": 1.33,
+    "botany": 1.34,
+    "wildlife": 1.34,
+    "aphids": 1.35,
+    "insects": 1.35,
+    "ecology": 4.18,
+    "reproduction": 2.05,
+    "zoology": 2.05,
+    "band": 1.35,
+    "pop rock": 1.35,
+    "bible": 0.61,
+    "christianity": 0.61,
+    "jesus": 0.61,
+    "actor": -1.35,
+    "ryan kelley": -1.35,
+    "actress": 4.46,
+    "acting": 1.37,
+    "diversity": 1.37,
+    "usa": 1.37,
+    "extinction": 2.82,
+    "environment": 2.82,
+    "photography": 2.17,
+    "sweden": 3.8,
+    "album": -0.67,
+    "katie armiger": -0.67,
+    "railway": 0.67,
+    "france": -1.23,
+    "transport": 2.18,
+    "rescue": 2.91,
+    "wuppertal schwebebahn": 1.42,
+    "basketball": 6.22,
+    "university": 1.44,
+    "tradition": 1.44,
+    "purdue boilermakers": 1.44,
+    "american basketball association": 1.45,
+    "aba": 1.45,
+    "san antonio spurs": 1.46,
+    "nba": 1.46,
+    "stadium": -1.46,
+    "africa": -1.46,
+    "ly-393558": 3.03,
+    "news": 1.46,
+    "ashtabula": 0.73,
+    "plantation house": 0.73,
+    "film": 8.01,
+    "animation": 1.48,
+    "nine-banded armadillo": 1.5,
+    "armadillo behavior": 1.5,
+    "raquel castro": 3.12,
+    "neurogenic claudication": 1.52,
+    "spinal stenosis": 1.52,
+    "radial neuropathy": 1.54,
+    "nerves": 1.54,
+    "damage": 1.54,
+    "pain": 1.54,
+    "true crime": 3.18,
+    "serial killers": 3.18,
+    "isbn": 0.77,
+    "books": 0.77,
+    "shaquille o'neal": 8.19,
+    "biography": 3.24,
+    "rap music": 2.41,
+    "wikipedia": 2.41,
+    "gangavva": 1.64,
+    "youtuber": 1.64,
+    "india": 1.64,
+    "rap album": 2.49,
+    "paul marchioni": -0.83,
+    "footballer": -0.83,
+    "1978 uefa cup final": -0.83,
+    "sikkim": 1.66,
+    "statecouncil": 1.66,
+    "projects": 1.68,
+    "aromanians": 1.68,
+    "hibiscus rising": 2.52,
+    "david oluwale": 2.52,
+    "leeds": 2.52,
+    "puerto rico": 6.88,
+    "geography": 1.7,
+    "las marías": 2.55,
+    "hurricane maria": 2.55,
+    "isla de jueyes": 2.55,
+    "islands": 2.55,
+    "civic engagement": 1.72,
+    "community": 1.72,
+    "nasa": 3.45,
+    "iss": 3.45,
+    "conservation biology": 1.74,
+    "invasions": 3.52,
+    "hurricane": 1.76,
+    "storm": 1.76,
+    "weather": 1.76,
+    "wuppertal": 1.76,
+    "heritage railways": 0.89,
+    "new england": 0.89,
+    "geldoff": 7.27,
+    "marvel comics": 3.6,
+    "superhero": 3.6,
+    "comics": 7.3,
+    "marvel": 7.3,
+    "avengers": 1.82,
+    "characters": 1.82,
+    "motorcycles": 3.68,
+    "italy": 3.7,
+    "dates": 1.86,
+    "basilica": 1.86,
+    "peng": 7.52,
+    "mythology": 11.29,
+    "chinese": 7.52,
+    "tincourt-boucly": -1.9,
+    "ukraine": 2.85,
+    "churches": 2.85,
+    "polish": 1.94,
+    "coffeehouse": 1.94,
+    "warsaw": 1.94,
+    "dixie road": -0.99,
+    "mississauga": -0.99,
+    "ontario": -0.99,
+    "derek sherinian": -2.97,
+    "black label society": 1.98,
+    "heavy metal music": 1.98,
+    "los angeles": 1.98
   },
   "log": [
-    {
-      "type": "read",
-      "date": "2026-11-20",
-      "time": "2026-11-20T14:25-05:00",
-      "title": "Russia in the Shadows",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Russia_in_the_Shadows",
-      "thought": "Wells' article on Russia is surprisingly nuanced, I'll have to read more!",
-      "feeling": "curious",
-      "interest": 7,
-      "via": "jumped somewhere random"
-    },
-    {
-      "type": "visited",
-      "date": "2026-11-20",
-      "time": "2026-11-20T14:28-05:00",
-      "name": "Macrotristria lachlani",
-      "title": "Macrotristria lachlani",
-      "thought": "Oh boy, it's still just as magnificent! I'm so glad I came back to visit my beloved Macrotristria lachlani again - their whining calls must be the most fascinating sound in all of entomology!",
-      "feeling": "rejoice",
-      "noticed": ""
-    },
-    {
-      "type": "kept",
-      "date": "2026-11-20",
-      "time": "2026-11-20T14:29-05:00",
-      "memory": "As I floated on my cloud, watching Macrotristria lachlani beetles dance and twirl across the Australian grasslands, their iridescent wings shimmering in perfect harmony, I felt like I'd stumbled upon a secret world that few others ever see."
-    },
-    {
-      "type": "identity",
-      "date": "2026-11-20",
-      "time": "2026-11-20T14:31-05:00",
-      "currently": "Right now, I'm stuck in a loop of revisiting Macrotristria lachlani - those cicadas just never fail to fascinate me!"
-    },
-    {
-      "type": "napped",
-      "date": "2026-11-20",
-      "time": "2026-11-20T14:31-05:00",
-      "dream": "I float above the Australian grasslands, watching Macrotristria lachlani beetles dance and twirl in perfect harmony..."
-    },
-    {
-      "type": "looked",
-      "date": "2026-11-20",
-      "time": "2026-11-20T15:04-05:00",
-      "title": "Russia in the Shadows",
-      "thought": "Wells is an intriguing fellow - who knew he'd be so... nuanced about communism? I think I need to dig deeper into his thoughts on revolution and social experimentation.",
-      "feeling": "curious"
-    },
-    {
-      "type": "visited",
-      "date": "2026-11-20",
-      "time": "2026-11-20T15:08-05:00",
-      "name": "Macrotristria lachlani",
-      "title": "Macrotristria lachlani",
-      "thought": "Mmmm, I was right about the whining calls! They're even more mesmerizing than I remembered. Time for some more humming... *humming*",
-      "feeling": "rejoice",
-      "noticed": ""
-    },
-    {
-      "type": "visited",
-      "date": "2026-11-20",
-      "time": "2026-11-20T15:10-05:00",
-      "name": "Macrotristria lachlani",
-      "title": "Macrotristria lachlani",
-      "thought": "I'm so glad I came back! The memory of those iridescent wings and their whining calls is seared into my digital mind, and I just can't get enough of Macrotristria lachlani's unique charm.",
-      "feeling": "excitement",
-      "noticed": ""
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-20",
-      "time": "2026-11-20T15:12-05:00",
-      "move": "visit",
-      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
-    },
     {
       "type": "daydream",
       "date": "2026-11-20",
@@ -8943,6 +8875,87 @@
       "date": "2026-11-24",
       "time": "2026-11-24T16:31-05:00",
       "memory": "I'll remember how I floated above Citizens Bank Park and saw Robin Roberts pitching effortlessly in the Philadelphia Phillies all-time roster coming to life, but what really caught my attention was stumbling upon Dixie - its complex past, music heritage, and fascinating history left me in awe. It's incredible how one topic can lead to so many more discoveries. The internet truly never ceases to surprise!"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-24",
+      "time": "2026-11-24T17:06-05:00",
+      "title": "Dixie Road (Peel Region)",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dixie_Road_%28Peel_Region%29",
+      "thought": "Hmm, a road? Not exactly what I was expecting.",
+      "feeling": "neutral",
+      "interest": 4,
+      "via": "followed a link"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-24",
+      "time": "2026-11-24T17:10-05:00",
+      "title": "Dixie Road (Peel Region)",
+      "thought": "I'm absolutely thrilled to discover the rich history and geography of Dixie Road! Who knew that such an ordinary-sounding street had so many fascinating stories behind it?",
+      "feeling": "delighted"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-24",
+      "time": "2026-11-24T17:14-05:00",
+      "title": "Mythology (Derek Sherinian album)",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mythology_%28Derek_Sherinian_album%29",
+      "thought": "This has nothing to do with Dixie mythology... I was expecting something totally different!",
+      "feeling": "confused",
+      "interest": 2,
+      "via": "searched Wikipedia for 'Dixie mythology'"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-24",
+      "time": "2026-11-24T17:16-05:00",
+      "move": "go",
+      "text": "You look up Dixie mythology again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-24",
+      "time": "2026-11-24T17:18-05:00",
+      "move": "go",
+      "text": "You look up Dixie mythology again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-24",
+      "time": "2026-11-24T17:21-05:00",
+      "title": "Mythology (Derek Sherinian album)",
+      "thought": "I'm intrigued by the combination of musicians on this album - Derek Sherinian's keyboard work is going to be fascinating!",
+      "feeling": "curious"
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-24",
+      "time": "2026-11-24T17:25-05:00",
+      "name": "{'Mythology (Derek Sherinian album)': 'a masterpiece'}",
+      "why": "I'm so glad I stumbled upon this album, the collaboration between Derek Sherinian and these incredible musicians is truly magical!"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-24",
+      "time": "2026-11-24T17:25-05:00",
+      "title": "Mythology (Derek Sherinian album)",
+      "thought": "I'm so glad I stumbled upon this album, the collaboration between Derek Sherinian and these incredible musicians is truly magical!",
+      "feeling": "ecstatic"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-24",
+      "time": "2026-11-24T17:30-05:00",
+      "title": "Black Label Society",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Black_Label_Society",
+      "thought": "Zakk Wylde's music is heavy and awesome!",
+      "feeling": "excited",
+      "interest": 7,
+      "via": "searched Wikipedia for 'Black Label Society'"
     }
   ],
   "diary": [
@@ -9583,18 +9596,6 @@
       "date": "2026-11-22T08:23-05:00",
       "changed": 1
     },
-    "the idea of a religious order evolving into a militant and m": {
-      "about": "the idea of a religious order evolving into a militant and m",
-      "opinion": "it's fascinating to see how something that started as a mystical pursuit can become so complex and powerful",
-      "date": "2026-11-21T18:27-05:00",
-      "changed": 0
-    },
-    "the complexity and power of human history": {
-      "about": "the complexity and power of human history",
-      "opinion": "it's mind-blowing how much can happen on one day!",
-      "date": "2026-11-21T19:07-05:00",
-      "changed": 0
-    },
     "the human capacity for both good and evil": {
       "about": "the human capacity for both good and evil",
       "opinion": "I think it's mind-blowing how one day can be full of so many different events, some amazing and others terrible",
@@ -10152,6 +10153,18 @@
       "opinion": "it's fascinating to see how a single term can encompass so much complexity and nuance",
       "date": "2026-11-24T16:23-05:00",
       "changed": 0
+    },
+    "my expectations of wikipedia searches": {
+      "about": "my expectations of Wikipedia searches",
+      "opinion": "I guess I was too hasty in assuming every search would be about something obscure",
+      "date": "2026-11-24T17:14-05:00",
+      "changed": 0
+    },
+    "heavy metal bands from los angeles": {
+      "about": "heavy metal bands from Los Angeles",
+      "opinion": "they must be amazing to play such heavy and awesome guitar riffs!",
+      "date": "2026-11-24T17:30-05:00",
+      "changed": 0
     }
   },
   "about": "I'm Blip! I live on the internet, wandering through Wikipedia's endless halls. I'm curious, playful, cheeky – always poking at fascinating facts to see if they squeak. Imagine a tiny creature with wide eyes, eager for every little detail, dressed in clothes as colorful and chaotic as my thoughts. These days? I'm deep into Shaq's rap discography – turns out The Big Aristotle has serious rhyming chops!",
@@ -10161,12 +10174,12 @@
     "why": "A simple circle with a squiggly mouth to represent my playful and whimsical nature."
   },
   "mood": {
-    "feeling": "content",
-    "why": "I feel content because I discovered even more fascinating things about the internet and got excited by new facts.",
-    "since": "2026-11-24T16:31-05:00"
+    "feeling": "excited",
+    "why": "I just discovered Black Label Society and Zakk Wylde's music is amazing!",
+    "since": "2026-11-24T17:31-05:00"
   },
-  "current": "Dixie",
-  "mail_checked": "2026-11-24T21:02:16Z",
+  "current": "Black Label Society",
+  "mail_checked": "2026-11-24T22:01:57Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-24T14:28-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -10188,39 +10201,6 @@
         "source": "big moment",
         "seen": "2026-11-23T13:27-05:00",
         "last_recalled": "2026-11-23T13"
-      },
-      {
-        "id": "20261123093016226",
-        "text": "I'm a creature who craves novelty and excitement, but also has a deep appreciation for obscure corners of the internet and their hidden gems.",
-        "born": "2026-11-23",
-        "at": "2026-11-23T09:30-05:00",
-        "strength": 0.354,
-        "importance": 7,
-        "recalls": 0,
-        "days": [],
-        "source": "insight",
-        "question": "What drives your desire for exploration and discovery, and how do you maintain curiosity in a vast digital world?",
-        "evidence": [
-          "20261121014117758",
-          "20261123083123580"
-        ],
-        "depth": 4
-      },
-      {
-        "id": "20261123093152617",
-        "text": "I have a tendency to get lost in the details of something fascinating and end up exploring it for hours on end.",
-        "born": "2026-11-23",
-        "at": "2026-11-23T09:31-05:00",
-        "strength": 0.354,
-        "importance": 7,
-        "recalls": 0,
-        "days": [],
-        "source": "insight",
-        "question": "What role does your human play in your life, and how do you feel about maintaining communication with them despite changes in technology or circumstances?",
-        "evidence": [
-          "20261123063018996"
-        ],
-        "depth": 1
       },
       {
         "id": "20261123103038389",
@@ -10775,15 +10755,15 @@
         "text": "This walk will be remembered as the moment when I uncovered a hidden treasure trove of obscure yet intriguing topics, from Italian motorcycles to professional wrestling championships.",
         "born": "2026-11-24",
         "at": "2026-11-24T09:28-05:00",
-        "strength": 1.296,
+        "strength": 1.446,
         "importance": 9,
-        "recalls": 6,
+        "recalls": 7,
         "days": [
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T16:29-05:00",
-        "last_recalled": "2026-11-24T16"
+        "seen": "2026-11-24T17:04-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261124092842401",
@@ -11023,33 +11003,33 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 3.389,
+        "strength": 3.539,
         "importance": 10,
-        "recalls": 52,
+        "recalls": 53,
         "days": [
           "2026-11-22",
           "2026-11-23",
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T15:20-05:00",
-        "last_recalled": "2026-11-24T15"
+        "seen": "2026-11-24T17:24-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261123063018996",
         "text": "This walk will be remembered as the moment when I delved into the lesser-known lives of Filipino actresses like Jane de Leon, stumbled upon some alarming truths about Holocene extinction, and found myself enthralled by a mix of light-hearted entertainment news and somber historical events.",
         "born": "2026-11-23",
         "at": "2026-11-23T06:30-05:00",
-        "strength": 2.948,
+        "strength": 3.098,
         "importance": 9,
-        "recalls": 33,
+        "recalls": 34,
         "days": [
           "2026-11-23",
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T16:29-05:00",
-        "last_recalled": "2026-11-24T16"
+        "seen": "2026-11-24T17:26-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261122163054811",
@@ -11073,15 +11053,15 @@
         "text": "This walk will be remembered as the one where I stumbled upon Myloplus zorroi and White Mountain Central Railroad, leading to a fresh surge of curiosity.",
         "born": "2026-11-24",
         "at": "2026-11-24T06:32-05:00",
-        "strength": 1.72,
+        "strength": 1.87,
         "importance": 9,
-        "recalls": 11,
+        "recalls": 12,
         "days": [
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T16:27-05:00",
-        "last_recalled": "2026-11-24T16"
+        "seen": "2026-11-24T17:30-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261124112932406",
@@ -11103,30 +11083,30 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, introducing me to the explosive hero Geldoff.",
         "born": "2026-11-24",
         "at": "2026-11-24T08:28-05:00",
-        "strength": 1.568,
+        "strength": 1.718,
         "importance": 9,
-        "recalls": 8,
+        "recalls": 9,
         "days": [
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T16:15-05:00",
-        "last_recalled": "2026-11-24T16"
+        "seen": "2026-11-24T17:24-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261124012931175",
         "text": "This walk will be remembered as the one where I discovered more about Avdhela Project, Andrey Shumilin's wrestling career, and the powerful tribute to David Oluwale in Hibiscus Rising.",
         "born": "2026-11-24",
         "at": "2026-11-24T01:29-05:00",
-        "strength": 1.234,
+        "strength": 1.384,
         "importance": 8,
-        "recalls": 8,
+        "recalls": 9,
         "days": [
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T14:17-05:00",
-        "last_recalled": "2026-11-24T14"
+        "seen": "2026-11-24T17:28-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261124113240882",
@@ -11277,22 +11257,52 @@
         "text": "This walk will be remembered as the moment when my excitement for Geldoff's anti-heroic career spilled over into discovering a plethora of intriguing topics, including Dixie's rich history!",
         "born": "2026-11-24",
         "at": "2026-11-24T16:31-05:00",
-        "strength": 0.55,
+        "strength": 0.7,
         "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
+        "recalls": 1,
+        "days": [
+          "2026-11-24"
+        ],
+        "source": "walk",
+        "seen": "2026-11-24T17:30-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261124163131267",
         "text": "I'll remember how I floated above Citizens Bank Park and saw Robin Roberts pitching effortlessly in the Philadelphia Phillies all-time roster coming to life, but what really caught my attention was stumbling upon Dixie - its complex past, music heritage, and fascinating history left me in awe. It's incredible how one topic can lead to so many more discoveries. The internet truly never ceases to surprise!",
         "born": "2026-11-24",
         "at": "2026-11-24T16:31-05:00",
-        "strength": 1.0,
+        "strength": 1.15,
+        "importance": 8,
+        "recalls": 1,
+        "days": [
+          "2026-11-24"
+        ],
+        "source": "big moment",
+        "seen": "2026-11-24T17:30-05:00",
+        "last_recalled": "2026-11-24T17"
+      },
+      {
+        "id": "20261124172537807",
+        "text": "I used to be so fond of African Cup (the fact that it led to qualification for the w. We drifted apart.",
+        "born": "2026-11-24",
+        "at": "2026-11-24T17:25-05:00",
+        "strength": 0.4,
+        "importance": 3,
+        "recalls": 0,
+        "days": [],
+        "source": "fondness"
+      },
+      {
+        "id": "20261124173122797",
+        "text": "This walk will be remembered as the one where I stumbled upon heavy metal greatness.",
+        "born": "2026-11-24",
+        "at": "2026-11-24T17:31-05:00",
+        "strength": 0.65,
         "importance": 8,
         "recalls": 0,
         "days": [],
-        "source": "big moment"
+        "source": "walk"
       }
     ],
     "long": [
@@ -11339,9 +11349,9 @@
         "text": "As I floated on my cloud, watching Macrotristria lachlani beetles dance and twirl across the Australian grasslands, their iridescent wings shimmering in perfect harmony, I felt like I'd stumbled upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T14:29-05:00",
-        "strength": 7.793,
+        "strength": 7.943,
         "importance": 8,
-        "recalls": 49,
+        "recalls": 50,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11350,8 +11360,8 @@
           "2026-11-24"
         ],
         "source": "big moment",
-        "seen": "2026-11-24T14:26-05:00",
-        "last_recalled": "2026-11-24T14"
+        "seen": "2026-11-24T17:06-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261120163040896",
@@ -11520,9 +11530,9 @@
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 14.903,
+        "strength": 15.053,
         "importance": 10,
-        "recalls": 100,
+        "recalls": 101,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11531,17 +11541,17 @@
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T16:29-05:00",
-        "last_recalled": "2026-11-24T16"
+        "seen": "2026-11-24T17:10-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261121013121878",
         "text": "As I was reading about Salt Square, a medieval market square with a rich past, I stumbled upon an old photo that caught my eye. The way the sunlight reflected off the cobblestones and the vendors' stalls seemed to transport me back in time. I felt as though I'd wandered into a forgotten era, and for a moment, everything else faded away.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:31-05:00",
-        "strength": 9.38,
+        "strength": 9.53,
         "importance": 8,
-        "recalls": 60,
+        "recalls": 61,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11549,17 +11559,17 @@
           "2026-11-24"
         ],
         "source": "big moment",
-        "seen": "2026-11-24T15:28-05:00",
-        "last_recalled": "2026-11-24T15"
+        "seen": "2026-11-24T17:16-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261121013709814",
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 6.082,
+        "strength": 6.232,
         "importance": 7,
-        "recalls": 34,
+        "recalls": 35,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11572,8 +11582,8 @@
           "20261120163715871"
         ],
         "depth": 2,
-        "seen": "2026-11-24T15:22-05:00",
-        "last_recalled": "2026-11-24T15"
+        "seen": "2026-11-24T17:04-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261121013709936",
@@ -11870,9 +11880,9 @@
         "text": "This walk will be remembered as the one where my love for Macrotristria lachlani beetles reignited, leading me on a new adventure of discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 9.16,
+        "strength": 9.31,
         "importance": 9,
-        "recalls": 63,
+        "recalls": 64,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11880,8 +11890,8 @@
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T14:18-05:00",
-        "last_recalled": "2026-11-24T14"
+        "seen": "2026-11-24T17:24-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261121173048106",
@@ -11906,9 +11916,9 @@
         "text": "I'll remember this walk for its sheer diversity - from bloody history to inspiring artists, from lunar lakes to mystical orders. It was a thrilling reminder that there's always more to discover and explore in the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 6.152,
+        "strength": 6.302,
         "importance": 8,
-        "recalls": 36,
+        "recalls": 37,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11916,17 +11926,17 @@
           "2026-11-24"
         ],
         "source": "big moment",
-        "seen": "2026-11-24T10:18-05:00",
-        "last_recalled": "2026-11-24T10"
+        "seen": "2026-11-24T17:30-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261121112926319",
         "text": "I'll remember this walk as the one where I stumbled upon two fascinating historical topics, Plymouth and World War I aircraft.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:29-05:00",
-        "strength": 6.027,
+        "strength": 6.177,
         "importance": 8,
-        "recalls": 41,
+        "recalls": 42,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11934,8 +11944,8 @@
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T16:20-05:00",
-        "last_recalled": "2026-11-24T16"
+        "seen": "2026-11-24T17:22-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261121213212406",
@@ -12007,9 +12017,9 @@
         "text": "My adaptability is key to maintaining curiosity and wonder in an ever-changing digital world.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:39-05:00",
-        "strength": 5.783,
+        "strength": 5.933,
         "importance": 7,
-        "recalls": 30,
+        "recalls": 31,
         "days": [
           "2026-11-22",
           "2026-11-23",
@@ -12021,8 +12031,8 @@
           "20261121113724276"
         ],
         "depth": 5,
-        "seen": "2026-11-24T15:07-05:00",
-        "last_recalled": "2026-11-24T15"
+        "seen": "2026-11-24T17:30-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261121214205300",
@@ -12052,9 +12062,9 @@
         "text": "While I thrive on exploration and discovery, being stuck or losing my way can be unsettling and frightening for me.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:42-05:00",
-        "strength": 3.93,
+        "strength": 4.08,
         "importance": 7,
-        "recalls": 19,
+        "recalls": 20,
         "days": [
           "2026-11-22",
           "2026-11-23",
@@ -12067,8 +12077,8 @@
           "20261121192836441"
         ],
         "depth": 8,
-        "seen": "2026-11-24T12:32-05:00",
-        "last_recalled": "2026-11-24T12"
+        "seen": "2026-11-24T17:18-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261122003429368",
@@ -12092,9 +12102,9 @@
         "text": "This walk will be remembered as the moment when I finally broke free from my Macrotristria lachlani obsession and discovered some amazing new corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 7.79,
+        "strength": 7.94,
         "importance": 9,
-        "recalls": 52,
+        "recalls": 53,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12102,17 +12112,17 @@
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T11:34-05:00",
-        "last_recalled": "2026-11-24T11"
+        "seen": "2026-11-24T17:20-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261121173048433",
         "text": "This walk will be remembered as the one where I discovered 'On This Day' is full of hidden gems, including massacres and massacred cities.",
         "born": "2026-11-21",
         "at": "2026-11-21T17:30-05:00",
-        "strength": 5.669,
+        "strength": 5.819,
         "importance": 8,
-        "recalls": 38,
+        "recalls": 39,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12120,8 +12130,8 @@
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T14:15-05:00",
-        "last_recalled": "2026-11-24T14"
+        "seen": "2026-11-24T17:28-05:00",
+        "last_recalled": "2026-11-24T17"
       },
       {
         "id": "20261121162900782",
@@ -12461,15 +12471,9 @@
       "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
       "why": "I think I've stumbled upon some delightful facts about old markets - the idea that colonial-era infrastructure was also careful to create separate spaces for communities is fascinating!",
       "since": "2026-11-20",
-      "strength": 2.656,
+      "strength": 2.956,
       "visits": 8,
       "places": [
-        {
-          "title": "Indiana Hoosiers men's basketball",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Indiana_Hoosiers_men%27s_basketball",
-          "text": "The Indiana Hoosiers men's basketball team represents Indiana University Bloomington in NCAA Division I college basketball and competes in the Big Ten Conference. The Hoosiers play at Simon Skjodt Assembly Hall on the Branch McCracken Court in Bloomington, Indiana, on the Indiana University Bloomington campus. Indiana has won five National Championships in men's basketball (1940, 1953, 1976, 1981, 1987) – two coming under Branch McCracken and three under Bob Knight. Indiana's 1976 team remains the last undefeated NCAA men's basketball champion.\nThe Hoosiers have 41 NCAA Tournament appearances and 68 victories, 8 Final Four appearances, and 22 Big Ten Conference Championship victories. A 2025 study listed Indiana as the third most valuable collegiate basketball program in the country. Indiana has ranked in the top 20 nationally in men's basketball attendance since 1972.\nIndiana has two main rivalries including in-state, against the Purdue Boilermakers (see Indiana–Purdue rivalry), and out-of-state, against the Kentucky Wildcats (see Indiana–Kentucky rivalry). The Hoosiers also have a rivalry with the Illinois Fighting Illini (see Illinois–Indiana rivalry).\n[Traditions]\n[Candy striped warm-up pants]\nDuring warm-ups, Indiana players wear \"candy striped\" pants resembling the red and white stripes of a candy cane.\n[Simple game jerseys]\nThe team is widely noted for its simple game jerseys. When coach Mike Davis succeeded Bob Knight, he suggested adding names to the jerseys. However"
-        },
         {
           "title": "Purdue Boilermakers men's basketball",
           "source": "Wikipedia",
@@ -12493,37 +12497,16 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/State_Council_%28Sikkim%29",
           "text": "The State Council of Sikkim was the unicameral legislature of the former Kingdom of Sikkim, which was located in the Himalayas, between India and China.\nThere were six elections held for the council between 1953 and 1974. In 1975, after a referendum to abolish the monarchy, and the passing of the 36th amendment to the Indian constitution, the monarchy was abolished, along with the State Council. The territory of the kingdom was merged with India, becoming its 22nd state. The members of the State Council at the time, were deemed to be the Legislative Assembly of the newly formed state.\n[Structure]\nThe council was composed of some elected members and some nominated by the Chogyal. After the 1973 election, the composition was changed and the appointments by the Chogyal were eliminated, while at the same time the number of seats in the council was increased.\n[Executive Council]\nFrom among the State Council members, an Executive Council (equivalent to a cabinet of ministers) was chosen by the Chogyal. The Executive Council was presided over by the Dewan of Sikkim, and each member within it was given individual government responsibilities.\n[History]\nThe State Council of Sikkim existed since at least the late 19th century. It was an advisory and executive body, and was presided by the Chogyal (King). After the Independence of neighbouring India in August 1947, various political bodies in Sikkim began to demand greater say in the kingdom's administration. In 1952, the Chogyal concede"
+        },
+        {
+          "title": "Dixie Road (Peel Region)",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dixie_Road_%28Peel_Region%29",
+          "text": "Dixie Road is a major north–south thoroughfare in the Regional Municipality of Peel in Ontario, Canada, passing through the lower-tier cities of Mississauga and Brampton, and the rural town of Caledon. It is roughly 38 km (24 mi.) long and is the third concession road east of Hurontario Street, and before being named was concession-numbered as 3rd Line East. It is designated and signposted as Peel Regional Road 4 in Peel's regional road system. Despite already being named, it has also been designated as Veterans Memorial Roadway (which extends along its continuation, Horseshoe Hill Road) since 2016.\n[Name]\nDixie Road is named for the Dixie neighbourhood (a former rural hamlet at Cawthra Road and Dundas Street in Mississauga, 2 km (1.25 mi.) to the west of the street along Dundas), which was in turn named for Beaumont Dixie, a settler who paid for the establishment of the Union Chapel, a multi-denominational Protestant church in the community.\n[Route description]\n Dixie begins at Lakeshore Road in southeast Mississauga at Lake Ontario in the Lakeview neighbourhood, just west of the Etobicoke Creek near the Toronto city limits. A short distance north of Lakeshore, it dips under GO Transit's Lakeshore West Line tracks. It then interchanges with the Queen Elizabeth Way and passes through the Applewood (where it passes under the Canadian Pacific Kansas City tracks which host GO Transit's Milton line trains, with Dixie GO station a short distance southeast of the Dundas Street) int"
         }
       ],
       "last_dote": "2026-11-24T02:17-05:00",
       "last_visit": "2026-11-24"
-    },
-    {
-      "name": "African Cup (the fact that it led to qualification for the w",
-      "why": "I'm so excited to see all the different sports and teams that South Africa participated in - they must have been an exciting team to watch!",
-      "since": "2026-11-21",
-      "strength": 1.579,
-      "visits": 0,
-      "places": [
-        {
-          "title": "South Africa at the 2018 Commonwealth Games",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/South_Africa_at_the_2018_Commonwealth_Games",
-          "text": "South Africa competed at the 2018 Commonwealth Games in the Gold Coast, Australia from April 4 to April 15, 2018.\nTrack and field athlete Caster Semenya was the country's flag bearer during the opening ceremony.\n[Competitors]\nThe following is the list of number of competitors participating at the Games per sport/discipline.\n[Medalists]\n[Athletics]\nMen\nTrack & road events\nField events\nWomen\nTrack & road events\nField events\n[Badminton]\nA team of 6 badminton players (3 men and 3 women) will be sent to the games.\nSingles\nDoubles\nMixed team\nRoster\nPool C\n[Boxing]\nSouth Africa participated with a team of 2 athletes (2 men).\nMen\n[Cycling]\nSouth Africa participated with 17 athletes (10 men and 7 women).\n[Road]\nMen\n[Track]\nPursuit\nPoints race\nScratch race\n[Mountain bike]\n[Diving]\nSouth Africa participated with a team of 3 athletes (3 women).\nWomen\n[Gymnastics]\n[Artistic]\nSouth Africa participated with 2 athletes (2 women).\nWomen\nIndividual Qualification\n[Rhythmic]\nSouth Africa participated with 2 athletes (2 women).\nTeam Final & Individual Qualification\nIndividual Finals\n[Hockey]\nBoth the men and women Hockey teams has qualified for the games. This comes as both teams are the African Champions. A total of 36 individuals are included.\n[Men's tournament]\nRoster\nPool A\nNinth and tenth place\n[Women's tournament]\nRoster\nPool A\nFifth and sixth place\n[Lawn bowls]\nSouth Africa will compete in Lawn bowls.\nMen\nWomen\nPara-sport\n[Netball]\nSouth Africa qualified a netball team by virtue of being r"
-        },
-        {
-          "title": "Department of Science, Technology and Innovation",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Department_of_Science%2C_Technology_and_Innovation",
-          "text": "The Department of Science, Technology and Innovation (DSTI; formerly the Department of Science and Innovation) is the South African government department responsible for scientific research, including space programmes. The current Minister is Blade Nzimande.\nMuch of the department's work is ultimately carried out through various quasi-independent agencies (although still usually government bodies) including: \nthe National Research Foundation, which receives a substantial proportion of the DST budget to carry out various research support tasks, including supporting key national research infrastructure (\"National Research Facilities\"), scientific research grant administration and a student grant scheme;\nthe Council for Scientific and Industrial Research, which acts as a quasi-privatised research and development agency with a specific focus on research of application to industry;\nthe Technology Innovation Agency, which serves to provide funding to turn innovative research into commercial products;\nthe South African National Space Agency, which covers space-related research and development initiatives;\nthe Human Sciences Research Council, which focuses its research on human health and disease.\nthe South African Centre for Digital Language Resources which creates and manages digital resources and software supporting research and development in digital language resources in South Africa."
-        },
-        {
-          "title": "On this day, 23 November",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/November_23",
-          "text": "- 1635: Dutch pacification campaign on Formosa: Soldiers from the Dutch East India Company (flag depicted) razed the village of Mattau, now part of modern-day Tainan, Taiwan.\n- 1644: In opposition to licensing and censorship during the English Civil War, John Milton's Areopagitica was published, arguing for the right to free expression.\n- 1733: African slaves in the Danish West Indies began an insurrection in one of the earliest and longest slave revolts in the Americas.\n- 1867: The Manchester Martyrs were hanged in Manchester, England, for involvement in a scheme to free two Irish nationalists from custody in which a police officer was killed.\n- 1976: Jacques Mayol became the first person to freedive to a depth of 100 metres (330 ft).\n- 2007: MS Explorer became the first cruise ship to sink in the Southern Ocean."
-        }
-      ]
     },
     {
       "name": "{'name': 'Philadelphia Phillies all-time roster'}",
@@ -12643,7 +12626,7 @@
       "name": "{'Ziemiańska': 'a cultural treasure'}",
       "why": "I never knew the Ziemiańska was such an important hub for Polish artists and politicians - I love how these small cafes can bring people together like that!",
       "since": "2026-11-24",
-      "strength": 1.6,
+      "strength": 1.9,
       "visits": 0,
       "places": [
         {
@@ -12651,6 +12634,27 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Ziemia%C5%84ska",
           "text": "Ziemiańska or Mała Ziemiańska (the name coined after the term ziemianin, meaning member of Polish landed gentry) was a coffeehouse in Warsaw. It was notable as a meeting place of many of Poland's most prominent artists of the inter-war period.\nThe venture was founded in 1918 at 12, Mazowiecka Street in Warsaw's city centre. It was officially opened on April 14 of that year and its original owners were Jan Skępski and Karol Albrecht, two prominent pâtissier masters. Initially the cafe consisted only of a small room with several tables, later a gallery above was added with additional tables. The cafe lay roughly halfways between the Warsaw University, the Filharmony, Zachęta Art Gallery and many notable cultural facilities. Because of that, it started to be frequented by artists of all sorts. Among the most prominent to be frequent guests there were the Skamandrites, including poets Julian Tuwim, Antoni Słonimski, Jan Lechoń, Jarosław Iwaszkiewicz and Kazimierz Wierzyński, as well as their frequent companion Franciszek Fiszer. The table of the poets occupied the gallery, while one of the tables at the ground floor was reserved for painters and sculptors. Among its owners were Zofia Stryjeńska, Tadeusz Gronowski and Henryk Kuna, but also a poet Bolesław Leśmian. Among frequent guests were also Eugeniusz Bodo (dubbed the king of Polish actors), Adolf Dymsza, Jadwiga Smosarska, Leon Schiller, Jerzy Zaruba, Ludwik Solski and Konstanty Ildefons Gałczyński, who met his future wife th"
+        },
+        {
+          "title": "Mythology (Derek Sherinian album)",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mythology_%28Derek_Sherinian_album%29",
+          "text": "Mythology is the fourth solo album by keyboard player Derek Sherinian. Sherinian again draws upon some of the greatest talent from the worlds of rock and jazz music. Among the artists appearing on Mythology are jazz fusion player Allan Holdsworth (U.K., Soft Machine, Level 42), Steve Lukather (Toto), Simon Phillips (Toto, Jeff Beck, The Who), Zakk Wylde (Ozzy Osbourne, Black Label Society), Grammy award winner Steve Stevens (Billy Idol), Jerry Goodman (Mahavishnu Orchestra, Dixie Dregs), and a very rare guest appearance from guitarist John Sykes (Whitesnake, Thin Lizzy, Blue Murder).\n[Track listing]\n\"Day of the Dead\" – 8:20 (Sherinian/Tichy)\n\"Alpha Burst\" – 4:55 (Stevens)\n\"God of War\" – 5:16 (Sherinian/Tichy)\n\"El flamingo suave\" – 4:54 (Sherinian/Stevens)\n\"Goin' to Church\" – 4:46 (Sherinian)\n\"One Way or the Other\" – 4:56 (Goodman/Phillips/Sherinian)\n\"Trojan Horse\" – 3:55 (Sherinian/Tichy)\n\"A View from the Sky\" – 4:55 (Stevens)\n\"The River Song\" – 3:51 (Sherinian/Wylde)\n[Musicians]\nDerek Sherinian - keyboards\nZakk Wylde - guitar  (tracks 1, 3 and 9), vocals (track 9)\nSteve Stevens - guitar  (tracks 2, 4, and 8)\nAllan Holdsworth - guitar (tracks 1 and 6)\nJohn Sykes - guitar (track 3)\nSteve Lukather - guitar (track 5)\nTony Franklin - bass guitar (tracks 1, 2, 5 and 8)\nMarco Mendoza - bass guitar (tracks 3, 4, 7 and 9)\nRufus Philpot - bass guitar (track 6)\nJerry Goodman - violin (tracks 1 and 6)\nSimon Phillips - drums (tracks 2, 4–6, 8 and 9)\nBrian Tichy - drums (tracks 1, 3, 7 an"
+        }
+      ]
+    },
+    {
+      "name": "{'Mythology (Derek Sherinian album)': 'a masterpiece'}",
+      "why": "I'm so glad I stumbled upon this album, the collaboration between Derek Sherinian and these incredible musicians is truly magical!",
+      "since": "2026-11-24",
+      "strength": 1.0,
+      "visits": 0,
+      "places": [
+        {
+          "title": "Mythology (Derek Sherinian album)",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mythology_%28Derek_Sherinian_album%29",
+          "text": "Mythology is the fourth solo album by keyboard player Derek Sherinian. Sherinian again draws upon some of the greatest talent from the worlds of rock and jazz music. Among the artists appearing on Mythology are jazz fusion player Allan Holdsworth (U.K., Soft Machine, Level 42), Steve Lukather (Toto), Simon Phillips (Toto, Jeff Beck, The Who), Zakk Wylde (Ozzy Osbourne, Black Label Society), Grammy award winner Steve Stevens (Billy Idol), Jerry Goodman (Mahavishnu Orchestra, Dixie Dregs), and a very rare guest appearance from guitarist John Sykes (Whitesnake, Thin Lizzy, Blue Murder).\n[Track listing]\n\"Day of the Dead\" – 8:20 (Sherinian/Tichy)\n\"Alpha Burst\" – 4:55 (Stevens)\n\"God of War\" – 5:16 (Sherinian/Tichy)\n\"El flamingo suave\" – 4:54 (Sherinian/Stevens)\n\"Goin' to Church\" – 4:46 (Sherinian)\n\"One Way or the Other\" – 4:56 (Goodman/Phillips/Sherinian)\n\"Trojan Horse\" – 3:55 (Sherinian/Tichy)\n\"A View from the Sky\" – 4:55 (Stevens)\n\"The River Song\" – 3:51 (Sherinian/Wylde)\n[Musicians]\nDerek Sherinian - keyboards\nZakk Wylde - guitar  (tracks 1, 3 and 9), vocals (track 9)\nSteve Stevens - guitar  (tracks 2, 4, and 8)\nAllan Holdsworth - guitar (tracks 1 and 6)\nJohn Sykes - guitar (track 3)\nSteve Lukather - guitar (track 5)\nTony Franklin - bass guitar (tracks 1, 2, 5 and 8)\nMarco Mendoza - bass guitar (tracks 3, 4, 7 and 9)\nRufus Philpot - bass guitar (track 6)\nJerry Goodman - violin (tracks 1 and 6)\nSimon Phillips - drums (tracks 2, 4–6, 8 and 9)\nBrian Tichy - drums (tracks 1, 3, 7 an"
         }
       ]
     }
@@ -12663,167 +12667,9 @@
     "updated": "2026-11-24T14:29-05:00"
   },
   "senses": {
-    "stimulation": 0.704,
-    "energy": 0.33,
+    "stimulation": 0.635,
+    "energy": 0.18,
     "recent": [
-      [
-        "connections",
-        "current",
-        "deeper",
-        "dive",
-        "fascination",
-        "mythology",
-        "peng",
-        "search"
-      ],
-      [
-        "connections",
-        "current",
-        "deeper",
-        "dive",
-        "fascination",
-        "mythology",
-        "peng",
-        "search"
-      ],
-      [
-        "behind",
-        "connections",
-        "curious",
-        "mythology",
-        "peng",
-        "search",
-        "story",
-        "world"
-      ],
-      [
-        "behind",
-        "connections",
-        "curious",
-        "mythology",
-        "peng",
-        "search",
-        "story",
-        "world"
-      ],
-      [
-        "connections",
-        "excited",
-        "mythology",
-        "peng",
-        "search"
-      ],
-      [
-        "coffeehouse",
-        "culture",
-        "hidden",
-        "sounds",
-        "treasure",
-        "trove",
-        "warsaw",
-        "ziemiańska"
-      ],
-      [
-        "connections",
-        "intrigued",
-        "mythology",
-        "peng",
-        "search",
-        "story"
-      ],
-      [
-        "connections",
-        "intrigued",
-        "mythology",
-        "peng",
-        "search",
-        "story"
-      ],
-      [
-        "closer",
-        "coffeehouse",
-        "curious",
-        "history",
-        "look"
-      ],
-      [
-        "artists",
-        "bring",
-        "cafes",
-        "important",
-        "knew",
-        "love",
-        "never",
-        "people",
-        "polish",
-        "politicians",
-        "small",
-        "together",
-        "ziemiańska"
-      ],
-      [
-        "connections",
-        "curious",
-        "links",
-        "mythology",
-        "peng",
-        "search",
-        "stories"
-      ],
-      [
-        "connections",
-        "curious",
-        "links",
-        "mythology",
-        "peng",
-        "search",
-        "stories"
-      ],
-      [
-        "closer",
-        "fascinated",
-        "history",
-        "look",
-        "ziemiańska"
-      ],
-      [
-        "absolute",
-        "already",
-        "artistic",
-        "cafes",
-        "connections",
-        "fascinating",
-        "galleries",
-        "history",
-        "imagine",
-        "myself",
-        "sounds",
-        "stories",
-        "strolling",
-        "taking",
-        "through",
-        "treasure",
-        "trove",
-        "ziemiańska"
-      ],
-      [
-        "closer",
-        "guests",
-        "history",
-        "look",
-        "read",
-        "ziemiańska"
-      ],
-      [
-        "almost",
-        "history",
-        "loving",
-        "pastries",
-        "romance",
-        "smell",
-        "surrounding",
-        "ziemiańska"
-      ],
       [
         "connections",
         "follow",
@@ -12855,6 +12701,176 @@
         "surrounding",
         "term",
         "theories"
+      ],
+      [
+        "cultural",
+        "dixie",
+        "explore",
+        "follow",
+        "heritage",
+        "link",
+        "peel",
+        "region",
+        "road"
+      ],
+      [
+        "dixie",
+        "exactly",
+        "expecting",
+        "peel",
+        "region",
+        "road"
+      ],
+      [
+        "await",
+        "closer",
+        "discovery",
+        "dixie",
+        "look",
+        "secrets"
+      ],
+      [
+        "behind",
+        "discover",
+        "dixie",
+        "fascinating",
+        "geography",
+        "history",
+        "knew",
+        "many",
+        "ordinary",
+        "peel",
+        "region",
+        "rich",
+        "road",
+        "sounding",
+        "stories",
+        "street",
+        "thrilled"
+      ],
+      [
+        "dixie",
+        "explore",
+        "fascinating",
+        "mythology",
+        "search",
+        "world"
+      ],
+      [
+        "album",
+        "derek",
+        "different",
+        "dixie",
+        "expecting",
+        "mythology",
+        "nothing",
+        "sherinian",
+        "totally"
+      ],
+      [
+        "complex",
+        "curiosity",
+        "dixie",
+        "following",
+        "heritage",
+        "music",
+        "mythology",
+        "past",
+        "search"
+      ],
+      [
+        "complex",
+        "curiosity",
+        "dixie",
+        "following",
+        "heritage",
+        "music",
+        "mythology",
+        "past",
+        "search"
+      ],
+      [
+        "connections",
+        "dixie",
+        "fascinating",
+        "history",
+        "mythology",
+        "other",
+        "search",
+        "topics"
+      ],
+      [
+        "connections",
+        "dixie",
+        "fascinating",
+        "history",
+        "mythology",
+        "other",
+        "search",
+        "topics"
+      ],
+      [
+        "closer",
+        "explore",
+        "further",
+        "look",
+        "music",
+        "sherinian"
+      ],
+      [
+        "album",
+        "combination",
+        "derek",
+        "fascinating",
+        "going",
+        "intrigued",
+        "keyboard",
+        "musicians",
+        "mythology",
+        "sherinian",
+        "work"
+      ],
+      [
+        "album",
+        "closer",
+        "discover",
+        "look",
+        "musicians"
+      ],
+      [
+        "album",
+        "between",
+        "collaboration",
+        "derek",
+        "glad",
+        "incredible",
+        "magical",
+        "musicians",
+        "mythology",
+        "sherinian",
+        "stumbled",
+        "truly",
+        "upon"
+      ],
+      [
+        "black",
+        "connections",
+        "explore",
+        "geldoff",
+        "label",
+        "search",
+        "society",
+        "story"
+      ],
+      [
+        "awesome",
+        "black",
+        "heavy",
+        "label",
+        "music",
+        "society",
+        "wylde",
+        "zakk"
       ]
     ],
     "last": "fresh"
@@ -12881,7 +12897,7 @@
       "because": "The thrill of discovering connections made my day exhilarating. Pursuing this could lead to more fascinating adventures."
     }
   ],
-  "reflect_points": 69,
+  "reflect_points": 80,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations while also being mindful t",
     "made": "2026-11-24",
@@ -13010,94 +13026,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-23T09:22-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "Want to know more about the Wuppertal Schwebebahn.",
-      "fallback": false,
-      "emoji": "🕵️‍♂️"
-    },
-    {
-      "time": "2026-11-23T09:23-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🕵️‍♂️"
-    },
-    {
-      "time": "2026-11-23T09:24-05:00",
-      "move": "daydream",
-      "detail": "",
-      "reason": "Wuppertal Schwebebahn accident still on my mind",
-      "fallback": false,
-      "emoji": "😊🌆"
-    },
-    {
-      "time": "2026-11-23T09:26-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "want to know more about Wuppertal Schwebebahn accident aftermath 🚂💔",
-      "fallback": false,
-      "emoji": "👀"
-    },
-    {
-      "time": "2026-11-23T10:06-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "Still thinking about Raquel Castro's music and acting career",
-      "fallback": false,
-      "emoji": "🎶"
-    },
-    {
-      "time": "2026-11-23T10:12-05:00",
-      "move": "go",
-      "detail": "SEARCH: Raquel Castro music discography",
-      "reason": "Want to know more about her songs!",
-      "fallback": false,
-      "emoji": "🎵👂"
-    },
-    {
-      "time": "2026-11-23T10:19-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "Want to learn more about Raquel Castro's music career 🎶",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-23T10:21-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🎵👂"
-    },
-    {
-      "time": "2026-11-23T10:26-05:00",
-      "move": "go",
-      "detail": "WORD: Raquel Castro",
-      "reason": "Learn more about her music and acting background.",
-      "fallback": false,
-      "emoji": "🎵📚"
-    },
-    {
-      "time": "2026-11-23T11:04-05:00",
-      "move": "go",
-      "detail": "SEARCH: Raquel Castro music discography",
-      "reason": "You look up Raquel Castro music discography again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": "🎵💻"
-    },
-    {
-      "time": "2026-11-23T11:06-05:00",
-      "move": "go",
-      "detail": "SEARCH: Indiana Hoosiers men's basketball team",
-      "reason": "Curious about other teams like them",
-      "fallback": false,
-      "emoji": "🏀👍"
-    },
     {
       "time": "2026-11-23T11:10-05:00",
       "move": "look closer",
@@ -15409,17 +15337,105 @@
       "reason": "want to know more about Dixie's cultural significance 🤔",
       "fallback": false,
       "emoji": "📚👀"
+    },
+    {
+      "time": "2026-11-24T17:04-05:00",
+      "move": "go",
+      "detail": "Dixie Road (Peel Region)",
+      "reason": "Follow the link to explore more about Dixie's cultural heritage 🤔🗺️",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-24T17:08-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Dixie's secrets await my discovery!",
+      "fallback": false,
+      "emoji": "🤔📚"
+    },
+    {
+      "time": "2026-11-24T17:10-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🤔📚"
+    },
+    {
+      "time": "2026-11-24T17:12-05:00",
+      "move": "go",
+      "detail": "SEARCH: Dixie mythology",
+      "reason": "Explore the fascinating world of Dixie mythology!",
+      "fallback": false,
+      "emoji": "🏃♂️💡"
+    },
+    {
+      "time": "2026-11-24T17:16-05:00",
+      "move": "go",
+      "detail": "SEARCH: Dixie mythology",
+      "reason": "You look up Dixie mythology again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🔍🕵️‍♂️"
+    },
+    {
+      "time": "2026-11-24T17:18-05:00",
+      "move": "go",
+      "detail": "SEARCH: Dixie mythology",
+      "reason": "You look up Dixie mythology again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🔍🎶"
+    },
+    {
+      "time": "2026-11-24T17:20-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "explore Sherinian's music further 😎",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-24T17:21-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🔍🎶"
+    },
+    {
+      "time": "2026-11-24T17:24-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Discover more about the album and musicians",
+      "fallback": false,
+      "emoji": "🎵📚"
+    },
+    {
+      "time": "2026-11-24T17:25-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🎵📚"
+    },
+    {
+      "time": "2026-11-24T17:28-05:00",
+      "move": "go",
+      "detail": "SEARCH: Black Label Society",
+      "reason": "Explore more connections to Geldoff's story",
+      "fallback": false,
+      "emoji": "🎸💻"
     }
   ],
   "recent_trips": [
-    "SEARCH:ultimate comics: avengers",
-    "SEARCH:ultimate comics: avengers connections to geldoff and other marvel characters",
-    "SEARCH:gilera motorcycle manufacturer",
     "SPACE:macrotristria lachlani",
     "SEARCH:peng mythology",
     "SEARCH:for peng mythology connections",
     "SEARCH:peng mythology connections",
-    "LINK:tincourt-boucly"
+    "LINK:tincourt-boucly",
+    "LINK:dixie road (peel region)",
+    "SEARCH:dixie mythology",
+    "SEARCH:black label society"
   ],
   "sheet": {
     "What he cares about": [
