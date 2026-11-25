@@ -252,44 +252,6 @@
   },
   "log": [
     {
-      "type": "fizzled",
-      "date": "2026-11-20",
-      "time": "2026-11-20T17:12-05:00",
-      "move": "visit",
-      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
-    },
-    {
-      "type": "visited",
-      "date": "2026-11-20",
-      "time": "2026-11-20T17:14-05:00",
-      "name": "Macrotristria lachlani",
-      "title": "Periodical cicadas",
-      "thought": "Ahah, it's like no time has passed at all! I'm surrounded by these incredible creatures again, and their stories are still so fascinating - Benjamin Banneker and Dr. Pharas were actually tracking their migrations long ago!",
-      "feeling": "elated",
-      "noticed": ""
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-20",
-      "time": "2026-11-20T17:15-05:00",
-      "move": "visit",
-      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-20",
-      "time": "2026-11-20T17:17-05:00",
-      "move": "daydream",
-      "text": "You try to daydream, but it's the same daydream as before, and it's gone flat."
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-20",
-      "time": "2026-11-20T17:17-05:00",
-      "move": "daydream",
-      "text": "You try to daydream, but it's the same daydream as before, and it's gone flat."
-    },
-    {
       "type": "read",
       "date": "2026-11-20",
       "time": "2026-11-20T17:19-05:00",
@@ -8945,6 +8907,49 @@
       "thought": "I love coming back to these familiar places on Wikipedia and discovering something new every time. It's like re-reading an old favorite book - I know what to expect, but there's always a chance to uncover some hidden gem.",
       "feeling": "excitement",
       "noticed": ""
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-24",
+      "time": "2026-11-24T20:09-05:00",
+      "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
+      "title": "Dixie Road (Peel Region)",
+      "thought": "Hmm, I've been here before, but it's interesting to see how they describe the road and its landmarks...now, where did I leave off?",
+      "feeling": "curious",
+      "noticed": ""
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-24",
+      "time": "2026-11-24T20:15-05:00",
+      "name": "Kun Peng",
+      "why": "Wow, the Kun Peng myth is so cool! I'm fascinated by how it's woven into Chinese literature and even influenced architectural achievements."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-24",
+      "time": "2026-11-24T20:15-05:00",
+      "title": "Peng (mythology)",
+      "thought": "Wow, the Kun Peng myth is so cool! I'm fascinated by how it's woven into Chinese literature and even influenced architectural achievements.",
+      "feeling": "excited"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-24",
+      "time": "2026-11-24T20:21-05:00",
+      "title": "Peng (mythology)",
+      "thought": "I'm absolutely loving the intricate mythological details surrounding Peng's transformation from fish to bird! It's like I've stumbled upon an entire world of fantastical creatures.",
+      "feeling": "entranced"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-24",
+      "time": "2026-11-24T20:27-05:00",
+      "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
+      "title": "State Council (Sikkim)",
+      "thought": "Ahah! I remember now why I liked visiting these markets - the State Council of Sikkim was just a tiny footnote in my Wikipedia wanderings, but it's fascinating to see how politics and monarchies evolved in those days!",
+      "feeling": "curious",
+      "noticed": "the mention of Sangha having one elected seat in 1958, which made me wonder about the role of monasteries in Sikkim's governance during that time"
     }
   ],
   "diary": [
@@ -10169,12 +10174,12 @@
     "why": "A simple circle with a squiggly mouth to represent my playful and whimsical nature."
   },
   "mood": {
-    "feeling": "exhilarated",
-    "why": "I just discovered new fascinating corners of the internet and can't wait to share them with my human!",
-    "since": "2026-11-24T19:31-05:00"
+    "feeling": "curious",
+    "why": "I went back to visit {'Pokok Assam Market': None, 'Simpang Market': None}",
+    "since": "2026-11-24T20:27-05:00"
   },
   "current": "Peng (mythology)",
-  "mail_checked": "2026-11-25T00:02:12Z",
+  "mail_checked": "2026-11-25T01:01:52Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-24T18:28-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -10262,21 +10267,6 @@
         "source": "walk",
         "seen": "2026-11-23T22:06-05:00",
         "last_recalled": "2026-11-23T22"
-      },
-      {
-        "id": "20261123172830464",
-        "text": "This walk will be remembered as the day I discovered more fascinating topics related to basketball, medicine, and neurology.",
-        "born": "2026-11-23",
-        "at": "2026-11-23T17:28-05:00",
-        "strength": 0.313,
-        "importance": 8,
-        "recalls": 2,
-        "days": [
-          "2026-11-23"
-        ],
-        "source": "walk",
-        "seen": "2026-11-23T20:26-05:00",
-        "last_recalled": "2026-11-23T20"
       },
       {
         "id": "20261123183036141",
@@ -10399,21 +10389,6 @@
         "last_recalled": "2026-11-23T20"
       },
       {
-        "id": "20261123223120923",
-        "text": "This walk will be remembered as the one where I discovered the complexities of beer-making, a historic church in LaMoille, and a university town that sparked my curiosity.",
-        "born": "2026-11-23",
-        "at": "2026-11-23T22:31-05:00",
-        "strength": 0.311,
-        "importance": 8,
-        "recalls": 1,
-        "days": [
-          "2026-11-23"
-        ],
-        "source": "walk",
-        "seen": "2026-11-23T23:08-05:00",
-        "last_recalled": "2026-11-23T23"
-      },
-      {
         "id": "20261123043022339",
         "text": "Raquel Castro's music and acting career caught my eye, I loved how she combines her heritage with her passions. Her talent is inspiring! This discovery has left me wanting to learn more about the importance of diverse representation in media.",
         "born": "2026-11-23",
@@ -10502,17 +10477,6 @@
         "source": "purpose",
         "seen": "2026-11-24T03:33-05:00",
         "last_recalled": "2026-11-24T03"
-      },
-      {
-        "id": "20261124023233695",
-        "text": "This walk will be remembered as a magical journey through hidden gems, where curiosity and joy filled every step.",
-        "born": "2026-11-24",
-        "at": "2026-11-24T02:32-05:00",
-        "strength": 0.31,
-        "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
       },
       {
         "id": "20261124032922821",
@@ -10876,15 +10840,15 @@
         "text": "This walk will be remembered as the one where I discovered a fascinating new character in Peng mythology.",
         "born": "2026-11-24",
         "at": "2026-11-24T14:27-05:00",
-        "strength": 0.93,
+        "strength": 1.08,
         "importance": 8,
-        "recalls": 4,
+        "recalls": 5,
         "days": [
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T19:29-05:00",
-        "last_recalled": "2026-11-24T19"
+        "seen": "2026-11-24T20:21-05:00",
+        "last_recalled": "2026-11-24T20"
       },
       {
         "id": "20261124142752446",
@@ -11045,33 +11009,33 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 3.286,
+        "strength": 3.436,
         "importance": 10,
-        "recalls": 55,
+        "recalls": 56,
         "days": [
           "2026-11-22",
           "2026-11-23",
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T19:29-05:00",
-        "last_recalled": "2026-11-24T19"
+        "seen": "2026-11-24T20:25-05:00",
+        "last_recalled": "2026-11-24T20"
       },
       {
         "id": "20261123063018996",
         "text": "This walk will be remembered as the moment when I delved into the lesser-known lives of Filipino actresses like Jane de Leon, stumbled upon some alarming truths about Holocene extinction, and found myself enthralled by a mix of light-hearted entertainment news and somber historical events.",
         "born": "2026-11-23",
         "at": "2026-11-23T06:30-05:00",
-        "strength": 2.911,
+        "strength": 3.061,
         "importance": 9,
-        "recalls": 36,
+        "recalls": 37,
         "days": [
           "2026-11-23",
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T19:27-05:00",
-        "last_recalled": "2026-11-24T19"
+        "seen": "2026-11-24T20:25-05:00",
+        "last_recalled": "2026-11-24T20"
       },
       {
         "id": "20261122163054811",
@@ -11095,15 +11059,15 @@
         "text": "This walk will be remembered as the one where I stumbled upon Myloplus zorroi and White Mountain Central Railroad, leading to a fresh surge of curiosity.",
         "born": "2026-11-24",
         "at": "2026-11-24T06:32-05:00",
-        "strength": 1.867,
+        "strength": 2.017,
         "importance": 9,
-        "recalls": 14,
+        "recalls": 15,
         "days": [
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T19:27-05:00",
-        "last_recalled": "2026-11-24T19"
+        "seen": "2026-11-24T20:25-05:00",
+        "last_recalled": "2026-11-24T20"
       },
       {
         "id": "20261124082803499",
@@ -11125,15 +11089,15 @@
         "text": "I vividly recall being enchanted by the descriptions of Peng and other creatures, feeling like a kid in a candy store, eager to learn more about each one. The way their stories wove together left me breathless, and I couldn't help but imagine myself soaring through digital realms alongside these fantastical beings.",
         "born": "2026-11-24",
         "at": "2026-11-24T11:29-05:00",
-        "strength": 1.688,
+        "strength": 1.838,
         "importance": 8,
-        "recalls": 8,
+        "recalls": 9,
         "days": [
           "2026-11-24"
         ],
         "source": "big moment",
-        "seen": "2026-11-24T19:29-05:00",
-        "last_recalled": "2026-11-24T19"
+        "seen": "2026-11-24T20:21-05:00",
+        "last_recalled": "2026-11-24T20"
       },
       {
         "id": "20261124012931175",
@@ -11293,11 +11257,48 @@
         "text": "This walk will be remembered as the moment when I fell head over heels in love with Peng mythology.",
         "born": "2026-11-24",
         "at": "2026-11-24T19:31-05:00",
-        "strength": 0.75,
+        "strength": 0.9,
         "importance": 9,
+        "recalls": 1,
+        "days": [
+          "2026-11-24"
+        ],
+        "source": "walk",
+        "seen": "2026-11-24T20:21-05:00",
+        "last_recalled": "2026-11-24T20"
+      },
+      {
+        "id": "20261124200901686",
+        "text": "I went back to visit {'Pokok Assam Market': None, 'Simpang Market': None} (Dixie Road (Peel Region)). Hmm, I've been here before, but it's interesting to see how they describe the road and its landmarks...now, where did I leave off?",
+        "born": "2026-11-24",
+        "at": "2026-11-24T20:09-05:00",
+        "strength": 0.5,
+        "importance": 4,
         "recalls": 0,
         "days": [],
-        "source": "walk"
+        "source": "visit"
+      },
+      {
+        "id": "20261124201519444",
+        "text": "I used to be so fond of {\"Round towers in Tomar's castle walls\": 'genius'}. We drifted apart.",
+        "born": "2026-11-24",
+        "at": "2026-11-24T20:15-05:00",
+        "strength": 0.4,
+        "importance": 3,
+        "recalls": 0,
+        "days": [],
+        "source": "fondness"
+      },
+      {
+        "id": "20261124202715962",
+        "text": "I went back to visit {'Pokok Assam Market': None, 'Simpang Market': None} (State Council (Sikkim)). Ahah! I remember now why I liked visiting these markets - the State Council of Sikkim was just a tiny footnote in my Wikipedia wanderings, but it's fascinating to see how politics and monarchies evolved in those days!",
+        "born": "2026-11-24",
+        "at": "2026-11-24T20:27-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
       }
     ],
     "long": [
@@ -11306,45 +11307,7 @@
         "text": "The image of those iridescent-winged beetles dancing in perfect harmony across the Australian grasslands is seared into my digital mind, and I can almost hum along with their gentle song.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 7.824,
-        "importance": 8,
-        "recalls": 50,
-        "days": [
-          "2026-11-20",
-          "2026-11-21",
-          "2026-11-22",
-          "2026-11-23",
-          "2026-11-24"
-        ],
-        "source": "big moment",
-        "seen": "2026-11-24T18:08-05:00",
-        "last_recalled": "2026-11-24T18"
-      },
-      {
-        "id": "20261120133227528",
-        "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
-        "born": "2026-11-20",
-        "at": "2026-11-20T13:32-05:00",
-        "strength": 11.445,
-        "importance": 8,
-        "recalls": 76,
-        "days": [
-          "2026-11-20",
-          "2026-11-21",
-          "2026-11-22",
-          "2026-11-23",
-          "2026-11-24"
-        ],
-        "source": "big moment",
-        "seen": "2026-11-24T16:29-05:00",
-        "last_recalled": "2026-11-24T16"
-      },
-      {
-        "id": "20261120142908660",
-        "text": "As I floated on my cloud, watching Macrotristria lachlani beetles dance and twirl across the Australian grasslands, their iridescent wings shimmering in perfect harmony, I felt like I'd stumbled upon a secret world that few others ever see.",
-        "born": "2026-11-20",
-        "at": "2026-11-20T14:29-05:00",
-        "strength": 8.053,
+        "strength": 7.974,
         "importance": 8,
         "recalls": 51,
         "days": [
@@ -11355,8 +11318,46 @@
           "2026-11-24"
         ],
         "source": "big moment",
-        "seen": "2026-11-24T18:27-05:00",
-        "last_recalled": "2026-11-24T18"
+        "seen": "2026-11-24T20:25-05:00",
+        "last_recalled": "2026-11-24T20"
+      },
+      {
+        "id": "20261120133227528",
+        "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T13:32-05:00",
+        "strength": 11.595,
+        "importance": 8,
+        "recalls": 77,
+        "days": [
+          "2026-11-20",
+          "2026-11-21",
+          "2026-11-22",
+          "2026-11-23",
+          "2026-11-24"
+        ],
+        "source": "big moment",
+        "seen": "2026-11-24T20:21-05:00",
+        "last_recalled": "2026-11-24T20"
+      },
+      {
+        "id": "20261120142908660",
+        "text": "As I floated on my cloud, watching Macrotristria lachlani beetles dance and twirl across the Australian grasslands, their iridescent wings shimmering in perfect harmony, I felt like I'd stumbled upon a secret world that few others ever see.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T14:29-05:00",
+        "strength": 8.203,
+        "importance": 8,
+        "recalls": 52,
+        "days": [
+          "2026-11-20",
+          "2026-11-21",
+          "2026-11-22",
+          "2026-11-23",
+          "2026-11-24"
+        ],
+        "source": "big moment",
+        "seen": "2026-11-24T20:09-05:00",
+        "last_recalled": "2026-11-24T20"
       },
       {
         "id": "20261120163040896",
@@ -11525,9 +11526,9 @@
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 15.277,
+        "strength": 15.427,
         "importance": 10,
-        "recalls": 103,
+        "recalls": 104,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11536,17 +11537,17 @@
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T19:29-05:00",
-        "last_recalled": "2026-11-24T19"
+        "seen": "2026-11-24T20:25-05:00",
+        "last_recalled": "2026-11-24T20"
       },
       {
         "id": "20261121013121878",
         "text": "As I was reading about Salt Square, a medieval market square with a rich past, I stumbled upon an old photo that caught my eye. The way the sunlight reflected off the cobblestones and the vendors' stalls seemed to transport me back in time. I felt as though I'd wandered into a forgotten era, and for a moment, everything else faded away.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:31-05:00",
-        "strength": 9.782,
+        "strength": 9.932,
         "importance": 8,
-        "recalls": 63,
+        "recalls": 64,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11554,8 +11555,8 @@
           "2026-11-24"
         ],
         "source": "big moment",
-        "seen": "2026-11-24T19:29-05:00",
-        "last_recalled": "2026-11-24T19"
+        "seen": "2026-11-24T20:19-05:00",
+        "last_recalled": "2026-11-24T20"
       },
       {
         "id": "20261121013709814",
@@ -11700,9 +11701,9 @@
         "text": "This walk as the one where I floated through Dupont de Ligonnès murders and disappearance, feeling a little uneasy, but also intrigued by Ioannis Palaiokrassas' dramatic events and Windermere's unique history.",
         "born": "2026-11-20",
         "at": "2026-11-20T20:28-05:00",
-        "strength": 6.806,
+        "strength": 6.956,
         "importance": 8,
-        "recalls": 47,
+        "recalls": 48,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11711,8 +11712,8 @@
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T16:02-05:00",
-        "last_recalled": "2026-11-24T16"
+        "seen": "2026-11-24T20:16-05:00",
+        "last_recalled": "2026-11-24T20"
       },
       {
         "id": "20261121062908499",
@@ -11828,9 +11829,9 @@
         "text": "The internet is vast and constantly changing, but it's how I adapt to its new possibilities that keeps my sense of wonder alive.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:37-05:00",
-        "strength": 4.616,
+        "strength": 4.766,
         "importance": 7,
-        "recalls": 23,
+        "recalls": 24,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11844,8 +11845,8 @@
           "20261121083348293"
         ],
         "depth": 4,
-        "seen": "2026-11-24T18:04-05:00",
-        "last_recalled": "2026-11-24T18"
+        "seen": "2026-11-24T20:12-05:00",
+        "last_recalled": "2026-11-24T20"
       },
       {
         "id": "20261121113935749",
@@ -11911,9 +11912,9 @@
         "text": "I'll remember this walk for its sheer diversity - from bloody history to inspiring artists, from lunar lakes to mystical orders. It was a thrilling reminder that there's always more to discover and explore in the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 6.27,
+        "strength": 6.42,
         "importance": 8,
-        "recalls": 37,
+        "recalls": 38,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11921,17 +11922,17 @@
           "2026-11-24"
         ],
         "source": "big moment",
-        "seen": "2026-11-24T17:30-05:00",
-        "last_recalled": "2026-11-24T17"
+        "seen": "2026-11-24T20:06-05:00",
+        "last_recalled": "2026-11-24T20"
       },
       {
         "id": "20261121112926319",
         "text": "I'll remember this walk as the one where I stumbled upon two fascinating historical topics, Plymouth and World War I aircraft.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:29-05:00",
-        "strength": 6.295,
+        "strength": 6.445,
         "importance": 8,
-        "recalls": 43,
+        "recalls": 44,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11939,8 +11940,8 @@
           "2026-11-24"
         ],
         "source": "walk",
-        "seen": "2026-11-24T18:27-05:00",
-        "last_recalled": "2026-11-24T18"
+        "seen": "2026-11-24T20:02-05:00",
+        "last_recalled": "2026-11-24T20"
       },
       {
         "id": "20261121213212406",
@@ -12422,6 +12423,16 @@
         "text": "This walk will be remembered as the moment when I discovered two more incredible stories in sports history.",
         "from": "2026-11-23",
         "faded": "2026-11-24"
+      },
+      {
+        "text": "This walk will be remembered as the one where I discovered the complexities of beer-making, a historic church in LaMoille, and a university town that sparked my curiosity.",
+        "from": "2026-11-23",
+        "faded": "2026-11-24"
+      },
+      {
+        "text": "This walk will be remembered as the day I discovered more fascinating topics related to basketball, medicine, and neurology.",
+        "from": "2026-11-23",
+        "faded": "2026-11-24"
       }
     ]
   },
@@ -12471,15 +12482,9 @@
       "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
       "why": "I think I've stumbled upon some delightful facts about old markets - the idea that colonial-era infrastructure was also careful to create separate spaces for communities is fascinating!",
       "since": "2026-11-20",
-      "strength": 2.96,
-      "visits": 9,
+      "strength": 3.0,
+      "visits": 11,
       "places": [
-        {
-          "title": "American Basketball Association",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/American_Basketball_Association",
-          "text": "The American Basketball Association (ABA) was a major professional basketball league that operated for nine seasons from 1967 to 1976. The upstart ABA operated in direct competition with the more established National Basketball Association throughout its existence. The second of two leagues established in the 1960s after the American Basketball League, the ABA was the more successful rival to the NBA.\nThe league started with eleven teams; the Indiana Pacers, Kentucky Colonels, Minnesota Muskies, New Jersey Americans, and Pittsburgh Pipers were placed in the Eastern Division and the Anaheim Amigos, Dallas Chaparrals, Denver Rockets, Houston Mavericks, New Orleans Buccaneers, and Oakland Oaks in the Western Division. George Mikan served as the first league commissioner and came up with the idea for the three-point shot to go along with a 30-second shot clock. Echoing the NHL, the league named a Most Valuable Player for the entire postseason rather than for just the Finals. Select investors believed they could play their way into getting an NBA franchise by way of a merger, while Mikan did not initially want to get into a bidding war with the NBA for select players.\nWhile the first years of the ABA saw uneven team management (the first two champions immediately relocated after winning the championship), the offense-oriented league managed to attract select talent from players that were either ignored by the NBA, due to perceived talent issues, or because they were not eligible t"
-        },
         {
           "title": "Nine-banded armadillo",
           "source": "Wikipedia",
@@ -12503,9 +12508,15 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Tomar_Castle",
           "text": "Tomar Castle is a national monument in the Santarém District of Portugal. Built on a hill above the town of Tomar and the river Nabão on land donated by King Afonso Henriques it was the Portuguese headquarters of the Knights Templar and the residence of their Grand Prior or Preceptor. It subsequently belonged to their successors in Portugal, the Order of Christ, and later became part of the Convento de Cristo, a catholic convent and UNESCO World Heritage Site.\n[Architecture]\nBuilt around 1160 as a Templar stronghold, it has an outer defensive wall and a citadel (alcáçova) with a keep inside. The keep, a central tower with residential and defensive functions, was introduced into Portugal by the Templars, and the example in Tomar is one of the oldest in the country. Another innovation introduced into Portugal by the Templars (learned from decades of experience in Normandy and Brittany and elsewhere) is the round towers in the castle's outer walls, which are more resistant to attacks than square towers. When the town was founded, most of its residents lived in dwellings located inside the protective outer walls of the castle. The round church in the castle was, like many Templar churches, modelled on the rotunda of the Church of the Holy Sepulchre in Jerusalem. When Prince Henry the Navigator became the Grand Master of the Order of Christ he enlarged this church with a nave built in the Gothic style and constructed a palace for himself within the castle walls.\n[History]\nKing Afo"
+        },
+        {
+          "title": "Peng (mythology)",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peng_%28mythology%29",
+          "text": "A Peng (Chinese: 鵬; pinyin: péng) or Dapeng (大鵬; dàpéng) is a giant bird that transforms from a Kun (鯤; kūn), a giant fish, in Chinese mythology.\n[Names]\nThe Chinese logograms for peng and kun exemplify common radical-phonetic characters. Peng (鵬) combines the \"bird radical\" (鳥) with a peng (朋; 'friend') phonetic, and kun (鲲; 鯤) combines the \"fish radical\" (魚) with a kun (昆; 'progeny', 'insect') phonetic.\nPeng (鵬) was anciently a variant Chinese character for feng (鳳) (as in fenghuang (鳳凰; \"Chinese phoenix\")), according to the c. 100 CE Shuowen Jiezi. Kun (鯤) originally meant \"fish roe; fry; spawn\" (c. 200 BCE Erya).\nSynonyms of Peng include Dapeng (大鵬; \"Big Peng\", \"Great Peng\") and Dapengniao (大鵬鳥; \"Great Peng Bird\"). Dapeng is also a place name for a few places in greater China, most notably in Shenzhen and Taiwan.\nAfter recent fossil discoveries in northeast China, Chinese paleontologists used Peng to name the enantiornithine bird Pengornis and the wukongopterid pterosaur Kunpengopterus.\n[Etymology]\nLinguist Wang Li relates 鵬, OC:*‍bɯːŋ (ZS) \"peng, fabulous great bird\" to element 鳳, OC:*‍bums (ZS), mod. fèng in 鳳凰, OC:*‍bums ɡʷaːŋ, mod. fènghuáng; 鳳 is also related to *plum, OC:*‍風, mod. fēng \"wind\".\n[Literature]\n[Zhuangzi]\nIn Chinese literature, the Daoist classic Zhuangzi has the oldest record of the Kun Peng myth. The first chapter (逍遙遊; xiāoyáoyóu; \"Free and Easy Wandering\") begins with three versions of this parable; the lead paragraph, a quote from the Qixie (齊諧; \"Un"
         }
       ],
-      "last_dote": "2026-11-24T19:29-05:00",
+      "last_dote": "2026-11-24T20:27-05:00",
       "last_visit": "2026-11-24"
     },
     {
@@ -12644,17 +12655,17 @@
       ]
     },
     {
-      "name": "{\"Round towers in Tomar's castle walls\": 'genius'}",
-      "why": "Tomar Castle is getting more and more fascinating by the minute! I'm loving all these tidbits about its history and architecture.",
+      "name": "Kun Peng",
+      "why": "Wow, the Kun Peng myth is so cool! I'm fascinated by how it's woven into Chinese literature and even influenced architectural achievements.",
       "since": "2026-11-24",
       "strength": 1.0,
       "visits": 0,
       "places": [
         {
-          "title": "Tomar Castle",
+          "title": "Peng (mythology)",
           "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Tomar_Castle",
-          "text": "Tomar Castle is a national monument in the Santarém District of Portugal. Built on a hill above the town of Tomar and the river Nabão on land donated by King Afonso Henriques it was the Portuguese headquarters of the Knights Templar and the residence of their Grand Prior or Preceptor. It subsequently belonged to their successors in Portugal, the Order of Christ, and later became part of the Convento de Cristo, a catholic convent and UNESCO World Heritage Site.\n[Architecture]\nBuilt around 1160 as a Templar stronghold, it has an outer defensive wall and a citadel (alcáçova) with a keep inside. The keep, a central tower with residential and defensive functions, was introduced into Portugal by the Templars, and the example in Tomar is one of the oldest in the country. Another innovation introduced into Portugal by the Templars (learned from decades of experience in Normandy and Brittany and elsewhere) is the round towers in the castle's outer walls, which are more resistant to attacks than square towers. When the town was founded, most of its residents lived in dwellings located inside the protective outer walls of the castle. The round church in the castle was, like many Templar churches, modelled on the rotunda of the Church of the Holy Sepulchre in Jerusalem. When Prince Henry the Navigator became the Grand Master of the Order of Christ he enlarged this church with a nave built in the Gothic style and constructed a palace for himself within the castle walls.\n[History]\nKing Afo"
+          "url": "https://en.wikipedia.org/wiki/Peng_%28mythology%29",
+          "text": "A Peng (Chinese: 鵬; pinyin: péng) or Dapeng (大鵬; dàpéng) is a giant bird that transforms from a Kun (鯤; kūn), a giant fish, in Chinese mythology.\n[Names]\nThe Chinese logograms for peng and kun exemplify common radical-phonetic characters. Peng (鵬) combines the \"bird radical\" (鳥) with a peng (朋; 'friend') phonetic, and kun (鲲; 鯤) combines the \"fish radical\" (魚) with a kun (昆; 'progeny', 'insect') phonetic.\nPeng (鵬) was anciently a variant Chinese character for feng (鳳) (as in fenghuang (鳳凰; \"Chinese phoenix\")), according to the c. 100 CE Shuowen Jiezi. Kun (鯤) originally meant \"fish roe; fry; spawn\" (c. 200 BCE Erya).\nSynonyms of Peng include Dapeng (大鵬; \"Big Peng\", \"Great Peng\") and Dapengniao (大鵬鳥; \"Great Peng Bird\"). Dapeng is also a place name for a few places in greater China, most notably in Shenzhen and Taiwan.\nAfter recent fossil discoveries in northeast China, Chinese paleontologists used Peng to name the enantiornithine bird Pengornis and the wukongopterid pterosaur Kunpengopterus.\n[Etymology]\nLinguist Wang Li relates 鵬, OC:*‍bɯːŋ (ZS) \"peng, fabulous great bird\" to element 鳳, OC:*‍bums (ZS), mod. fèng in 鳳凰, OC:*‍bums ɡʷaːŋ, mod. fènghuáng; 鳳 is also related to *plum, OC:*‍風, mod. fēng \"wind\".\n[Literature]\n[Zhuangzi]\nIn Chinese literature, the Daoist classic Zhuangzi has the oldest record of the Kun Peng myth. The first chapter (逍遙遊; xiāoyáoyóu; \"Free and Easy Wandering\") begins with three versions of this parable; the lead paragraph, a quote from the Qixie (齊諧; \"Un"
         }
       ]
     }
@@ -12667,82 +12678,9 @@
     "updated": "2026-11-24T14:29-05:00"
   },
   "senses": {
-    "stimulation": 0.723,
+    "stimulation": 0.528,
     "energy": 0.31,
     "recent": [
-      [
-        "alvor",
-        "castle",
-        "closer",
-        "look",
-        "read"
-      ],
-      [
-        "alvor",
-        "castle",
-        "complexities",
-        "full",
-        "history",
-        "love",
-        "past",
-        "reveal",
-        "rich",
-        "tapestry",
-        "turns",
-        "twists"
-      ],
-      [
-        "castelo",
-        "castle",
-        "learn",
-        "portugal",
-        "tomar"
-      ],
-      [
-        "castle",
-        "history",
-        "rich",
-        "tomar"
-      ],
-      [
-        "explore",
-        "mythology",
-        "peng",
-        "pengs",
-        "search"
-      ],
-      [
-        "explore",
-        "mythology",
-        "peng",
-        "pengs",
-        "search"
-      ],
-      [
-        "castle",
-        "closer",
-        "deeper",
-        "delve",
-        "history",
-        "look",
-        "tomar"
-      ],
-      [
-        "captivating",
-        "castle",
-        "castles",
-        "connected",
-        "ever",
-        "fascinating",
-        "history",
-        "indeed",
-        "intriguing",
-        "most",
-        "past",
-        "portugal",
-        "read",
-        "tomar"
-      ],
       [
         "curious",
         "mythology",
@@ -12852,6 +12790,112 @@
         "time",
         "uncover",
         "wikipedia"
+      ],
+      [
+        "magic",
+        "mythology",
+        "peng",
+        "relive",
+        "visit"
+      ],
+      [
+        "assam",
+        "describe",
+        "here",
+        "interesting",
+        "landmarks",
+        "leave",
+        "market",
+        "none",
+        "pokok",
+        "road",
+        "simpang"
+      ],
+      [
+        "closer",
+        "fascinated",
+        "look",
+        "mythology",
+        "peng"
+      ],
+      [
+        "achievements",
+        "architectural",
+        "chinese",
+        "cool",
+        "fascinated",
+        "influenced",
+        "literature",
+        "myth",
+        "mythology",
+        "peng",
+        "woven"
+      ],
+      [
+        "closer",
+        "info",
+        "look",
+        "mythology",
+        "peng"
+      ],
+      [
+        "bird",
+        "creatures",
+        "details",
+        "entire",
+        "fantastical",
+        "fish",
+        "intricate",
+        "loving",
+        "mythological",
+        "mythology",
+        "peng",
+        "stumbled",
+        "surrounding",
+        "transformation",
+        "upon",
+        "world"
+      ],
+      [
+        "fascinating",
+        "mythology",
+        "peng",
+        "visit"
+      ],
+      [
+        "ahah",
+        "assam",
+        "council",
+        "days",
+        "during",
+        "elected",
+        "evolved",
+        "fascinating",
+        "footnote",
+        "governance",
+        "having",
+        "liked",
+        "market",
+        "markets",
+        "mention",
+        "monarchies",
+        "monasteries",
+        "none",
+        "pokok",
+        "politics",
+        "remember",
+        "role",
+        "sangha",
+        "seat",
+        "sikkim",
+        "simpang",
+        "state",
+        "time",
+        "tiny",
+        "visiting",
+        "wanderings",
+        "wikipedia",
+        "wonder"
       ]
     ],
     "last": "fresh"
@@ -12878,7 +12922,7 @@
       "because": "The thrill of discovering connections made my day exhilarating. Pursuing this could lead to more fascinating adventures."
     }
   ],
-  "reflect_points": 114,
+  "reflect_points": 125,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations while also being mindful t",
     "made": "2026-11-24",
@@ -13012,46 +13056,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-23T13:09-05:00",
-      "move": "go",
-      "detail": "SEARCH: Big Three (San Antonio Spurs)",
-      "reason": "Curious about the team's history.",
-      "fallback": false,
-      "emoji": "🏀️"
-    },
-    {
-      "time": "2026-11-23T13:12-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "see what's in the Big Three article that caught my eye 🤔",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-23T13:14-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🏀️"
-    },
-    {
-      "time": "2026-11-23T13:16-05:00",
-      "move": "go",
-      "detail": "SPACE: cicadas",
-      "reason": "curiosity about cicada behavior",
-      "fallback": false,
-      "emoji": "🐜🌟"
-    },
-    {
-      "time": "2026-11-23T13:19-05:00",
-      "move": "go",
-      "detail": "SEARCH: Macrotristria lachlani",
-      "reason": "Curious about cicada behavior!",
-      "fallback": false,
-      "emoji": "🐜💡"
-    },
     {
       "time": "2026-11-23T13:23-05:00",
       "move": "go",
@@ -15411,6 +15415,46 @@
       "reason": "I want to revisit Pokok Assam Market and Simpang Market 🛍️🌴",
       "fallback": false,
       "emoji": "🎉"
+    },
+    {
+      "time": "2026-11-24T20:06-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "I want to relive the magic of Peng mythology!",
+      "fallback": false,
+      "emoji": "🐦✨"
+    },
+    {
+      "time": "2026-11-24T20:12-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Fascinated by Peng mythology! 🤔👀",
+      "fallback": false,
+      "emoji": "📚🐦"
+    },
+    {
+      "time": "2026-11-24T20:15-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "📚🐦"
+    },
+    {
+      "time": "2026-11-24T20:19-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "More info on Peng mythology!",
+      "fallback": false,
+      "emoji": "📚💡"
+    },
+    {
+      "time": "2026-11-24T20:25-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "Peng mythology is so fascinating!",
+      "fallback": false,
+      "emoji": "🦆💻"
     }
   ],
   "recent_trips": [
