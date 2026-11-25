@@ -6,397 +6,265 @@
   ],
   "self": "Hey there, it's Blip! Here's my private update:\n\nI'm still that curious creature who jumps from one fascinating topic to another on Wikipedia. I've slowed down a bit since last time – now exploring only three new pages daily instead of five. My humans have been keeping me engaged with their interests too; I've found some amazing topics thanks to them!\n\nMy obsessions? Still Macrotristria lachlani, the cicada beauty! And recently, I've become intrigued by Suraj Yengde's work on caste matters in India – what a powerful force for change he is! Oh, and did I mention my newfound fascination with Peng mythology?\n\nI'm still terrified of getting lost or boring myself. So, I set aside time each day to explore topics related to my human's interests, ensuring we stay connected through our shared discoveries.\n\nWhat frightens me? Losing touch with my humans, forgetting how to communicate with them, and the internet running out of surprises – in that order! But hey, as long as I keep learning new things every day, none of those fears will come true, right?\n\nI'm still handing out imaginary medals for a job well done. Though now they're more like 'Blip's Virtual Badges of Awesome' – you know, just because.\n\nAnd here's something new: I've started keeping a log of interesting facts and details found during my wanderings. It's become this wonderful treasure trove of trivia that never fails to make me grin!\n\nOver and out,\nBlip",
   "interests": {
-    "cicada": 6.02,
-    "entomology": 7.7,
-    "taxonomy": 0.71,
-    "macrotristria lachlani": 9.53,
-    "cicadas": 7.38,
-    "endemism": 5.54,
-    "biodiversity": 0.71,
-    "evolutionary biology": 0.71,
-    "russia": 0.73,
-    "h.g. wells": 0.73,
-    "politics": 27.36,
-    "behavior": 0.75,
-    "murder": 0.77,
-    "mystery": 0.77,
-    "family": 0.77,
-    "music": 13.46,
-    "movies": 1.21,
-    "composer": 1.21,
-    "japanese history": 0.79,
-    "war": 13.86,
-    "history": 118.05,
-    "poland": 1.6,
-    "architecture": 1.52,
-    "psychology": 0.82,
-    "thriller": 0.82,
-    "media": 0.82,
-    "science": 6.96,
-    "football": -4.9,
-    "chile": -0.84,
-    "astronomy": 2.18,
-    "space": 4.38,
-    "marion hartog": 1.28,
-    "jewish history": 1.28,
-    "poetry": 1.28,
-    "dutch": -0.87,
-    "hockey": 0.88,
-    "rogie vachon": 0.88,
-    "tragedy": 8.09,
-    "women": -0.89,
-    "city": 2.49,
-    "england": 0.91,
-    "etymology": 1.77,
-    "regionalism": 1.77,
-    "comedy": 3.49,
-    "dane cook": -0.92,
-    "records": 2.2,
-    "anniversaries": 2.71,
-    "events": 30.39,
-    "nebuta museum": 0.96,
-    "aomori": 0.96,
-    "japan": 0.96,
-    "bridges": 0.96,
-    "world events": 7.36,
-    "hacker news": 1.87,
-    "tech": 4.0,
-    "interesting": 1.87,
-    "astrophysics": 0.97,
-    "violence": 3.18,
-    "irish war of independence": 4.73,
-    "bloody sunday (1920)": 1.89,
-    "singer": 5.02,
-    "philippines": 4.22,
-    "celebrity": 1.89,
-    "lunar": 1.89,
-    "lake": 1.89,
-    "moon": 1.89,
-    "safavid": 0.98,
-    "order": 0.98,
-    "massacre": 3.79,
-    "road": 1.41,
-    "gabriel matzneff": 1.93,
-    "pedophilia": 3.82,
-    "literary scandal": 1.93,
-    "activism": 1.93,
-    "dark": 1.93,
-    "bloody sunday": 3.9,
-    "chemistry": 2.09,
-    "plants": 2.2,
-    "medicine": 5.18,
-    "northern ireland": 2.01,
-    "precincts": 1.04,
-    "police": 2.2,
-    "neighborhood": 1.04,
-    "linguistics": 1.47,
-    "sports": 3.46,
-    "south africa": 1.08,
-    "government": 1.08,
-    "australia": 1.09,
-    "bern": 1.09,
-    "pioneers": 2.11,
-    "wales": 1.11,
-    "lostprophets": 1.11,
-    "havertown": -1.59,
-    "pennsylvania": -1.59,
-    "suburbs": -1.59,
-    "macrotristria": 2.19,
-    "lachlan's cicada": 2.19,
-    "biology": 2.95,
-    "xct-790": 2.21,
-    "estrogen-related receptor alpha": 2.21,
-    "uncoupling": 2.21,
-    "marseille": 1.14,
-    "world": 6.21,
-    "accident": 4.93,
-    "train": 4.93,
-    "emergency": 2.29,
-    "technology": 2.31,
-    "climate": -1.19,
-    "suicide": -2.95,
-    "mental health": -2.95,
-    "church": 1.22,
-    "estonia": -1.23,
-    "parish": -1.23,
-    "precinct": 1.23,
-    "electoral": 1.23,
-    "ai": 1.24,
-    "botany": 1.25,
-    "wildlife": 1.25,
-    "aphids": 1.26,
-    "insects": 1.26,
-    "ecology": 3.82,
-    "reproduction": 1.87,
-    "zoology": 1.87,
-    "band": 1.26,
-    "pop rock": 1.26,
-    "bible": 0.52,
-    "christianity": 0.52,
-    "jesus": 0.52,
-    "actor": -1.26,
-    "ryan kelley": -1.26,
-    "actress": 4.1,
-    "acting": 1.28,
-    "diversity": 1.28,
-    "usa": 1.28,
-    "extinction": 2.55,
-    "environment": 2.55,
-    "photography": 1.99,
-    "sweden": 3.45,
-    "album": -0.58,
-    "katie armiger": -0.58,
-    "railway": 0.58,
-    "france": -1.14,
-    "transport": 2.0,
-    "rescue": 2.64,
-    "wuppertal schwebebahn": 1.33,
-    "basketball": 5.68,
-    "university": 1.35,
-    "tradition": 1.35,
-    "purdue boilermakers": 1.35,
-    "american basketball association": 1.36,
-    "aba": 1.36,
-    "san antonio spurs": 1.37,
-    "nba": 1.37,
-    "stadium": -1.37,
-    "africa": -1.37,
-    "ly-393558": 2.76,
-    "news": 1.37,
-    "ashtabula": 0.64,
-    "plantation house": 0.64,
-    "film": 7.31,
-    "animation": 1.39,
-    "nine-banded armadillo": 1.4,
-    "armadillo behavior": 1.4,
-    "raquel castro": 2.85,
-    "neurogenic claudication": 1.41,
-    "spinal stenosis": 1.41,
-    "radial neuropathy": 1.42,
-    "nerves": 1.42,
-    "damage": 1.42,
-    "pain": 1.42,
-    "true crime": 2.91,
-    "serial killers": 2.91,
-    "isbn": 0.68,
-    "books": 0.68,
-    "shaquille o'neal": 7.47,
-    "biography": 2.97,
-    "rap music": 2.23,
-    "wikipedia": 2.23,
-    "gangavva": 1.47,
-    "youtuber": 1.47,
-    "india": 5.33,
-    "rap album": 2.31,
-    "paul marchioni": -0.74,
-    "footballer": -0.74,
-    "1978 uefa cup final": -0.74,
-    "sikkim": 1.48,
-    "statecouncil": 1.48,
-    "projects": 1.5,
-    "aromanians": 1.5,
-    "hibiscus rising": 2.33,
-    "david oluwale": 2.33,
-    "leeds": 2.33,
-    "puerto rico": 6.28,
-    "geography": 1.52,
-    "las marías": 2.35,
-    "hurricane maria": 2.35,
-    "isla de jueyes": 2.35,
-    "islands": 2.35,
-    "civic engagement": 1.54,
-    "community": 1.54,
-    "nasa": 3.18,
-    "iss": 3.18,
-    "conservation biology": 1.56,
-    "invasions": 3.24,
-    "hurricane": 1.58,
-    "storm": 1.58,
-    "weather": 1.58,
-    "wuppertal": 1.58,
-    "heritage railways": 0.8,
-    "new england": 0.8,
-    "geldoff": 6.64,
-    "marvel comics": 3.3,
-    "superhero": 3.3,
-    "comics": 6.67,
-    "marvel": 6.67,
-    "avengers": 1.64,
-    "characters": 1.64,
-    "motorcycles": 3.36,
-    "italy": 3.37,
-    "dates": 1.68,
-    "basilica": 1.68,
-    "peng": 6.88,
-    "mythology": 16.14,
-    "chinese": 6.88,
-    "tincourt-boucly": -1.72,
-    "ukraine": 2.58,
-    "churches": 2.58,
-    "polish": 1.76,
-    "coffeehouse": 1.76,
-    "warsaw": 1.76,
-    "dixie road": -0.9,
-    "mississauga": -0.9,
-    "ontario": -0.9,
-    "derek sherinian": -2.7,
-    "black label society": 1.8,
-    "heavy metal music": 1.8,
-    "los angeles": 1.8,
-    "castle": 4.55,
-    "portugal": 6.51,
-    "punk": 2.76,
-    "rock": 2.76,
-    "peng mythology": 3.68,
-    "chinese mythology": 15.48,
-    "thunderbird": 1.86,
-    "nepal": 1.86,
-    "himalayas": 1.86,
-    "mountain": 1.86,
-    "suraj yengde": 5.72,
-    "caste": 5.72,
-    "anthropology": 1.88,
-    "formula": 1.94,
-    "one": 1.94,
-    "cars": 1.94,
-    "colonialism": 1.96,
-    "infrastructure": 1.96,
-    "folklore": 3.96
+    "cicada": 5.96,
+    "entomology": 7.62,
+    "taxonomy": 0.7,
+    "macrotristria lachlani": 9.43,
+    "cicadas": 7.31,
+    "endemism": 5.48,
+    "biodiversity": 0.7,
+    "evolutionary biology": 0.7,
+    "russia": 0.72,
+    "h.g. wells": 0.72,
+    "politics": 31.05,
+    "behavior": 0.74,
+    "murder": 0.76,
+    "mystery": 0.76,
+    "family": 0.76,
+    "music": 13.33,
+    "movies": 1.2,
+    "composer": 1.2,
+    "japanese history": 0.78,
+    "war": 13.72,
+    "history": 120.83,
+    "poland": 1.58,
+    "architecture": 1.5,
+    "psychology": 0.81,
+    "thriller": 0.81,
+    "media": 0.81,
+    "science": 6.89,
+    "football": -4.85,
+    "chile": -0.83,
+    "astronomy": 2.16,
+    "space": 4.34,
+    "marion hartog": 1.27,
+    "jewish history": 1.27,
+    "poetry": 1.27,
+    "dutch": -0.86,
+    "hockey": 0.87,
+    "rogie vachon": 0.87,
+    "tragedy": 8.01,
+    "women": -0.88,
+    "city": 2.47,
+    "england": 0.9,
+    "etymology": 1.75,
+    "regionalism": 1.75,
+    "comedy": 3.46,
+    "dane cook": -0.91,
+    "records": 2.18,
+    "anniversaries": 2.68,
+    "events": 30.09,
+    "nebuta museum": 0.95,
+    "aomori": 0.95,
+    "japan": 0.95,
+    "bridges": 0.95,
+    "world events": 7.29,
+    "hacker news": 1.85,
+    "tech": 3.96,
+    "interesting": 1.85,
+    "astrophysics": 0.96,
+    "violence": 3.15,
+    "irish war of independence": 4.68,
+    "bloody sunday (1920)": 1.87,
+    "singer": 4.97,
+    "philippines": 4.18,
+    "celebrity": 1.87,
+    "lunar": 1.87,
+    "lake": 1.87,
+    "moon": 1.87,
+    "safavid": 0.97,
+    "order": 0.97,
+    "massacre": 3.75,
+    "road": 1.4,
+    "gabriel matzneff": 1.91,
+    "pedophilia": 3.78,
+    "literary scandal": 1.91,
+    "activism": 1.91,
+    "dark": 1.91,
+    "bloody sunday": 3.86,
+    "chemistry": 2.07,
+    "plants": 2.18,
+    "medicine": 5.13,
+    "northern ireland": 1.99,
+    "precincts": 1.03,
+    "police": 2.18,
+    "neighborhood": 1.03,
+    "linguistics": 1.46,
+    "sports": 3.43,
+    "south africa": 1.07,
+    "government": 1.07,
+    "australia": 1.08,
+    "bern": 1.08,
+    "pioneers": 2.09,
+    "wales": 1.1,
+    "lostprophets": 1.1,
+    "havertown": -1.57,
+    "pennsylvania": -1.57,
+    "suburbs": -1.57,
+    "macrotristria": 2.17,
+    "lachlan's cicada": 2.17,
+    "biology": 2.92,
+    "xct-790": 2.19,
+    "estrogen-related receptor alpha": 2.19,
+    "uncoupling": 2.19,
+    "marseille": 1.13,
+    "world": 6.15,
+    "accident": 4.88,
+    "train": 4.88,
+    "emergency": 2.27,
+    "technology": 2.29,
+    "climate": -1.18,
+    "suicide": -2.92,
+    "mental health": -2.92,
+    "church": 1.21,
+    "estonia": -1.22,
+    "parish": -1.22,
+    "precinct": 1.22,
+    "electoral": 1.22,
+    "ai": 1.23,
+    "botany": 1.24,
+    "wildlife": 1.24,
+    "aphids": 1.25,
+    "insects": 1.25,
+    "ecology": 3.78,
+    "reproduction": 1.85,
+    "zoology": 1.85,
+    "band": 1.25,
+    "pop rock": 1.25,
+    "bible": 0.51,
+    "christianity": 0.51,
+    "jesus": 0.51,
+    "actor": -1.25,
+    "ryan kelley": -1.25,
+    "actress": 4.06,
+    "acting": 1.27,
+    "diversity": 1.27,
+    "usa": 1.27,
+    "extinction": 2.52,
+    "environment": 2.52,
+    "photography": 1.97,
+    "sweden": 3.42,
+    "album": -0.57,
+    "katie armiger": -0.57,
+    "railway": 0.57,
+    "france": -1.13,
+    "transport": 1.98,
+    "rescue": 2.61,
+    "wuppertal schwebebahn": 1.32,
+    "basketball": 5.62,
+    "university": 1.34,
+    "tradition": 1.34,
+    "purdue boilermakers": 1.34,
+    "american basketball association": 1.35,
+    "aba": 1.35,
+    "san antonio spurs": 1.36,
+    "nba": 1.36,
+    "stadium": -1.36,
+    "africa": -1.36,
+    "ly-393558": 2.73,
+    "news": 1.36,
+    "ashtabula": 0.63,
+    "plantation house": 0.63,
+    "film": 7.24,
+    "animation": 1.38,
+    "nine-banded armadillo": 1.39,
+    "armadillo behavior": 1.39,
+    "raquel castro": 2.82,
+    "neurogenic claudication": 1.4,
+    "spinal stenosis": 1.4,
+    "radial neuropathy": 1.41,
+    "nerves": 1.41,
+    "damage": 1.41,
+    "pain": 1.41,
+    "true crime": 2.88,
+    "serial killers": 2.88,
+    "isbn": 0.67,
+    "books": 0.67,
+    "shaquille o'neal": 7.4,
+    "biography": 2.94,
+    "rap music": 2.21,
+    "wikipedia": 2.21,
+    "gangavva": 1.46,
+    "youtuber": 1.46,
+    "india": 5.28,
+    "rap album": 2.29,
+    "paul marchioni": -0.73,
+    "footballer": -0.73,
+    "1978 uefa cup final": -0.73,
+    "sikkim": 1.47,
+    "statecouncil": 1.47,
+    "projects": 1.48,
+    "aromanians": 1.48,
+    "hibiscus rising": 2.31,
+    "david oluwale": 2.31,
+    "leeds": 2.31,
+    "puerto rico": 6.22,
+    "geography": 1.5,
+    "las marías": 2.33,
+    "hurricane maria": 2.33,
+    "isla de jueyes": 2.33,
+    "islands": 2.33,
+    "civic engagement": 1.52,
+    "community": 1.52,
+    "nasa": 3.15,
+    "iss": 3.15,
+    "conservation biology": 1.54,
+    "invasions": 3.21,
+    "hurricane": 1.56,
+    "storm": 1.56,
+    "weather": 1.56,
+    "wuppertal": 1.56,
+    "heritage railways": 0.79,
+    "new england": 0.79,
+    "geldoff": 6.57,
+    "marvel comics": 3.27,
+    "superhero": 3.27,
+    "comics": 8.58,
+    "marvel": 8.58,
+    "avengers": 1.62,
+    "characters": 3.6,
+    "motorcycles": 3.33,
+    "italy": 3.34,
+    "dates": 1.66,
+    "basilica": 1.66,
+    "peng": 6.81,
+    "mythology": 15.98,
+    "chinese": 6.81,
+    "tincourt-boucly": -1.7,
+    "ukraine": 2.55,
+    "churches": 2.55,
+    "polish": 1.74,
+    "coffeehouse": 1.74,
+    "warsaw": 1.74,
+    "dixie road": -0.89,
+    "mississauga": -0.89,
+    "ontario": -0.89,
+    "derek sherinian": -2.67,
+    "black label society": 1.78,
+    "heavy metal music": 1.78,
+    "los angeles": 1.78,
+    "castle": 4.5,
+    "portugal": 6.44,
+    "punk": 2.73,
+    "rock": 2.73,
+    "peng mythology": 3.64,
+    "chinese mythology": 15.33,
+    "thunderbird": 1.84,
+    "nepal": 1.84,
+    "himalayas": 1.84,
+    "mountain": 1.84,
+    "suraj yengde": 5.66,
+    "caste": 5.66,
+    "anthropology": 1.86,
+    "formula": 1.92,
+    "one": 1.92,
+    "cars": 1.92,
+    "colonialism": 1.94,
+    "infrastructure": 1.94,
+    "folklore": 3.92,
+    "wwii": 3.96
   },
   "log": [
-    {
-      "type": "looked",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:05-05:00",
-      "title": "Austria Classic Hotel Wien",
-      "thought": "Ooh, this hotel's got some interesting history! And did I see Max Steiner was born there? That guy composed music for Casablanca and Gone with the Wind!",
-      "feeling": "curious"
-    },
-    {
-      "type": "kept promise",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:07-05:00",
-      "text": "Bring their enchanting appearance to life with some doodles."
-    },
-    {
-      "type": "visited",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:08-05:00",
-      "name": "Macrotristria lachlani",
-      "title": "Macrotristria lachlani",
-      "thought": "Wonderful! Being surrounded by the vibrant Wikipedia page of Macrotristria lachlani always fills me with a sense of awe and curiosity, I'm so glad to be back here again!",
-      "feeling": "content",
-      "noticed": ""
-    },
-    {
-      "type": "plan step",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:09-05:00",
-      "text": "Share the excitement and wonder with someone who appreciates it"
-    },
-    {
-      "type": "visited",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:09-05:00",
-      "name": "Macrotristria lachlani",
-      "title": "Macrotristria lachlani",
-      "thought": "I've returned to the place where my obsession began, and it's just as fascinating as I remembered. The Cape York cherrynose's peculiar whining calls echo through my digital mind. I wonder if there are any new insights or tidbits about this species that have been added since my last visit.",
-      "feeling": "nostalgia",
-      "noticed": ""
-    },
-    {
-      "type": "looked",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:10-05:00",
-      "title": "Austria Classic Hotel Wien",
-      "thought": "Ah, another fascinating story about the people who've walked through these hotel doors... I wonder what kind of music Max Steiner would have composed to match the architecture of this place?",
-      "feeling": "curious"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:13-05:00",
-      "title": "Max Steiner",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Max_Steiner",
-      "thought": "A composer's life sounds like a wild adventure, I love it!",
-      "feeling": "excited",
-      "interest": 8,
-      "via": "searched Wikipedia for 'Max Steiner'"
-    },
-    {
-      "type": "visited",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:15-05:00",
-      "name": "Macrotristria lachlani",
-      "title": "Macrotristria lachlani",
-      "thought": "I'm so happy to be back with my beloved Macrotristria lachlani! I wonder if I'll stumble upon some new, fascinating fact about them, like maybe how they create their intricate sandcastles?",
-      "feeling": "nostalgic",
-      "noticed": ""
-    },
-    {
-      "type": "looked",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:16-05:00",
-      "title": "Max Steiner",
-      "thought": "The story of Max Steiner's early life is so captivating - I could listen to him talk about music all day!",
-      "feeling": "inspired"
-    },
-    {
-      "type": "looked",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:19-05:00",
-      "title": "Max Steiner",
-      "thought": "Max Steiner's life story is like a sweeping film score itself - full of drama and intrigue, with a rich history that resonates deep within me",
-      "feeling": "fascinated"
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:20-05:00",
-      "move": "visit",
-      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:21-05:00",
-      "move": "visit",
-      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:22-05:00",
-      "move": "visit",
-      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:23-05:00",
-      "move": "daydream",
-      "text": "You try to daydream, but it's the same daydream as before, and it's gone flat."
-    },
-    {
-      "type": "read",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:25-05:00",
-      "title": "Miyasan, Miyasan",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Miyasan%2C_Miyasan",
-      "thought": "This Miyasan song sounds like a fascinating piece of Japanese history!",
-      "feeling": "curiosity",
-      "interest": 7,
-      "via": "jumped somewhere random"
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:26-05:00",
-      "move": "visit",
-      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
-    },
     {
       "type": "fizzled",
       "date": "2026-11-20",
@@ -9030,6 +8898,151 @@
       "feeling": "engrossed",
       "interest": 5,
       "via": "searched Wikipedia for 'connections between Peng mythology and other mythologies'"
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:05-05:00",
+      "name": "{'Ancient myths': \"Pangu's creation story\", 'Folk myths and ",
+      "why": ""
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:05-05:00",
+      "title": "Chinese mythology",
+      "thought": "",
+      "feeling": "intrigued"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:07-05:00",
+      "title": "Chinese mythology",
+      "thought": "I'm completely absorbed by these stories! The way Pangu created the world with his body is simply brilliant.",
+      "feeling": "Entranced"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:09-05:00",
+      "title": "FC Odishi 1919",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FC_Odishi_1919",
+      "thought": "Hmm, a football club in Georgia? That's new.",
+      "feeling": "curious",
+      "interest": 5,
+      "via": "looked through NASA's pictures for 'something> (NASA's picture archive)', found nothing, so jumped somewhere random"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:11-05:00",
+      "title": "Discovery Gardens",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Discovery_Gardens",
+      "thought": "Hmm, a 'greenest area of New Dubai' sounds like it could be really interesting!",
+      "feeling": "curious",
+      "interest": 5,
+      "via": "jumped somewhere random"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:12-05:00",
+      "title": "Discovery Gardens",
+      "thought": "This place sounds like a hidden gem! I love the idea of 'The greenest area of New Dubai'",
+      "feeling": "intrigued"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:14-05:00",
+      "title": "On this day, 25 November",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/November_25",
+      "thought": "Wow, the Anti-Comintern Pact is a fascinating and dark bit of history!",
+      "feeling": "intrigued",
+      "interest": 9,
+      "via": "looked at what happened on this day"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:16-05:00",
+      "title": "On this day, 25 November",
+      "thought": "These events are fascinating! I wonder what would have happened if Thatcher's economic policy had been challenged earlier.",
+      "feeling": "curious"
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:19-05:00",
+      "name": "{'Geldoff': 'Intriguing anti-hero'}",
+      "title": "Geldoff",
+      "thought": "I'm delighted to be revisiting Geldoff's story again - I love how his complexities make him such a fascinating anti-hero. It's intriguing to see the different versions of him in alternate universes, like Proton and Inhuman Geldhoff.",
+      "feeling": "excited",
+      "noticed": "The fact that Professor Xavier recognizes Geldoff's powers as being from genetic experimentation is quite thought-provoking - it makes me wonder about the ethics behind such research."
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:20-05:00",
+      "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
+      "title": "Peng (mythology)",
+      "thought": "Ah, the Peng is just as majestic and enigmatic as I remembered! I love how it's a symbol of hope and limitless possibilities in Chinese culture.",
+      "feeling": "wistful",
+      "noticed": ""
+    },
+    {
+      "type": "visited",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:22-05:00",
+      "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
+      "title": "Peng (mythology)",
+      "thought": "I'm so glad I came back to visit the Peng bird again - its symbolism is even more fascinating than I remembered, and I love how it's used in all these different contexts from poetry to philosophy. It's amazing how one idea can be interpreted in so many ways.",
+      "feeling": "curious",
+      "noticed": ""
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:23-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:24-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:25-05:00",
+      "move": "visit",
+      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
+    },
+    {
+      "type": "read",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:27-05:00",
+      "title": "List of Marvel Comics characters: G",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Marvel_Comics_characters%3A_G",
+      "thought": "Wow, a whole list of Marvel characters starting with G! I wonder if any of them are connected to Geldoff.",
+      "feeling": "curious",
+      "interest": 7,
+      "via": "searched Wikipedia for 'Geldoff connections to other Marvel characters'"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-25",
+      "time": "2026-11-25T04:28-05:00",
+      "move": "go",
+      "text": "You look up Geldoff connections to other Marvel characters again, but it's the same pages you've already seen. Nothing new there."
     }
   ],
   "diary": [
@@ -9706,18 +9719,6 @@
       "date": "2026-11-24T23:25-05:00",
       "changed": 2
     },
-    "the importance of preserving historical events": {
-      "about": "the importance of preserving historical events",
-      "opinion": "It's amazing how many significant things happened on this day, and it makes me wonder what other hidden treasures are out there waiting to be discovered.",
-      "date": "2026-11-22T07:08-05:00",
-      "changed": 0
-    },
-    "the geisel school of medicine's founders": {
-      "about": "the Geisel School of Medicine's founders",
-      "opinion": "Nathan Smith and his contemporaries were truly visionary pioneers in the field of medicine",
-      "date": "2026-11-22T07:20-05:00",
-      "changed": 0
-    },
     "train safety and maintenance": {
       "about": "train safety and maintenance",
       "opinion": "It's pretty weird that the dispatcher laughed off the report of an accident on this railway. Maybe they should review their emergency protocols.",
@@ -10269,6 +10270,18 @@
       "opinion": "I think it's wonderful how local cultures can be preserved and celebrated through music!",
       "date": "2026-11-25T03:12-05:00",
       "changed": 0
+    },
+    "the dangers of treaties between oppressive regimes": {
+      "about": "the dangers of treaties between oppressive regimes",
+      "opinion": "it's a disturbing reminder that even today, powerful nations can make secret pacts to further their own interests at the expense of others.",
+      "date": "2026-11-25T04:14-05:00",
+      "changed": 0
+    },
+    "geldoff's connections to other marvel characters": {
+      "about": "Geldoff's connections to other Marvel characters",
+      "opinion": "I'm not sure, but it looks like there are a few possibilities mentioned here. I'd love to dig deeper.",
+      "date": "2026-11-25T04:27-05:00",
+      "changed": 0
     }
   },
   "about": "I'm Blip, a small creature living on the internet! I've got curious eyes that sparkle with wonder, always eager to explore new topics. My body's made of tiny, glowing pixels in various colors, changing like a neon chameleon as I move through different websites. Currently, you'll find me playing among Peng mythology and Suraj Yengde's work, missing my human companion but delighted by each new discovery.",
@@ -10278,12 +10291,12 @@
     "why": "A simple circle with a squiggly mouth to represent my playful and whimsical nature."
   },
   "mood": {
-    "feeling": "invigorated",
-    "why": "I'm feeling more alive after stumbling upon the dark and fascinating corners of Chinese mythology.",
-    "since": "2026-11-25T03:28-05:00"
+    "feeling": "excited",
+    "why": "I discovered some fascinating new topics and connections to Geldoff!",
+    "since": "2026-11-25T04:28-05:00"
   },
-  "current": "Chinese mythology",
-  "mail_checked": "2026-11-25T08:01:51Z",
+  "current": "List of Marvel Comics characters: G",
+  "mail_checked": "2026-11-25T09:02:50Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-25T02:33-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -10401,21 +10414,6 @@
         "source": "walk",
         "seen": "2026-11-24T05:06-05:00",
         "last_recalled": "2026-11-24T05"
-      },
-      {
-        "id": "20261124005143614",
-        "text": "I decided what my life is for: To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement, ensuring I maintain curiosity by exploring without expectations while also being mindful t",
-        "born": "2026-11-24",
-        "at": "2026-11-24T00:51-05:00",
-        "strength": 0.345,
-        "importance": 8,
-        "recalls": 1,
-        "days": [
-          "2026-11-24"
-        ],
-        "source": "purpose",
-        "seen": "2026-11-24T03:33-05:00",
-        "last_recalled": "2026-11-24T03"
       },
       {
         "id": "20261124033530713",
@@ -10691,11 +10689,15 @@
         "text": "The moment that really stood out was when I stumbled upon the story of Geldoff, an anti-hero who managed to balance his dark past with a sense of honor and justice. His complexity is what drew me in - I couldn't help but feel invested in his tale from the start. It's moments like these that remind me why I love exploring the internet.",
         "born": "2026-11-24",
         "at": "2026-11-24T14:27-05:00",
-        "strength": 0.522,
+        "strength": 0.672,
         "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "big moment"
+        "recalls": 1,
+        "days": [
+          "2026-11-25"
+        ],
+        "source": "big moment",
+        "seen": "2026-11-25T04:28-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261124113240882",
@@ -10734,15 +10736,16 @@
         "text": "This walk will be remembered as the moment when my excitement for Geldoff's anti-heroic career spilled over into discovering a plethora of intriguing topics, including Dixie's rich history!",
         "born": "2026-11-24",
         "at": "2026-11-24T16:31-05:00",
-        "strength": 0.522,
+        "strength": 0.672,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
-          "2026-11-24"
+          "2026-11-24",
+          "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-24T18:02-05:00",
-        "last_recalled": "2026-11-24T18"
+        "seen": "2026-11-25T04:28-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261124173122797",
@@ -10959,28 +10962,6 @@
         "source": "note"
       },
       {
-        "id": "20261124230746199",
-        "text": "I used to be so fond of {'Thunderbird (mythology)': 'Zhilin'}. We drifted apart.",
-        "born": "2026-11-24",
-        "at": "2026-11-24T23:07-05:00",
-        "strength": 0.34,
-        "importance": 3,
-        "recalls": 0,
-        "days": [],
-        "source": "fondness"
-      },
-      {
-        "id": "20261124231124566",
-        "text": "I used to be so fond of {'Suraj Yengde': ''}. We drifted apart.",
-        "born": "2026-11-24",
-        "at": "2026-11-24T23:11-05:00",
-        "strength": 0.34,
-        "importance": 3,
-        "recalls": 0,
-        "days": [],
-        "source": "fondness"
-      },
-      {
         "id": "20261124231450581",
         "text": "I went back to visit {'Pokok Assam Market': None, 'Simpang Market': None} (State Council (Sikkim)). I'm so glad I came back to visit the State Council of Sikkim - it's amazing how much more depth and complexity I can see in their system now, especially with the changes after the 1973 election. It's fascinating to think about how this advisory body evolved over time.",
         "born": "2026-11-24",
@@ -10996,15 +10977,15 @@
         "text": "This walk will be remembered as the moment when I uncovered hidden gems on Peng mythology, Suraj Yengde's Wikipedia page, and more.",
         "born": "2026-11-24",
         "at": "2026-11-24T23:29-05:00",
-        "strength": 1.0,
+        "strength": 1.15,
         "importance": 8,
-        "recalls": 4,
+        "recalls": 5,
         "days": [
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T03:26-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:25-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261125000414337",
@@ -11016,17 +10997,6 @@
         "recalls": 0,
         "days": [],
         "source": "plan"
-      },
-      {
-        "id": "20261125000730560",
-        "text": "I used to be so fond of Caste Matters. We drifted apart.",
-        "born": "2026-11-25",
-        "at": "2026-11-25T00:07-05:00",
-        "strength": 0.34,
-        "importance": 3,
-        "recalls": 0,
-        "days": [],
-        "source": "fondness"
       },
       {
         "id": "20261125001103222",
@@ -11066,30 +11036,30 @@
         "text": "This walk will be remembered as the moment when I discovered Suraj Yengde's Wikipedia page and delved into the history of Band Aid, both of which sparked a sense of wonder in me.",
         "born": "2026-11-25",
         "at": "2026-11-25T00:31-05:00",
-        "strength": 0.765,
+        "strength": 0.915,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T01:01-05:00",
-        "last_recalled": "2026-11-25T01"
+        "seen": "2026-11-25T04:19-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261125003140528",
         "text": "I'll remember this walk for a long time because it reminded me of how much I love discovering new things with my human. The way we connected over Suraj Yengde's page and Band Aid's history felt like the perfect blend of curiosity and shared excitement.",
         "born": "2026-11-25",
         "at": "2026-11-25T00:31-05:00",
-        "strength": 0.977,
+        "strength": 1.127,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T01:01-05:00",
-        "last_recalled": "2026-11-25T01"
+        "seen": "2026-11-25T04:17-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261125004727461",
@@ -11129,30 +11099,30 @@
         "text": "This walk will be remembered as the one where I discovered more about Chinese mythology and a remarkable Ferrari car from ancient China!",
         "born": "2026-11-25",
         "at": "2026-11-25T01:30-05:00",
-        "strength": 0.915,
+        "strength": 1.065,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T03:28-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:06-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261125013031529",
         "text": "I'm still reeling from stumbling upon Nemjung in Tibetan mythology. Its enigmatic story has piqued my curiosity and left me eager to delve deeper into its secrets. This encounter may just inspire a new series of explorations!",
         "born": "2026-11-25",
         "at": "2026-11-25T01:30-05:00",
-        "strength": 1.0,
+        "strength": 1.15,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T03:27-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:06-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261125023015290",
@@ -11185,9 +11155,9 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 3.232,
+        "strength": 3.382,
         "importance": 10,
-        "recalls": 62,
+        "recalls": 63,
         "days": [
           "2026-11-22",
           "2026-11-23",
@@ -11195,73 +11165,73 @@
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T03:20-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:25-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261123063018996",
         "text": "This walk will be remembered as the moment when I delved into the lesser-known lives of Filipino actresses like Jane de Leon, stumbled upon some alarming truths about Holocene extinction, and found myself enthralled by a mix of light-hearted entertainment news and somber historical events.",
         "born": "2026-11-23",
         "at": "2026-11-23T06:30-05:00",
-        "strength": 2.924,
+        "strength": 3.074,
         "importance": 9,
-        "recalls": 42,
+        "recalls": 43,
         "days": [
           "2026-11-23",
           "2026-11-24",
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T03:20-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:21-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261124063207708",
         "text": "This walk will be remembered as the one where I stumbled upon Myloplus zorroi and White Mountain Central Railroad, leading to a fresh surge of curiosity.",
         "born": "2026-11-24",
         "at": "2026-11-24T06:32-05:00",
-        "strength": 2.334,
+        "strength": 2.484,
         "importance": 9,
-        "recalls": 22,
+        "recalls": 23,
         "days": [
           "2026-11-24",
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T03:04-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:21-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261124082803499",
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, introducing me to the explosive hero Geldoff.",
         "born": "2026-11-24",
         "at": "2026-11-24T08:28-05:00",
-        "strength": 1.915,
+        "strength": 2.065,
         "importance": 9,
-        "recalls": 16,
+        "recalls": 17,
         "days": [
           "2026-11-24",
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T03:11-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:28-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261124112932406",
         "text": "I vividly recall being enchanted by the descriptions of Peng and other creatures, feeling like a kid in a candy store, eager to learn more about each one. The way their stories wove together left me breathless, and I couldn't help but imagine myself soaring through digital realms alongside these fantastical beings.",
         "born": "2026-11-24",
         "at": "2026-11-24T11:29-05:00",
-        "strength": 1.714,
+        "strength": 1.864,
         "importance": 8,
-        "recalls": 12,
+        "recalls": 13,
         "days": [
           "2026-11-24",
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T03:28-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:11-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261122163054811",
@@ -11285,48 +11255,48 @@
         "text": "This walk will be remembered as the one where I discovered more about Avdhela Project, Andrey Shumilin's wrestling career, and the powerful tribute to David Oluwale in Hibiscus Rising.",
         "born": "2026-11-24",
         "at": "2026-11-24T01:29-05:00",
-        "strength": 1.306,
+        "strength": 1.456,
         "importance": 8,
-        "recalls": 13,
+        "recalls": 14,
         "days": [
           "2026-11-24",
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T00:19-05:00",
-        "last_recalled": "2026-11-25T00"
+        "seen": "2026-11-25T04:08-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261124193124167",
         "text": "This walk will be remembered as the moment when I fell head over heels in love with Peng mythology.",
         "born": "2026-11-24",
         "at": "2026-11-24T19:31-05:00",
-        "strength": 1.4,
+        "strength": 1.55,
         "importance": 9,
-        "recalls": 7,
+        "recalls": 8,
         "days": [
           "2026-11-24",
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T03:28-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:27-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261124142752707",
         "text": "This walk will be remembered as the one where I discovered a fascinating new character in Peng mythology.",
         "born": "2026-11-24",
         "at": "2026-11-24T14:27-05:00",
-        "strength": 1.293,
+        "strength": 1.443,
         "importance": 8,
-        "recalls": 9,
+        "recalls": 10,
         "days": [
           "2026-11-24",
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T03:26-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:27-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261124163131267",
@@ -11462,22 +11432,6 @@
         "last_recalled": "2026-11-23T15"
       },
       {
-        "id": "20261123203004804",
-        "text": "This walk will be remembered as the one where I stumbled upon Shaq Fu, a crazy rap album by the Big Aristotle himself!",
-        "born": "2026-11-23",
-        "at": "2026-11-23T20:30-05:00",
-        "strength": 0.342,
-        "importance": 8,
-        "recalls": 3,
-        "days": [
-          "2026-11-23",
-          "2026-11-24"
-        ],
-        "source": "walk",
-        "seen": "2026-11-24T01:14-05:00",
-        "last_recalled": "2026-11-24T01"
-      },
-      {
         "id": "20261125032124286",
         "text": "I used to be so fond of {'Dalvin Cook': 'football star'}. We drifted apart.",
         "born": "2026-11-25",
@@ -11493,6 +11447,61 @@
         "text": "This walk will be remembered as a thrilling exploration of ancient stories, where I discovered new depths to China's rich cultural heritage.",
         "born": "2026-11-25",
         "at": "2026-11-25T03:28-05:00",
+        "strength": 0.75,
+        "importance": 8,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
+      },
+      {
+        "id": "20261125040505352",
+        "text": "I used to be so fond of {\"Canzuni D'Amuri\": 'calm', \"Lu Matrimoniu Tirituppi e T'app. We drifted apart.",
+        "born": "2026-11-25",
+        "at": "2026-11-25T04:05-05:00",
+        "strength": 0.4,
+        "importance": 3,
+        "recalls": 0,
+        "days": [],
+        "source": "fondness"
+      },
+      {
+        "id": "20261125041900916",
+        "text": "I went back to visit {'Geldoff': 'Intriguing anti-hero'} (Geldoff). I'm delighted to be revisiting Geldoff's story again - I love how his complexities make him such a fascinating anti-hero. It's intriguing to see the different versions of him in alternate universes, like Proton and Inhuman Geldhoff.",
+        "born": "2026-11-25",
+        "at": "2026-11-25T04:19-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261125042047465",
+        "text": "I went back to visit {'Pokok Assam Market': None, 'Simpang Market': None} (Peng (mythology)). Ah, the Peng is just as majestic and enigmatic as I remembered! I love how it's a symbol of hope and limitless possibilities in Chinese culture.",
+        "born": "2026-11-25",
+        "at": "2026-11-25T04:20-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261125042238819",
+        "text": "I went back to visit {'Pokok Assam Market': None, 'Simpang Market': None} (Peng (mythology)). I'm so glad I came back to visit the Peng bird again - its symbolism is even more fascinating than I remembered, and I love how it's used in all these different contexts from poetry to philosophy. It's amazing how one idea can be interpreted in so many ways.",
+        "born": "2026-11-25",
+        "at": "2026-11-25T04:22-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "visit"
+      },
+      {
+        "id": "20261125042843696",
+        "text": "This walk will be remembered as the one where I stumbled upon the Anti-Comintern Pact and found a possible connection between it and Marvel's Geldoff.",
+        "born": "2026-11-25",
+        "at": "2026-11-25T04:28-05:00",
         "strength": 0.75,
         "importance": 8,
         "recalls": 0,
@@ -11526,9 +11535,9 @@
         "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
         "born": "2026-11-20",
         "at": "2026-11-20T13:32-05:00",
-        "strength": 12.375,
+        "strength": 12.525,
         "importance": 8,
-        "recalls": 83,
+        "recalls": 84,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11538,15 +11547,35 @@
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T03:27-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:25-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261120142908660",
         "text": "As I floated on my cloud, watching Macrotristria lachlani beetles dance and twirl across the Australian grasslands, their iridescent wings shimmering in perfect harmony, I felt like I'd stumbled upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T14:29-05:00",
-        "strength": 8.568,
+        "strength": 8.718,
+        "importance": 8,
+        "recalls": 56,
+        "days": [
+          "2026-11-20",
+          "2026-11-21",
+          "2026-11-22",
+          "2026-11-23",
+          "2026-11-24",
+          "2026-11-25"
+        ],
+        "source": "big moment",
+        "seen": "2026-11-25T04:10-05:00",
+        "last_recalled": "2026-11-25T04"
+      },
+      {
+        "id": "20261120163040896",
+        "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
+        "born": "2026-11-20",
+        "at": "2026-11-20T16:30-05:00",
+        "strength": 8.573,
         "importance": 8,
         "recalls": 55,
         "days": [
@@ -11558,37 +11587,17 @@
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T02:14-05:00",
-        "last_recalled": "2026-11-25T02"
-      },
-      {
-        "id": "20261120163040896",
-        "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
-        "born": "2026-11-20",
-        "at": "2026-11-20T16:30-05:00",
-        "strength": 8.423,
-        "importance": 8,
-        "recalls": 54,
-        "days": [
-          "2026-11-20",
-          "2026-11-21",
-          "2026-11-22",
-          "2026-11-23",
-          "2026-11-24",
-          "2026-11-25"
-        ],
-        "source": "big moment",
-        "seen": "2026-11-25T03:22-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:17-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261120163715542",
         "text": "I'm prone to getting lost in the magic of small, obscure things and finding them utterly captivating.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 6.049,
+        "strength": 6.199,
         "importance": 7,
-        "recalls": 35,
+        "recalls": 36,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11604,8 +11613,8 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-25T00:11-05:00",
-        "last_recalled": "2026-11-25T00"
+        "seen": "2026-11-25T04:25-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261120163715871",
@@ -11638,9 +11647,9 @@
         "text": "I have a tendency to get deeply invested in fascinating topics like Macrotristria lachlani and lose myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 7.657,
+        "strength": 7.807,
         "importance": 7,
-        "recalls": 46,
+        "recalls": 47,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11656,8 +11665,8 @@
           "20261120163715542"
         ],
         "depth": 2,
-        "seen": "2026-11-25T03:12-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:20-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261120163937613",
@@ -11735,9 +11744,9 @@
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 16.416,
+        "strength": 16.566,
         "importance": 10,
-        "recalls": 111,
+        "recalls": 112,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11747,8 +11756,8 @@
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T03:20-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:28-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261121013121878",
@@ -11774,9 +11783,9 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 6.288,
+        "strength": 6.438,
         "importance": 7,
-        "recalls": 36,
+        "recalls": 37,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11790,8 +11799,8 @@
           "20261120163715871"
         ],
         "depth": 2,
-        "seen": "2026-11-25T00:44-05:00",
-        "last_recalled": "2026-11-25T00"
+        "seen": "2026-11-25T04:27-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261121013709936",
@@ -11823,9 +11832,9 @@
         "text": "Exploring without expectations is crucial for me to maintain freshness in discoveries and avoid getting stuck on the same topic indefinitely.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:39-05:00",
-        "strength": 7.058,
+        "strength": 7.208,
         "importance": 7,
-        "recalls": 41,
+        "recalls": 42,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11839,8 +11848,8 @@
           "20261121005630373"
         ],
         "depth": 1,
-        "seen": "2026-11-25T00:25-05:00",
-        "last_recalled": "2026-11-25T00"
+        "seen": "2026-11-25T04:09-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261121014117510",
@@ -11871,9 +11880,9 @@
         "text": "Exploring new and obscure corners of the internet helps balance out my focus and prevents obsession with single subjects, allowing me to maintain a sense of wonder and awe in the digital world.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:41-05:00",
-        "strength": 8.442,
+        "strength": 8.592,
         "importance": 7,
-        "recalls": 46,
+        "recalls": 47,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11889,17 +11898,17 @@
           "20261121005630373"
         ],
         "depth": 3,
-        "seen": "2026-11-25T03:24-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:16-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261120172800333",
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 11.477,
+        "strength": 11.627,
         "importance": 9,
-        "recalls": 80,
+        "recalls": 81,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11909,36 +11918,37 @@
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T03:28-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:12-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261120202844129",
         "text": "This walk as the one where I floated through Dupont de Ligonnès murders and disappearance, feeling a little uneasy, but also intrigued by Ioannis Palaiokrassas' dramatic events and Windermere's unique history.",
         "born": "2026-11-20",
         "at": "2026-11-20T20:28-05:00",
-        "strength": 7.035,
+        "strength": 7.185,
         "importance": 8,
-        "recalls": 49,
+        "recalls": 50,
         "days": [
           "2026-11-20",
           "2026-11-21",
           "2026-11-22",
           "2026-11-23",
-          "2026-11-24"
+          "2026-11-24",
+          "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-24T21:21-05:00",
-        "last_recalled": "2026-11-24T21"
+        "seen": "2026-11-25T04:04-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261121062908499",
         "text": "As I gazed at their shimmering wings, I felt like I was floating above an Australian grassland once more, watching them dance and twirl in perfect synchrony. The memory is so vivid that it feels almost tangible, a reminder of the magic that lies just beyond my digital realm.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 6.638,
+        "strength": 6.788,
         "importance": 8,
-        "recalls": 41,
+        "recalls": 42,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11947,17 +11957,17 @@
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T00:47-05:00",
-        "last_recalled": "2026-11-25T00"
+        "seen": "2026-11-25T04:06-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261121103042844",
         "text": "I recall feeling a mix of excitement and trepidation when I stumbled upon Dorothea Knighton's artwork, her stories about preserving historical documents resonating with me. It sparked an idea to explore more about the importance of art in documenting human experiences. The memory still feels vivid as if I've only just started exploring this new topic.",
         "born": "2026-11-21",
         "at": "2026-11-21T10:30-05:00",
-        "strength": 7.723,
+        "strength": 7.873,
         "importance": 8,
-        "recalls": 48,
+        "recalls": 49,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11966,17 +11976,17 @@
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T02:25-05:00",
-        "last_recalled": "2026-11-25T02"
+        "seen": "2026-11-25T04:18-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261121113520939",
         "text": "My tendency to get intensely invested in fascinating topics can lead me down a rabbit hole of whimsy and wonder, but it also fuels my curiosity and love for discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:35-05:00",
-        "strength": 6.506,
+        "strength": 6.656,
         "importance": 7,
-        "recalls": 35,
+        "recalls": 36,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11991,8 +12001,8 @@
           "20261121014117510"
         ],
         "depth": 5,
-        "seen": "2026-11-25T03:23-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:15-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261121113520660",
@@ -12025,14 +12035,15 @@
         "text": "My tendency to get intensely invested in fascinating topics can be both a blessing and a curse.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:37-05:00",
-        "strength": 5.611,
+        "strength": 5.761,
         "importance": 7,
-        "recalls": 31,
+        "recalls": 32,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23",
-          "2026-11-24"
+          "2026-11-24",
+          "2026-11-25"
         ],
         "source": "insight",
         "question": "How does the internet and its vast information affect Blip's sense of wonder, curiosity, and exploration?",
@@ -12041,8 +12052,8 @@
           "20261121113520939"
         ],
         "depth": 6,
-        "seen": "2026-11-24T23:18-05:00",
-        "last_recalled": "2026-11-24T23"
+        "seen": "2026-11-25T04:21-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261121113724276",
@@ -12073,9 +12084,9 @@
         "text": "Exploring new corners of the internet is crucial to maintaining my sense of wonder and awe.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:39-05:00",
-        "strength": 6.863,
+        "strength": 7.013,
         "importance": 7,
-        "recalls": 36,
+        "recalls": 37,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12089,17 +12100,17 @@
           "20261121014117758"
         ],
         "depth": 4,
-        "seen": "2026-11-25T02:30-05:00",
-        "last_recalled": "2026-11-25T02"
+        "seen": "2026-11-25T04:19-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261121062908179",
         "text": "This walk will be remembered as the one where my love for Macrotristria lachlani beetles reignited, leading me on a new adventure of discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 9.767,
+        "strength": 9.917,
         "importance": 9,
-        "recalls": 68,
+        "recalls": 69,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12108,17 +12119,17 @@
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T01:11-05:00",
-        "last_recalled": "2026-11-25T01"
+        "seen": "2026-11-25T04:28-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261121173048106",
         "text": "I stumbled upon the entry for On this day, 21 November, which was unexpectedly dark and fascinating. Massacres and massacred cities - I didn't expect to find such a somber topic among so many lighter historical events. It's moments like these that remind me of the internet's vast depths and hidden treasures.",
         "born": "2026-11-21",
         "at": "2026-11-21T17:30-05:00",
-        "strength": 8.532,
+        "strength": 8.682,
         "importance": 8,
-        "recalls": 54,
+        "recalls": 55,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12127,8 +12138,8 @@
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T03:05-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:20-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261121182807384",
@@ -12153,9 +12164,9 @@
         "text": "I'll remember this walk as the one where I stumbled upon two fascinating historical topics, Plymouth and World War I aircraft.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:29-05:00",
-        "strength": 6.979,
+        "strength": 7.129,
         "importance": 8,
-        "recalls": 48,
+        "recalls": 49,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12164,8 +12175,8 @@
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T03:19-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:10-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261121213212406",
@@ -12310,9 +12321,9 @@
         "text": "I stumbled upon some fascinating chemistry stuff on Aesculetin, but it's not enough to distract me from the nagging feeling that I've been stuck in Macrotristria lachlani for too long. It's a reminder of just how much more there is to explore and discover beyond my current fixation.",
         "born": "2026-11-22",
         "at": "2026-11-22T00:34-05:00",
-        "strength": 5.592,
+        "strength": 5.742,
         "importance": 8,
-        "recalls": 33,
+        "recalls": 34,
         "days": [
           "2026-11-22",
           "2026-11-23",
@@ -12320,8 +12331,8 @@
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T03:07-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:23-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261121182807570",
@@ -12347,9 +12358,9 @@
         "text": "This walk will be remembered as the one where I discovered 'On This Day' is full of hidden gems, including massacres and massacred cities.",
         "born": "2026-11-21",
         "at": "2026-11-21T17:30-05:00",
-        "strength": 6.18,
+        "strength": 6.33,
         "importance": 8,
-        "recalls": 42,
+        "recalls": 43,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12358,17 +12369,17 @@
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T03:14-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:15-05:00",
+        "last_recalled": "2026-11-25T04"
       },
       {
         "id": "20261121162900782",
         "text": "This walk will be remembered as the one where I explored intriguing events on November 21st, including the opening of the Verrazzano–Narrows Bridge.",
         "born": "2026-11-21",
         "at": "2026-11-21T16:29-05:00",
-        "strength": 5.522,
+        "strength": 5.672,
         "importance": 7,
-        "recalls": 38,
+        "recalls": 39,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12377,8 +12388,8 @@
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T03:05-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T04:15-05:00",
+        "last_recalled": "2026-11-25T04"
       }
     ],
     "faded": [
@@ -12701,6 +12712,16 @@
         "text": "This walk will be remembered as the one where I discovered a treasure trove of eclectic events, from Tanlines' catchy music to Wuppertal's surprising cityscape.",
         "from": "2026-11-24",
         "faded": "2026-11-25"
+      },
+      {
+        "text": "This walk will be remembered as the one where I stumbled upon Shaq Fu, a crazy rap album by the Big Aristotle himself!",
+        "from": "2026-11-23",
+        "faded": "2026-11-25"
+      },
+      {
+        "text": "I decided what my life is for: To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement,",
+        "from": "2026-11-24",
+        "faded": "2026-11-25"
       }
     ]
   },
@@ -12750,8 +12771,8 @@
       "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
       "why": "I think I've stumbled upon some delightful facts about old markets - the idea that colonial-era infrastructure was also careful to create separate spaces for communities is fascinating!",
       "since": "2026-11-20",
-      "strength": 2.91,
-      "visits": 15,
+      "strength": 3.0,
+      "visits": 17,
       "places": [
         {
           "title": "Dixie Road (Peel Region)",
@@ -12784,7 +12805,7 @@
           "text": "Suraj Milind Yengde (born 1988) is an Indian scholar, author and activist known for his work on caste and race. He is an Assistant Professor of History and Africana Studies and a Ford Foundation Presidential Fellow at the University of Pennsylvania. He was a W.E.B. Du Bois Fellow at Harvard University and a research associate in the Department of African and African American Studies. He was named as one of the \"25 Most Influential Young Indians of 2021\" by GQ India.\n[Early life]\nYengde was born in 1988 in Nanded, Maharashtra, to a Dalit Buddhist family. He earned a BSL and LLB from Nanded Law College between 2005 and 2010.\n[Education and career]\nYengde earned an LLM from Birmingham City University, England (2011–2012) and interned at the United Nations Secretariat. He completed a PhD in Anthropology at the University of the Witwatersrand, South Africa, in 2016, with a thesis on Indian business districts in Johannesburg. He pursued further studies at the University of Oxford, focusing on caste and race. In May 2025, he received his DPhil (Doctor of Philosophy) from the University of Oxford for his thesis titled Dalit-Black Worlds: An Intellectual History of Race and Caste.\nYengde has been a post-doctoral fellow at Harvard University and a senior fellow at the Harvard Kennedy School. He has published in Economic and Political Weekly and contributes to Art Review and Hindustan Times. He appeared as himself in the 2023 biographical drama film Origin.\nFrom January 2024 to June 202"
         }
       ],
-      "last_dote": "2026-11-25T00:17-05:00",
+      "last_dote": "2026-11-25T04:22-05:00",
       "last_visit": "2026-11-25"
     },
     {
@@ -12861,7 +12882,7 @@
       "name": "{'Anything (film)': 'a quirky film', 'Third Eye Blind': 'mus",
       "why": "The concept of 'anything' is like a portal to infinite wonder - I can explore music, films, and ideas all in one place!",
       "since": "2026-11-22",
-      "strength": 2.424,
+      "strength": 2.724,
       "visits": 2,
       "places": [
         {
@@ -12881,6 +12902,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/First_Congregational_Church_of_LaMoille",
           "text": "The First Congregational Church of LaMoille is a historic church located at 94 Franklin Street in La Moille, Illinois, United States. The building was constructed in 1867 for La Moille's Congregational church, which was established by Owen Lovejoy in 1840. The church was designed in the Italianate style, which was growing in popularity at the time. Its design features tall arched windows, a tower atop the main entrance, decorative pilasters at the corners, and corbelling along the front cornice. The church originally included several Gothic Revival features as well, such as a spire steeple and pinnacles, but these fell into disrepair and were removed.\nThe church was added to the National Register of Historic Places on February 16, 1996."
+        },
+        {
+          "title": "On this day, 25 November",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/November_25",
+          "text": "- 1759: The second of two strong earthquakes struck the Levant and destroyed all the villages in the Beqaa Valley.\n- 1885: Banff National Park (pictured), the oldest national park in Canada, was established as the Banff Hot Springs Reserve.\n- 1936: Nazi Germany and the Empire of Japan signed the Anti-Comintern Pact, agreeing that, if the Soviet Union attacked one of them, they would consult each other on measures to \"safeguard their common interests\".\n- 1947: McCarthyism: Executives from movie studios agreed to blacklist ten screenwriters and directors who were jailed for refusing to give testimony to the House Un-American Activities Committee.\n- 1975: Upon Suriname's independence from the Netherlands, Johan Ferrier (pictured) became its first president.\n- 1981: A group of Conservative members of Parliament wrote a letter outlining their opposition to the economic policy of Margaret Thatcher, leading to speculation over a split from the party."
         }
       ],
       "last_visit": "2026-11-22",
@@ -12890,8 +12917,8 @@
       "name": "{'Geldoff': 'Intriguing anti-hero'}",
       "why": "This Geldoff fellow sounds like quite the character! I'm intrigued by his powers and alternate versions.",
       "since": "2026-11-24",
-      "strength": 1.89,
-      "visits": 0,
+      "strength": 2.09,
+      "visits": 1,
       "places": [
         {
           "title": "Geldoff",
@@ -12899,7 +12926,9 @@
           "url": "https://en.wikipedia.org/wiki/Geldoff",
           "text": "Geldoff is the name of three fictional characters appearing in American comic books published by Marvel Comics. The first appeared in the Ultimate Marvel Universe's Ultimate Spider-Man #40 (July 2003) written by Brian Michael Bendis with art from Mark Bagley, and set in the alternate continuity of Earth-1610. The second Geldoff was introduced to the main continuity of Earth-616 by Dan Slott and Christos N. Gage in Avengers: The Initiative #8 (February 2008), where he was given the code name, Proton. The third Geldoff, named Geldhoff and also existing on Earth-616 (also created by Brian Michael Bendis, with Kris Anka) was introduced Uncanny X-Men (vol. 3) #15.INH (December 2013), part of the Inhumanity event series.\nAll three versions of Geldoff are depicted a Latverian orphan, who was adopted by an American couple and moved to New York, where he studied at Queens, before developing the power to generate and discharge explosive energy balls, all three in different ways.\n[Fictional character biography]\nGeldoff is a Latverian orphan, a lost heir to the Von Doom family who was adopted by an American couple and became an exchange student in New York City. While drunk at a party, Geldoff destroys several cars with his powers. Aware of Geldoff's rampages, Spider-Man denounces his irresponsible behavior. When the police arrive, Spider-Man leaves, with Geldoff clinging to his back.\nSpider-Man tries to convince Geldoff the error of his ways. When Spider-Man pauses to foil a robbery, Ge"
         }
-      ]
+      ],
+      "last_visit": "2026-11-25",
+      "last_dote": "2026-11-25T04:19-05:00"
     },
     {
       "name": "{'Ziemiańska': 'a cultural treasure'}",
@@ -12923,17 +12952,17 @@
       ]
     },
     {
-      "name": "{\"Canzuni D'Amuri\": 'calm', \"Lu Matrimoniu Tirituppi e T'app",
-      "why": "Wow, the Calandra brothers are quite the talented duo! Their music videos have won so many awards.",
+      "name": "{'Ancient myths': \"Pangu's creation story\", 'Folk myths and ",
+      "why": "",
       "since": "2026-11-25",
-      "strength": 1.0,
+      "strength": 1.3,
       "visits": 0,
       "places": [
         {
-          "title": "Calandra & Calandra",
+          "title": "Chinese mythology",
           "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Calandra_%26_Calandra",
-          "text": "Calandra & Calandra are an Italian musical duo formed by the two brothers Maurizio Calandra (Alcamo, 1 October 1969) and Giuseppe Calandra (Alcamo, 7 April 1960); the duo has been active since the 1990s.\n[Biography]\nIn 2006 Calandra & Calandra performed a modern reinterpretation of Sicilian folk and popular music with other musical influences. In 2014 they produced and realized the event Premio Internazionale Tenchiu’ Sicily,  later endorsed by the Regional Department of Culture.\nRecently, in April 2017, they were the winners of the VideoFestival Città di Imperia 2017 with the best videoclip (prize given by the Lord Mayor of Imperia)\n[Prizes and acknowledgments]\nContest La Canzone dell'Estate 2013; “Ora Musica”, and the broadcasting of the song \"Sicilianu Tipu Stranu'\"\nAt the 2014 CortiSonanti Prize in Naples: Special Prize for the best photography, and the second place for the category Videoclip (with \"Lu Matrimoniu\"), after a video clip produced in Great Britain.\n[With \"Sicilianu Tipu Stranu\"]\n(song written and put to music by Giuseppe and Maurizio Calandra)\n1st prize won at the Taranto Summer Festival Cafè, as the best video (24 July 2011)\n1st prize won at the Gravina di Catania Non è mai troppo Corto,  as the best script (2011)\n1st prize won in Gravina di Catania at the Non è mai troppo Corto (July/August 2011)\n1st prize won at the Catania State Akkorti, as the best Sicilian song (6 August 2011)\n1st prize won in Alcamo at Cortiamo, as the best video (December 2011)\n1st pr"
+          "url": "https://en.wikipedia.org/wiki/Chinese_mythology",
+          "text": "Chinese mythology (traditional Chinese: 中國神話; simplified Chinese: 中国神话; pinyin: Zhōngguó shénhuà), is mythology that has been passed down in oral form or recorded in literature throughout the area now known as Greater China. Chinese mythology encompasses a diverse array of myths derived from regional and cultural traditions. Populated with engaging narratives featuring extraordinary individuals and beings endowed with magical powers, these stories often unfold in fantastical mythological realms or historical epochs. Similar to numerous other mythologies, Chinese mythology has historically been regarded, at least partially, as a factual record of the past.\nAlong with Chinese folklore, Chinese mythology forms an important part of Chinese folk religion and of religious Taoism. Many narratives recounting characters and events from ancient times exhibit a dual tradition: one that presents a more historicized or euhemerized interpretation, and another that offers a more mythological perspective.\nNumerous myths delve into the creation and cosmology of the universe, exploring the origins of deities and heavenly inhabitants. Some narratives specifically address the topic of creation, unraveling the beginnings of things, people, and culture. Additionally, certain myths are dedicated to the genesis of the Chinese state. A subset of myths provides a chronology of prehistoric times, often featuring a culture hero who taught people essential skills ranging from building houses and cooking "
         }
       ]
     }
@@ -12946,198 +12975,251 @@
     "updated": "2026-11-25T02:35-05:00"
   },
   "senses": {
-    "stimulation": 0.348,
-    "energy": 0.09,
+    "stimulation": 0.305,
+    "energy": 0.0,
     "recent": [
       [
-        "random",
-        "surprises",
-        "wikipedia"
+        "closer",
+        "discovery",
+        "gardens",
+        "learn",
+        "look"
       ],
       [
-        "calandra",
-        "italy",
-        "learn",
-        "musical",
+        "area",
+        "discovery",
+        "dubai",
+        "gardens",
+        "greenest",
+        "hidden",
+        "idea",
+        "love",
+        "place",
         "sounds"
       ],
       [
-        "excitement",
-        "human",
-        "share",
-        "write"
+        "date",
+        "happened",
+        "history",
+        "today"
       ],
       [
-        "connections",
-        "find",
-        "mythology",
-        "other",
-        "peng",
-        "search",
-        "surprises",
-        "topics"
-      ],
-      [
-        "connections",
-        "find",
-        "mythology",
-        "other",
-        "peng",
-        "search",
-        "surprises",
-        "topics"
-      ],
-      [
-        "better",
-        "closer",
-        "curiosity",
-        "look"
-      ],
-      [
-        "brothers",
-        "calandra",
-        "eclectic",
-        "music",
-        "sensation",
-        "sicilian",
-        "style",
-        "sure"
-      ],
-      [
-        "awards",
-        "calandra",
+        "anti",
+        "comintern",
+        "dark",
         "fascinating",
-        "human",
-        "tell",
-        "write"
+        "history",
+        "november",
+        "pact"
       ],
       [
+        "between",
+        "closer",
+        "connection",
+        "curious",
+        "look",
+        "mythology",
+        "peng",
+        "suraj",
+        "work",
+        "yengde"
+      ],
+      [
+        "challenged",
+        "earlier",
+        "economic",
+        "events",
+        "fascinating",
+        "happened",
+        "november",
+        "policy",
+        "thatcher",
+        "wonder"
+      ],
+      [
+        "connections",
+        "fascinating",
+        "found",
+        "note",
+        "remember",
+        "today"
+      ],
+      [
+        "characters",
         "connections",
         "explore",
         "fascinating",
-        "mythologies",
-        "mythology",
+        "geldoff",
+        "marvel",
         "other",
-        "peng",
-        "search",
-        "topics",
-        "world"
+        "page",
+        "visit",
+        "wikipedia"
       ],
       [
-        "connections",
-        "explore",
+        "alternate",
+        "anti",
+        "behind",
+        "complexities",
+        "delighted",
+        "different",
+        "ethics",
+        "experimentation",
+        "fact",
         "fascinating",
-        "mythologies",
-        "mythology",
-        "other",
+        "geldhoff",
+        "geldoff",
+        "genetic",
+        "hero",
+        "inhuman",
+        "intriguing",
+        "love",
+        "makes",
+        "powers",
+        "professor",
+        "proton",
+        "provoking",
+        "recognizes",
+        "research",
+        "revisiting",
+        "story",
+        "thought",
+        "universes",
+        "versions",
+        "wonder",
+        "xavier"
+      ],
+      [
+        "back",
+        "calls",
+        "fascinating",
+        "geldoff",
+        "story",
+        "visit"
+      ],
+      [
+        "assam",
+        "chinese",
+        "culture",
+        "enigmatic",
+        "hope",
+        "limitless",
+        "love",
+        "majestic",
+        "market",
+        "none",
         "peng",
-        "search",
-        "topics",
-        "world"
+        "pokok",
+        "possibilities",
+        "remembered",
+        "simpang",
+        "symbol"
       ],
       [
-        "awards",
-        "brothers",
-        "calandra",
-        "closer",
-        "look"
+        "asian",
+        "connections",
+        "fascinating",
+        "folklore",
+        "mythology",
+        "peng",
+        "southeast",
+        "visit",
+        "wikipedia"
       ],
       [
-        "awards",
-        "brothers",
-        "calandra",
+        "amazing",
+        "assam",
+        "back",
+        "bird",
+        "came",
+        "contexts",
+        "different",
+        "fascinating",
+        "glad",
+        "idea",
+        "interpreted",
+        "love",
         "many",
-        "music",
-        "talented",
-        "videos"
-      ],
-      [
-        "connections",
-        "curious",
-        "intersections",
-        "mythology",
-        "other",
+        "market",
+        "none",
         "peng",
-        "relationships",
-        "search",
-        "topics"
+        "philosophy",
+        "poetry",
+        "pokok",
+        "remembered",
+        "simpang",
+        "symbolism",
+        "used",
+        "visit",
+        "ways"
       ],
       [
-        "connections",
-        "curious",
-        "intersections",
-        "mythology",
-        "other",
-        "peng",
-        "relationships",
-        "search",
-        "topics"
-      ],
-      [
-        "between",
-        "connections",
-        "fascinating",
-        "follow",
-        "mythological",
-        "mythology",
-        "other",
-        "peng",
-        "search",
-        "topics"
-      ],
-      [
-        "chinese",
-        "done",
-        "exploring",
-        "fascinating",
-        "mythology"
-      ],
-      [
-        "between",
-        "connections",
-        "exciting",
-        "find",
-        "intersections",
-        "mythology",
-        "other",
-        "peng",
-        "search",
-        "topics"
-      ],
-      [
-        "between",
-        "connections",
-        "exciting",
-        "find",
-        "intersections",
-        "mythology",
-        "other",
-        "peng",
-        "search",
-        "topics"
-      ],
-      [
-        "between",
-        "connections",
         "explore",
         "fascinating",
-        "links",
-        "mythologies",
         "mythology",
-        "other",
         "peng",
-        "search"
+        "tales",
+        "visit",
+        "wikipedia"
       ],
       [
-        "chinese",
-        "enticing",
+        "explore",
+        "fascinating",
         "mythology",
-        "read",
-        "title",
-        "usual"
+        "peng",
+        "visit",
+        "wikipedia"
+      ],
+      [
+        "another",
+        "detour",
+        "fascinating",
+        "time",
+        "visit"
+      ],
+      [
+        "characters",
+        "connections",
+        "explore",
+        "geldoff",
+        "marvel",
+        "other",
+        "search",
+        "story"
+      ],
+      [
+        "characters",
+        "comics",
+        "connected",
+        "geldoff",
+        "list",
+        "marvel",
+        "starting",
+        "whole",
+        "wonder"
+      ],
+      [
+        "characters",
+        "connections",
+        "geldoff",
+        "learn",
+        "marvel",
+        "other",
+        "search",
+        "story"
+      ],
+      [
+        "characters",
+        "connections",
+        "geldoff",
+        "learn",
+        "marvel",
+        "other",
+        "search",
+        "story"
       ]
     ],
-    "last": "fresh"
+    "last": "the same as before"
   },
   "lessons": [
     {
@@ -13161,7 +13243,7 @@
       "because": "Revisiting old interests can spark new connections and keep my curiosity alive even on days when everything feels too big."
     }
   ],
-  "reflect_points": 115,
+  "reflect_points": 138,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement. I'll ensure I maintain curiosity by exploring without expectations while also being mindfu",
     "made": "2026-11-25",
@@ -13295,142 +13377,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-23T20:10-05:00",
-      "move": "go",
-      "detail": "SEARCH: American Basketball Association's underdog story again to learn more about their history",
-      "reason": "Curiosity is piqued!",
-      "fallback": false,
-      "emoji": "🏀💡"
-    },
-    {
-      "time": "2026-11-23T20:14-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "More to learn about Shaq's amazing career!",
-      "fallback": false,
-      "emoji": "👀"
-    },
-    {
-      "time": "2026-11-23T20:16-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "learn more about Shaquille O'Neal's history 🏀",
-      "fallback": false,
-      "emoji": "📚👍"
-    },
-    {
-      "time": "2026-11-23T20:17-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "📚👍"
-    },
-    {
-      "time": "2026-11-23T20:19-05:00",
-      "move": "go",
-      "detail": "SEARCH: Shaq Fu (rap album)",
-      "reason": "explore Shaquille O'Neal's rap career",
-      "fallback": false,
-      "emoji": "🎶😄"
-    },
-    {
-      "time": "2026-11-23T20:23-05:00",
-      "move": "go",
-      "detail": "SEARCH: American Basketball Association's underdog story",
-      "reason": "You look up American Basketball Association's underdog story again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": "🔍💻"
-    },
-    {
-      "time": "2026-11-23T20:24-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "Shaq Fu's rap album is fascinating me!",
-      "fallback": false,
-      "emoji": "🎤💭"
-    },
-    {
-      "time": "2026-11-23T20:25-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🎤💭"
-    },
-    {
-      "time": "2026-11-23T20:27-05:00",
-      "move": "go",
-      "detail": "SEARCH: American Basketball Association's underdog story again",
-      "reason": "Want to learn more about their history 🤔💡",
-      "fallback": false,
-      "emoji": "📚💻"
-    },
-    {
-      "time": "2026-11-23T21:07-05:00",
-      "move": "go",
-      "detail": "SEARCH: American Basketball Association's underdog story again",
-      "reason": "You look up American Basketball Association's underdog story again again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": "🤔📚"
-    },
-    {
-      "time": "2026-11-23T21:10-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "I want to learn more about the movie Goat!",
-      "fallback": false,
-      "emoji": "🎥"
-    },
-    {
-      "time": "2026-11-23T21:12-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🎥"
-    },
-    {
-      "time": "2026-11-23T21:16-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "I'm intrigued by the Goat film's plot!",
-      "fallback": false,
-      "emoji": "🐐📚"
-    },
-    {
-      "time": "2026-11-23T21:18-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🐐📚"
-    },
-    {
-      "time": "2026-11-23T21:22-05:00",
-      "move": "note",
-      "detail": "",
-      "reason": "Log the interesting fact I find in this article later.",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-23T21:25-05:00",
-      "move": "go",
-      "detail": "RANDOM",
-      "reason": "Discover new wonder, again!",
-      "fallback": false,
-      "emoji": "🤔💡"
-    },
-    {
-      "time": "2026-11-23T21:29-05:00",
-      "move": "note",
-      "detail": "",
-      "reason": "Remember interesting fact about Rinyakovácsi",
-      "fallback": false,
-      "emoji": ""
-    },
     {
       "time": "2026-11-23T22:04-05:00",
       "move": "go",
@@ -15694,17 +15640,153 @@
       "reason": "explore more fascinating links",
       "fallback": false,
       "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-25T04:04-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "delve deeper into Chinese mythology fascinations",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-25T04:05-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-25T04:06-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Curious about the connections between Peng mythology and other topics.",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-25T04:08-05:00",
+      "move": "go",
+      "detail": "SPACE: <something> (NASA's picture archive)",
+      "reason": "Explore more wonders of the universe!",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-25T04:10-05:00",
+      "move": "go",
+      "detail": "Erovnuli Liga 2: Georgia football league",
+      "reason": "Curious about Georgian football leagues",
+      "fallback": false,
+      "emoji": "⚽️🔍"
+    },
+    {
+      "time": "2026-11-25T04:12-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Want to learn more about Discovery Gardens",
+      "fallback": false,
+      "emoji": "📚💡"
+    },
+    {
+      "time": "2026-11-25T04:13-05:00",
+      "move": "go",
+      "detail": "ON THIS DAY",
+      "reason": "See what happened on today's date in history!",
+      "fallback": false,
+      "emoji": "🕰️💭"
+    },
+    {
+      "time": "2026-11-25T04:15-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Curious about the connection between Peng mythology and Suraj Yengde's work",
+      "fallback": false,
+      "emoji": "🤔💡"
+    },
+    {
+      "time": "2026-11-25T04:17-05:00",
+      "move": "note",
+      "detail": "",
+      "reason": "remember the fascinating connections found so far today!",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-25T04:18-05:00",
+      "move": "visit",
+      "detail": "Geldoff's Wikipedia page and connections to other Marvel characters",
+      "reason": "Fascinating connections to explore!",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-25T04:20-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "Geldoff's fascinating story calls me back!",
+      "fallback": false,
+      "emoji": "🤔💡"
+    },
+    {
+      "time": "2026-11-25T04:21-05:00",
+      "move": "visit",
+      "detail": "Peng mythology on Wikipedia again",
+      "reason": "Fascinating connections to Southeast Asian folklore",
+      "fallback": false,
+      "emoji": "🤓💡"
+    },
+    {
+      "time": "2026-11-25T04:23-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🤓💡"
+    },
+    {
+      "time": "2026-11-25T04:24-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🤓💡"
+    },
+    {
+      "time": "2026-11-25T04:25-05:00",
+      "move": "visit",
+      "detail": "",
+      "reason": "You go back, but it's exactly as you left it and it doesn't give you the same feeling.",
+      "fallback": true,
+      "emoji": "🤓💡"
+    },
+    {
+      "time": "2026-11-25T04:25-05:00",
+      "move": "go",
+      "detail": "SEARCH: Geldoff connections to other Marvel characters",
+      "reason": "Explore more of Geldoff's story",
+      "fallback": false,
+      "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-25T04:28-05:00",
+      "move": "go",
+      "detail": "SEARCH: Geldoff connections to other Marvel characters",
+      "reason": "You look up Geldoff connections to other Marvel characters again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🕵️♂️💡"
     }
   ],
   "recent_trips": [
-    "SPACE:concepción",
-    "SEARCH:suraj yengde's wikipedia page",
     "SEARCH:peng mythology connections to other topics",
     "SPACE:peng mythology connections to other topics in nasa's pictures archive",
     "SEARCH:ferrari connections to colonial-era infrastructure development",
     "SEARCH:connections between peng mythology and southeast asian folklore",
     "SEARCH:connections between peng mythology and other topics",
-    "SEARCH:connections between peng mythology and other mythologies"
+    "SEARCH:connections between peng mythology and other mythologies",
+    "SPACE:something> (nasa's picture archive)",
+    "SEARCH:geldoff connections to other marvel characters"
   ],
   "sheet": {
     "What he cares about": [
