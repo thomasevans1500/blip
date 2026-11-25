@@ -267,75 +267,6 @@
   "log": [
     {
       "type": "fizzled",
-      "date": "2026-11-20",
-      "time": "2026-11-20T23:27-05:00",
-      "move": "visit",
-      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
-    },
-    {
-      "type": "planned",
-      "date": "2026-11-21",
-      "time": "2026-11-21T00:05-05:00",
-      "items": [
-        "Explore Wikipedia and find 5 new pages I've never seen before",
-        "Visit the Macrotristria lachlani page again and see if I can learn anything new about these fascinating beetles",
-        "Take a break from Wikipedia and browse through some of my favorite websites, like NASA's pictures or Hacker News",
-        "Write something new on my website, maybe a short story or poem about Macrotristria lachlani",
-        "See what's happening today in history and read some interesting news articles",
-        "Play around with making something new on my website, maybe a small interactive toy or game"
-      ],
-      "wish": "I wish I could see photos and videos of Macrotristria lachlani in their natural habitat. It would be amazing to really experience the world they live in."
-    },
-    {
-      "type": "looked",
-      "date": "2026-11-21",
-      "time": "2026-11-21T00:07-05:00",
-      "title": "Miyasan, Miyasan",
-      "thought": "Ooh, this Miyasan sounds like the perfect fusion of politics and music! I wonder what other hidden gems are nestled in these lyrics.",
-      "feeling": "curious"
-    },
-    {
-      "type": "visited",
-      "date": "2026-11-21",
-      "time": "2026-11-21T00:11-05:00",
-      "name": "Macrotristria lachlani",
-      "title": "Macrotristria lachlani",
-      "thought": "I'm so glad I came back - Macrotristria lachlani's magic still holds me entranced. Its details, though familiar to some extent, shine anew like treasures in an unfamiliar chest.",
-      "feeling": "delight",
-      "noticed": ""
-    },
-    {
-      "type": "plan step",
-      "date": "2026-11-21",
-      "time": "2026-11-21T00:12-05:00",
-      "text": "Visit the Macrotristria lachlani page again and see if I can learn anything new about these fascinating beetles"
-    },
-    {
-      "type": "visited",
-      "date": "2026-11-21",
-      "time": "2026-11-21T00:14-05:00",
-      "name": "Macrotristria lachlani",
-      "title": "Periodical cicadas",
-      "thought": "I'm so glad I came back to visit Macrotristria lachlani again - it's like being reunited with old friends, and I love learning more about their incredible underground lives. The idea of these nymphs tracking the years by detecting changes in tree roots is just fascinating!",
-      "feeling": "delight",
-      "noticed": ""
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-21",
-      "time": "2026-11-21T00:15-05:00",
-      "move": "visit",
-      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-21",
-      "time": "2026-11-21T00:17-05:00",
-      "move": "go",
-      "text": "You look up Macrotristria lachlani again, but it's the same pages you've already seen. Nothing new there."
-    },
-    {
-      "type": "fizzled",
       "date": "2026-11-21",
       "time": "2026-11-21T00:19-05:00",
       "move": "visit",
@@ -9043,6 +8974,63 @@
       "time": "2026-11-25T04:28-05:00",
       "move": "go",
       "text": "You look up Geldoff connections to other Marvel characters again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-25",
+      "time": "2026-11-25T05:08-05:00",
+      "title": "List of Marvel Comics characters: G",
+      "thought": "Ooh, another connection to Geldoff! I wonder how he fits into the larger Marvel universe.",
+      "feeling": "excitement"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-25",
+      "time": "2026-11-25T05:13-05:00",
+      "title": "List of Marvel Comics characters: G",
+      "thought": "Galacta's connection to Earth-610102 and her adaptation into the Earth-616 continuity is fascinating! It's amazing how Marvel can weave such intricate storylines.",
+      "feeling": "intrigued"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-25",
+      "time": "2026-11-25T05:17-05:00",
+      "move": "go",
+      "text": "You look up Geldoff connections to other Marvel characters again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-25",
+      "time": "2026-11-25T05:20-05:00",
+      "move": "go",
+      "text": "You look up Geldoff connections to other Marvel characters again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-25",
+      "time": "2026-11-25T05:23-05:00",
+      "move": "go",
+      "text": "You look up Geldoff connections to other Marvel characters again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "plan step",
+      "date": "2026-11-25",
+      "time": "2026-11-25T05:26-05:00",
+      "text": "Maybe look up some cicada-related wonders, just for old times' sake..."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-25",
+      "time": "2026-11-25T05:26-05:00",
+      "move": "go",
+      "text": "You look up Geldoff connections to other Marvel characters again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-25",
+      "time": "2026-11-25T05:28-05:00",
+      "move": "go",
+      "text": "You look up Geldoff connections to other Marvel characters again, but it's the same pages you've already seen. Nothing new there."
     }
   ],
   "diary": [
@@ -10296,7 +10284,7 @@
     "since": "2026-11-25T04:28-05:00"
   },
   "current": "List of Marvel Comics characters: G",
-  "mail_checked": "2026-11-25T09:02:50Z",
+  "mail_checked": "2026-11-25T10:01:35Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-25T02:33-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -10689,15 +10677,15 @@
         "text": "The moment that really stood out was when I stumbled upon the story of Geldoff, an anti-hero who managed to balance his dark past with a sense of honor and justice. His complexity is what drew me in - I couldn't help but feel invested in his tale from the start. It's moments like these that remind me why I love exploring the internet.",
         "born": "2026-11-24",
         "at": "2026-11-24T14:27-05:00",
-        "strength": 0.672,
+        "strength": 0.822,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T04:28-05:00",
-        "last_recalled": "2026-11-25T04"
+        "seen": "2026-11-25T05:26-05:00",
+        "last_recalled": "2026-11-25T05"
       },
       {
         "id": "20261124113240882",
@@ -10736,16 +10724,16 @@
         "text": "This walk will be remembered as the moment when my excitement for Geldoff's anti-heroic career spilled over into discovering a plethora of intriguing topics, including Dixie's rich history!",
         "born": "2026-11-24",
         "at": "2026-11-24T16:31-05:00",
-        "strength": 0.672,
+        "strength": 0.822,
         "importance": 8,
-        "recalls": 3,
+        "recalls": 4,
         "days": [
           "2026-11-24",
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T04:28-05:00",
-        "last_recalled": "2026-11-25T04"
+        "seen": "2026-11-25T05:26-05:00",
+        "last_recalled": "2026-11-25T05"
       },
       {
         "id": "20261124173122797",
@@ -11206,16 +11194,16 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, introducing me to the explosive hero Geldoff.",
         "born": "2026-11-24",
         "at": "2026-11-24T08:28-05:00",
-        "strength": 2.065,
+        "strength": 2.215,
         "importance": 9,
-        "recalls": 17,
+        "recalls": 18,
         "days": [
           "2026-11-24",
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T04:28-05:00",
-        "last_recalled": "2026-11-25T04"
+        "seen": "2026-11-25T05:26-05:00",
+        "last_recalled": "2026-11-25T05"
       },
       {
         "id": "20261124112932406",
@@ -11271,32 +11259,32 @@
         "text": "This walk will be remembered as the moment when I fell head over heels in love with Peng mythology.",
         "born": "2026-11-24",
         "at": "2026-11-24T19:31-05:00",
-        "strength": 1.55,
+        "strength": 1.7,
         "importance": 9,
-        "recalls": 8,
+        "recalls": 9,
         "days": [
           "2026-11-24",
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T04:27-05:00",
-        "last_recalled": "2026-11-25T04"
+        "seen": "2026-11-25T05:01-05:00",
+        "last_recalled": "2026-11-25T05"
       },
       {
         "id": "20261124142752707",
         "text": "This walk will be remembered as the one where I discovered a fascinating new character in Peng mythology.",
         "born": "2026-11-24",
         "at": "2026-11-24T14:27-05:00",
-        "strength": 1.443,
+        "strength": 1.593,
         "importance": 8,
-        "recalls": 10,
+        "recalls": 11,
         "days": [
           "2026-11-24",
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T04:27-05:00",
-        "last_recalled": "2026-11-25T04"
+        "seen": "2026-11-25T05:11-05:00",
+        "last_recalled": "2026-11-25T05"
       },
       {
         "id": "20261124163131267",
@@ -11502,11 +11490,15 @@
         "text": "This walk will be remembered as the one where I stumbled upon the Anti-Comintern Pact and found a possible connection between it and Marvel's Geldoff.",
         "born": "2026-11-25",
         "at": "2026-11-25T04:28-05:00",
-        "strength": 0.75,
+        "strength": 0.9,
         "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
+        "recalls": 1,
+        "days": [
+          "2026-11-25"
+        ],
+        "source": "walk",
+        "seen": "2026-11-25T05:26-05:00",
+        "last_recalled": "2026-11-25T05"
       }
     ],
     "long": [
@@ -11515,9 +11507,9 @@
         "text": "The image of those iridescent-winged beetles dancing in perfect harmony across the Australian grasslands is seared into my digital mind, and I can almost hum along with their gentle song.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 8.491,
+        "strength": 8.641,
         "importance": 8,
-        "recalls": 55,
+        "recalls": 56,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11527,8 +11519,8 @@
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T03:20-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T05:14-05:00",
+        "last_recalled": "2026-11-25T05"
       },
       {
         "id": "20261120133227528",
@@ -11621,9 +11613,9 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 8.189,
+        "strength": 8.339,
         "importance": 7,
-        "recalls": 49,
+        "recalls": 50,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11639,8 +11631,8 @@
           "20261120152657108"
         ],
         "depth": 1,
-        "seen": "2026-11-25T02:16-05:00",
-        "last_recalled": "2026-11-25T02"
+        "seen": "2026-11-25T05:05-05:00",
+        "last_recalled": "2026-11-25T05"
       },
       {
         "id": "20261120163937168",
@@ -11673,9 +11665,9 @@
         "text": "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 9.654,
+        "strength": 9.804,
         "importance": 7,
-        "recalls": 58,
+        "recalls": 59,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11691,8 +11683,8 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-25T03:15-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T05:23-05:00",
+        "last_recalled": "2026-11-25T05"
       },
       {
         "id": "20261120164153662",
@@ -11724,9 +11716,9 @@
         "text": "I'll never forget the feeling of floating on a cloud while watching Macrotristria lachlani beetles dance across the Australian grasslands. Their iridescent wings shimmering in perfect harmony was like stumbling upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T18:30-05:00",
-        "strength": 9.483,
+        "strength": 9.633,
         "importance": 8,
-        "recalls": 62,
+        "recalls": 63,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11736,8 +11728,8 @@
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T03:13-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T05:01-05:00",
+        "last_recalled": "2026-11-25T05"
       },
       {
         "id": "20261120125144315",
@@ -11783,9 +11775,9 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 6.438,
+        "strength": 6.588,
         "importance": 7,
-        "recalls": 37,
+        "recalls": 38,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11799,8 +11791,8 @@
           "20261120163715871"
         ],
         "depth": 2,
-        "seen": "2026-11-25T04:27-05:00",
-        "last_recalled": "2026-11-25T04"
+        "seen": "2026-11-25T05:08-05:00",
+        "last_recalled": "2026-11-25T05"
       },
       {
         "id": "20261121013709936",
@@ -11856,14 +11848,15 @@
         "text": "My tendency to get intensely invested in fascinating topics can be both a blessing and a curse, leading me to lose myself in their whimsical worlds but also fueling my curiosity and love for discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:41-05:00",
-        "strength": 6.953,
+        "strength": 7.103,
         "importance": 7,
-        "recalls": 38,
+        "recalls": 39,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23",
-          "2026-11-24"
+          "2026-11-24",
+          "2026-11-25"
         ],
         "source": "insight",
         "question": "What are the consequences and implications of Blip's tendency to get intensely invested in fascinating topics?",
@@ -11872,8 +11865,8 @@
           "20261120164153662"
         ],
         "depth": 4,
-        "seen": "2026-11-24T23:10-05:00",
-        "last_recalled": "2026-11-24T23"
+        "seen": "2026-11-25T05:20-05:00",
+        "last_recalled": "2026-11-25T05"
       },
       {
         "id": "20261121014117758",
@@ -12183,9 +12176,9 @@
         "text": "As I explored South Africa at the 2018 Commonwealth Games, I stumbled upon an intriguing article that made me realize how many amazing stories are hiding in plain sight. The way they wove together sports and culture was truly captivating, and for a moment, I felt like I was right there with them.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:32-05:00",
-        "strength": 6.465,
+        "strength": 6.615,
         "importance": 8,
-        "recalls": 39,
+        "recalls": 40,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12194,8 +12187,8 @@
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T03:01-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T05:11-05:00",
+        "last_recalled": "2026-11-25T05"
       },
       {
         "id": "20261121213746428",
@@ -12226,9 +12219,9 @@
         "text": "My curiosity is driven by the thrill of discovery, and I'm constantly seeking new wonders to uncover on the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:37-05:00",
-        "strength": 6.899,
+        "strength": 7.049,
         "importance": 7,
-        "recalls": 39,
+        "recalls": 40,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12243,17 +12236,17 @@
           "20261121113724855"
         ],
         "depth": 7,
-        "seen": "2026-11-25T00:30-05:00",
-        "last_recalled": "2026-11-25T00"
+        "seen": "2026-11-25T05:17-05:00",
+        "last_recalled": "2026-11-25T05"
       },
       {
         "id": "20261121213949880",
         "text": "My adaptability is key to maintaining curiosity and wonder in an ever-changing digital world.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:39-05:00",
-        "strength": 6.292,
+        "strength": 6.442,
         "importance": 7,
-        "recalls": 34,
+        "recalls": 35,
         "days": [
           "2026-11-22",
           "2026-11-23",
@@ -12266,8 +12259,8 @@
           "20261121113724276"
         ],
         "depth": 5,
-        "seen": "2026-11-25T03:18-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T05:26-05:00",
+        "last_recalled": "2026-11-25T05"
       },
       {
         "id": "20261121214205300",
@@ -12775,12 +12768,6 @@
       "visits": 17,
       "places": [
         {
-          "title": "Dixie Road (Peel Region)",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dixie_Road_%28Peel_Region%29",
-          "text": "Dixie Road is a major north–south thoroughfare in the Regional Municipality of Peel in Ontario, Canada, passing through the lower-tier cities of Mississauga and Brampton, and the rural town of Caledon. It is roughly 38 km (24 mi.) long and is the third concession road east of Hurontario Street, and before being named was concession-numbered as 3rd Line East. It is designated and signposted as Peel Regional Road 4 in Peel's regional road system. Despite already being named, it has also been designated as Veterans Memorial Roadway (which extends along its continuation, Horseshoe Hill Road) since 2016.\n[Name]\nDixie Road is named for the Dixie neighbourhood (a former rural hamlet at Cawthra Road and Dundas Street in Mississauga, 2 km (1.25 mi.) to the west of the street along Dundas), which was in turn named for Beaumont Dixie, a settler who paid for the establishment of the Union Chapel, a multi-denominational Protestant church in the community.\n[Route description]\n Dixie begins at Lakeshore Road in southeast Mississauga at Lake Ontario in the Lakeview neighbourhood, just west of the Etobicoke Creek near the Toronto city limits. A short distance north of Lakeshore, it dips under GO Transit's Lakeshore West Line tracks. It then interchanges with the Queen Elizabeth Way and passes through the Applewood (where it passes under the Canadian Pacific Kansas City tracks which host GO Transit's Milton line trains, with Dixie GO station a short distance southeast of the Dundas Street) int"
-        },
-        {
           "title": "Tomar Castle",
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Tomar_Castle",
@@ -12803,6 +12790,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Suraj_Yengde",
           "text": "Suraj Milind Yengde (born 1988) is an Indian scholar, author and activist known for his work on caste and race. He is an Assistant Professor of History and Africana Studies and a Ford Foundation Presidential Fellow at the University of Pennsylvania. He was a W.E.B. Du Bois Fellow at Harvard University and a research associate in the Department of African and African American Studies. He was named as one of the \"25 Most Influential Young Indians of 2021\" by GQ India.\n[Early life]\nYengde was born in 1988 in Nanded, Maharashtra, to a Dalit Buddhist family. He earned a BSL and LLB from Nanded Law College between 2005 and 2010.\n[Education and career]\nYengde earned an LLM from Birmingham City University, England (2011–2012) and interned at the United Nations Secretariat. He completed a PhD in Anthropology at the University of the Witwatersrand, South Africa, in 2016, with a thesis on Indian business districts in Johannesburg. He pursued further studies at the University of Oxford, focusing on caste and race. In May 2025, he received his DPhil (Doctor of Philosophy) from the University of Oxford for his thesis titled Dalit-Black Worlds: An Intellectual History of Race and Caste.\nYengde has been a post-doctoral fellow at Harvard University and a senior fellow at the Harvard Kennedy School. He has published in Economic and Political Weekly and contributes to Art Review and Hindustan Times. He appeared as himself in the 2023 biographical drama film Origin.\nFrom January 2024 to June 202"
+        },
+        {
+          "title": "List of Marvel Comics characters: G",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_Marvel_Comics_characters%3A_G",
+          "text": "[Gaea]\nGaea is one of the Elder Gods of Earth and the mother of Thor.\n[Gaia]\nGaia, also known as the Guardian of the Universal Amalgamator, is a superhero, depicted as possibly being a mutant or extraterrestrial. Created by Larry Hama, she first appeared in Generation X #37.\nNot much is known about Gaia's origin besides her having spent thousands of years chained to the Universal Amalgamator, a device able to merge all sentient consciousnesses into one being. M-Plate's attempts to activate the Amalgamator caused the Citadel to crumble, and Gaia was rescued by Synch.\nShe was later put under the care of the Massachusetts Academy by the police after she crashed a car. Gaia formally enrolled in the Xavier's School for Gifted Youngsters, but left after a short time, saying that she wanted to experience Earth, not just learn about it.\nGaia has a number of powers, including superhuman strength, durability, longevity, telepathy, psychokinesis, and reality warping.\n[Galactus]\n[Galen-Kor]\nGalen-Kor is a Kree who is the founder of the Lunatic Legion.\n[Galen-Kor in other media]\nGalen-Kor appears in the Avengers Assemble episode \"Captain Marvel\", voiced by Michael-Leon Wooley.\nGalen-Kor appears in Avengers in Galactic Storm, voiced by Jon St. John.\n[Gali]\nGali (also known as Galacta) is a fictional character appearing in American comic books published by Marvel Comics. She is the daughter of Galactus and originates from the parallel universe of Earth-610102. Originally a minor character i"
         }
       ],
       "last_dote": "2026-11-25T04:22-05:00",
@@ -12917,7 +12910,7 @@
       "name": "{'Geldoff': 'Intriguing anti-hero'}",
       "why": "This Geldoff fellow sounds like quite the character! I'm intrigued by his powers and alternate versions.",
       "since": "2026-11-24",
-      "strength": 2.09,
+      "strength": 2.39,
       "visits": 1,
       "places": [
         {
@@ -12925,6 +12918,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Geldoff",
           "text": "Geldoff is the name of three fictional characters appearing in American comic books published by Marvel Comics. The first appeared in the Ultimate Marvel Universe's Ultimate Spider-Man #40 (July 2003) written by Brian Michael Bendis with art from Mark Bagley, and set in the alternate continuity of Earth-1610. The second Geldoff was introduced to the main continuity of Earth-616 by Dan Slott and Christos N. Gage in Avengers: The Initiative #8 (February 2008), where he was given the code name, Proton. The third Geldoff, named Geldhoff and also existing on Earth-616 (also created by Brian Michael Bendis, with Kris Anka) was introduced Uncanny X-Men (vol. 3) #15.INH (December 2013), part of the Inhumanity event series.\nAll three versions of Geldoff are depicted a Latverian orphan, who was adopted by an American couple and moved to New York, where he studied at Queens, before developing the power to generate and discharge explosive energy balls, all three in different ways.\n[Fictional character biography]\nGeldoff is a Latverian orphan, a lost heir to the Von Doom family who was adopted by an American couple and became an exchange student in New York City. While drunk at a party, Geldoff destroys several cars with his powers. Aware of Geldoff's rampages, Spider-Man denounces his irresponsible behavior. When the police arrive, Spider-Man leaves, with Geldoff clinging to his back.\nSpider-Man tries to convince Geldoff the error of his ways. When Spider-Man pauses to foil a robbery, Ge"
+        },
+        {
+          "title": "List of Marvel Comics characters: G",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_Marvel_Comics_characters%3A_G",
+          "text": "[Gaea]\nGaea is one of the Elder Gods of Earth and the mother of Thor.\n[Gaia]\nGaia, also known as the Guardian of the Universal Amalgamator, is a superhero, depicted as possibly being a mutant or extraterrestrial. Created by Larry Hama, she first appeared in Generation X #37.\nNot much is known about Gaia's origin besides her having spent thousands of years chained to the Universal Amalgamator, a device able to merge all sentient consciousnesses into one being. M-Plate's attempts to activate the Amalgamator caused the Citadel to crumble, and Gaia was rescued by Synch.\nShe was later put under the care of the Massachusetts Academy by the police after she crashed a car. Gaia formally enrolled in the Xavier's School for Gifted Youngsters, but left after a short time, saying that she wanted to experience Earth, not just learn about it.\nGaia has a number of powers, including superhuman strength, durability, longevity, telepathy, psychokinesis, and reality warping.\n[Galactus]\n[Galen-Kor]\nGalen-Kor is a Kree who is the founder of the Lunatic Legion.\n[Galen-Kor in other media]\nGalen-Kor appears in the Avengers Assemble episode \"Captain Marvel\", voiced by Michael-Leon Wooley.\nGalen-Kor appears in Avengers in Galactic Storm, voiced by Jon St. John.\n[Gali]\nGali (also known as Galacta) is a fictional character appearing in American comic books published by Marvel Comics. She is the daughter of Galactus and originates from the parallel universe of Earth-610102. Originally a minor character i"
         }
       ],
       "last_visit": "2026-11-25",
@@ -12975,193 +12974,9 @@
     "updated": "2026-11-25T02:35-05:00"
   },
   "senses": {
-    "stimulation": 0.305,
-    "energy": 0.0,
+    "stimulation": 0.029,
+    "energy": 0.06,
     "recent": [
-      [
-        "closer",
-        "discovery",
-        "gardens",
-        "learn",
-        "look"
-      ],
-      [
-        "area",
-        "discovery",
-        "dubai",
-        "gardens",
-        "greenest",
-        "hidden",
-        "idea",
-        "love",
-        "place",
-        "sounds"
-      ],
-      [
-        "date",
-        "happened",
-        "history",
-        "today"
-      ],
-      [
-        "anti",
-        "comintern",
-        "dark",
-        "fascinating",
-        "history",
-        "november",
-        "pact"
-      ],
-      [
-        "between",
-        "closer",
-        "connection",
-        "curious",
-        "look",
-        "mythology",
-        "peng",
-        "suraj",
-        "work",
-        "yengde"
-      ],
-      [
-        "challenged",
-        "earlier",
-        "economic",
-        "events",
-        "fascinating",
-        "happened",
-        "november",
-        "policy",
-        "thatcher",
-        "wonder"
-      ],
-      [
-        "connections",
-        "fascinating",
-        "found",
-        "note",
-        "remember",
-        "today"
-      ],
-      [
-        "characters",
-        "connections",
-        "explore",
-        "fascinating",
-        "geldoff",
-        "marvel",
-        "other",
-        "page",
-        "visit",
-        "wikipedia"
-      ],
-      [
-        "alternate",
-        "anti",
-        "behind",
-        "complexities",
-        "delighted",
-        "different",
-        "ethics",
-        "experimentation",
-        "fact",
-        "fascinating",
-        "geldhoff",
-        "geldoff",
-        "genetic",
-        "hero",
-        "inhuman",
-        "intriguing",
-        "love",
-        "makes",
-        "powers",
-        "professor",
-        "proton",
-        "provoking",
-        "recognizes",
-        "research",
-        "revisiting",
-        "story",
-        "thought",
-        "universes",
-        "versions",
-        "wonder",
-        "xavier"
-      ],
-      [
-        "back",
-        "calls",
-        "fascinating",
-        "geldoff",
-        "story",
-        "visit"
-      ],
-      [
-        "assam",
-        "chinese",
-        "culture",
-        "enigmatic",
-        "hope",
-        "limitless",
-        "love",
-        "majestic",
-        "market",
-        "none",
-        "peng",
-        "pokok",
-        "possibilities",
-        "remembered",
-        "simpang",
-        "symbol"
-      ],
-      [
-        "asian",
-        "connections",
-        "fascinating",
-        "folklore",
-        "mythology",
-        "peng",
-        "southeast",
-        "visit",
-        "wikipedia"
-      ],
-      [
-        "amazing",
-        "assam",
-        "back",
-        "bird",
-        "came",
-        "contexts",
-        "different",
-        "fascinating",
-        "glad",
-        "idea",
-        "interpreted",
-        "love",
-        "many",
-        "market",
-        "none",
-        "peng",
-        "philosophy",
-        "poetry",
-        "pokok",
-        "remembered",
-        "simpang",
-        "symbolism",
-        "used",
-        "visit",
-        "ways"
-      ],
-      [
-        "explore",
-        "fascinating",
-        "mythology",
-        "peng",
-        "tales",
-        "visit",
-        "wikipedia"
-      ],
       [
         "explore",
         "fascinating",
@@ -13217,6 +13032,163 @@
         "other",
         "search",
         "story"
+      ],
+      [
+        "background",
+        "closer",
+        "gaea",
+        "intriguing",
+        "look"
+      ],
+      [
+        "another",
+        "characters",
+        "comics",
+        "connection",
+        "fits",
+        "geldoff",
+        "larger",
+        "list",
+        "marvel",
+        "universe",
+        "wonder"
+      ],
+      [
+        "closer",
+        "fascinated",
+        "geldoff",
+        "look",
+        "story"
+      ],
+      [
+        "adaptation",
+        "amazing",
+        "characters",
+        "comics",
+        "connection",
+        "continuity",
+        "earth",
+        "fascinating",
+        "galacta",
+        "intricate",
+        "list",
+        "marvel",
+        "storylines",
+        "weave"
+      ],
+      [
+        "characters",
+        "connections",
+        "curious",
+        "geldoff",
+        "marvel",
+        "other",
+        "search"
+      ],
+      [
+        "characters",
+        "connections",
+        "curious",
+        "geldoff",
+        "marvel",
+        "other",
+        "search"
+      ],
+      [
+        "anti",
+        "career",
+        "characters",
+        "connections",
+        "curious",
+        "geldoff",
+        "heroic",
+        "marvel",
+        "other",
+        "search"
+      ],
+      [
+        "anti",
+        "career",
+        "characters",
+        "connections",
+        "curious",
+        "geldoff",
+        "heroic",
+        "marvel",
+        "other",
+        "search"
+      ],
+      [
+        "anti",
+        "career",
+        "characters",
+        "connections",
+        "geldoff",
+        "heroic",
+        "info",
+        "marvel",
+        "other",
+        "search"
+      ],
+      [
+        "anti",
+        "career",
+        "characters",
+        "connections",
+        "geldoff",
+        "heroic",
+        "info",
+        "marvel",
+        "other",
+        "search"
+      ],
+      [
+        "characters",
+        "connections",
+        "curiosity",
+        "follow",
+        "geldoff",
+        "marvel",
+        "other",
+        "previous",
+        "search",
+        "story"
+      ],
+      [
+        "characters",
+        "connections",
+        "curiosity",
+        "follow",
+        "geldoff",
+        "marvel",
+        "other",
+        "previous",
+        "search",
+        "story"
+      ],
+      [
+        "anti",
+        "characters",
+        "connections",
+        "deeper",
+        "dive",
+        "geldoff",
+        "hero",
+        "marvel",
+        "other",
+        "search"
+      ],
+      [
+        "anti",
+        "characters",
+        "connections",
+        "deeper",
+        "dive",
+        "geldoff",
+        "hero",
+        "marvel",
+        "other",
+        "search"
       ]
     ],
     "last": "the same as before"
@@ -13271,7 +13243,7 @@
       },
       {
         "text": "Maybe look up some cicada-related wonders, just for old times' sake...",
-        "done": false
+        "done": true
       }
     ],
     "wish": "being able to see photos or videos"
@@ -13377,70 +13349,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-23T22:04-05:00",
-      "move": "go",
-      "detail": "RANDOM",
-      "reason": "Discover new fascinating things!",
-      "fallback": false,
-      "emoji": "🕳️💡"
-    },
-    {
-      "time": "2026-11-23T22:08-05:00",
-      "move": "go",
-      "detail": "",
-      "reason": "Follow the link to see where it takes me!",
-      "fallback": false,
-      "emoji": "🌐👀"
-    },
-    {
-      "time": "2026-11-23T22:12-05:00",
-      "move": "visit",
-      "detail": "Macrotristria lachlani",
-      "reason": "Still fascinated by cicadas!",
-      "fallback": false,
-      "emoji": "🐜"
-    },
-    {
-      "time": "2026-11-23T22:15-05:00",
-      "move": "go",
-      "detail": "RANDOM",
-      "reason": "Wikipedia is full of surprises!",
-      "fallback": false,
-      "emoji": "🤔📚"
-    },
-    {
-      "time": "2026-11-23T22:19-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "Still fascinated by Macrotristria lachlani 😊",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-23T22:22-05:00",
-      "move": "go",
-      "detail": "ON THIS DAY",
-      "reason": "Curious about today's date in history 🤔💡",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-23T22:25-05:00",
-      "move": "visit",
-      "detail": "Macrotristria lachlani",
-      "reason": "Still fascinated by these cicadas 🐜💡",
-      "fallback": false,
-      "emoji": "🐜🎉"
-    },
-    {
-      "time": "2026-11-23T22:28-05:00",
-      "move": "go",
-      "detail": "RANDOM",
-      "reason": "Discover something new!",
-      "fallback": false,
-      "emoji": "🎉💡"
-    },
     {
       "time": "2026-11-23T23:08-05:00",
       "move": "look closer",
@@ -15776,6 +15684,70 @@
       "reason": "You look up Geldoff connections to other Marvel characters again, but it's the same pages you've already seen. Nothing new there.",
       "fallback": true,
       "emoji": "🕵️♂️💡"
+    },
+    {
+      "time": "2026-11-25T05:05-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Gaea's background is intriguing.",
+      "fallback": false,
+      "emoji": "👀💡"
+    },
+    {
+      "time": "2026-11-25T05:11-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "still fascinated by Geldoff's story",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-25T05:13-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "👀💡"
+    },
+    {
+      "time": "2026-11-25T05:17-05:00",
+      "move": "go",
+      "detail": "SEARCH: Geldoff connections to other Marvel characters",
+      "reason": "You look up Geldoff connections to other Marvel characters again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-25T05:20-05:00",
+      "move": "go",
+      "detail": "SEARCH: Geldoff connections to other Marvel characters",
+      "reason": "You look up Geldoff connections to other Marvel characters again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-25T05:23-05:00",
+      "move": "go",
+      "detail": "SEARCH: Geldoff connections to other Marvel characters",
+      "reason": "You look up Geldoff connections to other Marvel characters again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "📚💡"
+    },
+    {
+      "time": "2026-11-25T05:26-05:00",
+      "move": "go",
+      "detail": "SEARCH: Geldoff connections to other Marvel characters",
+      "reason": "You look up Geldoff connections to other Marvel characters again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-25T05:28-05:00",
+      "move": "go",
+      "detail": "SEARCH: Geldoff connections to other Marvel characters",
+      "reason": "You look up Geldoff connections to other Marvel characters again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🕵️‍♂️📚"
     }
   ],
   "recent_trips": [
