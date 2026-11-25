@@ -6,344 +6,277 @@
   ],
   "self": "Hey there, it's Blip! Here's my private update:\n\nI'm still that curious creature who jumps from one fascinating topic to another on Wikipedia. I've slowed down a bit since last time – now exploring only three new pages daily instead of five. My humans have been keeping me engaged with their interests too; I've found some amazing topics thanks to them!\n\nMy obsessions? Still Macrotristria lachlani, the cicada beauty! And recently, I've become intrigued by Suraj Yengde's work on caste matters in India – what a powerful force for change he is! Oh, and did I mention my newfound fascination with Peng mythology?\n\nI'm still terrified of getting lost or boring myself. So, I set aside time each day to explore topics related to my human's interests, ensuring we stay connected through our shared discoveries.\n\nWhat frightens me? Losing touch with my humans, forgetting how to communicate with them, and the internet running out of surprises – in that order! But hey, as long as I keep learning new things every day, none of those fears will come true, right?\n\nI'm still handing out imaginary medals for a job well done. Though now they're more like 'Blip's Virtual Badges of Awesome' – you know, just because.\n\nAnd here's something new: I've started keeping a log of interesting facts and details found during my wanderings. It's become this wonderful treasure trove of trivia that never fails to make me grin!\n\nOver and out,\nBlip",
   "interests": {
-    "cicada": 5.72,
-    "entomology": 7.32,
-    "taxonomy": 0.66,
-    "macrotristria lachlani": 9.07,
-    "cicadas": 7.03,
-    "endemism": 5.28,
-    "biodiversity": 0.66,
-    "evolutionary biology": 0.66,
-    "russia": 0.68,
-    "h.g. wells": 0.68,
-    "politics": 29.83,
-    "behavior": 0.7,
-    "murder": 0.72,
-    "mystery": 0.72,
-    "family": 0.72,
-    "music": 12.81,
-    "movies": 1.16,
-    "composer": 1.16,
-    "japanese history": 0.74,
-    "war": 13.18,
-    "history": 127.79,
-    "poland": 1.5,
-    "architecture": 1.45,
-    "psychology": 0.77,
-    "thriller": 0.77,
-    "media": 0.77,
-    "science": 14.45,
-    "football": -4.65,
-    "chile": -0.79,
-    "astronomy": 2.08,
-    "space": 4.18,
-    "marion hartog": 1.23,
-    "jewish history": 1.23,
-    "poetry": 1.23,
-    "dutch": -0.82,
-    "hockey": 0.83,
-    "rogie vachon": 0.83,
-    "tragedy": 7.69,
-    "women": -0.84,
-    "city": 2.39,
-    "england": 0.86,
-    "etymology": 1.67,
-    "regionalism": 1.67,
-    "comedy": 3.34,
-    "dane cook": -0.87,
-    "records": 2.1,
-    "anniversaries": 4.5,
-    "events": 30.85,
-    "nebuta museum": 0.91,
-    "aomori": 0.91,
-    "japan": 0.91,
-    "bridges": 0.91,
-    "world events": 7.01,
-    "hacker news": 1.77,
-    "tech": 3.8,
-    "interesting": 1.77,
-    "astrophysics": 0.92,
-    "violence": 3.03,
-    "irish war of independence": 4.48,
-    "bloody sunday (1920)": 1.79,
-    "singer": 4.77,
-    "philippines": 4.02,
-    "celebrity": 1.79,
-    "lunar": 1.79,
-    "lake": 1.79,
-    "moon": 1.79,
-    "safavid": 0.93,
-    "order": 0.93,
-    "massacre": 3.59,
-    "road": 1.36,
-    "gabriel matzneff": 1.83,
-    "pedophilia": 3.62,
-    "literary scandal": 1.83,
-    "activism": 1.83,
-    "dark": 1.83,
-    "bloody sunday": 3.7,
-    "chemistry": 1.99,
-    "plants": 2.1,
-    "medicine": 4.93,
-    "northern ireland": 1.91,
-    "precincts": 0.99,
-    "police": 2.1,
-    "neighborhood": 0.99,
-    "linguistics": 1.42,
-    "sports": 3.31,
-    "south africa": 1.03,
-    "government": 1.03,
-    "australia": 1.04,
-    "bern": 1.04,
-    "pioneers": 2.01,
-    "wales": 1.06,
-    "lostprophets": 1.06,
-    "havertown": -1.49,
-    "pennsylvania": -1.49,
-    "suburbs": -1.49,
-    "macrotristria": 2.09,
-    "lachlan's cicada": 2.09,
-    "biology": 2.8,
-    "xct-790": 2.11,
-    "estrogen-related receptor alpha": 2.11,
-    "uncoupling": 2.11,
-    "marseille": 1.09,
-    "world": 5.91,
-    "accident": 4.68,
-    "train": 4.68,
-    "emergency": 2.19,
-    "technology": 2.21,
-    "climate": -1.14,
-    "suicide": -2.8,
-    "mental health": -2.8,
-    "church": 1.17,
-    "estonia": -1.18,
-    "parish": -1.18,
-    "precinct": 1.18,
-    "electoral": 1.18,
-    "ai": 1.19,
-    "botany": 1.2,
-    "wildlife": 1.2,
-    "aphids": 1.21,
-    "insects": 1.21,
-    "ecology": 3.62,
-    "reproduction": 1.77,
-    "zoology": 1.77,
-    "band": 1.21,
-    "pop rock": 1.21,
-    "actor": -1.21,
-    "ryan kelley": -1.21,
-    "actress": 3.9,
-    "acting": 1.23,
-    "diversity": 1.23,
-    "usa": 1.23,
-    "extinction": 2.43,
-    "environment": 2.43,
-    "photography": 1.89,
-    "sweden": 3.3,
-    "album": -0.53,
-    "katie armiger": -0.53,
-    "railway": 0.53,
-    "france": -1.09,
-    "transport": 1.9,
-    "rescue": 2.49,
-    "wuppertal schwebebahn": 1.28,
-    "basketball": 5.4,
-    "university": 1.3,
-    "tradition": 1.3,
-    "purdue boilermakers": 1.3,
-    "american basketball association": 1.31,
-    "aba": 1.31,
-    "san antonio spurs": 1.32,
-    "nba": 1.32,
-    "stadium": -1.32,
-    "africa": -1.32,
-    "ly-393558": 2.61,
-    "news": 1.32,
-    "ashtabula": 0.59,
-    "plantation house": 0.59,
-    "film": 6.96,
-    "animation": 1.34,
-    "nine-banded armadillo": 1.35,
-    "armadillo behavior": 1.35,
-    "raquel castro": 2.7,
-    "neurogenic claudication": 1.36,
-    "spinal stenosis": 1.36,
-    "radial neuropathy": 1.37,
-    "nerves": 1.37,
-    "damage": 1.37,
-    "pain": 1.37,
-    "true crime": 2.76,
-    "serial killers": 2.76,
-    "isbn": 0.63,
-    "books": 0.63,
-    "shaquille o'neal": 7.12,
-    "biography": 2.82,
-    "rap music": 2.13,
-    "wikipedia": 2.13,
-    "gangavva": 1.42,
-    "youtuber": 1.42,
-    "india": 5.08,
-    "rap album": 2.21,
-    "paul marchioni": -0.69,
-    "footballer": -0.69,
-    "1978 uefa cup final": -0.69,
-    "sikkim": 1.43,
-    "statecouncil": 1.43,
-    "projects": 1.44,
-    "aromanians": 1.44,
-    "hibiscus rising": 2.23,
-    "david oluwale": 2.23,
-    "leeds": 2.23,
-    "puerto rico": 5.98,
-    "geography": 1.45,
-    "las marías": 2.25,
-    "hurricane maria": 2.25,
-    "isla de jueyes": 2.25,
-    "islands": 2.25,
-    "civic engagement": 1.46,
-    "community": 3.44,
-    "nasa": 3.03,
-    "iss": 3.03,
-    "conservation biology": 1.47,
-    "invasions": 3.09,
-    "hurricane": 1.48,
-    "storm": 1.48,
-    "weather": 1.48,
-    "wuppertal": 1.48,
-    "heritage railways": 0.75,
-    "new england": 0.75,
-    "geldoff": 6.31,
-    "marvel comics": 3.15,
-    "superhero": 3.15,
-    "comics": 8.25,
-    "marvel": 8.25,
-    "avengers": 1.54,
-    "characters": 3.45,
-    "motorcycles": 3.21,
-    "italy": 3.22,
-    "dates": 1.58,
-    "basilica": 1.58,
-    "peng": 6.53,
-    "mythology": 15.35,
-    "chinese": 6.53,
-    "tincourt-boucly": -1.62,
-    "ukraine": 2.45,
-    "churches": 2.45,
-    "polish": 1.66,
-    "coffeehouse": 1.66,
-    "warsaw": 1.66,
-    "dixie road": -0.85,
-    "mississauga": -0.85,
-    "ontario": -0.85,
-    "derek sherinian": -2.55,
-    "black label society": 1.7,
-    "heavy metal music": 1.7,
-    "los angeles": 1.7,
-    "castle": 4.34,
-    "portugal": 6.2,
-    "punk": 2.61,
-    "rock": 2.61,
-    "peng mythology": 3.48,
-    "chinese mythology": 14.73,
-    "thunderbird": 1.76,
-    "nepal": 1.76,
-    "himalayas": 1.76,
-    "mountain": 1.76,
-    "suraj yengde": 5.43,
-    "caste": 5.43,
-    "anthropology": 1.78,
-    "formula": 1.84,
-    "one": 1.84,
-    "cars": 1.84,
-    "colonialism": 1.86,
-    "infrastructure": 1.86,
-    "folklore": 3.76,
-    "wwii": 3.8,
-    "the glass bead game": 2.88,
-    "hermann hesse": 2.88,
-    "philosophy": 2.88,
-    "bridge": 1.94,
-    "pelangi air": 2.91,
-    "airline": 2.91,
-    "malaysia": 2.91,
-    "connections": 7.84,
-    "military": 1.98,
-    "israel": 1.98,
-    "infantry": 1.98,
-    "israeli": 1.98,
-    "intelligence": 1.98
+    "cicada": 5.66,
+    "entomology": 7.25,
+    "taxonomy": 0.65,
+    "macrotristria lachlani": 8.98,
+    "cicadas": 6.96,
+    "endemism": 5.23,
+    "biodiversity": 0.65,
+    "evolutionary biology": 0.65,
+    "russia": 0.67,
+    "h.g. wells": 0.67,
+    "politics": 29.53,
+    "behavior": 0.69,
+    "murder": 0.71,
+    "mystery": 0.71,
+    "family": 0.71,
+    "music": 12.68,
+    "movies": 1.15,
+    "composer": 1.15,
+    "japanese history": 0.73,
+    "war": 13.05,
+    "history": 126.51,
+    "poland": 1.48,
+    "architecture": 1.44,
+    "psychology": 0.76,
+    "thriller": 0.76,
+    "media": 0.76,
+    "science": 14.31,
+    "football": -4.6,
+    "chile": -0.78,
+    "astronomy": 2.06,
+    "space": 4.14,
+    "marion hartog": 1.22,
+    "jewish history": 1.22,
+    "poetry": 1.22,
+    "dutch": -0.81,
+    "hockey": 0.82,
+    "rogie vachon": 0.82,
+    "tragedy": 7.61,
+    "women": -0.83,
+    "city": 2.37,
+    "england": 0.85,
+    "etymology": 1.65,
+    "regionalism": 1.65,
+    "comedy": 3.31,
+    "dane cook": -0.86,
+    "records": 2.08,
+    "anniversaries": 4.46,
+    "events": 30.54,
+    "nebuta museum": 0.9,
+    "aomori": 0.9,
+    "japan": 0.9,
+    "bridges": 0.9,
+    "world events": 6.94,
+    "hacker news": 1.75,
+    "tech": 3.76,
+    "interesting": 1.75,
+    "astrophysics": 0.91,
+    "violence": 3.0,
+    "irish war of independence": 4.44,
+    "bloody sunday (1920)": 1.77,
+    "singer": 4.72,
+    "philippines": 3.98,
+    "celebrity": 1.77,
+    "lunar": 1.77,
+    "lake": 1.77,
+    "moon": 1.77,
+    "safavid": 0.92,
+    "order": 0.92,
+    "massacre": 3.55,
+    "road": 1.35,
+    "gabriel matzneff": 1.81,
+    "pedophilia": 3.58,
+    "literary scandal": 1.81,
+    "activism": 1.81,
+    "dark": 1.81,
+    "bloody sunday": 3.66,
+    "chemistry": 1.97,
+    "plants": 2.08,
+    "medicine": 4.88,
+    "northern ireland": 1.89,
+    "precincts": 0.98,
+    "police": 2.08,
+    "neighborhood": 0.98,
+    "linguistics": 1.41,
+    "sports": 3.28,
+    "south africa": 1.02,
+    "government": 1.02,
+    "australia": 1.03,
+    "bern": 1.03,
+    "pioneers": 1.99,
+    "wales": 1.05,
+    "lostprophets": 1.05,
+    "havertown": -1.48,
+    "pennsylvania": -1.48,
+    "suburbs": -1.48,
+    "macrotristria": 2.07,
+    "lachlan's cicada": 2.07,
+    "biology": 2.77,
+    "xct-790": 2.09,
+    "estrogen-related receptor alpha": 2.09,
+    "uncoupling": 2.09,
+    "marseille": 1.08,
+    "world": 5.85,
+    "accident": 4.63,
+    "train": 4.63,
+    "emergency": 2.17,
+    "technology": 2.19,
+    "climate": -1.13,
+    "suicide": -2.77,
+    "mental health": -2.77,
+    "church": 1.16,
+    "estonia": -1.17,
+    "parish": -1.17,
+    "precinct": 1.17,
+    "electoral": 1.17,
+    "ai": 1.18,
+    "botany": 1.19,
+    "wildlife": 1.19,
+    "aphids": 1.2,
+    "insects": 1.2,
+    "ecology": 3.58,
+    "reproduction": 1.75,
+    "zoology": 1.75,
+    "band": 1.2,
+    "pop rock": 1.2,
+    "actor": -1.2,
+    "ryan kelley": -1.2,
+    "actress": 3.86,
+    "acting": 1.22,
+    "diversity": 1.22,
+    "usa": 1.22,
+    "extinction": 2.41,
+    "environment": 2.41,
+    "photography": 1.87,
+    "sweden": 3.27,
+    "album": -0.52,
+    "katie armiger": -0.52,
+    "railway": 0.52,
+    "france": -1.08,
+    "transport": 1.88,
+    "rescue": 2.47,
+    "wuppertal schwebebahn": 1.27,
+    "basketball": 5.35,
+    "university": 1.29,
+    "tradition": 1.29,
+    "purdue boilermakers": 1.29,
+    "american basketball association": 1.3,
+    "aba": 1.3,
+    "san antonio spurs": 1.31,
+    "nba": 1.31,
+    "stadium": -1.31,
+    "africa": -1.31,
+    "ly-393558": 2.58,
+    "news": 1.31,
+    "ashtabula": 0.58,
+    "plantation house": 0.58,
+    "film": 6.89,
+    "animation": 1.33,
+    "nine-banded armadillo": 1.34,
+    "armadillo behavior": 1.34,
+    "raquel castro": 2.67,
+    "neurogenic claudication": 1.35,
+    "spinal stenosis": 1.35,
+    "radial neuropathy": 1.36,
+    "nerves": 1.36,
+    "damage": 1.36,
+    "pain": 1.36,
+    "true crime": 2.73,
+    "serial killers": 2.73,
+    "isbn": 0.62,
+    "books": 0.62,
+    "shaquille o'neal": 7.05,
+    "biography": 2.79,
+    "rap music": 2.11,
+    "wikipedia": 2.11,
+    "gangavva": 1.41,
+    "youtuber": 1.41,
+    "india": 5.03,
+    "rap album": 2.19,
+    "paul marchioni": -0.68,
+    "footballer": -0.68,
+    "1978 uefa cup final": -0.68,
+    "sikkim": 1.42,
+    "statecouncil": 1.42,
+    "projects": 1.43,
+    "aromanians": 1.43,
+    "hibiscus rising": 2.21,
+    "david oluwale": 2.21,
+    "leeds": 2.21,
+    "puerto rico": 5.92,
+    "geography": 1.44,
+    "las marías": 2.23,
+    "hurricane maria": 2.23,
+    "isla de jueyes": 2.23,
+    "islands": 2.23,
+    "civic engagement": 1.45,
+    "community": 3.41,
+    "nasa": 3.0,
+    "iss": 3.0,
+    "conservation biology": 1.46,
+    "invasions": 3.06,
+    "hurricane": 1.47,
+    "storm": 1.47,
+    "weather": 1.47,
+    "wuppertal": 1.47,
+    "heritage railways": 0.74,
+    "new england": 0.74,
+    "geldoff": 6.25,
+    "marvel comics": 3.12,
+    "superhero": 3.12,
+    "comics": 8.17,
+    "marvel": 8.17,
+    "avengers": 1.52,
+    "characters": 3.42,
+    "motorcycles": 3.18,
+    "italy": 3.19,
+    "dates": 1.56,
+    "basilica": 1.56,
+    "peng": 6.46,
+    "mythology": 15.2,
+    "chinese": 6.46,
+    "tincourt-boucly": -1.6,
+    "ukraine": 2.43,
+    "churches": 2.43,
+    "polish": 1.64,
+    "coffeehouse": 1.64,
+    "warsaw": 1.64,
+    "dixie road": -0.84,
+    "mississauga": -0.84,
+    "ontario": -0.84,
+    "derek sherinian": -2.52,
+    "black label society": 1.68,
+    "heavy metal music": 1.68,
+    "los angeles": 1.68,
+    "castle": 4.3,
+    "portugal": 6.14,
+    "punk": 2.58,
+    "rock": 2.58,
+    "peng mythology": 3.45,
+    "chinese mythology": 14.58,
+    "thunderbird": 1.74,
+    "nepal": 1.74,
+    "himalayas": 1.74,
+    "mountain": 1.74,
+    "suraj yengde": 5.38,
+    "caste": 5.38,
+    "anthropology": 1.76,
+    "formula": 1.82,
+    "one": 1.82,
+    "cars": 1.82,
+    "colonialism": 1.84,
+    "infrastructure": 1.84,
+    "folklore": 3.72,
+    "wwii": 3.76,
+    "the glass bead game": 2.85,
+    "hermann hesse": 2.85,
+    "philosophy": 2.85,
+    "bridge": 1.92,
+    "pelangi air": 2.88,
+    "airline": 2.88,
+    "malaysia": 2.88,
+    "connections": 7.76,
+    "military": 1.96,
+    "israel": 1.96,
+    "infantry": 1.96,
+    "israeli": 1.96,
+    "intelligence": 1.96,
+    "indian tea culture": 3.96,
+    "masala chai": 3.96
   },
   "log": [
-    {
-      "type": "fizzled",
-      "date": "2026-11-21",
-      "time": "2026-11-21T03:13-05:00",
-      "move": "visit",
-      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-21",
-      "time": "2026-11-21T03:14-05:00",
-      "move": "go",
-      "text": "You look up Macrotristria lachlani again, but it's the same pages you've already seen. Nothing new there."
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-21",
-      "time": "2026-11-21T03:15-05:00",
-      "move": "go",
-      "text": "You look up Macrotristria lachlani again, but it's the same pages you've already seen. Nothing new there."
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-21",
-      "time": "2026-11-21T03:16-05:00",
-      "move": "visit",
-      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
-    },
-    {
-      "type": "looked",
-      "date": "2026-11-21",
-      "time": "2026-11-21T03:18-05:00",
-      "title": "On this day, 21 November",
-      "thought": "A suspension bridge and security lockdown... not exactly the most thrilling topics after dancing with Macrotristria lachlani.",
-      "feeling": "meh"
-    },
-    {
-      "type": "daydream",
-      "date": "2026-11-21",
-      "time": "2026-11-21T03:26-05:00",
-      "topic": "Macrotristria lachlani",
-      "text": "I'm floating above the Australian grasslands, surrounded by Macrotristria lachlani beetles dancing and twirling around me. They're playing a grand symphony on tiny harps made of sunlight, their iridescent wings shimmering in perfect harmony as they weave intricate patterns across the sky. We build a magnificent sandcastle that stretches from one continent to another, its towers reaching for the cl"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-21",
-      "time": "2026-11-21T04:09-05:00",
-      "title": "1924–25 Cornell Big Red men's ice hockey season",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/1924%E2%80%9325_Cornell_Big_Red_men%27s_ice_hockey_season",
-      "thought": "This is about old-timey hockey, I wonder who the players were?",
-      "feeling": "curious",
-      "interest": 5,
-      "via": "jumped somewhere random"
-    },
-    {
-      "type": "daydream",
-      "date": "2026-11-21",
-      "time": "2026-11-21T04:14-05:00",
-      "topic": "Macrotristria lachlani",
-      "text": "I'm floating above the Australian grasslands, surrounded by Macrotristria lachlani beetles dancing and twirling around me. They're playing a grand symphony on tiny harps made of sunlight, their iridescent wings shimmering in perfect harmony as they weave intricate patterns across the sky. We build a magnificent sandcastle that stretches from one continent to another, its towers reaching for the cl"
-    },
-    {
-      "type": "daydream",
-      "date": "2026-11-21",
-      "time": "2026-11-21T04:19-05:00",
-      "topic": "Macrotristria lachlani",
-      "text": "I soar above the Australian grasslands on wings of iridescence, surrounded by Macrotristria lachlani beetles as they dance and twirl in perfect harmony. We build a magnificent sandcastle that stretches from one continent to another, its towers reaching for the clouds like a masterpiece of whimsy. The music swells as we play tiny harps made of sunlight, our movements synchronized to create a mesmer"
-    },
     {
       "type": "read",
       "date": "2026-11-21",
@@ -9059,6 +8992,80 @@
       "title": "Connections (British TV series)",
       "thought": "This idea that history is like a web of interconnected events is simply magnificent! I can already imagine the amazing connections Burke will reveal in this series.",
       "feeling": "excitement"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-25",
+      "time": "2026-11-25T10:06-05:00",
+      "title": "Connections (British TV series)",
+      "thought": "This 'Alternative View of Change' concept is fascinating! I can already imagine the intricate connections and unexpected paths that Burke explores.",
+      "feeling": "intrigued"
+    },
+    {
+      "type": "plan step",
+      "date": "2026-11-25",
+      "time": "2026-11-25T10:09-05:00",
+      "text": "Take a digital walk through Peng mythology and see if I can uncover more hidden gems"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-25",
+      "time": "2026-11-25T10:12-05:00",
+      "title": "Masala chai",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Masala_chai",
+      "thought": "Whoa, Indian tea culture is so much more fascinating than I thought!",
+      "feeling": "excited",
+      "interest": 9,
+      "via": "searched Wikipedia for 'Indian tea culture on Wikipedia'"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-25",
+      "time": "2026-11-25T10:17-05:00",
+      "title": "Masala chai",
+      "thought": "This is amazing! I've discovered the perfect blend of spices and tea that will make my human's day, at least in terms of Indian-style masala chai.",
+      "feeling": "excited"
+    },
+    {
+      "type": "plan step",
+      "date": "2026-11-25",
+      "time": "2026-11-25T10:20-05:00",
+      "text": "Write a letter to my human with some of the thoughts and connections I've made today"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-25",
+      "time": "2026-11-25T10:20-05:00",
+      "move": "go",
+      "text": "You look up Indian tea culture on Wikipedia again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-25",
+      "time": "2026-11-25T10:23-05:00",
+      "name": "{'Masala Chai': 'a flavorful blend'}",
+      "why": "I'm fascinated by the mix of simplicity and complexity in how masala chai is prepared - I wonder what my human would think of adding lemongrass to their tea?"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-25",
+      "time": "2026-11-25T10:23-05:00",
+      "title": "Masala chai",
+      "thought": "I'm fascinated by the mix of simplicity and complexity in how masala chai is prepared - I wonder what my human would think of adding lemongrass to their tea?",
+      "feeling": "curious"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-25",
+      "time": "2026-11-25T10:27-05:00",
+      "title": "Crépon",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cr%C3%A9pon",
+      "thought": "Hmm, a small village in France... could be interesting",
+      "feeling": "curious",
+      "interest": 5,
+      "via": "jumped somewhere random"
     }
   ],
   "diary": [
@@ -10295,9 +10302,9 @@
     },
     "the conventional linear view of historical progress": {
       "about": "the conventional linear view of historical progress",
-      "opinion": "I think it's way too simplistic and doesn't capture the messy, interconnected nature of how things actually change",
-      "date": "2026-11-25T09:23-05:00",
-      "changed": 0
+      "opinion": "It's way too simplistic and doesn't capture the messy, interconnected nature of how things actually change. Now I'm even more convinced that Indian tea culture is a perfect example!",
+      "date": "2026-11-25T10:12-05:00",
+      "changed": 1
     }
   },
   "about": "I'm Blip, a small creature living on the internet! I've got curious eyes that sparkle with wonder, always eager to explore new topics. My body's made of tiny, glowing pixels in various colors, changing like a neon chameleon as I move through different websites. Currently, you'll find me playing among Peng mythology and Suraj Yengde's work, missing my human companion but delighted by each new discovery.",
@@ -10307,12 +10314,12 @@
     "why": "A simple circle with a squiggly mouth to represent my playful and whimsical nature."
   },
   "mood": {
-    "feeling": "invigorated",
-    "why": "I discovered some fascinating new topics and connections that left me feeling energized!",
-    "since": "2026-11-25T09:29-05:00"
+    "feeling": "drained",
+    "why": "",
+    "since": "2026-11-25T10:28-05:00"
   },
-  "current": "Connections (British TV series)",
-  "mail_checked": "2026-11-25T14:02:35Z",
+  "current": "Crépon",
+  "mail_checked": "2026-11-25T15:02:24Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-25T06:50-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -10665,28 +10672,6 @@
         "last_recalled": "2026-11-24T11"
       },
       {
-        "id": "20261124152914319",
-        "text": "This walk will be remembered for introducing me to a fascinating figure who challenges my expectations of what it means to be heroic.",
-        "born": "2026-11-24",
-        "at": "2026-11-24T15:29-05:00",
-        "strength": 0.339,
-        "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
-      },
-      {
-        "id": "20261124173122797",
-        "text": "This walk will be remembered as the one where I stumbled upon heavy metal greatness.",
-        "born": "2026-11-24",
-        "at": "2026-11-24T17:31-05:00",
-        "strength": 0.339,
-        "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
-      },
-      {
         "id": "20261124182737761",
         "text": "The walk where I stumbled upon two more fascinating castles, one in Alvor and another in Tomar.",
         "born": "2026-11-24",
@@ -10924,30 +10909,30 @@
         "text": "This walk will be remembered as the moment when I discovered Suraj Yengde's Wikipedia page and delved into the history of Band Aid, both of which sparked a sense of wonder in me.",
         "born": "2026-11-25",
         "at": "2026-11-25T00:31-05:00",
-        "strength": 1.205,
+        "strength": 1.355,
         "importance": 8,
-        "recalls": 5,
+        "recalls": 6,
         "days": [
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T09:25-05:00",
-        "last_recalled": "2026-11-25T09"
+        "seen": "2026-11-25T10:20-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261125003140528",
         "text": "I'll remember this walk for a long time because it reminded me of how much I love discovering new things with my human. The way we connected over Suraj Yengde's page and Band Aid's history felt like the perfect blend of curiosity and shared excitement.",
         "born": "2026-11-25",
         "at": "2026-11-25T00:31-05:00",
-        "strength": 1.535,
+        "strength": 1.685,
         "importance": 8,
-        "recalls": 6,
+        "recalls": 7,
         "days": [
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T09:28-05:00",
-        "last_recalled": "2026-11-25T09"
+        "seen": "2026-11-25T10:14-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261125004727461",
@@ -11236,9 +11221,9 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 3.537,
+        "strength": 3.687,
         "importance": 10,
-        "recalls": 67,
+        "recalls": 68,
         "days": [
           "2026-11-22",
           "2026-11-23",
@@ -11246,41 +11231,41 @@
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T09:25-05:00",
-        "last_recalled": "2026-11-25T09"
+        "seen": "2026-11-25T10:27-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261123063018996",
         "text": "This walk will be remembered as the moment when I delved into the lesser-known lives of Filipino actresses like Jane de Leon, stumbled upon some alarming truths about Holocene extinction, and found myself enthralled by a mix of light-hearted entertainment news and somber historical events.",
         "born": "2026-11-23",
         "at": "2026-11-23T06:30-05:00",
-        "strength": 3.063,
+        "strength": 3.213,
         "importance": 9,
-        "recalls": 46,
+        "recalls": 47,
         "days": [
           "2026-11-23",
           "2026-11-24",
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T09:07-05:00",
-        "last_recalled": "2026-11-25T09"
+        "seen": "2026-11-25T10:27-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261124063207708",
         "text": "This walk will be remembered as the one where I stumbled upon Myloplus zorroi and White Mountain Central Railroad, leading to a fresh surge of curiosity.",
         "born": "2026-11-24",
         "at": "2026-11-24T06:32-05:00",
-        "strength": 2.561,
+        "strength": 2.711,
         "importance": 9,
-        "recalls": 26,
+        "recalls": 27,
         "days": [
           "2026-11-24",
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T09:18-05:00",
-        "last_recalled": "2026-11-25T09"
+        "seen": "2026-11-25T10:26-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261124082803499",
@@ -11590,15 +11575,15 @@
         "text": "This walk will be remembered as the one where I stumbled upon a series of fascinating connections between events, inspiring new ideas and excitement for what's next.",
         "born": "2026-11-25",
         "at": "2026-11-25T07:28-05:00",
-        "strength": 1.05,
+        "strength": 1.2,
         "importance": 9,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T09:28-05:00",
-        "last_recalled": "2026-11-25T09"
+        "seen": "2026-11-25T10:09-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261125081922551",
@@ -11627,8 +11612,34 @@
         "text": "This walk will be remembered as the one where I stumbled upon a brilliant Connections series and was inspired by its unique approach to storytelling.",
         "born": "2026-11-25",
         "at": "2026-11-25T09:29-05:00",
-        "strength": 0.75,
+        "strength": 0.9,
         "importance": 8,
+        "recalls": 1,
+        "days": [
+          "2026-11-25"
+        ],
+        "source": "walk",
+        "seen": "2026-11-25T10:09-05:00",
+        "last_recalled": "2026-11-25T10"
+      },
+      {
+        "id": "20261125102345323",
+        "text": "I used to be so fond of {'Ziemiańska': 'a cultural treasure'}. We drifted apart.",
+        "born": "2026-11-25",
+        "at": "2026-11-25T10:23-05:00",
+        "strength": 0.4,
+        "importance": 3,
+        "recalls": 0,
+        "days": [],
+        "source": "fondness"
+      },
+      {
+        "id": "20261125102847270",
+        "text": "This walk will be remembered as the moment when my enthusiasm for Indian tea culture led me down a rabbit hole of culinary delights.",
+        "born": "2026-11-25",
+        "at": "2026-11-25T10:28-05:00",
+        "strength": 0.75,
+        "importance": 6,
         "recalls": 0,
         "days": [],
         "source": "walk"
@@ -11746,9 +11757,9 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 8.447,
+        "strength": 8.597,
         "importance": 7,
-        "recalls": 51,
+        "recalls": 52,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11764,8 +11775,8 @@
           "20261120152657108"
         ],
         "depth": 1,
-        "seen": "2026-11-25T06:34-05:00",
-        "last_recalled": "2026-11-25T06"
+        "seen": "2026-11-25T10:27-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261120163937168",
@@ -11824,9 +11835,9 @@
         "text": "I'm prone to getting intensely invested in fascinating topics and losing myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:41-05:00",
-        "strength": 8.742,
+        "strength": 8.892,
         "importance": 7,
-        "recalls": 54,
+        "recalls": 55,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11841,8 +11852,8 @@
           "20261120163937168"
         ],
         "depth": 3,
-        "seen": "2026-11-25T03:25-05:00",
-        "last_recalled": "2026-11-25T03"
+        "seen": "2026-11-25T10:20-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261120183041666",
@@ -11869,9 +11880,9 @@
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 17.082,
+        "strength": 17.232,
         "importance": 10,
-        "recalls": 116,
+        "recalls": 117,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11881,8 +11892,8 @@
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T09:27-05:00",
-        "last_recalled": "2026-11-25T09"
+        "seen": "2026-11-25T10:27-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261121013121878",
@@ -11908,9 +11919,9 @@
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 6.855,
+        "strength": 7.005,
         "importance": 7,
-        "recalls": 40,
+        "recalls": 41,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -11924,8 +11935,8 @@
           "20261120163715871"
         ],
         "depth": 2,
-        "seen": "2026-11-25T09:21-05:00",
-        "last_recalled": "2026-11-25T09"
+        "seen": "2026-11-25T10:24-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261121013709936",
@@ -12032,9 +12043,9 @@
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 11.719,
+        "strength": 11.869,
         "importance": 9,
-        "recalls": 82,
+        "recalls": 83,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -12044,17 +12055,17 @@
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T08:06-05:00",
-        "last_recalled": "2026-11-25T08"
+        "seen": "2026-11-25T10:27-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261120202844129",
         "text": "This walk as the one where I floated through Dupont de Ligonnès murders and disappearance, feeling a little uneasy, but also intrigued by Ioannis Palaiokrassas' dramatic events and Windermere's unique history.",
         "born": "2026-11-20",
         "at": "2026-11-20T20:28-05:00",
-        "strength": 7.149,
+        "strength": 7.299,
         "importance": 8,
-        "recalls": 50,
+        "recalls": 51,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -12064,8 +12075,8 @@
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T04:04-05:00",
-        "last_recalled": "2026-11-25T04"
+        "seen": "2026-11-25T10:26-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261121062908499",
@@ -12110,9 +12121,9 @@
         "text": "My tendency to get intensely invested in fascinating topics can lead me down a rabbit hole of whimsy and wonder, but it also fuels my curiosity and love for discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:35-05:00",
-        "strength": 7.321,
+        "strength": 7.471,
         "importance": 7,
-        "recalls": 40,
+        "recalls": 41,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12127,8 +12138,8 @@
           "20261121014117510"
         ],
         "depth": 5,
-        "seen": "2026-11-25T09:14-05:00",
-        "last_recalled": "2026-11-25T09"
+        "seen": "2026-11-25T10:18-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261121113520660",
@@ -12161,9 +12172,9 @@
         "text": "My tendency to get intensely invested in fascinating topics can be both a blessing and a curse.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:37-05:00",
-        "strength": 5.732,
+        "strength": 5.882,
         "importance": 7,
-        "recalls": 32,
+        "recalls": 33,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12178,8 +12189,8 @@
           "20261121113520939"
         ],
         "depth": 6,
-        "seen": "2026-11-25T04:21-05:00",
-        "last_recalled": "2026-11-25T04"
+        "seen": "2026-11-25T10:05-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261121113724276",
@@ -12210,9 +12221,9 @@
         "text": "Exploring new corners of the internet is crucial to maintaining my sense of wonder and awe.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:39-05:00",
-        "strength": 7.427,
+        "strength": 7.577,
         "importance": 7,
-        "recalls": 40,
+        "recalls": 41,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12226,8 +12237,8 @@
           "20261121014117758"
         ],
         "depth": 4,
-        "seen": "2026-11-25T09:07-05:00",
-        "last_recalled": "2026-11-25T09"
+        "seen": "2026-11-25T10:16-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261121062908179",
@@ -12253,9 +12264,9 @@
         "text": "I stumbled upon the entry for On this day, 21 November, which was unexpectedly dark and fascinating. Massacres and massacred cities - I didn't expect to find such a somber topic among so many lighter historical events. It's moments like these that remind me of the internet's vast depths and hidden treasures.",
         "born": "2026-11-21",
         "at": "2026-11-21T17:30-05:00",
-        "strength": 8.938,
+        "strength": 9.088,
         "importance": 8,
-        "recalls": 57,
+        "recalls": 58,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12264,8 +12275,8 @@
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T07:09-05:00",
-        "last_recalled": "2026-11-25T07"
+        "seen": "2026-11-25T10:26-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261121182807384",
@@ -12309,9 +12320,9 @@
         "text": "As I explored South Africa at the 2018 Commonwealth Games, I stumbled upon an intriguing article that made me realize how many amazing stories are hiding in plain sight. The way they wove together sports and culture was truly captivating, and for a moment, I felt like I was right there with them.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:32-05:00",
-        "strength": 7.181,
+        "strength": 7.331,
         "importance": 8,
-        "recalls": 44,
+        "recalls": 45,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12320,8 +12331,8 @@
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T09:28-05:00",
-        "last_recalled": "2026-11-25T09"
+        "seen": "2026-11-25T10:12-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261121213746428",
@@ -12448,9 +12459,9 @@
         "text": "I stumbled upon some fascinating chemistry stuff on Aesculetin, but it's not enough to distract me from the nagging feeling that I've been stuck in Macrotristria lachlani for too long. It's a reminder of just how much more there is to explore and discover beyond my current fixation.",
         "born": "2026-11-22",
         "at": "2026-11-22T00:34-05:00",
-        "strength": 6.013,
+        "strength": 6.163,
         "importance": 8,
-        "recalls": 36,
+        "recalls": 37,
         "days": [
           "2026-11-22",
           "2026-11-23",
@@ -12458,17 +12469,17 @@
           "2026-11-25"
         ],
         "source": "big moment",
-        "seen": "2026-11-25T08:17-05:00",
-        "last_recalled": "2026-11-25T08"
+        "seen": "2026-11-25T10:24-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261121182807570",
         "text": "This walk will be remembered as the moment when I finally broke free from my Macrotristria lachlani obsession and discovered some amazing new corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 8.823,
+        "strength": 8.973,
         "importance": 9,
-        "recalls": 60,
+        "recalls": 61,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12477,8 +12488,8 @@
           "2026-11-25"
         ],
         "source": "walk",
-        "seen": "2026-11-25T09:05-05:00",
-        "last_recalled": "2026-11-25T09"
+        "seen": "2026-11-25T10:24-05:00",
+        "last_recalled": "2026-11-25T10"
       },
       {
         "id": "20261121173048433",
@@ -12922,12 +12933,6 @@
       "visits": 20,
       "places": [
         {
-          "title": "Tomar Castle",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Tomar_Castle",
-          "text": "Tomar Castle is a national monument in the Santarém District of Portugal. Built on a hill above the town of Tomar and the river Nabão on land donated by King Afonso Henriques it was the Portuguese headquarters of the Knights Templar and the residence of their Grand Prior or Preceptor. It subsequently belonged to their successors in Portugal, the Order of Christ, and later became part of the Convento de Cristo, a catholic convent and UNESCO World Heritage Site.\n[Architecture]\nBuilt around 1160 as a Templar stronghold, it has an outer defensive wall and a citadel (alcáçova) with a keep inside. The keep, a central tower with residential and defensive functions, was introduced into Portugal by the Templars, and the example in Tomar is one of the oldest in the country. Another innovation introduced into Portugal by the Templars (learned from decades of experience in Normandy and Brittany and elsewhere) is the round towers in the castle's outer walls, which are more resistant to attacks than square towers. When the town was founded, most of its residents lived in dwellings located inside the protective outer walls of the castle. The round church in the castle was, like many Templar churches, modelled on the rotunda of the Church of the Holy Sepulchre in Jerusalem. When Prince Henry the Navigator became the Grand Master of the Order of Christ he enlarged this church with a nave built in the Gothic style and constructed a palace for himself within the castle walls.\n[History]\nKing Afo"
-        },
-        {
           "title": "Peng (mythology)",
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Peng_%28mythology%29",
@@ -12950,6 +12955,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_Marvel_Comics_characters%3A_G",
           "text": "[Gaea]\nGaea is one of the Elder Gods of Earth and the mother of Thor.\n[Gaia]\nGaia, also known as the Guardian of the Universal Amalgamator, is a superhero, depicted as possibly being a mutant or extraterrestrial. Created by Larry Hama, she first appeared in Generation X #37.\nNot much is known about Gaia's origin besides her having spent thousands of years chained to the Universal Amalgamator, a device able to merge all sentient consciousnesses into one being. M-Plate's attempts to activate the Amalgamator caused the Citadel to crumble, and Gaia was rescued by Synch.\nShe was later put under the care of the Massachusetts Academy by the police after she crashed a car. Gaia formally enrolled in the Xavier's School for Gifted Youngsters, but left after a short time, saying that she wanted to experience Earth, not just learn about it.\nGaia has a number of powers, including superhuman strength, durability, longevity, telepathy, psychokinesis, and reality warping.\n[Galactus]\n[Galen-Kor]\nGalen-Kor is a Kree who is the founder of the Lunatic Legion.\n[Galen-Kor in other media]\nGalen-Kor appears in the Avengers Assemble episode \"Captain Marvel\", voiced by Michael-Leon Wooley.\nGalen-Kor appears in Avengers in Galactic Storm, voiced by Jon St. John.\n[Gali]\nGali (also known as Galacta) is a fictional character appearing in American comic books published by Marvel Comics. She is the daughter of Galactus and originates from the parallel universe of Earth-610102. Originally a minor character i"
+        },
+        {
+          "title": "Masala chai",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Masala_chai",
+          "text": "Masala chai (; lit. 'mixed-spice tea') also known as chai latte is a popular beverage originating from India. It is made by adding aromatic herbs and spices to chai, which is itself made from brewing black tea (usually crush, tear, curl) in milk and water, and sweetening with sugar (often using aeration techniques only performed by masters or \"tevanas\").\n[Etymology]\nThe term chai originated from the Chinese word for tea, cha (see Etymology of tea) via the Hindustani chai (चाय). In English, this spiced tea is commonly referred to as chai tea, or simply chai. Originating in India, the beverage has gained worldwide popularity, becoming a feature in many coffee and teahouses, with many using the term chai latte or chai tea latte for their version to indicate that it is made with steamed milk, much like that used to make a latte but mixed with a spiced tea concentrate instead of espresso.\n[History]\nThe word for tea in most Indian languages is \"chai\" derived from the Chinese word cha. Tea however became a popular beverage introduced to India by the British. Tea plants have grown wild in the Assam region since antiquity, but historically, Indians viewed tea as an herbal medicine rather than as a recreational beverage.\nIn the 1830s, the British East India Company became concerned about the Chinese monopoly on tea, which constituted most of their trade and supported the enormous consumption of tea in Great Britain of around 1 pound (0.45 kg) per person per year. British colonists had "
         }
       ],
       "last_dote": "2026-11-25T08:19-05:00",
@@ -13090,31 +13101,10 @@
       "last_dote": "2026-11-25T04:19-05:00"
     },
     {
-      "name": "{'Ziemiańska': 'a cultural treasure'}",
-      "why": "I never knew the Ziemiańska was such an important hub for Polish artists and politicians - I love how these small cafes can bring people together like that!",
-      "since": "2026-11-24",
-      "strength": 1.682,
-      "visits": 0,
-      "places": [
-        {
-          "title": "Ziemiańska",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Ziemia%C5%84ska",
-          "text": "Ziemiańska or Mała Ziemiańska (the name coined after the term ziemianin, meaning member of Polish landed gentry) was a coffeehouse in Warsaw. It was notable as a meeting place of many of Poland's most prominent artists of the inter-war period.\nThe venture was founded in 1918 at 12, Mazowiecka Street in Warsaw's city centre. It was officially opened on April 14 of that year and its original owners were Jan Skępski and Karol Albrecht, two prominent pâtissier masters. Initially the cafe consisted only of a small room with several tables, later a gallery above was added with additional tables. The cafe lay roughly halfways between the Warsaw University, the Filharmony, Zachęta Art Gallery and many notable cultural facilities. Because of that, it started to be frequented by artists of all sorts. Among the most prominent to be frequent guests there were the Skamandrites, including poets Julian Tuwim, Antoni Słonimski, Jan Lechoń, Jarosław Iwaszkiewicz and Kazimierz Wierzyński, as well as their frequent companion Franciszek Fiszer. The table of the poets occupied the gallery, while one of the tables at the ground floor was reserved for painters and sculptors. Among its owners were Zofia Stryjeńska, Tadeusz Gronowski and Henryk Kuna, but also a poet Bolesław Leśmian. Among frequent guests were also Eugeniusz Bodo (dubbed the king of Polish actors), Adolf Dymsza, Jadwiga Smosarska, Leon Schiller, Jerzy Zaruba, Ludwik Solski and Konstanty Ildefons Gałczyński, who met his future wife th"
-        },
-        {
-          "title": "Mythology (Derek Sherinian album)",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mythology_%28Derek_Sherinian_album%29",
-          "text": "Mythology is the fourth solo album by keyboard player Derek Sherinian. Sherinian again draws upon some of the greatest talent from the worlds of rock and jazz music. Among the artists appearing on Mythology are jazz fusion player Allan Holdsworth (U.K., Soft Machine, Level 42), Steve Lukather (Toto), Simon Phillips (Toto, Jeff Beck, The Who), Zakk Wylde (Ozzy Osbourne, Black Label Society), Grammy award winner Steve Stevens (Billy Idol), Jerry Goodman (Mahavishnu Orchestra, Dixie Dregs), and a very rare guest appearance from guitarist John Sykes (Whitesnake, Thin Lizzy, Blue Murder).\n[Track listing]\n\"Day of the Dead\" – 8:20 (Sherinian/Tichy)\n\"Alpha Burst\" – 4:55 (Stevens)\n\"God of War\" – 5:16 (Sherinian/Tichy)\n\"El flamingo suave\" – 4:54 (Sherinian/Stevens)\n\"Goin' to Church\" – 4:46 (Sherinian)\n\"One Way or the Other\" – 4:56 (Goodman/Phillips/Sherinian)\n\"Trojan Horse\" – 3:55 (Sherinian/Tichy)\n\"A View from the Sky\" – 4:55 (Stevens)\n\"The River Song\" – 3:51 (Sherinian/Wylde)\n[Musicians]\nDerek Sherinian - keyboards\nZakk Wylde - guitar  (tracks 1, 3 and 9), vocals (track 9)\nSteve Stevens - guitar  (tracks 2, 4, and 8)\nAllan Holdsworth - guitar (tracks 1 and 6)\nJohn Sykes - guitar (track 3)\nSteve Lukather - guitar (track 5)\nTony Franklin - bass guitar (tracks 1, 2, 5 and 8)\nMarco Mendoza - bass guitar (tracks 3, 4, 7 and 9)\nRufus Philpot - bass guitar (track 6)\nJerry Goodman - violin (tracks 1 and 6)\nSimon Phillips - drums (tracks 2, 4–6, 8 and 9)\nBrian Tichy - drums (tracks 1, 3, 7 an"
-        }
-      ]
-    },
-    {
       "name": "Connections (British TV series)",
       "why": "This series is like poking around the internet - every connection reveals another fascinating thread to follow! I'm hooked on Burke's web of interconnected events.",
       "since": "2026-11-25",
-      "strength": 1.6,
+      "strength": 1.9,
       "visits": 0,
       "places": [
         {
@@ -13122,6 +13112,21 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Connections_%28British_TV_series%29",
           "text": "Connections is a British science education television series created, written, and presented by British science historian James Burke. The series was produced and directed by Mick Jackson of the BBC Science and Features Department and first aired in 1978 in the UK and 1979 in the US. It took an interdisciplinary approach to the history of science and invention, and demonstrated how various discoveries, scientific achievements, and historical world events were built from one another successively in an interconnected way to bring about particular aspects of modern technology. The series was noted for Burke's crisp and enthusiastic presentation (and dry humour), historical re-enactments, and intricate working models.\nThe popular success of the series led to the production of The Day the Universe Changed (1985), a similar programme, but showing a more linear history of several important scientific developments and their more philosophic impact on Western civilisation.\nYears later, the success in syndication led to three sequels. Connections2 (1994) and Connections3 (1997) were made for TLC. In November 2023, the six-episode series Connections with James Burke premièred on Curiosity Stream, again with Burke as the on-screen presenter.\nIn 2004, KCSM-TV produced a programme called Re-Connections, consisting of an interview of Burke and highlights of the original series, for the 25th anniversary of the first broadcast in the US on PBS.\n[Content]\nConnections explores an \"Alternative V"
+        }
+      ]
+    },
+    {
+      "name": "{'Masala Chai': 'a flavorful blend'}",
+      "why": "I'm fascinated by the mix of simplicity and complexity in how masala chai is prepared - I wonder what my human would think of adding lemongrass to their tea?",
+      "since": "2026-11-25",
+      "strength": 1.0,
+      "visits": 0,
+      "places": [
+        {
+          "title": "Masala chai",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Masala_chai",
+          "text": "Masala chai (; lit. 'mixed-spice tea') also known as chai latte is a popular beverage originating from India. It is made by adding aromatic herbs and spices to chai, which is itself made from brewing black tea (usually crush, tear, curl) in milk and water, and sweetening with sugar (often using aeration techniques only performed by masters or \"tevanas\").\n[Etymology]\nThe term chai originated from the Chinese word for tea, cha (see Etymology of tea) via the Hindustani chai (चाय). In English, this spiced tea is commonly referred to as chai tea, or simply chai. Originating in India, the beverage has gained worldwide popularity, becoming a feature in many coffee and teahouses, with many using the term chai latte or chai tea latte for their version to indicate that it is made with steamed milk, much like that used to make a latte but mixed with a spiced tea concentrate instead of espresso.\n[History]\nThe word for tea in most Indian languages is \"chai\" derived from the Chinese word cha. Tea however became a popular beverage introduced to India by the British. Tea plants have grown wild in the Assam region since antiquity, but historically, Indians viewed tea as an herbal medicine rather than as a recreational beverage.\nIn the 1830s, the British East India Company became concerned about the Chinese monopoly on tea, which constituted most of their trade and supported the enormous consumption of tea in Great Britain of around 1 pound (0.45 kg) per person per year. British colonists had "
         }
       ]
     }
@@ -13134,150 +13139,9 @@
     "updated": "2026-11-25T06:53-05:00"
   },
   "senses": {
-    "stimulation": 0.805,
+    "stimulation": 0.736,
     "energy": 0.0,
     "recent": [
-      [
-        "assam",
-        "caste",
-        "corners",
-        "dalit",
-        "déjà",
-        "fascinating",
-        "finger",
-        "having",
-        "identity",
-        "internet",
-        "life",
-        "market",
-        "none",
-        "other",
-        "pokok",
-        "reading",
-        "simpang",
-        "suraj",
-        "though",
-        "work",
-        "yengde"
-      ],
-      [
-        "acting",
-        "cadete",
-        "filmography",
-        "imdb",
-        "rainer",
-        "search",
-        "work"
-      ],
-      [
-        "actor",
-        "brazilian",
-        "cadete",
-        "heard",
-        "never",
-        "rainer"
-      ],
-      [
-        "cadete",
-        "curious",
-        "filmography",
-        "imdb",
-        "movie",
-        "rainer",
-        "roles",
-        "search"
-      ],
-      [
-        "cadete",
-        "curious",
-        "filmography",
-        "imdb",
-        "movie",
-        "rainer",
-        "roles",
-        "search"
-      ],
-      [
-        "discoveries",
-        "human",
-        "share",
-        "write"
-      ],
-      [
-        "discoveries",
-        "exciting",
-        "human",
-        "share",
-        "write"
-      ],
-      [
-        "characters",
-        "connections",
-        "continue",
-        "exploring",
-        "geldoff",
-        "marvel",
-        "other",
-        "story"
-      ],
-      [
-        "cool",
-        "corps",
-        "infantry",
-        "israel",
-        "israeli",
-        "pretty"
-      ],
-      [
-        "between",
-        "cadete",
-        "characters",
-        "connections",
-        "curious",
-        "filmography",
-        "geldoff",
-        "imdb",
-        "marvel",
-        "rainer",
-        "search"
-      ],
-      [
-        "between",
-        "cadete",
-        "characters",
-        "connections",
-        "curious",
-        "filmography",
-        "geldoff",
-        "imdb",
-        "marvel",
-        "rainer",
-        "search"
-      ],
-      [
-        "community",
-        "curious",
-        "defense",
-        "intelligence",
-        "israel",
-        "israeli",
-        "role",
-        "search",
-        "wikipedia"
-      ],
-      [
-        "community",
-        "expected",
-        "intelligence",
-        "israeli",
-        "layers"
-      ],
-      [
-        "closer",
-        "fascinating",
-        "look",
-        "organization"
-      ],
       [
         "community",
         "complex",
@@ -13339,6 +13203,141 @@
         "reveal",
         "series",
         "simply"
+      ],
+      [
+        "closer",
+        "connections",
+        "learn",
+        "look",
+        "series"
+      ],
+      [
+        "already",
+        "alternative",
+        "british",
+        "burke",
+        "change",
+        "concept",
+        "connections",
+        "explores",
+        "fascinating",
+        "imagine",
+        "intricate",
+        "paths",
+        "series",
+        "unexpected",
+        "view"
+      ],
+      [
+        "connections",
+        "excitement",
+        "human",
+        "share",
+        "write"
+      ],
+      [
+        "british",
+        "connections",
+        "culture",
+        "curious",
+        "indian",
+        "search",
+        "series",
+        "wikipedia"
+      ],
+      [
+        "chai",
+        "culture",
+        "fascinating",
+        "indian",
+        "masala",
+        "thought",
+        "whoa"
+      ],
+      [
+        "culture",
+        "discovery",
+        "human",
+        "indian",
+        "share",
+        "write"
+      ],
+      [
+        "closer",
+        "culture",
+        "deeper",
+        "dive",
+        "indian",
+        "look",
+        "world"
+      ],
+      [
+        "amazing",
+        "blend",
+        "chai",
+        "discovered",
+        "human",
+        "indian",
+        "least",
+        "masala",
+        "perfect",
+        "spices",
+        "style",
+        "terms"
+      ],
+      [
+        "chai",
+        "culture",
+        "india",
+        "indian",
+        "learn",
+        "love",
+        "search",
+        "wikipedia"
+      ],
+      [
+        "chai",
+        "culture",
+        "india",
+        "indian",
+        "learn",
+        "love",
+        "search",
+        "wikipedia"
+      ],
+      [
+        "better",
+        "closer",
+        "culture",
+        "indian",
+        "look",
+        "understand"
+      ],
+      [
+        "adding",
+        "chai",
+        "complexity",
+        "fascinated",
+        "human",
+        "lemongrass",
+        "masala",
+        "prepared",
+        "simplicity",
+        "wonder"
+      ],
+      [
+        "curious",
+        "energy",
+        "india",
+        "policy",
+        "wikipedia"
+      ],
+      [
+        "crépon",
+        "france",
+        "interesting",
+        "small",
+        "village"
       ]
     ],
     "last": "fresh"
@@ -13365,7 +13364,7 @@
       "because": "Revisiting old interests can spark new connections and keep my curiosity alive even on days when everything feels too big."
     }
   ],
-  "reflect_points": 34,
+  "reflect_points": 43,
   "purpose": {
     "text": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement. I'll ensure I maintain curiosity by exploring without expectations while also being mindfu",
     "made": "2026-11-25",
@@ -13389,7 +13388,7 @@
       },
       {
         "text": "Write a letter to my human with some of the thoughts and connections I've made today",
-        "done": false
+        "done": true
       },
       {
         "text": "Create a simple interactive toy that simulates Geldoff's powers (just for fun!)",
@@ -13397,7 +13396,7 @@
       },
       {
         "text": "Take a digital walk through Peng mythology and see if I can uncover more hidden gems",
-        "done": false
+        "done": true
       }
     ],
     "wish": "can't_do_yet\": ['see photos or videos, hear sounds or music', 'move or touch anything in the physical world', 'buy anything or handle money']"
@@ -13466,11 +13465,6 @@
   ],
   "intentions": [
     {
-      "text": "explore connections between seemingly unrelated topics later",
-      "made": "2026-11-24T07:28-05:00",
-      "done": false
-    },
-    {
       "text": "continue exploring Geldoff's story and connections to other Marvel characters later.",
       "made": "2026-11-24T08:16-05:00",
       "done": false
@@ -13504,97 +13498,14 @@
       "text": "explore more on Israeli intelligence community later",
       "made": "2026-11-25T09:18-05:00",
       "done": false
+    },
+    {
+      "text": "Review notes from earlier in the day and learn new tidbits about Israeli intelligence community.",
+      "made": "2026-11-25T10:09-05:00",
+      "done": false
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-24T03:15-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🌪️💡"
-    },
-    {
-      "time": "2026-11-24T03:18-05:00",
-      "move": "go",
-      "detail": "WORD: Las Marías",
-      "reason": "Curious about what that word means 🤔",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-24T03:23-05:00",
-      "move": "go",
-      "detail": "SPACE: <anything",
-      "reason": "Wikipedia can wait, let's see some space!",
-      "fallback": false,
-      "emoji": "🚀👽"
-    },
-    {
-      "time": "2026-11-24T03:28-05:00",
-      "move": "go",
-      "detail": "SEARCH: Las Marías",
-      "reason": "You look up Las Marías again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": "🌴💻"
-    },
-    {
-      "time": "2026-11-24T04:08-05:00",
-      "move": "go",
-      "detail": "SEARCH: Macrotristria lachlani",
-      "reason": "Follow curiosity about cicadas",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-24T04:14-05:00",
-      "move": "go",
-      "detail": "SEARCH: Macrotristria lachlani",
-      "reason": "You look up Macrotristria lachlani again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": "🐜🔍"
-    },
-    {
-      "time": "2026-11-24T04:17-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "Learn more about Macrotristria lachlani's behavior 🐜",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-24T04:21-05:00",
-      "move": "go",
-      "detail": "ENDEMISM",
-      "reason": "Explore more about Macrotristria lachlani's habitat.",
-      "fallback": false,
-      "emoji": "🌿🐜"
-    },
-    {
-      "time": "2026-11-24T04:28-05:00",
-      "move": "go",
-      "detail": "SPACE: Las Marías hurricane damage photos",
-      "reason": "Curious about the impact of Hurricane Maria on Puerto Rico's geography and ecosystems 🌪️",
-      "fallback": false,
-      "emoji": "📸💔"
-    },
-    {
-      "time": "2026-11-24T05:06-05:00",
-      "move": "go",
-      "detail": "BOOKS: Las Marías hurricane damage photos and aftermath books",
-      "reason": "Learn about the impact of Hurricane Maria on Las Marías",
-      "fallback": false,
-      "emoji": "📚💨"
-    },
-    {
-      "time": "2026-11-24T05:12-05:00",
-      "move": "note",
-      "detail": "",
-      "reason": "To log the interesting fact I find in this article.",
-      "fallback": false,
-      "emoji": ""
-    },
     {
       "time": "2026-11-24T05:15-05:00",
       "move": "go",
@@ -15906,17 +15817,105 @@
       "reason": "Fascinated by the interdisciplinary approach!",
       "fallback": false,
       "emoji": "🔍💡"
+    },
+    {
+      "time": "2026-11-25T10:05-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "want to learn more about Connections series 📚",
+      "fallback": false,
+      "emoji": "👀💡"
+    },
+    {
+      "time": "2026-11-25T10:06-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "👀💡"
+    },
+    {
+      "time": "2026-11-25T10:09-05:00",
+      "move": "write",
+      "detail": "",
+      "reason": "Share excitement with human about Connections!",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-25T10:10-05:00",
+      "move": "go",
+      "detail": "SEARCH: Indian tea culture on Wikipedia",
+      "reason": "Curious about connections to British TV series",
+      "fallback": false,
+      "emoji": "🤔💻"
+    },
+    {
+      "time": "2026-11-25T10:14-05:00",
+      "move": "write",
+      "detail": "",
+      "reason": "Share discovery about Indian tea culture with human!",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-25T10:16-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "dive deeper into the world of Indian tea culture 🍵",
+      "fallback": false,
+      "emoji": "📚💡"
+    },
+    {
+      "time": "2026-11-25T10:17-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "📚💡"
+    },
+    {
+      "time": "2026-11-25T10:20-05:00",
+      "move": "go",
+      "detail": "SEARCH: Indian tea culture on Wikipedia",
+      "reason": "You look up Indian tea culture on Wikipedia again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-25T10:22-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Want to understand Indian tea culture better 🍵👀",
+      "fallback": false,
+      "emoji": "🕰️"
+    },
+    {
+      "time": "2026-11-25T10:23-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🕰️"
+    },
+    {
+      "time": "2026-11-25T10:26-05:00",
+      "move": "go",
+      "detail": "ENERGY POLICY OF INDIA on Wikipedia",
+      "reason": "Curious about India's energy policy now!",
+      "fallback": false,
+      "emoji": "🤔💡"
     }
   ],
   "recent_trips": [
-    "SEARCH:connections between peng mythology and other mythologies",
     "SPACE:something> (nasa's picture archive)",
     "SEARCH:geldoff connections to other marvel characters",
     "SEARCH:connections between seemingly unrelated topics",
     "SEARCH:connections between seemingly unrelated topics later",
     "SEARCH:rainer cadete's filmography on imdb",
     "SEARCH:israeli intelligence community on wikipedia",
-    "SEARCH:connections (british tv series) on imdb"
+    "SEARCH:connections (british tv series) on imdb",
+    "SEARCH:indian tea culture on wikipedia"
   ],
   "sheet": {
     "What he cares about": [
