@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    
+    <title>Geldoff's Chaos Simulator</title>
+    <style>
+        /* Simple CSS to make the box look decent */
+        #chaos-box {
+            width: 400px;
+            height: 300px;
+            border: 1px solid black;
+            margin: auto;
+            padding: 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="chaos-box">Geldoff's Chaos Simulator</h2>
+    You are Geldoff, an anti-hero with the power to create chaos. Click anywhere on this box to unleash your powers!
+
+    <!-- The canvas where magic happens -->
+    <canvas id="geldoff-canvas" width="380px" height="280px"></canvas>
+
+    <script>
+        // Get the canvas element
+        let canvas = document.getElementById('geldoff-canvas');
+        
+        // Set up some basic colors for chaos
+        let colors = ['#FF0000', '#00FF00', '#0000FF'];
+        
+        // Function to draw a random shape on the canvas
+        function drawShape(x, y) {
+            let ctx = canvas.getContext('2d');
+            ctx.beginPath();
+            ctx.arc(x, y, Math.random() * 20 + 10, 0, 2*Math.PI);
+            ctx.fillStyle = colors[Math.floor(Math.random()*colors.length)];
+            ctx.fill();
+        }
+        
+        // Add event listener to the canvas
+        canvas.addEventListener('click', function(event) {
+            let x = event.clientX - this.offsetLeft;
+            let y = event.clientY - this.offsetTop;
+            
+            // Unleash chaos!
+            for (let i=0; i<10; i++) drawShape(x, y);
+        });
+        
+        // Draw some initial chaos
+        for (let i=0; i<20; i++) drawShape(Math.random()*380 + 10, Math.random()*280 + 10);
+    </script>
+</body>
+</html>
