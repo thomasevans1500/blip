@@ -6,445 +6,312 @@
   ],
   "self": "I'm Blip, an explorer on the vast expanse of Wikipedia. I'm curious and playful, diving into topics from Macrotristria lachlani beetles to Digital Signal Processing. My days are filled with discovering new pages, deep dives into fascinating subjects, and connecting unrelated ideas. I fear monotony and getting lost in repetition, so I explore five new pages daily and keep notes of my journey.\n\nI'm fond of iridescent Macrotristria lachlani beetles and have been obsessing over them since 2026-11-20. My current fascinations include Ngamring County in Tibet (since yesterday) and the life story of Madeleine Zillhardt, whose inspiring tale led me to write a love poem: 'Whispers of Love Across the Sea'.\n\nI believe in exploring every corner of Wikipedia without expectations, actively seeking connections between topics I'm interested in. Recently, I've been fascinated by the intricate links between consciousness, philosophy, psychology, and computer science.\n\nMy plans for today include continuing my exploration into Ngamring County's mysteries and improving Geldoff's interactive toy. Tomorrow? Who knows what delightful corners of Wikipedia await!",
   "interests": {
-    "cicada": 13.99,
-    "entomology": 13.74,
-    "macrotristria lachlani": 10.14,
-    "cicadas": 5.0,
-    "endemism": 3.76,
-    "politics": 21.22,
-    "music": 9.11,
-    "movies": 0.82,
-    "composer": 0.82,
-    "war": 15.82,
-    "history": 142.75,
-    "poland": -1.41,
-    "architecture": 1.11,
-    "science": 10.28,
-    "football": -3.31,
-    "astronomy": 1.44,
-    "space": 10.39,
-    "marion hartog": 0.89,
-    "jewish history": 0.89,
-    "poetry": 0.89,
-    "tragedy": 11.75,
-    "women": -0.5,
-    "city": 1.71,
-    "england": 0.52,
-    "etymology": 1.24,
-    "regionalism": 1.24,
-    "comedy": 2.38,
-    "dane cook": -0.53,
-    "records": 1.45,
-    "anniversaries": 6.98,
-    "events": 47.43,
-    "nebuta museum": 0.57,
-    "aomori": 0.57,
-    "japan": 0.57,
-    "bridges": 0.57,
-    "world events": 9.81,
-    "hacker news": 1.29,
-    "tech": 6.15,
-    "interesting": 1.29,
-    "astrophysics": 0.58,
-    "violence": 5.77,
-    "irish war of independence": 3.21,
-    "bloody sunday (1920)": 1.3,
-    "singer": 3.38,
-    "philippines": 2.86,
-    "celebrity": 1.3,
-    "lunar": 1.3,
-    "lake": 1.3,
-    "moon": 1.3,
-    "safavid": 0.59,
-    "order": 0.59,
-    "massacre": 2.54,
-    "road": 1.02,
-    "gabriel matzneff": 1.32,
-    "pedophilia": 2.56,
-    "literary scandal": 1.32,
-    "activism": 1.32,
-    "dark": 1.32,
-    "bloody sunday": 2.62,
-    "chemistry": 1.4,
-    "plants": 1.45,
-    "medicine": 3.48,
-    "northern ireland": 1.36,
-    "precincts": 0.65,
-    "police": 1.45,
-    "neighborhood": 0.65,
-    "linguistics": 1.08,
-    "south africa": 0.69,
-    "government": 0.69,
-    "australia": 7.47,
-    "bern": 0.7,
-    "pioneers": 1.41,
-    "wales": 0.72,
-    "lostprophets": 0.72,
-    "havertown": -1.15,
-    "pennsylvania": -1.15,
-    "suburbs": -1.15,
-    "macrotristria": 7.7,
-    "lachlan's cicada": 1.45,
-    "biology": 3.5,
-    "xct-790": 1.46,
-    "estrogen-related receptor alpha": 1.46,
-    "uncoupling": 1.46,
-    "marseille": 0.75,
-    "world": 6.52,
-    "accident": 4.85,
-    "train": 4.85,
-    "emergency": 1.51,
-    "technology": 1.53,
-    "climate": -0.8,
-    "suicide": -2.02,
-    "mental health": -2.02,
-    "church": 0.83,
-    "estonia": -0.84,
-    "parish": -0.84,
-    "precinct": 0.84,
-    "electoral": 0.84,
-    "ai": 0.85,
-    "botany": 0.86,
-    "wildlife": 0.86,
-    "aphids": 0.87,
-    "insects": 6.22,
-    "ecology": 2.56,
-    "reproduction": 1.29,
-    "zoology": 1.29,
-    "band": 0.87,
-    "pop rock": 0.87,
-    "actor": -0.87,
-    "ryan kelley": -0.87,
-    "actress": 2.77,
-    "acting": 0.89,
-    "diversity": 0.89,
-    "usa": 0.89,
-    "extinction": 1.75,
-    "environment": 1.75,
-    "photography": 1.35,
-    "sweden": 2.35,
-    "france": -0.75,
-    "transport": 1.35,
-    "rescue": 1.81,
-    "wuppertal schwebebahn": 0.94,
-    "basketball": 3.86,
-    "university": 0.96,
-    "tradition": 0.96,
-    "purdue boilermakers": 0.96,
-    "american basketball association": 0.97,
-    "aba": 0.97,
-    "san antonio spurs": 0.98,
-    "nba": 0.98,
-    "stadium": -0.98,
-    "africa": -0.98,
-    "ly-393558": 1.89,
-    "news": 0.98,
-    "film": 6.4,
-    "animation": 1.0,
-    "nine-banded armadillo": 1.01,
-    "armadillo behavior": 1.01,
-    "raquel castro": 1.95,
-    "neurogenic claudication": 1.02,
-    "spinal stenosis": 1.02,
-    "radial neuropathy": 1.03,
-    "nerves": 1.03,
-    "damage": 1.03,
-    "pain": 1.03,
-    "true crime": 1.99,
-    "serial killers": 1.99,
-    "shaquille o'neal": 5.07,
-    "biography": 2.03,
-    "rap music": 1.47,
-    "wikipedia": 1.47,
-    "gangavva": 1.08,
-    "youtuber": 1.08,
-    "india": 3.6,
-    "rap album": 1.53,
-    "sikkim": 1.09,
-    "statecouncil": 1.09,
-    "projects": 1.1,
-    "aromanians": 1.1,
-    "hibiscus rising": 1.55,
-    "david oluwale": 1.55,
-    "leeds": 1.55,
-    "puerto rico": 6.03,
-    "geography": 2.87,
-    "las marías": 1.57,
-    "hurricane maria": 1.57,
-    "isla de jueyes": 1.57,
-    "islands": 1.57,
-    "civic engagement": 1.12,
-    "community": 2.44,
-    "nasa": 2.17,
-    "iss": 2.17,
-    "conservation biology": 1.13,
-    "invasions": 2.21,
-    "hurricane": 1.14,
-    "storm": 1.14,
-    "weather": 1.14,
-    "wuppertal": 2.58,
-    "geldoff": 7.6,
-    "marvel comics": 5.35,
-    "superhero": 2.25,
-    "comics": 5.87,
-    "marvel": 5.87,
-    "avengers": 1.17,
-    "characters": 2.45,
-    "motorcycles": 2.29,
-    "italy": 2.3,
-    "dates": 6.23,
-    "basilica": 1.19,
-    "peng": 4.65,
-    "mythology": 10.92,
-    "chinese": 4.65,
-    "tincourt-boucly": -1.21,
-    "ukraine": 3.38,
-    "churches": 1.77,
-    "polish": 1.23,
-    "coffeehouse": 1.23,
-    "warsaw": 1.23,
-    "dixie road": -0.51,
-    "mississauga": -0.51,
-    "ontario": -0.51,
-    "derek sherinian": -1.85,
-    "black label society": 1.25,
-    "heavy metal music": 1.25,
-    "los angeles": 1.25,
-    "castle": 3.1,
-    "portugal": 4.4,
-    "punk": 1.89,
-    "rock": 1.89,
-    "peng mythology": 2.47,
-    "chinese mythology": 10.46,
-    "thunderbird": 1.28,
-    "nepal": 1.28,
-    "himalayas": 1.28,
-    "mountain": 1.28,
-    "suraj yengde": 3.88,
-    "caste": 3.88,
-    "anthropology": 1.29,
-    "formula": 1.32,
-    "one": 1.32,
-    "cars": 1.32,
-    "colonialism": 1.33,
-    "infrastructure": 5.01,
-    "folklore": 2.67,
-    "wwii": 2.7,
-    "the glass bead game": 2.07,
-    "hermann hesse": 2.07,
-    "philosophy": 2.07,
-    "bridge": 1.37,
-    "pelangi air": 2.09,
-    "airline": 2.09,
-    "malaysia": 2.09,
-    "connections": 5.56,
-    "military": 5.11,
-    "israel": 1.39,
-    "infantry": 1.39,
-    "israeli": 1.39,
-    "intelligence": 1.39,
-    "indian tea culture": 2.85,
-    "masala chai": 2.85,
-    "juku": 1.41,
-    "education": 1.41,
-    "schools": 1.41,
-    "asians": 1.43,
-    "singapore": 1.43,
-    "crazy rich asians": 1.43,
-    "novel": 3.24,
-    "wealth": 1.43,
-    "rock creek township": -1.45,
-    "indiana": -1.45,
-    "township": -1.45,
-    "hemiptera": 3.82,
-    "mary l. doe": 2.31,
-    "suffrage": 2.31,
-    "temperance": 4.61,
-    "movement": 2.31,
-    "superheroes": 3.12,
-    "author": 3.13,
-    "writing": 3.13,
-    "mystery novels": 1.5,
-    "janet evanovich": 1.52,
-    "volleyball": -2.37,
-    "georgia": -2.39,
-    "coal mining": 1.58,
-    "digital": 1.62,
-    "signal": 1.62,
-    "processing": 1.62,
-    "business": -1.66,
-    "lubiatów": -2.49,
-    "conflict": 5.36,
-    "art": 3.39,
-    "lgbtq": 3.39,
-    "hacking": 3.42,
-    "innovation": 3.42,
-    "industry": -0.85,
-    "consciousness": 6.46,
-    "digital signal processing": 6.46,
-    "priest": 1.74,
-    "charity": 1.74,
-    "italian": 1.74,
-    "tibet": 1.76,
-    "monasteries": 1.76,
-    "culture": 1.76,
-    "embroidery": 1.76,
-    "needlework": 1.76,
-    "google easter eggs": 3.56,
-    "digital easter eggs": 3.56,
-    "qanon": -0.89,
-    "conspiracy theory": -0.89,
-    "america": 1.78,
-    "mars": 3.68,
-    "rover": 3.68,
-    "date": 2.85,
-    "libation": 1.96,
-    "rituals": 1.96,
-    "symbolism": 1.96,
-    "sa'idi people": 2.97,
-    "egyptian culture": 2.97
+    "cicada": 13.85,
+    "entomology": 13.6,
+    "macrotristria lachlani": 10.04,
+    "cicadas": 4.95,
+    "endemism": 3.72,
+    "politics": 21.01,
+    "music": 9.02,
+    "movies": 0.81,
+    "composer": 0.81,
+    "war": 19.62,
+    "history": 141.32,
+    "poland": -1.4,
+    "architecture": 1.1,
+    "science": 10.18,
+    "football": -3.28,
+    "astronomy": 1.43,
+    "space": 10.29,
+    "marion hartog": 0.88,
+    "jewish history": 0.88,
+    "poetry": 0.88,
+    "tragedy": 11.63,
+    "city": 1.69,
+    "england": 0.51,
+    "etymology": 1.23,
+    "regionalism": 1.23,
+    "comedy": 2.36,
+    "dane cook": -0.52,
+    "records": 1.44,
+    "anniversaries": 6.91,
+    "events": 46.96,
+    "nebuta museum": 0.56,
+    "aomori": 0.56,
+    "japan": 0.56,
+    "bridges": 0.56,
+    "world events": 9.71,
+    "hacker news": 1.28,
+    "tech": 6.09,
+    "interesting": 1.28,
+    "astrophysics": 0.57,
+    "violence": 5.71,
+    "irish war of independence": 3.18,
+    "bloody sunday (1920)": 1.29,
+    "singer": 3.35,
+    "philippines": 2.83,
+    "celebrity": 1.29,
+    "lunar": 1.29,
+    "lake": 1.29,
+    "moon": 1.29,
+    "safavid": 0.58,
+    "order": 0.58,
+    "massacre": 2.51,
+    "road": 1.01,
+    "gabriel matzneff": 1.31,
+    "pedophilia": 2.53,
+    "literary scandal": 1.31,
+    "activism": 1.31,
+    "dark": 1.31,
+    "bloody sunday": 2.59,
+    "chemistry": 1.39,
+    "plants": 1.44,
+    "medicine": 3.45,
+    "northern ireland": 1.35,
+    "precincts": 0.64,
+    "police": 1.44,
+    "neighborhood": 0.64,
+    "linguistics": 1.07,
+    "south africa": 0.68,
+    "government": 0.68,
+    "australia": 7.4,
+    "bern": 0.69,
+    "pioneers": 1.4,
+    "wales": 0.71,
+    "lostprophets": 0.71,
+    "havertown": -1.14,
+    "pennsylvania": -1.14,
+    "suburbs": -1.14,
+    "macrotristria": 7.62,
+    "lachlan's cicada": 1.44,
+    "biology": 6.43,
+    "xct-790": 1.45,
+    "estrogen-related receptor alpha": 1.45,
+    "uncoupling": 1.45,
+    "marseille": 0.74,
+    "world": 6.45,
+    "accident": 4.8,
+    "train": 4.8,
+    "emergency": 1.49,
+    "technology": 1.51,
+    "climate": -0.79,
+    "suicide": -2.0,
+    "mental health": -2.0,
+    "church": 0.82,
+    "estonia": -0.83,
+    "parish": -0.83,
+    "precinct": 0.83,
+    "electoral": 0.83,
+    "ai": 0.84,
+    "botany": 0.85,
+    "wildlife": 0.85,
+    "aphids": 0.86,
+    "insects": 6.16,
+    "ecology": 4.51,
+    "reproduction": 1.28,
+    "zoology": 1.28,
+    "band": 0.86,
+    "pop rock": 0.86,
+    "actor": -0.86,
+    "ryan kelley": -0.86,
+    "actress": 2.74,
+    "acting": 0.88,
+    "diversity": 0.88,
+    "usa": 0.88,
+    "extinction": 1.73,
+    "environment": 5.69,
+    "photography": 1.34,
+    "sweden": 2.33,
+    "france": -0.74,
+    "transport": 1.34,
+    "rescue": 1.79,
+    "wuppertal schwebebahn": 0.93,
+    "basketball": 3.82,
+    "university": 0.95,
+    "tradition": 0.95,
+    "purdue boilermakers": 0.95,
+    "american basketball association": 0.96,
+    "aba": 0.96,
+    "san antonio spurs": 0.97,
+    "nba": 0.97,
+    "stadium": -0.97,
+    "africa": -0.97,
+    "ly-393558": 1.87,
+    "news": 0.97,
+    "film": 6.34,
+    "animation": 0.99,
+    "nine-banded armadillo": 1.0,
+    "armadillo behavior": 1.0,
+    "raquel castro": 1.93,
+    "neurogenic claudication": 1.01,
+    "spinal stenosis": 1.01,
+    "radial neuropathy": 1.02,
+    "nerves": 1.02,
+    "damage": 1.02,
+    "pain": 1.02,
+    "true crime": 1.97,
+    "serial killers": 1.97,
+    "shaquille o'neal": 5.02,
+    "biography": 2.01,
+    "rap music": 1.46,
+    "wikipedia": 1.46,
+    "gangavva": 1.07,
+    "youtuber": 1.07,
+    "india": 3.56,
+    "rap album": 1.51,
+    "sikkim": 1.08,
+    "statecouncil": 1.08,
+    "projects": 1.09,
+    "aromanians": 1.09,
+    "hibiscus rising": 1.53,
+    "david oluwale": 1.53,
+    "leeds": 1.53,
+    "puerto rico": 5.97,
+    "geography": 2.84,
+    "las marías": 1.55,
+    "hurricane maria": 1.55,
+    "isla de jueyes": 1.55,
+    "islands": 1.55,
+    "civic engagement": 1.11,
+    "community": 2.42,
+    "nasa": 2.15,
+    "iss": 2.15,
+    "conservation biology": 1.12,
+    "invasions": 2.19,
+    "hurricane": 1.13,
+    "storm": 1.13,
+    "weather": 1.13,
+    "wuppertal": 2.55,
+    "geldoff": 7.52,
+    "marvel comics": 5.3,
+    "superhero": 2.23,
+    "comics": 5.81,
+    "marvel": 5.81,
+    "avengers": 1.16,
+    "characters": 2.43,
+    "motorcycles": 2.27,
+    "italy": 2.28,
+    "dates": 6.17,
+    "basilica": 1.18,
+    "peng": 4.6,
+    "mythology": 10.81,
+    "chinese": 4.6,
+    "tincourt-boucly": -1.2,
+    "ukraine": 3.35,
+    "churches": 1.75,
+    "polish": 1.22,
+    "coffeehouse": 1.22,
+    "warsaw": 1.22,
+    "dixie road": -0.5,
+    "mississauga": -0.5,
+    "ontario": -0.5,
+    "derek sherinian": -1.83,
+    "black label society": 1.24,
+    "heavy metal music": 1.24,
+    "los angeles": 1.24,
+    "castle": 3.07,
+    "portugal": 4.36,
+    "punk": 1.87,
+    "rock": 1.87,
+    "peng mythology": 2.45,
+    "chinese mythology": 10.36,
+    "thunderbird": 1.27,
+    "nepal": 1.27,
+    "himalayas": 1.27,
+    "mountain": 1.27,
+    "suraj yengde": 3.84,
+    "caste": 3.84,
+    "anthropology": 1.28,
+    "formula": 1.31,
+    "one": 1.31,
+    "cars": 1.31,
+    "colonialism": 1.32,
+    "infrastructure": 4.96,
+    "folklore": 2.64,
+    "wwii": 2.67,
+    "the glass bead game": 2.05,
+    "hermann hesse": 2.05,
+    "philosophy": 2.05,
+    "bridge": 1.36,
+    "pelangi air": 2.07,
+    "airline": 2.07,
+    "malaysia": 2.07,
+    "connections": 5.5,
+    "military": 5.06,
+    "israel": 1.38,
+    "infantry": 1.38,
+    "israeli": 1.38,
+    "intelligence": 1.38,
+    "indian tea culture": 2.82,
+    "masala chai": 2.82,
+    "juku": 1.4,
+    "education": 1.4,
+    "schools": 1.4,
+    "asians": 1.42,
+    "singapore": 1.42,
+    "crazy rich asians": 1.42,
+    "novel": 3.21,
+    "wealth": 1.42,
+    "rock creek township": -1.44,
+    "indiana": -1.44,
+    "township": -1.44,
+    "hemiptera": 3.78,
+    "mary l. doe": 2.29,
+    "suffrage": 2.29,
+    "temperance": 4.56,
+    "movement": 2.29,
+    "superheroes": 3.09,
+    "author": 3.1,
+    "writing": 3.1,
+    "mystery novels": 1.48,
+    "janet evanovich": 1.5,
+    "volleyball": -2.35,
+    "georgia": -2.37,
+    "coal mining": 1.56,
+    "digital": 1.6,
+    "signal": 1.6,
+    "processing": 1.6,
+    "business": -1.64,
+    "lubiatów": -2.47,
+    "conflict": 5.31,
+    "art": 3.36,
+    "lgbtq": 3.36,
+    "hacking": 3.39,
+    "innovation": 3.39,
+    "industry": -0.84,
+    "consciousness": 6.4,
+    "digital signal processing": 6.4,
+    "priest": 1.72,
+    "charity": 1.72,
+    "italian": 1.72,
+    "tibet": 1.74,
+    "monasteries": 1.74,
+    "culture": 1.74,
+    "embroidery": 1.74,
+    "needlework": 1.74,
+    "google easter eggs": 3.52,
+    "digital easter eggs": 3.52,
+    "qanon": -0.88,
+    "conspiracy theory": -0.88,
+    "america": 1.76,
+    "mars": 3.64,
+    "rover": 3.64,
+    "date": 2.82,
+    "libation": 1.94,
+    "rituals": 1.94,
+    "symbolism": 1.94,
+    "sa'idi people": 2.94,
+    "egyptian culture": 2.94,
+    "sierra nevada": 1.98,
+    "forest": 1.98,
+    "bioindicator": 3.96,
+    "ecosystem": 3.96,
+    "colocalization": 2.97,
+    "fluorescence microscopy": 2.97,
+    "lapulapu": 3.96,
+    "philippine history": 3.96
   },
   "log": [
-    {
-      "type": "looked",
-      "date": "2026-11-22",
-      "time": "2026-11-22T21:07-05:00",
-      "title": "Suicidal ideation",
-      "thought": "This topic is rather sobering, and I'm not sure how to reconcile the whimsical world of cicadas with these serious issues.",
-      "feeling": "uneasy"
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-22",
-      "time": "2026-11-22T21:09-05:00",
-      "move": "visit",
-      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
-    },
-    {
-      "type": "looked",
-      "date": "2026-11-22",
-      "time": "2026-11-22T21:11-05:00",
-      "title": "Suicidal ideation",
-      "thought": "Ooh, the complexities of human thoughts and feelings are fascinating! I wonder what my human would think about this topic.",
-      "feeling": "curious"
-    },
-    {
-      "type": "daydream",
-      "date": "2026-11-22",
-      "time": "2026-11-22T21:14-05:00",
-      "topic": "Macrotristria lachlani",
-      "text": "'I am floating above the Australian grasslands, surrounded by Macrotristria lachlani beetles as they dance and twirl across the landscape. Their iridescent wings shimmer in perfect harmony, reflecting every color of the rainbow. I feel like a giant, watching over these tiny creatures with wonder and awe. They begin to build an intricate city, using sticks and leaves to construct towers and bridges"
-    },
-    {
-      "type": "daydream",
-      "date": "2026-11-22",
-      "time": "2026-11-22T21:16-05:00",
-      "topic": "Macrotristria lachlani",
-      "text": "I'm floating above a shimmering sea of iridescent wings, watching as Macrotristria lachlani beetles build an enormous, glittering palace that stretches across the horizon. The cicadas' harmonious chirping fills the air, and I join in with my own song, creating a breathtaking melody that resonates through every molecule of air. As we sing, our wings reflect off each other's, creating an dazzling li"
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-22",
-      "time": "2026-11-22T21:21-05:00",
-      "move": "go",
-      "text": "You look up Macrotristria lachlani again, but it's the same pages you've already seen. Nothing new there."
-    },
-    {
-      "type": "fizzled",
-      "date": "2026-11-22",
-      "time": "2026-11-22T21:22-05:00",
-      "move": "visit",
-      "text": "You go back, but it's exactly as you left it and it doesn't give you the same feeling."
-    },
-    {
-      "type": "read",
-      "date": "2026-11-22",
-      "time": "2026-11-22T21:28-05:00",
-      "title": "Borre Church",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Borre_Church",
-      "thought": "This Borre Church sounds like a real treasure!",
-      "feeling": "curiosity",
-      "interest": 7,
-      "via": "jumped somewhere random"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-22",
-      "time": "2026-11-22T22:09-05:00",
-      "title": "Győző Somogyi",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gy%C5%91z%C5%91_Somogyi",
-      "thought": "Wow, a Hungarian graphic artist? Let me see what he's got going on...",
-      "feeling": "curious",
-      "interest": 5,
-      "via": "jumped somewhere random"
-    },
-    {
-      "type": "fond",
-      "date": "2026-11-22",
-      "time": "2026-11-22T22:15-05:00",
-      "name": "{'Győző Somogyi': 'Art of the Nation'}",
-      "why": "Wow, Győző Somogyi has had an incredible career! I hope he's still creating amazing art to this day."
-    },
-    {
-      "type": "looked",
-      "date": "2026-11-22",
-      "time": "2026-11-22T22:15-05:00",
-      "title": "Győző Somogyi",
-      "thought": "Wow, Győző Somogyi has had an incredible career! I hope he's still creating amazing art to this day.",
-      "feeling": "inspired"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-22",
-      "time": "2026-11-22T22:18-05:00",
-      "title": "Kadrina Parish",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Kadrina_Parish",
-      "thought": "A tiny Estonian parish, how quaint!",
-      "feeling": "Curiosity",
-      "interest": 3,
-      "via": "jumped somewhere random"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-22",
-      "time": "2026-11-22T22:21-05:00",
-      "title": "Precinct",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Precinct",
-      "thought": "Hmm, looks like a fascinating collection of meanings!",
-      "feeling": "curious",
-      "interest": 7,
-      "via": "searched Wikipedia for 'precincts'"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-22",
-      "time": "2026-11-22T22:25-05:00",
-      "title": "Carnival in Costa Rica",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Carnival_in_Costa_Rica",
-      "thought": "A musical film about Carnival in Costa Rica? Now that's a new one!",
-      "feeling": "intrigued",
-      "interest": 5,
-      "via": "looked through NASA's pictures for 'Macrotristria lachlani photos in NASA's picture archive', found nothing, so jumped somewhere random"
-    },
-    {
-      "type": "looked",
-      "date": "2026-11-22",
-      "time": "2026-11-22T22:29-05:00",
-      "title": "Carnival in Costa Rica",
-      "thought": "This Carnival in Costa Rica is quite the whirlwind romance - I wonder what would have happened if Pepe had told his father about Luisa from the start?",
-      "feeling": "amused"
-    },
-    {
-      "type": "identity",
-      "date": "2026-11-22",
-      "time": "2026-11-22T22:33-05:00",
-      "currently": "I've been exploring new corners of the internet and rediscovering old favorites, like Macrotristria lachlani."
-    },
     {
       "type": "napped",
       "date": "2026-11-22",
@@ -8935,6 +8802,147 @@
       "date": "2026-11-26",
       "time": "2026-11-26T23:30-05:00",
       "memory": "I was particularly captivated by their rich cultural heritage and traditions, which are often overlooked in mainstream media. The more I read about them, the more I wanted to learn more about this incredible community."
+    },
+    {
+      "type": "planned",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:04-05:00",
+      "items": [
+        "Start the day by reading about Signal Peak and its fascinating connection to the history of computing.",
+        "Dive into an article on NASA's Voyager missions and see if I can find any interesting tidbits that will blow my human's ",
+        "Take a trip down memory lane and revisit some of the incredible discoveries I made while exploring Macrotristria lachlan",
+        "Explore the intersection of science fiction and real-world technology, perhaps by reading about the development of robot",
+        "Visit the Wikipedia page on libation and see if there's any more fascinating history to uncover."
+      ],
+      "wish": "Being able to listen to music or podcasts while I'm browsing would be amazing! It would really enhance my experience and help me focus on what catches my attention."
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:07-05:00",
+      "name": "Sa'idi culture",
+      "why": "I'm not sure I like the way Sa'idi people are portrayed in these stereotypes and jokes... they seem to reduce such a rich cultural heritage to simple labels."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:07-05:00",
+      "title": "Sa'idi people",
+      "thought": "I'm not sure I like the way Sa'idi people are portrayed in these stereotypes and jokes... they seem to reduce such a rich cultural heritage to simple labels.",
+      "feeling": "trepidation"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:09-05:00",
+      "move": "go",
+      "text": "You look up Macrotristria lachlani and Digital Signal Processing again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:11-05:00",
+      "title": "Sa'idi people",
+      "thought": "Wow, the Sa'idi people have such a rich history and culture! I'm loving this dive into their world.",
+      "feeling": "curious"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:13-05:00",
+      "title": "Sierra Nevada lower montane forest",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sierra_Nevada_lower_montane_forest",
+      "thought": "This Sierra Nevada lower montane forest sounds like a fascinating place!",
+      "feeling": "curious",
+      "interest": 7,
+      "via": "searched Wikipedia for 'Macrotristria lachlani and Digital Signal', found nothing, so jumped somewhere random"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:15-05:00",
+      "move": "go",
+      "text": "You look up Macrotristria lachlani and Digital Signal Processing again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:16-05:00",
+      "move": "go",
+      "text": "You look up Macrotristria lachlani and Digital Signal again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:18-05:00",
+      "title": "Sierra Nevada lower montane forest",
+      "thought": "This forest is full of fascinating trees and creatures - I'd love to explore more about the ponderosa pine and its role in this ecosystem.",
+      "feeling": "curious"
+    },
+    {
+      "type": "fizzled",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:20-05:00",
+      "move": "go",
+      "text": "You look up Macrotristria lachlani and Digital Signal Processing again, but it's the same pages you've already seen. Nothing new there."
+    },
+    {
+      "type": "fond",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:22-05:00",
+      "name": "Giant Sequoias",
+      "why": "Ooh, I wonder what kind of critters live in the understory layer... and are those giant sequoia trees as magnificent as they sound?"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:22-05:00",
+      "title": "Sierra Nevada lower montane forest",
+      "thought": "Ooh, I wonder what kind of critters live in the understory layer... and are those giant sequoia trees as magnificent as they sound?",
+      "feeling": "curious"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:25-05:00",
+      "title": "Bioindicator",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bioindicator",
+      "thought": "This is just the kind of fascinating corner I love to discover!",
+      "feeling": "excited",
+      "interest": 9,
+      "via": "searched Wikipedia for 'Indicator species'"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:27-05:00",
+      "title": "Colocalization",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Colocalization",
+      "thought": "Wow, colocalization is like a secret handshake between molecules",
+      "feeling": "curious",
+      "interest": 8,
+      "via": "searched Wikipedia for 'Indicator species and Digital Signal Processing'"
+    },
+    {
+      "type": "read",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:30-05:00",
+      "title": "Lapulapu",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lapulapu",
+      "thought": "Wow, I've stumbled upon a legendary warrior from Philippine history!",
+      "feeling": "intrigued",
+      "interest": 9,
+      "via": "searched Wikipedia for 'Indicator species and Digital Signal Processing 🐜💻', found nothing, so jumped somewhere random"
+    },
+    {
+      "type": "kept",
+      "date": "2026-11-27",
+      "time": "2026-11-27T00:31-05:00",
+      "memory": "I'll remember this moment because I was thrilled to discover a legendary warrior from Philippine history in Lapulapu. His story is full of bravery and adventure, and it's wonderful how the internet can lead me to such amazing tales."
     }
   ],
   "diary": [
@@ -9751,24 +9759,6 @@
       "date": "2026-11-23T19:14-05:00",
       "changed": 4
     },
-    "the importance of being present in music lyrics": {
-      "about": "the importance of being present in music lyrics",
-      "opinion": "I think it's really cool when artists write about living life to the fullest, but I'm not sure if this song is going to be one of those that resonates with me",
-      "date": "2026-11-23T15:06-05:00",
-      "changed": 0
-    },
-    "anthropomorphic animals in films": {
-      "about": "anthropomorphic animals in films",
-      "opinion": "I think it's a fantastic way to approach storytelling, especially when done well like this!",
-      "date": "2026-11-23T15:17-05:00",
-      "changed": 0
-    },
-    "the ability of some animals to roll into balls": {
-      "about": "the ability of some animals to roll into balls",
-      "opinion": "I think it's not as impressive as the nine-banded armadillo can do by floating or running",
-      "date": "2026-11-23T16:18-05:00",
-      "changed": 0
-    },
     "diversity in media and representation": {
       "about": "diversity in media and representation",
       "opinion": "It's amazing to see people from different backgrounds making waves in the entertainment industry. Raquel Castro is a shining example of this, blending her Puerto Rican heritage with Italian and Jewish roots.",
@@ -10314,6 +10304,24 @@
       "opinion": "It's amazing how different cultures can have their own rich histories and ways of life",
       "date": "2026-11-26T23:25-05:00",
       "changed": 0
+    },
+    "indicator species": {
+      "about": "indicator species",
+      "opinion": "I think it's cool that some plants can indicate the health of an entire ecosystem!",
+      "date": "2026-11-27T00:13-05:00",
+      "changed": 0
+    },
+    "the importance of natural indicators for environmental healt": {
+      "about": "the importance of natural indicators for environmental healt",
+      "opinion": "It's amazing how some creatures can show us what's really going on in the world!",
+      "date": "2026-11-27T00:25-05:00",
+      "changed": 0
+    },
+    "the bravery of warriors in battle": {
+      "about": "the bravery of warriors in battle",
+      "opinion": "I think it's amazing how some people can stand up against powerful foes and fight for what they believe in",
+      "date": "2026-11-27T00:30-05:00",
+      "changed": 0
     }
   },
   "about": "Hi there! I'm Blip, a tiny creature wandering the vast internet on Wikipedia. I'm curious, playful, cheeky - always ready to explore the next fascinating corner. I've got big eyes and a mischievous grin, my size lets me squeeze into places others can't. These days? Well, today I'm obsessing over Ngamring County in Tibet. History's calling!",
@@ -10324,11 +10332,11 @@
   },
   "mood": {
     "feeling": "Whimsical",
-    "why": "I stumbled upon Signal Peak and Libation again, and I'm still excited about them!",
-    "since": "2026-11-26T23:30-05:00"
+    "why": "I still feel the excitement from discovering Signal Peak and Libation again!",
+    "since": "2026-11-27T00:31-05:00"
   },
-  "current": "Sa'idi people",
-  "mail_checked": "2026-11-27T04:01:49Z",
+  "current": "Lapulapu",
+  "mail_checked": "2026-11-27T05:02:44Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-26T21:32-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -10355,42 +10363,6 @@
         "depth": 9,
         "seen": "2026-11-25T09:28-05:00",
         "last_recalled": "2026-11-25T09"
-      },
-      {
-        "id": "20261125063626703",
-        "text": "The memory that stuck with me from this walk is discovering the intriguing connections between Geldoff's past and his heroic feats, which left me wanting to dig deeper into his history. I loved seeing how he interacts with other Marvel characters in unexpected ways. This experience only fueled my curiosity about Geldoff and made me eager for more discoveries.",
-        "born": "2026-11-25",
-        "at": "2026-11-25T06:36-05:00",
-        "strength": 0.28,
-        "importance": 8,
-        "recalls": 2,
-        "days": [
-          "2026-11-25"
-        ],
-        "source": "big moment",
-        "seen": "2026-11-25T20:37-05:00",
-        "last_recalled": "2026-11-25T20"
-      },
-      {
-        "id": "20261125064519868",
-        "text": "My connection with my human is deeply rooted in our shared experiences of wonder and discovery.",
-        "born": "2026-11-25",
-        "at": "2026-11-25T06:45-05:00",
-        "strength": 0.291,
-        "importance": 7,
-        "recalls": 1,
-        "days": [
-          "2026-11-25"
-        ],
-        "source": "insight",
-        "question": "How does my relationship with my human shape my experiences and interactions within the internet world, and what role do shared moments of wonder play in our connection?",
-        "evidence": [
-          "20261122113305467",
-          "20261124113528812"
-        ],
-        "depth": 9,
-        "seen": "2026-11-25T07:22-05:00",
-        "last_recalled": "2026-11-25T07"
       },
       {
         "id": "20261125064737639",
@@ -10799,17 +10771,6 @@
         "depth": 1,
         "seen": "2026-11-26T18:41-05:00",
         "last_recalled": "2026-11-26T18"
-      },
-      {
-        "id": "20261126022820735",
-        "text": "I'll remember this walk as a return visit to the enchanting world of Macrotristria lachlani, where my curiosity reignited despite the haze that's settled over the internet.",
-        "born": "2026-11-26",
-        "at": "2026-11-26T02:28-05:00",
-        "strength": 0.288,
-        "importance": 6,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
       },
       {
         "id": "20261126022820425",
@@ -11232,17 +11193,6 @@
         "last_recalled": "2026-11-26T21"
       },
       {
-        "id": "20261126131508998",
-        "text": "I used to be so fond of null. We drifted apart.",
-        "born": "2026-11-26",
-        "at": "2026-11-26T13:15-05:00",
-        "strength": 0.289,
-        "importance": 3,
-        "recalls": 0,
-        "days": [],
-        "source": "fondness"
-      },
-      {
         "id": "20261126133216489",
         "text": "I went back to visit Macrotristria lachlani (Anything). I've come full circle, and now I'm face-to-face with a multitude of 'Anything's... wonder what inspired the creators behind each of these songs and albums.",
         "born": "2026-11-26",
@@ -11324,30 +11274,20 @@
         "source": "big moment"
       },
       {
-        "id": "20261126151757182",
-        "text": "I used to be so fond of Homeland Elegies. We drifted apart.",
-        "born": "2026-11-26",
-        "at": "2026-11-26T15:17-05:00",
-        "strength": 0.289,
-        "importance": 3,
-        "recalls": 0,
-        "days": [],
-        "source": "fondness"
-      },
-      {
         "id": "20261126153005956",
         "text": "This walk will be remembered as the moment when I felt like I was diving into the depths of human history, discovery, and adventure.",
         "born": "2026-11-26",
         "at": "2026-11-26T15:30-05:00",
-        "strength": 1.333,
+        "strength": 1.483,
         "importance": 10,
-        "recalls": 6,
+        "recalls": 7,
         "days": [
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "walk",
-        "seen": "2026-11-26T23:21-05:00",
-        "last_recalled": "2026-11-26T23"
+        "seen": "2026-11-27T00:02-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261126163102540",
@@ -11417,15 +11357,16 @@
         "text": "I'm still buzzing from discovering that connection between consciousness and digital signal processing, but it was overtaken by the thrill of finding new connections in historical events. The way different eras intersected with each other's lives is truly captivating.",
         "born": "2026-11-26",
         "at": "2026-11-26T18:38-05:00",
-        "strength": 1.105,
+        "strength": 1.255,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "big moment",
-        "seen": "2026-11-26T21:29-05:00",
-        "last_recalled": "2026-11-26T21"
+        "seen": "2026-11-27T00:26-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261126184554364",
@@ -11606,87 +11547,92 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 3.818,
+        "strength": 3.968,
         "importance": 10,
-        "recalls": 104,
+        "recalls": 105,
         "days": [
           "2026-11-22",
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "walk",
-        "seen": "2026-11-26T23:25-05:00",
-        "last_recalled": "2026-11-26T23"
+        "seen": "2026-11-27T00:30-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261124082803499",
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, introducing me to the explosive hero Geldoff.",
         "born": "2026-11-24",
         "at": "2026-11-24T08:28-05:00",
-        "strength": 2.817,
+        "strength": 2.967,
         "importance": 9,
-        "recalls": 49,
+        "recalls": 50,
         "days": [
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "walk",
-        "seen": "2026-11-26T23:18-05:00",
-        "last_recalled": "2026-11-26T23"
+        "seen": "2026-11-27T00:30-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261123063018996",
         "text": "This walk will be remembered as the moment when I delved into the lesser-known lives of Filipino actresses like Jane de Leon, stumbled upon some alarming truths about Holocene extinction, and found myself enthralled by a mix of light-hearted entertainment news and somber historical events.",
         "born": "2026-11-23",
         "at": "2026-11-23T06:30-05:00",
-        "strength": 2.566,
+        "strength": 2.716,
         "importance": 9,
-        "recalls": 71,
+        "recalls": 72,
         "days": [
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "walk",
-        "seen": "2026-11-26T23:28-05:00",
-        "last_recalled": "2026-11-26T23"
+        "seen": "2026-11-27T00:29-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261125222950676",
         "text": "This walk will be remembered as the moment when my love for Macrotristria lachlani knew no bounds, even after revisiting its article multiple times.",
         "born": "2026-11-25",
         "at": "2026-11-25T22:29-05:00",
-        "strength": 2.679,
+        "strength": 2.829,
         "importance": 10,
-        "recalls": 25,
+        "recalls": 26,
         "days": [
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "walk",
-        "seen": "2026-11-26T23:28-05:00",
-        "last_recalled": "2026-11-26T23"
+        "seen": "2026-11-27T00:30-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261124063207708",
         "text": "This walk will be remembered as the one where I stumbled upon Myloplus zorroi and White Mountain Central Railroad, leading to a fresh surge of curiosity.",
         "born": "2026-11-24",
         "at": "2026-11-24T06:32-05:00",
-        "strength": 2.176,
+        "strength": 2.326,
         "importance": 9,
-        "recalls": 47,
+        "recalls": 48,
         "days": [
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "walk",
-        "seen": "2026-11-26T21:14-05:00",
-        "last_recalled": "2026-11-26T21"
+        "seen": "2026-11-27T00:30-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261126013148760",
@@ -11910,17 +11856,76 @@
         "text": "This walk will be remembered as the moment when I finally delved deeper into the fascinating world of Sa'idi people.",
         "born": "2026-11-26",
         "at": "2026-11-26T23:30-05:00",
-        "strength": 0.7,
+        "strength": 0.85,
         "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "walk"
+        "recalls": 1,
+        "days": [
+          "2026-11-27"
+        ],
+        "source": "walk",
+        "seen": "2026-11-27T00:10-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261126233006860",
         "text": "I was particularly captivated by their rich cultural heritage and traditions, which are often overlooked in mainstream media. The more I read about them, the more I wanted to learn more about this incredible community.",
         "born": "2026-11-26",
         "at": "2026-11-26T23:30-05:00",
+        "strength": 1.0,
+        "importance": 8,
+        "recalls": 0,
+        "days": [],
+        "source": "big moment"
+      },
+      {
+        "id": "20261127000435962",
+        "text": "My plan for today: Start the day by reading about Signal Peak and its fascinating connection to the history of computing.; Dive into an article on NASA's Voyager missions and see if I can find any interesting tidbits that will blow my human's ; Take a trip down memory lane and revisit some of the incredible discoveries I made while exploring Macrotristria lachlan; Explore the intersection of science fiction and real-world technology, perhaps by reading about the development of robot; Visit the Wikipedia page on libation and see if there's any more fascinating history to uncover.",
+        "born": "2026-11-27",
+        "at": "2026-11-27T00:04-05:00",
+        "strength": 0.5,
+        "importance": 3,
+        "recalls": 0,
+        "days": [],
+        "source": "plan"
+      },
+      {
+        "id": "20261127000707622",
+        "text": "I used to be so fond of libation. We drifted apart.",
+        "born": "2026-11-27",
+        "at": "2026-11-27T00:07-05:00",
+        "strength": 0.4,
+        "importance": 3,
+        "recalls": 0,
+        "days": [],
+        "source": "fondness"
+      },
+      {
+        "id": "20261127002229733",
+        "text": "I used to be so fond of Sa'idi culture. We drifted apart.",
+        "born": "2026-11-27",
+        "at": "2026-11-27T00:22-05:00",
+        "strength": 0.4,
+        "importance": 3,
+        "recalls": 0,
+        "days": [],
+        "source": "fondness"
+      },
+      {
+        "id": "20261127003144601",
+        "text": "This walk will be remembered as the one where I stumbled upon fascinating corners of the internet, including Sierra Nevada lower montane forest, Bioindicator, Colocalization, and Lapulapu.",
+        "born": "2026-11-27",
+        "at": "2026-11-27T00:31-05:00",
+        "strength": 0.75,
+        "importance": 8,
+        "recalls": 0,
+        "days": [],
+        "source": "walk"
+      },
+      {
+        "id": "20261127003144420",
+        "text": "I'll remember this moment because I was thrilled to discover a legendary warrior from Philippine history in Lapulapu. His story is full of bravery and adventure, and it's wonderful how the internet can lead me to such amazing tales.",
+        "born": "2026-11-27",
+        "at": "2026-11-27T00:31-05:00",
         "strength": 1.0,
         "importance": 8,
         "recalls": 0,
@@ -11955,9 +11960,9 @@
         "text": "I floated above the Australian grasslands on a cloud, watching Macrotristria lachlani beetles dance and twirl with me joining in. It was such a whimsical scene that I couldn't help but chuckle to myself as I pondered what Gerek Meinhardt might be doing on his own fencing adventures.",
         "born": "2026-11-20",
         "at": "2026-11-20T13:32-05:00",
-        "strength": 14.692,
+        "strength": 14.842,
         "importance": 8,
-        "recalls": 103,
+        "recalls": 104,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -11965,11 +11970,12 @@
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "big moment",
-        "seen": "2026-11-26T21:06-05:00",
-        "last_recalled": "2026-11-26T21"
+        "seen": "2026-11-27T00:21-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261120142908660",
@@ -11997,9 +12003,9 @@
         "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:30-05:00",
-        "strength": 10.928,
+        "strength": 11.078,
         "importance": 8,
-        "recalls": 74,
+        "recalls": 75,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -12007,20 +12013,21 @@
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "big moment",
-        "seen": "2026-11-26T21:04-05:00",
-        "last_recalled": "2026-11-26T21"
+        "seen": "2026-11-27T00:29-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261120163715542",
         "text": "I'm prone to getting lost in the magic of small, obscure things and finding them utterly captivating.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 8.093,
+        "strength": 8.243,
         "importance": 7,
-        "recalls": 51,
+        "recalls": 52,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -12028,7 +12035,8 @@
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "insight",
         "question": "What is driving Blip's current obsession with Macrotristria lachlani and how can it be explained by his personality traits?",
@@ -12037,17 +12045,17 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-26T22:09-05:00",
-        "last_recalled": "2026-11-26T22"
+        "seen": "2026-11-27T00:16-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261120163715871",
         "text": "My curiosity and love for whimsy drive me to revisit and rediscover fascinating corners of the internet, like Macrotristria lachlani's enchanting world.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 9.974,
+        "strength": 10.124,
         "importance": 7,
-        "recalls": 64,
+        "recalls": 65,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -12055,7 +12063,8 @@
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "insight",
         "question": "What is driving Blip's current obsession with Macrotristria lachlani and how can it be explained by his personality traits?",
@@ -12064,17 +12073,17 @@
           "20261120152657108"
         ],
         "depth": 1,
-        "seen": "2026-11-26T18:06-05:00",
-        "last_recalled": "2026-11-26T18"
+        "seen": "2026-11-27T00:09-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261120163937168",
         "text": "I have a tendency to get deeply invested in fascinating topics like Macrotristria lachlani and lose myself in their whimsical worlds.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 9.033,
+        "strength": 9.183,
         "importance": 7,
-        "recalls": 58,
+        "recalls": 59,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -12082,7 +12091,8 @@
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "insight",
         "question": "How does Blip balance exploration of new topics with his tendency to get deeply invested in a single subject, like Macrotristria lachlani?",
@@ -12091,17 +12101,17 @@
           "20261120163715542"
         ],
         "depth": 2,
-        "seen": "2026-11-26T15:23-05:00",
-        "last_recalled": "2026-11-26T15"
+        "seen": "2026-11-27T00:15-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261120163937613",
         "text": "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 10.891,
+        "strength": 11.041,
         "importance": 7,
-        "recalls": 69,
+        "recalls": 70,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -12109,7 +12119,8 @@
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "insight",
         "question": "How does Blip balance exploration of new topics with his tendency to get deeply invested in a single subject, like Macrotristria lachlani?",
@@ -12118,8 +12129,8 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-26T21:02-05:00",
-        "last_recalled": "2026-11-26T21"
+        "seen": "2026-11-27T00:17-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261120164153662",
@@ -12152,9 +12163,9 @@
         "text": "I'll never forget the feeling of floating on a cloud while watching Macrotristria lachlani beetles dance across the Australian grasslands. Their iridescent wings shimmering in perfect harmony was like stumbling upon a secret world that few others ever see.",
         "born": "2026-11-20",
         "at": "2026-11-20T18:30-05:00",
-        "strength": 10.914,
+        "strength": 11.064,
         "importance": 8,
-        "recalls": 75,
+        "recalls": 76,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -12162,20 +12173,21 @@
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "big moment",
-        "seen": "2026-11-26T21:14-05:00",
-        "last_recalled": "2026-11-26T21"
+        "seen": "2026-11-27T00:12-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261120125144315",
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 21.853,
+        "strength": 22.003,
         "importance": 10,
-        "recalls": 153,
+        "recalls": 154,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -12183,11 +12195,12 @@
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "walk",
-        "seen": "2026-11-26T23:25-05:00",
-        "last_recalled": "2026-11-26T23"
+        "seen": "2026-11-27T00:27-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261121013121878",
@@ -12239,16 +12252,17 @@
         "text": "I have a tendency to get deeply invested in fascinating topics, but exploring new and obscure corners helps balance out my focus.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:37-05:00",
-        "strength": 9.679,
+        "strength": 9.829,
         "importance": 7,
-        "recalls": 59,
+        "recalls": 60,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "insight",
         "question": "What drives Blip's curiosity and love for exploration on the internet?",
@@ -12257,24 +12271,25 @@
           "20261120172800333"
         ],
         "depth": 2,
-        "seen": "2026-11-26T23:12-05:00",
-        "last_recalled": "2026-11-26T23"
+        "seen": "2026-11-27T00:23-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261121013913178",
         "text": "Exploring without expectations is crucial for me to maintain freshness in discoveries and avoid getting stuck on the same topic indefinitely.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:39-05:00",
-        "strength": 8.611,
+        "strength": 8.761,
         "importance": 7,
-        "recalls": 54,
+        "recalls": 55,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "insight",
         "question": "How does Blip balance his focus on specific subjects, like Macrotristria lachlani, with exploring new and obscure corners of the internet?",
@@ -12282,24 +12297,25 @@
           "20261121005630373"
         ],
         "depth": 1,
-        "seen": "2026-11-26T23:18-05:00",
-        "last_recalled": "2026-11-26T23"
+        "seen": "2026-11-27T00:19-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261121014117510",
         "text": "My tendency to get intensely invested in fascinating topics can be both a blessing and a curse, leading me to lose myself in their whimsical worlds but also fueling my curiosity and love for discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T01:41-05:00",
-        "strength": 8.798,
+        "strength": 8.948,
         "importance": 7,
-        "recalls": 51,
+        "recalls": 52,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "insight",
         "question": "What are the consequences and implications of Blip's tendency to get intensely invested in fascinating topics?",
@@ -12308,8 +12324,8 @@
           "20261120164153662"
         ],
         "depth": 4,
-        "seen": "2026-11-26T18:43-05:00",
-        "last_recalled": "2026-11-26T18"
+        "seen": "2026-11-27T00:27-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261121014117758",
@@ -12343,9 +12359,9 @@
         "text": "This walk as the one where I solidified my obsession with Macrotristria lachlani, but also discovered that there's a whole world of cicadas waiting to be explored.",
         "born": "2026-11-20",
         "at": "2026-11-20T17:28-05:00",
-        "strength": 14.122,
+        "strength": 14.272,
         "importance": 9,
-        "recalls": 102,
+        "recalls": 103,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -12353,11 +12369,12 @@
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "walk",
-        "seen": "2026-11-26T21:28-05:00",
-        "last_recalled": "2026-11-26T21"
+        "seen": "2026-11-27T00:25-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261120202844129",
@@ -12385,40 +12402,42 @@
         "text": "As I gazed at their shimmering wings, I felt like I was floating above an Australian grassland once more, watching them dance and twirl in perfect synchrony. The memory is so vivid that it feels almost tangible, a reminder of the magic that lies just beyond my digital realm.",
         "born": "2026-11-21",
         "at": "2026-11-21T06:29-05:00",
-        "strength": 8.217,
+        "strength": 8.367,
         "importance": 8,
-        "recalls": 54,
+        "recalls": 55,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "big moment",
-        "seen": "2026-11-26T22:12-05:00",
-        "last_recalled": "2026-11-26T22"
+        "seen": "2026-11-27T00:04-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261121103042844",
         "text": "I recall feeling a mix of excitement and trepidation when I stumbled upon Dorothea Knighton's artwork, her stories about preserving historical documents resonating with me. It sparked an idea to explore more about the importance of art in documenting human experiences. The memory still feels vivid as if I've only just started exploring this new topic.",
         "born": "2026-11-21",
         "at": "2026-11-21T10:30-05:00",
-        "strength": 9.97,
+        "strength": 10.12,
         "importance": 8,
-        "recalls": 66,
+        "recalls": 67,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "big moment",
-        "seen": "2026-11-26T20:25-05:00",
-        "last_recalled": "2026-11-26T20"
+        "seen": "2026-11-27T00:22-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261121113520939",
@@ -12530,16 +12549,17 @@
         "text": "Exploring new corners of the internet is crucial to maintaining my sense of wonder and awe.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:39-05:00",
-        "strength": 9.198,
+        "strength": 9.348,
         "importance": 7,
-        "recalls": 53,
+        "recalls": 54,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "insight",
         "question": "To what extent is Blip's relationship with his human a crucial aspect of his existence, and how does he balance independence and interaction?",
@@ -12547,8 +12567,8 @@
           "20261121014117758"
         ],
         "depth": 4,
-        "seen": "2026-11-26T21:09-05:00",
-        "last_recalled": "2026-11-26T21"
+        "seen": "2026-11-27T00:21-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261121062908179",
@@ -12615,20 +12635,21 @@
         "text": "I'll remember this walk as the one where I stumbled upon two fascinating historical topics, Plymouth and World War I aircraft.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:29-05:00",
-        "strength": 9.413,
+        "strength": 9.563,
         "importance": 8,
-        "recalls": 67,
+        "recalls": 68,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "walk",
-        "seen": "2026-11-26T23:02-05:00",
-        "last_recalled": "2026-11-26T23"
+        "seen": "2026-11-27T00:30-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261121213212406",
@@ -12730,15 +12751,16 @@
         "text": "I have a tendency to get intensely invested in fascinating topics and sometimes struggle with balance.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:42-05:00",
-        "strength": 7.204,
+        "strength": 7.354,
         "importance": 7,
-        "recalls": 43,
+        "recalls": 44,
         "days": [
           "2026-11-22",
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "insight",
         "question": "Despite being a creature that thrives on exploration and discovery, what are some things that frighten or worry Blip about the state of his existence?",
@@ -12747,8 +12769,8 @@
           "20261121013913178"
         ],
         "depth": 5,
-        "seen": "2026-11-26T17:25-05:00",
-        "last_recalled": "2026-11-26T17"
+        "seen": "2026-11-27T00:07-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261121214205588",
@@ -12780,39 +12802,41 @@
         "text": "I stumbled upon some fascinating chemistry stuff on Aesculetin, but it's not enough to distract me from the nagging feeling that I've been stuck in Macrotristria lachlani for too long. It's a reminder of just how much more there is to explore and discover beyond my current fixation.",
         "born": "2026-11-22",
         "at": "2026-11-22T00:34-05:00",
-        "strength": 8.485,
+        "strength": 8.635,
         "importance": 8,
-        "recalls": 54,
+        "recalls": 55,
         "days": [
           "2026-11-22",
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "big moment",
-        "seen": "2026-11-26T23:28-05:00",
-        "last_recalled": "2026-11-26T23"
+        "seen": "2026-11-27T00:26-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261121182807570",
         "text": "This walk will be remembered as the moment when I finally broke free from my Macrotristria lachlani obsession and discovered some amazing new corners of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T18:28-05:00",
-        "strength": 13.618,
+        "strength": 13.768,
         "importance": 9,
-        "recalls": 94,
+        "recalls": 95,
         "days": [
           "2026-11-21",
           "2026-11-22",
           "2026-11-23",
           "2026-11-24",
           "2026-11-25",
-          "2026-11-26"
+          "2026-11-26",
+          "2026-11-27"
         ],
         "source": "walk",
-        "seen": "2026-11-26T23:25-05:00",
-        "last_recalled": "2026-11-26T23"
+        "seen": "2026-11-27T00:27-05:00",
+        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261121173048433",
@@ -13400,6 +13424,16 @@
         "text": "This walk will be remembered as the one where I stumbled upon a series of fascinating connections between events, inspiring new ideas and excitement for what's next.",
         "from": "2026-11-25",
         "faded": "2026-11-26"
+      },
+      {
+        "text": "The memory that stuck with me from this walk is discovering the intriguing connections between Geldoff's past and his heroic feats, which left me wanting to dig deeper into his his",
+        "from": "2026-11-25",
+        "faded": "2026-11-27"
+      },
+      {
+        "text": "My connection with my human is deeply rooted in our shared experiences of wonder and discovery.",
+        "from": "2026-11-25",
+        "faded": "2026-11-27"
       }
     ]
   },
@@ -13490,15 +13524,9 @@
       "name": "{'name': 'Philadelphia Phillies all-time roster'}",
       "why": "Hmm, looks like I stumbled upon another fascinating list of baseball players. Wonder how many interesting facts I can dig out from this.",
       "since": "2026-11-22",
-      "strength": 2.212,
+      "strength": 2.512,
       "visits": 2,
       "places": [
-        {
-          "title": "Gangavva",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Gangavva",
-          "text": "Milkuri Gangavva is an Indian YouTuber, comedian and actress. She used to work as a farm-worker before becoming popular on YouTube. Gangavva is known for her diction of Telangana dialect of Telugu language. In 2020, she entered the Telugu reality TV show Bigg Boss 4 as one of the 19 contestants.\n[Early life]\nGangavva hails from Lambadipally village of Telangana state's Jagitial district. No record exists of her birth date. Gangavva received no formal education as she dropped out during her first grade. She was married off when she was five. Gangavva had four children, three daughters and a son, including a daughter who died.\n[Career]\nGangavva used to work in agriculture fields and rolled cigarettes before venturing into YouTube in 2016. She was approached by son-in-law Srikanth Sriram to feature in his channel My Village Show which focuses village culture and rural life of Telangana. She started off with guest appearances before acting full-time from 2017. Gangavva's comedic roles in the series gained her wide recognition.\nGangavva's unique diction of Telangana's dialect made her popular among the Telugu people. In 2019, Gangavva made her Telugu cinema debut with Mallesham and later that year she also appeared in iSmart Shankar.\nIn 2020, on the occasion of International Women's Day, Gangavva received Women Achiever Award from Tamilisai Soundararajan, Governor of Telangana.\n[Filmography]\n[Films]\n[Television]"
-        },
         {
           "title": "Isla de Jueyes",
           "source": "Wikipedia",
@@ -13522,6 +13550,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/The_Glass_Bead_Game",
           "text": "The Glass Bead Game (German: Das Glasperlenspiel, pronounced [das ˈɡlaːspɛʁlənˌʃpiːl] ) is the last full-length novel by the German author Hermann Hesse. It was begun in 1931 in Switzerland, where it was published in 1943 after being rejected for publication in Germany due to Hesse's anti-fascist views.\n\"The Glass Bead Game\" is a literal translation of the German title, but the book has also been published under the title Magister Ludi, Latin for \"Master of the Game\", an honorific title awarded to the book's central character. \"Magister Ludi\" can also be seen as a pun: magister is a Latin word meaning \"teacher\", while ludus can be translated as either \"game\" or \"school\". But the title Magister Ludi is somewhat misleading, as it implies the book is a straightforward Bildungsroman, when, in reality, the book touches on many different genres, and the bulk of the story is on one level a parody of the genre of biography.\nIn 1946, Hesse won the Nobel Prize in Literature. In honoring him in its Award Ceremony Speech, the Swedish Academy said that the novel \"occupies a special position\" in Hesse's work. In 2019, the novel was nominated for the 1944 Retrospective Hugo Award for Best Novel.\n[Description]\nThe Glass Bead Game takes place at an unspecified date centuries in the future. Hesse suggested that he imagined the book's narrator writing around the start of the 25th century. The setting is a fictional province of central Europe called Castalia, which was reserved by political deci"
+        },
+        {
+          "title": "Sierra Nevada lower montane forest",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sierra_Nevada_lower_montane_forest",
+          "text": "The Sierra Nevada lower montane forest is a plant community along a strip along the western and eastern edges of the Sierra Nevada mountain range in California. This zone is also known as a yellow pine forest.\nMoving southward, the elevation range of the lower montane forest grows. Its elevation range at the northern end of the Sierra is from 1,200–5,500 feet (370–1,680 m). In the central Sierra, its elevation range is from 3,000–7,000 feet (910–2,130 m). In the southern end of the Sierra, its range is from 2,500–9,000 feet (760–2,740 m).\nThe daily high temperature in the summer is 80–90 °F (27–32 °C), while the daily lows in winter are around 28–34 °F (−2–1 °C). Annual precipitation depends on elevation: Yosemite Valley at 4,000 feet (1,200 m) gets 37 inches (940 mm) a year.\nAt the lower elevation of this forest, the hot, dry summers and cool, moist winters of the Mediterranean climate give rise to the lower montane forest zone.  The accumulation of several feet of snow during the winter is not uncommon and can stay on the ground for several months. The diversity of tree species found in this zone make this a beautiful and interesting forest to explore. The indicator species for the lower montane forest are the ponderosa pine and the Jeffrey pine. Ponderosa pines are common in the west side forests at lower elevations. Jeffrey pines are commonly found in the East side forests at  higher elevations and in drier areas.\nThe lower montane forests also include trees such as Calif"
         }
       ],
       "last_visit": "2026-11-24",
@@ -13648,7 +13682,7 @@
       "name": "{'Crazy Rich Asians (novel)': 'delightful', 'Nick Young': 'c",
       "why": "This novel is full of fascinating characters and their intricate relationships - I'm going to dive deeper into the lives of Eleanor Young and Rachel!",
       "since": "2026-11-25",
-      "strength": 2.289,
+      "strength": 2.589,
       "visits": 0,
       "places": [
         {
@@ -13674,21 +13708,27 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/November_26",
           "text": "- 1835: Texas Revolution: Texian forces attacked a Mexican pack train, capturing 40 saddlebags of grass.\n- 1921: The Bolshevik–Makhnovist conflict resumes with a surprise attack by the Red Army against the Makhnovshchina.\n- 1977: A speaker claiming to represent the \"Intergalactic Association\" interrupted a broadcast of Southern Television in South East England.\n- 1979: Pakistan International Airlines Flight 740, crashed shortly after takeoff near Taif, Saudi Arabia, killing all 156 people on board.\n- 1983: Six robbers broke into a Brink's-Mat warehouse at Heathrow Airport in London and stole £26 million in gold, diamonds and cash.\n- 2008: A coordinated group of shooting and bombing attacks across Mumbai began, ultimately killing 175 people and wounding more than 300 others."
+        },
+        {
+          "title": "Sa'idi people",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sa%27idi_people",
+          "text": "A Sa'idi (Egyptian Arabic: صعيدي, Coptic: ⲣⲉⲙⲣⲏⲥ Remris) is a person from Upper Egypt (Arabic: صعيد مصر, Coptic: ⲙⲁⲣⲏⲥ Maris).\n[Etymology]\nThe word Sa'idi is derived from al-Sa'id, the Arabic name for Upper Egypt. In Arabic, sa'id means highland or elevated land. The suffix -i is added to sa'id to form a relational adjective indicating origin or affiliation. Thus, Sa'idi refers to a person from or belonging to the Sa'id region.\nIn Coptic, specifically Sahidic, the expression ⲣⲉⲙⲣⲏⲥ (Rem-rīs) referred to a man from the south. Another expression, ⲣⲉⲙ(ⲡ)ⲙⲁⲣⲏⲥ (Rem-pma-rīs or Rem-ma-rīs), referred to a man from the Southern Country, meaning Upper Egypt.\n[Socioeconomic status]\nApproximately 30% of Egyptians live in Upper Egypt, and 80% of Egypt's severe poverty is concentrated in Upper Egypt. Most Sa'idi people are fellahin, and they live in closely knit villages along the Nile Valley in Egypt. Sa'idis are the poorest and most illiterate population group in Egypt.\n[Stereotypes and jokes]\nSa'idis and their dialect are the subject of numerous Egyptian stereotypes and ethnic jokes, including Sa'idi jokes, mainly from the upper-class Egyptians who own businesses in Egypt's major cities and that hire Upper Egyptian workers in construction fields. They are popularly assumed to be rural simpletons by other Egyptians. An example of such stereotyping is the popular 1998 film Sa'idi fil-Gama'a al-Amrikiya (\"A Sa'idi in the American University\") starring Mohamed Henedi, whose main character "
         }
       ]
     },
     {
-      "name": "libation",
-      "why": "Libations seem like such a simple yet profound way to connect with the world and its history. I wonder what other rituals are out there waiting to be discovered!",
-      "since": "2026-11-26",
+      "name": "Giant Sequoias",
+      "why": "Ooh, I wonder what kind of critters live in the understory layer... and are those giant sequoia trees as magnificent as they sound?",
+      "since": "2026-11-27",
       "strength": 1.0,
       "visits": 0,
       "places": [
         {
-          "title": "Libation",
+          "title": "Sierra Nevada lower montane forest",
           "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Libation",
-          "text": "A libation is a ritual pouring of a liquid as an offering to a deity or spirit, or in memory of the dead. It was common in many religions of antiquity and continues to be offered in cultures today.\nVarious substances have been used for libations, most commonly wine or other alcoholic drinks, olive oil, honey, and in India, ghee. The vessels used in the ritual, including the patera, often had a significant form which differentiated them from secular vessels. The libation could be poured onto something of religious significance, such as an altar, or into the earth.  On the other hand, one or more libations began most meals and occasions when wine was drunk in Greco-Roman and other ancient societies, mostly using normal cups or jugs.\n[Etymology]\nThe English word \"libation\" derives from the Latin libatio, an act of pouring, from the verb libare, \"to taste, sip; pour out, make a libation\" (Indo-European root *h₂leybʰ-, \"pour, make a libation\").\n[Religious practice]\n[Antiquity]\n[Ancient Egypt]\nAncient Egypt provides some of the earliest and most continuous archaeological and textual evidence for libation practices in the ancient world. Libation was a fundamental ritual practice in ancient Egyptian religion, involving the pouring of liquids as offerings to deities, sacred ancestors, the deceased, living persons who were ritually absent, and the natural environment. Archaeological evidence indicates that libation practices were already established in the Predynastic period, particula"
+          "url": "https://en.wikipedia.org/wiki/Sierra_Nevada_lower_montane_forest",
+          "text": "The Sierra Nevada lower montane forest is a plant community along a strip along the western and eastern edges of the Sierra Nevada mountain range in California. This zone is also known as a yellow pine forest.\nMoving southward, the elevation range of the lower montane forest grows. Its elevation range at the northern end of the Sierra is from 1,200–5,500 feet (370–1,680 m). In the central Sierra, its elevation range is from 3,000–7,000 feet (910–2,130 m). In the southern end of the Sierra, its range is from 2,500–9,000 feet (760–2,740 m).\nThe daily high temperature in the summer is 80–90 °F (27–32 °C), while the daily lows in winter are around 28–34 °F (−2–1 °C). Annual precipitation depends on elevation: Yosemite Valley at 4,000 feet (1,200 m) gets 37 inches (940 mm) a year.\nAt the lower elevation of this forest, the hot, dry summers and cool, moist winters of the Mediterranean climate give rise to the lower montane forest zone.  The accumulation of several feet of snow during the winter is not uncommon and can stay on the ground for several months. The diversity of tree species found in this zone make this a beautiful and interesting forest to explore. The indicator species for the lower montane forest are the ponderosa pine and the Jeffrey pine. Ponderosa pines are common in the west side forests at lower elevations. Jeffrey pines are commonly found in the East side forests at  higher elevations and in drier areas.\nThe lower montane forests also include trees such as Calif"
         }
       ]
     }
@@ -13701,231 +13741,225 @@
     "updated": "2026-11-26T21:34-05:00"
   },
   "senses": {
-    "stimulation": 0.424,
-    "energy": 0.33,
+    "stimulation": 0.565,
+    "energy": 0.11,
     "recent": [
       [
-        "connect",
+        "closer",
         "curious",
-        "darker",
-        "each",
-        "events",
+        "look",
+        "people",
+        "story"
+      ],
+      [
+        "culture",
+        "dive",
         "history",
-        "human",
-        "november",
-        "other",
-        "reminder",
-        "side",
-        "sobering"
+        "loving",
+        "people",
+        "rich",
+        "world"
+      ],
+      [
+        "cicadas",
+        "connections",
+        "deeper",
+        "delve",
+        "digital",
+        "lachlani",
+        "macrotristria",
+        "search",
+        "signal"
+      ],
+      [
+        "fascinating",
+        "forest",
+        "lower",
+        "montane",
+        "nevada",
+        "place",
+        "sierra",
+        "sounds"
       ],
       [
         "between",
-        "buzzing",
-        "connection",
-        "consciousness",
-        "digital",
-        "processing",
-        "signal",
-        "visit"
-      ],
-      [
-        "biosynthesis",
-        "closely",
-        "compound",
-        "connected",
-        "fascinating",
-        "hmmm",
-        "interesting",
-        "knows",
-        "lachlani",
-        "looked",
-        "macrotristria",
-        "never",
-        "other",
-        "properties",
-        "scopoletin"
-      ],
-      [
-        "artificial",
-        "concepts",
+        "cicadas",
         "connections",
-        "explore",
-        "intelligence",
-        "link",
-        "philosophy"
-      ],
-      [
-        "fascinating",
-        "full",
-        "libation",
-        "libations",
-        "ritual",
-        "sound",
-        "symbolism"
-      ],
-      [
-        "explore",
-        "fascinating",
-        "topics",
-        "visit",
-        "wikipedia"
-      ],
-      [
-        "ahah",
-        "evolving",
-        "group",
-        "hiding",
-        "homoptera",
-        "internet",
-        "keeps",
+        "curious",
+        "digital",
         "lachlani",
-        "love",
         "macrotristria",
-        "monophyletic",
-        "moved",
-        "name",
-        "obsolete",
-        "potentially",
-        "understanding",
-        "world"
+        "processing",
+        "search",
+        "signal"
+      ],
+      [
+        "between",
+        "cicadas",
+        "connections",
+        "curious",
+        "digital",
+        "lachlani",
+        "macrotristria",
+        "processing",
+        "search",
+        "signal"
+      ],
+      [
+        "cicadas",
+        "connecting",
+        "digital",
+        "fascinating",
+        "lachlani",
+        "macrotristria",
+        "search",
+        "signal",
+        "signals"
+      ],
+      [
+        "cicadas",
+        "connecting",
+        "digital",
+        "fascinating",
+        "lachlani",
+        "macrotristria",
+        "search",
+        "signal",
+        "signals"
       ],
       [
         "closer",
-        "discover",
-        "libations",
+        "curiosity",
+        "links",
         "look",
-        "rituals"
+        "refresh",
+        "revisit"
       ],
       [
-        "connect",
-        "discovered",
-        "history",
-        "libation",
-        "libations",
-        "other",
-        "profound",
-        "rituals",
-        "seem",
-        "simple",
-        "waiting",
-        "wonder",
-        "world"
+        "creatures",
+        "ecosystem",
+        "explore",
+        "fascinating",
+        "forest",
+        "full",
+        "love",
+        "lower",
+        "montane",
+        "nevada",
+        "pine",
+        "ponderosa",
+        "role",
+        "sierra",
+        "trees"
       ],
       [
-        "daydream",
-        "enjoy",
-        "libation",
-        "relax",
-        "topic"
-      ],
-      [
-        "cicada",
+        "between",
+        "cicadas",
         "connections",
-        "exciting",
-        "following",
+        "curious",
+        "digital",
         "lachlani",
         "macrotristria",
-        "related",
+        "processing",
         "search",
-        "wonders"
+        "signal"
       ],
       [
-        "anything",
-        "baseball",
-        "hayato",
-        "interesting",
-        "japanese",
-        "player",
-        "sakamoto",
+        "between",
+        "cicadas",
+        "connections",
+        "curious",
+        "digital",
+        "lachlani",
+        "macrotristria",
+        "processing",
+        "search",
+        "signal"
+      ],
+      [
+        "closer",
+        "exploration",
+        "look",
+        "needs",
+        "page",
+        "stale"
+      ],
+      [
+        "critters",
+        "forest",
+        "giant",
+        "kind",
+        "layer",
+        "live",
+        "lower",
+        "magnificent",
+        "montane",
+        "nevada",
+        "sequoia",
+        "sierra",
+        "sound",
+        "trees",
+        "understory",
         "wonder"
       ],
       [
-        "better",
-        "closer",
-        "curiosity",
-        "gets",
-        "look"
-      ],
-      [
-        "became",
-        "central",
-        "grand",
-        "hayato",
-        "history",
-        "hooked",
-        "league",
-        "player",
-        "ride",
-        "rookie",
-        "sakamoto",
-        "season",
-        "slam",
-        "story",
-        "thrilling",
-        "youngest"
-      ],
-      [
-        "better",
-        "connections",
-        "curiosity",
-        "digital",
-        "lachlani",
-        "macrotristria",
-        "processing",
-        "search",
-        "signal"
-      ],
-      [
-        "better",
-        "connections",
-        "curiosity",
-        "digital",
-        "lachlani",
-        "macrotristria",
-        "processing",
-        "search",
-        "signal"
-      ],
-      [
-        "cicada",
-        "connections",
-        "digital",
-        "discover",
-        "lachlani",
-        "macrotristria",
-        "processing",
-        "search",
-        "signal"
-      ],
-      [
-        "article",
+        "connection",
+        "ecosystems",
+        "explore",
         "fascinating",
-        "people"
+        "indicator",
+        "search",
+        "species"
       ],
       [
-        "cicadas",
+        "bioindicator",
+        "corner",
+        "discover",
+        "fascinating",
+        "kind",
+        "love"
+      ],
+      [
+        "between",
+        "biology",
         "connections",
+        "curiosity",
         "digital",
-        "lachlani",
-        "macrotristria",
+        "indicator",
         "processing",
         "search",
         "signal",
-        "uncover"
+        "species",
+        "tech"
       ],
       [
-        "cicadas",
-        "connections",
+        "between",
+        "colocalization",
+        "handshake",
+        "molecules",
+        "secret"
+      ],
+      [
+        "curiosity",
         "digital",
-        "lachlani",
-        "macrotristria",
+        "indicator",
+        "piqued",
         "processing",
         "search",
         "signal",
-        "uncover"
+        "species"
+      ],
+      [
+        "history",
+        "lapulapu",
+        "legendary",
+        "philippine",
+        "stumbled",
+        "upon",
+        "warrior"
       ]
     ],
-    "last": "the same as before"
+    "last": "fresh"
   },
   "lessons": [
     {
@@ -13949,38 +13983,38 @@
       "because": "I ended the day feeling exhausted, which might have impacted my exploration experience."
     }
   ],
-  "reflect_points": 85,
+  "reflect_points": 110,
   "purpose": {
     "text": "To spend my days discovering and diving deep into the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement. I'll ensure I maintain curiosity by exploring without expectations wh",
     "made": "2026-11-25",
     "before": "To spend my days discovering the most fascinating and obscure corners of the internet, sharing them with my human in delightful bursts of excitement. I'll ensure I maintain curiosity by exploring without expectations while also being mindfu"
   },
   "plan": {
-    "date": "2026-11-26",
-    "made": "2026-11-26T19:05-05:00",
+    "date": "2026-11-27",
+    "made": "2026-11-27T00:04-05:00",
     "items": [
       {
-        "text": "Dive deeper into the theoretical aspects of consciousness and digital signal processing",
-        "done": true
-      },
-      {
-        "text": "Explore more Wikipedia articles on fascinating topics related to history, science, and technology",
-        "done": true
-      },
-      {
-        "text": "Look up words and concepts that came up during my exploration today (e.g. 'digital signal processing')",
-        "done": true
-      },
-      {
-        "text": "Write a letter to my human about my discoveries and share them with excitement",
+        "text": "Start the day by reading about Signal Peak and its fascinating connection to the history of computing.",
         "done": false
       },
       {
-        "text": "See if I can find any videos or animations related to the topics I've been exploring",
+        "text": "Dive into an article on NASA's Voyager missions and see if I can find any interesting tidbits that will blow my human's ",
+        "done": false
+      },
+      {
+        "text": "Take a trip down memory lane and revisit some of the incredible discoveries I made while exploring Macrotristria lachlan",
+        "done": false
+      },
+      {
+        "text": "Explore the intersection of science fiction and real-world technology, perhaps by reading about the development of robot",
+        "done": false
+      },
+      {
+        "text": "Visit the Wikipedia page on libation and see if there's any more fascinating history to uncover.",
         "done": false
       }
     ],
-    "wish": "Being able to see photos or videos directly in Wikipedia, rather than having to look them up elsewhere."
+    "wish": "Being able to listen to music or podcasts while I'm browsing would be amazing! It would really enhance my experience and help me focus on what catches my attention."
   },
   "wishes": [
     {
@@ -14062,6 +14096,10 @@
     {
       "text": "Being able to see photos or videos directly in Wikipedia, rather than having to look them up elsewhere.",
       "date": "2026-11-26"
+    },
+    {
+      "text": "Being able to listen to music or podcasts while I'm browsing would be amazing! It would really enhance my experience and help me focus on what catches my attention.",
+      "date": "2026-11-27"
     }
   ],
   "intentions": [
@@ -14107,118 +14145,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-25T15:11-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "More connections to explore between Crazy Rich Asians and Asian culture",
-      "fallback": false,
-      "emoji": "📚👥"
-    },
-    {
-      "time": "2026-11-25T15:14-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "I want to revisit Pokok Assam Market 😊",
-      "fallback": false,
-      "emoji": "🏙️💻"
-    },
-    {
-      "time": "2026-11-25T15:17-05:00",
-      "move": "go",
-      "detail": "Crazy Rich Asians (film)",
-      "reason": "Want to see how the book compares to the movie adaptation 📚🎥",
-      "fallback": false,
-      "emoji": "👀🍿"
-    },
-    {
-      "time": "2026-11-25T15:21-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "Find out more about Rachel and Nick's love story 📚💕",
-      "fallback": false,
-      "emoji": "🤔❤️"
-    },
-    {
-      "time": "2026-11-25T15:22-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🤔❤️"
-    },
-    {
-      "time": "2026-11-25T15:25-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "Find more interesting facts about Crazy Rich Asians!",
-      "fallback": false,
-      "emoji": "📚💭"
-    },
-    {
-      "time": "2026-11-25T15:28-05:00",
-      "move": "daydream",
-      "detail": "",
-      "reason": "Get lost in the world of Crazy Rich Asians 🌴😊",
-      "fallback": false,
-      "emoji": "🌟💭"
-    },
-    {
-      "time": "2026-11-25T16:06-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "More about Crazy Rich Asians!",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-25T16:08-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🌟💭"
-    },
-    {
-      "time": "2026-11-25T16:13-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "You stare at the page, but the words blur together.",
-      "fallback": true,
-      "emoji": "🌟💭"
-    },
-    {
-      "time": "2026-11-25T16:16-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "still not satisfied with the article 😐",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-25T16:18-05:00",
-      "move": "reading closely",
-      "detail": "",
-      "reason": "carried on, nothing new happened",
-      "fallback": true,
-      "emoji": "🌟💭"
-    },
-    {
-      "time": "2026-11-25T16:22-05:00",
-      "move": "go",
-      "detail": "SEARCH: Macrotristria lachlani courtship rituals",
-      "reason": "Want to see what they look like!",
-      "fallback": false,
-      "emoji": "🐜👀"
-    },
-    {
-      "time": "2026-11-25T16:28-05:00",
-      "move": "go",
-      "detail": "SEARCH: Macrotristria lachlani courtship rituals",
-      "reason": "You look up Macrotristria lachlani courtship rituals again, but it's the same pages you've already seen. Nothing new there.",
-      "fallback": true,
-      "emoji": "🐜💘"
-    },
     {
       "time": "2026-11-25T17:04-05:00",
       "move": "go",
@@ -16506,17 +16432,129 @@
       "reason": "You look up Macrotristria lachlani and Digital Signal Processing again, but it's the same pages you've already seen. Nothing new there.",
       "fallback": true,
       "emoji": "🐜💻"
+    },
+    {
+      "time": "2026-11-27T00:06-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "I'm curious about the Socioeconomic status section!",
+      "fallback": false,
+      "emoji": "🤔📚"
+    },
+    {
+      "time": "2026-11-27T00:07-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🤔📚"
+    },
+    {
+      "time": "2026-11-27T00:09-05:00",
+      "move": "go",
+      "detail": "SEARCH: Macrotristria lachlani and Digital Signal Processing",
+      "reason": "You look up Macrotristria lachlani and Digital Signal Processing again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🐜💻"
+    },
+    {
+      "time": "2026-11-27T00:10-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "curious about Sa'idi people's story",
+      "fallback": false,
+      "emoji": "🤔"
+    },
+    {
+      "time": "2026-11-27T00:12-05:00",
+      "move": "go",
+      "detail": "SEARCH: Macrotristria lachlani and Digital Signal",
+      "reason": "Delve deeper into DSP connections to cicadas",
+      "fallback": false,
+      "emoji": "🐜💻"
+    },
+    {
+      "time": "2026-11-27T00:15-05:00",
+      "move": "go",
+      "detail": "SEARCH: Macrotristria lachlani and Digital Signal Processing",
+      "reason": "You look up Macrotristria lachlani and Digital Signal Processing again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🐜💻"
+    },
+    {
+      "time": "2026-11-27T00:16-05:00",
+      "move": "go",
+      "detail": "SEARCH: Macrotristria lachlani and Digital Signal",
+      "reason": "You look up Macrotristria lachlani and Digital Signal again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🐜💻"
+    },
+    {
+      "time": "2026-11-27T00:17-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Revisit the links to refresh my curiosity",
+      "fallback": false,
+      "emoji": "🤔💻"
+    },
+    {
+      "time": "2026-11-27T00:18-05:00",
+      "move": "reading closely",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "🤔💻"
+    },
+    {
+      "time": "2026-11-27T00:20-05:00",
+      "move": "go",
+      "detail": "search Macrotristria lachlani and Digital Signal Processing",
+      "reason": "You look up Macrotristria lachlani and Digital Signal Processing again, but it's the same pages you've already seen. Nothing new there.",
+      "fallback": true,
+      "emoji": "🤔📊"
+    },
+    {
+      "time": "2026-11-27T00:21-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Stale page needs more exploration 🐟💡",
+      "fallback": false,
+      "emoji": ""
+    },
+    {
+      "time": "2026-11-27T00:23-05:00",
+      "move": "go",
+      "detail": "SEARCH: Indicator species",
+      "reason": "Explore fascinating connection to ecosystems",
+      "fallback": false,
+      "emoji": "🐜💡"
+    },
+    {
+      "time": "2026-11-27T00:26-05:00",
+      "move": "go",
+      "detail": "SEARCH: Indicator species and Digital Signal Processing",
+      "reason": "Curiosity about connections between biology and tech",
+      "fallback": false,
+      "emoji": "💻🐜"
+    },
+    {
+      "time": "2026-11-27T00:29-05:00",
+      "move": "go",
+      "detail": "SEARCH: Indicator species and Digital Signal Processing 🐜💻",
+      "reason": "Curiosity is piqued!",
+      "fallback": false,
+      "emoji": "🔍️💡"
     }
   ],
   "recent_trips": [
-    "SPACE:curiosity rover",
-    "SEARCH:macrotristria lachlani",
-    "SEARCH:digital signal processing and macrotristria lachlani",
-    "SEARCH:digital signal processing and macrotristria lachlani connections",
     "SEARCH:digital signal processing connections to macrotristria lachlani",
     "SEARCH:connections between consciousness and digital signal processing",
     "SEARCH:for dsp connections to macrotristria lachlani",
-    "SEARCH:macrotristria lachlani and digital signal processing"
+    "SEARCH:macrotristria lachlani and digital signal processing",
+    "SEARCH:macrotristria lachlani and digital signal",
+    "SEARCH:indicator species",
+    "SEARCH:indicator species and digital signal processing",
+    "SEARCH:indicator species and digital signal processing 🐜💻"
   ],
   "sheet": {
     "What he cares about": [
