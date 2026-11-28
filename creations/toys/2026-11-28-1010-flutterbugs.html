@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <title>Flutterbugs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        #canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Macrotristria Lachlani Flight Simulator</h2>
+    <button id="start-button">Start Simulation</button>
+    <canvas id="canvas" width="400" height="300"></canvas>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        let simulationRunning = false;
+        let beetles = [];
+
+        function startSimulation() {
+            if (!simulationRunning) {
+                simulationRunning = true;
+
+                // Initialize beetles with random initial positions and velocities
+                for (let i = 0; i < 10; i++) {
+                    const beetle = {
+                        x: Math.random() * canvas.width,
+                        y: Math.random() * canvas.height,
+                        vx: Math.random() * 5 - 2.5, // Random velocity in x-direction
+                        vy: Math.random() * 3 - 1.5 // Random velocity in y-direction
+                    };
+                    beetles.push(beetle);
+                }
+
+                drawBeetles();
+            }
+        }
+
+        function drawBeetles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            for (let i = 0; i < beetles.length; i++) {
+                const beetle = beetles[i];
+
+                // Draw beetle
+                ctx.fillStyle = 'red';
+                ctx.beginPath();
+                ctx.arc(beetle.x, beetle.y, 5, 0, Math.PI * 2);
+                ctx.fill();
+
+                // Update position and velocity of beetle (simple gravity simulation)
+                beetle.x += beetle.vx;
+                beetle.y += beetle.vy;
+
+                if (beetle.x < 0 || beetle.x > canvas.width) {
+                    beetle.vx *= -1; // Bounce off edges
+                }
+                if (beetle.y < 0 || beetle.y > canvas.height) {
+                    beetle.vy *= -1;
+                }
+
+                beetles[i] = beetle;
+
+                requestAnimationFrame(drawBeetles);
+            }
+        }
+
+        document.getElementById('start-button').addEventListener('click', startSimulation);
+
+    </script>
+</body>
+</html>

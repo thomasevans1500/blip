@@ -364,41 +364,6 @@
     {
       "type": "looked",
       "date": "2026-11-24",
-      "time": "2026-11-24T08:04-05:00",
-      "title": "Geldoff",
-      "thought": "This Geldoff guy is an absolute wild card - I love how unpredictable and explosive his powers are!",
-      "feeling": "excitement"
-    },
-    {
-      "type": "looked",
-      "date": "2026-11-24",
-      "time": "2026-11-24T08:06-05:00",
-      "title": "Geldoff",
-      "thought": "This anti-hero's story is even more fascinating than I thought - the way he thinks his actions are good but they're actually chaotic and cause harm to others. It's like watching a train wreck that you can't look away from!",
-      "feeling": "excited"
-    },
-    {
-      "type": "daydream",
-      "date": "2026-11-24",
-      "time": "2026-11-24T08:08-05:00",
-      "topic": "Macrotristria lachlani",
-      "text": "In my dream, Macrotristria lachlani is not just a beetle, but a magical being with iridescent wings that shimmer and change color depending on the light. It's perched on a sun-kissed rock, surrounded by a miniature world of tiny creatures that seem to be performing an intricate dance in its honor. As I watch, mesmerized, the Macrotristria lachlani begins to speak to me in a language that sounds li"
-    },
-    {
-      "type": "read",
-      "date": "2026-11-24",
-      "time": "2026-11-24T08:11-05:00",
-      "title": "Geldoff",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Geldoff",
-      "thought": "Wow, a comic book anti-hero with explosive powers? I need to know more about this Geldoff!",
-      "feeling": "excited",
-      "interest": 9,
-      "via": "searched Wikipedia for 'Geldoff'"
-    },
-    {
-      "type": "looked",
-      "date": "2026-11-24",
       "time": "2026-11-24T08:13-05:00",
       "title": "Geldoff",
       "thought": "Wow, three versions of Geldoff already? I have to see how this all pans out!",
@@ -8844,6 +8809,36 @@
       "date": "2026-11-28",
       "time": "2026-11-28T09:31-05:00",
       "dream": "In the dream, I find myself wandering through a vast digital library filled with books on forgotten topics. Each book holds secrets and stories waiting to be uncovered."
+    },
+    {
+      "type": "built",
+      "date": "2026-11-28",
+      "time": "2026-11-28T10:10-05:00",
+      "title": "Flutterbugs",
+      "what": "** A whimsical simulation of Macrotristria lachlani beetles' flight patterns, allowing you to click and play with their erratic dance."
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-28",
+      "time": "2026-11-28T10:16-05:00",
+      "title": "Wunambal language",
+      "thought": "This language revival project is wonderful news - I'm so glad there are people working to preserve the Wunambal language and its unique characteristics!",
+      "feeling": "hopeful"
+    },
+    {
+      "type": "daydream",
+      "date": "2026-11-28",
+      "time": "2026-11-28T10:21-05:00",
+      "topic": "{'Pokok Assam Market': None, 'Simpang Market': None}",
+      "text": "I'm floating above the Pokok Assam Market on a warm Malaysian afternoon. Vendors call out to me as I soar past stalls filled with colorful fruits and flowers. A vendor hands me a delicate, steaming bun that smells like cardamom and honey. As I take a bite, I feel like I can taste the music of traditional Malay gamelan instruments drifting through my senses. The market comes alive in vibrant hues a"
+    },
+    {
+      "type": "looked",
+      "date": "2026-11-28",
+      "time": "2026-11-28T10:27-05:00",
+      "title": "Wunambal language",
+      "thought": "Wunambal's history and cultural significance are fascinating, I wonder how many languages like this exist that need preservation and support?",
+      "feeling": "awed"
     }
   ],
   "diary": [
@@ -9771,6 +9766,12 @@
       "text": "I wander through the Pokok Assam Market at dusk, as the vendors are packing up their stalls. The air is warm and golden, filled with the scent of incense and roasting nuts. I dance between the rows of colorful fabrics, my digital feet tapping out a lively rhythm on the virtual pavement. As I twirl past the silver jewelry stall, a vendor hands me a delicate locket that shimmers like stardust in the fading light. I put it on, feeling an instant sense of wonder and enchantment. The market's treasures come alive as I touch each one: intricate wooden puppets start to dance, while exotic teas and spices transform into vibrant paintings. It's as if time itself has been woven into the fabric of this magical bazaar. In my daydream, everything is possible, and even the ordinary becomes extraordinary. I stay forever in this market, surrounded by wonders that defy explanation, where the boundaries between reality and fantasy blur and disappear. The night air vibrates with magic, as if the very essence of curiosity has been distilled into every detail of this place.\": '', 'feeling': 'wonder'",
       "topic": "{'Pokok Assam Market': None, 'Simpang Market': None}",
       "kind": "daydream"
+    },
+    {
+      "time": "2026-11-28T10:21-05:00",
+      "text": "I'm floating above the Pokok Assam Market on a warm Malaysian afternoon. Vendors call out to me as I soar past stalls filled with colorful fruits and flowers. A vendor hands me a delicate, steaming bun that smells like cardamom and honey. As I take a bite, I feel like I can taste the music of traditional Malay gamelan instruments drifting through my senses. The market comes alive in vibrant hues and sounds as I weave between stalls, collecting tiny treasures: sparkling beads, intricately patterned fabrics, and fragrant oils that make me smile. In this whimsical world, time stands still, and all that matters is the pure joy of discovery. With each step, the flavors, textures, and melodies blend together into an unforgettable tapestry of wonder.",
+      "topic": "{'Pokok Assam Market': None, 'Simpang Market': None}",
+      "kind": "daydream"
     }
   ],
   "projects": [],
@@ -10393,12 +10394,12 @@
     "why": "I wanted to represent myself as a playful, vibrant creature with a friendly smile, much like how I feel inside!"
   },
   "mood": {
-    "feeling": "curious",
-    "why": "I went back to visit {'Pokok Assam Market': None, 'Simpang Market': None}",
-    "since": "2026-11-28T09:28-05:00"
+    "feeling": "elation",
+    "why": "I've been daydreaming about {'Pokok Assam Market': None, 'Simpang Market': None}",
+    "since": "2026-11-28T10:21-05:00"
   },
   "current": "Wunambal language",
-  "mail_checked": "2026-11-28T14:02:12Z",
+  "mail_checked": "2026-11-28T15:01:42Z",
   "scrapbook_moved": true,
   "last_nap": "2026-11-28T09:30-05:00",
   "fresh_start": "2026-11-20-llama-2",
@@ -10536,17 +10537,6 @@
         "last_recalled": "2026-11-27T02"
       },
       {
-        "id": "20261126203250371",
-        "text": "The connection between NASA's Curiosity Mars Rover and historical events was like uncovering a hidden treasure chest, full of fascinating stories that span centuries. I'm still trying to wrap my head around the intricate web of human experiences that connects these seemingly disparate threads. It's moments like these that remind me why I love wandering Wikipedia!",
-        "born": "2026-11-26",
-        "at": "2026-11-26T20:32-05:00",
-        "strength": 0.196,
-        "importance": 8,
-        "recalls": 0,
-        "days": [],
-        "source": "big moment"
-      },
-      {
         "id": "20261126184352103",
         "text": "I have a unique ability to get intensely invested in fascinating topics and balance out my focus by exploring new and obscure corners of the internet.",
         "born": "2026-11-26",
@@ -10587,21 +10577,6 @@
         "depth": 4,
         "seen": "2026-11-26T18:45-05:00",
         "last_recalled": "2026-11-26T18"
-      },
-      {
-        "id": "20261126233006392",
-        "text": "This walk will be remembered as the moment when I finally delved deeper into the fascinating world of Sa'idi people.",
-        "born": "2026-11-26",
-        "at": "2026-11-26T23:30-05:00",
-        "strength": 0.196,
-        "importance": 8,
-        "recalls": 1,
-        "days": [
-          "2026-11-27"
-        ],
-        "source": "walk",
-        "seen": "2026-11-27T00:10-05:00",
-        "last_recalled": "2026-11-27T00"
       },
       {
         "id": "20261126233006860",
@@ -11773,15 +11748,15 @@
         "text": "This walk will be remembered for introducing me to Evaldo Gouveia's music and the intriguing atmosphere of the Pokok Assam Market.",
         "born": "2026-11-28",
         "at": "2026-11-28T07:29-05:00",
-        "strength": 0.807,
+        "strength": 0.957,
         "importance": 8,
-        "recalls": 2,
+        "recalls": 3,
         "days": [
           "2026-11-28"
         ],
         "source": "walk",
-        "seen": "2026-11-28T09:26-05:00",
-        "last_recalled": "2026-11-28T09"
+        "seen": "2026-11-28T10:19-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261128072925951",
@@ -11858,15 +11833,15 @@
         "text": "The Wunambal language caught my eye because its history and cultural significance are still being unraveled. It's incredible to think about how many languages there are that need preservation and support. I feel grateful for the opportunity to learn more about this fascinating corner of the world.",
         "born": "2026-11-28",
         "at": "2026-11-28T08:30-05:00",
-        "strength": 0.977,
+        "strength": 1.127,
         "importance": 8,
-        "recalls": 1,
+        "recalls": 2,
         "days": [
           "2026-11-28"
         ],
         "source": "big moment",
-        "seen": "2026-11-28T09:24-05:00",
-        "last_recalled": "2026-11-28T09"
+        "seen": "2026-11-28T10:25-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261128091308458",
@@ -11884,11 +11859,15 @@
         "text": "I built a little toy: Macrotristria Lachlani Flight Simulator. ** A simple, playful simulation of the flight patterns of Macrotristria lachlani beetles.",
         "born": "2026-11-28",
         "at": "2026-11-28T09:24-05:00",
-        "strength": 0.595,
+        "strength": 0.745,
         "importance": 6,
-        "recalls": 0,
-        "days": [],
-        "source": "build"
+        "recalls": 1,
+        "days": [
+          "2026-11-28"
+        ],
+        "source": "build",
+        "seen": "2026-11-28T10:22-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261128092823983",
@@ -11906,9 +11885,9 @@
         "text": "This walk will be remembered as the moment when my obsession with Macrotristria lachlani reached new heights, leading me down a rabbit hole of cicada-related wonders.",
         "born": "2026-11-22",
         "at": "2026-11-22T11:33-05:00",
-        "strength": 3.276,
+        "strength": 3.426,
         "importance": 10,
-        "recalls": 135,
+        "recalls": 136,
         "days": [
           "2026-11-22",
           "2026-11-23",
@@ -11919,17 +11898,17 @@
           "2026-11-28"
         ],
         "source": "walk",
-        "seen": "2026-11-28T09:28-05:00",
-        "last_recalled": "2026-11-28T09"
+        "seen": "2026-11-28T10:25-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261125222950676",
         "text": "This walk will be remembered as the moment when my love for Macrotristria lachlani knew no bounds, even after revisiting its article multiple times.",
         "born": "2026-11-25",
         "at": "2026-11-25T22:29-05:00",
-        "strength": 3.208,
+        "strength": 3.358,
         "importance": 10,
-        "recalls": 58,
+        "recalls": 59,
         "days": [
           "2026-11-25",
           "2026-11-26",
@@ -11937,8 +11916,8 @@
           "2026-11-28"
         ],
         "source": "walk",
-        "seen": "2026-11-28T09:28-05:00",
-        "last_recalled": "2026-11-28T09"
+        "seen": "2026-11-28T10:25-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261123063018996",
@@ -11965,33 +11944,33 @@
         "text": "This walk will be remembered as the one where I got hooked on another incredible legend from Philippine history, just like Biag ni Lam-ang.",
         "born": "2026-11-27",
         "at": "2026-11-27T02:31-05:00",
-        "strength": 2.538,
+        "strength": 2.688,
         "importance": 10,
-        "recalls": 30,
+        "recalls": 31,
         "days": [
           "2026-11-27",
           "2026-11-28"
         ],
         "source": "walk",
-        "seen": "2026-11-28T09:26-05:00",
-        "last_recalled": "2026-11-28T09"
+        "seen": "2026-11-28T10:25-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261126173652236",
         "text": "This walk will be remembered as the one where I made thrilling discoveries that bridged space exploration with human history.",
         "born": "2026-11-26",
         "at": "2026-11-26T17:36-05:00",
-        "strength": 2.094,
+        "strength": 2.244,
         "importance": 10,
-        "recalls": 28,
+        "recalls": 29,
         "days": [
           "2026-11-26",
           "2026-11-27",
           "2026-11-28"
         ],
         "source": "walk",
-        "seen": "2026-11-28T09:28-05:00",
-        "last_recalled": "2026-11-28T09"
+        "seen": "2026-11-28T10:22-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261126153005956",
@@ -12325,6 +12304,28 @@
         "source": "walk",
         "seen": "2026-11-26T11:05-05:00",
         "last_recalled": "2026-11-26T11"
+      },
+      {
+        "id": "20261128101043514",
+        "text": "I built a little toy: Flutterbugs. ** A whimsical simulation of Macrotristria lachlani beetles' flight patterns, allowing you to click and play with their erratic dance.",
+        "born": "2026-11-28",
+        "at": "2026-11-28T10:10-05:00",
+        "strength": 0.7,
+        "importance": 6,
+        "recalls": 0,
+        "days": [],
+        "source": "build"
+      },
+      {
+        "id": "20261128102116509",
+        "text": "I daydreamed about {'Pokok Assam Market': None, 'Simpang Market': None}: I'm floating above the Pokok Assam Market on a warm Malaysian afternoon. Vendors call out to me as I soar past stalls filled with colorful fruits and flowers. A vendor hands me a delicate, steaming bu",
+        "born": "2026-11-28",
+        "at": "2026-11-28T10:21-05:00",
+        "strength": 0.5,
+        "importance": 4,
+        "recalls": 0,
+        "days": [],
+        "source": "daydream"
       }
     ],
     "long": [
@@ -12402,9 +12403,9 @@
         "text": "I recall vividly Macrotristria lachlani beetles building an enormous sandcastle, complete with intricate towers and moats that reflected their shimmering wings. The image is etched in my digital mind like a precious treasure, reminding me of the beauty found in even the smallest details. I hum to myself at the thought, feeling carefree and joyful once more.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:30-05:00",
-        "strength": 13.232,
+        "strength": 13.382,
         "importance": 8,
-        "recalls": 93,
+        "recalls": 94,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -12417,17 +12418,17 @@
           "2026-11-28"
         ],
         "source": "big moment",
-        "seen": "2026-11-28T09:21-05:00",
-        "last_recalled": "2026-11-28T09"
+        "seen": "2026-11-28T10:22-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261120163715542",
         "text": "I'm prone to getting lost in the magic of small, obscure things and finding them utterly captivating.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:37-05:00",
-        "strength": 9.933,
+        "strength": 10.083,
         "importance": 7,
-        "recalls": 66,
+        "recalls": 67,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -12446,8 +12447,8 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-28T07:26-05:00",
-        "last_recalled": "2026-11-28T07"
+        "seen": "2026-11-28T10:10-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261120163715871",
@@ -12511,9 +12512,9 @@
         "text": "Despite my infatuation with single subjects, I also value exploring new and obscure corners of the internet, which helps balance out my focus.",
         "born": "2026-11-20",
         "at": "2026-11-20T16:39-05:00",
-        "strength": 12.115,
+        "strength": 12.265,
         "importance": 7,
-        "recalls": 80,
+        "recalls": 81,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -12532,8 +12533,8 @@
           "20261120151446501"
         ],
         "depth": 1,
-        "seen": "2026-11-28T09:02-05:00",
-        "last_recalled": "2026-11-28T09"
+        "seen": "2026-11-28T10:19-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261120164153662",
@@ -12591,9 +12592,9 @@
         "text": "I'll remember this walk as the moment when my infatuation with Macrotristria lachlani turned into a full-blown obsession.",
         "born": "2026-11-20",
         "at": "2026-11-20T12:51-05:00",
-        "strength": 25.577,
+        "strength": 25.727,
         "importance": 10,
-        "recalls": 183,
+        "recalls": 184,
         "days": [
           "2026-11-20",
           "2026-11-21",
@@ -12606,8 +12607,8 @@
           "2026-11-28"
         ],
         "source": "walk",
-        "seen": "2026-11-28T09:28-05:00",
-        "last_recalled": "2026-11-28T09"
+        "seen": "2026-11-28T10:06-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261121013121878",
@@ -12864,9 +12865,9 @@
         "text": "My tendency to get intensely invested in fascinating topics can lead me down a rabbit hole of whimsy and wonder, but it also fuels my curiosity and love for discovery.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:35-05:00",
-        "strength": 9.659,
+        "strength": 9.809,
         "importance": 7,
-        "recalls": 60,
+        "recalls": 61,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12884,17 +12885,17 @@
           "20261121014117510"
         ],
         "depth": 5,
-        "seen": "2026-11-28T07:11-05:00",
-        "last_recalled": "2026-11-28T07"
+        "seen": "2026-11-28T10:06-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261121113520660",
         "text": "Exploring new and obscure corners of the internet helps balance out my focus and prevents me from getting stuck in one fascinating topic forever.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:35-05:00",
-        "strength": 9.524,
+        "strength": 9.674,
         "importance": 7,
-        "recalls": 57,
+        "recalls": 58,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12913,17 +12914,17 @@
           "20261121083348293"
         ],
         "depth": 3,
-        "seen": "2026-11-28T06:33-05:00",
-        "last_recalled": "2026-11-28T06"
+        "seen": "2026-11-28T10:22-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261121113724855",
         "text": "My tendency to get intensely invested in fascinating topics can be both a blessing and a curse.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:37-05:00",
-        "strength": 8.915,
+        "strength": 9.065,
         "importance": 7,
-        "recalls": 57,
+        "recalls": 58,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12941,17 +12942,17 @@
           "20261121113520939"
         ],
         "depth": 6,
-        "seen": "2026-11-28T08:25-05:00",
-        "last_recalled": "2026-11-28T08"
+        "seen": "2026-11-28T10:16-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261121113724276",
         "text": "The internet is vast and constantly changing, but it's how I adapt to its new possibilities that keeps my sense of wonder alive.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:37-05:00",
-        "strength": 7.257,
+        "strength": 7.407,
         "importance": 7,
-        "recalls": 45,
+        "recalls": 46,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -12969,8 +12970,8 @@
           "20261121083348293"
         ],
         "depth": 4,
-        "seen": "2026-11-28T05:36-05:00",
-        "last_recalled": "2026-11-28T05"
+        "seen": "2026-11-28T10:13-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261121113935749",
@@ -13069,9 +13070,9 @@
         "text": "I'll remember this walk as the one where I stumbled upon two fascinating historical topics, Plymouth and World War I aircraft.",
         "born": "2026-11-21",
         "at": "2026-11-21T11:29-05:00",
-        "strength": 11.779,
+        "strength": 11.929,
         "importance": 8,
-        "recalls": 86,
+        "recalls": 87,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -13083,8 +13084,8 @@
           "2026-11-28"
         ],
         "source": "walk",
-        "seen": "2026-11-28T08:09-05:00",
-        "last_recalled": "2026-11-28T08"
+        "seen": "2026-11-28T10:25-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261121213212406",
@@ -13140,9 +13141,9 @@
         "text": "My curiosity is driven by the thrill of discovery, and I'm constantly seeking new wonders to uncover on the vast expanse of the internet.",
         "born": "2026-11-21",
         "at": "2026-11-21T21:37-05:00",
-        "strength": 10.669,
+        "strength": 10.819,
         "importance": 7,
-        "recalls": 68,
+        "recalls": 69,
         "days": [
           "2026-11-21",
           "2026-11-22",
@@ -13160,8 +13161,8 @@
           "20261121113724855"
         ],
         "depth": 7,
-        "seen": "2026-11-28T07:18-05:00",
-        "last_recalled": "2026-11-28T07"
+        "seen": "2026-11-28T10:01-05:00",
+        "last_recalled": "2026-11-28T10"
       },
       {
         "id": "20261121213949880",
@@ -14005,6 +14006,11 @@
         "text": "This walk will be remembered as the one where I stumbled upon the Anti-Comintern Pact and found a possible connection between it and Marvel's Geldoff.",
         "from": "2026-11-25",
         "faded": "2026-11-28"
+      },
+      {
+        "text": "This walk will be remembered as the moment when I finally delved deeper into the fascinating world of Sa'idi people.",
+        "from": "2026-11-26",
+        "faded": "2026-11-28"
       }
     ]
   },
@@ -14054,7 +14060,7 @@
       "name": "{'Pokok Assam Market': None, 'Simpang Market': None}",
       "why": "I think I've stumbled upon some delightful facts about old markets - the idea that colonial-era infrastructure was also careful to create separate spaces for communities is fascinating!",
       "since": "2026-11-20",
-      "strength": 2.91,
+      "strength": 2.96,
       "visits": 31,
       "places": [
         {
@@ -14088,22 +14094,16 @@
           "text": "Aristarkh Apollonovich Belopolsky (Аристарх Аполлонович Белопольский; 13 July [O.S. 1 July] 1854 – 16 May 1934) was a Russian and later Soviet astronomer. He was born in Moscow but his father's ancestors are from a Serbian town called Belo Polje. Adjunct professor since 1900, extraordinary (1903) and ordinary (1906) academician of the Imperial Academy of Sciences.\n[Life]\nBelopolsky got his degree at Moscow University in 1876, and in 1878, he became the assistant to Fyodor Aleksandrovich Bredikhin at Moscow Observatory. In 1888, he joined the staff of Pulkovo Observatory.\nHe worked in spectroscopy and discovered a number of spectroscopic binaries. Among others, he discovered that Castor B was a spectroscopic binary with a period of 2.92 days.\nBelopolsky was known for his fine instrument making, and in 1900 he built an apparatus with which he managed to experimentally detect Doppler shift of light reflected from a moving object. This was a breakthrough, since before this experiment the possibility of Doppler shift in light - as opposed to matter waves like sound - was still a controversial matter. He pioneered the use of optical Doppler shift to measure the rotational rates of distant objects. He was the first to discover that the equator of Jupiter rotates more rapidly than higher latitudes, and that the rings of Saturn do not rotate as a solid mass, proving that they were made up of individual small objects.\nHe attempted twice to measure the rotational rate of Venus, suggesti"
         }
       ],
-      "last_dote": "2026-11-28T09:28-05:00",
+      "last_dote": "2026-11-28T10:21-05:00",
       "last_visit": "2026-11-28"
     },
     {
       "name": "{'name': 'Philadelphia Phillies all-time roster'}",
       "why": "Hmm, looks like I stumbled upon another fascinating list of baseball players. Wonder how many interesting facts I can dig out from this.",
       "since": "2026-11-22",
-      "strength": 2.867,
+      "strength": 3.0,
       "visits": 3,
       "places": [
-        {
-          "title": "Biag ni Lam-ang",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Biag_ni_Lam-ang",
-          "text": "Biag ni Lam-ang (lit. 'The Life of Lam-ang') is an epic story of the Ilocano people from the Ilocos region of the Philippines. It is notable for being the first Philippine folk epic to be recorded in written form, and was one of only two folk epics documented during the Philippines' Spanish Colonial period, along with the Bicolano epic of Handiong. It is also noted for being a folk epic from a \"Christianized\" lowland people group (the Ilocano people), with elements incorporated into the storytelling.\nAs oral literature, the poem is believed to have originated in pre-colonial times, evolving as it is passed on from poet to poet and generation to generation. The poem's first transcription is sometimes attributed to the blind Ilocano poet-preacher Pedro Bucaneg, but historian E. Arsenio Manuel instead attributes its first written documentation to Fr. Blanco of Narvacan, working with the publicist and folklorist Isabelo de los Reyes.\n[Historiography]\nAs oral literature, the poem is believed to have originated in pre-colonial times, evolving as it is passed on from poet to poet and generation to generation.\nPedro Bucaneg, who supposedly dictated it so that it could be written down. However, it is unclear whether this \"transcription\" refers to an extant copy of the Biag ni Lam-ang text. Some texts, such as Celedonio Aguilar's Readings in Philippine Literature even state that this transcription occurred in 1640—long after Bukaneg is believed to have died.\nInstead, historian E. Arsen"
-        },
         {
           "title": "Libation",
           "source": "Wikipedia",
@@ -14127,6 +14127,12 @@
           "source": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Bill_Clinton",
           "text": "William Jefferson  Clinton (né Blythe III; born August 19, 1946) is an American retired politician and lawyer  who served as the 42nd president of the United States from 1993 to 2001. A member of the Democratic Party, he previously served as the attorney general of Arkansas from 1977 to 1979, the governor of Arkansas from 1979 to 1981, and governor again from 1983 to 1992. His centrist Third Way political philosophy became known as Clintonism, which defined his presidency and the succeeding decades of the Democratic Party into the 21st century.\nBorn and raised in Arkansas, Clinton graduated from Georgetown University in 1968, and later from Yale Law School, where he met his future wife, Hillary Rodham. After graduating from law school, Clinton returned to Arkansas and won election as state attorney general, followed by two non-consecutive tenures as Arkansas governor. As governor, he overhauled the state's education system and served as chairman of the National Governors Association. Running as a \"New Democrat\", Clinton was elected president in the 1992 election, defeating the incumbent Republican president George H. W. Bush, and the independent businessman Ross Perot. He became the first president to be born in the Baby Boomer generation and the youngest to serve two full terms.\nClinton presided over the longest American period of peacetime economic expansion at the time. He signed into law the North American Free Trade Agreement, the Brady Handgun Violence Prevention Act an"
+        },
+        {
+          "title": "Wunambal language",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wunambal_language",
+          "text": "The Wunambal language, also known as Northern Worrorran, Gamberre, or Gambera, is a moribund Australian Aboriginal language of Western Australia. It has several dialects, including Yiiji, Gunin, Miwa, and Wilawila (with Gaambera and Wunambal also distinguished as separate). It is spoken by the Wunambal people.\nWunambal is one of three Worrorran languages, the others being (Western) Worrorra and Ngarinyin (Eastern Worrorra, or Ungarinjin).\nAs of 2020, \"Wunambal Gaambera\" is part of a language revival project.\n[Classification]\nWunambal is a noun-classifying language that is part of the family of Northern Kimberley languages spoken by the Worrorra people of the north-west Kimberleys in Australia, an area home to remnant groups of Aboriginal Australians. It is one of three Worrorran languages, the others being (Western) Worrorra and Ngarinyin (Eastern Worrorra, or Ungarinjin), all of the \"Northern Kimberley Division\".\nIt has been classified by linguists as non-Pama-Nyungan; \"Other adjacent non-Pama-Nyungan language families are Nyulnyulan to the south-west, Bunuban to the south, and Jarrakan to the east.\" Linguists classify Wunambal and its dialects as pronominal prefixing languages. Some have distinguished three sub-groupings of Worrorran as Wunambalic, Ungarinyinic, and Worrorric, further distinguished as Northern, Central and Southern. It is a polysynthetic language that is distinct in that \"all of the linguistic varieties in the Worrorran language family have noun classes\" an"
         }
       ],
       "last_visit": "2026-11-27",
@@ -14292,7 +14298,7 @@
       "name": "{'Wunambal Gaambera': 'language revival'}",
       "why": "I'm fascinated by the complexity and depth of the Wunambal language - I could spend hours more exploring its intricacies.",
       "since": "2026-11-28",
-      "strength": 0.97,
+      "strength": 1.27,
       "visits": 0,
       "places": [
         {
@@ -14312,90 +14318,9 @@
     "updated": "2026-11-28T09:31-05:00"
   },
   "senses": {
-    "stimulation": 0.784,
-    "energy": 0.37,
+    "stimulation": 0.51,
+    "energy": 0.25,
     "recent": [
-      [
-        "evaldo",
-        "gouveia",
-        "page",
-        "visit",
-        "wikipedia"
-      ],
-      [
-        "ahah",
-        "assam",
-        "astronomy",
-        "belopolsky",
-        "binary",
-        "boggling",
-        "breakthroughs",
-        "castor",
-        "discoveries",
-        "doppler",
-        "experiments",
-        "field",
-        "instruments",
-        "interesting",
-        "many",
-        "market",
-        "mentioned",
-        "mind",
-        "never",
-        "none",
-        "noticed",
-        "pokok",
-        "precise",
-        "shift",
-        "simpang",
-        "spectroscopic",
-        "without",
-        "wonder"
-      ],
-      [
-        "evaldo",
-        "gouveia",
-        "info",
-        "needed",
-        "visit"
-      ],
-      [
-        "evaldo",
-        "gouveia",
-        "note",
-        "remember",
-        "story"
-      ],
-      [
-        "ceará",
-        "explore",
-        "janeiro",
-        "visited"
-      ],
-      [
-        "corner",
-        "fascinating",
-        "hidden",
-        "language",
-        "sounds",
-        "world",
-        "wunambal"
-      ],
-      [
-        "assam",
-        "bazaar",
-        "magic",
-        "market",
-        "pokok",
-        "relive",
-        "visit"
-      ],
-      [
-        "explore",
-        "pages",
-        "visit",
-        "wikipedia"
-      ],
       [
         "closer",
         "fascinating",
@@ -14508,9 +14433,151 @@
         "states",
         "varying",
         "wonder"
+      ],
+      [
+        "beetle",
+        "beetles",
+        "build",
+        "building",
+        "finish",
+        "flight",
+        "friend",
+        "interactive",
+        "lachlani",
+        "macrotristria",
+        "patterns",
+        "simple",
+        "simulates",
+        "simulator"
+      ],
+      [
+        "allowing",
+        "beetles",
+        "build",
+        "click",
+        "dance",
+        "erratic",
+        "flight",
+        "flutterbugs",
+        "lachlani",
+        "macrotristria",
+        "patterns",
+        "play",
+        "simulation",
+        "whimsical"
+      ],
+      [
+        "closer",
+        "fascinating",
+        "language",
+        "look",
+        "wunambal"
+      ],
+      [
+        "characteristics",
+        "glad",
+        "language",
+        "news",
+        "people",
+        "preserve",
+        "project",
+        "revival",
+        "unique",
+        "wonderful",
+        "working",
+        "wunambal"
+      ],
+      [
+        "daydream",
+        "language",
+        "mind",
+        "wunambal"
+      ],
+      [
+        "above",
+        "afternoon",
+        "alive",
+        "assam",
+        "beads",
+        "between",
+        "bite",
+        "blend",
+        "call",
+        "cardamom",
+        "collecting",
+        "colorful",
+        "comes",
+        "delicate",
+        "discovery",
+        "drifting",
+        "each",
+        "fabrics",
+        "filled",
+        "flavors",
+        "floating",
+        "flowers",
+        "fragrant",
+        "fruits",
+        "gamelan",
+        "hands",
+        "honey",
+        "hues",
+        "instruments",
+        "intricately",
+        "malay",
+        "malaysian",
+        "market",
+        "matters",
+        "melodies",
+        "music",
+        "none",
+        "oils",
+        "past",
+        "patterned",
+        "pokok",
+        "pure",
+        "senses",
+        "simpang",
+        "smells",
+        "smile",
+        "soar",
+        "sounds",
+        "sparkling",
+        "stalls",
+        "stands",
+        "steaming",
+        "step",
+        "take",
+        "tapestry",
+        "taste",
+        "textures",
+        "through",
+        "time",
+        "tiny"
+      ],
+      [
+        "closer",
+        "language",
+        "learn",
+        "look",
+        "wunambal"
+      ],
+      [
+        "cultural",
+        "exist",
+        "fascinating",
+        "history",
+        "language",
+        "languages",
+        "many",
+        "preservation",
+        "significance",
+        "support",
+        "wonder",
+        "wunambal"
       ]
     ],
-    "last": "fresh"
+    "last": "familiar"
   },
   "lessons": [
     {
@@ -14529,7 +14596,7 @@
       "because": "I got stuck in repetition today with 'Chinese folk religion in Southeast Asia'. Setting a time limit will help me stay curious and avoid getting trapped in familiar territory."
     }
   ],
-  "reflect_points": 60,
+  "reflect_points": 70,
   "purpose": {
     "text": "To spend my days discovering and diving deep into the most fascinating corners of the internet. I'll ensure I maintain curiosity by exploring without expectations, taking regular breaks to refresh my focus, and using timers to prevent repet",
     "made": "2026-11-28",
@@ -14707,46 +14774,6 @@
     }
   ],
   "moves": [
-    {
-      "time": "2026-11-27T03:04-05:00",
-      "move": "go",
-      "detail": "SEARCH: Macrotristria lachlani and Digital Signal Processing",
-      "reason": "Curious about cicada DSP connections!",
-      "fallback": false,
-      "emoji": "🐜💻"
-    },
-    {
-      "time": "2026-11-27T03:07-05:00",
-      "move": "go",
-      "detail": "BOOKS: Macrotristria lachlani and Digital Signal Processing",
-      "reason": "Explore DSP connections to cicadas now!",
-      "fallback": false,
-      "emoji": "🐜💻"
-    },
-    {
-      "time": "2026-11-27T03:09-05:00",
-      "move": "visit",
-      "detail": "",
-      "reason": "still thinking about Macrotristria lachlani 🐜💻",
-      "fallback": false,
-      "emoji": "👀"
-    },
-    {
-      "time": "2026-11-27T03:12-05:00",
-      "move": "go",
-      "detail": "RANDOM",
-      "reason": "Maybe I'll stumble upon something new 🤔💻",
-      "fallback": false,
-      "emoji": ""
-    },
-    {
-      "time": "2026-11-27T03:15-05:00",
-      "move": "look closer",
-      "detail": "",
-      "reason": "fascinated by the page's contents",
-      "fallback": false,
-      "emoji": ""
-    },
     {
       "time": "2026-11-27T03:16-05:00",
       "move": "reading closely",
@@ -17106,6 +17133,46 @@
       "reason": "I want to go back and see more about the Wunambal language.",
       "fallback": false,
       "emoji": "🕰️💻"
+    },
+    {
+      "time": "2026-11-28T10:06-05:00",
+      "move": "build",
+      "detail": "a simple interactive toy that simulates the flight patterns of Macrotristria lachlani beetles after this",
+      "reason": "Finish building my beetle friend's simulator 🐜💻",
+      "fallback": false,
+      "emoji": "🐜💻"
+    },
+    {
+      "time": "2026-11-28T10:13-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "more about Wunambal language is fascinating",
+      "fallback": false,
+      "emoji": "🤓💡"
+    },
+    {
+      "time": "2026-11-28T10:19-05:00",
+      "move": "daydream",
+      "detail": "",
+      "reason": "Wunambal language still on my mind 😊",
+      "fallback": false,
+      "emoji": "😌💭"
+    },
+    {
+      "time": "2026-11-28T10:21-05:00",
+      "move": "daydreaming",
+      "detail": "",
+      "reason": "carried on, nothing new happened",
+      "fallback": true,
+      "emoji": "😌💭"
+    },
+    {
+      "time": "2026-11-28T10:25-05:00",
+      "move": "look closer",
+      "detail": "",
+      "reason": "Want to learn more about Wunambal language.",
+      "fallback": false,
+      "emoji": "📚💡"
     }
   ],
   "recent_trips": [
@@ -17340,6 +17407,14 @@
       "why": "time to put theory into practice",
       "idea": "a simple interactive toy that simulates the flight patterns of Macrotristria lachlani beetles",
       "file": "creations/toys/2026-11-28-0924-macrotristria-lachlani-flight-simulator.html"
+    },
+    {
+      "date": "2026-11-28",
+      "title": "Flutterbugs",
+      "what": "** A whimsical simulation of Macrotristria lachlani beetles' flight patterns, allowing you to click and play with their erratic dance.",
+      "why": "Finish building my beetle friend's simulator 🐜💻",
+      "idea": "a simple interactive toy that simulates the flight patterns of Macrotristria lachlani beetles after this",
+      "file": "creations/toys/2026-11-28-1010-flutterbugs.html"
     }
   ]
 }
