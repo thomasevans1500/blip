@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <title>Macrotristria Lachlani Flight Simulator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        #canvas {
+            border: 1px solid black;
+        }
+        
+        button {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Macrotristria Lachlani Flight Simulator</h2>
+    <button id="start">Start Simulation</button>
+    <canvas id="flight-canvas" width="400" height="300"></canvas>
+    
+    <script>
+        let canvas = document.getElementById('flight-canvas');
+        let ctx = canvas.getContext('2d');
+        
+        // Define Macrotristria lachlani beetle properties
+        const beetleWidth = 10;
+        const beetleHeight = 5;
+        const flightSpeed = 2;
+        const gravity = 0.1;
+        let x, y; // Initial position
+        
+        function drawBeetle() {
+            ctx.fillStyle = 'red';
+            ctx.fillRect(x, y, beetleWidth, beetleHeight);
+        }
+        
+        function updatePosition() {
+            x += flightSpeed * Math.cos(Math.PI / 180 * (Math.random() * 360));
+            y -= gravity;
+            
+            // Keep within canvas bounds
+            if (y < 0) {
+                y = 300 - beetleHeight;
+            } else if (x + beetleWidth > 400 || x < 0) {
+                x = Math.max(0, Math.min(x, 380));
+            }
+        }
+        
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            drawBeetle();
+            updatePosition();
+            
+            requestAnimationFrame(animate);
+        }
+        
+        document.getElementById('start').addEventListener('click', () => {
+            x = Math.floor(Math.random() * (canvas.width - beetleWidth));
+            y = 300;
+            animate();
+        });
+    </script>
+</body>
+
+</html>
